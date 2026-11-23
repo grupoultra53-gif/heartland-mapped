@@ -1,0 +1,61 @@
+{
+  "video_settings": {
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "subtitle_y_ratio": 0.8
+  },
+  "example_scenes": [
+    {
+      "id": "scene_01_hook",
+      "mode": "Mode A (3D Relief Map)",
+      "start_sec": 0.0,
+      "end_sec": 7.0,
+      "camera_start": {
+        "zoom": 1.02,
+        "pan_x": 0.0,
+        "pan_y": 0.02,
+        "tilt_deg": 0.0
+      },
+      "camera_end": {
+        "zoom": 1.24,
+        "pan_x": 0.0,
+        "pan_y": -0.03,
+        "tilt_deg": 1.2
+      },
+      "sprite_bbox_norm": [
+        0.31,
+        0.31,
+        0.65,
+        0.59
+      ],
+      "overhead_message": {
+        "text": "BEFORE AGE 33! \ud83d\udc51",
+        "trigger_sec": 3.8,
+        "style": "badge"
+      },
+      "foley_cues": [
+        {
+          "time": 0.08,
+          "type": "camera_whoosh"
+        },
+        {
+          "time": 0.45,
+          "type": "pawn_bounce"
+        },
+        {
+          "time": 2.05,
+          "type": "sword_unsheathe"
+        },
+        {
+          "time": 3.8,
+          "type": "cork_pop"
+        },
+        {
+          "time": 6.42,
+          "type": "tape_rewind"
+        }
+      ]
+    }
+  ]
+}

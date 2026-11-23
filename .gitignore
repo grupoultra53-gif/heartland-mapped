@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+episodes/*/audio_segments/
+episodes/*/*_mixed.wav
+episodes/*/*.wav
+*.mp4
+

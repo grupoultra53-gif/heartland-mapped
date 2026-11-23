@@ -1,0 +1,1976 @@
+{
+  "voice": "en-US-ChristopherNeural",
+  "total_duration_sec": 73.299,
+  "scenes": [
+    {
+      "id": "scene_01",
+      "text": "In 1835, Ohio and Michigan sent armed militias to the border over a narrow strip of swamp... and the loser actually walked away with the better deal.",
+      "start_sec": 0.0,
+      "speech_end_sec": 8.507,
+      "end_sec": 8.757,
+      "words": [
+        {
+          "text": "In 1835",
+          "start": 0.097,
+          "end": 1.43
+        },
+        {
+          "text": "Ohio",
+          "start": 1.689,
+          "end": 2.173
+        },
+        {
+          "text": "and",
+          "start": 2.184,
+          "end": 2.279
+        },
+        {
+          "text": "Michigan",
+          "start": 2.291,
+          "end": 2.703
+        },
+        {
+          "text": "sent",
+          "start": 2.715,
+          "end": 2.951
+        },
+        {
+          "text": "armed",
+          "start": 2.963,
+          "end": 3.234
+        },
+        {
+          "text": "militias",
+          "start": 3.246,
+          "end": 3.717
+        },
+        {
+          "text": "to",
+          "start": 3.729,
+          "end": 3.824
+        },
+        {
+          "text": "the",
+          "start": 3.835,
+          "end": 3.942
+        },
+        {
+          "text": "border",
+          "start": 3.953,
+          "end": 4.331
+        },
+        {
+          "text": "over",
+          "start": 4.342,
+          "end": 4.566
+        },
+        {
+          "text": "a",
+          "start": 4.578,
+          "end": 4.614
+        },
+        {
+          "text": "narrow",
+          "start": 4.625,
+          "end": 4.956
+        },
+        {
+          "text": "strip",
+          "start": 4.967,
+          "end": 5.286
+        },
+        {
+          "text": "of",
+          "start": 5.298,
+          "end": 5.392
+        },
+        {
+          "text": "swamp",
+          "start": 5.404,
+          "end": 5.852
+        },
+        {
+          "text": "and",
+          "start": 6.159,
+          "end": 6.241
+        },
+        {
+          "text": "the",
+          "start": 6.253,
+          "end": 6.335
+        },
+        {
+          "text": "loser",
+          "start": 6.347,
+          "end": 6.736
+        },
+        {
+          "text": "actually",
+          "start": 6.748,
+          "end": 7.09
+        },
+        {
+          "text": "walked",
+          "start": 7.102,
+          "end": 7.397
+        },
+        {
+          "text": "away",
+          "start": 7.409,
+          "end": 7.703
+        },
+        {
+          "text": "with",
+          "start": 7.715,
+          "end": 7.845
+        },
+        {
+          "text": "the",
+          "start": 7.857,
+          "end": 7.939
+        },
+        {
+          "text": "better",
+          "start": 7.951,
+          "end": 8.175
+        },
+        {
+          "text": "deal",
+          "start": 8.187,
+          "end": 8.564
+        }
+      ]
+    },
+    {
+      "id": "scene_02",
+      "text": "Wait... let's rewind.",
+      "start_sec": 8.757,
+      "speech_end_sec": 10.281,
+      "end_sec": 10.631,
+      "words": [
+        {
+          "text": "Wait",
+          "start": 8.854,
+          "end": 9.231
+        },
+        {
+          "text": "let's",
+          "start": 9.467,
+          "end": 9.703
+        },
+        {
+          "text": "rewind",
+          "start": 9.715,
+          "end": 10.34
+        }
+      ]
+    },
+    {
+      "id": "scene_03",
+      "text": "In 1787, lawmakers drew the border straight east from the southern tip of Lake Michigan.",
+      "start_sec": 10.631,
+      "speech_end_sec": 15.7,
+      "end_sec": 15.88,
+      "words": [
+        {
+          "text": "In 1787",
+          "start": 10.728,
+          "end": 12.025
+        },
+        {
+          "text": "lawmakers",
+          "start": 12.261,
+          "end": 12.815
+        },
+        {
+          "text": "drew",
+          "start": 12.827,
+          "end": 12.992
+        },
+        {
+          "text": "the",
+          "start": 13.004,
+          "end": 13.098
+        },
+        {
+          "text": "border",
+          "start": 13.11,
+          "end": 13.405
+        },
+        {
+          "text": "straight",
+          "start": 13.417,
+          "end": 13.759
+        },
+        {
+          "text": "east",
+          "start": 13.77,
+          "end": 14.053
+        },
+        {
+          "text": "from",
+          "start": 14.065,
+          "end": 14.171
+        },
+        {
+          "text": "the",
+          "start": 14.183,
+          "end": 14.254
+        },
+        {
+          "text": "southern",
+          "start": 14.266,
+          "end": 14.631
+        },
+        {
+          "text": "tip",
+          "start": 14.643,
+          "end": 14.867
+        },
+        {
+          "text": "of",
+          "start": 14.879,
+          "end": 14.985
+        },
+        {
+          "text": "Lake Michigan",
+          "start": 14.997,
+          "end": 15.751
+        }
+      ]
+    },
+    {
+      "id": "scene_04",
+      "text": "The problem? Their old map was completely wrong.",
+      "start_sec": 15.88,
+      "speech_end_sec": 19.286,
+      "end_sec": 19.506,
+      "words": [
+        {
+          "text": "The",
+          "start": 15.977,
+          "end": 16.095
+        },
+        {
+          "text": "problem",
+          "start": 16.106,
+          "end": 16.613
+        },
+        {
+          "text": "Their",
+          "start": 17.424,
+          "end": 17.672
+        },
+        {
+          "text": "old",
+          "start": 17.684,
+          "end": 17.861
+        },
+        {
+          "text": "map",
+          "start": 17.872,
+          "end": 18.167
+        },
+        {
+          "text": "was",
+          "start": 18.179,
+          "end": 18.332
+        },
+        {
+          "text": "completely",
+          "start": 18.344,
+          "end": 18.875
+        },
+        {
+          "text": "wrong",
+          "start": 18.887,
+          "end": 19.311
+        }
+      ]
+    },
+    {
+      "id": "scene_05",
+      "text": "When real surveyors arrived, both sides claimed the Toledo Strip: a vital shipping port on Lake Erie.",
+      "start_sec": 19.506,
+      "speech_end_sec": 25.124,
+      "end_sec": 25.324,
+      "words": [
+        {
+          "text": "When",
+          "start": 19.603,
+          "end": 19.839
+        },
+        {
+          "text": "real",
+          "start": 19.85,
+          "end": 20.063
+        },
+        {
+          "text": "surveyors",
+          "start": 20.075,
+          "end": 20.57
+        },
+        {
+          "text": "arrived",
+          "start": 20.582,
+          "end": 21.089
+        },
+        {
+          "text": "both",
+          "start": 21.266,
+          "end": 21.513
+        },
+        {
+          "text": "sides",
+          "start": 21.525,
+          "end": 21.914
+        },
+        {
+          "text": "claimed",
+          "start": 21.926,
+          "end": 22.221
+        },
+        {
+          "text": "the",
+          "start": 22.233,
+          "end": 22.303
+        },
+        {
+          "text": "Toledo",
+          "start": 22.315,
+          "end": 22.716
+        },
+        {
+          "text": "Strip",
+          "start": 22.728,
+          "end": 23.129
+        },
+        {
+          "text": "a",
+          "start": 23.4,
+          "end": 23.459
+        },
+        {
+          "text": "vital",
+          "start": 23.471,
+          "end": 23.801
+        },
+        {
+          "text": "shipping",
+          "start": 23.813,
+          "end": 24.178
+        },
+        {
+          "text": "port",
+          "start": 24.19,
+          "end": 24.438
+        },
+        {
+          "text": "on",
+          "start": 24.45,
+          "end": 24.603
+        },
+        {
+          "text": "Lake",
+          "start": 24.615,
+          "end": 24.815
+        },
+        {
+          "text": "Erie",
+          "start": 24.827,
+          "end": 25.204
+        }
+      ]
+    },
+    {
+      "id": "scene_06",
+      "text": "Ohio's governor refused to back down. Neither did Michigan's fiery 23-year-old governor.",
+      "start_sec": 25.324,
+      "speech_end_sec": 31.167,
+      "end_sec": 31.347,
+      "words": [
+        {
+          "text": "Ohio's",
+          "start": 25.422,
+          "end": 25.988
+        },
+        {
+          "text": "governor",
+          "start": 25.999,
+          "end": 26.341
+        },
+        {
+          "text": "refused",
+          "start": 26.353,
+          "end": 26.79
+        },
+        {
+          "text": "to",
+          "start": 26.801,
+          "end": 26.884
+        },
+        {
+          "text": "back",
+          "start": 26.896,
+          "end": 27.155
+        },
+        {
+          "text": "down",
+          "start": 27.167,
+          "end": 27.568
+        },
+        {
+          "text": "Neither",
+          "start": 28.379,
+          "end": 28.732
+        },
+        {
+          "text": "did",
+          "start": 28.744,
+          "end": 28.909
+        },
+        {
+          "text": "Michigan's",
+          "start": 28.921,
+          "end": 29.405
+        },
+        {
+          "text": "fiery",
+          "start": 29.416,
+          "end": 29.794
+        },
+        {
+          "text": "23-year-old",
+          "start": 29.806,
+          "end": 30.761
+        },
+        {
+          "text": "governor",
+          "start": 30.773,
+          "end": 31.256
+        }
+      ]
+    },
+    {
+      "id": "scene_07",
+      "text": "Soon, armed militias were marching straight toward each other.",
+      "start_sec": 31.347,
+      "speech_end_sec": 34.54,
+      "end_sec": 34.72,
+      "words": [
+        {
+          "text": "Soon",
+          "start": 31.444,
+          "end": 31.94
+        },
+        {
+          "text": "armed",
+          "start": 32.211,
+          "end": 32.459
+        },
+        {
+          "text": "militias",
+          "start": 32.47,
+          "end": 32.942
+        },
+        {
+          "text": "were",
+          "start": 32.954,
+          "end": 33.072
+        },
+        {
+          "text": "marching",
+          "start": 33.084,
+          "end": 33.485
+        },
+        {
+          "text": "straight",
+          "start": 33.496,
+          "end": 33.838
+        },
+        {
+          "text": "toward",
+          "start": 33.85,
+          "end": 34.11
+        },
+        {
+          "text": "each",
+          "start": 34.121,
+          "end": 34.275
+        },
+        {
+          "text": "other",
+          "start": 34.286,
+          "end": 34.628
+        }
+      ]
+    },
+    {
+      "id": "scene_08",
+      "text": "They called it the Toledo War... though it was mostly shouting and warning shots. The only blood spilled? A Michigan deputy stabbed with a pocketknife in a tavern brawl.",
+      "start_sec": 34.72,
+      "speech_end_sec": 44.62,
+      "end_sec": 44.86,
+      "words": [
+        {
+          "text": "They",
+          "start": 34.817,
+          "end": 34.983
+        },
+        {
+          "text": "called",
+          "start": 34.994,
+          "end": 35.277
+        },
+        {
+          "text": "it",
+          "start": 35.289,
+          "end": 35.348
+        },
+        {
+          "text": "the",
+          "start": 35.36,
+          "end": 35.442
+        },
+        {
+          "text": "Toledo",
+          "start": 35.454,
+          "end": 35.879
+        },
+        {
+          "text": "War",
+          "start": 35.891,
+          "end": 36.209
+        },
+        {
+          "text": "though",
+          "start": 36.504,
+          "end": 36.657
+        },
+        {
+          "text": "it",
+          "start": 36.669,
+          "end": 36.74
+        },
+        {
+          "text": "was",
+          "start": 36.751,
+          "end": 36.893
+        },
+        {
+          "text": "mostly",
+          "start": 36.905,
+          "end": 37.294
+        },
+        {
+          "text": "shouting",
+          "start": 37.306,
+          "end": 37.789
+        },
+        {
+          "text": "and",
+          "start": 37.801,
+          "end": 37.907
+        },
+        {
+          "text": "warning",
+          "start": 37.919,
+          "end": 38.214
+        },
+        {
+          "text": "shots",
+          "start": 38.226,
+          "end": 38.78
+        },
+        {
+          "text": "The",
+          "start": 39.591,
+          "end": 39.709
+        },
+        {
+          "text": "only",
+          "start": 39.72,
+          "end": 39.956
+        },
+        {
+          "text": "blood",
+          "start": 39.968,
+          "end": 40.227
+        },
+        {
+          "text": "spilled",
+          "start": 40.239,
+          "end": 40.746
+        },
+        {
+          "text": "A",
+          "start": 41.56,
+          "end": 41.642
+        },
+        {
+          "text": "Michigan",
+          "start": 41.654,
+          "end": 42.102
+        },
+        {
+          "text": "deputy",
+          "start": 42.114,
+          "end": 42.468
+        },
+        {
+          "text": "stabbed",
+          "start": 42.48,
+          "end": 42.904
+        },
+        {
+          "text": "with",
+          "start": 42.916,
+          "end": 43.01
+        },
+        {
+          "text": "a",
+          "start": 43.022,
+          "end": 43.081
+        },
+        {
+          "text": "pocketknife",
+          "start": 43.093,
+          "end": 43.718
+        },
+        {
+          "text": "in",
+          "start": 43.73,
+          "end": 43.824
+        },
+        {
+          "text": "a",
+          "start": 43.836,
+          "end": 43.883
+        },
+        {
+          "text": "tavern",
+          "start": 43.895,
+          "end": 44.249
+        },
+        {
+          "text": "brawl",
+          "start": 44.26,
+          "end": 44.697
+        }
+      ]
+    },
+    {
+      "id": "scene_09",
+      "text": "With an election coming, President Andrew Jackson needed Ohio's votes. So Congress handed Toledo to Ohio...",
+      "start_sec": 44.86,
+      "speech_end_sec": 51.92,
+      "end_sec": 52.06,
+      "words": [
+        {
+          "text": "With",
+          "start": 44.957,
+          "end": 45.145
+        },
+        {
+          "text": "an",
+          "start": 45.157,
+          "end": 45.228
+        },
+        {
+          "text": "election",
+          "start": 45.24,
+          "end": 45.676
+        },
+        {
+          "text": "coming",
+          "start": 45.688,
+          "end": 46.065
+        },
+        {
+          "text": "President",
+          "start": 46.277,
+          "end": 46.69
+        },
+        {
+          "text": "Andrew",
+          "start": 46.702,
+          "end": 47.032
+        },
+        {
+          "text": "Jackson",
+          "start": 47.044,
+          "end": 47.539
+        },
+        {
+          "text": "needed",
+          "start": 47.551,
+          "end": 47.822
+        },
+        {
+          "text": "Ohio's",
+          "start": 47.834,
+          "end": 48.329
+        },
+        {
+          "text": "votes",
+          "start": 48.341,
+          "end": 48.836
+        },
+        {
+          "text": "So",
+          "start": 49.647,
+          "end": 49.93
+        },
+        {
+          "text": "Congress",
+          "start": 49.942,
+          "end": 50.402
+        },
+        {
+          "text": "handed",
+          "start": 50.414,
+          "end": 50.709
+        },
+        {
+          "text": "Toledo",
+          "start": 50.72,
+          "end": 51.157
+        },
+        {
+          "text": "to",
+          "start": 51.169,
+          "end": 51.322
+        },
+        {
+          "text": "Ohio",
+          "start": 51.334,
+          "end": 51.97
+        }
+      ]
+    },
+    {
+      "id": "scene_10",
+      "text": "and gave Michigan a consolation prize: the frozen Upper Peninsula.",
+      "start_sec": 52.06,
+      "speech_end_sec": 55.805,
+      "end_sec": 56.025,
+      "words": [
+        {
+          "text": "and",
+          "start": 52.157,
+          "end": 52.322
+        },
+        {
+          "text": "gave",
+          "start": 52.334,
+          "end": 52.558
+        },
+        {
+          "text": "Michigan",
+          "start": 52.57,
+          "end": 52.983
+        },
+        {
+          "text": "a",
+          "start": 52.994,
+          "end": 53.053
+        },
+        {
+          "text": "consolation",
+          "start": 53.065,
+          "end": 53.749
+        },
+        {
+          "text": "prize",
+          "start": 53.761,
+          "end": 54.221
+        },
+        {
+          "text": "the",
+          "start": 54.457,
+          "end": 54.551
+        },
+        {
+          "text": "frozen",
+          "start": 54.563,
+          "end": 55.011
+        },
+        {
+          "text": "Upper",
+          "start": 55.023,
+          "end": 55.247
+        },
+        {
+          "text": "Peninsula",
+          "start": 55.259,
+          "end": 55.872
+        }
+      ]
+    },
+    {
+      "id": "scene_11",
+      "text": "Michigan felt robbed... until massive copper and iron deposits were discovered up north, powering American industry for decades.",
+      "start_sec": 56.025,
+      "speech_end_sec": 63.113,
+      "end_sec": 63.353,
+      "words": [
+        {
+          "text": "Michigan",
+          "start": 56.123,
+          "end": 56.63
+        },
+        {
+          "text": "felt",
+          "start": 56.641,
+          "end": 56.889
+        },
+        {
+          "text": "robbed",
+          "start": 56.901,
+          "end": 57.266
+        },
+        {
+          "text": "until",
+          "start": 57.479,
+          "end": 57.773
+        },
+        {
+          "text": "massive",
+          "start": 57.785,
+          "end": 58.174
+        },
+        {
+          "text": "copper",
+          "start": 58.186,
+          "end": 58.646
+        },
+        {
+          "text": "and",
+          "start": 58.658,
+          "end": 58.799
+        },
+        {
+          "text": "iron",
+          "start": 58.811,
+          "end": 59.082
+        },
+        {
+          "text": "deposits",
+          "start": 59.094,
+          "end": 59.66
+        },
+        {
+          "text": "were",
+          "start": 59.672,
+          "end": 59.766
+        },
+        {
+          "text": "discovered",
+          "start": 59.778,
+          "end": 60.226
+        },
+        {
+          "text": "up",
+          "start": 60.238,
+          "end": 60.368
+        },
+        {
+          "text": "north",
+          "start": 60.38,
+          "end": 60.769
+        },
+        {
+          "text": "powering",
+          "start": 61.028,
+          "end": 61.465
+        },
+        {
+          "text": "American",
+          "start": 61.476,
+          "end": 61.901
+        },
+        {
+          "text": "industry",
+          "start": 61.913,
+          "end": 62.349
+        },
+        {
+          "text": "for",
+          "start": 62.361,
+          "end": 62.502
+        },
+        {
+          "text": "decades",
+          "start": 62.514,
+          "end": 63.139
+        }
+      ]
+    },
+    {
+      "id": "scene_12",
+      "text": "Today, that old border grudge still lives on every November on the football field. So be honest... who really won the trade? Ohio or Michigan?",
+      "start_sec": 63.353,
+      "speech_end_sec": 72.749,
+      "end_sec": 73.299,
+      "words": [
+        {
+          "text": "Today",
+          "start": 63.45,
+          "end": 63.874
+        },
+        {
+          "text": "that",
+          "start": 64.098,
+          "end": 64.275
+        },
+        {
+          "text": "old",
+          "start": 64.287,
+          "end": 64.511
+        },
+        {
+          "text": "border",
+          "start": 64.523,
+          "end": 64.829
+        },
+        {
+          "text": "grudge",
+          "start": 64.841,
+          "end": 65.183
+        },
+        {
+          "text": "still",
+          "start": 65.195,
+          "end": 65.49
+        },
+        {
+          "text": "lives",
+          "start": 65.502,
+          "end": 65.737
+        },
+        {
+          "text": "on",
+          "start": 65.749,
+          "end": 65.926
+        },
+        {
+          "text": "every",
+          "start": 65.938,
+          "end": 66.162
+        },
+        {
+          "text": "November",
+          "start": 66.174,
+          "end": 66.61
+        },
+        {
+          "text": "on",
+          "start": 66.622,
+          "end": 66.716
+        },
+        {
+          "text": "the",
+          "start": 66.728,
+          "end": 66.787
+        },
+        {
+          "text": "football",
+          "start": 66.799,
+          "end": 67.212
+        },
+        {
+          "text": "field",
+          "start": 67.223,
+          "end": 67.695
+        },
+        {
+          "text": "So",
+          "start": 68.506,
+          "end": 68.73
+        },
+        {
+          "text": "be",
+          "start": 68.742,
+          "end": 68.907
+        },
+        {
+          "text": "honest",
+          "start": 68.919,
+          "end": 69.355
+        },
+        {
+          "text": "who",
+          "start": 69.626,
+          "end": 69.768
+        },
+        {
+          "text": "really",
+          "start": 69.779,
+          "end": 70.062
+        },
+        {
+          "text": "won",
+          "start": 70.074,
+          "end": 70.263
+        },
+        {
+          "text": "the",
+          "start": 70.275,
+          "end": 70.334
+        },
+        {
+          "text": "trade",
+          "start": 70.345,
+          "end": 70.77
+        },
+        {
+          "text": "Ohio",
+          "start": 71.584,
+          "end": 72.114
+        },
+        {
+          "text": "or",
+          "start": 72.126,
+          "end": 72.244
+        },
+        {
+          "text": "Michigan",
+          "start": 72.256,
+          "end": 72.775
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "text": "In 1835",
+      "start": 0.097,
+      "end": 1.43
+    },
+    {
+      "text": "Ohio",
+      "start": 1.689,
+      "end": 2.173
+    },
+    {
+      "text": "and",
+      "start": 2.184,
+      "end": 2.279
+    },
+    {
+      "text": "Michigan",
+      "start": 2.291,
+      "end": 2.703
+    },
+    {
+      "text": "sent",
+      "start": 2.715,
+      "end": 2.951
+    },
+    {
+      "text": "armed",
+      "start": 2.963,
+      "end": 3.234
+    },
+    {
+      "text": "militias",
+      "start": 3.246,
+      "end": 3.717
+    },
+    {
+      "text": "to",
+      "start": 3.729,
+      "end": 3.824
+    },
+    {
+      "text": "the",
+      "start": 3.835,
+      "end": 3.942
+    },
+    {
+      "text": "border",
+      "start": 3.953,
+      "end": 4.331
+    },
+    {
+      "text": "over",
+      "start": 4.342,
+      "end": 4.566
+    },
+    {
+      "text": "a",
+      "start": 4.578,
+      "end": 4.614
+    },
+    {
+      "text": "narrow",
+      "start": 4.625,
+      "end": 4.956
+    },
+    {
+      "text": "strip",
+      "start": 4.967,
+      "end": 5.286
+    },
+    {
+      "text": "of",
+      "start": 5.298,
+      "end": 5.392
+    },
+    {
+      "text": "swamp",
+      "start": 5.404,
+      "end": 5.852
+    },
+    {
+      "text": "and",
+      "start": 6.159,
+      "end": 6.241
+    },
+    {
+      "text": "the",
+      "start": 6.253,
+      "end": 6.335
+    },
+    {
+      "text": "loser",
+      "start": 6.347,
+      "end": 6.736
+    },
+    {
+      "text": "actually",
+      "start": 6.748,
+      "end": 7.09
+    },
+    {
+      "text": "walked",
+      "start": 7.102,
+      "end": 7.397
+    },
+    {
+      "text": "away",
+      "start": 7.409,
+      "end": 7.703
+    },
+    {
+      "text": "with",
+      "start": 7.715,
+      "end": 7.845
+    },
+    {
+      "text": "the",
+      "start": 7.857,
+      "end": 7.939
+    },
+    {
+      "text": "better",
+      "start": 7.951,
+      "end": 8.175
+    },
+    {
+      "text": "deal",
+      "start": 8.187,
+      "end": 8.564
+    },
+    {
+      "text": "Wait",
+      "start": 8.854,
+      "end": 9.231
+    },
+    {
+      "text": "let's",
+      "start": 9.467,
+      "end": 9.703
+    },
+    {
+      "text": "rewind",
+      "start": 9.715,
+      "end": 10.34
+    },
+    {
+      "text": "In 1787",
+      "start": 10.728,
+      "end": 12.025
+    },
+    {
+      "text": "lawmakers",
+      "start": 12.261,
+      "end": 12.815
+    },
+    {
+      "text": "drew",
+      "start": 12.827,
+      "end": 12.992
+    },
+    {
+      "text": "the",
+      "start": 13.004,
+      "end": 13.098
+    },
+    {
+      "text": "border",
+      "start": 13.11,
+      "end": 13.405
+    },
+    {
+      "text": "straight",
+      "start": 13.417,
+      "end": 13.759
+    },
+    {
+      "text": "east",
+      "start": 13.77,
+      "end": 14.053
+    },
+    {
+      "text": "from",
+      "start": 14.065,
+      "end": 14.171
+    },
+    {
+      "text": "the",
+      "start": 14.183,
+      "end": 14.254
+    },
+    {
+      "text": "southern",
+      "start": 14.266,
+      "end": 14.631
+    },
+    {
+      "text": "tip",
+      "start": 14.643,
+      "end": 14.867
+    },
+    {
+      "text": "of",
+      "start": 14.879,
+      "end": 14.985
+    },
+    {
+      "text": "Lake Michigan",
+      "start": 14.997,
+      "end": 15.751
+    },
+    {
+      "text": "The",
+      "start": 15.977,
+      "end": 16.095
+    },
+    {
+      "text": "problem",
+      "start": 16.106,
+      "end": 16.613
+    },
+    {
+      "text": "Their",
+      "start": 17.424,
+      "end": 17.672
+    },
+    {
+      "text": "old",
+      "start": 17.684,
+      "end": 17.861
+    },
+    {
+      "text": "map",
+      "start": 17.872,
+      "end": 18.167
+    },
+    {
+      "text": "was",
+      "start": 18.179,
+      "end": 18.332
+    },
+    {
+      "text": "completely",
+      "start": 18.344,
+      "end": 18.875
+    },
+    {
+      "text": "wrong",
+      "start": 18.887,
+      "end": 19.311
+    },
+    {
+      "text": "When",
+      "start": 19.603,
+      "end": 19.839
+    },
+    {
+      "text": "real",
+      "start": 19.85,
+      "end": 20.063
+    },
+    {
+      "text": "surveyors",
+      "start": 20.075,
+      "end": 20.57
+    },
+    {
+      "text": "arrived",
+      "start": 20.582,
+      "end": 21.089
+    },
+    {
+      "text": "both",
+      "start": 21.266,
+      "end": 21.513
+    },
+    {
+      "text": "sides",
+      "start": 21.525,
+      "end": 21.914
+    },
+    {
+      "text": "claimed",
+      "start": 21.926,
+      "end": 22.221
+    },
+    {
+      "text": "the",
+      "start": 22.233,
+      "end": 22.303
+    },
+    {
+      "text": "Toledo",
+      "start": 22.315,
+      "end": 22.716
+    },
+    {
+      "text": "Strip",
+      "start": 22.728,
+      "end": 23.129
+    },
+    {
+      "text": "a",
+      "start": 23.4,
+      "end": 23.459
+    },
+    {
+      "text": "vital",
+      "start": 23.471,
+      "end": 23.801
+    },
+    {
+      "text": "shipping",
+      "start": 23.813,
+      "end": 24.178
+    },
+    {
+      "text": "port",
+      "start": 24.19,
+      "end": 24.438
+    },
+    {
+      "text": "on",
+      "start": 24.45,
+      "end": 24.603
+    },
+    {
+      "text": "Lake",
+      "start": 24.615,
+      "end": 24.815
+    },
+    {
+      "text": "Erie",
+      "start": 24.827,
+      "end": 25.204
+    },
+    {
+      "text": "Ohio's",
+      "start": 25.422,
+      "end": 25.988
+    },
+    {
+      "text": "governor",
+      "start": 25.999,
+      "end": 26.341
+    },
+    {
+      "text": "refused",
+      "start": 26.353,
+      "end": 26.79
+    },
+    {
+      "text": "to",
+      "start": 26.801,
+      "end": 26.884
+    },
+    {
+      "text": "back",
+      "start": 26.896,
+      "end": 27.155
+    },
+    {
+      "text": "down",
+      "start": 27.167,
+      "end": 27.568
+    },
+    {
+      "text": "Neither",
+      "start": 28.379,
+      "end": 28.732
+    },
+    {
+      "text": "did",
+      "start": 28.744,
+      "end": 28.909
+    },
+    {
+      "text": "Michigan's",
+      "start": 28.921,
+      "end": 29.405
+    },
+    {
+      "text": "fiery",
+      "start": 29.416,
+      "end": 29.794
+    },
+    {
+      "text": "23-year-old",
+      "start": 29.806,
+      "end": 30.761
+    },
+    {
+      "text": "governor",
+      "start": 30.773,
+      "end": 31.256
+    },
+    {
+      "text": "Soon",
+      "start": 31.444,
+      "end": 31.94
+    },
+    {
+      "text": "armed",
+      "start": 32.211,
+      "end": 32.459
+    },
+    {
+      "text": "militias",
+      "start": 32.47,
+      "end": 32.942
+    },
+    {
+      "text": "were",
+      "start": 32.954,
+      "end": 33.072
+    },
+    {
+      "text": "marching",
+      "start": 33.084,
+      "end": 33.485
+    },
+    {
+      "text": "straight",
+      "start": 33.496,
+      "end": 33.838
+    },
+    {
+      "text": "toward",
+      "start": 33.85,
+      "end": 34.11
+    },
+    {
+      "text": "each",
+      "start": 34.121,
+      "end": 34.275
+    },
+    {
+      "text": "other",
+      "start": 34.286,
+      "end": 34.628
+    },
+    {
+      "text": "They",
+      "start": 34.817,
+      "end": 34.983
+    },
+    {
+      "text": "called",
+      "start": 34.994,
+      "end": 35.277
+    },
+    {
+      "text": "it",
+      "start": 35.289,
+      "end": 35.348
+    },
+    {
+      "text": "the",
+      "start": 35.36,
+      "end": 35.442
+    },
+    {
+      "text": "Toledo",
+      "start": 35.454,
+      "end": 35.879
+    },
+    {
+      "text": "War",
+      "start": 35.891,
+      "end": 36.209
+    },
+    {
+      "text": "though",
+      "start": 36.504,
+      "end": 36.657
+    },
+    {
+      "text": "it",
+      "start": 36.669,
+      "end": 36.74
+    },
+    {
+      "text": "was",
+      "start": 36.751,
+      "end": 36.893
+    },
+    {
+      "text": "mostly",
+      "start": 36.905,
+      "end": 37.294
+    },
+    {
+      "text": "shouting",
+      "start": 37.306,
+      "end": 37.789
+    },
+    {
+      "text": "and",
+      "start": 37.801,
+      "end": 37.907
+    },
+    {
+      "text": "warning",
+      "start": 37.919,
+      "end": 38.214
+    },
+    {
+      "text": "shots",
+      "start": 38.226,
+      "end": 38.78
+    },
+    {
+      "text": "The",
+      "start": 39.591,
+      "end": 39.709
+    },
+    {
+      "text": "only",
+      "start": 39.72,
+      "end": 39.956
+    },
+    {
+      "text": "blood",
+      "start": 39.968,
+      "end": 40.227
+    },
+    {
+      "text": "spilled",
+      "start": 40.239,
+      "end": 40.746
+    },
+    {
+      "text": "A",
+      "start": 41.56,
+      "end": 41.642
+    },
+    {
+      "text": "Michigan",
+      "start": 41.654,
+      "end": 42.102
+    },
+    {
+      "text": "deputy",
+      "start": 42.114,
+      "end": 42.468
+    },
+    {
+      "text": "stabbed",
+      "start": 42.48,
+      "end": 42.904
+    },
+    {
+      "text": "with",
+      "start": 42.916,
+      "end": 43.01
+    },
+    {
+      "text": "a",
+      "start": 43.022,
+      "end": 43.081
+    },
+    {
+      "text": "pocketknife",
+      "start": 43.093,
+      "end": 43.718
+    },
+    {
+      "text": "in",
+      "start": 43.73,
+      "end": 43.824
+    },
+    {
+      "text": "a",
+      "start": 43.836,
+      "end": 43.883
+    },
+    {
+      "text": "tavern",
+      "start": 43.895,
+      "end": 44.249
+    },
+    {
+      "text": "brawl",
+      "start": 44.26,
+      "end": 44.697
+    },
+    {
+      "text": "With",
+      "start": 44.957,
+      "end": 45.145
+    },
+    {
+      "text": "an",
+      "start": 45.157,
+      "end": 45.228
+    },
+    {
+      "text": "election",
+      "start": 45.24,
+      "end": 45.676
+    },
+    {
+      "text": "coming",
+      "start": 45.688,
+      "end": 46.065
+    },
+    {
+      "text": "President",
+      "start": 46.277,
+      "end": 46.69
+    },
+    {
+      "text": "Andrew",
+      "start": 46.702,
+      "end": 47.032
+    },
+    {
+      "text": "Jackson",
+      "start": 47.044,
+      "end": 47.539
+    },
+    {
+      "text": "needed",
+      "start": 47.551,
+      "end": 47.822
+    },
+    {
+      "text": "Ohio's",
+      "start": 47.834,
+      "end": 48.329
+    },
+    {
+      "text": "votes",
+      "start": 48.341,
+      "end": 48.836
+    },
+    {
+      "text": "So",
+      "start": 49.647,
+      "end": 49.93
+    },
+    {
+      "text": "Congress",
+      "start": 49.942,
+      "end": 50.402
+    },
+    {
+      "text": "handed",
+      "start": 50.414,
+      "end": 50.709
+    },
+    {
+      "text": "Toledo",
+      "start": 50.72,
+      "end": 51.157
+    },
+    {
+      "text": "to",
+      "start": 51.169,
+      "end": 51.322
+    },
+    {
+      "text": "Ohio",
+      "start": 51.334,
+      "end": 51.97
+    },
+    {
+      "text": "and",
+      "start": 52.157,
+      "end": 52.322
+    },
+    {
+      "text": "gave",
+      "start": 52.334,
+      "end": 52.558
+    },
+    {
+      "text": "Michigan",
+      "start": 52.57,
+      "end": 52.983
+    },
+    {
+      "text": "a",
+      "start": 52.994,
+      "end": 53.053
+    },
+    {
+      "text": "consolation",
+      "start": 53.065,
+      "end": 53.749
+    },
+    {
+      "text": "prize",
+      "start": 53.761,
+      "end": 54.221
+    },
+    {
+      "text": "the",
+      "start": 54.457,
+      "end": 54.551
+    },
+    {
+      "text": "frozen",
+      "start": 54.563,
+      "end": 55.011
+    },
+    {
+      "text": "Upper",
+      "start": 55.023,
+      "end": 55.247
+    },
+    {
+      "text": "Peninsula",
+      "start": 55.259,
+      "end": 55.872
+    },
+    {
+      "text": "Michigan",
+      "start": 56.123,
+      "end": 56.63
+    },
+    {
+      "text": "felt",
+      "start": 56.641,
+      "end": 56.889
+    },
+    {
+      "text": "robbed",
+      "start": 56.901,
+      "end": 57.266
+    },
+    {
+      "text": "until",
+      "start": 57.479,
+      "end": 57.773
+    },
+    {
+      "text": "massive",
+      "start": 57.785,
+      "end": 58.174
+    },
+    {
+      "text": "copper",
+      "start": 58.186,
+      "end": 58.646
+    },
+    {
+      "text": "and",
+      "start": 58.658,
+      "end": 58.799
+    },
+    {
+      "text": "iron",
+      "start": 58.811,
+      "end": 59.082
+    },
+    {
+      "text": "deposits",
+      "start": 59.094,
+      "end": 59.66
+    },
+    {
+      "text": "were",
+      "start": 59.672,
+      "end": 59.766
+    },
+    {
+      "text": "discovered",
+      "start": 59.778,
+      "end": 60.226
+    },
+    {
+      "text": "up",
+      "start": 60.238,
+      "end": 60.368
+    },
+    {
+      "text": "north",
+      "start": 60.38,
+      "end": 60.769
+    },
+    {
+      "text": "powering",
+      "start": 61.028,
+      "end": 61.465
+    },
+    {
+      "text": "American",
+      "start": 61.476,
+      "end": 61.901
+    },
+    {
+      "text": "industry",
+      "start": 61.913,
+      "end": 62.349
+    },
+    {
+      "text": "for",
+      "start": 62.361,
+      "end": 62.502
+    },
+    {
+      "text": "decades",
+      "start": 62.514,
+      "end": 63.139
+    },
+    {
+      "text": "Today",
+      "start": 63.45,
+      "end": 63.874
+    },
+    {
+      "text": "that",
+      "start": 64.098,
+      "end": 64.275
+    },
+    {
+      "text": "old",
+      "start": 64.287,
+      "end": 64.511
+    },
+    {
+      "text": "border",
+      "start": 64.523,
+      "end": 64.829
+    },
+    {
+      "text": "grudge",
+      "start": 64.841,
+      "end": 65.183
+    },
+    {
+      "text": "still",
+      "start": 65.195,
+      "end": 65.49
+    },
+    {
+      "text": "lives",
+      "start": 65.502,
+      "end": 65.737
+    },
+    {
+      "text": "on",
+      "start": 65.749,
+      "end": 65.926
+    },
+    {
+      "text": "every",
+      "start": 65.938,
+      "end": 66.162
+    },
+    {
+      "text": "November",
+      "start": 66.174,
+      "end": 66.61
+    },
+    {
+      "text": "on",
+      "start": 66.622,
+      "end": 66.716
+    },
+    {
+      "text": "the",
+      "start": 66.728,
+      "end": 66.787
+    },
+    {
+      "text": "football",
+      "start": 66.799,
+      "end": 67.212
+    },
+    {
+      "text": "field",
+      "start": 67.223,
+      "end": 67.695
+    },
+    {
+      "text": "So",
+      "start": 68.506,
+      "end": 68.73
+    },
+    {
+      "text": "be",
+      "start": 68.742,
+      "end": 68.907
+    },
+    {
+      "text": "honest",
+      "start": 68.919,
+      "end": 69.355
+    },
+    {
+      "text": "who",
+      "start": 69.626,
+      "end": 69.768
+    },
+    {
+      "text": "really",
+      "start": 69.779,
+      "end": 70.062
+    },
+    {
+      "text": "won",
+      "start": 70.074,
+      "end": 70.263
+    },
+    {
+      "text": "the",
+      "start": 70.275,
+      "end": 70.334
+    },
+    {
+      "text": "trade",
+      "start": 70.345,
+      "end": 70.77
+    },
+    {
+      "text": "Ohio",
+      "start": 71.584,
+      "end": 72.114
+    },
+    {
+      "text": "or",
+      "start": 72.126,
+      "end": 72.244
+    },
+    {
+      "text": "Michigan",
+      "start": 72.256,
+      "end": 72.775
+    }
+  ]
+}
