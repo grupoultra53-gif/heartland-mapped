@@ -1,0 +1,804 @@
+{
+  "video_settings": {
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "subtitle_y_ratio": 0.79
+  },
+  "total_duration_sec": 83.246,
+  "scenes": [
+    {
+      "id": "scene_01",
+      "mode": "Mode A (3D Relief Map)",
+      "keyframe": "keyframes/scene_01.jpg",
+      "camera_start": {
+        "zoom": 1.04,
+        "pan_x": 0.0,
+        "pan_y": -0.02,
+        "tilt_deg": 0.0
+      },
+      "camera_end": {
+        "zoom": 1.19,
+        "pan_x": 0.0,
+        "pan_y": -0.05,
+        "tilt_deg": 0.8
+      },
+      "sprites": [
+        {
+          "bbox": [
+            0.37,
+            0.13,
+            0.515,
+            0.23
+          ],
+          "exclude_rects": [
+            [
+              0.1,
+              0.13,
+              0.37,
+              0.2
+            ]
+          ],
+          "motion": "cheer_bounce",
+          "pop_delay": 0.14
+        },
+        {
+          "bbox": [
+            0.32,
+            0.47,
+            0.585,
+            0.635
+          ],
+          "motion": "glare_bob",
+          "pop_delay": 0.28
+        }
+      ],
+      "overhead": {
+        "text": "123 SQ MILES!",
+        "cx": 525,
+        "cy": 225,
+        "trigger_rel": 2.05,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.55
+        },
+        {
+          "rel": 0.16,
+          "type": "pawn_bounce",
+          "gain": 0.7
+        },
+        {
+          "rel": 0.3,
+          "type": "pawn_bounce",
+          "gain": 0.7
+        },
+        {
+          "rel": 2.05,
+          "type": "cork_pop",
+          "gain": 0.65
+        },
+        {
+          "rel": -0.58,
+          "type": "tape_rewind",
+          "gain": 0.75
+        }
+      ],
+      "start_sec": 0.0,
+      "end_sec": 7.718,
+      "narration": "Ever notice that weird little bump on top of Minnesota? You literally have to drive through Canada to reach it... thanks to one terrible map."
+    },
+    {
+      "id": "scene_02",
+      "mode": "Mode A (VHS Rewind -> 1783)",
+      "keyframe": "keyframes/scene_02.jpg",
+      "vhs_rewind": true,
+      "camera_start": {
+        "zoom": 1.1,
+        "pan_x": 0.0,
+        "pan_y": -0.03,
+        "tilt_deg": -0.7
+      },
+      "camera_end": {
+        "zoom": 1.02,
+        "pan_x": 0.0,
+        "pan_y": 0.0,
+        "tilt_deg": 0.0
+      },
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "tape_rewind",
+          "gain": 0.72
+        },
+        {
+          "rel": 0.9,
+          "type": "parchment_brush",
+          "gain": 0.65
+        }
+      ],
+      "start_sec": 7.718,
+      "end_sec": 9.593,
+      "narration": "Wait... let's rewind."
+    },
+    {
+      "id": "scene_03",
+      "mode": "Mode A (3D Relief Map)",
+      "keyframe": "keyframes/scene_03.jpg",
+      "camera_start": {
+        "zoom": 1.1,
+        "pan_x": 0.0,
+        "pan_y": -0.08,
+        "tilt_deg": 0.0
+      },
+      "camera_end": {
+        "zoom": 1.24,
+        "pan_x": 0.0,
+        "pan_y": -0.1,
+        "tilt_deg": 0.8
+      },
+      "sprites": [
+        {
+          "bbox": [
+            0.16,
+            0.2,
+            0.425,
+            0.345
+          ],
+          "exclude_rects": [
+            [
+              0.1,
+              0.14,
+              0.37,
+              0.205
+            ]
+          ],
+          "motion": "write_bob",
+          "pop_delay": 0.14
+        },
+        {
+          "bbox": [
+            0.62,
+            0.14,
+            0.81,
+            0.28
+          ],
+          "motion": "glare_bob_alt",
+          "pop_delay": 0.28
+        }
+      ],
+      "overhead": {
+        "text": "TREATY OF PARIS!",
+        "cx": 360,
+        "cy": 505,
+        "trigger_rel": 3.25,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.48
+        },
+        {
+          "rel": 0.16,
+          "type": "pawn_bounce",
+          "gain": 0.65
+        },
+        {
+          "rel": 0.3,
+          "type": "pawn_bounce",
+          "gain": 0.65
+        },
+        {
+          "rel": 3.25,
+          "type": "parchment_brush",
+          "gain": 0.72
+        },
+        {
+          "rel": 3.45,
+          "type": "cork_pop",
+          "gain": 0.58
+        }
+      ],
+      "start_sec": 9.593,
+      "end_sec": 16.012,
+      "narration": "In 1783, American and British diplomats met in Paris to draw the new border between the U.S. and Canada."
+    },
+    {
+      "id": "scene_04",
+      "mode": "Mode A (3D Relief Map)",
+      "keyframe": "keyframes/scene_04.jpg",
+      "camera_start": {
+        "zoom": 1.04,
+        "pan_x": 0.02,
+        "pan_y": -0.02,
+        "tilt_deg": 0.0
+      },
+      "camera_end": {
+        "zoom": 1.2,
+        "pan_x": -0.02,
+        "pan_y": -0.04,
+        "tilt_deg": -0.9
+      },
+      "sprites": [
+        {
+          "bbox": [
+            0.46,
+            0.4,
+            0.825,
+            0.59
+          ],
+          "exclude_rects": [
+            [
+              0.48,
+              0.575,
+              0.69,
+              0.635
+            ]
+          ],
+          "motion": "write_bob",
+          "pop_delay": 0.14
+        }
+      ],
+      "overhead": {
+        "text": "EASY ENOUGH!",
+        "cx": 250,
+        "cy": 295,
+        "trigger_rel": 2.75,
+        "style": "cloud"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 0.18,
+          "type": "pawn_bounce",
+          "gain": 0.62
+        },
+        {
+          "rel": 2.75,
+          "type": "parchment_brush",
+          "gain": 0.72
+        },
+        {
+          "rel": 3.4,
+          "type": "cork_pop",
+          "gain": 0.58
+        }
+      ],
+      "start_sec": 16.012,
+      "end_sec": 22.434,
+      "narration": "Using a faulty 1755 map, they drew the border straight west from Lake of the Woods to meet the Mississippi River."
+    },
+    {
+      "id": "scene_05",
+      "mode": "Mode B (2.5D North Woods Diorama)",
+      "keyframe": "keyframes/scene_05.jpg",
+      "camera_start": {
+        "zoom": 1.05,
+        "pan_x": 0.0,
+        "pan_y": 0.02,
+        "tilt_deg": -0.5
+      },
+      "camera_end": {
+        "zoom": 1.22,
+        "pan_x": 0.0,
+        "pan_y": 0.05,
+        "tilt_deg": 0.8
+      },
+      "march_shake": true,
+      "sprites": [],
+      "overhead": {
+        "text": "14,000 ISLANDS?!",
+        "cx": 360,
+        "cy": 540,
+        "trigger_rel": 5.85,
+        "style": "cloud"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.48
+        },
+        {
+          "rel": 0.2,
+          "type": "desert_march",
+          "gain": 0.62
+        },
+        {
+          "rel": 2.55,
+          "type": "jaw_drop",
+          "gain": 0.65
+        },
+        {
+          "rel": 5.85,
+          "type": "cork_pop",
+          "gain": 0.6
+        }
+      ],
+      "start_sec": 22.434,
+      "end_sec": 30.135,
+      "narration": "When real surveyors hiked north, they hit two snags: the Mississippi started way south... and the lake hid fourteen thousand islands."
+    },
+    {
+      "id": "scene_06",
+      "mode": "Mode A (3D Relief Map)",
+      "keyframe": "keyframes/scene_06.jpg",
+      "camera_start": {
+        "zoom": 1.03,
+        "pan_x": -0.01,
+        "pan_y": -0.02,
+        "tilt_deg": 0.0
+      },
+      "camera_end": {
+        "zoom": 1.18,
+        "pan_x": 0.02,
+        "pan_y": -0.04,
+        "tilt_deg": 0.8
+      },
+      "sprites": [
+        {
+          "bbox": [
+            0.06,
+            0.48,
+            0.295,
+            0.67
+          ],
+          "motion": "write_bob",
+          "pop_delay": 0.14
+        },
+        {
+          "bbox": [
+            0.74,
+            0.13,
+            0.94,
+            0.285
+          ],
+          "motion": "glare_bob_alt",
+          "pop_delay": 0.28
+        }
+      ],
+      "overhead": {
+        "text": "49TH PARALLEL!",
+        "cx": 360,
+        "cy": 445,
+        "trigger_rel": 3.0,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.48
+        },
+        {
+          "rel": 0.16,
+          "type": "pawn_bounce",
+          "gain": 0.65
+        },
+        {
+          "rel": 0.3,
+          "type": "pawn_bounce",
+          "gain": 0.65
+        },
+        {
+          "rel": 2.95,
+          "type": "parchment_brush",
+          "gain": 0.72
+        },
+        {
+          "rel": 3.1,
+          "type": "cork_pop",
+          "gain": 0.6
+        }
+      ],
+      "start_sec": 30.135,
+      "end_sec": 37.632,
+      "narration": "In 1818, both sides set the border along the 49th parallel, dropping a straight line south from the lake's northwest corner."
+    },
+    {
+      "id": "scene_07",
+      "mode": "Mode A (3D Relief Map)",
+      "keyframe": "keyframes/scene_07.jpg",
+      "camera_start": {
+        "zoom": 1.04,
+        "pan_x": 0.0,
+        "pan_y": -0.03,
+        "tilt_deg": 0.0
+      },
+      "camera_end": {
+        "zoom": 1.22,
+        "pan_x": -0.02,
+        "pan_y": -0.04,
+        "tilt_deg": -1.0
+      },
+      "impact_shake_rel": 5.35,
+      "sprites": [
+        {
+          "bbox": [
+            0.08,
+            0.49,
+            0.295,
+            0.7
+          ],
+          "motion": "shudder",
+          "pop_delay": 0.14
+        }
+      ],
+      "overhead": {
+        "text": "OOPS...",
+        "cx": 195,
+        "cy": 545,
+        "trigger_rel": 5.35,
+        "style": "cloud"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.48
+        },
+        {
+          "rel": 0.18,
+          "type": "pawn_bounce",
+          "gain": 0.65
+        },
+        {
+          "rel": 5.25,
+          "type": "map_crack",
+          "gain": 0.75
+        },
+        {
+          "rel": 5.55,
+          "type": "jaw_drop",
+          "gain": 0.72
+        }
+      ],
+      "start_sec": 37.632,
+      "end_sec": 46.83,
+      "narration": "Problem: that corner hid inside a northern bay. Dropping the line south accidentally sliced off 123 square miles... cut off by water."
+    },
+    {
+      "id": "scene_08",
+      "mode": "Mode A (3D Relief Map)",
+      "keyframe": "keyframes/scene_08.jpg",
+      "camera_start": {
+        "zoom": 1.06,
+        "pan_x": 0.0,
+        "pan_y": -0.06,
+        "tilt_deg": 0.0
+      },
+      "camera_end": {
+        "zoom": 1.24,
+        "pan_x": -0.02,
+        "pan_y": -0.1,
+        "tilt_deg": 0.9
+      },
+      "sprites": [
+        {
+          "bbox": [
+            0.21,
+            0.125,
+            0.305,
+            0.172
+          ],
+          "motion": "car_drive",
+          "pop_delay": 0.0
+        },
+        {
+          "bbox": [
+            0.56,
+            0.21,
+            0.655,
+            0.252
+          ],
+          "motion": "ship_rock",
+          "pop_delay": 0.0
+        }
+      ],
+      "overhead": {
+        "text": "40 MILES VIA CANADA!",
+        "cx": 360,
+        "cy": 610,
+        "trigger_rel": 5.15,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.48
+        },
+        {
+          "rel": 0.25,
+          "type": "ocean_ship",
+          "gain": 0.5
+        },
+        {
+          "rel": 5.15,
+          "type": "cork_pop",
+          "gain": 0.62
+        }
+      ],
+      "start_sec": 46.83,
+      "end_sec": 54.061,
+      "narration": "A chunk of Minnesota was stranded above Canada: reachable only by boat, plane, or a forty-mile drive through another country."
+    },
+    {
+      "id": "scene_09",
+      "mode": "Mode A (3D Relief Map)",
+      "keyframe": "keyframes/scene_09.jpg",
+      "camera_start": {
+        "zoom": 1.14,
+        "pan_x": 0.02,
+        "pan_y": -0.1,
+        "tilt_deg": 0.0
+      },
+      "camera_end": {
+        "zoom": 1.3,
+        "pan_x": 0.03,
+        "pan_y": -0.13,
+        "tilt_deg": -0.9
+      },
+      "sprites": [
+        {
+          "bbox": [
+            0.31,
+            0.12,
+            0.56,
+            0.24
+          ],
+          "exclude_rects": [
+            [
+              0.1,
+              0.14,
+              0.34,
+              0.2
+            ]
+          ],
+          "motion": "lunge_right",
+          "pop_delay": 0.14
+        },
+        {
+          "bbox": [
+            0.765,
+            0.13,
+            0.895,
+            0.235
+          ],
+          "motion": "glare_bob_alt",
+          "pop_delay": 0.28
+        }
+      ],
+      "overhead": {
+        "text": "1997 FISHING FEUD!",
+        "cx": 370,
+        "cy": 442,
+        "trigger_rel": 2.5,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.48
+        },
+        {
+          "rel": 0.18,
+          "type": "pawn_bounce",
+          "gain": 0.65
+        },
+        {
+          "rel": 0.32,
+          "type": "pawn_bounce",
+          "gain": 0.65
+        },
+        {
+          "rel": 2.5,
+          "type": "water_splash",
+          "gain": 0.68
+        },
+        {
+          "rel": 4.25,
+          "type": "cork_pop",
+          "gain": 0.6
+        }
+      ],
+      "start_sec": 54.061,
+      "end_sec": 62.917,
+      "narration": "In 1997, angry over Canadian fishing rules, locals even petitioned Congress to leave the U.S. and join Canada before a deal cooled things down."
+    },
+    {
+      "id": "scene_10",
+      "mode": "Mode B (2.5D Winter Ice Road Diorama)",
+      "keyframe": "keyframes/scene_10.jpg",
+      "camera_start": {
+        "zoom": 1.04,
+        "pan_x": 0.0,
+        "pan_y": 0.02,
+        "tilt_deg": 0.0
+      },
+      "camera_end": {
+        "zoom": 1.2,
+        "pan_x": 0.01,
+        "pan_y": 0.04,
+        "tilt_deg": 0.7
+      },
+      "sprites": [],
+      "overhead": {
+        "text": "WINTER ICE ROAD!",
+        "cx": 360,
+        "cy": 360,
+        "trigger_rel": 5.15,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.48
+        },
+        {
+          "rel": 0.25,
+          "type": "cold_wind",
+          "gain": 0.56
+        },
+        {
+          "rel": 5.15,
+          "type": "cork_pop",
+          "gain": 0.6
+        },
+        {
+          "rel": 6.15,
+          "type": "celesta_chime",
+          "gain": 0.62
+        }
+      ],
+      "start_sec": 62.917,
+      "end_sec": 70.46,
+      "narration": "Today, about a hundred Minnesotans still live there: checking in at a lonely border kiosk, or driving right across the frozen lake in winter."
+    },
+    {
+      "id": "scene_11",
+      "mode": "Mode A (3D Relief Map)",
+      "keyframe": "keyframes/scene_11.jpg",
+      "camera_start": {
+        "zoom": 1.04,
+        "pan_x": 0.0,
+        "pan_y": -0.02,
+        "tilt_deg": 0.0
+      },
+      "camera_end": {
+        "zoom": 1.2,
+        "pan_x": 0.0,
+        "pan_y": -0.05,
+        "tilt_deg": 0.9
+      },
+      "sprites": [
+        {
+          "bbox": [
+            0.35,
+            0.46,
+            0.585,
+            0.635
+          ],
+          "motion": "cheer_bounce",
+          "pop_delay": 0.12
+        }
+      ],
+      "overhead": {
+        "text": "NORTHERNMOST POINT!",
+        "cx": 380,
+        "cy": 442,
+        "trigger_rel": 1.7,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 0.16,
+          "type": "pawn_bounce",
+          "gain": 0.65
+        },
+        {
+          "rel": 1.7,
+          "type": "celesta_chime",
+          "gain": 0.7
+        },
+        {
+          "rel": 2.35,
+          "type": "celesta_chime_hi",
+          "gain": 0.66
+        },
+        {
+          "rel": 4.4,
+          "type": "cork_pop",
+          "gain": 0.58
+        }
+      ],
+      "start_sec": 70.46,
+      "end_sec": 76.437,
+      "narration": "That old map blunder created the northernmost point of the lower forty-eight, and America's favorite geography quirk."
+    },
+    {
+      "id": "scene_12",
+      "mode": "Mode A (3D Relief Map)",
+      "keyframe": "keyframes/scene_12.jpg",
+      "camera_start": {
+        "zoom": 1.03,
+        "pan_x": 0.0,
+        "pan_y": -0.02,
+        "tilt_deg": 0.0
+      },
+      "camera_end": {
+        "zoom": 1.18,
+        "pan_x": 0.0,
+        "pan_y": -0.04,
+        "tilt_deg": 0.6
+      },
+      "sprites": [
+        {
+          "bbox": [
+            0.35,
+            0.46,
+            0.59,
+            0.635
+          ],
+          "motion": "football_hop_l",
+          "pop_delay": 0.14
+        },
+        {
+          "bbox": [
+            0.73,
+            0.13,
+            0.955,
+            0.265
+          ],
+          "motion": "football_hop_r",
+          "pop_delay": 0.26
+        }
+      ],
+      "overhead": {
+        "text": "KEEP THE BUMP?",
+        "cx": 380,
+        "cy": 442,
+        "trigger_rel": 4.25,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.5
+        },
+        {
+          "rel": 0.25,
+          "type": "stadium_swell",
+          "gain": 0.58
+        },
+        {
+          "rel": 4.25,
+          "type": "cork_pop",
+          "gain": 0.65
+        }
+      ],
+      "start_sec": 76.437,
+      "end_sec": 83.246,
+      "narration": "So be honest... should the U.S. and Canada finally clean up the border, or should Minnesota keep its famous bump forever?"
+    }
+  ]
+}

@@ -1,0 +1,2466 @@
+{
+  "voice": "en-US-ChristopherNeural",
+  "total_duration_sec": 83.246,
+  "scenes": [
+    {
+      "id": "scene_01",
+      "text": "Ever notice that weird little bump on top of Minnesota? You literally have to drive through Canada to reach it... thanks to one terrible map.",
+      "start_sec": 0.0,
+      "speech_end_sec": 7.468,
+      "end_sec": 7.718,
+      "words": [
+        {
+          "text": "Ever",
+          "start": 0.097,
+          "end": 0.333
+        },
+        {
+          "text": "notice",
+          "start": 0.345,
+          "end": 0.687
+        },
+        {
+          "text": "that",
+          "start": 0.699,
+          "end": 0.84
+        },
+        {
+          "text": "weird",
+          "start": 0.852,
+          "end": 1.1
+        },
+        {
+          "text": "little",
+          "start": 1.111,
+          "end": 1.324
+        },
+        {
+          "text": "bump",
+          "start": 1.335,
+          "end": 1.607
+        },
+        {
+          "text": "on",
+          "start": 1.618,
+          "end": 1.76
+        },
+        {
+          "text": "top",
+          "start": 1.772,
+          "end": 2.008
+        },
+        {
+          "text": "of",
+          "start": 2.019,
+          "end": 2.102
+        },
+        {
+          "text": "Minnesota",
+          "start": 2.114,
+          "end": 2.715
+        },
+        {
+          "text": "You",
+          "start": 3.526,
+          "end": 3.715
+        },
+        {
+          "text": "literally",
+          "start": 3.726,
+          "end": 4.116
+        },
+        {
+          "text": "have",
+          "start": 4.127,
+          "end": 4.304
+        },
+        {
+          "text": "to",
+          "start": 4.316,
+          "end": 4.399
+        },
+        {
+          "text": "drive",
+          "start": 4.41,
+          "end": 4.717
+        },
+        {
+          "text": "through",
+          "start": 4.729,
+          "end": 4.917
+        },
+        {
+          "text": "Canada",
+          "start": 4.929,
+          "end": 5.389
+        },
+        {
+          "text": "to",
+          "start": 5.401,
+          "end": 5.531
+        },
+        {
+          "text": "reach",
+          "start": 5.542,
+          "end": 5.79
+        },
+        {
+          "text": "it",
+          "start": 5.802,
+          "end": 5.955
+        },
+        {
+          "text": "thanks",
+          "start": 6.191,
+          "end": 6.439
+        },
+        {
+          "text": "to",
+          "start": 6.45,
+          "end": 6.545
+        },
+        {
+          "text": "one",
+          "start": 6.557,
+          "end": 6.781
+        },
+        {
+          "text": "terrible",
+          "start": 6.792,
+          "end": 7.205
+        },
+        {
+          "text": "map",
+          "start": 7.217,
+          "end": 7.594
+        }
+      ]
+    },
+    {
+      "id": "scene_02",
+      "text": "Wait... let's rewind.",
+      "start_sec": 7.718,
+      "speech_end_sec": 9.243,
+      "end_sec": 9.593,
+      "words": [
+        {
+          "text": "Wait",
+          "start": 7.816,
+          "end": 8.193
+        },
+        {
+          "text": "let's",
+          "start": 8.429,
+          "end": 8.665
+        },
+        {
+          "text": "rewind",
+          "start": 8.676,
+          "end": 9.301
+        }
+      ]
+    },
+    {
+      "id": "scene_03",
+      "text": "In 1783, American and British diplomats met in Paris to draw the new border between the U.S. and Canada.",
+      "start_sec": 9.593,
+      "speech_end_sec": 15.812,
+      "end_sec": 16.012,
+      "words": [
+        {
+          "text": "In 1783",
+          "start": 9.69,
+          "end": 11.022
+        },
+        {
+          "text": "American",
+          "start": 11.223,
+          "end": 11.683
+        },
+        {
+          "text": "and",
+          "start": 11.695,
+          "end": 11.812
+        },
+        {
+          "text": "British",
+          "start": 11.824,
+          "end": 12.119
+        },
+        {
+          "text": "diplomats",
+          "start": 12.131,
+          "end": 12.638
+        },
+        {
+          "text": "met",
+          "start": 12.65,
+          "end": 12.85
+        },
+        {
+          "text": "in",
+          "start": 12.862,
+          "end": 12.968
+        },
+        {
+          "text": "Paris",
+          "start": 12.98,
+          "end": 13.369
+        },
+        {
+          "text": "to",
+          "start": 13.381,
+          "end": 13.475
+        },
+        {
+          "text": "draw",
+          "start": 13.487,
+          "end": 13.735
+        },
+        {
+          "text": "the",
+          "start": 13.746,
+          "end": 13.841
+        },
+        {
+          "text": "new",
+          "start": 13.853,
+          "end": 14.018
+        },
+        {
+          "text": "border",
+          "start": 14.029,
+          "end": 14.348
+        },
+        {
+          "text": "between",
+          "start": 14.36,
+          "end": 14.666
+        },
+        {
+          "text": "the",
+          "start": 14.678,
+          "end": 14.725
+        },
+        {
+          "text": "U.S.",
+          "start": 14.737,
+          "end": 15.197
+        },
+        {
+          "text": "and",
+          "start": 15.209,
+          "end": 15.35
+        },
+        {
+          "text": "Canada",
+          "start": 15.362,
+          "end": 15.881
+        }
+      ]
+    },
+    {
+      "id": "scene_04",
+      "text": "Using a faulty 1755 map, they drew the border straight west from Lake of the Woods to meet the Mississippi River.",
+      "start_sec": 16.012,
+      "speech_end_sec": 22.234,
+      "end_sec": 22.434,
+      "words": [
+        {
+          "text": "Using",
+          "start": 16.11,
+          "end": 16.463
+        },
+        {
+          "text": "a",
+          "start": 16.475,
+          "end": 16.546
+        },
+        {
+          "text": "faulty",
+          "start": 16.558,
+          "end": 16.923
+        },
+        {
+          "text": "1755",
+          "start": 16.935,
+          "end": 18.079
+        },
+        {
+          "text": "map",
+          "start": 18.091,
+          "end": 18.445
+        },
+        {
+          "text": "they",
+          "start": 18.704,
+          "end": 18.822
+        },
+        {
+          "text": "drew",
+          "start": 18.834,
+          "end": 19.011
+        },
+        {
+          "text": "the",
+          "start": 19.022,
+          "end": 19.117
+        },
+        {
+          "text": "border",
+          "start": 19.128,
+          "end": 19.423
+        },
+        {
+          "text": "straight",
+          "start": 19.435,
+          "end": 19.753
+        },
+        {
+          "text": "west",
+          "start": 19.765,
+          "end": 20.095
+        },
+        {
+          "text": "from",
+          "start": 20.107,
+          "end": 20.249
+        },
+        {
+          "text": "Lake",
+          "start": 20.261,
+          "end": 20.485
+        },
+        {
+          "text": "of",
+          "start": 20.496,
+          "end": 20.567
+        },
+        {
+          "text": "the",
+          "start": 20.579,
+          "end": 20.661
+        },
+        {
+          "text": "Woods",
+          "start": 20.673,
+          "end": 21.003
+        },
+        {
+          "text": "to",
+          "start": 21.015,
+          "end": 21.11
+        },
+        {
+          "text": "meet",
+          "start": 21.121,
+          "end": 21.298
+        },
+        {
+          "text": "the",
+          "start": 21.31,
+          "end": 21.369
+        },
+        {
+          "text": "Mississippi",
+          "start": 21.381,
+          "end": 21.923
+        },
+        {
+          "text": "River",
+          "start": 21.935,
+          "end": 22.324
+        }
+      ]
+    },
+    {
+      "id": "scene_05",
+      "text": "When real surveyors hiked north, they hit two snags: the Mississippi started way south... and the lake hid fourteen thousand islands.",
+      "start_sec": 22.434,
+      "speech_end_sec": 29.935,
+      "end_sec": 30.135,
+      "words": [
+        {
+          "text": "When",
+          "start": 22.531,
+          "end": 22.767
+        },
+        {
+          "text": "real",
+          "start": 22.778,
+          "end": 22.991
+        },
+        {
+          "text": "surveyors",
+          "start": 23.002,
+          "end": 23.521
+        },
+        {
+          "text": "hiked",
+          "start": 23.533,
+          "end": 23.828
+        },
+        {
+          "text": "north",
+          "start": 23.84,
+          "end": 24.252
+        },
+        {
+          "text": "they",
+          "start": 24.465,
+          "end": 24.583
+        },
+        {
+          "text": "hit",
+          "start": 24.594,
+          "end": 24.818
+        },
+        {
+          "text": "two",
+          "start": 24.83,
+          "end": 25.031
+        },
+        {
+          "text": "snags",
+          "start": 25.042,
+          "end": 25.632
+        },
+        {
+          "text": "the",
+          "start": 25.868,
+          "end": 25.95
+        },
+        {
+          "text": "Mississippi",
+          "start": 25.962,
+          "end": 26.517
+        },
+        {
+          "text": "started",
+          "start": 26.528,
+          "end": 26.894
+        },
+        {
+          "text": "way",
+          "start": 26.906,
+          "end": 27.094
+        },
+        {
+          "text": "south",
+          "start": 27.106,
+          "end": 27.566
+        },
+        {
+          "text": "and",
+          "start": 27.849,
+          "end": 27.955
+        },
+        {
+          "text": "the",
+          "start": 27.967,
+          "end": 28.05
+        },
+        {
+          "text": "lake",
+          "start": 28.061,
+          "end": 28.285
+        },
+        {
+          "text": "hid",
+          "start": 28.297,
+          "end": 28.439
+        },
+        {
+          "text": "fourteen",
+          "start": 28.451,
+          "end": 28.946
+        },
+        {
+          "text": "thousand",
+          "start": 28.958,
+          "end": 29.359
+        },
+        {
+          "text": "islands",
+          "start": 29.37,
+          "end": 29.96
+        }
+      ]
+    },
+    {
+      "id": "scene_06",
+      "text": "In 1818, both sides set the border along the 49th parallel, dropping a straight line south from the lake's northwest corner.",
+      "start_sec": 30.135,
+      "speech_end_sec": 37.432,
+      "end_sec": 37.632,
+      "words": [
+        {
+          "text": "In 1818",
+          "start": 30.232,
+          "end": 31.34
+        },
+        {
+          "text": "both",
+          "start": 31.552,
+          "end": 31.8
+        },
+        {
+          "text": "sides",
+          "start": 31.812,
+          "end": 32.189
+        },
+        {
+          "text": "set",
+          "start": 32.201,
+          "end": 32.366
+        },
+        {
+          "text": "the",
+          "start": 32.378,
+          "end": 32.461
+        },
+        {
+          "text": "border",
+          "start": 32.472,
+          "end": 32.803
+        },
+        {
+          "text": "along",
+          "start": 32.814,
+          "end": 33.085
+        },
+        {
+          "text": "the",
+          "start": 33.097,
+          "end": 33.168
+        },
+        {
+          "text": "49th",
+          "start": 33.18,
+          "end": 33.758
+        },
+        {
+          "text": "parallel",
+          "start": 33.769,
+          "end": 34.288
+        },
+        {
+          "text": "dropping",
+          "start": 34.583,
+          "end": 34.949
+        },
+        {
+          "text": "a",
+          "start": 34.961,
+          "end": 35.008
+        },
+        {
+          "text": "straight",
+          "start": 35.019,
+          "end": 35.373
+        },
+        {
+          "text": "line",
+          "start": 35.385,
+          "end": 35.656
+        },
+        {
+          "text": "south",
+          "start": 35.668,
+          "end": 35.998
+        },
+        {
+          "text": "from",
+          "start": 36.01,
+          "end": 36.14
+        },
+        {
+          "text": "the",
+          "start": 36.152,
+          "end": 36.234
+        },
+        {
+          "text": "lake's",
+          "start": 36.246,
+          "end": 36.505
+        },
+        {
+          "text": "northwest",
+          "start": 36.517,
+          "end": 37.06
+        },
+        {
+          "text": "corner",
+          "start": 37.071,
+          "end": 37.508
+        }
+      ]
+    },
+    {
+      "id": "scene_07",
+      "text": "Problem: that corner hid inside a northern bay. Dropping the line south accidentally sliced off 123 square miles... cut off by water.",
+      "start_sec": 37.632,
+      "speech_end_sec": 46.61,
+      "end_sec": 46.83,
+      "words": [
+        {
+          "text": "Problem",
+          "start": 37.729,
+          "end": 38.248
+        },
+        {
+          "text": "that",
+          "start": 38.472,
+          "end": 38.649
+        },
+        {
+          "text": "corner",
+          "start": 38.661,
+          "end": 38.979
+        },
+        {
+          "text": "hid",
+          "start": 38.991,
+          "end": 39.132
+        },
+        {
+          "text": "inside",
+          "start": 39.144,
+          "end": 39.569
+        },
+        {
+          "text": "a",
+          "start": 39.581,
+          "end": 39.604
+        },
+        {
+          "text": "northern",
+          "start": 39.616,
+          "end": 40.005
+        },
+        {
+          "text": "bay",
+          "start": 40.017,
+          "end": 40.359
+        },
+        {
+          "text": "Dropping",
+          "start": 41.181,
+          "end": 41.571
+        },
+        {
+          "text": "the",
+          "start": 41.582,
+          "end": 41.677
+        },
+        {
+          "text": "line",
+          "start": 41.689,
+          "end": 41.995
+        },
+        {
+          "text": "south",
+          "start": 42.007,
+          "end": 42.337
+        },
+        {
+          "text": "accidentally",
+          "start": 42.349,
+          "end": 42.974
+        },
+        {
+          "text": "sliced",
+          "start": 42.986,
+          "end": 43.387
+        },
+        {
+          "text": "off",
+          "start": 43.398,
+          "end": 43.611
+        },
+        {
+          "text": "123",
+          "start": 43.623,
+          "end": 44.625
+        },
+        {
+          "text": "square",
+          "start": 44.637,
+          "end": 44.943
+        },
+        {
+          "text": "miles",
+          "start": 44.955,
+          "end": 45.45
+        },
+        {
+          "text": "cut",
+          "start": 45.686,
+          "end": 45.863
+        },
+        {
+          "text": "off",
+          "start": 45.875,
+          "end": 46.099
+        },
+        {
+          "text": "by",
+          "start": 46.111,
+          "end": 46.229
+        },
+        {
+          "text": "water",
+          "start": 46.24,
+          "end": 46.689
+        }
+      ]
+    },
+    {
+      "id": "scene_08",
+      "text": "A chunk of Minnesota was stranded above Canada: reachable only by boat, plane, or a forty-mile drive through another country.",
+      "start_sec": 46.83,
+      "speech_end_sec": 53.861,
+      "end_sec": 54.061,
+      "words": [
+        {
+          "text": "A",
+          "start": 46.927,
+          "end": 47.057
+        },
+        {
+          "text": "chunk",
+          "start": 47.069,
+          "end": 47.352
+        },
+        {
+          "text": "of",
+          "start": 47.364,
+          "end": 47.458
+        },
+        {
+          "text": "Minnesota",
+          "start": 47.47,
+          "end": 48.012
+        },
+        {
+          "text": "was",
+          "start": 48.024,
+          "end": 48.177
+        },
+        {
+          "text": "stranded",
+          "start": 48.189,
+          "end": 48.602
+        },
+        {
+          "text": "above",
+          "start": 48.614,
+          "end": 48.92
+        },
+        {
+          "text": "Canada",
+          "start": 48.932,
+          "end": 49.321
+        },
+        {
+          "text": "reachable",
+          "start": 49.64,
+          "end": 50.088
+        },
+        {
+          "text": "only",
+          "start": 50.1,
+          "end": 50.335
+        },
+        {
+          "text": "by",
+          "start": 50.347,
+          "end": 50.512
+        },
+        {
+          "text": "boat",
+          "start": 50.524,
+          "end": 50.843
+        },
+        {
+          "text": "plane",
+          "start": 51.067,
+          "end": 51.491
+        },
+        {
+          "text": "or",
+          "start": 51.798,
+          "end": 51.951
+        },
+        {
+          "text": "a",
+          "start": 51.963,
+          "end": 52.022
+        },
+        {
+          "text": "forty-mile",
+          "start": 52.034,
+          "end": 52.6
+        },
+        {
+          "text": "drive",
+          "start": 52.611,
+          "end": 52.93
+        },
+        {
+          "text": "through",
+          "start": 52.942,
+          "end": 53.142
+        },
+        {
+          "text": "another",
+          "start": 53.154,
+          "end": 53.449
+        },
+        {
+          "text": "country",
+          "start": 53.46,
+          "end": 53.932
+        }
+      ]
+    },
+    {
+      "id": "scene_09",
+      "text": "In 1997, angry over Canadian fishing rules, locals even petitioned Congress to leave the U.S. and join Canada before a deal cooled things down.",
+      "start_sec": 54.061,
+      "speech_end_sec": 62.697,
+      "end_sec": 62.917,
+      "words": [
+        {
+          "text": "In 1997",
+          "start": 54.158,
+          "end": 55.384
+        },
+        {
+          "text": "angry",
+          "start": 55.596,
+          "end": 55.915
+        },
+        {
+          "text": "over",
+          "start": 55.927,
+          "end": 56.139
+        },
+        {
+          "text": "Canadian",
+          "start": 56.151,
+          "end": 56.611
+        },
+        {
+          "text": "fishing",
+          "start": 56.622,
+          "end": 57.012
+        },
+        {
+          "text": "rules",
+          "start": 57.023,
+          "end": 57.412
+        },
+        {
+          "text": "locals",
+          "start": 57.66,
+          "end": 58.061
+        },
+        {
+          "text": "even",
+          "start": 58.073,
+          "end": 58.309
+        },
+        {
+          "text": "petitioned",
+          "start": 58.32,
+          "end": 58.769
+        },
+        {
+          "text": "Congress",
+          "start": 58.78,
+          "end": 59.217
+        },
+        {
+          "text": "to",
+          "start": 59.228,
+          "end": 59.335
+        },
+        {
+          "text": "leave",
+          "start": 59.346,
+          "end": 59.57
+        },
+        {
+          "text": "the",
+          "start": 59.582,
+          "end": 59.629
+        },
+        {
+          "text": "U.S.",
+          "start": 59.641,
+          "end": 60.089
+        },
+        {
+          "text": "and",
+          "start": 60.101,
+          "end": 60.231
+        },
+        {
+          "text": "join",
+          "start": 60.243,
+          "end": 60.526
+        },
+        {
+          "text": "Canada",
+          "start": 60.537,
+          "end": 60.974
+        },
+        {
+          "text": "before",
+          "start": 60.986,
+          "end": 61.292
+        },
+        {
+          "text": "a",
+          "start": 61.304,
+          "end": 61.375
+        },
+        {
+          "text": "deal",
+          "start": 61.387,
+          "end": 61.693
+        },
+        {
+          "text": "cooled",
+          "start": 61.705,
+          "end": 62.035
+        },
+        {
+          "text": "things",
+          "start": 62.047,
+          "end": 62.33
+        },
+        {
+          "text": "down",
+          "start": 62.342,
+          "end": 62.731
+        }
+      ]
+    },
+    {
+      "id": "scene_10",
+      "text": "Today, about a hundred Minnesotans still live there: checking in at a lonely border kiosk, or driving right across the frozen lake in winter.",
+      "start_sec": 62.917,
+      "speech_end_sec": 70.26,
+      "end_sec": 70.46,
+      "words": [
+        {
+          "text": "Today",
+          "start": 63.014,
+          "end": 63.45
+        },
+        {
+          "text": "about",
+          "start": 63.627,
+          "end": 63.863
+        },
+        {
+          "text": "a",
+          "start": 63.875,
+          "end": 63.91
+        },
+        {
+          "text": "hundred",
+          "start": 63.922,
+          "end": 64.24
+        },
+        {
+          "text": "Minnesotans",
+          "start": 64.252,
+          "end": 64.853
+        },
+        {
+          "text": "still",
+          "start": 64.865,
+          "end": 65.125
+        },
+        {
+          "text": "live",
+          "start": 65.136,
+          "end": 65.325
+        },
+        {
+          "text": "there",
+          "start": 65.337,
+          "end": 65.573
+        },
+        {
+          "text": "checking",
+          "start": 65.797,
+          "end": 66.186
+        },
+        {
+          "text": "in",
+          "start": 66.198,
+          "end": 66.316
+        },
+        {
+          "text": "at",
+          "start": 66.327,
+          "end": 66.398
+        },
+        {
+          "text": "a",
+          "start": 66.41,
+          "end": 66.445
+        },
+        {
+          "text": "lonely",
+          "start": 66.457,
+          "end": 66.823
+        },
+        {
+          "text": "border",
+          "start": 66.834,
+          "end": 67.141
+        },
+        {
+          "text": "kiosk",
+          "start": 67.153,
+          "end": 67.684
+        },
+        {
+          "text": "or",
+          "start": 67.967,
+          "end": 68.061
+        },
+        {
+          "text": "driving",
+          "start": 68.073,
+          "end": 68.485
+        },
+        {
+          "text": "right",
+          "start": 68.497,
+          "end": 68.686
+        },
+        {
+          "text": "across",
+          "start": 68.698,
+          "end": 69.028
+        },
+        {
+          "text": "the",
+          "start": 69.04,
+          "end": 69.122
+        },
+        {
+          "text": "frozen",
+          "start": 69.134,
+          "end": 69.57
+        },
+        {
+          "text": "lake",
+          "start": 69.582,
+          "end": 69.794
+        },
+        {
+          "text": "in",
+          "start": 69.806,
+          "end": 69.924
+        },
+        {
+          "text": "winter",
+          "start": 69.936,
+          "end": 70.349
+        }
+      ]
+    },
+    {
+      "id": "scene_11",
+      "text": "That old map blunder created the northernmost point of the lower forty-eight, and America's favorite geography quirk.",
+      "start_sec": 70.46,
+      "speech_end_sec": 76.237,
+      "end_sec": 76.437,
+      "words": [
+        {
+          "text": "That",
+          "start": 70.557,
+          "end": 70.816
+        },
+        {
+          "text": "old",
+          "start": 70.828,
+          "end": 71.017
+        },
+        {
+          "text": "map",
+          "start": 71.029,
+          "end": 71.312
+        },
+        {
+          "text": "blunder",
+          "start": 71.323,
+          "end": 71.677
+        },
+        {
+          "text": "created",
+          "start": 71.689,
+          "end": 72.114
+        },
+        {
+          "text": "the",
+          "start": 72.125,
+          "end": 72.184
+        },
+        {
+          "text": "northernmost",
+          "start": 72.196,
+          "end": 72.762
+        },
+        {
+          "text": "point",
+          "start": 72.774,
+          "end": 73.01
+        },
+        {
+          "text": "of",
+          "start": 73.022,
+          "end": 73.08
+        },
+        {
+          "text": "the",
+          "start": 73.092,
+          "end": 73.187
+        },
+        {
+          "text": "lower",
+          "start": 73.198,
+          "end": 73.47
+        },
+        {
+          "text": "forty-eight",
+          "start": 73.481,
+          "end": 74.024
+        },
+        {
+          "text": "and",
+          "start": 74.283,
+          "end": 74.389
+        },
+        {
+          "text": "America's",
+          "start": 74.401,
+          "end": 74.908
+        },
+        {
+          "text": "favorite",
+          "start": 74.92,
+          "end": 75.274
+        },
+        {
+          "text": "geography",
+          "start": 75.286,
+          "end": 75.828
+        },
+        {
+          "text": "quirk",
+          "start": 75.84,
+          "end": 76.288
+        }
+      ]
+    },
+    {
+      "id": "scene_12",
+      "text": "So be honest... should the U.S. and Canada finally clean up the border, or should Minnesota keep its famous bump forever?",
+      "start_sec": 76.437,
+      "speech_end_sec": 82.696,
+      "end_sec": 83.246,
+      "words": [
+        {
+          "text": "So",
+          "start": 76.534,
+          "end": 76.758
+        },
+        {
+          "text": "be",
+          "start": 76.77,
+          "end": 76.923
+        },
+        {
+          "text": "honest",
+          "start": 76.935,
+          "end": 77.372
+        },
+        {
+          "text": "should",
+          "start": 77.596,
+          "end": 77.808
+        },
+        {
+          "text": "the",
+          "start": 77.82,
+          "end": 77.855
+        },
+        {
+          "text": "U.S.",
+          "start": 77.867,
+          "end": 78.303
+        },
+        {
+          "text": "and",
+          "start": 78.315,
+          "end": 78.445
+        },
+        {
+          "text": "Canada",
+          "start": 78.457,
+          "end": 78.857
+        },
+        {
+          "text": "finally",
+          "start": 78.869,
+          "end": 79.27
+        },
+        {
+          "text": "clean",
+          "start": 79.282,
+          "end": 79.553
+        },
+        {
+          "text": "up",
+          "start": 79.565,
+          "end": 79.683
+        },
+        {
+          "text": "the",
+          "start": 79.695,
+          "end": 79.777
+        },
+        {
+          "text": "border",
+          "start": 79.789,
+          "end": 80.155
+        },
+        {
+          "text": "or",
+          "start": 80.414,
+          "end": 80.556
+        },
+        {
+          "text": "should",
+          "start": 80.567,
+          "end": 80.744
+        },
+        {
+          "text": "Minnesota",
+          "start": 80.756,
+          "end": 81.251
+        },
+        {
+          "text": "keep",
+          "start": 81.263,
+          "end": 81.464
+        },
+        {
+          "text": "its",
+          "start": 81.475,
+          "end": 81.605
+        },
+        {
+          "text": "famous",
+          "start": 81.617,
+          "end": 81.971
+        },
+        {
+          "text": "bump",
+          "start": 81.982,
+          "end": 82.23
+        },
+        {
+          "text": "forever",
+          "start": 82.242,
+          "end": 82.761
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "text": "Ever",
+      "start": 0.097,
+      "end": 0.333
+    },
+    {
+      "text": "notice",
+      "start": 0.345,
+      "end": 0.687
+    },
+    {
+      "text": "that",
+      "start": 0.699,
+      "end": 0.84
+    },
+    {
+      "text": "weird",
+      "start": 0.852,
+      "end": 1.1
+    },
+    {
+      "text": "little",
+      "start": 1.111,
+      "end": 1.324
+    },
+    {
+      "text": "bump",
+      "start": 1.335,
+      "end": 1.607
+    },
+    {
+      "text": "on",
+      "start": 1.618,
+      "end": 1.76
+    },
+    {
+      "text": "top",
+      "start": 1.772,
+      "end": 2.008
+    },
+    {
+      "text": "of",
+      "start": 2.019,
+      "end": 2.102
+    },
+    {
+      "text": "Minnesota",
+      "start": 2.114,
+      "end": 2.715
+    },
+    {
+      "text": "You",
+      "start": 3.526,
+      "end": 3.715
+    },
+    {
+      "text": "literally",
+      "start": 3.726,
+      "end": 4.116
+    },
+    {
+      "text": "have",
+      "start": 4.127,
+      "end": 4.304
+    },
+    {
+      "text": "to",
+      "start": 4.316,
+      "end": 4.399
+    },
+    {
+      "text": "drive",
+      "start": 4.41,
+      "end": 4.717
+    },
+    {
+      "text": "through",
+      "start": 4.729,
+      "end": 4.917
+    },
+    {
+      "text": "Canada",
+      "start": 4.929,
+      "end": 5.389
+    },
+    {
+      "text": "to",
+      "start": 5.401,
+      "end": 5.531
+    },
+    {
+      "text": "reach",
+      "start": 5.542,
+      "end": 5.79
+    },
+    {
+      "text": "it",
+      "start": 5.802,
+      "end": 5.955
+    },
+    {
+      "text": "thanks",
+      "start": 6.191,
+      "end": 6.439
+    },
+    {
+      "text": "to",
+      "start": 6.45,
+      "end": 6.545
+    },
+    {
+      "text": "one",
+      "start": 6.557,
+      "end": 6.781
+    },
+    {
+      "text": "terrible",
+      "start": 6.792,
+      "end": 7.205
+    },
+    {
+      "text": "map",
+      "start": 7.217,
+      "end": 7.594
+    },
+    {
+      "text": "Wait",
+      "start": 7.816,
+      "end": 8.193
+    },
+    {
+      "text": "let's",
+      "start": 8.429,
+      "end": 8.665
+    },
+    {
+      "text": "rewind",
+      "start": 8.676,
+      "end": 9.301
+    },
+    {
+      "text": "In 1783",
+      "start": 9.69,
+      "end": 11.022
+    },
+    {
+      "text": "American",
+      "start": 11.223,
+      "end": 11.683
+    },
+    {
+      "text": "and",
+      "start": 11.695,
+      "end": 11.812
+    },
+    {
+      "text": "British",
+      "start": 11.824,
+      "end": 12.119
+    },
+    {
+      "text": "diplomats",
+      "start": 12.131,
+      "end": 12.638
+    },
+    {
+      "text": "met",
+      "start": 12.65,
+      "end": 12.85
+    },
+    {
+      "text": "in",
+      "start": 12.862,
+      "end": 12.968
+    },
+    {
+      "text": "Paris",
+      "start": 12.98,
+      "end": 13.369
+    },
+    {
+      "text": "to",
+      "start": 13.381,
+      "end": 13.475
+    },
+    {
+      "text": "draw",
+      "start": 13.487,
+      "end": 13.735
+    },
+    {
+      "text": "the",
+      "start": 13.746,
+      "end": 13.841
+    },
+    {
+      "text": "new",
+      "start": 13.853,
+      "end": 14.018
+    },
+    {
+      "text": "border",
+      "start": 14.029,
+      "end": 14.348
+    },
+    {
+      "text": "between",
+      "start": 14.36,
+      "end": 14.666
+    },
+    {
+      "text": "the",
+      "start": 14.678,
+      "end": 14.725
+    },
+    {
+      "text": "U.S.",
+      "start": 14.737,
+      "end": 15.197
+    },
+    {
+      "text": "and",
+      "start": 15.209,
+      "end": 15.35
+    },
+    {
+      "text": "Canada",
+      "start": 15.362,
+      "end": 15.881
+    },
+    {
+      "text": "Using",
+      "start": 16.11,
+      "end": 16.463
+    },
+    {
+      "text": "a",
+      "start": 16.475,
+      "end": 16.546
+    },
+    {
+      "text": "faulty",
+      "start": 16.558,
+      "end": 16.923
+    },
+    {
+      "text": "1755",
+      "start": 16.935,
+      "end": 18.079
+    },
+    {
+      "text": "map",
+      "start": 18.091,
+      "end": 18.445
+    },
+    {
+      "text": "they",
+      "start": 18.704,
+      "end": 18.822
+    },
+    {
+      "text": "drew",
+      "start": 18.834,
+      "end": 19.011
+    },
+    {
+      "text": "the",
+      "start": 19.022,
+      "end": 19.117
+    },
+    {
+      "text": "border",
+      "start": 19.128,
+      "end": 19.423
+    },
+    {
+      "text": "straight",
+      "start": 19.435,
+      "end": 19.753
+    },
+    {
+      "text": "west",
+      "start": 19.765,
+      "end": 20.095
+    },
+    {
+      "text": "from",
+      "start": 20.107,
+      "end": 20.249
+    },
+    {
+      "text": "Lake",
+      "start": 20.261,
+      "end": 20.485
+    },
+    {
+      "text": "of",
+      "start": 20.496,
+      "end": 20.567
+    },
+    {
+      "text": "the",
+      "start": 20.579,
+      "end": 20.661
+    },
+    {
+      "text": "Woods",
+      "start": 20.673,
+      "end": 21.003
+    },
+    {
+      "text": "to",
+      "start": 21.015,
+      "end": 21.11
+    },
+    {
+      "text": "meet",
+      "start": 21.121,
+      "end": 21.298
+    },
+    {
+      "text": "the",
+      "start": 21.31,
+      "end": 21.369
+    },
+    {
+      "text": "Mississippi",
+      "start": 21.381,
+      "end": 21.923
+    },
+    {
+      "text": "River",
+      "start": 21.935,
+      "end": 22.324
+    },
+    {
+      "text": "When",
+      "start": 22.531,
+      "end": 22.767
+    },
+    {
+      "text": "real",
+      "start": 22.778,
+      "end": 22.991
+    },
+    {
+      "text": "surveyors",
+      "start": 23.002,
+      "end": 23.521
+    },
+    {
+      "text": "hiked",
+      "start": 23.533,
+      "end": 23.828
+    },
+    {
+      "text": "north",
+      "start": 23.84,
+      "end": 24.252
+    },
+    {
+      "text": "they",
+      "start": 24.465,
+      "end": 24.583
+    },
+    {
+      "text": "hit",
+      "start": 24.594,
+      "end": 24.818
+    },
+    {
+      "text": "two",
+      "start": 24.83,
+      "end": 25.031
+    },
+    {
+      "text": "snags",
+      "start": 25.042,
+      "end": 25.632
+    },
+    {
+      "text": "the",
+      "start": 25.868,
+      "end": 25.95
+    },
+    {
+      "text": "Mississippi",
+      "start": 25.962,
+      "end": 26.517
+    },
+    {
+      "text": "started",
+      "start": 26.528,
+      "end": 26.894
+    },
+    {
+      "text": "way",
+      "start": 26.906,
+      "end": 27.094
+    },
+    {
+      "text": "south",
+      "start": 27.106,
+      "end": 27.566
+    },
+    {
+      "text": "and",
+      "start": 27.849,
+      "end": 27.955
+    },
+    {
+      "text": "the",
+      "start": 27.967,
+      "end": 28.05
+    },
+    {
+      "text": "lake",
+      "start": 28.061,
+      "end": 28.285
+    },
+    {
+      "text": "hid",
+      "start": 28.297,
+      "end": 28.439
+    },
+    {
+      "text": "fourteen",
+      "start": 28.451,
+      "end": 28.946
+    },
+    {
+      "text": "thousand",
+      "start": 28.958,
+      "end": 29.359
+    },
+    {
+      "text": "islands",
+      "start": 29.37,
+      "end": 29.96
+    },
+    {
+      "text": "In 1818",
+      "start": 30.232,
+      "end": 31.34
+    },
+    {
+      "text": "both",
+      "start": 31.552,
+      "end": 31.8
+    },
+    {
+      "text": "sides",
+      "start": 31.812,
+      "end": 32.189
+    },
+    {
+      "text": "set",
+      "start": 32.201,
+      "end": 32.366
+    },
+    {
+      "text": "the",
+      "start": 32.378,
+      "end": 32.461
+    },
+    {
+      "text": "border",
+      "start": 32.472,
+      "end": 32.803
+    },
+    {
+      "text": "along",
+      "start": 32.814,
+      "end": 33.085
+    },
+    {
+      "text": "the",
+      "start": 33.097,
+      "end": 33.168
+    },
+    {
+      "text": "49th",
+      "start": 33.18,
+      "end": 33.758
+    },
+    {
+      "text": "parallel",
+      "start": 33.769,
+      "end": 34.288
+    },
+    {
+      "text": "dropping",
+      "start": 34.583,
+      "end": 34.949
+    },
+    {
+      "text": "a",
+      "start": 34.961,
+      "end": 35.008
+    },
+    {
+      "text": "straight",
+      "start": 35.019,
+      "end": 35.373
+    },
+    {
+      "text": "line",
+      "start": 35.385,
+      "end": 35.656
+    },
+    {
+      "text": "south",
+      "start": 35.668,
+      "end": 35.998
+    },
+    {
+      "text": "from",
+      "start": 36.01,
+      "end": 36.14
+    },
+    {
+      "text": "the",
+      "start": 36.152,
+      "end": 36.234
+    },
+    {
+      "text": "lake's",
+      "start": 36.246,
+      "end": 36.505
+    },
+    {
+      "text": "northwest",
+      "start": 36.517,
+      "end": 37.06
+    },
+    {
+      "text": "corner",
+      "start": 37.071,
+      "end": 37.508
+    },
+    {
+      "text": "Problem",
+      "start": 37.729,
+      "end": 38.248
+    },
+    {
+      "text": "that",
+      "start": 38.472,
+      "end": 38.649
+    },
+    {
+      "text": "corner",
+      "start": 38.661,
+      "end": 38.979
+    },
+    {
+      "text": "hid",
+      "start": 38.991,
+      "end": 39.132
+    },
+    {
+      "text": "inside",
+      "start": 39.144,
+      "end": 39.569
+    },
+    {
+      "text": "a",
+      "start": 39.581,
+      "end": 39.604
+    },
+    {
+      "text": "northern",
+      "start": 39.616,
+      "end": 40.005
+    },
+    {
+      "text": "bay",
+      "start": 40.017,
+      "end": 40.359
+    },
+    {
+      "text": "Dropping",
+      "start": 41.181,
+      "end": 41.571
+    },
+    {
+      "text": "the",
+      "start": 41.582,
+      "end": 41.677
+    },
+    {
+      "text": "line",
+      "start": 41.689,
+      "end": 41.995
+    },
+    {
+      "text": "south",
+      "start": 42.007,
+      "end": 42.337
+    },
+    {
+      "text": "accidentally",
+      "start": 42.349,
+      "end": 42.974
+    },
+    {
+      "text": "sliced",
+      "start": 42.986,
+      "end": 43.387
+    },
+    {
+      "text": "off",
+      "start": 43.398,
+      "end": 43.611
+    },
+    {
+      "text": "123",
+      "start": 43.623,
+      "end": 44.625
+    },
+    {
+      "text": "square",
+      "start": 44.637,
+      "end": 44.943
+    },
+    {
+      "text": "miles",
+      "start": 44.955,
+      "end": 45.45
+    },
+    {
+      "text": "cut",
+      "start": 45.686,
+      "end": 45.863
+    },
+    {
+      "text": "off",
+      "start": 45.875,
+      "end": 46.099
+    },
+    {
+      "text": "by",
+      "start": 46.111,
+      "end": 46.229
+    },
+    {
+      "text": "water",
+      "start": 46.24,
+      "end": 46.689
+    },
+    {
+      "text": "A",
+      "start": 46.927,
+      "end": 47.057
+    },
+    {
+      "text": "chunk",
+      "start": 47.069,
+      "end": 47.352
+    },
+    {
+      "text": "of",
+      "start": 47.364,
+      "end": 47.458
+    },
+    {
+      "text": "Minnesota",
+      "start": 47.47,
+      "end": 48.012
+    },
+    {
+      "text": "was",
+      "start": 48.024,
+      "end": 48.177
+    },
+    {
+      "text": "stranded",
+      "start": 48.189,
+      "end": 48.602
+    },
+    {
+      "text": "above",
+      "start": 48.614,
+      "end": 48.92
+    },
+    {
+      "text": "Canada",
+      "start": 48.932,
+      "end": 49.321
+    },
+    {
+      "text": "reachable",
+      "start": 49.64,
+      "end": 50.088
+    },
+    {
+      "text": "only",
+      "start": 50.1,
+      "end": 50.335
+    },
+    {
+      "text": "by",
+      "start": 50.347,
+      "end": 50.512
+    },
+    {
+      "text": "boat",
+      "start": 50.524,
+      "end": 50.843
+    },
+    {
+      "text": "plane",
+      "start": 51.067,
+      "end": 51.491
+    },
+    {
+      "text": "or",
+      "start": 51.798,
+      "end": 51.951
+    },
+    {
+      "text": "a",
+      "start": 51.963,
+      "end": 52.022
+    },
+    {
+      "text": "forty-mile",
+      "start": 52.034,
+      "end": 52.6
+    },
+    {
+      "text": "drive",
+      "start": 52.611,
+      "end": 52.93
+    },
+    {
+      "text": "through",
+      "start": 52.942,
+      "end": 53.142
+    },
+    {
+      "text": "another",
+      "start": 53.154,
+      "end": 53.449
+    },
+    {
+      "text": "country",
+      "start": 53.46,
+      "end": 53.932
+    },
+    {
+      "text": "In 1997",
+      "start": 54.158,
+      "end": 55.384
+    },
+    {
+      "text": "angry",
+      "start": 55.596,
+      "end": 55.915
+    },
+    {
+      "text": "over",
+      "start": 55.927,
+      "end": 56.139
+    },
+    {
+      "text": "Canadian",
+      "start": 56.151,
+      "end": 56.611
+    },
+    {
+      "text": "fishing",
+      "start": 56.622,
+      "end": 57.012
+    },
+    {
+      "text": "rules",
+      "start": 57.023,
+      "end": 57.412
+    },
+    {
+      "text": "locals",
+      "start": 57.66,
+      "end": 58.061
+    },
+    {
+      "text": "even",
+      "start": 58.073,
+      "end": 58.309
+    },
+    {
+      "text": "petitioned",
+      "start": 58.32,
+      "end": 58.769
+    },
+    {
+      "text": "Congress",
+      "start": 58.78,
+      "end": 59.217
+    },
+    {
+      "text": "to",
+      "start": 59.228,
+      "end": 59.335
+    },
+    {
+      "text": "leave",
+      "start": 59.346,
+      "end": 59.57
+    },
+    {
+      "text": "the",
+      "start": 59.582,
+      "end": 59.629
+    },
+    {
+      "text": "U.S.",
+      "start": 59.641,
+      "end": 60.089
+    },
+    {
+      "text": "and",
+      "start": 60.101,
+      "end": 60.231
+    },
+    {
+      "text": "join",
+      "start": 60.243,
+      "end": 60.526
+    },
+    {
+      "text": "Canada",
+      "start": 60.537,
+      "end": 60.974
+    },
+    {
+      "text": "before",
+      "start": 60.986,
+      "end": 61.292
+    },
+    {
+      "text": "a",
+      "start": 61.304,
+      "end": 61.375
+    },
+    {
+      "text": "deal",
+      "start": 61.387,
+      "end": 61.693
+    },
+    {
+      "text": "cooled",
+      "start": 61.705,
+      "end": 62.035
+    },
+    {
+      "text": "things",
+      "start": 62.047,
+      "end": 62.33
+    },
+    {
+      "text": "down",
+      "start": 62.342,
+      "end": 62.731
+    },
+    {
+      "text": "Today",
+      "start": 63.014,
+      "end": 63.45
+    },
+    {
+      "text": "about",
+      "start": 63.627,
+      "end": 63.863
+    },
+    {
+      "text": "a",
+      "start": 63.875,
+      "end": 63.91
+    },
+    {
+      "text": "hundred",
+      "start": 63.922,
+      "end": 64.24
+    },
+    {
+      "text": "Minnesotans",
+      "start": 64.252,
+      "end": 64.853
+    },
+    {
+      "text": "still",
+      "start": 64.865,
+      "end": 65.125
+    },
+    {
+      "text": "live",
+      "start": 65.136,
+      "end": 65.325
+    },
+    {
+      "text": "there",
+      "start": 65.337,
+      "end": 65.573
+    },
+    {
+      "text": "checking",
+      "start": 65.797,
+      "end": 66.186
+    },
+    {
+      "text": "in",
+      "start": 66.198,
+      "end": 66.316
+    },
+    {
+      "text": "at",
+      "start": 66.327,
+      "end": 66.398
+    },
+    {
+      "text": "a",
+      "start": 66.41,
+      "end": 66.445
+    },
+    {
+      "text": "lonely",
+      "start": 66.457,
+      "end": 66.823
+    },
+    {
+      "text": "border",
+      "start": 66.834,
+      "end": 67.141
+    },
+    {
+      "text": "kiosk",
+      "start": 67.153,
+      "end": 67.684
+    },
+    {
+      "text": "or",
+      "start": 67.967,
+      "end": 68.061
+    },
+    {
+      "text": "driving",
+      "start": 68.073,
+      "end": 68.485
+    },
+    {
+      "text": "right",
+      "start": 68.497,
+      "end": 68.686
+    },
+    {
+      "text": "across",
+      "start": 68.698,
+      "end": 69.028
+    },
+    {
+      "text": "the",
+      "start": 69.04,
+      "end": 69.122
+    },
+    {
+      "text": "frozen",
+      "start": 69.134,
+      "end": 69.57
+    },
+    {
+      "text": "lake",
+      "start": 69.582,
+      "end": 69.794
+    },
+    {
+      "text": "in",
+      "start": 69.806,
+      "end": 69.924
+    },
+    {
+      "text": "winter",
+      "start": 69.936,
+      "end": 70.349
+    },
+    {
+      "text": "That",
+      "start": 70.557,
+      "end": 70.816
+    },
+    {
+      "text": "old",
+      "start": 70.828,
+      "end": 71.017
+    },
+    {
+      "text": "map",
+      "start": 71.029,
+      "end": 71.312
+    },
+    {
+      "text": "blunder",
+      "start": 71.323,
+      "end": 71.677
+    },
+    {
+      "text": "created",
+      "start": 71.689,
+      "end": 72.114
+    },
+    {
+      "text": "the",
+      "start": 72.125,
+      "end": 72.184
+    },
+    {
+      "text": "northernmost",
+      "start": 72.196,
+      "end": 72.762
+    },
+    {
+      "text": "point",
+      "start": 72.774,
+      "end": 73.01
+    },
+    {
+      "text": "of",
+      "start": 73.022,
+      "end": 73.08
+    },
+    {
+      "text": "the",
+      "start": 73.092,
+      "end": 73.187
+    },
+    {
+      "text": "lower",
+      "start": 73.198,
+      "end": 73.47
+    },
+    {
+      "text": "forty-eight",
+      "start": 73.481,
+      "end": 74.024
+    },
+    {
+      "text": "and",
+      "start": 74.283,
+      "end": 74.389
+    },
+    {
+      "text": "America's",
+      "start": 74.401,
+      "end": 74.908
+    },
+    {
+      "text": "favorite",
+      "start": 74.92,
+      "end": 75.274
+    },
+    {
+      "text": "geography",
+      "start": 75.286,
+      "end": 75.828
+    },
+    {
+      "text": "quirk",
+      "start": 75.84,
+      "end": 76.288
+    },
+    {
+      "text": "So",
+      "start": 76.534,
+      "end": 76.758
+    },
+    {
+      "text": "be",
+      "start": 76.77,
+      "end": 76.923
+    },
+    {
+      "text": "honest",
+      "start": 76.935,
+      "end": 77.372
+    },
+    {
+      "text": "should",
+      "start": 77.596,
+      "end": 77.808
+    },
+    {
+      "text": "the",
+      "start": 77.82,
+      "end": 77.855
+    },
+    {
+      "text": "U.S.",
+      "start": 77.867,
+      "end": 78.303
+    },
+    {
+      "text": "and",
+      "start": 78.315,
+      "end": 78.445
+    },
+    {
+      "text": "Canada",
+      "start": 78.457,
+      "end": 78.857
+    },
+    {
+      "text": "finally",
+      "start": 78.869,
+      "end": 79.27
+    },
+    {
+      "text": "clean",
+      "start": 79.282,
+      "end": 79.553
+    },
+    {
+      "text": "up",
+      "start": 79.565,
+      "end": 79.683
+    },
+    {
+      "text": "the",
+      "start": 79.695,
+      "end": 79.777
+    },
+    {
+      "text": "border",
+      "start": 79.789,
+      "end": 80.155
+    },
+    {
+      "text": "or",
+      "start": 80.414,
+      "end": 80.556
+    },
+    {
+      "text": "should",
+      "start": 80.567,
+      "end": 80.744
+    },
+    {
+      "text": "Minnesota",
+      "start": 80.756,
+      "end": 81.251
+    },
+    {
+      "text": "keep",
+      "start": 81.263,
+      "end": 81.464
+    },
+    {
+      "text": "its",
+      "start": 81.475,
+      "end": 81.605
+    },
+    {
+      "text": "famous",
+      "start": 81.617,
+      "end": 81.971
+    },
+    {
+      "text": "bump",
+      "start": 81.982,
+      "end": 82.23
+    },
+    {
+      "text": "forever",
+      "start": 82.242,
+      "end": 82.761
+    }
+  ]
+}
