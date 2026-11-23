@@ -1,0 +1,824 @@
+{
+  "video_settings": {
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "subtitle_y_ratio": 0.79
+  },
+  "total_duration_sec": 85.566,
+  "scenes": [
+    {
+      "id": "scene_01",
+      "mode": "Mode A (3D Relief Map)",
+      "keyframe": "keyframes/scene_01.jpg",
+      "camera_start": {
+        "zoom": 1.04,
+        "pan_x": 0.0,
+        "pan_y": -0.01,
+        "tilt_deg": 0.0
+      },
+      "camera_end": {
+        "zoom": 1.18,
+        "pan_x": 0.0,
+        "pan_y": 0.02,
+        "tilt_deg": 0.9
+      },
+      "sprites": [
+        {
+          "bbox": [
+            0.58,
+            0.17,
+            0.815,
+            0.355
+          ],
+          "exclude_rects": [
+            [
+              0.785,
+              0.275,
+              1.0,
+              0.315
+            ]
+          ],
+          "motion": "glare_bob",
+          "pop_delay": 0.14
+        },
+        {
+          "bbox": [
+            0.16,
+            0.42,
+            0.425,
+            0.595
+          ],
+          "motion": "shudder",
+          "pop_delay": 0.32
+        }
+      ],
+      "overhead": {
+        "text": "RIVER BACKWARDS!",
+        "cx": 250,
+        "cy": 335,
+        "trigger_rel": 4.65,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.55
+        },
+        {
+          "rel": 0.16,
+          "type": "pawn_bounce",
+          "gain": 0.7
+        },
+        {
+          "rel": 0.35,
+          "type": "pawn_bounce",
+          "gain": 0.7
+        },
+        {
+          "rel": 4.65,
+          "type": "cork_pop",
+          "gain": 0.65
+        },
+        {
+          "rel": 4.85,
+          "type": "river_rush",
+          "gain": 0.55
+        },
+        {
+          "rel": -0.58,
+          "type": "tape_rewind",
+          "gain": 0.75
+        }
+      ],
+      "start_sec": 0.0,
+      "end_sec": 8.45,
+      "narration": "In 1900, Chicago pulled off a jaw-dropping engineering stunt: they forced an entire river to flow backwards... straight toward St. Louis."
+    },
+    {
+      "id": "scene_02",
+      "mode": "Mode A (VHS Rewind -> 1885)",
+      "keyframe": "keyframes/scene_02.jpg",
+      "vhs_rewind": true,
+      "camera_start": {
+        "zoom": 1.1,
+        "pan_x": 0.0,
+        "pan_y": -0.03,
+        "tilt_deg": -0.7
+      },
+      "camera_end": {
+        "zoom": 1.02,
+        "pan_x": 0.0,
+        "pan_y": 0.0,
+        "tilt_deg": 0.0
+      },
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "tape_rewind",
+          "gain": 0.72
+        },
+        {
+          "rel": 0.9,
+          "type": "parchment_brush",
+          "gain": 0.65
+        }
+      ],
+      "start_sec": 8.45,
+      "end_sec": 10.324,
+      "narration": "Wait... let's rewind."
+    },
+    {
+      "id": "scene_03",
+      "mode": "Mode A (3D Relief Map)",
+      "keyframe": "keyframes/scene_03.jpg",
+      "camera_start": {
+        "zoom": 1.04,
+        "pan_x": -0.02,
+        "pan_y": -0.01,
+        "tilt_deg": 0.0
+      },
+      "camera_end": {
+        "zoom": 1.19,
+        "pan_x": 0.03,
+        "pan_y": -0.02,
+        "tilt_deg": 0.8
+      },
+      "sprites": [
+        {
+          "bbox": [
+            0.17,
+            0.39,
+            0.51,
+            0.59
+          ],
+          "exclude_rects": [
+            [
+              0.35,
+              0.515,
+              0.59,
+              0.555
+            ]
+          ],
+          "motion": "write_bob",
+          "pop_delay": 0.14
+        }
+      ],
+      "overhead": {
+        "text": "INTO THE LAKE!",
+        "cx": 265,
+        "cy": 385,
+        "trigger_rel": 2.65,
+        "style": "cloud"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.48
+        },
+        {
+          "rel": 0.18,
+          "type": "pawn_bounce",
+          "gain": 0.65
+        },
+        {
+          "rel": 2.4,
+          "type": "water_splash",
+          "gain": 0.72
+        },
+        {
+          "rel": 2.65,
+          "type": "cork_pop",
+          "gain": 0.58
+        }
+      ],
+      "start_sec": 10.324,
+      "end_sec": 16.885,
+      "narration": "By the 1880s, booming Chicago dumped its waste into the Chicago River... which flowed straight into Lake Michigan."
+    },
+    {
+      "id": "scene_04",
+      "mode": "Mode A (3D Relief Map)",
+      "keyframe": "keyframes/scene_04.jpg",
+      "camera_start": {
+        "zoom": 1.04,
+        "pan_x": 0.01,
+        "pan_y": -0.02,
+        "tilt_deg": 0.0
+      },
+      "camera_end": {
+        "zoom": 1.2,
+        "pan_x": -0.02,
+        "pan_y": 0.01,
+        "tilt_deg": -0.9
+      },
+      "sprites": [
+        {
+          "bbox": [
+            0.19,
+            0.425,
+            0.455,
+            0.595
+          ],
+          "motion": "shiver",
+          "pop_delay": 0.12
+        }
+      ],
+      "overhead": {
+        "text": "WE DRINK THAT?!",
+        "cx": 245,
+        "cy": 365,
+        "trigger_rel": 2.95,
+        "style": "cloud"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 0.16,
+          "type": "pawn_bounce",
+          "gain": 0.6
+        },
+        {
+          "rel": 2.95,
+          "type": "jaw_drop",
+          "gain": 0.68
+        },
+        {
+          "rel": 5.1,
+          "type": "storm_thunder",
+          "gain": 0.72
+        },
+        {
+          "rel": 7.15,
+          "type": "somber_bell",
+          "gain": 0.45
+        }
+      ],
+      "start_sec": 16.885,
+      "end_sec": 25.591,
+      "narration": "The problem? Lake Michigan was Chicago's drinking water. After a massive 1885 storm, deadly disease swept the city."
+    },
+    {
+      "id": "scene_05",
+      "mode": "Mode A (3D Relief Map)",
+      "keyframe": "keyframes/scene_05.jpg",
+      "camera_start": {
+        "zoom": 1.03,
+        "pan_x": 0.02,
+        "pan_y": -0.01,
+        "tilt_deg": 0.0
+      },
+      "camera_end": {
+        "zoom": 1.18,
+        "pan_x": -0.01,
+        "pan_y": -0.03,
+        "tilt_deg": 0.9
+      },
+      "sprites": [
+        {
+          "bbox": [
+            0.7,
+            0.41,
+            0.985,
+            0.595
+          ],
+          "motion": "write_bob",
+          "pop_delay": 0.15
+        }
+      ],
+      "overhead": {
+        "text": "28-MILE CANAL!",
+        "cx": 330,
+        "cy": 250,
+        "trigger_rel": 2.7,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.48
+        },
+        {
+          "rel": 0.2,
+          "type": "pawn_bounce",
+          "gain": 0.68
+        },
+        {
+          "rel": 1.35,
+          "type": "parchment_brush",
+          "gain": 0.72
+        },
+        {
+          "rel": 2.7,
+          "type": "cork_pop",
+          "gain": 0.62
+        }
+      ],
+      "start_sec": 25.591,
+      "end_sec": 32.313,
+      "narration": "So engineers hatched a wild plan: dig a 28-mile canal deep enough to reverse gravity and drain the lake south."
+    },
+    {
+      "id": "scene_06",
+      "mode": "Mode B (2.5D Limestone Trench Diorama)",
+      "keyframe": "keyframes/scene_06.jpg",
+      "camera_start": {
+        "zoom": 1.05,
+        "pan_x": 0.0,
+        "pan_y": 0.02,
+        "tilt_deg": -0.5
+      },
+      "camera_end": {
+        "zoom": 1.22,
+        "pan_x": 0.0,
+        "pan_y": 0.05,
+        "tilt_deg": 0.8
+      },
+      "impact_shake_rel": 1.62,
+      "sprites": [],
+      "overhead": {
+        "text": "8 YEARS DIGGING!",
+        "cx": 360,
+        "cy": 470,
+        "trigger_rel": 1.5,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.48
+        },
+        {
+          "rel": 0.5,
+          "type": "pickaxe_clink",
+          "gain": 0.68
+        },
+        {
+          "rel": 1.05,
+          "type": "pickaxe_clink",
+          "gain": 0.62
+        },
+        {
+          "rel": 1.58,
+          "type": "dynamite_blast",
+          "gain": 0.82
+        },
+        {
+          "rel": 3.45,
+          "type": "pickaxe_clink",
+          "gain": 0.58
+        },
+        {
+          "rel": 5.75,
+          "type": "celesta_chime",
+          "gain": 0.62
+        }
+      ],
+      "start_sec": 32.313,
+      "end_sec": 39.132,
+      "narration": "For eight years, crews blasted through solid limestone, inventing excavation methods later used on the Panama Canal."
+    },
+    {
+      "id": "scene_07",
+      "mode": "Mode A (3D Relief Map)",
+      "keyframe": "keyframes/scene_07.jpg",
+      "camera_start": {
+        "zoom": 1.04,
+        "pan_x": 0.02,
+        "pan_y": -0.02,
+        "tilt_deg": 0.0
+      },
+      "camera_end": {
+        "zoom": 1.2,
+        "pan_x": -0.02,
+        "pan_y": 0.01,
+        "tilt_deg": -1.0
+      },
+      "sprites": [
+        {
+          "bbox": [
+            0.14,
+            0.43,
+            0.43,
+            0.6
+          ],
+          "motion": "lunge_right",
+          "pop_delay": 0.14
+        }
+      ],
+      "overhead": {
+        "text": "NOT IN OUR RIVER!",
+        "cx": 270,
+        "cy": 420,
+        "trigger_rel": 2.55,
+        "style": "cloud"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.48
+        },
+        {
+          "rel": 0.18,
+          "type": "pawn_bounce",
+          "gain": 0.68
+        },
+        {
+          "rel": 2.55,
+          "type": "cork_pop",
+          "gain": 0.6
+        },
+        {
+          "rel": 4.8,
+          "type": "war_horn",
+          "gain": 0.45
+        }
+      ],
+      "start_sec": 39.132,
+      "end_sec": 45.413,
+      "narration": "Downriver in Missouri, St. Louis realized Chicago's waste was heading straight for them, and raced to court to stop it."
+    },
+    {
+      "id": "scene_08",
+      "mode": "Mode B (2.5D Winter Dawn Diorama)",
+      "keyframe": "keyframes/scene_08.jpg",
+      "camera_start": {
+        "zoom": 1.04,
+        "pan_x": 0.0,
+        "pan_y": 0.02,
+        "tilt_deg": 0.0
+      },
+      "camera_end": {
+        "zoom": 1.22,
+        "pan_x": 0.0,
+        "pan_y": 0.04,
+        "tilt_deg": -0.9
+      },
+      "impact_shake_rel": 7.52,
+      "sprites": [],
+      "overhead": {
+        "text": "JAN 2, 1900!",
+        "cx": 360,
+        "cy": 185,
+        "trigger_rel": 2.95,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.48
+        },
+        {
+          "rel": 0.35,
+          "type": "cold_wind",
+          "gain": 0.58
+        },
+        {
+          "rel": 2.95,
+          "type": "cork_pop",
+          "gain": 0.6
+        },
+        {
+          "rel": 7.48,
+          "type": "dynamite_blast",
+          "gain": 0.9
+        },
+        {
+          "rel": 7.85,
+          "type": "river_rush",
+          "gain": 0.68
+        }
+      ],
+      "start_sec": 45.413,
+      "end_sec": 54.697,
+      "narration": "Chicago didn't wait. Before dawn on January 2nd, 1900, officials quietly snuck out in the freezing dark and blasted open the final dam."
+    },
+    {
+      "id": "scene_09",
+      "mode": "Mode A (3D Relief Map)",
+      "keyframe": "keyframes/scene_09.jpg",
+      "camera_start": {
+        "zoom": 1.04,
+        "pan_x": 0.02,
+        "pan_y": -0.02,
+        "tilt_deg": 0.0
+      },
+      "camera_end": {
+        "zoom": 1.2,
+        "pan_x": -0.02,
+        "pan_y": 0.02,
+        "tilt_deg": 1.0
+      },
+      "sprites": [
+        {
+          "bbox": [
+            0.13,
+            0.185,
+            0.43,
+            0.39
+          ],
+          "motion": "cheer_bounce",
+          "pop_delay": 0.1
+        },
+        {
+          "bbox": [
+            0.32,
+            0.535,
+            0.43,
+            0.615
+          ],
+          "motion": "barge_drift_sw",
+          "pop_delay": 0.0
+        }
+      ],
+      "overhead": {
+        "text": "FLOW REVERSED!",
+        "cx": 330,
+        "cy": 165,
+        "trigger_rel": 3.3,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.48
+        },
+        {
+          "rel": 0.15,
+          "type": "river_rush",
+          "gain": 0.72
+        },
+        {
+          "rel": 0.25,
+          "type": "pawn_bounce",
+          "gain": 0.6
+        },
+        {
+          "rel": 3.3,
+          "type": "cork_pop",
+          "gain": 0.62
+        },
+        {
+          "rel": 4.45,
+          "type": "celesta_chime",
+          "gain": 0.65
+        }
+      ],
+      "start_sec": 54.697,
+      "end_sec": 60.091,
+      "narration": "Lake Michigan rushed inland, and for the first time ever, the Chicago River flowed backwards."
+    },
+    {
+      "id": "scene_10",
+      "mode": "Mode A (3D Relief Map)",
+      "keyframe": "keyframes/scene_10.jpg",
+      "camera_start": {
+        "zoom": 1.03,
+        "pan_x": -0.01,
+        "pan_y": 0.0,
+        "tilt_deg": 0.0
+      },
+      "camera_end": {
+        "zoom": 1.19,
+        "pan_x": 0.02,
+        "pan_y": -0.02,
+        "tilt_deg": -0.8
+      },
+      "impact_shake_rel": 3.3,
+      "sprites": [
+        {
+          "bbox": [
+            0.5,
+            0.34,
+            0.9,
+            0.61
+          ],
+          "exclude_rects": [
+            [
+              0.68,
+              0.32,
+              1.0,
+              0.375
+            ]
+          ],
+          "motion": "gavel_slam",
+          "pop_delay": 0.14,
+          "slam_rel": 3.3
+        },
+        {
+          "bbox": [
+            0.21,
+            0.43,
+            0.425,
+            0.595
+          ],
+          "motion": "shudder_after_slam",
+          "pop_delay": 0.22,
+          "slam_rel": 3.3
+        },
+        {
+          "bbox": [
+            0.36,
+            0.16,
+            0.535,
+            0.31
+          ],
+          "motion": "glare_bob",
+          "pop_delay": 0.18
+        }
+      ],
+      "overhead": {
+        "text": "CASE DISMISSED!",
+        "cx": 420,
+        "cy": 135,
+        "trigger_rel": 3.35,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.48
+        },
+        {
+          "rel": 0.18,
+          "type": "pawn_bounce",
+          "gain": 0.65
+        },
+        {
+          "rel": 3.3,
+          "type": "gavel_slam",
+          "gain": 0.88
+        },
+        {
+          "rel": 3.45,
+          "type": "jaw_drop",
+          "gain": 0.68
+        },
+        {
+          "rel": 3.55,
+          "type": "cork_pop",
+          "gain": 0.55
+        }
+      ],
+      "start_sec": 60.091,
+      "end_sec": 68.745,
+      "narration": "Missouri sued Illinois all the way to the Supreme Court... and lost. The justices ruled St. Louis couldn't prove Chicago caused its illness."
+    },
+    {
+      "id": "scene_11",
+      "mode": "Mode A (3D Relief Map)",
+      "keyframe": "keyframes/scene_11.jpg",
+      "camera_start": {
+        "zoom": 1.04,
+        "pan_x": 0.0,
+        "pan_y": -0.01,
+        "tilt_deg": 0.0
+      },
+      "camera_end": {
+        "zoom": 1.2,
+        "pan_x": 0.0,
+        "pan_y": -0.03,
+        "tilt_deg": 0.9
+      },
+      "sprites": [
+        {
+          "bbox": [
+            0.15,
+            0.4,
+            0.43,
+            0.595
+          ],
+          "motion": "cheer_bounce",
+          "pop_delay": 0.12
+        },
+        {
+          "bbox": [
+            0.51,
+            0.495,
+            0.6,
+            0.56
+          ],
+          "motion": "ship_rock",
+          "pop_delay": 0.0
+        }
+      ],
+      "overhead": {
+        "text": "STILL BACKWARDS!",
+        "cx": 300,
+        "cy": 255,
+        "trigger_rel": 1.45,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 0.16,
+          "type": "pawn_bounce",
+          "gain": 0.62
+        },
+        {
+          "rel": 1.45,
+          "type": "cork_pop",
+          "gain": 0.6
+        },
+        {
+          "rel": 4.75,
+          "type": "celesta_chime",
+          "gain": 0.72
+        },
+        {
+          "rel": 5.45,
+          "type": "celesta_chime_hi",
+          "gain": 0.68
+        }
+      ],
+      "start_sec": 68.745,
+      "end_sec": 75.616,
+      "narration": "Today, the river still flows backwards: hailed as an engineering wonder, and dyed bright green every St. Patrick's Day."
+    },
+    {
+      "id": "scene_12",
+      "mode": "Mode A (3D Relief Map)",
+      "keyframe": "keyframes/scene_12.jpg",
+      "camera_start": {
+        "zoom": 1.03,
+        "pan_x": 0.0,
+        "pan_y": -0.01,
+        "tilt_deg": 0.0
+      },
+      "camera_end": {
+        "zoom": 1.17,
+        "pan_x": 0.0,
+        "pan_y": 0.01,
+        "tilt_deg": 0.6
+      },
+      "sprites": [
+        {
+          "bbox": [
+            0.6,
+            0.095,
+            0.795,
+            0.255
+          ],
+          "motion": "football_hop_r",
+          "pop_delay": 0.14
+        },
+        {
+          "bbox": [
+            0.18,
+            0.42,
+            0.445,
+            0.595
+          ],
+          "motion": "football_hop_l",
+          "pop_delay": 0.26
+        }
+      ],
+      "overhead": {
+        "text": "CHICAGO vs. ST. LOUIS",
+        "cx": 270,
+        "cy": 295,
+        "trigger_rel": 2.35,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.5
+        },
+        {
+          "rel": 0.25,
+          "type": "stadium_swell",
+          "gain": 0.6
+        },
+        {
+          "rel": 2.35,
+          "type": "cork_pop",
+          "gain": 0.65
+        }
+      ],
+      "start_sec": 75.616,
+      "end_sec": 85.566,
+      "narration": "It saved Chicago and fueled a legendary Midwest rivalry. So be honest... pure engineering genius, or the dirtiest trick ever played on St. Louis?"
+    }
+  ]
+}
