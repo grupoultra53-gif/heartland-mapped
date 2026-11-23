@@ -58,6 +58,7 @@ Import or adapt `scripts/foley_mixer.py` to mix the voiceover (`96%` gain) with 
 
 1. Pipe the `30 FPS` RGB frames and mixed WAV audio into `ffmpeg` (`libx264 -preset fast -crf 19 -pix_fmt yuv420p -c:a aac -b:a 192k -shortest`) to produce the final `.mp4` animation.
 2. Generate the companion Markdown Storyboard and SFX Cue Sheet.
+3. Keep rendered `.mp4` videos out of Git (`*.mp4` is gitignored) and upload/update them in the **Heartland Mapped** Google Drive folder (`1ge1IlbHw1N47j0BwXcVT79lCZCbi8kXw`, account `grupoultra53@gmail.com`) using the `gdrive` CLI (`gdrive mutate upload <video.mp4> --parent 1ge1IlbHw1N47j0BwXcVT79lCZCbi8kXw`, or `gdrive mutate update <file_id> <video.mp4>` when replacing an existing render). Sync scripts, configs, keyframes, voiceover audio, and storyboards via GitHub (`https://github.com/grupoultra53-gif/heartland-mapped`).
 
 ## Gotchas
 
