@@ -4,5 +4,6 @@ __pycache__/
 episodes/*/audio_segments/
 episodes/*/*_mixed.wav
 episodes/*/*.wav
+episodes/*/*_raw.mp3
 *.mp4
 

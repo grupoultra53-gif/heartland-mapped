@@ -1,0 +1,14 @@
+{
+  "episode": "ep05_carter_lake",
+  "video_file": "heartland_mapped_ep05_carter_lake.mp4",
+  "duration_sec": 69.57,
+  "visual_jumps_per_10s": 20.55,
+  "planned_shots_per_10s": 5.32,
+  "closeup_pct": 60.2,
+  "frame0_zoom": 2.04,
+  "frame0_visible_sprites": 2,
+  "audio_gap_db_drop": 5.18,
+  "has_comment_panel": true,
+  "has_seamless_loop": true,
+  "all_pass": true
+}

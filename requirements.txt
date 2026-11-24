@@ -3,3 +3,4 @@ numpy
 pillow
 scipy
 edge-tts
+faster-whisper

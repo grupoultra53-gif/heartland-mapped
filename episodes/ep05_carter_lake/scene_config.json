@@ -1,0 +1,1004 @@
+{
+  "video_settings": {
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "subtitle_y_ratio": 0.79,
+    "subtitle_panel_y_ratio": 0.47,
+    "version": "v2",
+    "voice_provider": "Fish Audio S2.1 Pro \u2014 Ethan (@Fish Official)"
+  },
+  "total_duration_sec": 69.571,
+  "scenes": [
+    {
+      "id": "scene_01",
+      "mode": "Mode A (3D Relief Map \u2014 Frame 0 Hook)",
+      "keyframe": "keyframes/scene_01.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 2.04,
+          "pan_x": -0.09,
+          "pan_y": -0.05,
+          "tilt_deg": 0.0,
+          "end_zoom": 2.16,
+          "end_pan_x": -0.08,
+          "end_pan_y": -0.05,
+          "end_tilt_deg": 0.5
+        },
+        {
+          "t": 1.65,
+          "zoom": 1.4,
+          "pan_x": -0.02,
+          "pan_y": -0.14,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.48,
+          "end_pan_x": -0.02,
+          "end_pan_y": -0.14,
+          "end_tilt_deg": 0.5
+        },
+        {
+          "t": 2.75,
+          "zoom": 2.1,
+          "pan_x": -0.27,
+          "pan_y": 0.04,
+          "tilt_deg": -0.4,
+          "end_zoom": 2.22,
+          "end_pan_x": -0.26,
+          "end_pan_y": 0.04,
+          "end_tilt_deg": 0.4
+        }
+      ],
+      "sprites": [
+        {
+          "bbox": [
+            0.31,
+            0.36,
+            0.55,
+            0.495
+          ],
+          "motion": "cheer_bounce",
+          "pop_delay": 0.0
+        },
+        {
+          "bbox": [
+            0.09,
+            0.495,
+            0.255,
+            0.625
+          ],
+          "motion": "glare_bob",
+          "pop_delay": 0.0
+        }
+      ],
+      "overhead": {
+        "text": "INSIDE NEBRASKA?!",
+        "cx": 420,
+        "cy": 250,
+        "trigger_rel": 1.7,
+        "end_rel": 2.72,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.02,
+          "type": "pawn_bounce",
+          "gain": 0.65
+        },
+        {
+          "rel": 1.7,
+          "type": "cork_pop",
+          "gain": 0.65
+        },
+        {
+          "rel": -0.5,
+          "type": "tape_rewind",
+          "gain": 0.72
+        }
+      ],
+      "start_sec": 0.0,
+      "end_sec": 4.02,
+      "narration": "How did one spring flood trap an entire Iowa town inside Nebraska overnight?"
+    },
+    {
+      "id": "scene_02",
+      "mode": "Mode A (VHS Rewind -> 1877)",
+      "keyframe": "keyframes/scene_02.jpg",
+      "vhs_rewind": true,
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.14,
+          "pan_x": 0.0,
+          "pan_y": -0.05,
+          "tilt_deg": -0.8,
+          "end_zoom": 1.04,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.02,
+          "end_tilt_deg": 0.0
+        },
+        {
+          "t": 1.02,
+          "zoom": 1.78,
+          "pan_x": 0.0,
+          "pan_y": -0.28,
+          "tilt_deg": 0.5,
+          "end_zoom": 1.92,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.3,
+          "end_tilt_deg": 0.0
+        }
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "tape_rewind",
+          "gain": 0.7
+        },
+        {
+          "rel": 1.0,
+          "type": "parchment_brush",
+          "gain": 0.65
+        }
+      ],
+      "start_sec": 4.02,
+      "end_sec": 6.18,
+      "narration": "Wait... let's rewind."
+    },
+    {
+      "id": "scene_03",
+      "mode": "Mode A (3D Relief Map \u2014 1846 Saratoga Bend)",
+      "keyframe": "keyframes/scene_03.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": -0.02,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.15,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.03,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 2.68,
+          "zoom": 2.04,
+          "pan_x": 0.22,
+          "pan_y": -0.02,
+          "tilt_deg": -0.4,
+          "end_zoom": 2.16,
+          "end_pan_x": 0.22,
+          "end_pan_y": -0.02,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 4.8,
+          "zoom": 1.82,
+          "pan_x": -0.06,
+          "pan_y": 0.16,
+          "tilt_deg": 0.3,
+          "end_zoom": 1.96,
+          "end_pan_x": -0.05,
+          "end_pan_y": 0.16,
+          "end_tilt_deg": -0.3
+        },
+        {
+          "t": 6.6,
+          "zoom": 1.1,
+          "pan_x": 0.0,
+          "pan_y": 0.02,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.2,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.01,
+          "end_tilt_deg": 0.5
+        }
+      ],
+      "sprites": [
+        {
+          "bbox": [
+            0.55,
+            0.355,
+            0.9,
+            0.605
+          ],
+          "motion": "write_bob",
+          "pop_delay": 0.0
+        }
+      ],
+      "overhead": {
+        "text": "SARATOGA BEND!",
+        "cx": 360,
+        "cy": 255,
+        "trigger_rel": 6.62,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 2.7,
+          "type": "parchment_brush",
+          "gain": 0.66
+        },
+        {
+          "rel": 6.64,
+          "type": "cork_pop",
+          "gain": 0.6
+        }
+      ],
+      "start_sec": 6.18,
+      "end_sec": 14.26,
+      "narration": "In 1846, the Missouri River formed the clean border between Iowa and Nebraska\u2014looping into a giant horseshoe bend just north of Omaha."
+    },
+    {
+      "id": "scene_04",
+      "mode": "Mode B (2.5D March 1877 Ice Jam Diorama)",
+      "keyframe": "keyframes/scene_04.jpg",
+      "impact_shake_rel": 3.5,
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": -0.4,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 1.95,
+          "zoom": 1.96,
+          "pan_x": 0.02,
+          "pan_y": -0.08,
+          "tilt_deg": 0.4,
+          "end_zoom": 2.1,
+          "end_pan_x": 0.02,
+          "end_pan_y": -0.08,
+          "end_tilt_deg": -0.3
+        },
+        {
+          "t": 3.45,
+          "zoom": 1.98,
+          "pan_x": 0.04,
+          "pan_y": 0.08,
+          "tilt_deg": -0.4,
+          "end_zoom": 2.12,
+          "end_pan_x": 0.04,
+          "end_pan_y": 0.08,
+          "end_tilt_deg": 0.4
+        }
+      ],
+      "sprites": [],
+      "overhead": {
+        "text": "MARCH 1877!",
+        "cx": 360,
+        "cy": 500,
+        "trigger_rel": 3.5,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 0.15,
+          "type": "river_rush",
+          "gain": 0.56
+        },
+        {
+          "rel": 2.2,
+          "type": "ice_crash",
+          "gain": 0.72
+        },
+        {
+          "rel": 3.5,
+          "type": "ice_crash",
+          "gain": 0.8
+        },
+        {
+          "rel": 3.55,
+          "type": "cork_pop",
+          "gain": 0.58
+        }
+      ],
+      "start_sec": 14.26,
+      "end_sec": 19.16,
+      "narration": "Then in March 1877, a massive ice jam and spring flood slammed the river."
+    },
+    {
+      "id": "scene_05",
+      "mode": "Mode A (3D Relief Map \u2014 Overnight Avulsion)",
+      "keyframe": "keyframes/scene_05.jpg",
+      "impact_shake_rel": 1.8,
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": -0.02,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.02,
+          "end_tilt_deg": -0.3
+        },
+        {
+          "t": 1.78,
+          "zoom": 1.96,
+          "pan_x": 0.08,
+          "pan_y": -0.06,
+          "tilt_deg": -0.4,
+          "end_zoom": 2.1,
+          "end_pan_x": 0.08,
+          "end_pan_y": 0.02,
+          "end_tilt_deg": 0.4
+        },
+        {
+          "t": 3.95,
+          "zoom": 2.1,
+          "pan_x": 0.28,
+          "pan_y": -0.03,
+          "tilt_deg": 0.4,
+          "end_zoom": 2.22,
+          "end_pan_x": 0.28,
+          "end_pan_y": -0.03,
+          "end_tilt_deg": -0.3
+        },
+        {
+          "t": 5.15,
+          "zoom": 1.12,
+          "pan_x": 0.0,
+          "pan_y": 0.06,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.22,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.08,
+          "end_tilt_deg": -0.6
+        }
+      ],
+      "sprites": [
+        {
+          "bbox": [
+            0.785,
+            0.44,
+            0.945,
+            0.565
+          ],
+          "motion": "shudder",
+          "pop_delay": 0.0
+        }
+      ],
+      "overhead": {
+        "text": "1 MILE EAST!",
+        "cx": 250,
+        "cy": 255,
+        "trigger_rel": 5.18,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 1.75,
+          "type": "map_crack",
+          "gain": 0.78
+        },
+        {
+          "rel": 1.9,
+          "type": "river_rush",
+          "gain": 0.54
+        },
+        {
+          "rel": 3.98,
+          "type": "jaw_drop",
+          "gain": 0.66
+        },
+        {
+          "rel": 5.2,
+          "type": "cork_pop",
+          "gain": 0.58
+        }
+      ],
+      "start_sec": 19.16,
+      "end_sec": 25.56,
+      "narration": "Overnight, raging floodwaters burst straight across the narrow neck, carving a brand-new river channel over a mile east."
+    },
+    {
+      "id": "scene_06",
+      "mode": "Mode A (3D Relief Map \u2014 1,300 Acres Stranded)",
+      "keyframe": "keyframes/scene_06.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.82,
+          "pan_x": -0.16,
+          "pan_y": -0.01,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.94,
+          "end_pan_x": -0.15,
+          "end_pan_y": -0.01,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 2.45,
+          "zoom": 2.12,
+          "pan_x": -0.14,
+          "pan_y": -0.03,
+          "tilt_deg": -0.4,
+          "end_zoom": 2.24,
+          "end_pan_x": -0.14,
+          "end_pan_y": -0.03,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 4.6,
+          "zoom": 1.08,
+          "pan_x": 0.0,
+          "pan_y": -0.02,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.18,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.03,
+          "end_tilt_deg": -0.5
+        }
+      ],
+      "sprites": [
+        {
+          "bbox": [
+            0.27,
+            0.345,
+            0.445,
+            0.5
+          ],
+          "motion": "shudder",
+          "pop_delay": 0.0
+        }
+      ],
+      "overhead": {
+        "text": "1,300 ACRES STRANDED!",
+        "cx": 360,
+        "cy": 235,
+        "trigger_rel": 4.65,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 2.5,
+          "type": "jaw_drop",
+          "gain": 0.68
+        },
+        {
+          "rel": 4.65,
+          "type": "cork_pop",
+          "gain": 0.6
+        }
+      ],
+      "start_sec": 25.56,
+      "end_sec": 32.26,
+      "narration": "Left behind was a quiet horseshoe lake\u2014and 1,300 acres of Iowa suddenly stranded on Nebraska's side of the river."
+    },
+    {
+      "id": "scene_07",
+      "mode": "Mode A (3D Relief Map \u2014 Nebraska vs. Iowa Feud)",
+      "keyframe": "keyframes/scene_07.jpg",
+      "impact_shake_rel": 4.28,
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.08,
+          "pan_x": 0.0,
+          "pan_y": -0.04,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.16,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.04,
+          "end_tilt_deg": -0.3
+        },
+        {
+          "t": 1.88,
+          "zoom": 2.14,
+          "pan_x": -0.2,
+          "pan_y": -0.12,
+          "tilt_deg": 0.4,
+          "end_zoom": 2.26,
+          "end_pan_x": -0.19,
+          "end_pan_y": -0.12,
+          "end_tilt_deg": -0.3
+        },
+        {
+          "t": 4.25,
+          "zoom": 2.14,
+          "pan_x": 0.25,
+          "pan_y": -0.05,
+          "tilt_deg": -0.4,
+          "end_zoom": 2.28,
+          "end_pan_x": 0.25,
+          "end_pan_y": -0.05,
+          "end_tilt_deg": 0.4
+        }
+      ],
+      "sprites": [
+        {
+          "bbox": [
+            0.15,
+            0.265,
+            0.445,
+            0.47
+          ],
+          "motion": "lunge_right",
+          "pop_delay": 0.0
+        },
+        {
+          "bbox": [
+            0.6,
+            0.34,
+            0.93,
+            0.58
+          ],
+          "motion": "lunge_left",
+          "pop_delay": 0.0
+        }
+      ],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 1.92,
+          "type": "cork_pop",
+          "gain": 0.62
+        },
+        {
+          "rel": 4.28,
+          "type": "steam_whistle",
+          "gain": 0.72
+        }
+      ],
+      "start_sec": 32.26,
+      "end_sec": 38.98,
+      "narration": "Nebraska wasted zero time: \"It's on our side now\u2014hand it over!\" Iowa fired back: \"Not a chance.\""
+    },
+    {
+      "id": "scene_08",
+      "mode": "Mode A (3D Relief Map \u2014 1892 Supreme Court Avulsion Rule)",
+      "keyframe": "keyframes/scene_08.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 2.04,
+          "pan_x": 0.12,
+          "pan_y": -0.13,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.16,
+          "end_pan_x": 0.12,
+          "end_pan_y": -0.13,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 2.75,
+          "zoom": 1.08,
+          "pan_x": 0.0,
+          "pan_y": -0.02,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.16,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.02,
+          "end_tilt_deg": 0.4
+        },
+        {
+          "t": 4.8,
+          "zoom": 1.96,
+          "pan_x": -0.18,
+          "pan_y": 0.0,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.08,
+          "end_pan_x": -0.17,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": -0.3
+        },
+        {
+          "t": 6.75,
+          "zoom": 2.06,
+          "pan_x": 0.28,
+          "pan_y": 0.08,
+          "tilt_deg": -0.4,
+          "end_zoom": 2.18,
+          "end_pan_x": 0.28,
+          "end_pan_y": 0.08,
+          "end_tilt_deg": 0.3
+        }
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 2.8,
+          "type": "parchment_brush",
+          "gain": 0.66
+        },
+        {
+          "rel": 6.8,
+          "type": "cork_pop",
+          "gain": 0.62
+        }
+      ],
+      "start_sec": 38.98,
+      "end_sec": 47.58,
+      "narration": "In 1892, the U.S. Supreme Court stepped in with an ancient rule: slow river shifts move a border, but a sudden flood jump does not."
+    },
+    {
+      "id": "scene_09",
+      "mode": "Mode A (3D Relief Map \u2014 Unanimous Victory to Iowa)",
+      "keyframe": "keyframes/scene_09.jpg",
+      "impact_shake_rel": 2.58,
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.08,
+          "pan_x": 0.0,
+          "pan_y": -0.02,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.18,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.03,
+          "end_tilt_deg": 0.4
+        },
+        {
+          "t": 2.55,
+          "zoom": 2.12,
+          "pan_x": -0.08,
+          "pan_y": -0.04,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.26,
+          "end_pan_x": -0.08,
+          "end_pan_y": -0.04,
+          "end_tilt_deg": 0.4
+        }
+      ],
+      "sprites": [
+        {
+          "bbox": [
+            0.33,
+            0.395,
+            0.53,
+            0.52
+          ],
+          "motion": "cheer_bounce",
+          "pop_delay": 0.0
+        },
+        {
+          "bbox": [
+            0.08,
+            0.535,
+            0.22,
+            0.655
+          ],
+          "motion": "glare_bob_alt",
+          "pop_delay": 0.0
+        }
+      ],
+      "overhead": {
+        "text": "IOWA WINS!",
+        "cx": 360,
+        "cy": 285,
+        "trigger_rel": 0.85,
+        "end_rel": 2.52,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 0.88,
+          "type": "cork_pop",
+          "gain": 0.58
+        },
+        {
+          "rel": 2.56,
+          "type": "gavel_slam",
+          "gain": 0.86
+        },
+        {
+          "rel": 2.85,
+          "type": "celesta_chime",
+          "gain": 0.68
+        },
+        {
+          "rel": 3.4,
+          "type": "celesta_chime_hi",
+          "gain": 0.64
+        }
+      ],
+      "start_sec": 47.58,
+      "end_sec": 51.84,
+      "narration": "The border stayed frozen in the old lakebed\u2014handing a unanimous victory to Iowa."
+    },
+    {
+      "id": "scene_10",
+      "mode": "Mode B (2.5D Omaha Airport & Welcome Signs Diorama)",
+      "keyframe": "keyframes/scene_10.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.02,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.15,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.02,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 2.65,
+          "zoom": 2.04,
+          "pan_x": -0.22,
+          "pan_y": -0.03,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.16,
+          "end_pan_x": -0.21,
+          "end_pan_y": -0.03,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 6.15,
+          "zoom": 2.02,
+          "pan_x": 0.16,
+          "pan_y": -0.08,
+          "tilt_deg": 0.4,
+          "end_zoom": 2.16,
+          "end_pan_x": 0.18,
+          "end_pan_y": -0.09,
+          "end_tilt_deg": -0.3
+        },
+        {
+          "t": 7.7,
+          "zoom": 2.08,
+          "pan_x": 0.14,
+          "pan_y": 0.11,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.2,
+          "end_pan_x": 0.14,
+          "end_pan_y": 0.11,
+          "end_tilt_deg": 0.4
+        }
+      ],
+      "sprites": [],
+      "overhead": {
+        "text": "WAIT... IOWA?!",
+        "cx": 485,
+        "cy": 565,
+        "trigger_rel": 7.75,
+        "style": "cloud"
+      },
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 6.15,
+          "type": "jet_flyby",
+          "gain": 0.56
+        },
+        {
+          "rel": 7.78,
+          "type": "cork_pop",
+          "gain": 0.62
+        }
+      ],
+      "start_sec": 51.84,
+      "end_sec": 61.52,
+      "narration": "Today, nearly 3,800 folks live in Carter Lake\u2014the only Iowa town west of the Missouri River. Even drivers leaving Omaha's airport cut straight through Iowa!"
+    },
+    {
+      "id": "scene_11",
+      "mode": "Mode A (3D Relief Map \u2014 Cross Nebraska to Reach Iowa)",
+      "keyframe": "keyframes/scene_11.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.92,
+          "pan_x": -0.2,
+          "pan_y": -0.26,
+          "tilt_deg": 0.0,
+          "end_zoom": 2.04,
+          "end_pan_x": -0.2,
+          "end_pan_y": -0.26,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 1.6,
+          "zoom": 2.02,
+          "pan_x": -0.22,
+          "pan_y": 0.15,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.14,
+          "end_pan_x": -0.2,
+          "end_pan_y": 0.16,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 2.85,
+          "zoom": 1.08,
+          "pan_x": 0.0,
+          "pan_y": 0.02,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.18,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.03,
+          "end_tilt_deg": 0.5
+        }
+      ],
+      "sprites": [
+        {
+          "bbox": [
+            0.21,
+            0.62,
+            0.315,
+            0.69
+          ],
+          "motion": "car_drive",
+          "pop_delay": 0.0
+        },
+        {
+          "bbox": [
+            0.68,
+            0.7,
+            0.77,
+            0.785
+          ],
+          "motion": "glare_bob",
+          "pop_delay": 0.0
+        }
+      ],
+      "overhead": {
+        "text": "VIA NEBRASKA!",
+        "cx": 360,
+        "cy": 360,
+        "trigger_rel": 2.88,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 2.9,
+          "type": "cork_pop",
+          "gain": 0.6
+        }
+      ],
+      "start_sec": 61.52,
+      "end_sec": 65.6,
+      "narration": "To drive to the rest of Iowa, locals literally have to cross into Nebraska first."
+    },
+    {
+      "id": "scene_12",
+      "mode": "Mode A (3D Relief Map + Comment Panel + Loop)",
+      "keyframe": "keyframes/scene_12.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.01,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.06,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.01,
+          "end_tilt_deg": 0.2
+        },
+        {
+          "t": 1.45,
+          "zoom": 1.08,
+          "pan_x": 0.0,
+          "pan_y": -0.02,
+          "tilt_deg": -0.2,
+          "end_zoom": 1.13,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.03,
+          "end_tilt_deg": 0.2
+        }
+      ],
+      "sprites": [
+        {
+          "bbox": [
+            0.075,
+            0.175,
+            0.345,
+            0.405
+          ],
+          "motion": "football_hop_l",
+          "pop_delay": 0.0
+        },
+        {
+          "bbox": [
+            0.675,
+            0.195,
+            0.955,
+            0.405
+          ],
+          "motion": "football_hop_r",
+          "pop_delay": 0.0
+        }
+      ],
+      "overhead": null,
+      "comment_panel": {
+        "trigger_rel": 0.14,
+        "keyword": "IOWA",
+        "comments": [
+          {
+            "handle": "@IowaHawkeye",
+            "text": "IOWA! Supreme Court settled it!",
+            "likes": "814 \u2665",
+            "color": [
+              26,
+              78,
+              198
+            ]
+          },
+          {
+            "handle": "@OmahaLocal",
+            "text": "NEBRASKA! It's on our side!!",
+            "likes": "629 \u2665",
+            "color": [
+              196,
+              38,
+              38
+            ]
+          }
+        ]
+      },
+      "loop_return_sec": 0.3,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.46
+        },
+        {
+          "rel": 0.18,
+          "type": "stadium_swell",
+          "gain": 0.42
+        }
+      ],
+      "start_sec": 65.6,
+      "end_sec": 69.571,
+      "narration": "Comment IOWA to keep it, or NEBRASKA to annex it\u2014and now you know..."
+    }
+  ]
+}

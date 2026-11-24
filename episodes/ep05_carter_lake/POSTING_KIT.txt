@@ -1,0 +1,49 @@
+================================================================================
+HEARTLAND MAPPED — EPISODE 05 (v2): CARTER LAKE — IOWA TRAPPED INSIDE NEBRASKA
+KIT PRONTO PARA POSTAR (FACEBOOK REELS & YOUTUBE SHORTS)
+================================================================================
+
+ARQUIVO DE VIDEO:
+heartland_mapped_ep05_carter_lake.mp4 (70s | 720x1280 | 30 FPS | v2 + Fish Audio Ethan)
+Google Drive: https://drive.google.com/file/d/1SeaVf1N1eoiSdL5MZW1cvO6x9PZnFGwN/view?usp=drivesdk
+
+--------------------------------------------------------------------------------
+1. FACEBOOK REELS — LEGENDA (COPIAR E COLAR)
+--------------------------------------------------------------------------------
+How did one spring flood trap an entire Iowa town inside Nebraska overnight? 🌊🗺️
+
+In March 1877, the Missouri River violently jumped its bend near Omaha, stranding 1,300 acres of Iowa on Nebraska's side of the river—and in 1892, the U.S. Supreme Court ruled it STILL belonged to Iowa! Today, even drivers leaving Omaha's airport cut straight through Iowa!
+
+Comment IOWA if Iowa should keep Carter Lake forever, or NEBRASKA if Nebraska should annex it! 👇
+
+#MidwestHistory #Iowa #Nebraska #CarterLake #Omaha #MissouriRiver #AmericanHistory #Geography #HeartlandMapped
+
+--------------------------------------------------------------------------------
+2. YOUTUBE SHORTS — TITULO (COPIAR E COLAR)
+--------------------------------------------------------------------------------
+How One Flood Trapped an Entire Iowa Town Inside Nebraska 🌊🗺️
+
+(Alternativa: Why You Drive Through Iowa Just Leaving Omaha's Airport 🗺️)
+
+--------------------------------------------------------------------------------
+3. YOUTUBE SHORTS — DESCRICAO (COPIAR E COLAR)
+--------------------------------------------------------------------------------
+How did one spring flood trap an entire Iowa town inside Nebraska overnight? In March 1877, a massive ice jam forced the Missouri River to cut straight across Saratoga Bend, leaving Carter Lake—and 1,300 acres of Iowa—stranded on the Nebraska side.
+
+In 1892 (Nebraska v. Iowa), the U.S. Supreme Court unanimously ruled that a sudden flood jump (avulsion) doesn't move a state border. Comment IOWA to keep it, or NEBRASKA to annex it! 👇
+
+#MidwestHistory #Iowa #Nebraska #CarterLake #Omaha #AmericanHistory #Geography #Shorts #HeartlandMapped
+
+--------------------------------------------------------------------------------
+4. COMENTARIO FIXADO (POSTAR LOGO APOS PUBLICAR E FIXAR NO TOPO)
+--------------------------------------------------------------------------------
+Settle the 1892 debate! Comment IOWA if Carter Lake should stay Iowa forever, or NEBRASKA if it's time to redraw the map—and tell us which state you're watching from! 👇
+
+--------------------------------------------------------------------------------
+5. CAPA (THUMBNAIL) E CHECKLIST RAPIDO
+--------------------------------------------------------------------------------
+- Capa sugerida: Cena 10 (as placas lado a lado "WELCOME TO IOWA" e "WELCOME TO NEBRASKA" com o aviao decolando e o motorista confuso!), Cena 01 Quadro 0 (close-up no Carter Lake brilhando dentro de Nebraska) ou Cena 07 (governador de Iowa vermelho de raiva segurando "NO WAY!").
+- Legenda automatica da plataforma: DESLIGADA (o video ja tem legenda grande embutida).
+- Musica da plataforma: NAO adicionar (o video ja tem narracao Ethan Fish Audio + foley SFX + trilha acustica com auto-ducking).
+- YouTube: marcar "Nao e conteudo para criancas" (Not made for kids), categoria Education, idioma English (United States).
+- A/B Log: anotar metricas de 48h em RETENTION_LOG.md para comparar Fish Audio (Ethan) vs. Edge-TTS (Eps. 3 e 4).
