@@ -13,69 +13,69 @@ SEG_DIR = EP_DIR / "audio_segments"
 SEG_DIR.mkdir(parents=True, exist_ok=True)
 
 VOICE = "en-US-ChristopherNeural"
-RATE = "+6%"
+RATE = "+10%"
 PITCH = "-1Hz"
 
 SCENES = [
     {
         "id": "scene_01",
-        "pause_after": 0.25,
-        "text": "Ever notice that weird little bump on top of Minnesota? You literally have to drive through Canada to reach it... thanks to one terrible map.",
+        "pause_after": 0.16,
+        "text": "Why does Minnesota have that weird bump sticking into Canada? You drive through another country to reach it—thanks to one bad map.",
     },
     {
         "id": "scene_02",
-        "pause_after": 0.35,
+        "pause_after": 0.22,
         "text": "Wait... let's rewind.",
     },
     {
         "id": "scene_03",
-        "pause_after": 0.20,
-        "text": "In 1783, American and British diplomats met in Paris to draw the new border between the U.S. and Canada.",
+        "pause_after": 0.16,
+        "text": "In 1783, U.S. and British diplomats met in Paris to draw the new border.",
     },
     {
         "id": "scene_04",
-        "pause_after": 0.20,
-        "text": "Using a faulty 1755 map, they drew the border straight west from Lake of the Woods to meet the Mississippi River.",
+        "pause_after": 0.16,
+        "text": "Using a faulty 1755 map, they drew a straight line west from Lake of the Woods to the Mississippi.",
     },
     {
         "id": "scene_05",
-        "pause_after": 0.20,
-        "text": "When real surveyors hiked north, they hit two snags: the Mississippi started way south... and the lake hid fourteen thousand islands.",
+        "pause_after": 0.16,
+        "text": "Real surveyors hit two snags: the Mississippi started way south... and the lake hid fourteen thousand islands.",
     },
     {
         "id": "scene_06",
-        "pause_after": 0.20,
-        "text": "In 1818, both sides set the border along the 49th parallel, dropping a straight line south from the lake's northwest corner.",
+        "pause_after": 0.16,
+        "text": "In 1818, they fixed it along the 49th parallel, dropping a line south from the lake's northwest corner.",
     },
     {
         "id": "scene_07",
-        "pause_after": 0.22,
-        "text": "Problem: that corner hid inside a northern bay. Dropping the line south accidentally sliced off 123 square miles... cut off by water.",
+        "pause_after": 0.16,
+        "text": "Problem: that corner hid in a northern bay, accidentally slicing off 123 square miles surrounded by water.",
     },
     {
         "id": "scene_08",
-        "pause_after": 0.20,
-        "text": "A chunk of Minnesota was stranded above Canada: reachable only by boat, plane, or a forty-mile drive through another country.",
+        "pause_after": 0.16,
+        "text": "A chunk of Minnesota sat stranded above Canada: reachable only by boat, plane, or a forty-mile border detour.",
     },
     {
         "id": "scene_09",
-        "pause_after": 0.22,
-        "text": "In 1997, angry over Canadian fishing rules, locals even petitioned Congress to leave the U.S. and join Canada before a deal cooled things down.",
+        "pause_after": 0.18,
+        "text": "In 1997, angry over Canadian fishing rules, locals petitioned Congress to join Canada before a deal cooled things down.",
     },
     {
         "id": "scene_10",
-        "pause_after": 0.20,
-        "text": "Today, about a hundred Minnesotans still live there: checking in at a lonely border kiosk, or driving right across the frozen lake in winter.",
+        "pause_after": 0.16,
+        "text": "Today, a hundred Minnesotans still check in at a lonely border kiosk, or drive straight across the frozen lake in winter.",
     },
     {
         "id": "scene_11",
-        "pause_after": 0.20,
-        "text": "That old map blunder created the northernmost point of the lower forty-eight, and America's favorite geography quirk.",
+        "pause_after": 0.16,
+        "text": "That map blunder created the northernmost point of the lower forty-eight.",
     },
     {
         "id": "scene_12",
-        "pause_after": 0.55,
-        "text": "So be honest... should the U.S. and Canada finally clean up the border, or should Minnesota keep its famous bump forever?",
+        "pause_after": 0.20,
+        "text": "Comment BUMP to keep it, or SWAP to trade it—and if anyone ever asks...",
     },
 ]
 

@@ -1,5 +1,6 @@
 """
-Reusable 30 FPS 2.5D Sprite Extraction, Map Inpainting, Overhead Callout & Camera Engine.
+Reusable 30 FPS 2.5D Sprite Extraction, Map Inpainting, Multi-Shot Camera,
+Overhead Callouts, and Animated 1-Word Comment Panel Engine (v2).
 """
 import math
 import cv2
@@ -8,6 +9,16 @@ from PIL import Image, ImageDraw, ImageFilter
 
 W, H = 720, 1280
 
+
+def smoothstep(x: float) -> float:
+    x = max(0.0, min(1.0, x))
+    return x * x * (3.0 - 2.0 * x)
+
+
+def lerp(a: float, b: float, t: float) -> float:
+    return a + (b - a) * t
+
+
 def spring_scale(dt, rise=0.32):
     if dt <= 0:
         return 0.0
@@ -15,6 +26,7 @@ def spring_scale(dt, rise=0.32):
         return 1.0
     p = dt / rise
     return 1.0 + 0.18 * math.sin(p * math.pi) if p > 0.55 else (p / 0.55)
+
 
 def extract_sprite_and_inpaint_bg(pil_img, bbox_norm, width=W, height=H):
     """
@@ -66,6 +78,7 @@ def extract_sprite_and_inpaint_bg(pil_img, bbox_norm, width=W, height=H):
     sprite_rgba = np.dstack([patch, alpha])
     return Image.fromarray(inpainted_rgb), Image.fromarray(sprite_rgba), (x0, y0, pw, ph)
 
+
 def paste_moving_sprite(canvas_rgba, sprite_pil, base_rect, dx=0.0, dy=0.0, scale=1.0, angle_deg=0.0, shadow=True):
     """Composites an independent moving sprite (with soft drop shadow) onto `canvas_rgba`."""
     if scale <= 0.02:
@@ -90,6 +103,48 @@ def paste_moving_sprite(canvas_rgba, sprite_pil, base_rect, dx=0.0, dy=0.0, scal
         canvas_rgba.alpha_composite(shd, dest=(px + 6, py + 8))
 
     canvas_rgba.alpha_composite(sp, dest=(px, py))
+
+
+def eval_shot_camera(shots: list, local_t: float, dur: float):
+    """
+    Evaluates multi-shot camera beats inside a single scene (v2).
+    Each shot dict:
+      {"t": float, "zoom": float, "pan_x": float, "pan_y": float, "tilt_deg": float,
+       "end_zoom": optional, "end_pan_x": optional, "end_pan_y": optional, "end_tilt_deg": optional,
+       "cut": bool (default True — instant punch-in/cut with brief micro-blur)}
+    Returns (zoom, pan_x, pan_y, tilt_deg, cut_blur).
+    """
+    active_idx = 0
+    for idx, sh in enumerate(shots):
+        if local_t >= sh["t"]:
+            active_idx = idx
+        else:
+            break
+
+    sh = shots[active_idx]
+    t0 = sh["t"]
+    t1 = shots[active_idx + 1]["t"] if active_idx + 1 < len(shots) else dur
+    span = max(0.05, t1 - t0)
+    u = smoothstep((local_t - t0) / span)
+
+    z0 = sh["zoom"]
+    px0 = sh.get("pan_x", 0.0)
+    py0 = sh.get("pan_y", 0.0)
+    tl0 = sh.get("tilt_deg", 0.0)
+
+    z1 = sh.get("end_zoom", z0 * 1.05)
+    px1 = sh.get("end_pan_x", px0)
+    py1 = sh.get("end_pan_y", py0)
+    tl1 = sh.get("end_tilt_deg", tl0)
+
+    cut_blur = 0.0
+    if active_idx > 0 and sh.get("cut", True):
+        dt_cut = local_t - t0
+        if 0.0 <= dt_cut < 0.07:
+            cut_blur = (1.0 - dt_cut / 0.07) * 0.38
+
+    return lerp(z0, z1, u), lerp(px0, px1, u), lerp(py0, py1, u), lerp(tl0, tl1, u), cut_blur
+
 
 def draw_overhead_message(canvas_rgba, cx, cy, text, prog_in, font, style="cloud", width=W, height=H):
     """Draws a compact overhead thought cloud or pill badge above a character's head."""
@@ -124,6 +179,108 @@ def draw_overhead_message(canvas_rgba, cx, cy, text, prog_in, font, style="cloud
         draw.multiline_text((tx, ty), text, font=font, fill=fg_col, align="center", spacing=3)
 
     canvas_rgba.alpha_composite(layer)
+
+
+def draw_animated_comment_panel(
+    canvas_rgba: Image.Image,
+    dt: float,
+    keyword: str,
+    comments: list,
+    font_title,
+    font_input,
+    font_body,
+    font_small,
+    width: int = W,
+    height: int = H,
+):
+    """
+    Renders a sleek animated social-media comment drawer over the lower half (y ~ 55%..86%)
+    in the final ~3.5 seconds of a Short/Reel:
+      - Slides up smoothly (0.0..0.32s)
+      - Types `keyword` letter-by-letter into the input bar (0.35..1.15s) + SEND pulse
+      - Pops in 2 funny in-character historical comments (0.95s & 1.55s)
+    """
+    if dt <= 0.0:
+        return
+    slide = smoothstep(min(1.0, dt / 0.32))
+    layer = Image.new("RGBA", (width, height), (0, 0, 0, 0))
+    draw = ImageDraw.Draw(layer)
+
+    panel_w = width - 56
+    panel_h = 375
+    x0 = 28
+    y_target = int(height * 0.56)
+    y0 = int(lerp(height + 20, y_target, slide))
+    x1 = x0 + panel_w
+    y1 = y0 + panel_h
+
+    # Drop shadow + main rounded card
+    draw.rounded_rectangle([x0 + 4, y0 + 8, x1 + 4, y1 + 8], radius=26, fill=(0, 0, 0, 140))
+    draw.rounded_rectangle(
+        [x0, y0, x1, y1],
+        radius=26,
+        fill=(18, 22, 32, 238),
+        outline=(255, 214, 58, 235),
+        width=3,
+    )
+
+    # Top drag handle + header
+    draw.rounded_rectangle([width // 2 - 34, y0 + 12, width // 2 + 34, y0 + 18], radius=3, fill=(130, 140, 160, 190))
+    draw.text((x0 + 24, y0 + 28), "COMMENTS", font=font_title, fill=(255, 255, 255, 255))
+    draw.text((x1 - 145, y0 + 30), "1.4K replies", font=font_small, fill=(175, 188, 210, 230))
+    draw.line([x0 + 18, y0 + 66, x1 - 18, y0 + 66], fill=(55, 65, 85, 200), width=2)
+
+    # Input bar with typing animation
+    in_x0, in_y0, in_x1, in_y1 = x0 + 20, y0 + 80, x1 - 20, y0 + 136
+    draw.rounded_rectangle([in_x0, in_y0, in_x1, in_y1], radius=24, fill=(32, 39, 54, 250), outline=(95, 112, 145, 220), width=2)
+
+    type_p = max(0.0, min(1.0, (dt - 0.30) / 0.78))
+    n_chars = int(math.ceil(type_p * len(keyword)))
+    typed = keyword[:n_chars]
+    blink = "|" if (dt < 1.25 and int(dt * 8) % 2 == 0) else ""
+    prompt_txt = f"{typed}{blink}" if typed else "Type your vote..."
+    prompt_col = (255, 224, 72, 255) if typed else (145, 158, 180, 210)
+    draw.text((in_x0 + 20, in_y0 + 12), prompt_txt, font=font_input, fill=prompt_col)
+
+    # Send pill button (flashes bright gold when keyword finishes typing)
+    sent = dt >= 1.15
+    btn_fill = (255, 206, 48, 255) if sent else (45, 92, 210, 245)
+    btn_txt_col = (18, 20, 26, 255) if sent else (255, 255, 255, 255)
+    bx0, by0, bx1, by1 = in_x1 - 108, in_y0 + 7, in_x1 - 8, in_y1 - 7
+    draw.rounded_rectangle([bx0, by0, bx1, by1], radius=18, fill=btn_fill)
+    draw.text((bx0 + 20, by0 + 8), "POST", font=font_small, fill=btn_txt_col)
+
+    # Animated little white-gloved cartoon pointer hand clicking POST around dt=1.08..1.45
+    if 0.85 <= dt <= 1.65:
+        hp = smoothstep(min(1.0, (dt - 0.85) / 0.25))
+        hx = int(lerp(bx0 + 80, bx0 + 42, hp))
+        hy = int(lerp(by1 + 52, by1 - 6, hp))
+        if 1.12 <= dt <= 1.26:
+            hy += 5  # tap bounce
+        draw.ellipse([hx - 15, hy - 14, hx + 15, hy + 14], fill=(255, 255, 255, 255), outline=(20, 20, 20, 255), width=3)
+        draw.rounded_rectangle([hx - 5, hy - 28, hx + 6, hy - 6], radius=5, fill=(255, 255, 255, 255), outline=(20, 20, 20, 255), width=3)
+
+    # Pop-in 2 funny historical character comments
+    row_y = y0 + 154
+    for idx, cmt in enumerate(comments[:2]):
+        c_delay = 0.82 + idx * 0.55
+        if dt >= c_delay:
+            cp = smoothstep(min(1.0, (dt - c_delay) / 0.24))
+            ry = int(row_y + (1.0 - cp) * 18)
+            av_col = tuple(cmt.get("color", (42, 118, 224))) + (255,)
+            # Avatar circle + initial
+            draw.ellipse([x0 + 22, ry + 6, x0 + 68, ry + 52], fill=av_col, outline=(255, 255, 255, 230), width=2)
+            init = cmt["handle"].lstrip("@")[:1].upper()
+            draw.text((x0 + 37, ry + 13), init, font=font_title, fill=(255, 255, 255, 255))
+            # Handle + text
+            draw.text((x0 + 82, ry + 2), cmt["handle"], font=font_small, fill=(140, 195, 255, 255))
+            draw.text((x0 + 82, ry + 29), cmt["text"], font=font_body, fill=(248, 250, 255, 255))
+            # Like heart count
+            draw.text((x1 - 92, ry + 4), cmt.get("likes", "412 ♥"), font=font_small, fill=(255, 125, 145, 240))
+        row_y += 96
+
+    canvas_rgba.alpha_composite(layer)
+
 
 def apply_25d_camera(canvas_rgba, zoom, pan_x, pan_y, tilt_deg, transition_blur=0.0, width=W, height=H):
     """Applies smooth 2.5D camera zoom, pan, perspective tilt, and whip-pan motion blur."""

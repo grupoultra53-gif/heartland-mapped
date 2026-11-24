@@ -1,7 +1,12 @@
 """
-Heartland Mapped — Episode 04: The Honey War (1839 — Iowa vs. Missouri)
+Heartland Mapped — Episode 04 (v2): The Honey War (1839 — Iowa vs. Missouri)
 2.5D Historical Map Animation Renderer (720x1280, 30 FPS)
-Uses .agents/skills/historical-map-animation/scripts/{engine_25d.py, foley_mixer.py}
+v2 Retention Upgrades:
+  - Immediate Frame 0 hook (visible focal sprites + tight close-up zoom)
+  - Word-synced multi-shot close-ups & reaction cuts (eval_shot_camera)
+  - Warm Americana acoustic documentary underscore with auto-ducking
+  - Animated 1-word CTA comment panel ("HONEY") + subtitle auto-lift
+  - Seamless grammatical & visual whip-return loop into Scene 01 Frame 0
 """
 import json
 import math
@@ -57,7 +62,7 @@ def load_font(size: int, bold: bool = True) -> ImageFont.FreeTypeFont:
     return ImageFont.load_default()
 
 
-# ---------- Custom Procedural Situational Foley Accents (zero loops) ----------
+# ---------- Custom Procedural Situational Foley Accents ----------
 
 def foley_gavel_slam() -> np.ndarray:
     n = int(0.45 * SR)
@@ -79,7 +84,6 @@ def foley_cold_wind(duration: float = 3.8) -> np.ndarray:
 
 
 def foley_bee_buzz(duration: float = 1.6) -> np.ndarray:
-    """Short swarm of buzzing bees accent."""
     n = int(duration * SR)
     t = np.linspace(0, duration, n, endpoint=False)
     f1 = 215 + 22 * np.sin(2 * np.pi * 3.2 * t)
@@ -96,7 +100,6 @@ def foley_bee_buzz(duration: float = 1.6) -> np.ndarray:
 
 
 def foley_axe_chop() -> np.ndarray:
-    """Crisp wooden axe strike into hollow tree trunk."""
     n = int(0.32 * SR)
     t = np.linspace(0, 0.32, n, endpoint=False)
     thunk = np.sin(2 * np.pi * np.cumsum(np.linspace(210, 72, n)) / SR) * np.exp(-t * 18.0)
@@ -105,9 +108,7 @@ def foley_axe_chop() -> np.ndarray:
 
 
 def foley_handcuff_clink() -> np.ndarray:
-    """Crisp metallic double-ratchet handcuff / iron post clink."""
     n = int(0.36 * SR)
-    t = np.linspace(0, 0.36, n, endpoint=False)
     out = np.zeros(n)
     for offset, pitch in [(0.0, 1.0), (0.11, 1.18)]:
         idx = int(offset * SR)
@@ -125,7 +126,6 @@ def foley_handcuff_clink() -> np.ndarray:
 
 
 def foley_pan_clang() -> np.ndarray:
-    """Comic cast-iron frying pan metallic bonk/ring."""
     n = int(0.55 * SR)
     t = np.linspace(0, 0.55, n, endpoint=False)
     ring = (
@@ -138,7 +138,7 @@ def foley_pan_clang() -> np.ndarray:
     return (ring * 0.65 + hit) * 0.80
 
 
-def foley_stadium_swell(duration: float = 3.4) -> np.ndarray:
+def foley_stadium_swell(duration: float = 3.2) -> np.ndarray:
     n = int(duration * SR)
     t = np.linspace(0, duration, n, endpoint=False)
     crowd = fm.bandpass(np.random.normal(0, 1, n), 240, 1900)
@@ -150,11 +150,11 @@ def foley_stadium_swell(duration: float = 3.4) -> np.ndarray:
 # ---------- Subtitle Chunk Builder (2-4 words, 50+ readable, preserves ? / !) ----------
 
 def restore_question_and_excl_punctuation(scene_text: str, words: list) -> list:
-    raw_tokens = re.findall(r"[A-Za-z0-9'\-]+|[?!.]", scene_text)
+    raw_tokens = re.findall(r"[A-Za-z0-9'\-]+|[?!.—]", scene_text)
     punct_after = {}
     w_idx = 0
     for tok in raw_tokens:
-        if tok in ("?", "!", "."):
+        if tok in ("?", "!", ".", "—"):
             if w_idx > 0 and (w_idx - 1) not in punct_after:
                 punct_after[w_idx - 1] = tok
         else:
@@ -174,7 +174,7 @@ def restore_question_and_excl_punctuation(scene_text: str, words: list) -> list:
                 "text": txt,
                 "start": w["start"],
                 "end": w["end"],
-                "break_after": p in ("?", "!", "."),
+                "break_after": p in ("?", "!", ".", "—"),
             }
         )
         pos += max(1, sub_count)
@@ -208,10 +208,10 @@ def build_subtitle_cards(scenes_meta: list) -> list:
 
             text = " ".join(w["text"] for w in chunk).strip()
             start = chunk[0]["start"]
-            end = chunk[-1]["end"] + 0.16
+            end = chunk[-1]["end"] + 0.14
             cards.append({"start": start, "end": end, "text": text})
     if cards and scenes_meta:
-        cards[-1]["end"] = max(cards[-1]["end"], scenes_meta[-1]["end_sec"] - 0.05)
+        cards[-1]["end"] = max(cards[-1]["end"], scenes_meta[-1]["end_sec"] - 0.18)
     for idx in range(len(cards) - 1):
         if cards[idx]["end"] > cards[idx + 1]["start"]:
             cards[idx]["end"] = max(cards[idx]["start"] + 0.08, cards[idx + 1]["start"] - 0.02)
@@ -244,13 +244,13 @@ def draw_subtitle_card(canvas_rgba: Image.Image, text: str, font: ImageFont.Free
 
     pill = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     pdraw = ImageDraw.Draw(pill)
-    pdraw.rounded_rectangle([x0, y0, x1, y1], radius=16, fill=(14, 14, 18, 182))
+    pdraw.rounded_rectangle([x0, y0, x1, y1], radius=16, fill=(14, 14, 18, 188))
     canvas_rgba.alpha_composite(pill)
 
     highlight_words = {
         "IOWA", "MISSOURI", "HONEY", "TREES", "1839", "1816", "WAR", "TOLEDO",
         "ARRESTED", "BEE", "DOLLAR", "FIFTY", "PITCHFORKS", "FRYING", "SAUSAGE",
-        "SUPREME", "COURT", "IRON", "BLOOD", "SWEETEST", "ZERO", "MILITIA", "REWIND"
+        "SUPREME", "COURT", "IRON", "SWEETEST", "ZERO", "MILITIA", "REWIND"
     }
     clean_tokens = upper_text.split()
     has_kw = any(tok.strip(".,?!—:\"'") in highlight_words for tok in clean_tokens)
@@ -406,7 +406,7 @@ def apply_vhs_rewind(frame_rgba: Image.Image, progress: float, font: ImageFont.F
     return out
 
 
-# ---------- Scene Config Definition (12 Scenes) ----------
+# ---------- Scene Config Definition (12 Scenes, v2 Multi-Shot) ----------
 
 def build_scene_config(audio_meta: dict) -> dict:
     scenes_by_id = {s["id"]: s for s in audio_meta["scenes"]}
@@ -414,31 +414,32 @@ def build_scene_config(audio_meta: dict) -> dict:
     specs = [
         {
             "id": "scene_01",
-            "mode": "Mode A (3D Relief Map)",
+            "mode": "Mode A (3D Relief Map — Frame 0 Hook)",
             "keyframe": "keyframes/scene_01.jpg",
-            "camera_start": {"zoom": 1.04, "pan_x": 0.0, "pan_y": -0.01, "tilt_deg": 0.0},
-            "camera_end": {"zoom": 1.19, "pan_x": 0.0, "pan_y": -0.02, "tilt_deg": 0.8},
+            "shots": [
+                {"t": 0.00, "zoom": 1.96, "pan_x": 0.04, "pan_y": -0.07, "tilt_deg": 0.0, "end_zoom": 2.10, "end_pan_x": 0.05, "end_pan_y": -0.07, "end_tilt_deg": 0.5},
+                {"t": 1.35, "zoom": 2.06, "pan_x": -0.22, "pan_y": -0.21, "tilt_deg": -0.4, "end_zoom": 2.18, "end_pan_x": -0.21, "end_pan_y": -0.21, "end_tilt_deg": 0.4},
+                {"t": 2.65, "zoom": 1.08, "pan_x": 0.00, "pan_y": -0.02, "tilt_deg": 0.0, "end_zoom": 1.22, "end_pan_x": 0.00, "end_pan_y": -0.03, "end_tilt_deg": 0.8},
+            ],
             "sprites": [
                 {
                     "bbox": [0.11, 0.21, 0.445, 0.37],
                     "exclude_rects": [[0.355, 0.24, 0.59, 0.29]],
                     "motion": "lunge_right",
-                    "pop_delay": 0.14,
+                    "pop_delay": 0.0,
                 },
                 {
                     "bbox": [0.55, 0.43, 0.80, 0.59],
                     "motion": "lunge_left",
-                    "pop_delay": 0.28,
+                    "pop_delay": 0.0,
                 },
             ],
-            "overhead": {"text": "3 HONEY TREES?!", "cx": 370, "cy": 230, "trigger_rel": 5.55, "style": "badge"},
+            "overhead": {"text": "3 HONEY TREES?!", "cx": 370, "cy": 230, "trigger_rel": 2.68, "style": "badge"},
             "foley": [
-                {"rel": 0.05, "type": "camera_whoosh", "gain": 0.55},
-                {"rel": 0.16, "type": "pawn_bounce", "gain": 0.70},
-                {"rel": 0.30, "type": "pawn_bounce", "gain": 0.70},
-                {"rel": 5.55, "type": "cork_pop", "gain": 0.65},
-                {"rel": 5.65, "type": "bee_buzz", "gain": 0.62},
-                {"rel": -0.58, "type": "tape_rewind", "gain": 0.75},
+                {"rel": 0.02, "type": "pawn_bounce", "gain": 0.65},
+                {"rel": 0.45, "type": "bee_buzz", "gain": 0.55},
+                {"rel": 2.68, "type": "cork_pop", "gain": 0.65},
+                {"rel": -0.52, "type": "tape_rewind", "gain": 0.72},
             ],
         },
         {
@@ -446,259 +447,300 @@ def build_scene_config(audio_meta: dict) -> dict:
             "mode": "Mode A (VHS Rewind -> 1816)",
             "keyframe": "keyframes/scene_02.jpg",
             "vhs_rewind": True,
-            "camera_start": {"zoom": 1.10, "pan_x": 0.0, "pan_y": -0.03, "tilt_deg": -0.7},
-            "camera_end": {"zoom": 1.02, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0},
+            "shots": [
+                {"t": 0.00, "zoom": 1.14, "pan_x": 0.0, "pan_y": -0.05, "tilt_deg": -0.8, "end_zoom": 1.04, "end_pan_x": 0.0, "end_pan_y": -0.02, "end_tilt_deg": 0.0},
+                {"t": 0.88, "zoom": 1.74, "pan_x": 0.0, "pan_y": -0.24, "tilt_deg": 0.5, "end_zoom": 1.88, "end_pan_x": 0.0, "end_pan_y": -0.26, "end_tilt_deg": 0.0},
+            ],
             "sprites": [],
             "overhead": None,
             "foley": [
-                {"rel": 0.05, "type": "tape_rewind", "gain": 0.72},
-                {"rel": 0.90, "type": "parchment_brush", "gain": 0.65},
+                {"rel": 0.04, "type": "tape_rewind", "gain": 0.70},
+                {"rel": 0.85, "type": "parchment_brush", "gain": 0.65},
             ],
         },
         {
             "id": "scene_03",
             "mode": "Mode A (3D Relief Map)",
             "keyframe": "keyframes/scene_03.jpg",
-            "camera_start": {"zoom": 1.03, "pan_x": -0.01, "pan_y": -0.01, "tilt_deg": 0.0},
-            "camera_end": {"zoom": 1.18, "pan_x": 0.02, "pan_y": -0.02, "tilt_deg": 0.8},
+            "shots": [
+                {"t": 0.00, "zoom": 1.06, "pan_x": -0.01, "pan_y": -0.01, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": -0.02, "end_tilt_deg": 0.3},
+                {"t": 1.55, "zoom": 2.04, "pan_x": -0.24, "pan_y": -0.20, "tilt_deg": -0.4, "end_zoom": 2.16, "end_pan_x": -0.23, "end_pan_y": -0.20, "end_tilt_deg": 0.3},
+                {"t": 3.15, "zoom": 1.10, "pan_x": 0.0, "pan_y": -0.02, "tilt_deg": 0.0, "end_zoom": 1.18, "end_pan_x": 0.01, "end_pan_y": -0.02, "end_tilt_deg": 0.5},
+                {"t": 4.20, "zoom": 1.98, "pan_x": 0.22, "pan_y": -0.06, "tilt_deg": 0.4, "end_zoom": 2.12, "end_pan_x": 0.22, "end_pan_y": -0.06, "end_tilt_deg": -0.3},
+            ],
             "sprites": [
                 {
                     "bbox": [0.14, 0.205, 0.37, 0.375],
                     "motion": "write_bob",
-                    "pop_delay": 0.14,
+                    "pop_delay": 0.0,
                 },
             ],
-            "overhead": {"text": "1816 BORDER!", "cx": 370, "cy": 230, "trigger_rel": 2.95, "style": "badge"},
+            "overhead": {"text": "1816 BORDER!", "cx": 370, "cy": 230, "trigger_rel": 3.15, "end_rel": 4.18, "style": "badge"},
             "foley": [
-                {"rel": 0.05, "type": "camera_whoosh", "gain": 0.48},
-                {"rel": 0.18, "type": "pawn_bounce", "gain": 0.65},
-                {"rel": 2.35, "type": "parchment_brush", "gain": 0.72},
-                {"rel": 2.95, "type": "cork_pop", "gain": 0.60},
+                {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+                {"rel": 2.10, "type": "parchment_brush", "gain": 0.68},
+                {"rel": 3.18, "type": "cork_pop", "gain": 0.60},
             ],
         },
         {
             "id": "scene_04",
             "mode": "Mode A (3D Relief Map)",
             "keyframe": "keyframes/scene_04.jpg",
-            "camera_start": {"zoom": 1.04, "pan_x": 0.01, "pan_y": -0.01, "tilt_deg": 0.0},
-            "camera_end": {"zoom": 1.20, "pan_x": -0.01, "pan_y": -0.02, "tilt_deg": -0.9},
-            "impact_shake_rel": 3.85,
+            "impact_shake_rel": 3.55,
+            "shots": [
+                {"t": 0.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": -0.02, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": -0.02, "end_tilt_deg": -0.3},
+                {"t": 1.60, "zoom": 2.08, "pan_x": 0.19, "pan_y": 0.01, "tilt_deg": 0.4, "end_zoom": 2.20, "end_pan_x": 0.19, "end_pan_y": 0.01, "end_tilt_deg": -0.3},
+                {"t": 3.48, "zoom": 1.12, "pan_x": 0.0, "pan_y": -0.03, "tilt_deg": 0.0, "end_zoom": 1.22, "end_pan_x": -0.01, "end_pan_y": -0.04, "end_tilt_deg": -0.6},
+                {"t": 5.35, "zoom": 2.14, "pan_x": -0.25, "pan_y": -0.21, "tilt_deg": -0.4, "end_zoom": 2.26, "end_pan_x": -0.25, "end_pan_y": -0.21, "end_tilt_deg": 0.3},
+                {"t": 6.45, "zoom": 1.10, "pan_x": 0.0, "pan_y": -0.02, "tilt_deg": 0.0, "end_zoom": 1.20, "end_pan_x": 0.0, "end_pan_y": -0.03, "end_tilt_deg": -0.5},
+            ],
             "sprites": [
                 {
                     "bbox": [0.15, 0.20, 0.345, 0.37],
                     "motion": "shudder",
-                    "pop_delay": 0.14,
+                    "pop_delay": 0.0,
                 },
                 {
                     "bbox": [0.58, 0.42, 0.79, 0.59],
                     "motion": "write_bob",
-                    "pop_delay": 0.28,
+                    "pop_delay": 0.0,
                 },
             ],
-            "overhead": {"text": "2,600 SQ MILES!", "cx": 370, "cy": 230, "trigger_rel": 6.00, "style": "badge"},
+            "overhead": {"text": "2,600 SQ MILES!", "cx": 370, "cy": 230, "trigger_rel": 6.45, "style": "badge"},
             "foley": [
-                {"rel": 0.05, "type": "camera_whoosh", "gain": 0.48},
-                {"rel": 0.18, "type": "pawn_bounce", "gain": 0.65},
-                {"rel": 3.70, "type": "map_crack", "gain": 0.72},
-                {"rel": 6.00, "type": "cork_pop", "gain": 0.60},
-                {"rel": 6.15, "type": "jaw_drop", "gain": 0.68},
+                {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+                {"rel": 3.50, "type": "map_crack", "gain": 0.72},
+                {"rel": 5.38, "type": "jaw_drop", "gain": 0.68},
+                {"rel": 6.48, "type": "cork_pop", "gain": 0.60},
             ],
         },
         {
             "id": "scene_05",
             "mode": "Mode A (3D Relief Map)",
             "keyframe": "keyframes/scene_05.jpg",
-            "camera_start": {"zoom": 1.04, "pan_x": 0.0, "pan_y": -0.01, "tilt_deg": 0.0},
-            "camera_end": {"zoom": 1.20, "pan_x": 0.01, "pan_y": -0.02, "tilt_deg": 0.9},
-            "impact_shake_rel": 7.18,
+            "impact_shake_rel": 6.02,
+            "shots": [
+                {"t": 0.00, "zoom": 2.04, "pan_x": 0.20, "pan_y": 0.01, "tilt_deg": 0.3, "end_zoom": 2.16, "end_pan_x": 0.20, "end_pan_y": 0.01, "end_tilt_deg": -0.3},
+                {"t": 1.95, "zoom": 2.12, "pan_x": -0.23, "pan_y": -0.21, "tilt_deg": -0.4, "end_zoom": 2.24, "end_pan_x": -0.22, "end_pan_y": -0.21, "end_tilt_deg": 0.3},
+                {"t": 4.20, "zoom": 1.10, "pan_x": 0.0, "pan_y": -0.02, "tilt_deg": 0.0, "end_zoom": 1.18, "end_pan_x": 0.0, "end_pan_y": -0.02, "end_tilt_deg": 0.5},
+                {"t": 5.85, "zoom": 1.72, "pan_x": 0.16, "pan_y": 0.01, "tilt_deg": -0.4, "end_zoom": 1.84, "end_pan_x": 0.16, "end_pan_y": 0.01, "end_tilt_deg": 0.4},
+            ],
             "sprites": [
                 {
                     "bbox": [0.15, 0.215, 0.40, 0.375],
                     "exclude_rects": [[0.355, 0.24, 0.59, 0.29]],
                     "motion": "lunge_right",
-                    "pop_delay": 0.14,
+                    "pop_delay": 0.0,
                 },
                 {
                     "bbox": [0.61, 0.43, 0.795, 0.59],
                     "motion": "shudder",
-                    "pop_delay": 0.28,
+                    "pop_delay": 0.0,
                 },
             ],
-            "overhead": {"text": "ARRESTED!", "cx": 370, "cy": 230, "trigger_rel": 6.95, "style": "badge"},
+            "overhead": {"text": "ARRESTED!", "cx": 500, "cy": 470, "trigger_rel": 6.00, "style": "badge"},
             "foley": [
-                {"rel": 0.05, "type": "camera_whoosh", "gain": 0.48},
-                {"rel": 0.18, "type": "pawn_bounce", "gain": 0.65},
-                {"rel": 2.75, "type": "pawn_bounce", "gain": 0.65},
-                {"rel": 7.10, "type": "handcuff_clink", "gain": 0.80},
-                {"rel": 7.20, "type": "cork_pop", "gain": 0.60},
+                {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+                {"rel": 5.98, "type": "handcuff_clink", "gain": 0.80},
+                {"rel": 6.05, "type": "cork_pop", "gain": 0.60},
             ],
         },
         {
             "id": "scene_06",
             "mode": "Mode B (2.5D Woodland Bee Trees Diorama)",
             "keyframe": "keyframes/scene_06.jpg",
-            "camera_start": {"zoom": 1.04, "pan_x": 0.0, "pan_y": 0.02, "tilt_deg": -0.5},
-            "camera_end": {"zoom": 1.20, "pan_x": 0.02, "pan_y": 0.04, "tilt_deg": 0.8},
-            "impact_shake_rel": 3.92,
+            "impact_shake_rel": 3.80,
+            "shots": [
+                {"t": 0.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.02, "tilt_deg": -0.4, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.03, "end_tilt_deg": 0.2},
+                {"t": 1.70, "zoom": 2.08, "pan_x": -0.12, "pan_y": 0.11, "tilt_deg": 0.3, "end_zoom": 2.20, "end_pan_x": -0.11, "end_pan_y": 0.11, "end_tilt_deg": -0.3},
+                {"t": 3.75, "zoom": 2.04, "pan_x": 0.22, "pan_y": 0.04, "tilt_deg": -0.4, "end_zoom": 2.16, "end_pan_x": 0.22, "end_pan_y": 0.04, "end_tilt_deg": 0.4},
+                {"t": 5.10, "zoom": 1.12, "pan_x": 0.0, "pan_y": 0.03, "tilt_deg": 0.0, "end_zoom": 1.22, "end_pan_x": 0.01, "end_pan_y": 0.04, "end_tilt_deg": 0.6},
+            ],
             "sprites": [],
-            "overhead": {"text": "THE BEE TREES!", "cx": 250, "cy": 450, "trigger_rel": 4.40, "style": "cloud"},
+            "overhead": {"text": "THE BEE TREES!", "cx": 260, "cy": 450, "trigger_rel": 5.12, "style": "cloud"},
             "foley": [
-                {"rel": 0.05, "type": "camera_whoosh", "gain": 0.48},
-                {"rel": 3.90, "type": "axe_chop", "gain": 0.82},
-                {"rel": 4.42, "type": "axe_chop", "gain": 0.78},
-                {"rel": 4.75, "type": "bee_buzz", "gain": 0.70},
-                {"rel": 5.80, "type": "cork_pop", "gain": 0.55},
+                {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+                {"rel": 3.78, "type": "axe_chop", "gain": 0.82},
+                {"rel": 4.28, "type": "axe_chop", "gain": 0.78},
+                {"rel": 4.55, "type": "bee_buzz", "gain": 0.68},
+                {"rel": 5.15, "type": "cork_pop", "gain": 0.56},
             ],
         },
         {
             "id": "scene_07",
             "mode": "Mode A (3D Relief Map)",
             "keyframe": "keyframes/scene_07.jpg",
-            "camera_start": {"zoom": 1.04, "pan_x": 0.0, "pan_y": -0.01, "tilt_deg": 0.0},
-            "camera_end": {"zoom": 1.20, "pan_x": 0.0, "pan_y": -0.02, "tilt_deg": -0.9},
+            "shots": [
+                {"t": 0.00, "zoom": 2.12, "pan_x": -0.20, "pan_y": -0.21, "tilt_deg": -0.4, "end_zoom": 2.24, "end_pan_x": -0.19, "end_pan_y": -0.21, "end_tilt_deg": 0.3},
+                {"t": 2.45, "zoom": 1.10, "pan_x": 0.0, "pan_y": -0.02, "tilt_deg": 0.0, "end_zoom": 1.18, "end_pan_x": 0.0, "end_pan_y": -0.02, "end_tilt_deg": -0.5},
+                {"t": 4.45, "zoom": 2.08, "pan_x": 0.18, "pan_y": -0.02, "tilt_deg": 0.4, "end_zoom": 2.20, "end_pan_x": 0.18, "end_pan_y": -0.02, "end_tilt_deg": -0.3},
+                {"t": 5.55, "zoom": 1.14, "pan_x": 0.0, "pan_y": -0.02, "tilt_deg": 0.0, "end_zoom": 1.24, "end_pan_x": 0.0, "end_pan_y": -0.03, "end_tilt_deg": -0.7},
+            ],
             "sprites": [
                 {
                     "bbox": [0.13, 0.215, 0.435, 0.375],
                     "exclude_rects": [[0.36, 0.24, 0.59, 0.285]],
                     "motion": "lunge_right",
-                    "pop_delay": 0.14,
+                    "pop_delay": 0.0,
                 },
                 {
                     "bbox": [0.52, 0.385, 0.81, 0.59],
                     "motion": "lunge_left",
-                    "pop_delay": 0.28,
+                    "pop_delay": 0.0,
                 },
             ],
-            "overhead": {"text": "$1.50 FINE!", "cx": 370, "cy": 230, "trigger_rel": 1.55, "style": "badge"},
+            "overhead": {"text": "$1.50 FINE!", "cx": 370, "cy": 230, "trigger_rel": 2.48, "end_rel": 4.42, "style": "badge"},
             "foley": [
-                {"rel": 0.05, "type": "camera_whoosh", "gain": 0.48},
-                {"rel": 0.16, "type": "pawn_bounce", "gain": 0.65},
-                {"rel": 1.55, "type": "cork_pop", "gain": 0.62},
-                {"rel": 4.80, "type": "war_horn", "gain": 0.48},
-                {"rel": 5.30, "type": "sword_unsheathe", "gain": 0.52},
+                {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+                {"rel": 2.50, "type": "cork_pop", "gain": 0.62},
+                {"rel": 4.45, "type": "war_horn", "gain": 0.45},
+                {"rel": 5.05, "type": "sword_unsheathe", "gain": 0.50},
             ],
         },
         {
             "id": "scene_08",
             "mode": "Mode B (2.5D Winter Militia March Diorama)",
             "keyframe": "keyframes/scene_08.jpg",
-            "camera_start": {"zoom": 1.05, "pan_x": 0.0, "pan_y": 0.02, "tilt_deg": -0.5},
-            "camera_end": {"zoom": 1.22, "pan_x": 0.0, "pan_y": 0.05, "tilt_deg": 0.8},
             "march_shake": True,
+            "shots": [
+                {"t": 0.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.03, "tilt_deg": -0.4, "end_zoom": 1.16, "end_pan_x": 0.0, "end_pan_y": 0.04, "end_tilt_deg": 0.3},
+                {"t": 3.50, "zoom": 2.10, "pan_x": -0.28, "pan_y": 0.12, "tilt_deg": 0.3, "end_zoom": 2.22, "end_pan_x": -0.27, "end_pan_y": 0.12, "end_tilt_deg": -0.3},
+                {"t": 5.08, "zoom": 2.12, "pan_x": 0.02, "pan_y": 0.12, "tilt_deg": -0.3, "end_zoom": 2.24, "end_pan_x": 0.02, "end_pan_y": 0.12, "end_tilt_deg": 0.3},
+                {"t": 6.30, "zoom": 2.12, "pan_x": 0.28, "pan_y": 0.12, "tilt_deg": 0.4, "end_zoom": 2.24, "end_pan_x": 0.28, "end_pan_y": 0.12, "end_tilt_deg": -0.3},
+            ],
             "sprites": [],
-            "overhead": {"text": "FRYING PANS?!", "cx": 360, "cy": 500, "trigger_rel": 5.55, "style": "cloud"},
+            "overhead": {"text": "SAUSAGE STUFFER?!", "cx": 555, "cy": 565, "trigger_rel": 6.45, "style": "cloud"},
             "foley": [
-                {"rel": 0.05, "type": "camera_whoosh", "gain": 0.48},
-                {"rel": 0.25, "type": "desert_march", "gain": 0.62},
-                {"rel": 5.55, "type": "pan_clang", "gain": 0.78},
-                {"rel": 7.10, "type": "cork_pop", "gain": 0.62},
+                {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+                {"rel": 0.22, "type": "desert_march", "gain": 0.54},
+                {"rel": 5.10, "type": "pan_clang", "gain": 0.78},
+                {"rel": 6.48, "type": "cork_pop", "gain": 0.62},
             ],
         },
         {
             "id": "scene_09",
             "mode": "Mode A (3D Relief Map)",
             "keyframe": "keyframes/scene_09.jpg",
-            "camera_start": {"zoom": 1.04, "pan_x": 0.0, "pan_y": -0.01, "tilt_deg": 0.0},
-            "camera_end": {"zoom": 1.18, "pan_x": 0.0, "pan_y": -0.02, "tilt_deg": -0.8},
+            "shots": [
+                {"t": 0.00, "zoom": 2.06, "pan_x": -0.25, "pan_y": -0.21, "tilt_deg": -0.3, "end_zoom": 2.18, "end_pan_x": -0.25, "end_pan_y": -0.21, "end_tilt_deg": 0.3},
+                {"t": 1.62, "zoom": 1.08, "pan_x": 0.0, "pan_y": -0.02, "tilt_deg": 0.0, "end_zoom": 1.16, "end_pan_x": 0.0, "end_pan_y": -0.02, "end_tilt_deg": -0.5},
+                {"t": 3.75, "zoom": 2.06, "pan_x": 0.20, "pan_y": 0.01, "tilt_deg": 0.3, "end_zoom": 2.18, "end_pan_x": 0.20, "end_pan_y": 0.01, "end_tilt_deg": -0.3},
+                {"t": 4.75, "zoom": 1.12, "pan_x": 0.0, "pan_y": -0.02, "tilt_deg": 0.0, "end_zoom": 1.22, "end_pan_x": 0.0, "end_pan_y": -0.03, "end_tilt_deg": -0.6},
+            ],
             "sprites": [
                 {
                     "bbox": [0.15, 0.21, 0.33, 0.365],
                     "motion": "shiver",
-                    "pop_delay": 0.10,
+                    "pop_delay": 0.0,
                 },
                 {
                     "bbox": [0.62, 0.435, 0.79, 0.59],
                     "motion": "shiver",
-                    "pop_delay": 0.20,
+                    "pop_delay": 0.0,
                 },
             ],
-            "overhead": {"text": "TOO COLD FOR WAR!", "cx": 370, "cy": 230, "trigger_rel": 2.85, "style": "cloud"},
+            "overhead": {"text": "TOO COLD FOR WAR!", "cx": 370, "cy": 230, "trigger_rel": 2.30, "end_rel": 3.72, "style": "cloud"},
             "foley": [
-                {"rel": 0.05, "type": "camera_whoosh", "gain": 0.48},
-                {"rel": 0.20, "type": "cold_wind", "gain": 0.60},
-                {"rel": 2.85, "type": "cork_pop", "gain": 0.58},
-                {"rel": 4.90, "type": "somber_bell", "gain": 0.40},
+                {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+                {"rel": 0.18, "type": "cold_wind", "gain": 0.52},
+                {"rel": 2.32, "type": "cork_pop", "gain": 0.58},
+                {"rel": 4.80, "type": "somber_bell", "gain": 0.38},
             ],
         },
         {
             "id": "scene_10",
             "mode": "Mode A (3D Relief Map)",
             "keyframe": "keyframes/scene_10.jpg",
-            "camera_start": {"zoom": 1.03, "pan_x": 0.0, "pan_y": -0.01, "tilt_deg": 0.0},
-            "camera_end": {"zoom": 1.19, "pan_x": 0.01, "pan_y": -0.02, "tilt_deg": 0.8},
-            "impact_shake_rel": 3.25,
+            "impact_shake_rel": 2.75,
+            "shots": [
+                {"t": 0.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": -0.02, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": -0.02, "end_tilt_deg": 0.3},
+                {"t": 1.50, "zoom": 2.08, "pan_x": 0.20, "pan_y": -0.03, "tilt_deg": 0.4, "end_zoom": 2.20, "end_pan_x": 0.20, "end_pan_y": -0.03, "end_tilt_deg": -0.4},
+                {"t": 3.05, "zoom": 2.10, "pan_x": -0.26, "pan_y": -0.21, "tilt_deg": -0.3, "end_zoom": 2.22, "end_pan_x": -0.26, "end_pan_y": -0.21, "end_tilt_deg": 0.3},
+                {"t": 4.10, "zoom": 1.10, "pan_x": 0.0, "pan_y": -0.02, "tilt_deg": 0.0, "end_zoom": 1.20, "end_pan_x": 0.01, "end_pan_y": -0.03, "end_tilt_deg": 0.6},
+            ],
             "sprites": [
                 {
                     "bbox": [0.13, 0.215, 0.36, 0.375],
                     "motion": "cheer_bounce",
-                    "pop_delay": 0.14,
+                    "pop_delay": 0.0,
                 },
                 {
                     "bbox": [0.53, 0.33, 0.87, 0.59],
                     "motion": "gavel_slam",
-                    "pop_delay": 0.16,
-                    "slam_rel": 3.25,
+                    "pop_delay": 0.0,
+                    "slam_rel": 2.75,
                 },
             ],
-            "overhead": {"text": "IOWA WINS!", "cx": 370, "cy": 230, "trigger_rel": 3.30, "style": "badge"},
+            "overhead": {"text": "IOWA WINS!", "cx": 370, "cy": 230, "trigger_rel": 4.15, "style": "badge"},
             "foley": [
-                {"rel": 0.05, "type": "camera_whoosh", "gain": 0.48},
-                {"rel": 0.18, "type": "pawn_bounce", "gain": 0.65},
-                {"rel": 3.25, "type": "gavel_slam", "gain": 0.88},
-                {"rel": 3.40, "type": "cork_pop", "gain": 0.60},
-                {"rel": 6.85, "type": "handcuff_clink", "gain": 0.62},
+                {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+                {"rel": 2.75, "type": "gavel_slam", "gain": 0.88},
+                {"rel": 4.18, "type": "cork_pop", "gain": 0.60},
+                {"rel": 5.95, "type": "handcuff_clink", "gain": 0.60},
             ],
         },
         {
             "id": "scene_11",
             "mode": "Mode A (3D Relief Map)",
             "keyframe": "keyframes/scene_11.jpg",
-            "camera_start": {"zoom": 1.04, "pan_x": 0.0, "pan_y": -0.01, "tilt_deg": 0.0},
-            "camera_end": {"zoom": 1.19, "pan_x": 0.0, "pan_y": -0.02, "tilt_deg": -0.7},
+            "shots": [
+                {"t": 0.00, "zoom": 1.08, "pan_x": 0.0, "pan_y": -0.02, "tilt_deg": 0.0, "end_zoom": 1.16, "end_pan_x": 0.0, "end_pan_y": -0.02, "end_tilt_deg": -0.4},
+                {"t": 1.40, "zoom": 1.98, "pan_x": -0.22, "pan_y": -0.20, "tilt_deg": -0.3, "end_zoom": 2.10, "end_pan_x": -0.22, "end_pan_y": -0.20, "end_tilt_deg": 0.3},
+                {"t": 2.80, "zoom": 2.08, "pan_x": 0.0, "pan_y": -0.08, "tilt_deg": 0.4, "end_zoom": 2.22, "end_pan_x": 0.0, "end_pan_y": -0.08, "end_tilt_deg": -0.4},
+            ],
             "sprites": [
                 {
                     "bbox": [0.16, 0.215, 0.365, 0.375],
                     "motion": "cheer_bounce",
-                    "pop_delay": 0.12,
+                    "pop_delay": 0.0,
                 },
                 {
                     "bbox": [0.59, 0.43, 0.78, 0.59],
                     "motion": "glare_bob_alt",
-                    "pop_delay": 0.24,
+                    "pop_delay": 0.0,
                 },
             ],
-            "overhead": {"text": "ZERO CASUALTIES!", "cx": 370, "cy": 230, "trigger_rel": 1.70, "style": "badge"},
+            "overhead": {"text": "ZERO CASUALTIES!", "cx": 370, "cy": 230, "trigger_rel": 0.48, "end_rel": 1.38, "style": "badge"},
             "foley": [
-                {"rel": 0.05, "type": "camera_whoosh", "gain": 0.45},
-                {"rel": 0.18, "type": "pawn_bounce", "gain": 0.62},
-                {"rel": 1.70, "type": "cork_pop", "gain": 0.58},
-                {"rel": 3.35, "type": "celesta_chime", "gain": 0.70},
-                {"rel": 4.05, "type": "celesta_chime_hi", "gain": 0.66},
+                {"rel": 0.04, "type": "camera_whoosh", "gain": 0.44},
+                {"rel": 0.50, "type": "cork_pop", "gain": 0.56},
+                {"rel": 2.82, "type": "celesta_chime", "gain": 0.70},
+                {"rel": 3.45, "type": "celesta_chime_hi", "gain": 0.66},
             ],
         },
         {
             "id": "scene_12",
-            "mode": "Mode A (3D Relief Map)",
+            "mode": "Mode A (3D Relief Map + Comment Panel + Loop)",
             "keyframe": "keyframes/scene_12.jpg",
-            "camera_start": {"zoom": 1.03, "pan_x": 0.0, "pan_y": -0.01, "tilt_deg": 0.0},
-            "camera_end": {"zoom": 1.18, "pan_x": 0.0, "pan_y": -0.02, "tilt_deg": 0.6},
+            "shots": [
+                {"t": 0.00, "zoom": 1.16, "pan_x": 0.0, "pan_y": -0.12, "tilt_deg": 0.0, "end_zoom": 1.24, "end_pan_x": 0.0, "end_pan_y": -0.13, "end_tilt_deg": 0.4},
+                {"t": 1.35, "zoom": 1.32, "pan_x": 0.02, "pan_y": -0.14, "tilt_deg": -0.3, "end_zoom": 1.40, "end_pan_x": 0.02, "end_pan_y": -0.15, "end_tilt_deg": 0.4},
+            ],
             "sprites": [
                 {
                     "bbox": [0.145, 0.20, 0.37, 0.375],
                     "motion": "football_hop_l",
-                    "pop_delay": 0.14,
+                    "pop_delay": 0.0,
                 },
                 {
                     "bbox": [0.61, 0.42, 0.805, 0.59],
                     "motion": "football_hop_r",
-                    "pop_delay": 0.26,
+                    "pop_delay": 0.0,
                 },
             ],
-            "overhead": {"text": "IOWA vs. MISSOURI", "cx": 370, "cy": 230, "trigger_rel": 3.85, "style": "badge"},
+            "overhead": None,
+            "comment_panel": {
+                "trigger_rel": 0.14,
+                "keyword": "HONEY",
+                "comments": [
+                    {"handle": "@GovRobertLucas", "text": "HONEY! Grab the sausage stuffer!", "likes": "728 ♥", "color": [26, 78, 198]},
+                    {"handle": "@MissouriFarmer", "text": "It was only a $1.50 fine!!", "likes": "519 ♥", "color": [196, 38, 38]},
+                ],
+            },
+            "loop_return_sec": 0.30,
             "foley": [
-                {"rel": 0.05, "type": "camera_whoosh", "gain": 0.50},
-                {"rel": 0.25, "type": "stadium_swell", "gain": 0.58},
-                {"rel": 3.85, "type": "cork_pop", "gain": 0.65},
+                {"rel": 0.04, "type": "camera_whoosh", "gain": 0.46},
+                {"rel": 0.18, "type": "stadium_swell", "gain": 0.42},
             ],
         },
     ]
@@ -715,13 +757,15 @@ def build_scene_config(audio_meta: dict) -> dict:
             "height": H,
             "fps": FPS,
             "subtitle_y_ratio": 0.79,
+            "subtitle_panel_y_ratio": 0.47,
+            "version": "v2",
         },
         "total_duration_sec": audio_meta["total_duration_sec"],
         "scenes": specs,
     }
 
 
-def mix_foley_and_voice(config: dict, voice_wav_path: Path, out_wav_path: Path):
+def mix_foley_and_voice(config: dict, audio_meta: dict, voice_wav_path: Path, out_wav_path: Path):
     with wave.open(str(voice_wav_path), "rb") as wf:
         n_frames = wf.getnframes()
         raw = wf.readframes(n_frames)
@@ -733,6 +777,25 @@ def mix_foley_and_voice(config: dict, voice_wav_path: Path, out_wav_path: Path):
     for sc in config["scenes"]:
         s0, s1 = sc["start_sec"], sc["end_sec"]
         dur = s1 - s0
+
+        shots = sc.get("shots", [])
+        for idx in range(1, len(shots)):
+            if abs(shots[idx]["zoom"] - shots[idx - 1].get("end_zoom", shots[idx - 1]["zoom"])) >= 0.45:
+                fm.add_sound(foley_buf, s0 + shots[idx]["t"], fm.foley_punch_zoom(), gain=0.34)
+
+        cp = sc.get("comment_panel")
+        if cp:
+            t_panel = s0 + cp["trigger_rel"]
+            kw = cp["keyword"]
+            for ci in range(len(kw)):
+                fm.add_sound(foley_buf, t_panel + 0.30 + ci * (0.78 / max(1, len(kw))), fm.foley_type_click(), gain=0.52)
+            fm.add_sound(foley_buf, t_panel + 1.14, fm.foley_cork_pop(), gain=0.55)
+            fm.add_sound(foley_buf, t_panel + 0.85, fm.foley_type_click(), gain=0.40)
+            fm.add_sound(foley_buf, t_panel + 1.40, fm.foley_cork_pop(), gain=0.45)
+
+        if sc.get("loop_return_sec"):
+            fm.add_sound(foley_buf, s1 - sc["loop_return_sec"], fm.foley_punch_zoom(0.24), gain=0.40)
+
         for cue in sc.get("foley", []):
             rel = cue["rel"]
             t_abs = (s1 + rel) if rel < 0 else (s0 + rel)
@@ -741,6 +804,8 @@ def mix_foley_and_voice(config: dict, voice_wav_path: Path, out_wav_path: Path):
 
             if ctype == "camera_whoosh":
                 snd = fm.foley_camera_whoosh()
+            elif ctype == "punch_zoom":
+                snd = fm.foley_punch_zoom()
             elif ctype == "pawn_bounce":
                 snd = fm.foley_pawn_bounce()
             elif ctype == "cork_pop":
@@ -778,20 +843,23 @@ def mix_foley_and_voice(config: dict, voice_wav_path: Path, out_wav_path: Path):
             elif ctype == "celesta_chime_hi":
                 snd = fm.foley_celesta_chime(freq=1318.5)
             elif ctype == "stadium_swell":
-                snd = foley_stadium_swell(duration=min(3.6, max(2.0, dur - 0.5)))
+                snd = foley_stadium_swell(duration=min(3.0, max(1.8, dur - 0.5)))
             else:
                 continue
 
             fm.add_sound(foley_buf, t_abs, snd, gain=gain)
 
-    max_f = np.max(np.abs(foley_buf))
-    if max_f > 0.95:
-        foley_buf = foley_buf / max_f * 0.92
-
-    mixed = voice * 0.96 + foley_buf * 0.58
-    peak = np.max(np.abs(mixed))
-    if peak > 0.96:
-        mixed = mixed / peak * 0.96
+    mixed = fm.mix_voice_foley_and_bed(
+        voice,
+        foley_buf,
+        audio_meta["words"],
+        bpm=98.0,
+        seed=404,
+        voice_gain=0.96,
+        foley_gain=0.56,
+        bed_under_speech=0.15,
+        bed_in_pauses=0.46,
+    )
 
     pcm16 = (np.clip(mixed, -1.0, 1.0) * 32767.0).astype(np.int16)
     with wave.open(str(out_wav_path), "wb") as wf:
@@ -799,12 +867,12 @@ def mix_foley_and_voice(config: dict, voice_wav_path: Path, out_wav_path: Path):
         wf.setsampwidth(2)
         wf.setframerate(SR)
         wf.writeframes(pcm16.tobytes())
-    print(f"Mixed audio saved to {out_wav_path} ({total_dur:.2f}s)")
+    print(f"Mixed audio (voice + foley + auto-ducked acoustic bed) saved to {out_wav_path} ({total_dur:.2f}s)")
 
 
 def compute_sprite_transform(motion: str, local_t: float, sp_cfg: dict):
-    pop_delay = sp_cfg.get("pop_delay", 0.12)
-    sc = eng.spring_scale(local_t - pop_delay, rise=0.34)
+    pop_delay = sp_cfg.get("pop_delay", 0.0)
+    sc = 1.0 if pop_delay <= 0.0 else eng.spring_scale(local_t - pop_delay, rise=0.30)
     dx, dy, ang = 0.0, 0.0, 0.0
     t = max(0.0, local_t - pop_delay)
 
@@ -832,7 +900,7 @@ def compute_sprite_transform(motion: str, local_t: float, sp_cfg: dict):
         dy = -5.0 * abs(math.sin(t * 3.2 + 1.1))
         ang = -2.5 * math.sin(t * 2.4 + 0.8)
     elif motion == "gavel_slam":
-        slam_rel = sp_cfg.get("slam_rel", 3.25)
+        slam_rel = sp_cfg.get("slam_rel", 2.75)
         dt_slam = local_t - slam_rel
         if -0.35 <= dt_slam < 0.0:
             p = (dt_slam + 0.35) / 0.35
@@ -905,7 +973,7 @@ def main():
             check=True,
         )
     mixed_wav = EP_DIR / "honey_war_mixed.wav"
-    mix_foley_and_voice(config, voice_wav, mixed_wav)
+    mix_foley_and_voice(config, audio_meta, voice_wav, mixed_wav)
 
     subtitle_cards = build_subtitle_cards(audio_meta["scenes"])
 
@@ -915,16 +983,27 @@ def main():
     sub_font = load_font(44, bold=True)
     ov_font = load_font(26, bold=True)
     vhs_font = load_font(30, bold=True)
+    panel_title_font = load_font(22, bold=True)
+    panel_input_font = load_font(24, bold=True)
+    panel_body_font = load_font(22, bold=True)
+    panel_small_font = load_font(18, bold=True)
 
     qa_dir = EP_DIR / "qa"
     qa_dir.mkdir(parents=True, exist_ok=True)
-    qa_targets = {}
-    for sc in config["scenes"]:
-        if sc["id"] in ("scene_01", "scene_02", "scene_04", "scene_05", "scene_06", "scene_07", "scene_08", "scene_09", "scene_10", "scene_11", "scene_12"):
-            ratio = 0.88 if sc["id"] in ("scene_01", "scene_05") else 0.78
-            t_mid = sc["start_sec"] + (sc["end_sec"] - sc["start_sec"]) * ratio
-            qa_targets[sc["id"]] = int(t_mid * FPS)
-    qa_targets["scene_12_final"] = int((config["total_duration_sec"] - 0.7) * FPS)
+    s_map = {sc["id"]: sc for sc in config["scenes"]}
+    qa_targets = {
+        "scene_01_frame0": 0,
+        "scene_01_pitchfork": int((s_map["scene_01"]["start_sec"] + 1.85) * FPS),
+        "scene_05_lucas": int((s_map["scene_05"]["start_sec"] + 2.55) * FPS),
+        "scene_05_arrest": int((s_map["scene_05"]["start_sec"] + 6.45) * FPS),
+        "scene_06_bees": int((s_map["scene_06"]["start_sec"] + 4.30) * FPS),
+        "scene_08_pan": int((s_map["scene_08"]["start_sec"] + 5.55) * FPS),
+        "scene_08_sausage": int((s_map["scene_08"]["start_sec"] + 6.95) * FPS),
+        "scene_10_gavel": int((s_map["scene_10"]["start_sec"] + 2.75) * FPS),
+        "scene_11_jar": int((s_map["scene_11"]["start_sec"] + 3.45) * FPS),
+        "scene_12_panel": int((s_map["scene_12"]["start_sec"] + 2.15) * FPS),
+        "scene_12_loop": int((config["total_duration_sec"] - 0.14) * FPS),
+    }
 
     total_frames = int(math.ceil(config["total_duration_sec"] * FPS))
     out_mp4 = EP_DIR / "heartland_mapped_ep04_honey_war.mp4"
@@ -969,6 +1048,8 @@ def main():
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
 
     sub_idx = 0
+    frame0_rgba = None
+
     for f_idx in range(total_frames):
         t = f_idx / FPS
 
@@ -983,7 +1064,6 @@ def main():
         local_t = max(0.0, t - s0)
         dur = max(0.001, s1 - s0)
         prog = min(1.0, local_t / dur)
-        eased = smoothstep(prog)
 
         canvas = active["bg_rgba"].copy()
 
@@ -992,7 +1072,7 @@ def main():
             eng.paste_moving_sprite(canvas, sp_rgba, base_rect, dx=dx, dy=dy, scale=scale, angle_deg=ang, shadow=True)
 
         ov = sc.get("overhead")
-        if ov and local_t >= ov["trigger_rel"]:
+        if ov and ov["trigger_rel"] <= local_t < ov.get("end_rel", 999.0):
             ov_prog = min(1.0, (local_t - ov["trigger_rel"]) / 0.28)
             draw_overhead_crisp(
                 canvas,
@@ -1006,12 +1086,7 @@ def main():
                 height=H,
             )
 
-        cs = sc["camera_start"]
-        ce = sc["camera_end"]
-        zoom = lerp(cs["zoom"], ce["zoom"], eased)
-        pan_x = lerp(cs["pan_x"], ce["pan_x"], eased)
-        pan_y = lerp(cs["pan_y"], ce["pan_y"], eased)
-        tilt = lerp(cs["tilt_deg"], ce["tilt_deg"], eased)
+        zoom, pan_x, pan_y, tilt, cut_blur = eng.eval_shot_camera(sc["shots"], local_t, dur)
 
         if sc.get("march_shake"):
             pan_y += 0.004 * abs(math.sin(local_t * 6.5))
@@ -1023,24 +1098,62 @@ def main():
                 pan_x += 0.013 * math.sin(dt_imp * 55.0) * decay
                 pan_y += 0.011 * math.cos(dt_imp * 48.0) * decay
 
-        t_blur = 0.0
-        if local_t < 0.13 and sc["id"] != "scene_01":
-            t_blur = (1.0 - local_t / 0.13) * 0.55
-        elif (dur - local_t) < 0.12 and sc["id"] != "scene_12":
-            t_blur = (1.0 - (dur - local_t) / 0.12) * 0.55
+        t_blur = cut_blur
+        if local_t < 0.11 and sc["id"] != "scene_01":
+            t_blur = max(t_blur, (1.0 - local_t / 0.11) * 0.50)
+        elif (dur - local_t) < 0.10 and sc["id"] != "scene_12":
+            t_blur = max(t_blur, (1.0 - (dur - local_t) / 0.10) * 0.50)
 
         frame = eng.apply_25d_camera(canvas, zoom, pan_x, pan_y, tilt, transition_blur=t_blur, width=W, height=H)
 
-        if sc.get("vhs_rewind") or (sc["id"] == "scene_01" and (dur - local_t) < 0.38):
-            vhs_p = prog if sc.get("vhs_rewind") else (1.0 - (dur - local_t) / 0.38)
+        if f_idx == 0:
+            frame0_rgba = frame.copy()
+
+        if sc.get("vhs_rewind") or (sc["id"] == "scene_01" and (dur - local_t) < 0.36):
+            vhs_p = prog if sc.get("vhs_rewind") else (1.0 - (dur - local_t) / 0.36)
             frame = apply_vhs_rewind(frame, vhs_p, vhs_font)
+
+        cp = sc.get("comment_panel")
+        panel_active = False
+        if cp and local_t >= cp["trigger_rel"]:
+            loop_sec = sc.get("loop_return_sec", 0.0)
+            if (dur - local_t) > loop_sec * 0.55:
+                panel_active = True
+                eng.draw_animated_comment_panel(
+                    frame,
+                    local_t - cp["trigger_rel"],
+                    cp["keyword"],
+                    cp["comments"],
+                    panel_title_font,
+                    panel_input_font,
+                    panel_body_font,
+                    panel_small_font,
+                    width=W,
+                    height=H,
+                )
+
+        loop_sec = sc.get("loop_return_sec", 0.0)
+        in_loop_return = False
+        if loop_sec > 0.0 and frame0_rgba is not None and (dur - local_t) <= loop_sec:
+            in_loop_return = True
+            lp = smoothstep(1.0 - (dur - local_t) / loop_sec)
+            frame = Image.blend(frame, frame0_rgba, lp)
+            whip = math.sin(lp * math.pi) * 0.45
+            if whip > 0.06:
+                ksize = max(3, int(whip * 21) | 1)
+                arr = np.array(frame)
+                kernel = np.zeros((ksize, ksize), dtype=np.float32)
+                kernel[ksize // 2, :] = 1.0 / ksize
+                arr[:, :, :3] = cv2.filter2D(arr[:, :, :3], -1, kernel)
+                frame = Image.fromarray(arr)
 
         while sub_idx < len(subtitle_cards) and subtitle_cards[sub_idx]["end"] < t:
             sub_idx += 1
-        if sub_idx < len(subtitle_cards):
+        if not in_loop_return and sub_idx < len(subtitle_cards):
             card = subtitle_cards[sub_idx]
             if card["start"] <= t <= card["end"]:
-                draw_subtitle_card(frame, card["text"], sub_font, y_ratio=0.79)
+                sub_y = 0.47 if panel_active else 0.79
+                draw_subtitle_card(frame, card["text"], sub_font, y_ratio=sub_y)
 
         for sid, target_f in qa_targets.items():
             if f_idx == target_f:
@@ -1055,7 +1168,7 @@ def main():
     ret = proc.wait()
     if ret != 0:
         raise RuntimeError(f"ffmpeg exited with code {ret}")
-    print(f"SUCCESS! Final video saved to: {out_mp4}")
+    print(f"SUCCESS! Final v2 video saved to: {out_mp4}")
 
 
 if __name__ == "__main__":

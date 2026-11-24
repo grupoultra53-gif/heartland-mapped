@@ -13,69 +13,69 @@ SEG_DIR = EP_DIR / "audio_segments"
 SEG_DIR.mkdir(parents=True, exist_ok=True)
 
 VOICE = "en-US-ChristopherNeural"
-RATE = "+6%"
+RATE = "+10%"
 PITCH = "-1Hz"
 
 SCENES = [
     {
         "id": "scene_01",
-        "pause_after": 0.25,
-        "text": "In 1839, Iowa and Missouri called up thousands of armed militiamen and nearly went to war... over three honey trees.",
+        "pause_after": 0.16,
+        "text": "How did three honey trees nearly start a war between Iowa and Missouri in 1839?",
     },
     {
         "id": "scene_02",
-        "pause_after": 0.35,
+        "pause_after": 0.22,
         "text": "Wait... let's rewind.",
     },
     {
         "id": "scene_03",
-        "pause_after": 0.20,
-        "text": "In 1816, surveyors drew Missouri's northern border straight east from the rapids of the Des Moines River.",
+        "pause_after": 0.16,
+        "text": "In 1816, surveyors drew Missouri's northern border straight east from the Des Moines River rapids.",
     },
     {
         "id": "scene_04",
-        "pause_after": 0.20,
-        "text": "Twenty years later, Missouri claimed they'd used the wrong rapids, and pushed the border nine miles north: claiming 2,600 square miles of Iowa farmland.",
+        "pause_after": 0.16,
+        "text": "Twenty years later, Missouri claimed the wrong rapids were used, pushing the border nine miles north into 2,600 square miles of Iowa.",
     },
     {
         "id": "scene_05",
-        "pause_after": 0.22,
-        "text": "When Missouri sent a sheriff to collect taxes, Iowa's governor—the very same fiery leader from Ohio's Toledo War—had him arrested on the spot.",
+        "pause_after": 0.16,
+        "text": "When Missouri sent a tax sheriff, Iowa's governor—the exact same leader from Ohio's Toledo War—had him arrested on the spot.",
     },
     {
         "id": "scene_06",
-        "pause_after": 0.20,
-        "text": "Then came the breaking point: a Missouri farmer snuck across the line and chopped down three hollow bee trees to steal the honey.",
+        "pause_after": 0.16,
+        "text": "Then came the breaking point: a Missouri farmer snuck across the line and chopped down three hollow bee trees for their honey.",
     },
     {
         "id": "scene_07",
-        "pause_after": 0.20,
-        "text": "Furious Iowans fined him a dollar fifty, newspapers dubbed it the Honey War, and both governors ordered their militias to march.",
+        "pause_after": 0.16,
+        "text": "Furious Iowans fined him a dollar fifty, newspapers dubbed it the Honey War, and both governors mobilized militias.",
     },
     {
         "id": "scene_08",
-        "pause_after": 0.22,
-        "text": "Over a thousand Iowans marched south in freezing December armed with rusty muskets, pitchforks, frying pans, and even a sausage stuffer.",
+        "pause_after": 0.18,
+        "text": "Over a thousand Iowans marched south in freezing December with rusty muskets, pitchforks, frying pans, and even a sausage stuffer.",
     },
     {
         "id": "scene_09",
-        "pause_after": 0.20,
-        "text": "Shivering in the bitter cold, both sides realized nobody wanted to die over honey, and marched right back home without firing a single shot.",
+        "pause_after": 0.16,
+        "text": "Shivering in the bitter cold, both sides realized nobody wanted to die over honey, and marched home without firing a shot.",
     },
     {
         "id": "scene_10",
-        "pause_after": 0.22,
-        "text": "Ten years later, the U.S. Supreme Court unanimously sided with Iowa, restoring the original 1816 border with permanent iron posts.",
+        "pause_after": 0.16,
+        "text": "Ten years later, the U.S. Supreme Court unanimously backed Iowa, marking the 1816 border with permanent iron posts.",
     },
     {
         "id": "scene_11",
-        "pause_after": 0.20,
-        "text": "Not one drop of blood was ever spilled, making the Honey War the sweetest standoff in American history.",
+        "pause_after": 0.16,
+        "text": "Zero casualties, three bee trees lost: America's sweetest standoff.",
     },
     {
         "id": "scene_12",
-        "pause_after": 0.55,
-        "text": "Zero casualties, three bee trees lost. So be honest... if your neighbor stole your honey trees, would you call out the militia too?",
+        "pause_after": 0.20,
+        "text": "Comment HONEY if you'd call out the militia too—and now you know...",
     },
 ]
 

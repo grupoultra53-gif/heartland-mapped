@@ -1,0 +1,14 @@
+{
+  "episode": "ep04_honey_war",
+  "video_file": "heartland_mapped_ep04_honey_war.mp4",
+  "duration_sec": 68.87,
+  "visual_jumps_per_10s": 13.21,
+  "planned_shots_per_10s": 6.24,
+  "closeup_pct": 49.7,
+  "frame0_zoom": 1.96,
+  "frame0_visible_sprites": 2,
+  "audio_gap_db_drop": 7.7,
+  "has_comment_panel": true,
+  "has_seamless_loop": true,
+  "all_pass": true
+}

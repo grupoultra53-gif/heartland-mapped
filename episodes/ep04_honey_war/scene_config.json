@@ -3,26 +3,51 @@
     "width": 720,
     "height": 1280,
     "fps": 30,
-    "subtitle_y_ratio": 0.79
+    "subtitle_y_ratio": 0.79,
+    "subtitle_panel_y_ratio": 0.47,
+    "version": "v2"
   },
-  "total_duration_sec": 84.601,
+  "total_duration_sec": 68.87,
   "scenes": [
     {
       "id": "scene_01",
-      "mode": "Mode A (3D Relief Map)",
+      "mode": "Mode A (3D Relief Map \u2014 Frame 0 Hook)",
       "keyframe": "keyframes/scene_01.jpg",
-      "camera_start": {
-        "zoom": 1.04,
-        "pan_x": 0.0,
-        "pan_y": -0.01,
-        "tilt_deg": 0.0
-      },
-      "camera_end": {
-        "zoom": 1.19,
-        "pan_x": 0.0,
-        "pan_y": -0.02,
-        "tilt_deg": 0.8
-      },
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.96,
+          "pan_x": 0.04,
+          "pan_y": -0.07,
+          "tilt_deg": 0.0,
+          "end_zoom": 2.1,
+          "end_pan_x": 0.05,
+          "end_pan_y": -0.07,
+          "end_tilt_deg": 0.5
+        },
+        {
+          "t": 1.35,
+          "zoom": 2.06,
+          "pan_x": -0.22,
+          "pan_y": -0.21,
+          "tilt_deg": -0.4,
+          "end_zoom": 2.18,
+          "end_pan_x": -0.21,
+          "end_pan_y": -0.21,
+          "end_tilt_deg": 0.4
+        },
+        {
+          "t": 2.65,
+          "zoom": 1.08,
+          "pan_x": 0.0,
+          "pan_y": -0.02,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.22,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.03,
+          "end_tilt_deg": 0.8
+        }
+      ],
       "sprites": [
         {
           "bbox": [
@@ -40,7 +65,7 @@
             ]
           ],
           "motion": "lunge_right",
-          "pop_delay": 0.14
+          "pop_delay": 0.0
         },
         {
           "bbox": [
@@ -50,103 +75,139 @@
             0.59
           ],
           "motion": "lunge_left",
-          "pop_delay": 0.28
+          "pop_delay": 0.0
         }
       ],
       "overhead": {
         "text": "3 HONEY TREES?!",
         "cx": 370,
         "cy": 230,
-        "trigger_rel": 5.55,
+        "trigger_rel": 2.68,
         "style": "badge"
       },
       "foley": [
         {
-          "rel": 0.05,
-          "type": "camera_whoosh",
+          "rel": 0.02,
+          "type": "pawn_bounce",
+          "gain": 0.65
+        },
+        {
+          "rel": 0.45,
+          "type": "bee_buzz",
           "gain": 0.55
         },
         {
-          "rel": 0.16,
-          "type": "pawn_bounce",
-          "gain": 0.7
-        },
-        {
-          "rel": 0.3,
-          "type": "pawn_bounce",
-          "gain": 0.7
-        },
-        {
-          "rel": 5.55,
+          "rel": 2.68,
           "type": "cork_pop",
           "gain": 0.65
         },
         {
-          "rel": 5.65,
-          "type": "bee_buzz",
-          "gain": 0.62
-        },
-        {
-          "rel": -0.58,
+          "rel": -0.52,
           "type": "tape_rewind",
-          "gain": 0.75
+          "gain": 0.72
         }
       ],
       "start_sec": 0.0,
-      "end_sec": 7.428,
-      "narration": "In 1839, Iowa and Missouri called up thousands of armed militiamen and nearly went to war... over three honey trees."
+      "end_sec": 5.004,
+      "narration": "How did three honey trees nearly start a war between Iowa and Missouri in 1839?"
     },
     {
       "id": "scene_02",
       "mode": "Mode A (VHS Rewind -> 1816)",
       "keyframe": "keyframes/scene_02.jpg",
       "vhs_rewind": true,
-      "camera_start": {
-        "zoom": 1.1,
-        "pan_x": 0.0,
-        "pan_y": -0.03,
-        "tilt_deg": -0.7
-      },
-      "camera_end": {
-        "zoom": 1.02,
-        "pan_x": 0.0,
-        "pan_y": 0.0,
-        "tilt_deg": 0.0
-      },
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.14,
+          "pan_x": 0.0,
+          "pan_y": -0.05,
+          "tilt_deg": -0.8,
+          "end_zoom": 1.04,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.02,
+          "end_tilt_deg": 0.0
+        },
+        {
+          "t": 0.88,
+          "zoom": 1.74,
+          "pan_x": 0.0,
+          "pan_y": -0.24,
+          "tilt_deg": 0.5,
+          "end_zoom": 1.88,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.26,
+          "end_tilt_deg": 0.0
+        }
+      ],
       "sprites": [],
       "overhead": null,
       "foley": [
         {
-          "rel": 0.05,
+          "rel": 0.04,
           "type": "tape_rewind",
-          "gain": 0.72
+          "gain": 0.7
         },
         {
-          "rel": 0.9,
+          "rel": 0.85,
           "type": "parchment_brush",
           "gain": 0.65
         }
       ],
-      "start_sec": 7.428,
-      "end_sec": 9.303,
+      "start_sec": 5.004,
+      "end_sec": 6.7,
       "narration": "Wait... let's rewind."
     },
     {
       "id": "scene_03",
       "mode": "Mode A (3D Relief Map)",
       "keyframe": "keyframes/scene_03.jpg",
-      "camera_start": {
-        "zoom": 1.03,
-        "pan_x": -0.01,
-        "pan_y": -0.01,
-        "tilt_deg": 0.0
-      },
-      "camera_end": {
-        "zoom": 1.18,
-        "pan_x": 0.02,
-        "pan_y": -0.02,
-        "tilt_deg": 0.8
-      },
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.06,
+          "pan_x": -0.01,
+          "pan_y": -0.01,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.02,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 1.55,
+          "zoom": 2.04,
+          "pan_x": -0.24,
+          "pan_y": -0.2,
+          "tilt_deg": -0.4,
+          "end_zoom": 2.16,
+          "end_pan_x": -0.23,
+          "end_pan_y": -0.2,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 3.15,
+          "zoom": 1.1,
+          "pan_x": 0.0,
+          "pan_y": -0.02,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.18,
+          "end_pan_x": 0.01,
+          "end_pan_y": -0.02,
+          "end_tilt_deg": 0.5
+        },
+        {
+          "t": 4.2,
+          "zoom": 1.98,
+          "pan_x": 0.22,
+          "pan_y": -0.06,
+          "tilt_deg": 0.4,
+          "end_zoom": 2.12,
+          "end_pan_x": 0.22,
+          "end_pan_y": -0.06,
+          "end_tilt_deg": -0.3
+        }
+      ],
       "sprites": [
         {
           "bbox": [
@@ -156,59 +217,100 @@
             0.375
           ],
           "motion": "write_bob",
-          "pop_delay": 0.14
+          "pop_delay": 0.0
         }
       ],
       "overhead": {
         "text": "1816 BORDER!",
         "cx": 370,
         "cy": 230,
-        "trigger_rel": 2.95,
+        "trigger_rel": 3.15,
+        "end_rel": 4.18,
         "style": "badge"
       },
       "foley": [
         {
-          "rel": 0.05,
+          "rel": 0.04,
           "type": "camera_whoosh",
-          "gain": 0.48
+          "gain": 0.45
         },
         {
-          "rel": 0.18,
-          "type": "pawn_bounce",
-          "gain": 0.65
-        },
-        {
-          "rel": 2.35,
+          "rel": 2.1,
           "type": "parchment_brush",
-          "gain": 0.72
+          "gain": 0.68
         },
         {
-          "rel": 2.95,
+          "rel": 3.18,
           "type": "cork_pop",
           "gain": 0.6
         }
       ],
-      "start_sec": 9.303,
-      "end_sec": 15.222,
-      "narration": "In 1816, surveyors drew Missouri's northern border straight east from the rapids of the Des Moines River."
+      "start_sec": 6.7,
+      "end_sec": 12.292,
+      "narration": "In 1816, surveyors drew Missouri's northern border straight east from the Des Moines River rapids."
     },
     {
       "id": "scene_04",
       "mode": "Mode A (3D Relief Map)",
       "keyframe": "keyframes/scene_04.jpg",
-      "camera_start": {
-        "zoom": 1.04,
-        "pan_x": 0.01,
-        "pan_y": -0.01,
-        "tilt_deg": 0.0
-      },
-      "camera_end": {
-        "zoom": 1.2,
-        "pan_x": -0.01,
-        "pan_y": -0.02,
-        "tilt_deg": -0.9
-      },
-      "impact_shake_rel": 3.85,
+      "impact_shake_rel": 3.55,
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": -0.02,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.02,
+          "end_tilt_deg": -0.3
+        },
+        {
+          "t": 1.6,
+          "zoom": 2.08,
+          "pan_x": 0.19,
+          "pan_y": 0.01,
+          "tilt_deg": 0.4,
+          "end_zoom": 2.2,
+          "end_pan_x": 0.19,
+          "end_pan_y": 0.01,
+          "end_tilt_deg": -0.3
+        },
+        {
+          "t": 3.48,
+          "zoom": 1.12,
+          "pan_x": 0.0,
+          "pan_y": -0.03,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.22,
+          "end_pan_x": -0.01,
+          "end_pan_y": -0.04,
+          "end_tilt_deg": -0.6
+        },
+        {
+          "t": 5.35,
+          "zoom": 2.14,
+          "pan_x": -0.25,
+          "pan_y": -0.21,
+          "tilt_deg": -0.4,
+          "end_zoom": 2.26,
+          "end_pan_x": -0.25,
+          "end_pan_y": -0.21,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 6.45,
+          "zoom": 1.1,
+          "pan_x": 0.0,
+          "pan_y": -0.02,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.2,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.03,
+          "end_tilt_deg": -0.5
+        }
+      ],
       "sprites": [
         {
           "bbox": [
@@ -218,7 +320,7 @@
             0.37
           ],
           "motion": "shudder",
-          "pop_delay": 0.14
+          "pop_delay": 0.0
         },
         {
           "bbox": [
@@ -228,64 +330,93 @@
             0.59
           ],
           "motion": "write_bob",
-          "pop_delay": 0.28
+          "pop_delay": 0.0
         }
       ],
       "overhead": {
         "text": "2,600 SQ MILES!",
         "cx": 370,
         "cy": 230,
-        "trigger_rel": 6.0,
+        "trigger_rel": 6.45,
         "style": "badge"
       },
       "foley": [
         {
-          "rel": 0.05,
+          "rel": 0.04,
           "type": "camera_whoosh",
-          "gain": 0.48
+          "gain": 0.45
         },
         {
-          "rel": 0.18,
-          "type": "pawn_bounce",
-          "gain": 0.65
-        },
-        {
-          "rel": 3.7,
+          "rel": 3.5,
           "type": "map_crack",
           "gain": 0.72
         },
         {
-          "rel": 6.0,
-          "type": "cork_pop",
-          "gain": 0.6
-        },
-        {
-          "rel": 6.15,
+          "rel": 5.38,
           "type": "jaw_drop",
           "gain": 0.68
+        },
+        {
+          "rel": 6.48,
+          "type": "cork_pop",
+          "gain": 0.6
         }
       ],
-      "start_sec": 15.222,
-      "end_sec": 24.329,
-      "narration": "Twenty years later, Missouri claimed they'd used the wrong rapids, and pushed the border nine miles north: claiming 2,600 square miles of Iowa farmland."
+      "start_sec": 12.292,
+      "end_sec": 20.035,
+      "narration": "Twenty years later, Missouri claimed the wrong rapids were used, pushing the border nine miles north into 2,600 square miles of Iowa."
     },
     {
       "id": "scene_05",
       "mode": "Mode A (3D Relief Map)",
       "keyframe": "keyframes/scene_05.jpg",
-      "camera_start": {
-        "zoom": 1.04,
-        "pan_x": 0.0,
-        "pan_y": -0.01,
-        "tilt_deg": 0.0
-      },
-      "camera_end": {
-        "zoom": 1.2,
-        "pan_x": 0.01,
-        "pan_y": -0.02,
-        "tilt_deg": 0.9
-      },
-      "impact_shake_rel": 7.18,
+      "impact_shake_rel": 6.02,
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 2.04,
+          "pan_x": 0.2,
+          "pan_y": 0.01,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.16,
+          "end_pan_x": 0.2,
+          "end_pan_y": 0.01,
+          "end_tilt_deg": -0.3
+        },
+        {
+          "t": 1.95,
+          "zoom": 2.12,
+          "pan_x": -0.23,
+          "pan_y": -0.21,
+          "tilt_deg": -0.4,
+          "end_zoom": 2.24,
+          "end_pan_x": -0.22,
+          "end_pan_y": -0.21,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 4.2,
+          "zoom": 1.1,
+          "pan_x": 0.0,
+          "pan_y": -0.02,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.18,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.02,
+          "end_tilt_deg": 0.5
+        },
+        {
+          "t": 5.85,
+          "zoom": 1.72,
+          "pan_x": 0.16,
+          "pan_y": 0.01,
+          "tilt_deg": -0.4,
+          "end_zoom": 1.84,
+          "end_pan_x": 0.16,
+          "end_pan_y": 0.01,
+          "end_tilt_deg": 0.4
+        }
+      ],
       "sprites": [
         {
           "bbox": [
@@ -303,7 +434,7 @@
             ]
           ],
           "motion": "lunge_right",
-          "pop_delay": 0.14
+          "pop_delay": 0.0
         },
         {
           "bbox": [
@@ -313,119 +444,177 @@
             0.59
           ],
           "motion": "shudder",
-          "pop_delay": 0.28
+          "pop_delay": 0.0
         }
       ],
       "overhead": {
         "text": "ARRESTED!",
-        "cx": 370,
-        "cy": 230,
-        "trigger_rel": 6.95,
+        "cx": 500,
+        "cy": 470,
+        "trigger_rel": 6.0,
         "style": "badge"
       },
       "foley": [
         {
-          "rel": 0.05,
+          "rel": 0.04,
           "type": "camera_whoosh",
-          "gain": 0.48
+          "gain": 0.45
         },
         {
-          "rel": 0.18,
-          "type": "pawn_bounce",
-          "gain": 0.65
-        },
-        {
-          "rel": 2.75,
-          "type": "pawn_bounce",
-          "gain": 0.65
-        },
-        {
-          "rel": 7.1,
+          "rel": 5.98,
           "type": "handcuff_clink",
           "gain": 0.8
         },
         {
-          "rel": 7.2,
+          "rel": 6.05,
           "type": "cork_pop",
           "gain": 0.6
         }
       ],
-      "start_sec": 24.329,
-      "end_sec": 32.735,
-      "narration": "When Missouri sent a sheriff to collect taxes, Iowa's governor\u2014the very same fiery leader from Ohio's Toledo War\u2014had him arrested on the spot."
+      "start_sec": 20.035,
+      "end_sec": 27.162,
+      "narration": "When Missouri sent a tax sheriff, Iowa's governor\u2014the exact same leader from Ohio's Toledo War\u2014had him arrested on the spot."
     },
     {
       "id": "scene_06",
       "mode": "Mode B (2.5D Woodland Bee Trees Diorama)",
       "keyframe": "keyframes/scene_06.jpg",
-      "camera_start": {
-        "zoom": 1.04,
-        "pan_x": 0.0,
-        "pan_y": 0.02,
-        "tilt_deg": -0.5
-      },
-      "camera_end": {
-        "zoom": 1.2,
-        "pan_x": 0.02,
-        "pan_y": 0.04,
-        "tilt_deg": 0.8
-      },
-      "impact_shake_rel": 3.92,
+      "impact_shake_rel": 3.8,
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.02,
+          "tilt_deg": -0.4,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.03,
+          "end_tilt_deg": 0.2
+        },
+        {
+          "t": 1.7,
+          "zoom": 2.08,
+          "pan_x": -0.12,
+          "pan_y": 0.11,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.2,
+          "end_pan_x": -0.11,
+          "end_pan_y": 0.11,
+          "end_tilt_deg": -0.3
+        },
+        {
+          "t": 3.75,
+          "zoom": 2.04,
+          "pan_x": 0.22,
+          "pan_y": 0.04,
+          "tilt_deg": -0.4,
+          "end_zoom": 2.16,
+          "end_pan_x": 0.22,
+          "end_pan_y": 0.04,
+          "end_tilt_deg": 0.4
+        },
+        {
+          "t": 5.1,
+          "zoom": 1.12,
+          "pan_x": 0.0,
+          "pan_y": 0.03,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.22,
+          "end_pan_x": 0.01,
+          "end_pan_y": 0.04,
+          "end_tilt_deg": 0.6
+        }
+      ],
       "sprites": [],
       "overhead": {
         "text": "THE BEE TREES!",
-        "cx": 250,
+        "cx": 260,
         "cy": 450,
-        "trigger_rel": 4.4,
+        "trigger_rel": 5.12,
         "style": "cloud"
       },
       "foley": [
         {
-          "rel": 0.05,
+          "rel": 0.04,
           "type": "camera_whoosh",
-          "gain": 0.48
+          "gain": 0.45
         },
         {
-          "rel": 3.9,
+          "rel": 3.78,
           "type": "axe_chop",
           "gain": 0.82
         },
         {
-          "rel": 4.42,
+          "rel": 4.28,
           "type": "axe_chop",
           "gain": 0.78
         },
         {
-          "rel": 4.75,
+          "rel": 4.55,
           "type": "bee_buzz",
-          "gain": 0.7
+          "gain": 0.68
         },
         {
-          "rel": 5.8,
+          "rel": 5.15,
           "type": "cork_pop",
-          "gain": 0.55
+          "gain": 0.56
         }
       ],
-      "start_sec": 32.735,
-      "end_sec": 39.385,
-      "narration": "Then came the breaking point: a Missouri farmer snuck across the line and chopped down three hollow bee trees to steal the honey."
+      "start_sec": 27.162,
+      "end_sec": 33.318,
+      "narration": "Then came the breaking point: a Missouri farmer snuck across the line and chopped down three hollow bee trees for their honey."
     },
     {
       "id": "scene_07",
       "mode": "Mode A (3D Relief Map)",
       "keyframe": "keyframes/scene_07.jpg",
-      "camera_start": {
-        "zoom": 1.04,
-        "pan_x": 0.0,
-        "pan_y": -0.01,
-        "tilt_deg": 0.0
-      },
-      "camera_end": {
-        "zoom": 1.2,
-        "pan_x": 0.0,
-        "pan_y": -0.02,
-        "tilt_deg": -0.9
-      },
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 2.12,
+          "pan_x": -0.2,
+          "pan_y": -0.21,
+          "tilt_deg": -0.4,
+          "end_zoom": 2.24,
+          "end_pan_x": -0.19,
+          "end_pan_y": -0.21,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 2.45,
+          "zoom": 1.1,
+          "pan_x": 0.0,
+          "pan_y": -0.02,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.18,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.02,
+          "end_tilt_deg": -0.5
+        },
+        {
+          "t": 4.45,
+          "zoom": 2.08,
+          "pan_x": 0.18,
+          "pan_y": -0.02,
+          "tilt_deg": 0.4,
+          "end_zoom": 2.2,
+          "end_pan_x": 0.18,
+          "end_pan_y": -0.02,
+          "end_tilt_deg": -0.3
+        },
+        {
+          "t": 5.55,
+          "zoom": 1.14,
+          "pan_x": 0.0,
+          "pan_y": -0.02,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.24,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.03,
+          "end_tilt_deg": -0.7
+        }
+      ],
       "sprites": [
         {
           "bbox": [
@@ -443,7 +632,7 @@
             ]
           ],
           "motion": "lunge_right",
-          "pop_delay": 0.14
+          "pop_delay": 0.0
         },
         {
           "bbox": [
@@ -453,114 +642,178 @@
             0.59
           ],
           "motion": "lunge_left",
-          "pop_delay": 0.28
+          "pop_delay": 0.0
         }
       ],
       "overhead": {
         "text": "$1.50 FINE!",
         "cx": 370,
         "cy": 230,
-        "trigger_rel": 1.55,
+        "trigger_rel": 2.48,
+        "end_rel": 4.42,
         "style": "badge"
       },
       "foley": [
         {
-          "rel": 0.05,
+          "rel": 0.04,
           "type": "camera_whoosh",
-          "gain": 0.48
+          "gain": 0.45
         },
         {
-          "rel": 0.16,
-          "type": "pawn_bounce",
-          "gain": 0.65
-        },
-        {
-          "rel": 1.55,
+          "rel": 2.5,
           "type": "cork_pop",
           "gain": 0.62
         },
         {
-          "rel": 4.8,
+          "rel": 4.45,
           "type": "war_horn",
-          "gain": 0.48
+          "gain": 0.45
         },
         {
-          "rel": 5.3,
+          "rel": 5.05,
           "type": "sword_unsheathe",
-          "gain": 0.52
+          "gain": 0.5
         }
       ],
-      "start_sec": 39.385,
-      "end_sec": 46.441,
-      "narration": "Furious Iowans fined him a dollar fifty, newspapers dubbed it the Honey War, and both governors ordered their militias to march."
+      "start_sec": 33.318,
+      "end_sec": 39.751,
+      "narration": "Furious Iowans fined him a dollar fifty, newspapers dubbed it the Honey War, and both governors mobilized militias."
     },
     {
       "id": "scene_08",
       "mode": "Mode B (2.5D Winter Militia March Diorama)",
       "keyframe": "keyframes/scene_08.jpg",
-      "camera_start": {
-        "zoom": 1.05,
-        "pan_x": 0.0,
-        "pan_y": 0.02,
-        "tilt_deg": -0.5
-      },
-      "camera_end": {
-        "zoom": 1.22,
-        "pan_x": 0.0,
-        "pan_y": 0.05,
-        "tilt_deg": 0.8
-      },
       "march_shake": true,
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.03,
+          "tilt_deg": -0.4,
+          "end_zoom": 1.16,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.04,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 3.5,
+          "zoom": 2.1,
+          "pan_x": -0.28,
+          "pan_y": 0.12,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.22,
+          "end_pan_x": -0.27,
+          "end_pan_y": 0.12,
+          "end_tilt_deg": -0.3
+        },
+        {
+          "t": 5.08,
+          "zoom": 2.12,
+          "pan_x": 0.02,
+          "pan_y": 0.12,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.24,
+          "end_pan_x": 0.02,
+          "end_pan_y": 0.12,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 6.3,
+          "zoom": 2.12,
+          "pan_x": 0.28,
+          "pan_y": 0.12,
+          "tilt_deg": 0.4,
+          "end_zoom": 2.24,
+          "end_pan_x": 0.28,
+          "end_pan_y": 0.12,
+          "end_tilt_deg": -0.3
+        }
+      ],
       "sprites": [],
       "overhead": {
-        "text": "FRYING PANS?!",
-        "cx": 360,
-        "cy": 500,
-        "trigger_rel": 5.55,
+        "text": "SAUSAGE STUFFER?!",
+        "cx": 555,
+        "cy": 565,
+        "trigger_rel": 6.45,
         "style": "cloud"
       },
       "foley": [
         {
-          "rel": 0.05,
+          "rel": 0.04,
           "type": "camera_whoosh",
-          "gain": 0.48
+          "gain": 0.45
         },
         {
-          "rel": 0.25,
+          "rel": 0.22,
           "type": "desert_march",
-          "gain": 0.62
+          "gain": 0.54
         },
         {
-          "rel": 5.55,
+          "rel": 5.1,
           "type": "pan_clang",
           "gain": 0.78
         },
         {
-          "rel": 7.1,
+          "rel": 6.48,
           "type": "cork_pop",
           "gain": 0.62
         }
       ],
-      "start_sec": 46.441,
-      "end_sec": 54.658,
-      "narration": "Over a thousand Iowans marched south in freezing December armed with rusty muskets, pitchforks, frying pans, and even a sausage stuffer."
+      "start_sec": 39.751,
+      "end_sec": 47.384,
+      "narration": "Over a thousand Iowans marched south in freezing December with rusty muskets, pitchforks, frying pans, and even a sausage stuffer."
     },
     {
       "id": "scene_09",
       "mode": "Mode A (3D Relief Map)",
       "keyframe": "keyframes/scene_09.jpg",
-      "camera_start": {
-        "zoom": 1.04,
-        "pan_x": 0.0,
-        "pan_y": -0.01,
-        "tilt_deg": 0.0
-      },
-      "camera_end": {
-        "zoom": 1.18,
-        "pan_x": 0.0,
-        "pan_y": -0.02,
-        "tilt_deg": -0.8
-      },
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 2.06,
+          "pan_x": -0.25,
+          "pan_y": -0.21,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.18,
+          "end_pan_x": -0.25,
+          "end_pan_y": -0.21,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 1.62,
+          "zoom": 1.08,
+          "pan_x": 0.0,
+          "pan_y": -0.02,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.16,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.02,
+          "end_tilt_deg": -0.5
+        },
+        {
+          "t": 3.75,
+          "zoom": 2.06,
+          "pan_x": 0.2,
+          "pan_y": 0.01,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.18,
+          "end_pan_x": 0.2,
+          "end_pan_y": 0.01,
+          "end_tilt_deg": -0.3
+        },
+        {
+          "t": 4.75,
+          "zoom": 1.12,
+          "pan_x": 0.0,
+          "pan_y": -0.02,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.22,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.03,
+          "end_tilt_deg": -0.6
+        }
+      ],
       "sprites": [
         {
           "bbox": [
@@ -570,7 +823,7 @@
             0.365
           ],
           "motion": "shiver",
-          "pop_delay": 0.1
+          "pop_delay": 0.0
         },
         {
           "bbox": [
@@ -580,59 +833,94 @@
             0.59
           ],
           "motion": "shiver",
-          "pop_delay": 0.2
+          "pop_delay": 0.0
         }
       ],
       "overhead": {
         "text": "TOO COLD FOR WAR!",
         "cx": 370,
         "cy": 230,
-        "trigger_rel": 2.85,
+        "trigger_rel": 2.3,
+        "end_rel": 3.72,
         "style": "cloud"
       },
       "foley": [
         {
-          "rel": 0.05,
+          "rel": 0.04,
           "type": "camera_whoosh",
-          "gain": 0.48
+          "gain": 0.45
         },
         {
-          "rel": 0.2,
+          "rel": 0.18,
           "type": "cold_wind",
-          "gain": 0.6
+          "gain": 0.52
         },
         {
-          "rel": 2.85,
+          "rel": 2.32,
           "type": "cork_pop",
           "gain": 0.58
         },
         {
-          "rel": 4.9,
+          "rel": 4.8,
           "type": "somber_bell",
-          "gain": 0.4
+          "gain": 0.38
         }
       ],
-      "start_sec": 54.658,
-      "end_sec": 62.363,
-      "narration": "Shivering in the bitter cold, both sides realized nobody wanted to die over honey, and marched right back home without firing a single shot."
+      "start_sec": 47.384,
+      "end_sec": 53.977,
+      "narration": "Shivering in the bitter cold, both sides realized nobody wanted to die over honey, and marched home without firing a shot."
     },
     {
       "id": "scene_10",
       "mode": "Mode A (3D Relief Map)",
       "keyframe": "keyframes/scene_10.jpg",
-      "camera_start": {
-        "zoom": 1.03,
-        "pan_x": 0.0,
-        "pan_y": -0.01,
-        "tilt_deg": 0.0
-      },
-      "camera_end": {
-        "zoom": 1.19,
-        "pan_x": 0.01,
-        "pan_y": -0.02,
-        "tilt_deg": 0.8
-      },
-      "impact_shake_rel": 3.25,
+      "impact_shake_rel": 2.75,
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": -0.02,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.02,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 1.5,
+          "zoom": 2.08,
+          "pan_x": 0.2,
+          "pan_y": -0.03,
+          "tilt_deg": 0.4,
+          "end_zoom": 2.2,
+          "end_pan_x": 0.2,
+          "end_pan_y": -0.03,
+          "end_tilt_deg": -0.4
+        },
+        {
+          "t": 3.05,
+          "zoom": 2.1,
+          "pan_x": -0.26,
+          "pan_y": -0.21,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.22,
+          "end_pan_x": -0.26,
+          "end_pan_y": -0.21,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 4.1,
+          "zoom": 1.1,
+          "pan_x": 0.0,
+          "pan_y": -0.02,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.2,
+          "end_pan_x": 0.01,
+          "end_pan_y": -0.03,
+          "end_tilt_deg": 0.6
+        }
+      ],
       "sprites": [
         {
           "bbox": [
@@ -642,7 +930,7 @@
             0.375
           ],
           "motion": "cheer_bounce",
-          "pop_delay": 0.14
+          "pop_delay": 0.0
         },
         {
           "bbox": [
@@ -652,64 +940,82 @@
             0.59
           ],
           "motion": "gavel_slam",
-          "pop_delay": 0.16,
-          "slam_rel": 3.25
+          "pop_delay": 0.0,
+          "slam_rel": 2.75
         }
       ],
       "overhead": {
         "text": "IOWA WINS!",
         "cx": 370,
         "cy": 230,
-        "trigger_rel": 3.3,
+        "trigger_rel": 4.15,
         "style": "badge"
       },
       "foley": [
         {
-          "rel": 0.05,
+          "rel": 0.04,
           "type": "camera_whoosh",
-          "gain": 0.48
+          "gain": 0.45
         },
         {
-          "rel": 0.18,
-          "type": "pawn_bounce",
-          "gain": 0.65
-        },
-        {
-          "rel": 3.25,
+          "rel": 2.75,
           "type": "gavel_slam",
           "gain": 0.88
         },
         {
-          "rel": 3.4,
+          "rel": 4.18,
           "type": "cork_pop",
           "gain": 0.6
         },
         {
-          "rel": 6.85,
+          "rel": 5.95,
           "type": "handcuff_clink",
-          "gain": 0.62
+          "gain": 0.6
         }
       ],
-      "start_sec": 62.363,
-      "end_sec": 70.351,
-      "narration": "Ten years later, the U.S. Supreme Court unanimously sided with Iowa, restoring the original 1816 border with permanent iron posts."
+      "start_sec": 53.977,
+      "end_sec": 60.92,
+      "narration": "Ten years later, the U.S. Supreme Court unanimously backed Iowa, marking the 1816 border with permanent iron posts."
     },
     {
       "id": "scene_11",
       "mode": "Mode A (3D Relief Map)",
       "keyframe": "keyframes/scene_11.jpg",
-      "camera_start": {
-        "zoom": 1.04,
-        "pan_x": 0.0,
-        "pan_y": -0.01,
-        "tilt_deg": 0.0
-      },
-      "camera_end": {
-        "zoom": 1.19,
-        "pan_x": 0.0,
-        "pan_y": -0.02,
-        "tilt_deg": -0.7
-      },
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.08,
+          "pan_x": 0.0,
+          "pan_y": -0.02,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.16,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.02,
+          "end_tilt_deg": -0.4
+        },
+        {
+          "t": 1.4,
+          "zoom": 1.98,
+          "pan_x": -0.22,
+          "pan_y": -0.2,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.1,
+          "end_pan_x": -0.22,
+          "end_pan_y": -0.2,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 2.8,
+          "zoom": 2.08,
+          "pan_x": 0.0,
+          "pan_y": -0.08,
+          "tilt_deg": 0.4,
+          "end_zoom": 2.22,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.08,
+          "end_tilt_deg": -0.4
+        }
+      ],
       "sprites": [
         {
           "bbox": [
@@ -719,7 +1025,7 @@
             0.375
           ],
           "motion": "cheer_bounce",
-          "pop_delay": 0.12
+          "pop_delay": 0.0
         },
         {
           "bbox": [
@@ -729,63 +1035,71 @@
             0.59
           ],
           "motion": "glare_bob_alt",
-          "pop_delay": 0.24
+          "pop_delay": 0.0
         }
       ],
       "overhead": {
         "text": "ZERO CASUALTIES!",
         "cx": 370,
         "cy": 230,
-        "trigger_rel": 1.7,
+        "trigger_rel": 0.48,
+        "end_rel": 1.38,
         "style": "badge"
       },
       "foley": [
         {
-          "rel": 0.05,
+          "rel": 0.04,
           "type": "camera_whoosh",
-          "gain": 0.45
+          "gain": 0.44
         },
         {
-          "rel": 0.18,
-          "type": "pawn_bounce",
-          "gain": 0.62
-        },
-        {
-          "rel": 1.7,
+          "rel": 0.5,
           "type": "cork_pop",
-          "gain": 0.58
+          "gain": 0.56
         },
         {
-          "rel": 3.35,
+          "rel": 2.82,
           "type": "celesta_chime",
           "gain": 0.7
         },
         {
-          "rel": 4.05,
+          "rel": 3.45,
           "type": "celesta_chime_hi",
           "gain": 0.66
         }
       ],
-      "start_sec": 70.351,
-      "end_sec": 75.855,
-      "narration": "Not one drop of blood was ever spilled, making the Honey War the sweetest standoff in American history."
+      "start_sec": 60.92,
+      "end_sec": 65.339,
+      "narration": "Zero casualties, three bee trees lost: America's sweetest standoff."
     },
     {
       "id": "scene_12",
-      "mode": "Mode A (3D Relief Map)",
+      "mode": "Mode A (3D Relief Map + Comment Panel + Loop)",
       "keyframe": "keyframes/scene_12.jpg",
-      "camera_start": {
-        "zoom": 1.03,
-        "pan_x": 0.0,
-        "pan_y": -0.01,
-        "tilt_deg": 0.0
-      },
-      "camera_end": {
-        "zoom": 1.18,
-        "pan_x": 0.0,
-        "pan_y": -0.02,
-        "tilt_deg": 0.6
-      },
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.16,
+          "pan_x": 0.0,
+          "pan_y": -0.12,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.24,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.13,
+          "end_tilt_deg": 0.4
+        },
+        {
+          "t": 1.35,
+          "zoom": 1.32,
+          "pan_x": 0.02,
+          "pan_y": -0.14,
+          "tilt_deg": -0.3,
+          "end_zoom": 1.4,
+          "end_pan_x": 0.02,
+          "end_pan_y": -0.15,
+          "end_tilt_deg": 0.4
+        }
+      ],
       "sprites": [
         {
           "bbox": [
@@ -795,7 +1109,7 @@
             0.375
           ],
           "motion": "football_hop_l",
-          "pop_delay": 0.14
+          "pop_delay": 0.0
         },
         {
           "bbox": [
@@ -805,36 +1119,52 @@
             0.59
           ],
           "motion": "football_hop_r",
-          "pop_delay": 0.26
+          "pop_delay": 0.0
         }
       ],
-      "overhead": {
-        "text": "IOWA vs. MISSOURI",
-        "cx": 370,
-        "cy": 230,
-        "trigger_rel": 3.85,
-        "style": "badge"
+      "overhead": null,
+      "comment_panel": {
+        "trigger_rel": 0.14,
+        "keyword": "HONEY",
+        "comments": [
+          {
+            "handle": "@GovRobertLucas",
+            "text": "HONEY! Grab the sausage stuffer!",
+            "likes": "728 \u2665",
+            "color": [
+              26,
+              78,
+              198
+            ]
+          },
+          {
+            "handle": "@MissouriFarmer",
+            "text": "It was only a $1.50 fine!!",
+            "likes": "519 \u2665",
+            "color": [
+              196,
+              38,
+              38
+            ]
+          }
+        ]
       },
+      "loop_return_sec": 0.3,
       "foley": [
         {
-          "rel": 0.05,
+          "rel": 0.04,
           "type": "camera_whoosh",
-          "gain": 0.5
+          "gain": 0.46
         },
         {
-          "rel": 0.25,
+          "rel": 0.18,
           "type": "stadium_swell",
-          "gain": 0.58
-        },
-        {
-          "rel": 3.85,
-          "type": "cork_pop",
-          "gain": 0.65
+          "gain": 0.42
         }
       ],
-      "start_sec": 75.855,
-      "end_sec": 84.601,
-      "narration": "Zero casualties, three bee trees lost. So be honest... if your neighbor stole your honey trees, would you call out the militia too?"
+      "start_sec": 65.339,
+      "end_sec": 68.87,
+      "narration": "Comment HONEY if you'd call out the militia too\u2014and now you know..."
     }
   ]
 }

@@ -1,0 +1,14 @@
+{
+  "episode": "ep03_minnesota_northwest_angle",
+  "video_file": "heartland_mapped_ep03_minnesota_northwest_angle.mp4",
+  "duration_sec": 66.44,
+  "visual_jumps_per_10s": 12.94,
+  "planned_shots_per_10s": 6.47,
+  "closeup_pct": 45.2,
+  "frame0_zoom": 1.98,
+  "frame0_visible_sprites": 2,
+  "audio_gap_db_drop": 7.52,
+  "has_comment_panel": true,
+  "has_seamless_loop": true,
+  "all_pass": true
+}

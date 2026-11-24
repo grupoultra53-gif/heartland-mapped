@@ -1,48 +1,47 @@
 ================================================================================
-HEARTLAND MAPPED — EPISODE 03: WHY MINNESOTA HAS THAT WEIRD BUMP ON THE MAP
+HEARTLAND MAPPED — EPISODE 03 (v2): WHY DOES MINNESOTA HAVE THAT WEIRD BUMP?
 KIT PRONTO PARA POSTAR (FACEBOOK REELS & YOUTUBE SHORTS)
 ================================================================================
 
 ARQUIVO DE VIDEO:
-heartland_mapped_ep03_minnesota_northwest_angle.mp4 (83s | 720x1280 | 30 FPS)
+heartland_mapped_ep03_minnesota_northwest_angle.mp4 (66s | 720x1280 | 30 FPS | Receita v2)
 Google Drive: https://drive.google.com/file/d/18fScorH1JGD1-U793wvmWWuFrpvzTbFe/view?usp=drivesdk
 
 --------------------------------------------------------------------------------
 1. FACEBOOK REELS — LEGENDA (COPIAR E COLAR)
 --------------------------------------------------------------------------------
-Ever notice that weird little chimney sticking up out of the top of Minnesota? It's the only part of the lower 48 states you literally have to drive through Canada to reach—all because diplomats in 1783 trusted a terrible map. 🗺️
+Why does Minnesota have that weird little bump sticking up into Canada? You literally have to drive through another country to reach it—all because diplomats in 1783 trusted one terrible map. 🗺️
 
-Be honest: should the U.S. and Canada finally trade land to clean up the border, or should Minnesota keep its famous bump forever?
-
-Drop your state in the comments! 👇
+Comment BUMP if Minnesota should keep its famous chimney forever—or SWAP if the U.S. and Canada should trade land! 👇
 
 #MidwestHistory #Minnesota #NorthwestAngle #AmericanHistory #Geography #Canada #LakeOfTheWoods #HeartlandMapped
 
 --------------------------------------------------------------------------------
 2. YOUTUBE SHORTS — TITULO (COPIAR E COLAR)
 --------------------------------------------------------------------------------
-Why Minnesota Has That Weird Bump on Top of the Map 🗺️
+Why Does Minnesota Have That Weird Bump on the Map? 🗺️
 
-(Alternativa: The Part of Minnesota You Have to Drive Through Canada to Reach)
+(Alternativa: Why You Have to Drive Through Canada to Reach Part of Minnesota 🗺️)
 
 --------------------------------------------------------------------------------
 3. YOUTUBE SHORTS — DESCRICAO (COPIAR E COLAR)
 --------------------------------------------------------------------------------
-Ever notice that weird little bump sticking out of the top of Minnesota? You literally have to drive through Canada—or cross a frozen lake—to reach it, all thanks to a faulty 1755 map used in the Treaty of Paris.
+Why does Minnesota have that weird bump sticking up into Canada? You have to drive 40 miles through another country—or cross a frozen lake in winter—to reach the Northwest Angle, all thanks to a faulty 1755 map used in the Treaty of Paris.
 
-Should the U.S. and Canada finally straighten the border, or should Minnesota keep its famous bump forever? Drop your state in the comments!
+Comment BUMP to keep it, or SWAP to trade it—and drop your state below! 👇
 
 #MidwestHistory #Minnesota #NorthwestAngle #AmericanHistory #Geography #Canada #Shorts #HeartlandMapped
 
 --------------------------------------------------------------------------------
 4. COMENTARIO FIXADO (POSTAR LOGO APOS PUBLICAR E FIXAR NO TOPO)
 --------------------------------------------------------------------------------
-Be honest: have you ever visited the Northwest Angle—or would you brave that 40-mile drive through Canada (or the frozen winter ice road) just to see it? Drop your state below! 👇
+Vote below! Comment BUMP to keep Minnesota's famous chimney forever, or SWAP to straighten the border—and tell us which state you're watching from! 👇
 
 --------------------------------------------------------------------------------
 5. CAPA (THUMBNAIL) E CHECKLIST RAPIDO
 --------------------------------------------------------------------------------
-- Capa sugerida: Cena 01 (mapa de Minnesota com o "chamine" dourado + bonequinho acenando), Cena 08 (desvio de carro por Manitoba) ou Cena 10 (estrada de gelo na neve com a casinha CUSTOMS e caminhonete vermelha).
+- Capa sugerida: Quadro 0 da Cena 01 (close-up no "chamine" dourado brilhando + bonequinho acenando) ou Cena 10 (close-up na casinha CUSTOMS na estrada de gelo).
 - Legenda automatica da plataforma: DESLIGADA (o video ja tem legenda grande embutida).
-- Musica da plataforma: NAO adicionar (o video ja tem narracao + foley SFX).
+- Musica da plataforma: NAO adicionar (o video ja tem narracao + foley SFX + trilha acustica sutil com auto-ducking).
 - YouTube: marcar "Nao e conteudo para criancas" (Not made for kids), categoria Education, idioma English (United States).
+- A/B Log: anotar metricas de 48h em RETENTION_LOG.md para comparar v2 vs. v1 (Eps. 1 e 2).

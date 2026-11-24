@@ -1,7 +1,12 @@
 """
-Heartland Mapped — Episode 03: Why Minnesota Has That Weird Bump on the Map (The Northwest Angle)
+Heartland Mapped — Episode 03 (v2): Why Minnesota Has That Weird Bump on the Map (The Northwest Angle)
 2.5D Historical Map Animation Renderer (720x1280, 30 FPS)
-Uses .agents/skills/historical-map-animation/scripts/{engine_25d.py, foley_mixer.py}
+v2 Retention Upgrades:
+  - Immediate Frame 0 hook (visible focal sprites + tight close-up zoom)
+  - Word-synced multi-shot close-ups & reaction cuts (eval_shot_camera)
+  - Warm Americana acoustic documentary underscore with auto-ducking
+  - Animated 1-word CTA comment panel ("BUMP") + subtitle auto-lift
+  - Seamless grammatical & visual whip-return loop into Scene 01 Frame 0
 """
 import json
 import math
@@ -57,7 +62,7 @@ def load_font(size: int, bold: bool = True) -> ImageFont.FreeTypeFont:
     return ImageFont.load_default()
 
 
-# ---------- Custom Procedural Situational Foley Accents (zero loops) ----------
+# ---------- Custom Procedural Situational Foley Accents ----------
 
 def foley_cold_wind(duration: float = 3.8) -> np.ndarray:
     n = int(duration * SR)
@@ -90,11 +95,11 @@ def foley_stadium_swell(duration: float = 3.4) -> np.ndarray:
 # ---------- Subtitle Chunk Builder (2-4 words, 50+ readable, preserves ? / !) ----------
 
 def restore_question_and_excl_punctuation(scene_text: str, words: list) -> list:
-    raw_tokens = re.findall(r"[A-Za-z0-9'\-]+|[?!.]", scene_text)
+    raw_tokens = re.findall(r"[A-Za-z0-9'\-]+|[?!.—]", scene_text)
     punct_after = {}
     w_idx = 0
     for tok in raw_tokens:
-        if tok in ("?", "!", "."):
+        if tok in ("?", "!", ".", "—"):
             if w_idx > 0 and (w_idx - 1) not in punct_after:
                 punct_after[w_idx - 1] = tok
         else:
@@ -114,7 +119,7 @@ def restore_question_and_excl_punctuation(scene_text: str, words: list) -> list:
                 "text": txt,
                 "start": w["start"],
                 "end": w["end"],
-                "break_after": p in ("?", "!", "."),
+                "break_after": p in ("?", "!", ".", "—"),
             }
         )
         pos += max(1, sub_count)
@@ -148,10 +153,10 @@ def build_subtitle_cards(scenes_meta: list) -> list:
 
             text = " ".join(w["text"] for w in chunk).strip()
             start = chunk[0]["start"]
-            end = chunk[-1]["end"] + 0.16
+            end = chunk[-1]["end"] + 0.14
             cards.append({"start": start, "end": end, "text": text})
     if cards and scenes_meta:
-        cards[-1]["end"] = max(cards[-1]["end"], scenes_meta[-1]["end_sec"] - 0.05)
+        cards[-1]["end"] = max(cards[-1]["end"], scenes_meta[-1]["end_sec"] - 0.18)
     for idx in range(len(cards) - 1):
         if cards[idx]["end"] > cards[idx + 1]["start"]:
             cards[idx]["end"] = max(cards[idx]["start"] + 0.08, cards[idx + 1]["start"] - 0.02)
@@ -184,13 +189,13 @@ def draw_subtitle_card(canvas_rgba: Image.Image, text: str, font: ImageFont.Free
 
     pill = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     pdraw = ImageDraw.Draw(pill)
-    pdraw.rounded_rectangle([x0, y0, x1, y1], radius=16, fill=(14, 14, 18, 182))
+    pdraw.rounded_rectangle([x0, y0, x1, y1], radius=16, fill=(14, 14, 18, 188))
     canvas_rgba.alpha_composite(pill)
 
     highlight_words = {
         "MINNESOTA", "CANADA", "1783", "1755", "1818", "1997", "49TH",
         "PARALLEL", "123", "ISLANDS", "MISSISSIPPI", "WOODS", "FROZEN",
-        "NORTHERNMOST", "BUMP", "BORDER", "REWIND", "JOIN", "KIOSK", "MAP"
+        "NORTHERNMOST", "BUMP", "SWAP", "BORDER", "REWIND", "JOIN", "KIOSK", "MAP"
     }
     clean_tokens = upper_text.split()
     has_kw = any(tok.strip(".,?!—:\"'") in highlight_words for tok in clean_tokens)
@@ -346,7 +351,7 @@ def apply_vhs_rewind(frame_rgba: Image.Image, progress: float, font: ImageFont.F
     return out
 
 
-# ---------- Scene Config Definition (12 Scenes) ----------
+# ---------- Scene Config Definition (12 Scenes, v2 Multi-Shot) ----------
 
 def build_scene_config(audio_meta: dict) -> dict:
     scenes_by_id = {s["id"]: s for s in audio_meta["scenes"]}
@@ -354,30 +359,32 @@ def build_scene_config(audio_meta: dict) -> dict:
     specs = [
         {
             "id": "scene_01",
-            "mode": "Mode A (3D Relief Map)",
+            "mode": "Mode A (3D Relief Map — Frame 0 Hook)",
             "keyframe": "keyframes/scene_01.jpg",
-            "camera_start": {"zoom": 1.04, "pan_x": 0.0, "pan_y": -0.02, "tilt_deg": 0.0},
-            "camera_end": {"zoom": 1.19, "pan_x": 0.0, "pan_y": -0.05, "tilt_deg": 0.8},
+            "shots": [
+                {"t": 0.00, "zoom": 1.98, "pan_x": -0.09, "pan_y": -0.30, "tilt_deg": 0.0, "end_zoom": 2.12, "end_pan_x": -0.08, "end_pan_y": -0.30, "end_tilt_deg": 0.6},
+                {"t": 1.70, "zoom": 1.08, "pan_x": 0.00, "pan_y": -0.03, "tilt_deg": 0.0, "end_zoom": 1.18, "end_pan_x": 0.00, "end_pan_y": -0.05, "end_tilt_deg": 0.5},
+                {"t": 3.70, "zoom": 2.02, "pan_x": -0.04, "pan_y": 0.04, "tilt_deg": -0.4, "end_zoom": 2.15, "end_pan_x": -0.04, "end_pan_y": 0.04, "end_tilt_deg": 0.4},
+                {"t": 5.80, "zoom": 1.15, "pan_x": 0.00, "pan_y": -0.04, "tilt_deg": 0.0, "end_zoom": 1.24, "end_pan_x": 0.00, "end_pan_y": -0.07, "end_tilt_deg": 0.8},
+            ],
             "sprites": [
                 {
                     "bbox": [0.37, 0.13, 0.515, 0.23],
                     "exclude_rects": [[0.10, 0.13, 0.37, 0.20]],
                     "motion": "cheer_bounce",
-                    "pop_delay": 0.14,
+                    "pop_delay": 0.0,
                 },
                 {
                     "bbox": [0.32, 0.47, 0.585, 0.635],
                     "motion": "glare_bob",
-                    "pop_delay": 0.28,
+                    "pop_delay": 0.0,
                 },
             ],
-            "overhead": {"text": "123 SQ MILES!", "cx": 525, "cy": 225, "trigger_rel": 2.05, "style": "badge"},
+            "overhead": {"text": "123 SQ MILES!", "cx": 525, "cy": 225, "trigger_rel": 1.85, "end_rel": 3.68, "style": "badge"},
             "foley": [
-                {"rel": 0.05, "type": "camera_whoosh", "gain": 0.55},
-                {"rel": 0.16, "type": "pawn_bounce", "gain": 0.70},
-                {"rel": 0.30, "type": "pawn_bounce", "gain": 0.70},
-                {"rel": 2.05, "type": "cork_pop", "gain": 0.65},
-                {"rel": -0.58, "type": "tape_rewind", "gain": 0.75},
+                {"rel": 0.02, "type": "pawn_bounce", "gain": 0.65},
+                {"rel": 1.85, "type": "cork_pop", "gain": 0.65},
+                {"rel": -0.52, "type": "tape_rewind", "gain": 0.72},
             ],
         },
         {
@@ -385,136 +392,156 @@ def build_scene_config(audio_meta: dict) -> dict:
             "mode": "Mode A (VHS Rewind -> 1783)",
             "keyframe": "keyframes/scene_02.jpg",
             "vhs_rewind": True,
-            "camera_start": {"zoom": 1.10, "pan_x": 0.0, "pan_y": -0.03, "tilt_deg": -0.7},
-            "camera_end": {"zoom": 1.02, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0},
+            "shots": [
+                {"t": 0.00, "zoom": 1.14, "pan_x": 0.0, "pan_y": -0.05, "tilt_deg": -0.8, "end_zoom": 1.04, "end_pan_x": 0.0, "end_pan_y": -0.02, "end_tilt_deg": 0.0},
+                {"t": 0.88, "zoom": 1.72, "pan_x": 0.0, "pan_y": -0.24, "tilt_deg": 0.5, "end_zoom": 1.86, "end_pan_x": 0.0, "end_pan_y": -0.26, "end_tilt_deg": 0.0},
+            ],
             "sprites": [],
             "overhead": None,
             "foley": [
-                {"rel": 0.05, "type": "tape_rewind", "gain": 0.72},
-                {"rel": 0.90, "type": "parchment_brush", "gain": 0.65},
+                {"rel": 0.04, "type": "tape_rewind", "gain": 0.70},
+                {"rel": 0.85, "type": "parchment_brush", "gain": 0.65},
             ],
         },
         {
             "id": "scene_03",
             "mode": "Mode A (3D Relief Map)",
             "keyframe": "keyframes/scene_03.jpg",
-            "camera_start": {"zoom": 1.10, "pan_x": 0.0, "pan_y": -0.08, "tilt_deg": 0.0},
-            "camera_end": {"zoom": 1.24, "pan_x": 0.0, "pan_y": -0.10, "tilt_deg": 0.8},
+            "shots": [
+                {"t": 0.00, "zoom": 1.08, "pan_x": 0.0, "pan_y": -0.08, "tilt_deg": 0.0, "end_zoom": 1.16, "end_pan_x": 0.0, "end_pan_y": -0.10, "end_tilt_deg": 0.4},
+                {"t": 1.55, "zoom": 2.02, "pan_x": -0.16, "pan_y": -0.22, "tilt_deg": -0.4, "end_zoom": 2.14, "end_pan_x": -0.15, "end_pan_y": -0.22, "end_tilt_deg": 0.3},
+                {"t": 2.08, "zoom": 2.06, "pan_x": 0.22, "pan_y": -0.26, "tilt_deg": 0.4, "end_zoom": 2.18, "end_pan_x": 0.21, "end_pan_y": -0.26, "end_tilt_deg": -0.3},
+                {"t": 3.15, "zoom": 1.12, "pan_x": 0.0, "pan_y": -0.06, "tilt_deg": 0.0, "end_zoom": 1.22, "end_pan_x": 0.0, "end_pan_y": -0.08, "end_tilt_deg": 0.6},
+            ],
             "sprites": [
                 {
                     "bbox": [0.16, 0.20, 0.425, 0.345],
                     "exclude_rects": [[0.10, 0.14, 0.37, 0.205]],
                     "motion": "write_bob",
-                    "pop_delay": 0.14,
+                    "pop_delay": 0.0,
                 },
                 {
                     "bbox": [0.62, 0.14, 0.81, 0.28],
                     "motion": "glare_bob_alt",
-                    "pop_delay": 0.28,
+                    "pop_delay": 0.0,
                 },
             ],
-            "overhead": {"text": "TREATY OF PARIS!", "cx": 360, "cy": 505, "trigger_rel": 3.25, "style": "badge"},
+            "overhead": {"text": "TREATY OF PARIS!", "cx": 360, "cy": 505, "trigger_rel": 3.20, "style": "badge"},
             "foley": [
-                {"rel": 0.05, "type": "camera_whoosh", "gain": 0.48},
-                {"rel": 0.16, "type": "pawn_bounce", "gain": 0.65},
-                {"rel": 0.30, "type": "pawn_bounce", "gain": 0.65},
-                {"rel": 3.25, "type": "parchment_brush", "gain": 0.72},
-                {"rel": 3.45, "type": "cork_pop", "gain": 0.58},
+                {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+                {"rel": 3.15, "type": "parchment_brush", "gain": 0.68},
+                {"rel": 3.25, "type": "cork_pop", "gain": 0.58},
             ],
         },
         {
             "id": "scene_04",
             "mode": "Mode A (3D Relief Map)",
             "keyframe": "keyframes/scene_04.jpg",
-            "camera_start": {"zoom": 1.04, "pan_x": 0.02, "pan_y": -0.02, "tilt_deg": 0.0},
-            "camera_end": {"zoom": 1.20, "pan_x": -0.02, "pan_y": -0.04, "tilt_deg": -0.9},
+            "shots": [
+                {"t": 0.00, "zoom": 1.06, "pan_x": 0.02, "pan_y": -0.02, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.02, "end_pan_y": -0.03, "end_tilt_deg": -0.4},
+                {"t": 1.35, "zoom": 1.96, "pan_x": 0.18, "pan_y": -0.03, "tilt_deg": 0.4, "end_zoom": 2.08, "end_pan_x": 0.18, "end_pan_y": -0.04, "end_tilt_deg": -0.3},
+                {"t": 2.65, "zoom": 1.12, "pan_x": 0.0, "pan_y": -0.05, "tilt_deg": 0.0, "end_zoom": 1.20, "end_pan_x": -0.02, "end_pan_y": -0.06, "end_tilt_deg": -0.5},
+                {"t": 4.35, "zoom": 1.96, "pan_x": -0.22, "pan_y": -0.15, "tilt_deg": -0.4, "end_zoom": 2.10, "end_pan_x": -0.20, "end_pan_y": -0.15, "end_tilt_deg": 0.3},
+            ],
             "sprites": [
                 {
                     "bbox": [0.46, 0.40, 0.825, 0.59],
                     "exclude_rects": [[0.48, 0.575, 0.69, 0.635]],
                     "motion": "write_bob",
-                    "pop_delay": 0.14,
+                    "pop_delay": 0.0,
                 },
             ],
-            "overhead": {"text": "EASY ENOUGH!", "cx": 250, "cy": 295, "trigger_rel": 2.75, "style": "cloud"},
+            "overhead": {"text": "EASY ENOUGH!", "cx": 250, "cy": 295, "trigger_rel": 2.75, "end_rel": 4.32, "style": "cloud"},
             "foley": [
-                {"rel": 0.05, "type": "camera_whoosh", "gain": 0.45},
-                {"rel": 0.18, "type": "pawn_bounce", "gain": 0.62},
-                {"rel": 2.75, "type": "parchment_brush", "gain": 0.72},
-                {"rel": 3.40, "type": "cork_pop", "gain": 0.58},
+                {"rel": 0.04, "type": "camera_whoosh", "gain": 0.44},
+                {"rel": 2.70, "type": "parchment_brush", "gain": 0.68},
+                {"rel": 2.80, "type": "cork_pop", "gain": 0.58},
             ],
         },
         {
             "id": "scene_05",
             "mode": "Mode B (2.5D North Woods Diorama)",
             "keyframe": "keyframes/scene_05.jpg",
-            "camera_start": {"zoom": 1.05, "pan_x": 0.0, "pan_y": 0.02, "tilt_deg": -0.5},
-            "camera_end": {"zoom": 1.22, "pan_x": 0.0, "pan_y": 0.05, "tilt_deg": 0.8},
             "march_shake": True,
+            "shots": [
+                {"t": 0.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.02, "tilt_deg": -0.4, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.03, "end_tilt_deg": 0.2},
+                {"t": 2.15, "zoom": 2.02, "pan_x": -0.14, "pan_y": 0.12, "tilt_deg": 0.3, "end_zoom": 2.14, "end_pan_x": -0.13, "end_pan_y": 0.12, "end_tilt_deg": -0.3},
+                {"t": 3.95, "zoom": 2.04, "pan_x": 0.20, "pan_y": 0.12, "tilt_deg": -0.3, "end_zoom": 2.16, "end_pan_x": 0.20, "end_pan_y": 0.12, "end_tilt_deg": 0.4},
+                {"t": 4.95, "zoom": 1.12, "pan_x": 0.0, "pan_y": 0.04, "tilt_deg": 0.0, "end_zoom": 1.22, "end_pan_x": 0.0, "end_pan_y": 0.05, "end_tilt_deg": 0.6},
+            ],
             "sprites": [],
-            "overhead": {"text": "14,000 ISLANDS?!", "cx": 360, "cy": 540, "trigger_rel": 5.85, "style": "cloud"},
+            "overhead": {"text": "14,000 ISLANDS?!", "cx": 360, "cy": 540, "trigger_rel": 4.95, "style": "cloud"},
             "foley": [
-                {"rel": 0.05, "type": "camera_whoosh", "gain": 0.48},
-                {"rel": 0.20, "type": "desert_march", "gain": 0.62},
-                {"rel": 2.55, "type": "jaw_drop", "gain": 0.65},
-                {"rel": 5.85, "type": "cork_pop", "gain": 0.60},
+                {"rel": 0.04, "type": "camera_whoosh", "gain": 0.44},
+                {"rel": 0.18, "type": "desert_march", "gain": 0.56},
+                {"rel": 2.20, "type": "jaw_drop", "gain": 0.62},
+                {"rel": 4.95, "type": "cork_pop", "gain": 0.60},
             ],
         },
         {
             "id": "scene_06",
             "mode": "Mode A (3D Relief Map)",
             "keyframe": "keyframes/scene_06.jpg",
-            "camera_start": {"zoom": 1.03, "pan_x": -0.01, "pan_y": -0.02, "tilt_deg": 0.0},
-            "camera_end": {"zoom": 1.18, "pan_x": 0.02, "pan_y": -0.04, "tilt_deg": 0.8},
+            "shots": [
+                {"t": 0.00, "zoom": 1.05, "pan_x": 0.0, "pan_y": -0.02, "tilt_deg": 0.0, "end_zoom": 1.13, "end_pan_x": 0.0, "end_pan_y": -0.03, "end_tilt_deg": 0.4},
+                {"t": 2.25, "zoom": 1.82, "pan_x": -0.22, "pan_y": 0.03, "tilt_deg": -0.3, "end_zoom": 1.94, "end_pan_x": -0.20, "end_pan_y": 0.02, "end_tilt_deg": 0.3},
+                {"t": 3.65, "zoom": 1.10, "pan_x": 0.02, "pan_y": -0.04, "tilt_deg": 0.0, "end_zoom": 1.18, "end_pan_x": 0.02, "end_pan_y": -0.05, "end_tilt_deg": 0.5},
+                {"t": 4.90, "zoom": 1.98, "pan_x": 0.24, "pan_y": -0.22, "tilt_deg": 0.4, "end_zoom": 2.12, "end_pan_x": 0.22, "end_pan_y": -0.22, "end_tilt_deg": -0.3},
+            ],
             "sprites": [
                 {
                     "bbox": [0.06, 0.48, 0.295, 0.67],
                     "motion": "write_bob",
-                    "pop_delay": 0.14,
+                    "pop_delay": 0.0,
                 },
                 {
                     "bbox": [0.74, 0.13, 0.94, 0.285],
                     "motion": "glare_bob_alt",
-                    "pop_delay": 0.28,
+                    "pop_delay": 0.0,
                 },
             ],
-            "overhead": {"text": "49TH PARALLEL!", "cx": 360, "cy": 445, "trigger_rel": 3.00, "style": "badge"},
+            "overhead": {"text": "49TH PARALLEL!", "cx": 360, "cy": 445, "trigger_rel": 3.65, "end_rel": 4.88, "style": "badge"},
             "foley": [
-                {"rel": 0.05, "type": "camera_whoosh", "gain": 0.48},
-                {"rel": 0.16, "type": "pawn_bounce", "gain": 0.65},
-                {"rel": 0.30, "type": "pawn_bounce", "gain": 0.65},
-                {"rel": 2.95, "type": "parchment_brush", "gain": 0.72},
-                {"rel": 3.10, "type": "cork_pop", "gain": 0.60},
+                {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+                {"rel": 2.30, "type": "parchment_brush", "gain": 0.68},
+                {"rel": 3.68, "type": "cork_pop", "gain": 0.60},
             ],
         },
         {
             "id": "scene_07",
             "mode": "Mode A (3D Relief Map)",
             "keyframe": "keyframes/scene_07.jpg",
-            "camera_start": {"zoom": 1.04, "pan_x": 0.0, "pan_y": -0.03, "tilt_deg": 0.0},
-            "camera_end": {"zoom": 1.22, "pan_x": -0.02, "pan_y": -0.04, "tilt_deg": -1.0},
-            "impact_shake_rel": 5.35,
+            "impact_shake_rel": 3.20,
+            "shots": [
+                {"t": 0.00, "zoom": 1.88, "pan_x": -0.08, "pan_y": -0.25, "tilt_deg": 0.0, "end_zoom": 2.02, "end_pan_x": -0.08, "end_pan_y": -0.26, "end_tilt_deg": -0.5},
+                {"t": 2.50, "zoom": 1.08, "pan_x": 0.0, "pan_y": -0.04, "tilt_deg": 0.0, "end_zoom": 1.18, "end_pan_x": -0.02, "end_pan_y": -0.04, "end_tilt_deg": -0.6},
+                {"t": 3.85, "zoom": 2.12, "pan_x": -0.28, "pan_y": 0.09, "tilt_deg": -0.5, "end_zoom": 2.24, "end_pan_x": -0.27, "end_pan_y": 0.09, "end_tilt_deg": 0.4},
+                {"t": 5.50, "zoom": 1.14, "pan_x": 0.0, "pan_y": -0.04, "tilt_deg": 0.0, "end_zoom": 1.24, "end_pan_x": 0.0, "end_pan_y": -0.05, "end_tilt_deg": -0.7},
+            ],
             "sprites": [
                 {
                     "bbox": [0.08, 0.49, 0.295, 0.70],
                     "motion": "shudder",
-                    "pop_delay": 0.14,
+                    "pop_delay": 0.0,
                 },
             ],
-            "overhead": {"text": "OOPS...", "cx": 195, "cy": 545, "trigger_rel": 5.35, "style": "cloud"},
+            "overhead": {"text": "OOPS...", "cx": 195, "cy": 545, "trigger_rel": 3.92, "style": "cloud"},
             "foley": [
-                {"rel": 0.05, "type": "camera_whoosh", "gain": 0.48},
-                {"rel": 0.18, "type": "pawn_bounce", "gain": 0.65},
-                {"rel": 5.25, "type": "map_crack", "gain": 0.75},
-                {"rel": 5.55, "type": "jaw_drop", "gain": 0.72},
+                {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+                {"rel": 3.15, "type": "map_crack", "gain": 0.75},
+                {"rel": 3.90, "type": "jaw_drop", "gain": 0.70},
             ],
         },
         {
             "id": "scene_08",
             "mode": "Mode A (3D Relief Map)",
             "keyframe": "keyframes/scene_08.jpg",
-            "camera_start": {"zoom": 1.06, "pan_x": 0.0, "pan_y": -0.06, "tilt_deg": 0.0},
-            "camera_end": {"zoom": 1.24, "pan_x": -0.02, "pan_y": -0.10, "tilt_deg": 0.9},
+            "shots": [
+                {"t": 0.00, "zoom": 1.08, "pan_x": 0.0, "pan_y": -0.06, "tilt_deg": 0.0, "end_zoom": 1.16, "end_pan_x": 0.0, "end_pan_y": -0.08, "end_tilt_deg": 0.4},
+                {"t": 2.85, "zoom": 1.96, "pan_x": 0.06, "pan_y": -0.25, "tilt_deg": 0.3, "end_zoom": 2.08, "end_pan_x": 0.08, "end_pan_y": -0.25, "end_tilt_deg": -0.3},
+                {"t": 4.95, "zoom": 2.02, "pan_x": -0.20, "pan_y": -0.28, "tilt_deg": -0.3, "end_zoom": 2.14, "end_pan_x": -0.20, "end_pan_y": -0.28, "end_tilt_deg": 0.3},
+                {"t": 5.80, "zoom": 1.12, "pan_x": 0.0, "pan_y": -0.06, "tilt_deg": 0.0, "end_zoom": 1.22, "end_pan_x": -0.02, "end_pan_y": -0.08, "end_tilt_deg": 0.6},
+            ],
             "sprites": [
                 {
                     "bbox": [0.21, 0.125, 0.305, 0.172],
@@ -527,101 +554,119 @@ def build_scene_config(audio_meta: dict) -> dict:
                     "pop_delay": 0.0,
                 },
             ],
-            "overhead": {"text": "40 MILES VIA CANADA!", "cx": 360, "cy": 610, "trigger_rel": 5.15, "style": "badge"},
+            "overhead": {"text": "40 MILES VIA CANADA!", "cx": 360, "cy": 610, "trigger_rel": 5.82, "style": "badge"},
             "foley": [
-                {"rel": 0.05, "type": "camera_whoosh", "gain": 0.48},
-                {"rel": 0.25, "type": "ocean_ship", "gain": 0.50},
-                {"rel": 5.15, "type": "cork_pop", "gain": 0.62},
+                {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+                {"rel": 0.25, "type": "ocean_ship", "gain": 0.44},
+                {"rel": 5.82, "type": "cork_pop", "gain": 0.62},
             ],
         },
         {
             "id": "scene_09",
             "mode": "Mode A (3D Relief Map)",
             "keyframe": "keyframes/scene_09.jpg",
-            "camera_start": {"zoom": 1.14, "pan_x": 0.02, "pan_y": -0.10, "tilt_deg": 0.0},
-            "camera_end": {"zoom": 1.30, "pan_x": 0.03, "pan_y": -0.13, "tilt_deg": -0.9},
+            "shots": [
+                {"t": 0.00, "zoom": 1.14, "pan_x": 0.02, "pan_y": -0.10, "tilt_deg": 0.0, "end_zoom": 1.24, "end_pan_x": 0.02, "end_pan_y": -0.11, "end_tilt_deg": -0.4},
+                {"t": 2.45, "zoom": 2.12, "pan_x": -0.06, "pan_y": -0.30, "tilt_deg": -0.4, "end_zoom": 2.24, "end_pan_x": -0.05, "end_pan_y": -0.30, "end_tilt_deg": 0.3},
+                {"t": 4.75, "zoom": 2.14, "pan_x": 0.28, "pan_y": -0.28, "tilt_deg": 0.4, "end_zoom": 2.26, "end_pan_x": 0.28, "end_pan_y": -0.28, "end_tilt_deg": -0.3},
+                {"t": 5.90, "zoom": 1.16, "pan_x": 0.02, "pan_y": -0.10, "tilt_deg": 0.0, "end_zoom": 1.26, "end_pan_x": 0.02, "end_pan_y": -0.12, "end_tilt_deg": -0.6},
+            ],
             "sprites": [
                 {
                     "bbox": [0.31, 0.12, 0.56, 0.24],
                     "exclude_rects": [[0.10, 0.14, 0.34, 0.20]],
                     "motion": "lunge_right",
-                    "pop_delay": 0.14,
+                    "pop_delay": 0.0,
                 },
                 {
                     "bbox": [0.765, 0.13, 0.895, 0.235],
                     "motion": "glare_bob_alt",
-                    "pop_delay": 0.28,
+                    "pop_delay": 0.0,
                 },
             ],
-            "overhead": {"text": "1997 FISHING FEUD!", "cx": 370, "cy": 442, "trigger_rel": 2.50, "style": "badge"},
+            "overhead": {"text": "1997 FISHING FEUD!", "cx": 370, "cy": 442, "trigger_rel": 1.48, "end_rel": 2.43, "style": "badge"},
             "foley": [
-                {"rel": 0.05, "type": "camera_whoosh", "gain": 0.48},
-                {"rel": 0.18, "type": "pawn_bounce", "gain": 0.65},
-                {"rel": 0.32, "type": "pawn_bounce", "gain": 0.65},
-                {"rel": 2.50, "type": "water_splash", "gain": 0.68},
-                {"rel": 4.25, "type": "cork_pop", "gain": 0.60},
+                {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+                {"rel": 1.48, "type": "cork_pop", "gain": 0.58},
+                {"rel": 2.45, "type": "water_splash", "gain": 0.64},
             ],
         },
         {
             "id": "scene_10",
             "mode": "Mode B (2.5D Winter Ice Road Diorama)",
             "keyframe": "keyframes/scene_10.jpg",
-            "camera_start": {"zoom": 1.04, "pan_x": 0.0, "pan_y": 0.02, "tilt_deg": 0.0},
-            "camera_end": {"zoom": 1.20, "pan_x": 0.01, "pan_y": 0.04, "tilt_deg": 0.7},
+            "shots": [
+                {"t": 0.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.02, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.03, "end_tilt_deg": 0.3},
+                {"t": 2.40, "zoom": 1.96, "pan_x": -0.14, "pan_y": 0.10, "tilt_deg": -0.3, "end_zoom": 2.08, "end_pan_x": -0.12, "end_pan_y": 0.10, "end_tilt_deg": 0.3},
+                {"t": 4.05, "zoom": 1.92, "pan_x": 0.14, "pan_y": -0.02, "tilt_deg": 0.3, "end_zoom": 2.04, "end_pan_x": 0.16, "end_pan_y": -0.02, "end_tilt_deg": -0.3},
+                {"t": 5.15, "zoom": 1.10, "pan_x": 0.0, "pan_y": 0.03, "tilt_deg": 0.0, "end_zoom": 1.20, "end_pan_x": 0.01, "end_pan_y": 0.04, "end_tilt_deg": 0.5},
+            ],
             "sprites": [],
             "overhead": {"text": "WINTER ICE ROAD!", "cx": 360, "cy": 360, "trigger_rel": 5.15, "style": "badge"},
             "foley": [
-                {"rel": 0.05, "type": "camera_whoosh", "gain": 0.48},
-                {"rel": 0.25, "type": "cold_wind", "gain": 0.56},
+                {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+                {"rel": 0.25, "type": "cold_wind", "gain": 0.48},
                 {"rel": 5.15, "type": "cork_pop", "gain": 0.60},
-                {"rel": 6.15, "type": "celesta_chime", "gain": 0.62},
+                {"rel": 5.65, "type": "celesta_chime", "gain": 0.60},
             ],
         },
         {
             "id": "scene_11",
             "mode": "Mode A (3D Relief Map)",
             "keyframe": "keyframes/scene_11.jpg",
-            "camera_start": {"zoom": 1.04, "pan_x": 0.0, "pan_y": -0.02, "tilt_deg": 0.0},
-            "camera_end": {"zoom": 1.20, "pan_x": 0.0, "pan_y": -0.05, "tilt_deg": 0.9},
+            "shots": [
+                {"t": 0.00, "zoom": 1.92, "pan_x": -0.03, "pan_y": 0.05, "tilt_deg": -0.3, "end_zoom": 2.04, "end_pan_x": -0.03, "end_pan_y": 0.05, "end_tilt_deg": 0.3},
+                {"t": 1.45, "zoom": 2.08, "pan_x": -0.08, "pan_y": -0.28, "tilt_deg": 0.4, "end_zoom": 2.22, "end_pan_x": -0.08, "end_pan_y": -0.28, "end_tilt_deg": -0.3},
+                {"t": 2.35, "zoom": 1.10, "pan_x": 0.0, "pan_y": -0.04, "tilt_deg": 0.0, "end_zoom": 1.20, "end_pan_x": 0.0, "end_pan_y": -0.06, "end_tilt_deg": 0.7},
+            ],
             "sprites": [
                 {
                     "bbox": [0.35, 0.46, 0.585, 0.635],
                     "motion": "cheer_bounce",
-                    "pop_delay": 0.12,
+                    "pop_delay": 0.0,
                 },
             ],
-            "overhead": {"text": "NORTHERNMOST POINT!", "cx": 380, "cy": 442, "trigger_rel": 1.70, "style": "badge"},
+            "overhead": {"text": "NORTHERNMOST POINT!", "cx": 380, "cy": 442, "trigger_rel": 2.35, "style": "badge"},
             "foley": [
-                {"rel": 0.05, "type": "camera_whoosh", "gain": 0.45},
-                {"rel": 0.16, "type": "pawn_bounce", "gain": 0.65},
-                {"rel": 1.70, "type": "celesta_chime", "gain": 0.70},
-                {"rel": 2.35, "type": "celesta_chime_hi", "gain": 0.66},
-                {"rel": 4.40, "type": "cork_pop", "gain": 0.58},
+                {"rel": 0.04, "type": "camera_whoosh", "gain": 0.44},
+                {"rel": 1.45, "type": "celesta_chime", "gain": 0.70},
+                {"rel": 2.05, "type": "celesta_chime_hi", "gain": 0.66},
+                {"rel": 2.38, "type": "cork_pop", "gain": 0.58},
             ],
         },
         {
             "id": "scene_12",
-            "mode": "Mode A (3D Relief Map)",
+            "mode": "Mode A (3D Relief Map + Comment Panel + Loop)",
             "keyframe": "keyframes/scene_12.jpg",
-            "camera_start": {"zoom": 1.03, "pan_x": 0.0, "pan_y": -0.02, "tilt_deg": 0.0},
-            "camera_end": {"zoom": 1.18, "pan_x": 0.0, "pan_y": -0.04, "tilt_deg": 0.6},
+            "shots": [
+                {"t": 0.00, "zoom": 1.16, "pan_x": 0.0, "pan_y": -0.15, "tilt_deg": 0.0, "end_zoom": 1.24, "end_pan_x": 0.0, "end_pan_y": -0.16, "end_tilt_deg": 0.4},
+                {"t": 1.45, "zoom": 1.32, "pan_x": 0.03, "pan_y": -0.17, "tilt_deg": -0.3, "end_zoom": 1.40, "end_pan_x": 0.02, "end_pan_y": -0.18, "end_tilt_deg": 0.4},
+            ],
             "sprites": [
                 {
                     "bbox": [0.35, 0.46, 0.59, 0.635],
                     "motion": "football_hop_l",
-                    "pop_delay": 0.14,
+                    "pop_delay": 0.0,
                 },
                 {
                     "bbox": [0.73, 0.13, 0.955, 0.265],
                     "motion": "football_hop_r",
-                    "pop_delay": 0.26,
+                    "pop_delay": 0.0,
                 },
             ],
-            "overhead": {"text": "KEEP THE BUMP?", "cx": 380, "cy": 442, "trigger_rel": 4.25, "style": "badge"},
+            "overhead": None,
+            "comment_panel": {
+                "trigger_rel": 0.18,
+                "keyword": "BUMP",
+                "comments": [
+                    {"handle": "@MinnesotaLocal", "text": "BUMP! Never trading our chimney!", "likes": "642 ♥", "color": [26, 78, 198]},
+                    {"handle": "@CanadianMountie", "text": "SWAP... sorry, eh!", "likes": "418 ♥", "color": [196, 38, 38]},
+                ],
+            },
+            "loop_return_sec": 0.30,
             "foley": [
-                {"rel": 0.05, "type": "camera_whoosh", "gain": 0.50},
-                {"rel": 0.25, "type": "stadium_swell", "gain": 0.58},
-                {"rel": 4.25, "type": "cork_pop", "gain": 0.65},
+                {"rel": 0.04, "type": "camera_whoosh", "gain": 0.46},
+                {"rel": 0.22, "type": "stadium_swell", "gain": 0.42},
             ],
         },
     ]
@@ -638,13 +683,15 @@ def build_scene_config(audio_meta: dict) -> dict:
             "height": H,
             "fps": FPS,
             "subtitle_y_ratio": 0.79,
+            "subtitle_panel_y_ratio": 0.47,
+            "version": "v2",
         },
         "total_duration_sec": audio_meta["total_duration_sec"],
         "scenes": specs,
     }
 
 
-def mix_foley_and_voice(config: dict, voice_wav_path: Path, out_wav_path: Path):
+def mix_foley_and_voice(config: dict, audio_meta: dict, voice_wav_path: Path, out_wav_path: Path):
     with wave.open(str(voice_wav_path), "rb") as wf:
         n_frames = wf.getnframes()
         raw = wf.readframes(n_frames)
@@ -656,6 +703,27 @@ def mix_foley_and_voice(config: dict, voice_wav_path: Path, out_wav_path: Path):
     for sc in config["scenes"]:
         s0, s1 = sc["start_sec"], sc["end_sec"]
         dur = s1 - s0
+
+        # Auto subtle punch-zoom tick on crisp mid-scene camera cuts
+        shots = sc.get("shots", [])
+        for idx in range(1, len(shots)):
+            if abs(shots[idx]["zoom"] - shots[idx - 1].get("end_zoom", shots[idx - 1]["zoom"])) >= 0.45:
+                fm.add_sound(foley_buf, s0 + shots[idx]["t"], fm.foley_punch_zoom(), gain=0.34)
+
+        # Auto typing & reply pop SFX for animated comment panel
+        cp = sc.get("comment_panel")
+        if cp:
+            t_panel = s0 + cp["trigger_rel"]
+            kw = cp["keyword"]
+            for ci in range(len(kw)):
+                fm.add_sound(foley_buf, t_panel + 0.30 + ci * (0.78 / max(1, len(kw))), fm.foley_type_click(), gain=0.52)
+            fm.add_sound(foley_buf, t_panel + 1.14, fm.foley_cork_pop(), gain=0.55)
+            fm.add_sound(foley_buf, t_panel + 0.85, fm.foley_type_click(), gain=0.40)
+            fm.add_sound(foley_buf, t_panel + 1.40, fm.foley_cork_pop(), gain=0.45)
+
+        if sc.get("loop_return_sec"):
+            fm.add_sound(foley_buf, s1 - sc["loop_return_sec"], fm.foley_punch_zoom(0.24), gain=0.40)
+
         for cue in sc.get("foley", []):
             rel = cue["rel"]
             t_abs = (s1 + rel) if rel < 0 else (s0 + rel)
@@ -664,6 +732,8 @@ def mix_foley_and_voice(config: dict, voice_wav_path: Path, out_wav_path: Path):
 
             if ctype == "camera_whoosh":
                 snd = fm.foley_camera_whoosh()
+            elif ctype == "punch_zoom":
+                snd = fm.foley_punch_zoom()
             elif ctype == "pawn_bounce":
                 snd = fm.foley_pawn_bounce()
             elif ctype == "cork_pop":
@@ -689,20 +759,23 @@ def mix_foley_and_voice(config: dict, voice_wav_path: Path, out_wav_path: Path):
             elif ctype == "celesta_chime_hi":
                 snd = fm.foley_celesta_chime(freq=1318.5)
             elif ctype == "stadium_swell":
-                snd = foley_stadium_swell(duration=min(3.6, max(2.0, dur - 0.5)))
+                snd = foley_stadium_swell(duration=min(3.2, max(1.8, dur - 0.5)))
             else:
                 continue
 
             fm.add_sound(foley_buf, t_abs, snd, gain=gain)
 
-    max_f = np.max(np.abs(foley_buf))
-    if max_f > 0.95:
-        foley_buf = foley_buf / max_f * 0.92
-
-    mixed = voice * 0.96 + foley_buf * 0.58
-    peak = np.max(np.abs(mixed))
-    if peak > 0.96:
-        mixed = mixed / peak * 0.96
+    mixed = fm.mix_voice_foley_and_bed(
+        voice,
+        foley_buf,
+        audio_meta["words"],
+        bpm=96.0,
+        seed=303,
+        voice_gain=0.96,
+        foley_gain=0.56,
+        bed_under_speech=0.15,
+        bed_in_pauses=0.46,
+    )
 
     pcm16 = (np.clip(mixed, -1.0, 1.0) * 32767.0).astype(np.int16)
     with wave.open(str(out_wav_path), "wb") as wf:
@@ -710,12 +783,12 @@ def mix_foley_and_voice(config: dict, voice_wav_path: Path, out_wav_path: Path):
         wf.setsampwidth(2)
         wf.setframerate(SR)
         wf.writeframes(pcm16.tobytes())
-    print(f"Mixed audio saved to {out_wav_path} ({total_dur:.2f}s)")
+    print(f"Mixed audio (voice + foley + auto-ducked acoustic bed) saved to {out_wav_path} ({total_dur:.2f}s)")
 
 
 def compute_sprite_transform(motion: str, local_t: float, sp_cfg: dict):
-    pop_delay = sp_cfg.get("pop_delay", 0.12)
-    sc = eng.spring_scale(local_t - pop_delay, rise=0.34)
+    pop_delay = sp_cfg.get("pop_delay", 0.0)
+    sc = 1.0 if pop_delay <= 0.0 else eng.spring_scale(local_t - pop_delay, rise=0.30)
     dx, dy, ang = 0.0, 0.0, 0.0
     t = max(0.0, local_t - pop_delay)
 
@@ -744,7 +817,6 @@ def compute_sprite_transform(motion: str, local_t: float, sp_cfg: dict):
         ang = 4.5 * math.sin(local_t * 2.2)
     elif motion == "car_drive":
         sc = 1.0
-        # Subtle bounce & cruise back-and-forth along Manitoba detour road
         dx = -14.0 * math.sin(local_t * 0.85)
         dy = -2.0 * abs(math.sin(local_t * 7.5)) - 3.0 * math.sin(local_t * 0.85)
         ang = 2.0 * math.sin(local_t * 5.0)
@@ -809,7 +881,7 @@ def main():
             check=True,
         )
     mixed_wav = EP_DIR / "northwest_angle_mixed.wav"
-    mix_foley_and_voice(config, voice_wav, mixed_wav)
+    mix_foley_and_voice(config, audio_meta, voice_wav, mixed_wav)
 
     subtitle_cards = build_subtitle_cards(audio_meta["scenes"])
 
@@ -819,15 +891,26 @@ def main():
     sub_font = load_font(44, bold=True)
     ov_font = load_font(26, bold=True)
     vhs_font = load_font(30, bold=True)
+    panel_title_font = load_font(22, bold=True)
+    panel_input_font = load_font(24, bold=True)
+    panel_body_font = load_font(22, bold=True)
+    panel_small_font = load_font(18, bold=True)
 
     qa_dir = EP_DIR / "qa"
     qa_dir.mkdir(parents=True, exist_ok=True)
-    qa_targets = {}
-    for sc in config["scenes"]:
-        if sc["id"] in ("scene_01", "scene_02", "scene_03", "scene_05", "scene_07", "scene_08", "scene_09", "scene_10", "scene_11", "scene_12"):
-            t_mid = sc["start_sec"] + (sc["end_sec"] - sc["start_sec"]) * (0.85 if sc["id"] == "scene_08" else 0.72)
-            qa_targets[sc["id"]] = int(t_mid * FPS)
-    qa_targets["scene_12_final"] = int((config["total_duration_sec"] - 0.7) * FPS)
+    s_map = {sc["id"]: sc for sc in config["scenes"]}
+    qa_targets = {
+        "scene_01_frame0": 0,
+        "scene_01_closeup2": int((s_map["scene_01"]["start_sec"] + 4.35) * FPS),
+        "scene_03_closeup": int((s_map["scene_03"]["start_sec"] + 1.80) * FPS),
+        "scene_05_closeup": int((s_map["scene_05"]["start_sec"] + 2.65) * FPS),
+        "scene_07_oops": int((s_map["scene_07"]["start_sec"] + 4.45) * FPS),
+        "scene_09_mountie": int((s_map["scene_09"]["start_sec"] + 5.10) * FPS),
+        "scene_10_kiosk": int((s_map["scene_10"]["start_sec"] + 2.90) * FPS),
+        "scene_11_star": int((s_map["scene_11"]["start_sec"] + 1.80) * FPS),
+        "scene_12_panel": int((s_map["scene_12"]["start_sec"] + 2.25) * FPS),
+        "scene_12_loop": int((config["total_duration_sec"] - 0.14) * FPS),
+    }
 
     total_frames = int(math.ceil(config["total_duration_sec"] * FPS))
     out_mp4 = EP_DIR / "heartland_mapped_ep03_minnesota_northwest_angle.mp4"
@@ -872,6 +955,8 @@ def main():
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
 
     sub_idx = 0
+    frame0_rgba = None
+
     for f_idx in range(total_frames):
         t = f_idx / FPS
 
@@ -886,7 +971,6 @@ def main():
         local_t = max(0.0, t - s0)
         dur = max(0.001, s1 - s0)
         prog = min(1.0, local_t / dur)
-        eased = smoothstep(prog)
 
         canvas = active["bg_rgba"].copy()
 
@@ -895,7 +979,7 @@ def main():
             eng.paste_moving_sprite(canvas, sp_rgba, base_rect, dx=dx, dy=dy, scale=scale, angle_deg=ang, shadow=True)
 
         ov = sc.get("overhead")
-        if ov and local_t >= ov["trigger_rel"]:
+        if ov and ov["trigger_rel"] <= local_t < ov.get("end_rel", 999.0):
             ov_prog = min(1.0, (local_t - ov["trigger_rel"]) / 0.28)
             draw_overhead_crisp(
                 canvas,
@@ -909,12 +993,7 @@ def main():
                 height=H,
             )
 
-        cs = sc["camera_start"]
-        ce = sc["camera_end"]
-        zoom = lerp(cs["zoom"], ce["zoom"], eased)
-        pan_x = lerp(cs["pan_x"], ce["pan_x"], eased)
-        pan_y = lerp(cs["pan_y"], ce["pan_y"], eased)
-        tilt = lerp(cs["tilt_deg"], ce["tilt_deg"], eased)
+        zoom, pan_x, pan_y, tilt, cut_blur = eng.eval_shot_camera(sc["shots"], local_t, dur)
 
         if sc.get("march_shake"):
             pan_y += 0.004 * abs(math.sin(local_t * 6.5))
@@ -926,24 +1005,66 @@ def main():
                 pan_x += 0.013 * math.sin(dt_imp * 55.0) * decay
                 pan_y += 0.011 * math.cos(dt_imp * 48.0) * decay
 
-        t_blur = 0.0
-        if local_t < 0.13 and sc["id"] != "scene_01":
-            t_blur = (1.0 - local_t / 0.13) * 0.55
-        elif (dur - local_t) < 0.12 and sc["id"] != "scene_12":
-            t_blur = (1.0 - (dur - local_t) / 0.12) * 0.55
+        t_blur = cut_blur
+        if local_t < 0.11 and sc["id"] != "scene_01":
+            t_blur = max(t_blur, (1.0 - local_t / 0.11) * 0.50)
+        elif (dur - local_t) < 0.10 and sc["id"] != "scene_12":
+            t_blur = max(t_blur, (1.0 - (dur - local_t) / 0.10) * 0.50)
 
         frame = eng.apply_25d_camera(canvas, zoom, pan_x, pan_y, tilt, transition_blur=t_blur, width=W, height=H)
 
-        if sc.get("vhs_rewind") or (sc["id"] == "scene_01" and (dur - local_t) < 0.38):
-            vhs_p = prog if sc.get("vhs_rewind") else (1.0 - (dur - local_t) / 0.38)
+        if f_idx == 0:
+            frame0_rgba = frame.copy()
+
+        if sc.get("vhs_rewind") or (sc["id"] == "scene_01" and (dur - local_t) < 0.36):
+            vhs_p = prog if sc.get("vhs_rewind") else (1.0 - (dur - local_t) / 0.36)
             frame = apply_vhs_rewind(frame, vhs_p, vhs_font)
 
+        # Animated 1-word CTA comment panel on final scene
+        cp = sc.get("comment_panel")
+        panel_active = False
+        if cp and local_t >= cp["trigger_rel"]:
+            loop_sec = sc.get("loop_return_sec", 0.0)
+            if (dur - local_t) > loop_sec * 0.55:
+                panel_active = True
+                eng.draw_animated_comment_panel(
+                    frame,
+                    local_t - cp["trigger_rel"],
+                    cp["keyword"],
+                    cp["comments"],
+                    panel_title_font,
+                    panel_input_font,
+                    panel_body_font,
+                    panel_small_font,
+                    width=W,
+                    height=H,
+                )
+
+        # Seamless visual whip-return into Scene 01 Frame 0 during final loop_return_sec
+        loop_sec = sc.get("loop_return_sec", 0.0)
+        in_loop_return = False
+        if loop_sec > 0.0 and frame0_rgba is not None and (dur - local_t) <= loop_sec:
+            in_loop_return = True
+            lp = smoothstep(1.0 - (dur - local_t) / loop_sec)
+            frame = Image.blend(frame, frame0_rgba, lp)
+            # Brief horizontal whip motion-blur peak mid-blend for snap-loop energy
+            whip = math.sin(lp * math.pi) * 0.45
+            if whip > 0.06:
+                ksize = max(3, int(whip * 21) | 1)
+                arr = np.array(frame)
+                kernel = np.zeros((ksize, ksize), dtype=np.float32)
+                kernel[ksize // 2, :] = 1.0 / ksize
+                arr[:, :, :3] = cv2.filter2D(arr[:, :, :3], -1, kernel)
+                frame = Image.fromarray(arr)
+
+        # Subtitles (auto-lift cleanly above comment panel when panel is active)
         while sub_idx < len(subtitle_cards) and subtitle_cards[sub_idx]["end"] < t:
             sub_idx += 1
-        if sub_idx < len(subtitle_cards):
+        if not in_loop_return and sub_idx < len(subtitle_cards):
             card = subtitle_cards[sub_idx]
             if card["start"] <= t <= card["end"]:
-                draw_subtitle_card(frame, card["text"], sub_font, y_ratio=0.79)
+                sub_y = 0.47 if panel_active else 0.79
+                draw_subtitle_card(frame, card["text"], sub_font, y_ratio=sub_y)
 
         for sid, target_f in qa_targets.items():
             if f_idx == target_f:
@@ -958,7 +1079,7 @@ def main():
     ret = proc.wait()
     if ret != 0:
         raise RuntimeError(f"ffmpeg exited with code {ret}")
-    print(f"SUCCESS! Final video saved to: {out_mp4}")
+    print(f"SUCCESS! Final v2 video saved to: {out_mp4}")
 
 
 if __name__ == "__main__":
