@@ -1,0 +1,2476 @@
+{
+  "voice": "en-US-ChristopherNeural",
+  "total_duration_sec": 84.601,
+  "scenes": [
+    {
+      "id": "scene_01",
+      "text": "In 1839, Iowa and Missouri called up thousands of armed militiamen and nearly went to war... over three honey trees.",
+      "start_sec": 0.0,
+      "speech_end_sec": 7.178,
+      "end_sec": 7.428,
+      "words": [
+        {
+          "text": "In 1839",
+          "start": 0.097,
+          "end": 1.371
+        },
+        {
+          "text": "Iowa",
+          "start": 1.595,
+          "end": 2.008
+        },
+        {
+          "text": "and",
+          "start": 2.019,
+          "end": 2.137
+        },
+        {
+          "text": "Missouri",
+          "start": 2.149,
+          "end": 2.621
+        },
+        {
+          "text": "called",
+          "start": 2.633,
+          "end": 2.916
+        },
+        {
+          "text": "up",
+          "start": 2.927,
+          "end": 3.045
+        },
+        {
+          "text": "thousands",
+          "start": 3.057,
+          "end": 3.493
+        },
+        {
+          "text": "of",
+          "start": 3.505,
+          "end": 3.6
+        },
+        {
+          "text": "armed",
+          "start": 3.611,
+          "end": 3.918
+        },
+        {
+          "text": "militiamen",
+          "start": 3.93,
+          "end": 4.543
+        },
+        {
+          "text": "and",
+          "start": 4.555,
+          "end": 4.684
+        },
+        {
+          "text": "nearly",
+          "start": 4.696,
+          "end": 4.991
+        },
+        {
+          "text": "went",
+          "start": 5.003,
+          "end": 5.168
+        },
+        {
+          "text": "to",
+          "start": 5.18,
+          "end": 5.262
+        },
+        {
+          "text": "war",
+          "start": 5.274,
+          "end": 5.616
+        },
+        {
+          "text": "over",
+          "start": 5.887,
+          "end": 6.099
+        },
+        {
+          "text": "three",
+          "start": 6.111,
+          "end": 6.359
+        },
+        {
+          "text": "honey",
+          "start": 6.371,
+          "end": 6.63
+        },
+        {
+          "text": "trees",
+          "start": 6.642,
+          "end": 7.208
+        }
+      ]
+    },
+    {
+      "id": "scene_02",
+      "text": "Wait... let's rewind.",
+      "start_sec": 7.428,
+      "speech_end_sec": 8.953,
+      "end_sec": 9.303,
+      "words": [
+        {
+          "text": "Wait",
+          "start": 7.526,
+          "end": 7.903
+        },
+        {
+          "text": "let's",
+          "start": 8.139,
+          "end": 8.375
+        },
+        {
+          "text": "rewind",
+          "start": 8.386,
+          "end": 9.011
+        }
+      ]
+    },
+    {
+      "id": "scene_03",
+      "text": "In 1816, surveyors drew Missouri's northern border straight east from the rapids of the Des Moines River.",
+      "start_sec": 9.303,
+      "speech_end_sec": 15.022,
+      "end_sec": 15.222,
+      "words": [
+        {
+          "text": "In 1816",
+          "start": 9.4,
+          "end": 10.673
+        },
+        {
+          "text": "surveyors",
+          "start": 10.933,
+          "end": 11.499
+        },
+        {
+          "text": "drew",
+          "start": 11.511,
+          "end": 11.688
+        },
+        {
+          "text": "Missouri's",
+          "start": 11.699,
+          "end": 12.218
+        },
+        {
+          "text": "northern",
+          "start": 12.23,
+          "end": 12.572
+        },
+        {
+          "text": "border",
+          "start": 12.584,
+          "end": 12.879
+        },
+        {
+          "text": "straight",
+          "start": 12.89,
+          "end": 13.232
+        },
+        {
+          "text": "east",
+          "start": 13.244,
+          "end": 13.515
+        },
+        {
+          "text": "from",
+          "start": 13.527,
+          "end": 13.633
+        },
+        {
+          "text": "the",
+          "start": 13.645,
+          "end": 13.728
+        },
+        {
+          "text": "rapids",
+          "start": 13.74,
+          "end": 14.164
+        },
+        {
+          "text": "of",
+          "start": 14.176,
+          "end": 14.258
+        },
+        {
+          "text": "the",
+          "start": 14.27,
+          "end": 14.341
+        },
+        {
+          "text": "Des",
+          "start": 14.353,
+          "end": 14.435
+        },
+        {
+          "text": "Moines",
+          "start": 14.447,
+          "end": 14.73
+        },
+        {
+          "text": "River",
+          "start": 14.742,
+          "end": 15.119
+        }
+      ]
+    },
+    {
+      "id": "scene_04",
+      "text": "Twenty years later, Missouri claimed they'd used the wrong rapids, and pushed the border nine miles north: claiming 2,600 square miles of Iowa farmland.",
+      "start_sec": 15.222,
+      "speech_end_sec": 24.129,
+      "end_sec": 24.329,
+      "words": [
+        {
+          "text": "Twenty",
+          "start": 15.319,
+          "end": 15.649
+        },
+        {
+          "text": "years",
+          "start": 15.661,
+          "end": 15.897
+        },
+        {
+          "text": "later",
+          "start": 15.908,
+          "end": 16.215
+        },
+        {
+          "text": "Missouri",
+          "start": 16.427,
+          "end": 16.84
+        },
+        {
+          "text": "claimed",
+          "start": 16.852,
+          "end": 17.217
+        },
+        {
+          "text": "they'd",
+          "start": 17.229,
+          "end": 17.406
+        },
+        {
+          "text": "used",
+          "start": 17.418,
+          "end": 17.654
+        },
+        {
+          "text": "the",
+          "start": 17.665,
+          "end": 17.748
+        },
+        {
+          "text": "wrong",
+          "start": 17.76,
+          "end": 18.055
+        },
+        {
+          "text": "rapids",
+          "start": 18.066,
+          "end": 18.562
+        },
+        {
+          "text": "and",
+          "start": 18.786,
+          "end": 18.939
+        },
+        {
+          "text": "pushed",
+          "start": 18.951,
+          "end": 19.234
+        },
+        {
+          "text": "the",
+          "start": 19.246,
+          "end": 19.328
+        },
+        {
+          "text": "border",
+          "start": 19.34,
+          "end": 19.635
+        },
+        {
+          "text": "nine",
+          "start": 19.647,
+          "end": 19.93
+        },
+        {
+          "text": "miles",
+          "start": 19.941,
+          "end": 20.307
+        },
+        {
+          "text": "north",
+          "start": 20.319,
+          "end": 20.708
+        },
+        {
+          "text": "claiming",
+          "start": 20.967,
+          "end": 21.333
+        },
+        {
+          "text": "2,600",
+          "start": 21.345,
+          "end": 22.418
+        },
+        {
+          "text": "square",
+          "start": 22.43,
+          "end": 22.736
+        },
+        {
+          "text": "miles",
+          "start": 22.748,
+          "end": 23.114
+        },
+        {
+          "text": "of",
+          "start": 23.125,
+          "end": 23.208
+        },
+        {
+          "text": "Iowa",
+          "start": 23.22,
+          "end": 23.562
+        },
+        {
+          "text": "farmland",
+          "start": 23.573,
+          "end": 24.222
+        }
+      ]
+    },
+    {
+      "id": "scene_05",
+      "text": "When Missouri sent a sheriff to collect taxes, Iowa's governor\u2014the very same fiery leader from Ohio's Toledo War\u2014had him arrested on the spot.",
+      "start_sec": 24.329,
+      "speech_end_sec": 32.515,
+      "end_sec": 32.735,
+      "words": [
+        {
+          "text": "When",
+          "start": 24.427,
+          "end": 24.603
+        },
+        {
+          "text": "Missouri",
+          "start": 24.615,
+          "end": 25.063
+        },
+        {
+          "text": "sent",
+          "start": 25.075,
+          "end": 25.311
+        },
+        {
+          "text": "a",
+          "start": 25.323,
+          "end": 25.358
+        },
+        {
+          "text": "sheriff",
+          "start": 25.37,
+          "end": 25.783
+        },
+        {
+          "text": "to",
+          "start": 25.795,
+          "end": 25.901
+        },
+        {
+          "text": "collect",
+          "start": 25.912,
+          "end": 26.29
+        },
+        {
+          "text": "taxes",
+          "start": 26.302,
+          "end": 26.856
+        },
+        {
+          "text": "Iowa's",
+          "start": 27.068,
+          "end": 27.445
+        },
+        {
+          "text": "governor",
+          "start": 27.457,
+          "end": 27.882
+        },
+        {
+          "text": "the",
+          "start": 28.188,
+          "end": 28.283
+        },
+        {
+          "text": "very",
+          "start": 28.295,
+          "end": 28.578
+        },
+        {
+          "text": "same",
+          "start": 28.589,
+          "end": 28.861
+        },
+        {
+          "text": "fiery",
+          "start": 28.872,
+          "end": 29.262
+        },
+        {
+          "text": "leader",
+          "start": 29.273,
+          "end": 29.604
+        },
+        {
+          "text": "from",
+          "start": 29.615,
+          "end": 29.757
+        },
+        {
+          "text": "Ohio's",
+          "start": 29.769,
+          "end": 30.252
+        },
+        {
+          "text": "Toledo",
+          "start": 30.264,
+          "end": 30.665
+        },
+        {
+          "text": "War",
+          "start": 30.677,
+          "end": 30.971
+        },
+        {
+          "text": "had",
+          "start": 31.29,
+          "end": 31.408
+        },
+        {
+          "text": "him",
+          "start": 31.42,
+          "end": 31.514
+        },
+        {
+          "text": "arrested",
+          "start": 31.526,
+          "end": 31.974
+        },
+        {
+          "text": "on",
+          "start": 31.986,
+          "end": 32.092
+        },
+        {
+          "text": "the",
+          "start": 32.103,
+          "end": 32.162
+        },
+        {
+          "text": "spot",
+          "start": 32.174,
+          "end": 32.634
+        }
+      ]
+    },
+    {
+      "id": "scene_06",
+      "text": "Then came the breaking point: a Missouri farmer snuck across the line and chopped down three hollow bee trees to steal the honey.",
+      "start_sec": 32.735,
+      "speech_end_sec": 39.185,
+      "end_sec": 39.385,
+      "words": [
+        {
+          "text": "Then",
+          "start": 32.832,
+          "end": 33.127
+        },
+        {
+          "text": "came",
+          "start": 33.138,
+          "end": 33.374
+        },
+        {
+          "text": "the",
+          "start": 33.386,
+          "end": 33.469
+        },
+        {
+          "text": "breaking",
+          "start": 33.48,
+          "end": 33.846
+        },
+        {
+          "text": "point",
+          "start": 33.858,
+          "end": 34.212
+        },
+        {
+          "text": "a",
+          "start": 34.495,
+          "end": 34.53
+        },
+        {
+          "text": "Missouri",
+          "start": 34.542,
+          "end": 34.99
+        },
+        {
+          "text": "farmer",
+          "start": 35.002,
+          "end": 35.379
+        },
+        {
+          "text": "snuck",
+          "start": 35.391,
+          "end": 35.686
+        },
+        {
+          "text": "across",
+          "start": 35.697,
+          "end": 36.051
+        },
+        {
+          "text": "the",
+          "start": 36.063,
+          "end": 36.169
+        },
+        {
+          "text": "line",
+          "start": 36.181,
+          "end": 36.511
+        },
+        {
+          "text": "and",
+          "start": 36.523,
+          "end": 36.641
+        },
+        {
+          "text": "chopped",
+          "start": 36.653,
+          "end": 36.936
+        },
+        {
+          "text": "down",
+          "start": 36.947,
+          "end": 37.207
+        },
+        {
+          "text": "three",
+          "start": 37.219,
+          "end": 37.49
+        },
+        {
+          "text": "hollow",
+          "start": 37.502,
+          "end": 37.796
+        },
+        {
+          "text": "bee",
+          "start": 37.808,
+          "end": 37.926
+        },
+        {
+          "text": "trees",
+          "start": 37.938,
+          "end": 38.339
+        },
+        {
+          "text": "to",
+          "start": 38.351,
+          "end": 38.445
+        },
+        {
+          "text": "steal",
+          "start": 38.457,
+          "end": 38.775
+        },
+        {
+          "text": "the",
+          "start": 38.787,
+          "end": 38.858
+        },
+        {
+          "text": "honey",
+          "start": 38.87,
+          "end": 39.259
+        }
+      ]
+    },
+    {
+      "id": "scene_07",
+      "text": "Furious Iowans fined him a dollar fifty, newspapers dubbed it the Honey War, and both governors ordered their militias to march.",
+      "start_sec": 39.385,
+      "speech_end_sec": 46.241,
+      "end_sec": 46.441,
+      "words": [
+        {
+          "text": "Furious",
+          "start": 39.482,
+          "end": 40.037
+        },
+        {
+          "text": "Iowans",
+          "start": 40.048,
+          "end": 40.496
+        },
+        {
+          "text": "fined",
+          "start": 40.508,
+          "end": 40.779
+        },
+        {
+          "text": "him",
+          "start": 40.791,
+          "end": 40.886
+        },
+        {
+          "text": "a",
+          "start": 40.897,
+          "end": 40.968
+        },
+        {
+          "text": "dollar",
+          "start": 40.98,
+          "end": 41.286
+        },
+        {
+          "text": "fifty",
+          "start": 41.298,
+          "end": 41.711
+        },
+        {
+          "text": "newspapers",
+          "start": 41.935,
+          "end": 42.525
+        },
+        {
+          "text": "dubbed",
+          "start": 42.537,
+          "end": 42.784
+        },
+        {
+          "text": "it",
+          "start": 42.796,
+          "end": 42.867
+        },
+        {
+          "text": "the",
+          "start": 42.879,
+          "end": 42.949
+        },
+        {
+          "text": "Honey",
+          "start": 42.961,
+          "end": 43.209
+        },
+        {
+          "text": "War",
+          "start": 43.221,
+          "end": 43.574
+        },
+        {
+          "text": "and",
+          "start": 43.857,
+          "end": 43.963
+        },
+        {
+          "text": "both",
+          "start": 43.975,
+          "end": 44.223
+        },
+        {
+          "text": "governors",
+          "start": 44.235,
+          "end": 44.718
+        },
+        {
+          "text": "ordered",
+          "start": 44.73,
+          "end": 45.013
+        },
+        {
+          "text": "their",
+          "start": 45.025,
+          "end": 45.143
+        },
+        {
+          "text": "militias",
+          "start": 45.154,
+          "end": 45.638
+        },
+        {
+          "text": "to",
+          "start": 45.65,
+          "end": 45.744
+        },
+        {
+          "text": "march",
+          "start": 45.756,
+          "end": 46.263
+        }
+      ]
+    },
+    {
+      "id": "scene_08",
+      "text": "Over a thousand Iowans marched south in freezing December armed with rusty muskets, pitchforks, frying pans, and even a sausage stuffer.",
+      "start_sec": 46.441,
+      "speech_end_sec": 54.438,
+      "end_sec": 54.658,
+      "words": [
+        {
+          "text": "Over",
+          "start": 46.538,
+          "end": 46.857
+        },
+        {
+          "text": "a",
+          "start": 46.869,
+          "end": 46.916
+        },
+        {
+          "text": "thousand",
+          "start": 46.928,
+          "end": 47.387
+        },
+        {
+          "text": "Iowans",
+          "start": 47.399,
+          "end": 47.847
+        },
+        {
+          "text": "marched",
+          "start": 47.859,
+          "end": 48.225
+        },
+        {
+          "text": "south",
+          "start": 48.236,
+          "end": 48.578
+        },
+        {
+          "text": "in",
+          "start": 48.59,
+          "end": 48.708
+        },
+        {
+          "text": "freezing",
+          "start": 48.72,
+          "end": 49.121
+        },
+        {
+          "text": "December",
+          "start": 49.133,
+          "end": 49.581
+        },
+        {
+          "text": "armed",
+          "start": 49.593,
+          "end": 49.876
+        },
+        {
+          "text": "with",
+          "start": 49.887,
+          "end": 50.029
+        },
+        {
+          "text": "rusty",
+          "start": 50.041,
+          "end": 50.359
+        },
+        {
+          "text": "muskets",
+          "start": 50.371,
+          "end": 50.913
+        },
+        {
+          "text": "pitchforks",
+          "start": 51.137,
+          "end": 51.762
+        },
+        {
+          "text": "frying",
+          "start": 52.01,
+          "end": 52.352
+        },
+        {
+          "text": "pans",
+          "start": 52.364,
+          "end": 52.836
+        },
+        {
+          "text": "and",
+          "start": 53.107,
+          "end": 53.272
+        },
+        {
+          "text": "even",
+          "start": 53.284,
+          "end": 53.496
+        },
+        {
+          "text": "a",
+          "start": 53.508,
+          "end": 53.567
+        },
+        {
+          "text": "sausage",
+          "start": 53.578,
+          "end": 54.038
+        },
+        {
+          "text": "stuffer",
+          "start": 54.05,
+          "end": 54.534
+        }
+      ]
+    },
+    {
+      "id": "scene_09",
+      "text": "Shivering in the bitter cold, both sides realized nobody wanted to die over honey, and marched right back home without firing a single shot.",
+      "start_sec": 54.658,
+      "speech_end_sec": 62.163,
+      "end_sec": 62.363,
+      "words": [
+        {
+          "text": "Shivering",
+          "start": 54.755,
+          "end": 55.25
+        },
+        {
+          "text": "in",
+          "start": 55.262,
+          "end": 55.321
+        },
+        {
+          "text": "the",
+          "start": 55.333,
+          "end": 55.415
+        },
+        {
+          "text": "bitter",
+          "start": 55.427,
+          "end": 55.698
+        },
+        {
+          "text": "cold",
+          "start": 55.71,
+          "end": 56.123
+        },
+        {
+          "text": "both",
+          "start": 56.347,
+          "end": 56.595
+        },
+        {
+          "text": "sides",
+          "start": 56.606,
+          "end": 56.996
+        },
+        {
+          "text": "realized",
+          "start": 57.007,
+          "end": 57.514
+        },
+        {
+          "text": "nobody",
+          "start": 57.526,
+          "end": 57.868
+        },
+        {
+          "text": "wanted",
+          "start": 57.88,
+          "end": 58.128
+        },
+        {
+          "text": "to",
+          "start": 58.139,
+          "end": 58.21
+        },
+        {
+          "text": "die",
+          "start": 58.222,
+          "end": 58.552
+        },
+        {
+          "text": "over",
+          "start": 58.564,
+          "end": 58.776
+        },
+        {
+          "text": "honey",
+          "start": 58.788,
+          "end": 59.118
+        },
+        {
+          "text": "and",
+          "start": 59.401,
+          "end": 59.554
+        },
+        {
+          "text": "marched",
+          "start": 59.566,
+          "end": 59.944
+        },
+        {
+          "text": "right",
+          "start": 59.955,
+          "end": 60.191
+        },
+        {
+          "text": "back",
+          "start": 60.203,
+          "end": 60.439
+        },
+        {
+          "text": "home",
+          "start": 60.451,
+          "end": 60.687
+        },
+        {
+          "text": "without",
+          "start": 60.698,
+          "end": 60.981
+        },
+        {
+          "text": "firing",
+          "start": 60.993,
+          "end": 61.406
+        },
+        {
+          "text": "a",
+          "start": 61.418,
+          "end": 61.465
+        },
+        {
+          "text": "single",
+          "start": 61.477,
+          "end": 61.842
+        },
+        {
+          "text": "shot",
+          "start": 61.854,
+          "end": 62.267
+        }
+      ]
+    },
+    {
+      "id": "scene_10",
+      "text": "Ten years later, the U.S. Supreme Court unanimously sided with Iowa, restoring the original 1816 border with permanent iron posts.",
+      "start_sec": 62.363,
+      "speech_end_sec": 70.131,
+      "end_sec": 70.351,
+      "words": [
+        {
+          "text": "Ten",
+          "start": 62.46,
+          "end": 62.696
+        },
+        {
+          "text": "years",
+          "start": 62.708,
+          "end": 62.979
+        },
+        {
+          "text": "later",
+          "start": 62.991,
+          "end": 63.321
+        },
+        {
+          "text": "the",
+          "start": 63.521,
+          "end": 63.568
+        },
+        {
+          "text": "U.S.",
+          "start": 63.58,
+          "end": 63.922
+        },
+        {
+          "text": "Supreme Court",
+          "start": 63.934,
+          "end": 64.594
+        },
+        {
+          "text": "unanimously",
+          "start": 64.606,
+          "end": 65.231
+        },
+        {
+          "text": "sided",
+          "start": 65.243,
+          "end": 65.62
+        },
+        {
+          "text": "with",
+          "start": 65.632,
+          "end": 65.762
+        },
+        {
+          "text": "Iowa",
+          "start": 65.774,
+          "end": 66.175
+        },
+        {
+          "text": "restoring",
+          "start": 66.481,
+          "end": 66.929
+        },
+        {
+          "text": "the",
+          "start": 66.941,
+          "end": 67.0
+        },
+        {
+          "text": "original",
+          "start": 67.012,
+          "end": 67.495
+        },
+        {
+          "text": "1816",
+          "start": 67.507,
+          "end": 68.392
+        },
+        {
+          "text": "border",
+          "start": 68.403,
+          "end": 68.698
+        },
+        {
+          "text": "with",
+          "start": 68.71,
+          "end": 68.84
+        },
+        {
+          "text": "permanent",
+          "start": 68.851,
+          "end": 69.264
+        },
+        {
+          "text": "iron",
+          "start": 69.276,
+          "end": 69.559
+        },
+        {
+          "text": "posts",
+          "start": 69.571,
+          "end": 70.149
+        }
+      ]
+    },
+    {
+      "id": "scene_11",
+      "text": "Not one drop of blood was ever spilled, making the Honey War the sweetest standoff in American history.",
+      "start_sec": 70.351,
+      "speech_end_sec": 75.655,
+      "end_sec": 75.855,
+      "words": [
+        {
+          "text": "Not",
+          "start": 70.448,
+          "end": 70.731
+        },
+        {
+          "text": "one",
+          "start": 70.743,
+          "end": 70.943
+        },
+        {
+          "text": "drop",
+          "start": 70.955,
+          "end": 71.238
+        },
+        {
+          "text": "of",
+          "start": 71.25,
+          "end": 71.379
+        },
+        {
+          "text": "blood",
+          "start": 71.391,
+          "end": 71.663
+        },
+        {
+          "text": "was",
+          "start": 71.674,
+          "end": 71.863
+        },
+        {
+          "text": "ever",
+          "start": 71.875,
+          "end": 72.075
+        },
+        {
+          "text": "spilled",
+          "start": 72.087,
+          "end": 72.5
+        },
+        {
+          "text": "making",
+          "start": 72.759,
+          "end": 73.042
+        },
+        {
+          "text": "the",
+          "start": 73.054,
+          "end": 73.113
+        },
+        {
+          "text": "Honey",
+          "start": 73.125,
+          "end": 73.408
+        },
+        {
+          "text": "War",
+          "start": 73.42,
+          "end": 73.644
+        },
+        {
+          "text": "the",
+          "start": 73.655,
+          "end": 73.75
+        },
+        {
+          "text": "sweetest",
+          "start": 73.762,
+          "end": 74.174
+        },
+        {
+          "text": "standoff",
+          "start": 74.186,
+          "end": 74.705
+        },
+        {
+          "text": "in",
+          "start": 74.717,
+          "end": 74.799
+        },
+        {
+          "text": "American",
+          "start": 74.811,
+          "end": 75.236
+        },
+        {
+          "text": "history",
+          "start": 75.247,
+          "end": 75.743
+        }
+      ]
+    },
+    {
+      "id": "scene_12",
+      "text": "Zero casualties, three bee trees lost. So be honest... if your neighbor stole your honey trees, would you call out the militia too?",
+      "start_sec": 75.855,
+      "speech_end_sec": 84.051,
+      "end_sec": 84.601,
+      "words": [
+        {
+          "text": "Zero",
+          "start": 75.952,
+          "end": 76.389
+        },
+        {
+          "text": "casualties",
+          "start": 76.4,
+          "end": 77.108
+        },
+        {
+          "text": "three",
+          "start": 77.308,
+          "end": 77.603
+        },
+        {
+          "text": "bee",
+          "start": 77.615,
+          "end": 77.757
+        },
+        {
+          "text": "trees",
+          "start": 77.768,
+          "end": 78.158
+        },
+        {
+          "text": "lost",
+          "start": 78.169,
+          "end": 78.688
+        },
+        {
+          "text": "So",
+          "start": 79.499,
+          "end": 79.723
+        },
+        {
+          "text": "be",
+          "start": 79.735,
+          "end": 79.9
+        },
+        {
+          "text": "honest",
+          "start": 79.912,
+          "end": 80.372
+        },
+        {
+          "text": "if",
+          "start": 80.608,
+          "end": 80.725
+        },
+        {
+          "text": "your",
+          "start": 80.737,
+          "end": 80.855
+        },
+        {
+          "text": "neighbor",
+          "start": 80.867,
+          "end": 81.15
+        },
+        {
+          "text": "stole",
+          "start": 81.162,
+          "end": 81.445
+        },
+        {
+          "text": "your",
+          "start": 81.457,
+          "end": 81.575
+        },
+        {
+          "text": "honey",
+          "start": 81.586,
+          "end": 81.846
+        },
+        {
+          "text": "trees",
+          "start": 81.858,
+          "end": 82.341
+        },
+        {
+          "text": "would",
+          "start": 82.589,
+          "end": 82.718
+        },
+        {
+          "text": "you",
+          "start": 82.73,
+          "end": 82.836
+        },
+        {
+          "text": "call",
+          "start": 82.848,
+          "end": 83.084
+        },
+        {
+          "text": "out",
+          "start": 83.096,
+          "end": 83.237
+        },
+        {
+          "text": "the",
+          "start": 83.249,
+          "end": 83.308
+        },
+        {
+          "text": "militia",
+          "start": 83.32,
+          "end": 83.709
+        },
+        {
+          "text": "too",
+          "start": 83.721,
+          "end": 84.086
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "text": "In 1839",
+      "start": 0.097,
+      "end": 1.371
+    },
+    {
+      "text": "Iowa",
+      "start": 1.595,
+      "end": 2.008
+    },
+    {
+      "text": "and",
+      "start": 2.019,
+      "end": 2.137
+    },
+    {
+      "text": "Missouri",
+      "start": 2.149,
+      "end": 2.621
+    },
+    {
+      "text": "called",
+      "start": 2.633,
+      "end": 2.916
+    },
+    {
+      "text": "up",
+      "start": 2.927,
+      "end": 3.045
+    },
+    {
+      "text": "thousands",
+      "start": 3.057,
+      "end": 3.493
+    },
+    {
+      "text": "of",
+      "start": 3.505,
+      "end": 3.6
+    },
+    {
+      "text": "armed",
+      "start": 3.611,
+      "end": 3.918
+    },
+    {
+      "text": "militiamen",
+      "start": 3.93,
+      "end": 4.543
+    },
+    {
+      "text": "and",
+      "start": 4.555,
+      "end": 4.684
+    },
+    {
+      "text": "nearly",
+      "start": 4.696,
+      "end": 4.991
+    },
+    {
+      "text": "went",
+      "start": 5.003,
+      "end": 5.168
+    },
+    {
+      "text": "to",
+      "start": 5.18,
+      "end": 5.262
+    },
+    {
+      "text": "war",
+      "start": 5.274,
+      "end": 5.616
+    },
+    {
+      "text": "over",
+      "start": 5.887,
+      "end": 6.099
+    },
+    {
+      "text": "three",
+      "start": 6.111,
+      "end": 6.359
+    },
+    {
+      "text": "honey",
+      "start": 6.371,
+      "end": 6.63
+    },
+    {
+      "text": "trees",
+      "start": 6.642,
+      "end": 7.208
+    },
+    {
+      "text": "Wait",
+      "start": 7.526,
+      "end": 7.903
+    },
+    {
+      "text": "let's",
+      "start": 8.139,
+      "end": 8.375
+    },
+    {
+      "text": "rewind",
+      "start": 8.386,
+      "end": 9.011
+    },
+    {
+      "text": "In 1816",
+      "start": 9.4,
+      "end": 10.673
+    },
+    {
+      "text": "surveyors",
+      "start": 10.933,
+      "end": 11.499
+    },
+    {
+      "text": "drew",
+      "start": 11.511,
+      "end": 11.688
+    },
+    {
+      "text": "Missouri's",
+      "start": 11.699,
+      "end": 12.218
+    },
+    {
+      "text": "northern",
+      "start": 12.23,
+      "end": 12.572
+    },
+    {
+      "text": "border",
+      "start": 12.584,
+      "end": 12.879
+    },
+    {
+      "text": "straight",
+      "start": 12.89,
+      "end": 13.232
+    },
+    {
+      "text": "east",
+      "start": 13.244,
+      "end": 13.515
+    },
+    {
+      "text": "from",
+      "start": 13.527,
+      "end": 13.633
+    },
+    {
+      "text": "the",
+      "start": 13.645,
+      "end": 13.728
+    },
+    {
+      "text": "rapids",
+      "start": 13.74,
+      "end": 14.164
+    },
+    {
+      "text": "of",
+      "start": 14.176,
+      "end": 14.258
+    },
+    {
+      "text": "the",
+      "start": 14.27,
+      "end": 14.341
+    },
+    {
+      "text": "Des",
+      "start": 14.353,
+      "end": 14.435
+    },
+    {
+      "text": "Moines",
+      "start": 14.447,
+      "end": 14.73
+    },
+    {
+      "text": "River",
+      "start": 14.742,
+      "end": 15.119
+    },
+    {
+      "text": "Twenty",
+      "start": 15.319,
+      "end": 15.649
+    },
+    {
+      "text": "years",
+      "start": 15.661,
+      "end": 15.897
+    },
+    {
+      "text": "later",
+      "start": 15.908,
+      "end": 16.215
+    },
+    {
+      "text": "Missouri",
+      "start": 16.427,
+      "end": 16.84
+    },
+    {
+      "text": "claimed",
+      "start": 16.852,
+      "end": 17.217
+    },
+    {
+      "text": "they'd",
+      "start": 17.229,
+      "end": 17.406
+    },
+    {
+      "text": "used",
+      "start": 17.418,
+      "end": 17.654
+    },
+    {
+      "text": "the",
+      "start": 17.665,
+      "end": 17.748
+    },
+    {
+      "text": "wrong",
+      "start": 17.76,
+      "end": 18.055
+    },
+    {
+      "text": "rapids",
+      "start": 18.066,
+      "end": 18.562
+    },
+    {
+      "text": "and",
+      "start": 18.786,
+      "end": 18.939
+    },
+    {
+      "text": "pushed",
+      "start": 18.951,
+      "end": 19.234
+    },
+    {
+      "text": "the",
+      "start": 19.246,
+      "end": 19.328
+    },
+    {
+      "text": "border",
+      "start": 19.34,
+      "end": 19.635
+    },
+    {
+      "text": "nine",
+      "start": 19.647,
+      "end": 19.93
+    },
+    {
+      "text": "miles",
+      "start": 19.941,
+      "end": 20.307
+    },
+    {
+      "text": "north",
+      "start": 20.319,
+      "end": 20.708
+    },
+    {
+      "text": "claiming",
+      "start": 20.967,
+      "end": 21.333
+    },
+    {
+      "text": "2,600",
+      "start": 21.345,
+      "end": 22.418
+    },
+    {
+      "text": "square",
+      "start": 22.43,
+      "end": 22.736
+    },
+    {
+      "text": "miles",
+      "start": 22.748,
+      "end": 23.114
+    },
+    {
+      "text": "of",
+      "start": 23.125,
+      "end": 23.208
+    },
+    {
+      "text": "Iowa",
+      "start": 23.22,
+      "end": 23.562
+    },
+    {
+      "text": "farmland",
+      "start": 23.573,
+      "end": 24.222
+    },
+    {
+      "text": "When",
+      "start": 24.427,
+      "end": 24.603
+    },
+    {
+      "text": "Missouri",
+      "start": 24.615,
+      "end": 25.063
+    },
+    {
+      "text": "sent",
+      "start": 25.075,
+      "end": 25.311
+    },
+    {
+      "text": "a",
+      "start": 25.323,
+      "end": 25.358
+    },
+    {
+      "text": "sheriff",
+      "start": 25.37,
+      "end": 25.783
+    },
+    {
+      "text": "to",
+      "start": 25.795,
+      "end": 25.901
+    },
+    {
+      "text": "collect",
+      "start": 25.912,
+      "end": 26.29
+    },
+    {
+      "text": "taxes",
+      "start": 26.302,
+      "end": 26.856
+    },
+    {
+      "text": "Iowa's",
+      "start": 27.068,
+      "end": 27.445
+    },
+    {
+      "text": "governor",
+      "start": 27.457,
+      "end": 27.882
+    },
+    {
+      "text": "the",
+      "start": 28.188,
+      "end": 28.283
+    },
+    {
+      "text": "very",
+      "start": 28.295,
+      "end": 28.578
+    },
+    {
+      "text": "same",
+      "start": 28.589,
+      "end": 28.861
+    },
+    {
+      "text": "fiery",
+      "start": 28.872,
+      "end": 29.262
+    },
+    {
+      "text": "leader",
+      "start": 29.273,
+      "end": 29.604
+    },
+    {
+      "text": "from",
+      "start": 29.615,
+      "end": 29.757
+    },
+    {
+      "text": "Ohio's",
+      "start": 29.769,
+      "end": 30.252
+    },
+    {
+      "text": "Toledo",
+      "start": 30.264,
+      "end": 30.665
+    },
+    {
+      "text": "War",
+      "start": 30.677,
+      "end": 30.971
+    },
+    {
+      "text": "had",
+      "start": 31.29,
+      "end": 31.408
+    },
+    {
+      "text": "him",
+      "start": 31.42,
+      "end": 31.514
+    },
+    {
+      "text": "arrested",
+      "start": 31.526,
+      "end": 31.974
+    },
+    {
+      "text": "on",
+      "start": 31.986,
+      "end": 32.092
+    },
+    {
+      "text": "the",
+      "start": 32.103,
+      "end": 32.162
+    },
+    {
+      "text": "spot",
+      "start": 32.174,
+      "end": 32.634
+    },
+    {
+      "text": "Then",
+      "start": 32.832,
+      "end": 33.127
+    },
+    {
+      "text": "came",
+      "start": 33.138,
+      "end": 33.374
+    },
+    {
+      "text": "the",
+      "start": 33.386,
+      "end": 33.469
+    },
+    {
+      "text": "breaking",
+      "start": 33.48,
+      "end": 33.846
+    },
+    {
+      "text": "point",
+      "start": 33.858,
+      "end": 34.212
+    },
+    {
+      "text": "a",
+      "start": 34.495,
+      "end": 34.53
+    },
+    {
+      "text": "Missouri",
+      "start": 34.542,
+      "end": 34.99
+    },
+    {
+      "text": "farmer",
+      "start": 35.002,
+      "end": 35.379
+    },
+    {
+      "text": "snuck",
+      "start": 35.391,
+      "end": 35.686
+    },
+    {
+      "text": "across",
+      "start": 35.697,
+      "end": 36.051
+    },
+    {
+      "text": "the",
+      "start": 36.063,
+      "end": 36.169
+    },
+    {
+      "text": "line",
+      "start": 36.181,
+      "end": 36.511
+    },
+    {
+      "text": "and",
+      "start": 36.523,
+      "end": 36.641
+    },
+    {
+      "text": "chopped",
+      "start": 36.653,
+      "end": 36.936
+    },
+    {
+      "text": "down",
+      "start": 36.947,
+      "end": 37.207
+    },
+    {
+      "text": "three",
+      "start": 37.219,
+      "end": 37.49
+    },
+    {
+      "text": "hollow",
+      "start": 37.502,
+      "end": 37.796
+    },
+    {
+      "text": "bee",
+      "start": 37.808,
+      "end": 37.926
+    },
+    {
+      "text": "trees",
+      "start": 37.938,
+      "end": 38.339
+    },
+    {
+      "text": "to",
+      "start": 38.351,
+      "end": 38.445
+    },
+    {
+      "text": "steal",
+      "start": 38.457,
+      "end": 38.775
+    },
+    {
+      "text": "the",
+      "start": 38.787,
+      "end": 38.858
+    },
+    {
+      "text": "honey",
+      "start": 38.87,
+      "end": 39.259
+    },
+    {
+      "text": "Furious",
+      "start": 39.482,
+      "end": 40.037
+    },
+    {
+      "text": "Iowans",
+      "start": 40.048,
+      "end": 40.496
+    },
+    {
+      "text": "fined",
+      "start": 40.508,
+      "end": 40.779
+    },
+    {
+      "text": "him",
+      "start": 40.791,
+      "end": 40.886
+    },
+    {
+      "text": "a",
+      "start": 40.897,
+      "end": 40.968
+    },
+    {
+      "text": "dollar",
+      "start": 40.98,
+      "end": 41.286
+    },
+    {
+      "text": "fifty",
+      "start": 41.298,
+      "end": 41.711
+    },
+    {
+      "text": "newspapers",
+      "start": 41.935,
+      "end": 42.525
+    },
+    {
+      "text": "dubbed",
+      "start": 42.537,
+      "end": 42.784
+    },
+    {
+      "text": "it",
+      "start": 42.796,
+      "end": 42.867
+    },
+    {
+      "text": "the",
+      "start": 42.879,
+      "end": 42.949
+    },
+    {
+      "text": "Honey",
+      "start": 42.961,
+      "end": 43.209
+    },
+    {
+      "text": "War",
+      "start": 43.221,
+      "end": 43.574
+    },
+    {
+      "text": "and",
+      "start": 43.857,
+      "end": 43.963
+    },
+    {
+      "text": "both",
+      "start": 43.975,
+      "end": 44.223
+    },
+    {
+      "text": "governors",
+      "start": 44.235,
+      "end": 44.718
+    },
+    {
+      "text": "ordered",
+      "start": 44.73,
+      "end": 45.013
+    },
+    {
+      "text": "their",
+      "start": 45.025,
+      "end": 45.143
+    },
+    {
+      "text": "militias",
+      "start": 45.154,
+      "end": 45.638
+    },
+    {
+      "text": "to",
+      "start": 45.65,
+      "end": 45.744
+    },
+    {
+      "text": "march",
+      "start": 45.756,
+      "end": 46.263
+    },
+    {
+      "text": "Over",
+      "start": 46.538,
+      "end": 46.857
+    },
+    {
+      "text": "a",
+      "start": 46.869,
+      "end": 46.916
+    },
+    {
+      "text": "thousand",
+      "start": 46.928,
+      "end": 47.387
+    },
+    {
+      "text": "Iowans",
+      "start": 47.399,
+      "end": 47.847
+    },
+    {
+      "text": "marched",
+      "start": 47.859,
+      "end": 48.225
+    },
+    {
+      "text": "south",
+      "start": 48.236,
+      "end": 48.578
+    },
+    {
+      "text": "in",
+      "start": 48.59,
+      "end": 48.708
+    },
+    {
+      "text": "freezing",
+      "start": 48.72,
+      "end": 49.121
+    },
+    {
+      "text": "December",
+      "start": 49.133,
+      "end": 49.581
+    },
+    {
+      "text": "armed",
+      "start": 49.593,
+      "end": 49.876
+    },
+    {
+      "text": "with",
+      "start": 49.887,
+      "end": 50.029
+    },
+    {
+      "text": "rusty",
+      "start": 50.041,
+      "end": 50.359
+    },
+    {
+      "text": "muskets",
+      "start": 50.371,
+      "end": 50.913
+    },
+    {
+      "text": "pitchforks",
+      "start": 51.137,
+      "end": 51.762
+    },
+    {
+      "text": "frying",
+      "start": 52.01,
+      "end": 52.352
+    },
+    {
+      "text": "pans",
+      "start": 52.364,
+      "end": 52.836
+    },
+    {
+      "text": "and",
+      "start": 53.107,
+      "end": 53.272
+    },
+    {
+      "text": "even",
+      "start": 53.284,
+      "end": 53.496
+    },
+    {
+      "text": "a",
+      "start": 53.508,
+      "end": 53.567
+    },
+    {
+      "text": "sausage",
+      "start": 53.578,
+      "end": 54.038
+    },
+    {
+      "text": "stuffer",
+      "start": 54.05,
+      "end": 54.534
+    },
+    {
+      "text": "Shivering",
+      "start": 54.755,
+      "end": 55.25
+    },
+    {
+      "text": "in",
+      "start": 55.262,
+      "end": 55.321
+    },
+    {
+      "text": "the",
+      "start": 55.333,
+      "end": 55.415
+    },
+    {
+      "text": "bitter",
+      "start": 55.427,
+      "end": 55.698
+    },
+    {
+      "text": "cold",
+      "start": 55.71,
+      "end": 56.123
+    },
+    {
+      "text": "both",
+      "start": 56.347,
+      "end": 56.595
+    },
+    {
+      "text": "sides",
+      "start": 56.606,
+      "end": 56.996
+    },
+    {
+      "text": "realized",
+      "start": 57.007,
+      "end": 57.514
+    },
+    {
+      "text": "nobody",
+      "start": 57.526,
+      "end": 57.868
+    },
+    {
+      "text": "wanted",
+      "start": 57.88,
+      "end": 58.128
+    },
+    {
+      "text": "to",
+      "start": 58.139,
+      "end": 58.21
+    },
+    {
+      "text": "die",
+      "start": 58.222,
+      "end": 58.552
+    },
+    {
+      "text": "over",
+      "start": 58.564,
+      "end": 58.776
+    },
+    {
+      "text": "honey",
+      "start": 58.788,
+      "end": 59.118
+    },
+    {
+      "text": "and",
+      "start": 59.401,
+      "end": 59.554
+    },
+    {
+      "text": "marched",
+      "start": 59.566,
+      "end": 59.944
+    },
+    {
+      "text": "right",
+      "start": 59.955,
+      "end": 60.191
+    },
+    {
+      "text": "back",
+      "start": 60.203,
+      "end": 60.439
+    },
+    {
+      "text": "home",
+      "start": 60.451,
+      "end": 60.687
+    },
+    {
+      "text": "without",
+      "start": 60.698,
+      "end": 60.981
+    },
+    {
+      "text": "firing",
+      "start": 60.993,
+      "end": 61.406
+    },
+    {
+      "text": "a",
+      "start": 61.418,
+      "end": 61.465
+    },
+    {
+      "text": "single",
+      "start": 61.477,
+      "end": 61.842
+    },
+    {
+      "text": "shot",
+      "start": 61.854,
+      "end": 62.267
+    },
+    {
+      "text": "Ten",
+      "start": 62.46,
+      "end": 62.696
+    },
+    {
+      "text": "years",
+      "start": 62.708,
+      "end": 62.979
+    },
+    {
+      "text": "later",
+      "start": 62.991,
+      "end": 63.321
+    },
+    {
+      "text": "the",
+      "start": 63.521,
+      "end": 63.568
+    },
+    {
+      "text": "U.S.",
+      "start": 63.58,
+      "end": 63.922
+    },
+    {
+      "text": "Supreme Court",
+      "start": 63.934,
+      "end": 64.594
+    },
+    {
+      "text": "unanimously",
+      "start": 64.606,
+      "end": 65.231
+    },
+    {
+      "text": "sided",
+      "start": 65.243,
+      "end": 65.62
+    },
+    {
+      "text": "with",
+      "start": 65.632,
+      "end": 65.762
+    },
+    {
+      "text": "Iowa",
+      "start": 65.774,
+      "end": 66.175
+    },
+    {
+      "text": "restoring",
+      "start": 66.481,
+      "end": 66.929
+    },
+    {
+      "text": "the",
+      "start": 66.941,
+      "end": 67.0
+    },
+    {
+      "text": "original",
+      "start": 67.012,
+      "end": 67.495
+    },
+    {
+      "text": "1816",
+      "start": 67.507,
+      "end": 68.392
+    },
+    {
+      "text": "border",
+      "start": 68.403,
+      "end": 68.698
+    },
+    {
+      "text": "with",
+      "start": 68.71,
+      "end": 68.84
+    },
+    {
+      "text": "permanent",
+      "start": 68.851,
+      "end": 69.264
+    },
+    {
+      "text": "iron",
+      "start": 69.276,
+      "end": 69.559
+    },
+    {
+      "text": "posts",
+      "start": 69.571,
+      "end": 70.149
+    },
+    {
+      "text": "Not",
+      "start": 70.448,
+      "end": 70.731
+    },
+    {
+      "text": "one",
+      "start": 70.743,
+      "end": 70.943
+    },
+    {
+      "text": "drop",
+      "start": 70.955,
+      "end": 71.238
+    },
+    {
+      "text": "of",
+      "start": 71.25,
+      "end": 71.379
+    },
+    {
+      "text": "blood",
+      "start": 71.391,
+      "end": 71.663
+    },
+    {
+      "text": "was",
+      "start": 71.674,
+      "end": 71.863
+    },
+    {
+      "text": "ever",
+      "start": 71.875,
+      "end": 72.075
+    },
+    {
+      "text": "spilled",
+      "start": 72.087,
+      "end": 72.5
+    },
+    {
+      "text": "making",
+      "start": 72.759,
+      "end": 73.042
+    },
+    {
+      "text": "the",
+      "start": 73.054,
+      "end": 73.113
+    },
+    {
+      "text": "Honey",
+      "start": 73.125,
+      "end": 73.408
+    },
+    {
+      "text": "War",
+      "start": 73.42,
+      "end": 73.644
+    },
+    {
+      "text": "the",
+      "start": 73.655,
+      "end": 73.75
+    },
+    {
+      "text": "sweetest",
+      "start": 73.762,
+      "end": 74.174
+    },
+    {
+      "text": "standoff",
+      "start": 74.186,
+      "end": 74.705
+    },
+    {
+      "text": "in",
+      "start": 74.717,
+      "end": 74.799
+    },
+    {
+      "text": "American",
+      "start": 74.811,
+      "end": 75.236
+    },
+    {
+      "text": "history",
+      "start": 75.247,
+      "end": 75.743
+    },
+    {
+      "text": "Zero",
+      "start": 75.952,
+      "end": 76.389
+    },
+    {
+      "text": "casualties",
+      "start": 76.4,
+      "end": 77.108
+    },
+    {
+      "text": "three",
+      "start": 77.308,
+      "end": 77.603
+    },
+    {
+      "text": "bee",
+      "start": 77.615,
+      "end": 77.757
+    },
+    {
+      "text": "trees",
+      "start": 77.768,
+      "end": 78.158
+    },
+    {
+      "text": "lost",
+      "start": 78.169,
+      "end": 78.688
+    },
+    {
+      "text": "So",
+      "start": 79.499,
+      "end": 79.723
+    },
+    {
+      "text": "be",
+      "start": 79.735,
+      "end": 79.9
+    },
+    {
+      "text": "honest",
+      "start": 79.912,
+      "end": 80.372
+    },
+    {
+      "text": "if",
+      "start": 80.608,
+      "end": 80.725
+    },
+    {
+      "text": "your",
+      "start": 80.737,
+      "end": 80.855
+    },
+    {
+      "text": "neighbor",
+      "start": 80.867,
+      "end": 81.15
+    },
+    {
+      "text": "stole",
+      "start": 81.162,
+      "end": 81.445
+    },
+    {
+      "text": "your",
+      "start": 81.457,
+      "end": 81.575
+    },
+    {
+      "text": "honey",
+      "start": 81.586,
+      "end": 81.846
+    },
+    {
+      "text": "trees",
+      "start": 81.858,
+      "end": 82.341
+    },
+    {
+      "text": "would",
+      "start": 82.589,
+      "end": 82.718
+    },
+    {
+      "text": "you",
+      "start": 82.73,
+      "end": 82.836
+    },
+    {
+      "text": "call",
+      "start": 82.848,
+      "end": 83.084
+    },
+    {
+      "text": "out",
+      "start": 83.096,
+      "end": 83.237
+    },
+    {
+      "text": "the",
+      "start": 83.249,
+      "end": 83.308
+    },
+    {
+      "text": "militia",
+      "start": 83.32,
+      "end": 83.709
+    },
+    {
+      "text": "too",
+      "start": 83.721,
+      "end": 84.086
+    }
+  ]
+}

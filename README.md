@@ -28,3 +28,4 @@ Vertical `9:16` 2.5D animated historical shorts focused on the US Midwest / Hear
 - `episodes/ep01_toledo_war/` — Episode 1 (*The Toledo War, 1835*): script, keyframes, audio, renderer, storyboard, `POSTING_KIT.txt` (final `.mp4` stored in Google Drive)
 - `episodes/ep02_chicago_river_reversal/` — Episode 2 (*The Day Chicago Reversed a River, 1900*): script, keyframes, audio, renderer, storyboard, `POSTING_KIT.txt` (final `.mp4` stored in Google Drive)
 - `episodes/ep03_minnesota_northwest_angle/` — Episode 3 (*Why Minnesota Has That Weird Bump on the Map — The Northwest Angle*): script, keyframes, audio, renderer, storyboard, `POSTING_KIT.txt` (final `.mp4` stored in Google Drive)
+- `episodes/ep04_honey_war/` — Episode 4 (*The Honey War, 1839 — Iowa vs. Missouri*): script, keyframes, audio, renderer, storyboard, `POSTING_KIT.txt` (final `.mp4` stored in Google Drive)

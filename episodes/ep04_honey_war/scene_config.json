@@ -1,0 +1,840 @@
+{
+  "video_settings": {
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "subtitle_y_ratio": 0.79
+  },
+  "total_duration_sec": 84.601,
+  "scenes": [
+    {
+      "id": "scene_01",
+      "mode": "Mode A (3D Relief Map)",
+      "keyframe": "keyframes/scene_01.jpg",
+      "camera_start": {
+        "zoom": 1.04,
+        "pan_x": 0.0,
+        "pan_y": -0.01,
+        "tilt_deg": 0.0
+      },
+      "camera_end": {
+        "zoom": 1.19,
+        "pan_x": 0.0,
+        "pan_y": -0.02,
+        "tilt_deg": 0.8
+      },
+      "sprites": [
+        {
+          "bbox": [
+            0.11,
+            0.21,
+            0.445,
+            0.37
+          ],
+          "exclude_rects": [
+            [
+              0.355,
+              0.24,
+              0.59,
+              0.29
+            ]
+          ],
+          "motion": "lunge_right",
+          "pop_delay": 0.14
+        },
+        {
+          "bbox": [
+            0.55,
+            0.43,
+            0.8,
+            0.59
+          ],
+          "motion": "lunge_left",
+          "pop_delay": 0.28
+        }
+      ],
+      "overhead": {
+        "text": "3 HONEY TREES?!",
+        "cx": 370,
+        "cy": 230,
+        "trigger_rel": 5.55,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.55
+        },
+        {
+          "rel": 0.16,
+          "type": "pawn_bounce",
+          "gain": 0.7
+        },
+        {
+          "rel": 0.3,
+          "type": "pawn_bounce",
+          "gain": 0.7
+        },
+        {
+          "rel": 5.55,
+          "type": "cork_pop",
+          "gain": 0.65
+        },
+        {
+          "rel": 5.65,
+          "type": "bee_buzz",
+          "gain": 0.62
+        },
+        {
+          "rel": -0.58,
+          "type": "tape_rewind",
+          "gain": 0.75
+        }
+      ],
+      "start_sec": 0.0,
+      "end_sec": 7.428,
+      "narration": "In 1839, Iowa and Missouri called up thousands of armed militiamen and nearly went to war... over three honey trees."
+    },
+    {
+      "id": "scene_02",
+      "mode": "Mode A (VHS Rewind -> 1816)",
+      "keyframe": "keyframes/scene_02.jpg",
+      "vhs_rewind": true,
+      "camera_start": {
+        "zoom": 1.1,
+        "pan_x": 0.0,
+        "pan_y": -0.03,
+        "tilt_deg": -0.7
+      },
+      "camera_end": {
+        "zoom": 1.02,
+        "pan_x": 0.0,
+        "pan_y": 0.0,
+        "tilt_deg": 0.0
+      },
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "tape_rewind",
+          "gain": 0.72
+        },
+        {
+          "rel": 0.9,
+          "type": "parchment_brush",
+          "gain": 0.65
+        }
+      ],
+      "start_sec": 7.428,
+      "end_sec": 9.303,
+      "narration": "Wait... let's rewind."
+    },
+    {
+      "id": "scene_03",
+      "mode": "Mode A (3D Relief Map)",
+      "keyframe": "keyframes/scene_03.jpg",
+      "camera_start": {
+        "zoom": 1.03,
+        "pan_x": -0.01,
+        "pan_y": -0.01,
+        "tilt_deg": 0.0
+      },
+      "camera_end": {
+        "zoom": 1.18,
+        "pan_x": 0.02,
+        "pan_y": -0.02,
+        "tilt_deg": 0.8
+      },
+      "sprites": [
+        {
+          "bbox": [
+            0.14,
+            0.205,
+            0.37,
+            0.375
+          ],
+          "motion": "write_bob",
+          "pop_delay": 0.14
+        }
+      ],
+      "overhead": {
+        "text": "1816 BORDER!",
+        "cx": 370,
+        "cy": 230,
+        "trigger_rel": 2.95,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.48
+        },
+        {
+          "rel": 0.18,
+          "type": "pawn_bounce",
+          "gain": 0.65
+        },
+        {
+          "rel": 2.35,
+          "type": "parchment_brush",
+          "gain": 0.72
+        },
+        {
+          "rel": 2.95,
+          "type": "cork_pop",
+          "gain": 0.6
+        }
+      ],
+      "start_sec": 9.303,
+      "end_sec": 15.222,
+      "narration": "In 1816, surveyors drew Missouri's northern border straight east from the rapids of the Des Moines River."
+    },
+    {
+      "id": "scene_04",
+      "mode": "Mode A (3D Relief Map)",
+      "keyframe": "keyframes/scene_04.jpg",
+      "camera_start": {
+        "zoom": 1.04,
+        "pan_x": 0.01,
+        "pan_y": -0.01,
+        "tilt_deg": 0.0
+      },
+      "camera_end": {
+        "zoom": 1.2,
+        "pan_x": -0.01,
+        "pan_y": -0.02,
+        "tilt_deg": -0.9
+      },
+      "impact_shake_rel": 3.85,
+      "sprites": [
+        {
+          "bbox": [
+            0.15,
+            0.2,
+            0.345,
+            0.37
+          ],
+          "motion": "shudder",
+          "pop_delay": 0.14
+        },
+        {
+          "bbox": [
+            0.58,
+            0.42,
+            0.79,
+            0.59
+          ],
+          "motion": "write_bob",
+          "pop_delay": 0.28
+        }
+      ],
+      "overhead": {
+        "text": "2,600 SQ MILES!",
+        "cx": 370,
+        "cy": 230,
+        "trigger_rel": 6.0,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.48
+        },
+        {
+          "rel": 0.18,
+          "type": "pawn_bounce",
+          "gain": 0.65
+        },
+        {
+          "rel": 3.7,
+          "type": "map_crack",
+          "gain": 0.72
+        },
+        {
+          "rel": 6.0,
+          "type": "cork_pop",
+          "gain": 0.6
+        },
+        {
+          "rel": 6.15,
+          "type": "jaw_drop",
+          "gain": 0.68
+        }
+      ],
+      "start_sec": 15.222,
+      "end_sec": 24.329,
+      "narration": "Twenty years later, Missouri claimed they'd used the wrong rapids, and pushed the border nine miles north: claiming 2,600 square miles of Iowa farmland."
+    },
+    {
+      "id": "scene_05",
+      "mode": "Mode A (3D Relief Map)",
+      "keyframe": "keyframes/scene_05.jpg",
+      "camera_start": {
+        "zoom": 1.04,
+        "pan_x": 0.0,
+        "pan_y": -0.01,
+        "tilt_deg": 0.0
+      },
+      "camera_end": {
+        "zoom": 1.2,
+        "pan_x": 0.01,
+        "pan_y": -0.02,
+        "tilt_deg": 0.9
+      },
+      "impact_shake_rel": 7.18,
+      "sprites": [
+        {
+          "bbox": [
+            0.15,
+            0.215,
+            0.4,
+            0.375
+          ],
+          "exclude_rects": [
+            [
+              0.355,
+              0.24,
+              0.59,
+              0.29
+            ]
+          ],
+          "motion": "lunge_right",
+          "pop_delay": 0.14
+        },
+        {
+          "bbox": [
+            0.61,
+            0.43,
+            0.795,
+            0.59
+          ],
+          "motion": "shudder",
+          "pop_delay": 0.28
+        }
+      ],
+      "overhead": {
+        "text": "ARRESTED!",
+        "cx": 370,
+        "cy": 230,
+        "trigger_rel": 6.95,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.48
+        },
+        {
+          "rel": 0.18,
+          "type": "pawn_bounce",
+          "gain": 0.65
+        },
+        {
+          "rel": 2.75,
+          "type": "pawn_bounce",
+          "gain": 0.65
+        },
+        {
+          "rel": 7.1,
+          "type": "handcuff_clink",
+          "gain": 0.8
+        },
+        {
+          "rel": 7.2,
+          "type": "cork_pop",
+          "gain": 0.6
+        }
+      ],
+      "start_sec": 24.329,
+      "end_sec": 32.735,
+      "narration": "When Missouri sent a sheriff to collect taxes, Iowa's governor\u2014the very same fiery leader from Ohio's Toledo War\u2014had him arrested on the spot."
+    },
+    {
+      "id": "scene_06",
+      "mode": "Mode B (2.5D Woodland Bee Trees Diorama)",
+      "keyframe": "keyframes/scene_06.jpg",
+      "camera_start": {
+        "zoom": 1.04,
+        "pan_x": 0.0,
+        "pan_y": 0.02,
+        "tilt_deg": -0.5
+      },
+      "camera_end": {
+        "zoom": 1.2,
+        "pan_x": 0.02,
+        "pan_y": 0.04,
+        "tilt_deg": 0.8
+      },
+      "impact_shake_rel": 3.92,
+      "sprites": [],
+      "overhead": {
+        "text": "THE BEE TREES!",
+        "cx": 250,
+        "cy": 450,
+        "trigger_rel": 4.4,
+        "style": "cloud"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.48
+        },
+        {
+          "rel": 3.9,
+          "type": "axe_chop",
+          "gain": 0.82
+        },
+        {
+          "rel": 4.42,
+          "type": "axe_chop",
+          "gain": 0.78
+        },
+        {
+          "rel": 4.75,
+          "type": "bee_buzz",
+          "gain": 0.7
+        },
+        {
+          "rel": 5.8,
+          "type": "cork_pop",
+          "gain": 0.55
+        }
+      ],
+      "start_sec": 32.735,
+      "end_sec": 39.385,
+      "narration": "Then came the breaking point: a Missouri farmer snuck across the line and chopped down three hollow bee trees to steal the honey."
+    },
+    {
+      "id": "scene_07",
+      "mode": "Mode A (3D Relief Map)",
+      "keyframe": "keyframes/scene_07.jpg",
+      "camera_start": {
+        "zoom": 1.04,
+        "pan_x": 0.0,
+        "pan_y": -0.01,
+        "tilt_deg": 0.0
+      },
+      "camera_end": {
+        "zoom": 1.2,
+        "pan_x": 0.0,
+        "pan_y": -0.02,
+        "tilt_deg": -0.9
+      },
+      "sprites": [
+        {
+          "bbox": [
+            0.13,
+            0.215,
+            0.435,
+            0.375
+          ],
+          "exclude_rects": [
+            [
+              0.36,
+              0.24,
+              0.59,
+              0.285
+            ]
+          ],
+          "motion": "lunge_right",
+          "pop_delay": 0.14
+        },
+        {
+          "bbox": [
+            0.52,
+            0.385,
+            0.81,
+            0.59
+          ],
+          "motion": "lunge_left",
+          "pop_delay": 0.28
+        }
+      ],
+      "overhead": {
+        "text": "$1.50 FINE!",
+        "cx": 370,
+        "cy": 230,
+        "trigger_rel": 1.55,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.48
+        },
+        {
+          "rel": 0.16,
+          "type": "pawn_bounce",
+          "gain": 0.65
+        },
+        {
+          "rel": 1.55,
+          "type": "cork_pop",
+          "gain": 0.62
+        },
+        {
+          "rel": 4.8,
+          "type": "war_horn",
+          "gain": 0.48
+        },
+        {
+          "rel": 5.3,
+          "type": "sword_unsheathe",
+          "gain": 0.52
+        }
+      ],
+      "start_sec": 39.385,
+      "end_sec": 46.441,
+      "narration": "Furious Iowans fined him a dollar fifty, newspapers dubbed it the Honey War, and both governors ordered their militias to march."
+    },
+    {
+      "id": "scene_08",
+      "mode": "Mode B (2.5D Winter Militia March Diorama)",
+      "keyframe": "keyframes/scene_08.jpg",
+      "camera_start": {
+        "zoom": 1.05,
+        "pan_x": 0.0,
+        "pan_y": 0.02,
+        "tilt_deg": -0.5
+      },
+      "camera_end": {
+        "zoom": 1.22,
+        "pan_x": 0.0,
+        "pan_y": 0.05,
+        "tilt_deg": 0.8
+      },
+      "march_shake": true,
+      "sprites": [],
+      "overhead": {
+        "text": "FRYING PANS?!",
+        "cx": 360,
+        "cy": 500,
+        "trigger_rel": 5.55,
+        "style": "cloud"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.48
+        },
+        {
+          "rel": 0.25,
+          "type": "desert_march",
+          "gain": 0.62
+        },
+        {
+          "rel": 5.55,
+          "type": "pan_clang",
+          "gain": 0.78
+        },
+        {
+          "rel": 7.1,
+          "type": "cork_pop",
+          "gain": 0.62
+        }
+      ],
+      "start_sec": 46.441,
+      "end_sec": 54.658,
+      "narration": "Over a thousand Iowans marched south in freezing December armed with rusty muskets, pitchforks, frying pans, and even a sausage stuffer."
+    },
+    {
+      "id": "scene_09",
+      "mode": "Mode A (3D Relief Map)",
+      "keyframe": "keyframes/scene_09.jpg",
+      "camera_start": {
+        "zoom": 1.04,
+        "pan_x": 0.0,
+        "pan_y": -0.01,
+        "tilt_deg": 0.0
+      },
+      "camera_end": {
+        "zoom": 1.18,
+        "pan_x": 0.0,
+        "pan_y": -0.02,
+        "tilt_deg": -0.8
+      },
+      "sprites": [
+        {
+          "bbox": [
+            0.15,
+            0.21,
+            0.33,
+            0.365
+          ],
+          "motion": "shiver",
+          "pop_delay": 0.1
+        },
+        {
+          "bbox": [
+            0.62,
+            0.435,
+            0.79,
+            0.59
+          ],
+          "motion": "shiver",
+          "pop_delay": 0.2
+        }
+      ],
+      "overhead": {
+        "text": "TOO COLD FOR WAR!",
+        "cx": 370,
+        "cy": 230,
+        "trigger_rel": 2.85,
+        "style": "cloud"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.48
+        },
+        {
+          "rel": 0.2,
+          "type": "cold_wind",
+          "gain": 0.6
+        },
+        {
+          "rel": 2.85,
+          "type": "cork_pop",
+          "gain": 0.58
+        },
+        {
+          "rel": 4.9,
+          "type": "somber_bell",
+          "gain": 0.4
+        }
+      ],
+      "start_sec": 54.658,
+      "end_sec": 62.363,
+      "narration": "Shivering in the bitter cold, both sides realized nobody wanted to die over honey, and marched right back home without firing a single shot."
+    },
+    {
+      "id": "scene_10",
+      "mode": "Mode A (3D Relief Map)",
+      "keyframe": "keyframes/scene_10.jpg",
+      "camera_start": {
+        "zoom": 1.03,
+        "pan_x": 0.0,
+        "pan_y": -0.01,
+        "tilt_deg": 0.0
+      },
+      "camera_end": {
+        "zoom": 1.19,
+        "pan_x": 0.01,
+        "pan_y": -0.02,
+        "tilt_deg": 0.8
+      },
+      "impact_shake_rel": 3.25,
+      "sprites": [
+        {
+          "bbox": [
+            0.13,
+            0.215,
+            0.36,
+            0.375
+          ],
+          "motion": "cheer_bounce",
+          "pop_delay": 0.14
+        },
+        {
+          "bbox": [
+            0.53,
+            0.33,
+            0.87,
+            0.59
+          ],
+          "motion": "gavel_slam",
+          "pop_delay": 0.16,
+          "slam_rel": 3.25
+        }
+      ],
+      "overhead": {
+        "text": "IOWA WINS!",
+        "cx": 370,
+        "cy": 230,
+        "trigger_rel": 3.3,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.48
+        },
+        {
+          "rel": 0.18,
+          "type": "pawn_bounce",
+          "gain": 0.65
+        },
+        {
+          "rel": 3.25,
+          "type": "gavel_slam",
+          "gain": 0.88
+        },
+        {
+          "rel": 3.4,
+          "type": "cork_pop",
+          "gain": 0.6
+        },
+        {
+          "rel": 6.85,
+          "type": "handcuff_clink",
+          "gain": 0.62
+        }
+      ],
+      "start_sec": 62.363,
+      "end_sec": 70.351,
+      "narration": "Ten years later, the U.S. Supreme Court unanimously sided with Iowa, restoring the original 1816 border with permanent iron posts."
+    },
+    {
+      "id": "scene_11",
+      "mode": "Mode A (3D Relief Map)",
+      "keyframe": "keyframes/scene_11.jpg",
+      "camera_start": {
+        "zoom": 1.04,
+        "pan_x": 0.0,
+        "pan_y": -0.01,
+        "tilt_deg": 0.0
+      },
+      "camera_end": {
+        "zoom": 1.19,
+        "pan_x": 0.0,
+        "pan_y": -0.02,
+        "tilt_deg": -0.7
+      },
+      "sprites": [
+        {
+          "bbox": [
+            0.16,
+            0.215,
+            0.365,
+            0.375
+          ],
+          "motion": "cheer_bounce",
+          "pop_delay": 0.12
+        },
+        {
+          "bbox": [
+            0.59,
+            0.43,
+            0.78,
+            0.59
+          ],
+          "motion": "glare_bob_alt",
+          "pop_delay": 0.24
+        }
+      ],
+      "overhead": {
+        "text": "ZERO CASUALTIES!",
+        "cx": 370,
+        "cy": 230,
+        "trigger_rel": 1.7,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 0.18,
+          "type": "pawn_bounce",
+          "gain": 0.62
+        },
+        {
+          "rel": 1.7,
+          "type": "cork_pop",
+          "gain": 0.58
+        },
+        {
+          "rel": 3.35,
+          "type": "celesta_chime",
+          "gain": 0.7
+        },
+        {
+          "rel": 4.05,
+          "type": "celesta_chime_hi",
+          "gain": 0.66
+        }
+      ],
+      "start_sec": 70.351,
+      "end_sec": 75.855,
+      "narration": "Not one drop of blood was ever spilled, making the Honey War the sweetest standoff in American history."
+    },
+    {
+      "id": "scene_12",
+      "mode": "Mode A (3D Relief Map)",
+      "keyframe": "keyframes/scene_12.jpg",
+      "camera_start": {
+        "zoom": 1.03,
+        "pan_x": 0.0,
+        "pan_y": -0.01,
+        "tilt_deg": 0.0
+      },
+      "camera_end": {
+        "zoom": 1.18,
+        "pan_x": 0.0,
+        "pan_y": -0.02,
+        "tilt_deg": 0.6
+      },
+      "sprites": [
+        {
+          "bbox": [
+            0.145,
+            0.2,
+            0.37,
+            0.375
+          ],
+          "motion": "football_hop_l",
+          "pop_delay": 0.14
+        },
+        {
+          "bbox": [
+            0.61,
+            0.42,
+            0.805,
+            0.59
+          ],
+          "motion": "football_hop_r",
+          "pop_delay": 0.26
+        }
+      ],
+      "overhead": {
+        "text": "IOWA vs. MISSOURI",
+        "cx": 370,
+        "cy": 230,
+        "trigger_rel": 3.85,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.05,
+          "type": "camera_whoosh",
+          "gain": 0.5
+        },
+        {
+          "rel": 0.25,
+          "type": "stadium_swell",
+          "gain": 0.58
+        },
+        {
+          "rel": 3.85,
+          "type": "cork_pop",
+          "gain": 0.65
+        }
+      ],
+      "start_sec": 75.855,
+      "end_sec": 84.601,
+      "narration": "Zero casualties, three bee trees lost. So be honest... if your neighbor stole your honey trees, would you call out the militia too?"
+    }
+  ]
+}
