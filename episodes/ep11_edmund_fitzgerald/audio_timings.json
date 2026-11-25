@@ -1,0 +1,1936 @@
+{
+  "voice": "Fish Audio \u2014 Ethan (@Fish Official)",
+  "total_duration_sec": 66.879,
+  "scenes": [
+    {
+      "id": "scene_01",
+      "text": "How did the biggest ship on the Great Lakes vanish in minutes without ever sending an SOS?",
+      "start_sec": 0.0,
+      "speech_end_sec": 3.74,
+      "end_sec": 4.56,
+      "words": [
+        {
+          "text": "How",
+          "start": 0.0,
+          "end": 0.16
+        },
+        {
+          "text": "did",
+          "start": 0.16,
+          "end": 0.3
+        },
+        {
+          "text": "the",
+          "start": 0.3,
+          "end": 0.4
+        },
+        {
+          "text": "biggest",
+          "start": 0.4,
+          "end": 0.64
+        },
+        {
+          "text": "ship",
+          "start": 0.64,
+          "end": 0.98
+        },
+        {
+          "text": "on",
+          "start": 0.98,
+          "end": 1.12
+        },
+        {
+          "text": "the",
+          "start": 1.12,
+          "end": 1.22
+        },
+        {
+          "text": "Great",
+          "start": 1.22,
+          "end": 1.38
+        },
+        {
+          "text": "Lakes",
+          "start": 1.38,
+          "end": 1.6
+        },
+        {
+          "text": "vanish",
+          "start": 1.6,
+          "end": 1.9
+        },
+        {
+          "text": "in",
+          "start": 1.9,
+          "end": 2.22
+        },
+        {
+          "text": "minutes",
+          "start": 2.22,
+          "end": 2.48
+        },
+        {
+          "text": "without",
+          "start": 2.48,
+          "end": 2.74
+        },
+        {
+          "text": "ever",
+          "start": 2.74,
+          "end": 3.06
+        },
+        {
+          "text": "sending",
+          "start": 3.06,
+          "end": 3.34
+        },
+        {
+          "text": "an",
+          "start": 3.34,
+          "end": 3.52
+        },
+        {
+          "text": "SOS",
+          "start": 3.52,
+          "end": 3.74
+        }
+      ]
+    },
+    {
+      "id": "scene_02",
+      "text": "Wait... let's rewind.",
+      "start_sec": 4.56,
+      "speech_end_sec": 6.06,
+      "end_sec": 6.64,
+      "words": [
+        {
+          "text": "Wait",
+          "start": 4.62,
+          "end": 4.9
+        },
+        {
+          "text": "let's",
+          "start": 5.36,
+          "end": 5.7
+        },
+        {
+          "text": "rewind",
+          "start": 5.7,
+          "end": 6.06
+        }
+      ]
+    },
+    {
+      "id": "scene_03",
+      "text": "Launched in 1958, the 729-foot SS Edmund Fitzgerald was the pride of the American side.",
+      "start_sec": 6.64,
+      "speech_end_sec": 12.82,
+      "end_sec": 13.38,
+      "words": [
+        {
+          "text": "Launched",
+          "start": 6.7,
+          "end": 7.08
+        },
+        {
+          "text": "in",
+          "start": 7.08,
+          "end": 7.2
+        },
+        {
+          "text": "1958",
+          "start": 7.2,
+          "end": 7.84
+        },
+        {
+          "text": "the",
+          "start": 8.38,
+          "end": 8.46
+        },
+        {
+          "text": "729-foot",
+          "start": 8.46,
+          "end": 9.78
+        },
+        {
+          "text": "SS",
+          "start": 9.78,
+          "end": 10.0
+        },
+        {
+          "text": "Edmund",
+          "start": 10.0,
+          "end": 10.52
+        },
+        {
+          "text": "Fitzgerald",
+          "start": 10.52,
+          "end": 10.8
+        },
+        {
+          "text": "was",
+          "start": 10.8,
+          "end": 11.46
+        },
+        {
+          "text": "the",
+          "start": 11.46,
+          "end": 11.6
+        },
+        {
+          "text": "pride",
+          "start": 11.6,
+          "end": 11.84
+        },
+        {
+          "text": "of",
+          "start": 11.84,
+          "end": 12.06
+        },
+        {
+          "text": "the",
+          "start": 12.06,
+          "end": 12.16
+        },
+        {
+          "text": "American",
+          "start": 12.16,
+          "end": 12.34
+        },
+        {
+          "text": "side",
+          "start": 12.34,
+          "end": 12.82
+        }
+      ]
+    },
+    {
+      "id": "scene_04",
+      "text": "On November 9, 1975, she left Superior, Wisconsin, loaded with 26,000 tons of iron ore bound for Detroit.",
+      "start_sec": 13.38,
+      "speech_end_sec": 20.86,
+      "end_sec": 21.62,
+      "words": [
+        {
+          "text": "On",
+          "start": 13.44,
+          "end": 13.56
+        },
+        {
+          "text": "November",
+          "start": 13.56,
+          "end": 13.78
+        },
+        {
+          "text": "9",
+          "start": 13.78,
+          "end": 14.2
+        },
+        {
+          "text": "1975",
+          "start": 14.54,
+          "end": 15.34
+        },
+        {
+          "text": "she",
+          "start": 16.12,
+          "end": 16.3
+        },
+        {
+          "text": "left",
+          "start": 16.3,
+          "end": 16.44
+        },
+        {
+          "text": "Superior",
+          "start": 16.44,
+          "end": 16.78
+        },
+        {
+          "text": "Wisconsin",
+          "start": 17.1,
+          "end": 17.3
+        },
+        {
+          "text": "loaded",
+          "start": 17.96,
+          "end": 18.06
+        },
+        {
+          "text": "with",
+          "start": 18.06,
+          "end": 18.28
+        },
+        {
+          "text": "26,000",
+          "start": 18.28,
+          "end": 19.24
+        },
+        {
+          "text": "tons",
+          "start": 19.24,
+          "end": 19.4
+        },
+        {
+          "text": "of",
+          "start": 19.4,
+          "end": 19.66
+        },
+        {
+          "text": "iron",
+          "start": 19.66,
+          "end": 19.9
+        },
+        {
+          "text": "ore",
+          "start": 19.9,
+          "end": 20.12
+        },
+        {
+          "text": "bound",
+          "start": 20.12,
+          "end": 20.4
+        },
+        {
+          "text": "for",
+          "start": 20.4,
+          "end": 20.66
+        },
+        {
+          "text": "Detroit",
+          "start": 20.66,
+          "end": 20.86
+        }
+      ]
+    },
+    {
+      "id": "scene_05",
+      "text": "The next day, a ferocious November gale slammed Lake Superior with hurricane-force winds and thirty-foot waves.",
+      "start_sec": 21.62,
+      "speech_end_sec": 27.02,
+      "end_sec": 27.02,
+      "words": [
+        {
+          "text": "The",
+          "start": 21.68,
+          "end": 21.78
+        },
+        {
+          "text": "next",
+          "start": 21.78,
+          "end": 21.92
+        },
+        {
+          "text": "day",
+          "start": 21.92,
+          "end": 22.2
+        },
+        {
+          "text": "a",
+          "start": 22.58,
+          "end": 22.62
+        },
+        {
+          "text": "ferocious",
+          "start": 22.62,
+          "end": 22.86
+        },
+        {
+          "text": "November",
+          "start": 22.86,
+          "end": 23.34
+        },
+        {
+          "text": "gale",
+          "start": 23.34,
+          "end": 23.74
+        },
+        {
+          "text": "slammed",
+          "start": 23.74,
+          "end": 23.98
+        },
+        {
+          "text": "Lake",
+          "start": 23.98,
+          "end": 24.38
+        },
+        {
+          "text": "Superior",
+          "start": 24.38,
+          "end": 24.68
+        },
+        {
+          "text": "with",
+          "start": 24.68,
+          "end": 25.02
+        },
+        {
+          "text": "hurricane-force",
+          "start": 25.02,
+          "end": 25.62
+        },
+        {
+          "text": "winds",
+          "start": 25.62,
+          "end": 25.88
+        },
+        {
+          "text": "and",
+          "start": 25.88,
+          "end": 26.36
+        },
+        {
+          "text": "thirty-foot",
+          "start": 26.36,
+          "end": 26.86
+        },
+        {
+          "text": "waves",
+          "start": 26.86,
+          "end": 27.02
+        }
+      ]
+    },
+    {
+      "id": "scene_06",
+      "text": "Her radar failed, deck fittings snapped, and the giant freighter began listing heavily in blinding snow.",
+      "start_sec": 27.02,
+      "speech_end_sec": 32.56,
+      "end_sec": 33.2,
+      "words": [
+        {
+          "text": "Her",
+          "start": 27.02,
+          "end": 27.82
+        },
+        {
+          "text": "radar",
+          "start": 27.82,
+          "end": 28.02
+        },
+        {
+          "text": "failed",
+          "start": 28.02,
+          "end": 28.44
+        },
+        {
+          "text": "deck",
+          "start": 28.9,
+          "end": 29.06
+        },
+        {
+          "text": "fittings",
+          "start": 29.06,
+          "end": 29.3
+        },
+        {
+          "text": "snapped",
+          "start": 29.3,
+          "end": 29.56
+        },
+        {
+          "text": "and",
+          "start": 30.08,
+          "end": 30.14
+        },
+        {
+          "text": "the",
+          "start": 30.14,
+          "end": 30.2
+        },
+        {
+          "text": "giant",
+          "start": 30.2,
+          "end": 30.44
+        },
+        {
+          "text": "freighter",
+          "start": 30.44,
+          "end": 30.84
+        },
+        {
+          "text": "began",
+          "start": 30.84,
+          "end": 31.04
+        },
+        {
+          "text": "listing",
+          "start": 31.04,
+          "end": 31.34
+        },
+        {
+          "text": "heavily",
+          "start": 31.34,
+          "end": 31.66
+        },
+        {
+          "text": "in",
+          "start": 31.66,
+          "end": 31.92
+        },
+        {
+          "text": "blinding",
+          "start": 31.92,
+          "end": 32.12
+        },
+        {
+          "text": "snow",
+          "start": 32.12,
+          "end": 32.56
+        }
+      ]
+    },
+    {
+      "id": "scene_07",
+      "text": "At 7:10 p.m., Captain Ernest McSorley radioed a nearby ship with his final words: \"We are holding our own.\"",
+      "start_sec": 33.2,
+      "speech_end_sec": 39.26,
+      "end_sec": 39.68,
+      "words": [
+        {
+          "text": "At",
+          "start": 33.26,
+          "end": 33.44
+        },
+        {
+          "text": "7",
+          "start": 33.44,
+          "end": 33.68
+        },
+        {
+          "text": "10",
+          "start": 33.68,
+          "end": 33.9
+        },
+        {
+          "text": "p.m",
+          "start": 33.9,
+          "end": 34.2
+        },
+        {
+          "text": "Captain",
+          "start": 34.56,
+          "end": 34.88
+        },
+        {
+          "text": "Ernest",
+          "start": 34.88,
+          "end": 35.08
+        },
+        {
+          "text": "McSorley",
+          "start": 35.08,
+          "end": 35.68
+        },
+        {
+          "text": "radioed",
+          "start": 35.68,
+          "end": 35.9
+        },
+        {
+          "text": "a",
+          "start": 35.9,
+          "end": 36.2
+        },
+        {
+          "text": "nearby",
+          "start": 36.2,
+          "end": 36.34
+        },
+        {
+          "text": "ship",
+          "start": 36.34,
+          "end": 36.78
+        },
+        {
+          "text": "with",
+          "start": 36.78,
+          "end": 36.92
+        },
+        {
+          "text": "his",
+          "start": 36.92,
+          "end": 37.04
+        },
+        {
+          "text": "final",
+          "start": 37.04,
+          "end": 37.3
+        },
+        {
+          "text": "words",
+          "start": 37.3,
+          "end": 37.58
+        },
+        {
+          "text": "We",
+          "start": 38.34,
+          "end": 38.46
+        },
+        {
+          "text": "are",
+          "start": 38.46,
+          "end": 38.58
+        },
+        {
+          "text": "holding",
+          "start": 38.58,
+          "end": 38.78
+        },
+        {
+          "text": "our",
+          "start": 38.78,
+          "end": 39.0
+        },
+        {
+          "text": "own",
+          "start": 39.0,
+          "end": 39.26
+        }
+      ]
+    },
+    {
+      "id": "scene_08",
+      "text": "Minutes later, just seventeen miles from Whitefish Bay, the Mighty Fitz vanished completely from radar.",
+      "start_sec": 39.68,
+      "speech_end_sec": 44.78,
+      "end_sec": 45.54,
+      "words": [
+        {
+          "text": "Minutes",
+          "start": 39.74,
+          "end": 39.86
+        },
+        {
+          "text": "later",
+          "start": 39.86,
+          "end": 40.18
+        },
+        {
+          "text": "just",
+          "start": 40.54,
+          "end": 40.84
+        },
+        {
+          "text": "seventeen",
+          "start": 40.84,
+          "end": 41.26
+        },
+        {
+          "text": "miles",
+          "start": 41.26,
+          "end": 41.58
+        },
+        {
+          "text": "from",
+          "start": 41.58,
+          "end": 41.86
+        },
+        {
+          "text": "Whitefish",
+          "start": 41.86,
+          "end": 42.22
+        },
+        {
+          "text": "Bay",
+          "start": 42.22,
+          "end": 42.44
+        },
+        {
+          "text": "the",
+          "start": 42.96,
+          "end": 43.02
+        },
+        {
+          "text": "Mighty",
+          "start": 43.02,
+          "end": 43.22
+        },
+        {
+          "text": "Fitz",
+          "start": 43.22,
+          "end": 43.48
+        },
+        {
+          "text": "vanished",
+          "start": 43.48,
+          "end": 43.74
+        },
+        {
+          "text": "completely",
+          "start": 43.74,
+          "end": 44.26
+        },
+        {
+          "text": "from",
+          "start": 44.26,
+          "end": 44.66
+        },
+        {
+          "text": "radar",
+          "start": 44.66,
+          "end": 44.78
+        }
+      ]
+    },
+    {
+      "id": "scene_09",
+      "text": "All twenty-nine crewmen were lost, and the massive hull was found snapped in two 530 feet below.",
+      "start_sec": 45.54,
+      "speech_end_sec": 50.78,
+      "end_sec": 51.32,
+      "words": [
+        {
+          "text": "All",
+          "start": 45.6,
+          "end": 45.78
+        },
+        {
+          "text": "twenty-nine",
+          "start": 45.78,
+          "end": 46.16
+        },
+        {
+          "text": "crewmen",
+          "start": 46.16,
+          "end": 46.64
+        },
+        {
+          "text": "were",
+          "start": 46.64,
+          "end": 46.78
+        },
+        {
+          "text": "lost",
+          "start": 46.78,
+          "end": 47.04
+        },
+        {
+          "text": "and",
+          "start": 47.36,
+          "end": 47.5
+        },
+        {
+          "text": "the",
+          "start": 47.5,
+          "end": 47.6
+        },
+        {
+          "text": "massive",
+          "start": 47.6,
+          "end": 47.86
+        },
+        {
+          "text": "hull",
+          "start": 47.86,
+          "end": 48.1
+        },
+        {
+          "text": "was",
+          "start": 48.1,
+          "end": 48.32
+        },
+        {
+          "text": "found",
+          "start": 48.32,
+          "end": 48.54
+        },
+        {
+          "text": "snapped",
+          "start": 48.54,
+          "end": 48.82
+        },
+        {
+          "text": "in",
+          "start": 48.82,
+          "end": 49.14
+        },
+        {
+          "text": "two",
+          "start": 49.14,
+          "end": 49.34
+        },
+        {
+          "text": "530",
+          "start": 49.34,
+          "end": 49.72
+        },
+        {
+          "text": "feet",
+          "start": 49.72,
+          "end": 50.48
+        },
+        {
+          "text": "below",
+          "start": 50.48,
+          "end": 50.78
+        }
+      ]
+    },
+    {
+      "id": "scene_10",
+      "text": "Whether rogue waves, flooded hatches, or a hidden shoal doomed her remains Lake Superior's greatest mystery.",
+      "start_sec": 51.32,
+      "speech_end_sec": 56.64,
+      "end_sec": 57.44,
+      "words": [
+        {
+          "text": "Whether",
+          "start": 51.38,
+          "end": 51.7
+        },
+        {
+          "text": "rogue",
+          "start": 51.7,
+          "end": 51.94
+        },
+        {
+          "text": "waves",
+          "start": 51.94,
+          "end": 52.16
+        },
+        {
+          "text": "flooded",
+          "start": 52.64,
+          "end": 52.88
+        },
+        {
+          "text": "hatches",
+          "start": 52.88,
+          "end": 53.3
+        },
+        {
+          "text": "or",
+          "start": 53.66,
+          "end": 53.76
+        },
+        {
+          "text": "a",
+          "start": 53.76,
+          "end": 53.86
+        },
+        {
+          "text": "hidden",
+          "start": 53.86,
+          "end": 54.04
+        },
+        {
+          "text": "shoal",
+          "start": 54.04,
+          "end": 54.36
+        },
+        {
+          "text": "doomed",
+          "start": 54.36,
+          "end": 54.72
+        },
+        {
+          "text": "her",
+          "start": 54.72,
+          "end": 54.84
+        },
+        {
+          "text": "remains",
+          "start": 54.84,
+          "end": 55.26
+        },
+        {
+          "text": "Lake",
+          "start": 55.26,
+          "end": 55.58
+        },
+        {
+          "text": "Superior's",
+          "start": 55.58,
+          "end": 56.14
+        },
+        {
+          "text": "greatest",
+          "start": 56.14,
+          "end": 56.42
+        },
+        {
+          "text": "mystery",
+          "start": 56.42,
+          "end": 56.64
+        }
+      ]
+    },
+    {
+      "id": "scene_11",
+      "text": "Every November 10th, the museum bell rings thirty times\u2014for the twenty-nine sailors and singer Gordon Lightfoot.",
+      "start_sec": 57.44,
+      "speech_end_sec": 63.02,
+      "end_sec": 63.22,
+      "words": [
+        {
+          "text": "Every",
+          "start": 57.5,
+          "end": 57.68
+        },
+        {
+          "text": "November",
+          "start": 57.68,
+          "end": 57.88
+        },
+        {
+          "text": "10th",
+          "start": 57.88,
+          "end": 58.32
+        },
+        {
+          "text": "the",
+          "start": 58.66,
+          "end": 58.82
+        },
+        {
+          "text": "museum",
+          "start": 58.82,
+          "end": 59.02
+        },
+        {
+          "text": "bell",
+          "start": 59.02,
+          "end": 59.4
+        },
+        {
+          "text": "rings",
+          "start": 59.4,
+          "end": 59.64
+        },
+        {
+          "text": "thirty",
+          "start": 59.64,
+          "end": 60.0
+        },
+        {
+          "text": "times",
+          "start": 60.0,
+          "end": 60.46
+        },
+        {
+          "text": "for",
+          "start": 60.76,
+          "end": 60.88
+        },
+        {
+          "text": "the",
+          "start": 60.88,
+          "end": 60.96
+        },
+        {
+          "text": "twenty-nine",
+          "start": 60.96,
+          "end": 61.26
+        },
+        {
+          "text": "sailors",
+          "start": 61.26,
+          "end": 61.66
+        },
+        {
+          "text": "and",
+          "start": 61.66,
+          "end": 61.96
+        },
+        {
+          "text": "singer",
+          "start": 61.96,
+          "end": 62.14
+        },
+        {
+          "text": "Gordon",
+          "start": 62.14,
+          "end": 62.46
+        },
+        {
+          "text": "Lightfoot",
+          "start": 62.46,
+          "end": 63.02
+        }
+      ]
+    },
+    {
+      "id": "scene_12",
+      "text": "Comment FITZ to honor the twenty-nine brave crewmen\u2014and now you know...",
+      "start_sec": 63.22,
+      "speech_end_sec": 66.84,
+      "end_sec": 66.879,
+      "words": [
+        {
+          "text": "Comment",
+          "start": 63.28,
+          "end": 63.52
+        },
+        {
+          "text": "FITZ",
+          "start": 63.52,
+          "end": 64.28
+        },
+        {
+          "text": "to",
+          "start": 64.28,
+          "end": 64.56
+        },
+        {
+          "text": "honor",
+          "start": 64.56,
+          "end": 64.59
+        },
+        {
+          "text": "the",
+          "start": 64.56,
+          "end": 64.66
+        },
+        {
+          "text": "twenty-nine",
+          "start": 64.66,
+          "end": 64.94
+        },
+        {
+          "text": "brave",
+          "start": 64.94,
+          "end": 65.3
+        },
+        {
+          "text": "crewmen",
+          "start": 65.3,
+          "end": 65.76
+        },
+        {
+          "text": "and",
+          "start": 65.96,
+          "end": 66.12
+        },
+        {
+          "text": "now",
+          "start": 66.12,
+          "end": 66.28
+        },
+        {
+          "text": "you",
+          "start": 66.28,
+          "end": 66.42
+        },
+        {
+          "text": "know",
+          "start": 66.42,
+          "end": 66.84
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "text": "How",
+      "start": 0.0,
+      "end": 0.16
+    },
+    {
+      "text": "did",
+      "start": 0.16,
+      "end": 0.3
+    },
+    {
+      "text": "the",
+      "start": 0.3,
+      "end": 0.4
+    },
+    {
+      "text": "biggest",
+      "start": 0.4,
+      "end": 0.64
+    },
+    {
+      "text": "ship",
+      "start": 0.64,
+      "end": 0.98
+    },
+    {
+      "text": "on",
+      "start": 0.98,
+      "end": 1.12
+    },
+    {
+      "text": "the",
+      "start": 1.12,
+      "end": 1.22
+    },
+    {
+      "text": "Great",
+      "start": 1.22,
+      "end": 1.38
+    },
+    {
+      "text": "Lakes",
+      "start": 1.38,
+      "end": 1.6
+    },
+    {
+      "text": "vanish",
+      "start": 1.6,
+      "end": 1.9
+    },
+    {
+      "text": "in",
+      "start": 1.9,
+      "end": 2.22
+    },
+    {
+      "text": "minutes",
+      "start": 2.22,
+      "end": 2.48
+    },
+    {
+      "text": "without",
+      "start": 2.48,
+      "end": 2.74
+    },
+    {
+      "text": "ever",
+      "start": 2.74,
+      "end": 3.06
+    },
+    {
+      "text": "sending",
+      "start": 3.06,
+      "end": 3.34
+    },
+    {
+      "text": "an",
+      "start": 3.34,
+      "end": 3.52
+    },
+    {
+      "text": "SOS",
+      "start": 3.52,
+      "end": 3.74
+    },
+    {
+      "text": "Wait",
+      "start": 4.62,
+      "end": 4.9
+    },
+    {
+      "text": "let's",
+      "start": 5.36,
+      "end": 5.7
+    },
+    {
+      "text": "rewind",
+      "start": 5.7,
+      "end": 6.06
+    },
+    {
+      "text": "Launched",
+      "start": 6.7,
+      "end": 7.08
+    },
+    {
+      "text": "in",
+      "start": 7.08,
+      "end": 7.2
+    },
+    {
+      "text": "1958",
+      "start": 7.2,
+      "end": 7.84
+    },
+    {
+      "text": "the",
+      "start": 8.38,
+      "end": 8.46
+    },
+    {
+      "text": "729-foot",
+      "start": 8.46,
+      "end": 9.78
+    },
+    {
+      "text": "SS",
+      "start": 9.78,
+      "end": 10.0
+    },
+    {
+      "text": "Edmund",
+      "start": 10.0,
+      "end": 10.52
+    },
+    {
+      "text": "Fitzgerald",
+      "start": 10.52,
+      "end": 10.8
+    },
+    {
+      "text": "was",
+      "start": 10.8,
+      "end": 11.46
+    },
+    {
+      "text": "the",
+      "start": 11.46,
+      "end": 11.6
+    },
+    {
+      "text": "pride",
+      "start": 11.6,
+      "end": 11.84
+    },
+    {
+      "text": "of",
+      "start": 11.84,
+      "end": 12.06
+    },
+    {
+      "text": "the",
+      "start": 12.06,
+      "end": 12.16
+    },
+    {
+      "text": "American",
+      "start": 12.16,
+      "end": 12.34
+    },
+    {
+      "text": "side",
+      "start": 12.34,
+      "end": 12.82
+    },
+    {
+      "text": "On",
+      "start": 13.44,
+      "end": 13.56
+    },
+    {
+      "text": "November",
+      "start": 13.56,
+      "end": 13.78
+    },
+    {
+      "text": "9",
+      "start": 13.78,
+      "end": 14.2
+    },
+    {
+      "text": "1975",
+      "start": 14.54,
+      "end": 15.34
+    },
+    {
+      "text": "she",
+      "start": 16.12,
+      "end": 16.3
+    },
+    {
+      "text": "left",
+      "start": 16.3,
+      "end": 16.44
+    },
+    {
+      "text": "Superior",
+      "start": 16.44,
+      "end": 16.78
+    },
+    {
+      "text": "Wisconsin",
+      "start": 17.1,
+      "end": 17.3
+    },
+    {
+      "text": "loaded",
+      "start": 17.96,
+      "end": 18.06
+    },
+    {
+      "text": "with",
+      "start": 18.06,
+      "end": 18.28
+    },
+    {
+      "text": "26,000",
+      "start": 18.28,
+      "end": 19.24
+    },
+    {
+      "text": "tons",
+      "start": 19.24,
+      "end": 19.4
+    },
+    {
+      "text": "of",
+      "start": 19.4,
+      "end": 19.66
+    },
+    {
+      "text": "iron",
+      "start": 19.66,
+      "end": 19.9
+    },
+    {
+      "text": "ore",
+      "start": 19.9,
+      "end": 20.12
+    },
+    {
+      "text": "bound",
+      "start": 20.12,
+      "end": 20.4
+    },
+    {
+      "text": "for",
+      "start": 20.4,
+      "end": 20.66
+    },
+    {
+      "text": "Detroit",
+      "start": 20.66,
+      "end": 20.86
+    },
+    {
+      "text": "The",
+      "start": 21.68,
+      "end": 21.78
+    },
+    {
+      "text": "next",
+      "start": 21.78,
+      "end": 21.92
+    },
+    {
+      "text": "day",
+      "start": 21.92,
+      "end": 22.2
+    },
+    {
+      "text": "a",
+      "start": 22.58,
+      "end": 22.62
+    },
+    {
+      "text": "ferocious",
+      "start": 22.62,
+      "end": 22.86
+    },
+    {
+      "text": "November",
+      "start": 22.86,
+      "end": 23.34
+    },
+    {
+      "text": "gale",
+      "start": 23.34,
+      "end": 23.74
+    },
+    {
+      "text": "slammed",
+      "start": 23.74,
+      "end": 23.98
+    },
+    {
+      "text": "Lake",
+      "start": 23.98,
+      "end": 24.38
+    },
+    {
+      "text": "Superior",
+      "start": 24.38,
+      "end": 24.68
+    },
+    {
+      "text": "with",
+      "start": 24.68,
+      "end": 25.02
+    },
+    {
+      "text": "hurricane-force",
+      "start": 25.02,
+      "end": 25.62
+    },
+    {
+      "text": "winds",
+      "start": 25.62,
+      "end": 25.88
+    },
+    {
+      "text": "and",
+      "start": 25.88,
+      "end": 26.36
+    },
+    {
+      "text": "thirty-foot",
+      "start": 26.36,
+      "end": 26.86
+    },
+    {
+      "text": "waves",
+      "start": 26.86,
+      "end": 27.02
+    },
+    {
+      "text": "Her",
+      "start": 27.02,
+      "end": 27.82
+    },
+    {
+      "text": "radar",
+      "start": 27.82,
+      "end": 28.02
+    },
+    {
+      "text": "failed",
+      "start": 28.02,
+      "end": 28.44
+    },
+    {
+      "text": "deck",
+      "start": 28.9,
+      "end": 29.06
+    },
+    {
+      "text": "fittings",
+      "start": 29.06,
+      "end": 29.3
+    },
+    {
+      "text": "snapped",
+      "start": 29.3,
+      "end": 29.56
+    },
+    {
+      "text": "and",
+      "start": 30.08,
+      "end": 30.14
+    },
+    {
+      "text": "the",
+      "start": 30.14,
+      "end": 30.2
+    },
+    {
+      "text": "giant",
+      "start": 30.2,
+      "end": 30.44
+    },
+    {
+      "text": "freighter",
+      "start": 30.44,
+      "end": 30.84
+    },
+    {
+      "text": "began",
+      "start": 30.84,
+      "end": 31.04
+    },
+    {
+      "text": "listing",
+      "start": 31.04,
+      "end": 31.34
+    },
+    {
+      "text": "heavily",
+      "start": 31.34,
+      "end": 31.66
+    },
+    {
+      "text": "in",
+      "start": 31.66,
+      "end": 31.92
+    },
+    {
+      "text": "blinding",
+      "start": 31.92,
+      "end": 32.12
+    },
+    {
+      "text": "snow",
+      "start": 32.12,
+      "end": 32.56
+    },
+    {
+      "text": "At",
+      "start": 33.26,
+      "end": 33.44
+    },
+    {
+      "text": "7",
+      "start": 33.44,
+      "end": 33.68
+    },
+    {
+      "text": "10",
+      "start": 33.68,
+      "end": 33.9
+    },
+    {
+      "text": "p.m",
+      "start": 33.9,
+      "end": 34.2
+    },
+    {
+      "text": "Captain",
+      "start": 34.56,
+      "end": 34.88
+    },
+    {
+      "text": "Ernest",
+      "start": 34.88,
+      "end": 35.08
+    },
+    {
+      "text": "McSorley",
+      "start": 35.08,
+      "end": 35.68
+    },
+    {
+      "text": "radioed",
+      "start": 35.68,
+      "end": 35.9
+    },
+    {
+      "text": "a",
+      "start": 35.9,
+      "end": 36.2
+    },
+    {
+      "text": "nearby",
+      "start": 36.2,
+      "end": 36.34
+    },
+    {
+      "text": "ship",
+      "start": 36.34,
+      "end": 36.78
+    },
+    {
+      "text": "with",
+      "start": 36.78,
+      "end": 36.92
+    },
+    {
+      "text": "his",
+      "start": 36.92,
+      "end": 37.04
+    },
+    {
+      "text": "final",
+      "start": 37.04,
+      "end": 37.3
+    },
+    {
+      "text": "words",
+      "start": 37.3,
+      "end": 37.58
+    },
+    {
+      "text": "We",
+      "start": 38.34,
+      "end": 38.46
+    },
+    {
+      "text": "are",
+      "start": 38.46,
+      "end": 38.58
+    },
+    {
+      "text": "holding",
+      "start": 38.58,
+      "end": 38.78
+    },
+    {
+      "text": "our",
+      "start": 38.78,
+      "end": 39.0
+    },
+    {
+      "text": "own",
+      "start": 39.0,
+      "end": 39.26
+    },
+    {
+      "text": "Minutes",
+      "start": 39.74,
+      "end": 39.86
+    },
+    {
+      "text": "later",
+      "start": 39.86,
+      "end": 40.18
+    },
+    {
+      "text": "just",
+      "start": 40.54,
+      "end": 40.84
+    },
+    {
+      "text": "seventeen",
+      "start": 40.84,
+      "end": 41.26
+    },
+    {
+      "text": "miles",
+      "start": 41.26,
+      "end": 41.58
+    },
+    {
+      "text": "from",
+      "start": 41.58,
+      "end": 41.86
+    },
+    {
+      "text": "Whitefish",
+      "start": 41.86,
+      "end": 42.22
+    },
+    {
+      "text": "Bay",
+      "start": 42.22,
+      "end": 42.44
+    },
+    {
+      "text": "the",
+      "start": 42.96,
+      "end": 43.02
+    },
+    {
+      "text": "Mighty",
+      "start": 43.02,
+      "end": 43.22
+    },
+    {
+      "text": "Fitz",
+      "start": 43.22,
+      "end": 43.48
+    },
+    {
+      "text": "vanished",
+      "start": 43.48,
+      "end": 43.74
+    },
+    {
+      "text": "completely",
+      "start": 43.74,
+      "end": 44.26
+    },
+    {
+      "text": "from",
+      "start": 44.26,
+      "end": 44.66
+    },
+    {
+      "text": "radar",
+      "start": 44.66,
+      "end": 44.78
+    },
+    {
+      "text": "All",
+      "start": 45.6,
+      "end": 45.78
+    },
+    {
+      "text": "twenty-nine",
+      "start": 45.78,
+      "end": 46.16
+    },
+    {
+      "text": "crewmen",
+      "start": 46.16,
+      "end": 46.64
+    },
+    {
+      "text": "were",
+      "start": 46.64,
+      "end": 46.78
+    },
+    {
+      "text": "lost",
+      "start": 46.78,
+      "end": 47.04
+    },
+    {
+      "text": "and",
+      "start": 47.36,
+      "end": 47.5
+    },
+    {
+      "text": "the",
+      "start": 47.5,
+      "end": 47.6
+    },
+    {
+      "text": "massive",
+      "start": 47.6,
+      "end": 47.86
+    },
+    {
+      "text": "hull",
+      "start": 47.86,
+      "end": 48.1
+    },
+    {
+      "text": "was",
+      "start": 48.1,
+      "end": 48.32
+    },
+    {
+      "text": "found",
+      "start": 48.32,
+      "end": 48.54
+    },
+    {
+      "text": "snapped",
+      "start": 48.54,
+      "end": 48.82
+    },
+    {
+      "text": "in",
+      "start": 48.82,
+      "end": 49.14
+    },
+    {
+      "text": "two",
+      "start": 49.14,
+      "end": 49.34
+    },
+    {
+      "text": "530",
+      "start": 49.34,
+      "end": 49.72
+    },
+    {
+      "text": "feet",
+      "start": 49.72,
+      "end": 50.48
+    },
+    {
+      "text": "below",
+      "start": 50.48,
+      "end": 50.78
+    },
+    {
+      "text": "Whether",
+      "start": 51.38,
+      "end": 51.7
+    },
+    {
+      "text": "rogue",
+      "start": 51.7,
+      "end": 51.94
+    },
+    {
+      "text": "waves",
+      "start": 51.94,
+      "end": 52.16
+    },
+    {
+      "text": "flooded",
+      "start": 52.64,
+      "end": 52.88
+    },
+    {
+      "text": "hatches",
+      "start": 52.88,
+      "end": 53.3
+    },
+    {
+      "text": "or",
+      "start": 53.66,
+      "end": 53.76
+    },
+    {
+      "text": "a",
+      "start": 53.76,
+      "end": 53.86
+    },
+    {
+      "text": "hidden",
+      "start": 53.86,
+      "end": 54.04
+    },
+    {
+      "text": "shoal",
+      "start": 54.04,
+      "end": 54.36
+    },
+    {
+      "text": "doomed",
+      "start": 54.36,
+      "end": 54.72
+    },
+    {
+      "text": "her",
+      "start": 54.72,
+      "end": 54.84
+    },
+    {
+      "text": "remains",
+      "start": 54.84,
+      "end": 55.26
+    },
+    {
+      "text": "Lake",
+      "start": 55.26,
+      "end": 55.58
+    },
+    {
+      "text": "Superior's",
+      "start": 55.58,
+      "end": 56.14
+    },
+    {
+      "text": "greatest",
+      "start": 56.14,
+      "end": 56.42
+    },
+    {
+      "text": "mystery",
+      "start": 56.42,
+      "end": 56.64
+    },
+    {
+      "text": "Every",
+      "start": 57.5,
+      "end": 57.68
+    },
+    {
+      "text": "November",
+      "start": 57.68,
+      "end": 57.88
+    },
+    {
+      "text": "10th",
+      "start": 57.88,
+      "end": 58.32
+    },
+    {
+      "text": "the",
+      "start": 58.66,
+      "end": 58.82
+    },
+    {
+      "text": "museum",
+      "start": 58.82,
+      "end": 59.02
+    },
+    {
+      "text": "bell",
+      "start": 59.02,
+      "end": 59.4
+    },
+    {
+      "text": "rings",
+      "start": 59.4,
+      "end": 59.64
+    },
+    {
+      "text": "thirty",
+      "start": 59.64,
+      "end": 60.0
+    },
+    {
+      "text": "times",
+      "start": 60.0,
+      "end": 60.46
+    },
+    {
+      "text": "for",
+      "start": 60.76,
+      "end": 60.88
+    },
+    {
+      "text": "the",
+      "start": 60.88,
+      "end": 60.96
+    },
+    {
+      "text": "twenty-nine",
+      "start": 60.96,
+      "end": 61.26
+    },
+    {
+      "text": "sailors",
+      "start": 61.26,
+      "end": 61.66
+    },
+    {
+      "text": "and",
+      "start": 61.66,
+      "end": 61.96
+    },
+    {
+      "text": "singer",
+      "start": 61.96,
+      "end": 62.14
+    },
+    {
+      "text": "Gordon",
+      "start": 62.14,
+      "end": 62.46
+    },
+    {
+      "text": "Lightfoot",
+      "start": 62.46,
+      "end": 63.02
+    },
+    {
+      "text": "Comment",
+      "start": 63.28,
+      "end": 63.52
+    },
+    {
+      "text": "FITZ",
+      "start": 63.52,
+      "end": 64.28
+    },
+    {
+      "text": "to",
+      "start": 64.28,
+      "end": 64.56
+    },
+    {
+      "text": "honor",
+      "start": 64.56,
+      "end": 64.59
+    },
+    {
+      "text": "the",
+      "start": 64.56,
+      "end": 64.66
+    },
+    {
+      "text": "twenty-nine",
+      "start": 64.66,
+      "end": 64.94
+    },
+    {
+      "text": "brave",
+      "start": 64.94,
+      "end": 65.3
+    },
+    {
+      "text": "crewmen",
+      "start": 65.3,
+      "end": 65.76
+    },
+    {
+      "text": "and",
+      "start": 65.96,
+      "end": 66.12
+    },
+    {
+      "text": "now",
+      "start": 66.12,
+      "end": 66.28
+    },
+    {
+      "text": "you",
+      "start": 66.28,
+      "end": 66.42
+    },
+    {
+      "text": "know",
+      "start": 66.42,
+      "end": 66.84
+    }
+  ]
+}

@@ -1,0 +1,1946 @@
+{
+  "voice": "Fish Audio \u2014 Ethan (@Fish Official)",
+  "total_duration_sec": 65.631,
+  "scenes": [
+    {
+      "id": "scene_01",
+      "text": "How did one five-mile bridge end twenty-mile traffic jams that split Michigan in half?",
+      "start_sec": 0.0,
+      "speech_end_sec": 4.08,
+      "end_sec": 5.18,
+      "words": [
+        {
+          "text": "How",
+          "start": 0.0,
+          "end": 0.12
+        },
+        {
+          "text": "did",
+          "start": 0.12,
+          "end": 0.22
+        },
+        {
+          "text": "one",
+          "start": 0.22,
+          "end": 0.4
+        },
+        {
+          "text": "five-mile",
+          "start": 0.4,
+          "end": 0.96
+        },
+        {
+          "text": "bridge",
+          "start": 0.96,
+          "end": 1.28
+        },
+        {
+          "text": "end",
+          "start": 1.28,
+          "end": 1.58
+        },
+        {
+          "text": "twenty-mile",
+          "start": 1.58,
+          "end": 2.14
+        },
+        {
+          "text": "traffic",
+          "start": 2.14,
+          "end": 2.44
+        },
+        {
+          "text": "jams",
+          "start": 2.44,
+          "end": 2.76
+        },
+        {
+          "text": "that",
+          "start": 2.76,
+          "end": 3.06
+        },
+        {
+          "text": "split",
+          "start": 3.06,
+          "end": 3.28
+        },
+        {
+          "text": "Michigan",
+          "start": 3.28,
+          "end": 3.68
+        },
+        {
+          "text": "in",
+          "start": 3.68,
+          "end": 3.84
+        },
+        {
+          "text": "half",
+          "start": 3.84,
+          "end": 4.08
+        }
+      ]
+    },
+    {
+      "id": "scene_02",
+      "text": "Wait... let's rewind.",
+      "start_sec": 5.18,
+      "speech_end_sec": 6.52,
+      "end_sec": 7.2,
+      "words": [
+        {
+          "text": "Wait",
+          "start": 5.24,
+          "end": 5.52
+        },
+        {
+          "text": "let's",
+          "start": 5.82,
+          "end": 6.16
+        },
+        {
+          "text": "rewind",
+          "start": 6.16,
+          "end": 6.52
+        }
+      ]
+    },
+    {
+      "id": "scene_03",
+      "text": "For decades, reaching Michigan's Upper Peninsula meant lining up for state auto ferries across the Straits of Mackinac.",
+      "start_sec": 7.2,
+      "speech_end_sec": 12.52,
+      "end_sec": 12.94,
+      "words": [
+        {
+          "text": "For",
+          "start": 7.26,
+          "end": 7.36
+        },
+        {
+          "text": "decades",
+          "start": 7.36,
+          "end": 7.66
+        },
+        {
+          "text": "reaching",
+          "start": 7.82,
+          "end": 8.26
+        },
+        {
+          "text": "Michigan's",
+          "start": 8.26,
+          "end": 8.72
+        },
+        {
+          "text": "Upper",
+          "start": 8.72,
+          "end": 8.84
+        },
+        {
+          "text": "Peninsula",
+          "start": 8.84,
+          "end": 9.16
+        },
+        {
+          "text": "meant",
+          "start": 9.16,
+          "end": 9.58
+        },
+        {
+          "text": "lining",
+          "start": 9.58,
+          "end": 9.84
+        },
+        {
+          "text": "up",
+          "start": 9.84,
+          "end": 10.04
+        },
+        {
+          "text": "for",
+          "start": 10.04,
+          "end": 10.18
+        },
+        {
+          "text": "state",
+          "start": 10.18,
+          "end": 10.42
+        },
+        {
+          "text": "auto",
+          "start": 10.42,
+          "end": 10.72
+        },
+        {
+          "text": "ferries",
+          "start": 10.72,
+          "end": 11.12
+        },
+        {
+          "text": "across",
+          "start": 11.12,
+          "end": 11.32
+        },
+        {
+          "text": "the",
+          "start": 11.32,
+          "end": 11.6
+        },
+        {
+          "text": "Straits",
+          "start": 11.6,
+          "end": 11.94
+        },
+        {
+          "text": "of",
+          "start": 11.94,
+          "end": 12.06
+        },
+        {
+          "text": "Mackinac",
+          "start": 12.06,
+          "end": 12.52
+        }
+      ]
+    },
+    {
+      "id": "scene_04",
+      "text": "During summer vacations and deer hunting season, cars backed up for miles\u2014turning a short crossing into an all-day wait.",
+      "start_sec": 12.94,
+      "speech_end_sec": 18.94,
+      "end_sec": 19.6,
+      "words": [
+        {
+          "text": "During",
+          "start": 13.0,
+          "end": 13.14
+        },
+        {
+          "text": "summer",
+          "start": 13.14,
+          "end": 13.38
+        },
+        {
+          "text": "vacations",
+          "start": 13.38,
+          "end": 13.76
+        },
+        {
+          "text": "and",
+          "start": 13.76,
+          "end": 14.14
+        },
+        {
+          "text": "deer",
+          "start": 14.14,
+          "end": 14.32
+        },
+        {
+          "text": "hunting",
+          "start": 14.32,
+          "end": 14.54
+        },
+        {
+          "text": "season",
+          "start": 14.54,
+          "end": 15.0
+        },
+        {
+          "text": "cars",
+          "start": 15.24,
+          "end": 15.52
+        },
+        {
+          "text": "backed",
+          "start": 15.52,
+          "end": 15.76
+        },
+        {
+          "text": "up",
+          "start": 15.76,
+          "end": 16.0
+        },
+        {
+          "text": "for",
+          "start": 16.0,
+          "end": 16.18
+        },
+        {
+          "text": "miles",
+          "start": 16.18,
+          "end": 16.44
+        },
+        {
+          "text": "turning",
+          "start": 16.96,
+          "end": 17.16
+        },
+        {
+          "text": "a",
+          "start": 17.16,
+          "end": 17.32
+        },
+        {
+          "text": "short",
+          "start": 17.32,
+          "end": 17.52
+        },
+        {
+          "text": "crossing",
+          "start": 17.52,
+          "end": 17.84
+        },
+        {
+          "text": "into",
+          "start": 17.84,
+          "end": 18.14
+        },
+        {
+          "text": "an",
+          "start": 18.14,
+          "end": 18.17
+        },
+        {
+          "text": "all-day",
+          "start": 18.14,
+          "end": 18.7
+        },
+        {
+          "text": "wait",
+          "start": 18.7,
+          "end": 18.94
+        }
+      ]
+    },
+    {
+      "id": "scene_05",
+      "text": "Worse, brutal winter ice jams could shut the ferries down completely, stranding the Upper Peninsula.",
+      "start_sec": 19.6,
+      "speech_end_sec": 24.4,
+      "end_sec": 25.18,
+      "words": [
+        {
+          "text": "Worse",
+          "start": 19.66,
+          "end": 19.84
+        },
+        {
+          "text": "brutal",
+          "start": 20.54,
+          "end": 20.57
+        },
+        {
+          "text": "winter",
+          "start": 20.54,
+          "end": 20.7
+        },
+        {
+          "text": "ice",
+          "start": 20.7,
+          "end": 21.0
+        },
+        {
+          "text": "jams",
+          "start": 21.0,
+          "end": 21.26
+        },
+        {
+          "text": "could",
+          "start": 21.26,
+          "end": 21.6
+        },
+        {
+          "text": "shut",
+          "start": 21.6,
+          "end": 21.82
+        },
+        {
+          "text": "the",
+          "start": 21.82,
+          "end": 21.96
+        },
+        {
+          "text": "ferries",
+          "start": 21.96,
+          "end": 22.3
+        },
+        {
+          "text": "down",
+          "start": 22.3,
+          "end": 22.46
+        },
+        {
+          "text": "completely",
+          "start": 22.46,
+          "end": 22.88
+        },
+        {
+          "text": "stranding",
+          "start": 23.5,
+          "end": 23.78
+        },
+        {
+          "text": "the",
+          "start": 23.78,
+          "end": 23.98
+        },
+        {
+          "text": "Upper",
+          "start": 23.98,
+          "end": 24.14
+        },
+        {
+          "text": "Peninsula",
+          "start": 24.14,
+          "end": 24.4
+        }
+      ]
+    },
+    {
+      "id": "scene_06",
+      "text": "Critics laughed at building a suspension bridge over deep, wind-whipped straits\u2014calling it Mighty Mac's folly.",
+      "start_sec": 25.18,
+      "speech_end_sec": 30.26,
+      "end_sec": 30.82,
+      "words": [
+        {
+          "text": "Critics",
+          "start": 25.24,
+          "end": 25.3
+        },
+        {
+          "text": "laughed",
+          "start": 25.3,
+          "end": 25.66
+        },
+        {
+          "text": "at",
+          "start": 25.66,
+          "end": 25.98
+        },
+        {
+          "text": "building",
+          "start": 25.98,
+          "end": 26.12
+        },
+        {
+          "text": "a",
+          "start": 26.12,
+          "end": 26.36
+        },
+        {
+          "text": "suspension",
+          "start": 26.36,
+          "end": 26.52
+        },
+        {
+          "text": "bridge",
+          "start": 26.52,
+          "end": 26.98
+        },
+        {
+          "text": "over",
+          "start": 26.98,
+          "end": 27.3
+        },
+        {
+          "text": "deep",
+          "start": 27.3,
+          "end": 27.58
+        },
+        {
+          "text": "wind-whipped",
+          "start": 27.84,
+          "end": 28.16
+        },
+        {
+          "text": "straits",
+          "start": 28.16,
+          "end": 28.66
+        },
+        {
+          "text": "calling",
+          "start": 28.66,
+          "end": 29.28
+        },
+        {
+          "text": "it",
+          "start": 29.28,
+          "end": 29.36
+        },
+        {
+          "text": "Mighty",
+          "start": 29.36,
+          "end": 29.52
+        },
+        {
+          "text": "Mac's",
+          "start": 29.52,
+          "end": 29.88
+        },
+        {
+          "text": "folly",
+          "start": 29.88,
+          "end": 30.26
+        }
+      ]
+    },
+    {
+      "id": "scene_07",
+      "text": "Then legendary engineer David Steinman stepped up with a brilliant open-grate deck built to let fierce winds pass straight through.",
+      "start_sec": 30.82,
+      "speech_end_sec": 37.08,
+      "end_sec": 37.56,
+      "words": [
+        {
+          "text": "Then",
+          "start": 30.88,
+          "end": 31.08
+        },
+        {
+          "text": "legendary",
+          "start": 31.08,
+          "end": 31.36
+        },
+        {
+          "text": "engineer",
+          "start": 31.36,
+          "end": 31.94
+        },
+        {
+          "text": "David",
+          "start": 31.94,
+          "end": 32.38
+        },
+        {
+          "text": "Steinman",
+          "start": 32.38,
+          "end": 32.86
+        },
+        {
+          "text": "stepped",
+          "start": 32.86,
+          "end": 33.1
+        },
+        {
+          "text": "up",
+          "start": 33.1,
+          "end": 33.36
+        },
+        {
+          "text": "with",
+          "start": 33.36,
+          "end": 33.5
+        },
+        {
+          "text": "a",
+          "start": 33.5,
+          "end": 33.56
+        },
+        {
+          "text": "brilliant",
+          "start": 33.56,
+          "end": 33.86
+        },
+        {
+          "text": "open-grate",
+          "start": 33.86,
+          "end": 34.5
+        },
+        {
+          "text": "deck",
+          "start": 34.5,
+          "end": 34.76
+        },
+        {
+          "text": "built",
+          "start": 34.76,
+          "end": 35.28
+        },
+        {
+          "text": "to",
+          "start": 35.28,
+          "end": 35.44
+        },
+        {
+          "text": "let",
+          "start": 35.44,
+          "end": 35.58
+        },
+        {
+          "text": "fierce",
+          "start": 35.58,
+          "end": 35.8
+        },
+        {
+          "text": "winds",
+          "start": 35.8,
+          "end": 36.12
+        },
+        {
+          "text": "pass",
+          "start": 36.12,
+          "end": 36.42
+        },
+        {
+          "text": "straight",
+          "start": 36.42,
+          "end": 36.74
+        },
+        {
+          "text": "through",
+          "start": 36.74,
+          "end": 37.08
+        }
+      ]
+    },
+    {
+      "id": "scene_08",
+      "text": "Starting in 1954, thousands of ironworkers battled freezing gales and dizzying heights to spin 42,000 miles of steel cable.",
+      "start_sec": 37.56,
+      "speech_end_sec": 45.04,
+      "end_sec": 45.44,
+      "words": [
+        {
+          "text": "Starting",
+          "start": 37.62,
+          "end": 37.92
+        },
+        {
+          "text": "in",
+          "start": 37.92,
+          "end": 38.1
+        },
+        {
+          "text": "1954",
+          "start": 38.1,
+          "end": 38.7
+        },
+        {
+          "text": "thousands",
+          "start": 39.4,
+          "end": 39.88
+        },
+        {
+          "text": "of",
+          "start": 39.88,
+          "end": 40.06
+        },
+        {
+          "text": "ironworkers",
+          "start": 40.06,
+          "end": 40.56
+        },
+        {
+          "text": "battled",
+          "start": 40.56,
+          "end": 40.88
+        },
+        {
+          "text": "freezing",
+          "start": 40.88,
+          "end": 41.28
+        },
+        {
+          "text": "gales",
+          "start": 41.28,
+          "end": 41.74
+        },
+        {
+          "text": "and",
+          "start": 41.74,
+          "end": 41.92
+        },
+        {
+          "text": "dizzying",
+          "start": 41.92,
+          "end": 42.28
+        },
+        {
+          "text": "heights",
+          "start": 42.28,
+          "end": 42.5
+        },
+        {
+          "text": "to",
+          "start": 42.5,
+          "end": 42.8
+        },
+        {
+          "text": "spin",
+          "start": 42.8,
+          "end": 42.98
+        },
+        {
+          "text": "42,000",
+          "start": 42.98,
+          "end": 44.02
+        },
+        {
+          "text": "miles",
+          "start": 44.02,
+          "end": 44.22
+        },
+        {
+          "text": "of",
+          "start": 44.22,
+          "end": 44.48
+        },
+        {
+          "text": "steel",
+          "start": 44.48,
+          "end": 44.7
+        },
+        {
+          "text": "cable",
+          "start": 44.7,
+          "end": 45.04
+        }
+      ]
+    },
+    {
+      "id": "scene_09",
+      "text": "On November 1, 1957, the five-mile Mackinac Bridge finally opened to roaring cheers and honking horns.",
+      "start_sec": 45.44,
+      "speech_end_sec": 51.78,
+      "end_sec": 52.44,
+      "words": [
+        {
+          "text": "On",
+          "start": 45.5,
+          "end": 45.54
+        },
+        {
+          "text": "November",
+          "start": 45.54,
+          "end": 45.68
+        },
+        {
+          "text": "1",
+          "start": 45.68,
+          "end": 46.4
+        },
+        {
+          "text": "1957",
+          "start": 46.62,
+          "end": 47.26
+        },
+        {
+          "text": "the",
+          "start": 47.9,
+          "end": 48.06
+        },
+        {
+          "text": "five-mile",
+          "start": 48.06,
+          "end": 48.58
+        },
+        {
+          "text": "Mackinac",
+          "start": 48.58,
+          "end": 49.06
+        },
+        {
+          "text": "Bridge",
+          "start": 49.06,
+          "end": 49.3
+        },
+        {
+          "text": "finally",
+          "start": 49.3,
+          "end": 49.74
+        },
+        {
+          "text": "opened",
+          "start": 49.74,
+          "end": 50.12
+        },
+        {
+          "text": "to",
+          "start": 50.12,
+          "end": 50.32
+        },
+        {
+          "text": "roaring",
+          "start": 50.32,
+          "end": 50.54
+        },
+        {
+          "text": "cheers",
+          "start": 50.54,
+          "end": 50.9
+        },
+        {
+          "text": "and",
+          "start": 50.9,
+          "end": 51.2
+        },
+        {
+          "text": "honking",
+          "start": 51.2,
+          "end": 51.56
+        },
+        {
+          "text": "horns",
+          "start": 51.56,
+          "end": 51.78
+        }
+      ]
+    },
+    {
+      "id": "scene_10",
+      "text": "Hours of waiting on the dock shrank overnight into a breathtaking ten-minute drive above the Great Lakes.",
+      "start_sec": 52.44,
+      "speech_end_sec": 57.34,
+      "end_sec": 57.84,
+      "words": [
+        {
+          "text": "Hours",
+          "start": 52.5,
+          "end": 52.68
+        },
+        {
+          "text": "of",
+          "start": 52.68,
+          "end": 52.94
+        },
+        {
+          "text": "waiting",
+          "start": 52.94,
+          "end": 53.12
+        },
+        {
+          "text": "on",
+          "start": 53.12,
+          "end": 53.32
+        },
+        {
+          "text": "the",
+          "start": 53.32,
+          "end": 53.42
+        },
+        {
+          "text": "dock",
+          "start": 53.42,
+          "end": 53.58
+        },
+        {
+          "text": "shrank",
+          "start": 53.58,
+          "end": 54.02
+        },
+        {
+          "text": "overnight",
+          "start": 54.02,
+          "end": 54.38
+        },
+        {
+          "text": "into",
+          "start": 54.38,
+          "end": 55.0
+        },
+        {
+          "text": "a",
+          "start": 55.0,
+          "end": 55.14
+        },
+        {
+          "text": "breathtaking",
+          "start": 55.14,
+          "end": 55.44
+        },
+        {
+          "text": "ten-minute",
+          "start": 55.44,
+          "end": 56.16
+        },
+        {
+          "text": "drive",
+          "start": 56.16,
+          "end": 56.44
+        },
+        {
+          "text": "above",
+          "start": 56.44,
+          "end": 56.74
+        },
+        {
+          "text": "the",
+          "start": 56.74,
+          "end": 56.94
+        },
+        {
+          "text": "Great",
+          "start": 56.94,
+          "end": 57.12
+        },
+        {
+          "text": "Lakes",
+          "start": 57.12,
+          "end": 57.34
+        }
+      ]
+    },
+    {
+      "id": "scene_11",
+      "text": "Today, over two hundred million vehicles have crossed Michigan's beloved Big Mac.",
+      "start_sec": 57.84,
+      "speech_end_sec": 61.94,
+      "end_sec": 62.2,
+      "words": [
+        {
+          "text": "Today",
+          "start": 57.9,
+          "end": 58.38
+        },
+        {
+          "text": "over",
+          "start": 58.86,
+          "end": 59.02
+        },
+        {
+          "text": "two",
+          "start": 59.02,
+          "end": 59.16
+        },
+        {
+          "text": "hundred",
+          "start": 59.16,
+          "end": 59.3
+        },
+        {
+          "text": "million",
+          "start": 59.3,
+          "end": 59.68
+        },
+        {
+          "text": "vehicles",
+          "start": 59.68,
+          "end": 60.12
+        },
+        {
+          "text": "have",
+          "start": 60.12,
+          "end": 60.4
+        },
+        {
+          "text": "crossed",
+          "start": 60.4,
+          "end": 60.6
+        },
+        {
+          "text": "Michigan's",
+          "start": 60.6,
+          "end": 61.18
+        },
+        {
+          "text": "beloved",
+          "start": 61.18,
+          "end": 61.34
+        },
+        {
+          "text": "Big",
+          "start": 61.34,
+          "end": 61.7
+        },
+        {
+          "text": "Mac",
+          "start": 61.7,
+          "end": 61.94
+        }
+      ]
+    },
+    {
+      "id": "scene_12",
+      "text": "Comment BRIDGE if you've ever driven across Big Mac\u2014and now you know...",
+      "start_sec": 62.2,
+      "speech_end_sec": 65.36,
+      "end_sec": 65.631,
+      "words": [
+        {
+          "text": "Comment",
+          "start": 62.26,
+          "end": 62.48
+        },
+        {
+          "text": "BRIDGE",
+          "start": 62.48,
+          "end": 62.76
+        },
+        {
+          "text": "if",
+          "start": 62.76,
+          "end": 63.0
+        },
+        {
+          "text": "you've",
+          "start": 63.0,
+          "end": 63.2
+        },
+        {
+          "text": "ever",
+          "start": 63.2,
+          "end": 63.32
+        },
+        {
+          "text": "driven",
+          "start": 63.32,
+          "end": 63.56
+        },
+        {
+          "text": "across",
+          "start": 63.56,
+          "end": 63.9
+        },
+        {
+          "text": "Big",
+          "start": 63.9,
+          "end": 64.16
+        },
+        {
+          "text": "Mac",
+          "start": 64.16,
+          "end": 64.38
+        },
+        {
+          "text": "and",
+          "start": 64.76,
+          "end": 64.88
+        },
+        {
+          "text": "now",
+          "start": 64.88,
+          "end": 65.04
+        },
+        {
+          "text": "you",
+          "start": 65.04,
+          "end": 65.18
+        },
+        {
+          "text": "know",
+          "start": 65.18,
+          "end": 65.36
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "text": "How",
+      "start": 0.0,
+      "end": 0.12
+    },
+    {
+      "text": "did",
+      "start": 0.12,
+      "end": 0.22
+    },
+    {
+      "text": "one",
+      "start": 0.22,
+      "end": 0.4
+    },
+    {
+      "text": "five-mile",
+      "start": 0.4,
+      "end": 0.96
+    },
+    {
+      "text": "bridge",
+      "start": 0.96,
+      "end": 1.28
+    },
+    {
+      "text": "end",
+      "start": 1.28,
+      "end": 1.58
+    },
+    {
+      "text": "twenty-mile",
+      "start": 1.58,
+      "end": 2.14
+    },
+    {
+      "text": "traffic",
+      "start": 2.14,
+      "end": 2.44
+    },
+    {
+      "text": "jams",
+      "start": 2.44,
+      "end": 2.76
+    },
+    {
+      "text": "that",
+      "start": 2.76,
+      "end": 3.06
+    },
+    {
+      "text": "split",
+      "start": 3.06,
+      "end": 3.28
+    },
+    {
+      "text": "Michigan",
+      "start": 3.28,
+      "end": 3.68
+    },
+    {
+      "text": "in",
+      "start": 3.68,
+      "end": 3.84
+    },
+    {
+      "text": "half",
+      "start": 3.84,
+      "end": 4.08
+    },
+    {
+      "text": "Wait",
+      "start": 5.24,
+      "end": 5.52
+    },
+    {
+      "text": "let's",
+      "start": 5.82,
+      "end": 6.16
+    },
+    {
+      "text": "rewind",
+      "start": 6.16,
+      "end": 6.52
+    },
+    {
+      "text": "For",
+      "start": 7.26,
+      "end": 7.36
+    },
+    {
+      "text": "decades",
+      "start": 7.36,
+      "end": 7.66
+    },
+    {
+      "text": "reaching",
+      "start": 7.82,
+      "end": 8.26
+    },
+    {
+      "text": "Michigan's",
+      "start": 8.26,
+      "end": 8.72
+    },
+    {
+      "text": "Upper",
+      "start": 8.72,
+      "end": 8.84
+    },
+    {
+      "text": "Peninsula",
+      "start": 8.84,
+      "end": 9.16
+    },
+    {
+      "text": "meant",
+      "start": 9.16,
+      "end": 9.58
+    },
+    {
+      "text": "lining",
+      "start": 9.58,
+      "end": 9.84
+    },
+    {
+      "text": "up",
+      "start": 9.84,
+      "end": 10.04
+    },
+    {
+      "text": "for",
+      "start": 10.04,
+      "end": 10.18
+    },
+    {
+      "text": "state",
+      "start": 10.18,
+      "end": 10.42
+    },
+    {
+      "text": "auto",
+      "start": 10.42,
+      "end": 10.72
+    },
+    {
+      "text": "ferries",
+      "start": 10.72,
+      "end": 11.12
+    },
+    {
+      "text": "across",
+      "start": 11.12,
+      "end": 11.32
+    },
+    {
+      "text": "the",
+      "start": 11.32,
+      "end": 11.6
+    },
+    {
+      "text": "Straits",
+      "start": 11.6,
+      "end": 11.94
+    },
+    {
+      "text": "of",
+      "start": 11.94,
+      "end": 12.06
+    },
+    {
+      "text": "Mackinac",
+      "start": 12.06,
+      "end": 12.52
+    },
+    {
+      "text": "During",
+      "start": 13.0,
+      "end": 13.14
+    },
+    {
+      "text": "summer",
+      "start": 13.14,
+      "end": 13.38
+    },
+    {
+      "text": "vacations",
+      "start": 13.38,
+      "end": 13.76
+    },
+    {
+      "text": "and",
+      "start": 13.76,
+      "end": 14.14
+    },
+    {
+      "text": "deer",
+      "start": 14.14,
+      "end": 14.32
+    },
+    {
+      "text": "hunting",
+      "start": 14.32,
+      "end": 14.54
+    },
+    {
+      "text": "season",
+      "start": 14.54,
+      "end": 15.0
+    },
+    {
+      "text": "cars",
+      "start": 15.24,
+      "end": 15.52
+    },
+    {
+      "text": "backed",
+      "start": 15.52,
+      "end": 15.76
+    },
+    {
+      "text": "up",
+      "start": 15.76,
+      "end": 16.0
+    },
+    {
+      "text": "for",
+      "start": 16.0,
+      "end": 16.18
+    },
+    {
+      "text": "miles",
+      "start": 16.18,
+      "end": 16.44
+    },
+    {
+      "text": "turning",
+      "start": 16.96,
+      "end": 17.16
+    },
+    {
+      "text": "a",
+      "start": 17.16,
+      "end": 17.32
+    },
+    {
+      "text": "short",
+      "start": 17.32,
+      "end": 17.52
+    },
+    {
+      "text": "crossing",
+      "start": 17.52,
+      "end": 17.84
+    },
+    {
+      "text": "into",
+      "start": 17.84,
+      "end": 18.14
+    },
+    {
+      "text": "an",
+      "start": 18.14,
+      "end": 18.17
+    },
+    {
+      "text": "all-day",
+      "start": 18.14,
+      "end": 18.7
+    },
+    {
+      "text": "wait",
+      "start": 18.7,
+      "end": 18.94
+    },
+    {
+      "text": "Worse",
+      "start": 19.66,
+      "end": 19.84
+    },
+    {
+      "text": "brutal",
+      "start": 20.54,
+      "end": 20.57
+    },
+    {
+      "text": "winter",
+      "start": 20.54,
+      "end": 20.7
+    },
+    {
+      "text": "ice",
+      "start": 20.7,
+      "end": 21.0
+    },
+    {
+      "text": "jams",
+      "start": 21.0,
+      "end": 21.26
+    },
+    {
+      "text": "could",
+      "start": 21.26,
+      "end": 21.6
+    },
+    {
+      "text": "shut",
+      "start": 21.6,
+      "end": 21.82
+    },
+    {
+      "text": "the",
+      "start": 21.82,
+      "end": 21.96
+    },
+    {
+      "text": "ferries",
+      "start": 21.96,
+      "end": 22.3
+    },
+    {
+      "text": "down",
+      "start": 22.3,
+      "end": 22.46
+    },
+    {
+      "text": "completely",
+      "start": 22.46,
+      "end": 22.88
+    },
+    {
+      "text": "stranding",
+      "start": 23.5,
+      "end": 23.78
+    },
+    {
+      "text": "the",
+      "start": 23.78,
+      "end": 23.98
+    },
+    {
+      "text": "Upper",
+      "start": 23.98,
+      "end": 24.14
+    },
+    {
+      "text": "Peninsula",
+      "start": 24.14,
+      "end": 24.4
+    },
+    {
+      "text": "Critics",
+      "start": 25.24,
+      "end": 25.3
+    },
+    {
+      "text": "laughed",
+      "start": 25.3,
+      "end": 25.66
+    },
+    {
+      "text": "at",
+      "start": 25.66,
+      "end": 25.98
+    },
+    {
+      "text": "building",
+      "start": 25.98,
+      "end": 26.12
+    },
+    {
+      "text": "a",
+      "start": 26.12,
+      "end": 26.36
+    },
+    {
+      "text": "suspension",
+      "start": 26.36,
+      "end": 26.52
+    },
+    {
+      "text": "bridge",
+      "start": 26.52,
+      "end": 26.98
+    },
+    {
+      "text": "over",
+      "start": 26.98,
+      "end": 27.3
+    },
+    {
+      "text": "deep",
+      "start": 27.3,
+      "end": 27.58
+    },
+    {
+      "text": "wind-whipped",
+      "start": 27.84,
+      "end": 28.16
+    },
+    {
+      "text": "straits",
+      "start": 28.16,
+      "end": 28.66
+    },
+    {
+      "text": "calling",
+      "start": 28.66,
+      "end": 29.28
+    },
+    {
+      "text": "it",
+      "start": 29.28,
+      "end": 29.36
+    },
+    {
+      "text": "Mighty",
+      "start": 29.36,
+      "end": 29.52
+    },
+    {
+      "text": "Mac's",
+      "start": 29.52,
+      "end": 29.88
+    },
+    {
+      "text": "folly",
+      "start": 29.88,
+      "end": 30.26
+    },
+    {
+      "text": "Then",
+      "start": 30.88,
+      "end": 31.08
+    },
+    {
+      "text": "legendary",
+      "start": 31.08,
+      "end": 31.36
+    },
+    {
+      "text": "engineer",
+      "start": 31.36,
+      "end": 31.94
+    },
+    {
+      "text": "David",
+      "start": 31.94,
+      "end": 32.38
+    },
+    {
+      "text": "Steinman",
+      "start": 32.38,
+      "end": 32.86
+    },
+    {
+      "text": "stepped",
+      "start": 32.86,
+      "end": 33.1
+    },
+    {
+      "text": "up",
+      "start": 33.1,
+      "end": 33.36
+    },
+    {
+      "text": "with",
+      "start": 33.36,
+      "end": 33.5
+    },
+    {
+      "text": "a",
+      "start": 33.5,
+      "end": 33.56
+    },
+    {
+      "text": "brilliant",
+      "start": 33.56,
+      "end": 33.86
+    },
+    {
+      "text": "open-grate",
+      "start": 33.86,
+      "end": 34.5
+    },
+    {
+      "text": "deck",
+      "start": 34.5,
+      "end": 34.76
+    },
+    {
+      "text": "built",
+      "start": 34.76,
+      "end": 35.28
+    },
+    {
+      "text": "to",
+      "start": 35.28,
+      "end": 35.44
+    },
+    {
+      "text": "let",
+      "start": 35.44,
+      "end": 35.58
+    },
+    {
+      "text": "fierce",
+      "start": 35.58,
+      "end": 35.8
+    },
+    {
+      "text": "winds",
+      "start": 35.8,
+      "end": 36.12
+    },
+    {
+      "text": "pass",
+      "start": 36.12,
+      "end": 36.42
+    },
+    {
+      "text": "straight",
+      "start": 36.42,
+      "end": 36.74
+    },
+    {
+      "text": "through",
+      "start": 36.74,
+      "end": 37.08
+    },
+    {
+      "text": "Starting",
+      "start": 37.62,
+      "end": 37.92
+    },
+    {
+      "text": "in",
+      "start": 37.92,
+      "end": 38.1
+    },
+    {
+      "text": "1954",
+      "start": 38.1,
+      "end": 38.7
+    },
+    {
+      "text": "thousands",
+      "start": 39.4,
+      "end": 39.88
+    },
+    {
+      "text": "of",
+      "start": 39.88,
+      "end": 40.06
+    },
+    {
+      "text": "ironworkers",
+      "start": 40.06,
+      "end": 40.56
+    },
+    {
+      "text": "battled",
+      "start": 40.56,
+      "end": 40.88
+    },
+    {
+      "text": "freezing",
+      "start": 40.88,
+      "end": 41.28
+    },
+    {
+      "text": "gales",
+      "start": 41.28,
+      "end": 41.74
+    },
+    {
+      "text": "and",
+      "start": 41.74,
+      "end": 41.92
+    },
+    {
+      "text": "dizzying",
+      "start": 41.92,
+      "end": 42.28
+    },
+    {
+      "text": "heights",
+      "start": 42.28,
+      "end": 42.5
+    },
+    {
+      "text": "to",
+      "start": 42.5,
+      "end": 42.8
+    },
+    {
+      "text": "spin",
+      "start": 42.8,
+      "end": 42.98
+    },
+    {
+      "text": "42,000",
+      "start": 42.98,
+      "end": 44.02
+    },
+    {
+      "text": "miles",
+      "start": 44.02,
+      "end": 44.22
+    },
+    {
+      "text": "of",
+      "start": 44.22,
+      "end": 44.48
+    },
+    {
+      "text": "steel",
+      "start": 44.48,
+      "end": 44.7
+    },
+    {
+      "text": "cable",
+      "start": 44.7,
+      "end": 45.04
+    },
+    {
+      "text": "On",
+      "start": 45.5,
+      "end": 45.54
+    },
+    {
+      "text": "November",
+      "start": 45.54,
+      "end": 45.68
+    },
+    {
+      "text": "1",
+      "start": 45.68,
+      "end": 46.4
+    },
+    {
+      "text": "1957",
+      "start": 46.62,
+      "end": 47.26
+    },
+    {
+      "text": "the",
+      "start": 47.9,
+      "end": 48.06
+    },
+    {
+      "text": "five-mile",
+      "start": 48.06,
+      "end": 48.58
+    },
+    {
+      "text": "Mackinac",
+      "start": 48.58,
+      "end": 49.06
+    },
+    {
+      "text": "Bridge",
+      "start": 49.06,
+      "end": 49.3
+    },
+    {
+      "text": "finally",
+      "start": 49.3,
+      "end": 49.74
+    },
+    {
+      "text": "opened",
+      "start": 49.74,
+      "end": 50.12
+    },
+    {
+      "text": "to",
+      "start": 50.12,
+      "end": 50.32
+    },
+    {
+      "text": "roaring",
+      "start": 50.32,
+      "end": 50.54
+    },
+    {
+      "text": "cheers",
+      "start": 50.54,
+      "end": 50.9
+    },
+    {
+      "text": "and",
+      "start": 50.9,
+      "end": 51.2
+    },
+    {
+      "text": "honking",
+      "start": 51.2,
+      "end": 51.56
+    },
+    {
+      "text": "horns",
+      "start": 51.56,
+      "end": 51.78
+    },
+    {
+      "text": "Hours",
+      "start": 52.5,
+      "end": 52.68
+    },
+    {
+      "text": "of",
+      "start": 52.68,
+      "end": 52.94
+    },
+    {
+      "text": "waiting",
+      "start": 52.94,
+      "end": 53.12
+    },
+    {
+      "text": "on",
+      "start": 53.12,
+      "end": 53.32
+    },
+    {
+      "text": "the",
+      "start": 53.32,
+      "end": 53.42
+    },
+    {
+      "text": "dock",
+      "start": 53.42,
+      "end": 53.58
+    },
+    {
+      "text": "shrank",
+      "start": 53.58,
+      "end": 54.02
+    },
+    {
+      "text": "overnight",
+      "start": 54.02,
+      "end": 54.38
+    },
+    {
+      "text": "into",
+      "start": 54.38,
+      "end": 55.0
+    },
+    {
+      "text": "a",
+      "start": 55.0,
+      "end": 55.14
+    },
+    {
+      "text": "breathtaking",
+      "start": 55.14,
+      "end": 55.44
+    },
+    {
+      "text": "ten-minute",
+      "start": 55.44,
+      "end": 56.16
+    },
+    {
+      "text": "drive",
+      "start": 56.16,
+      "end": 56.44
+    },
+    {
+      "text": "above",
+      "start": 56.44,
+      "end": 56.74
+    },
+    {
+      "text": "the",
+      "start": 56.74,
+      "end": 56.94
+    },
+    {
+      "text": "Great",
+      "start": 56.94,
+      "end": 57.12
+    },
+    {
+      "text": "Lakes",
+      "start": 57.12,
+      "end": 57.34
+    },
+    {
+      "text": "Today",
+      "start": 57.9,
+      "end": 58.38
+    },
+    {
+      "text": "over",
+      "start": 58.86,
+      "end": 59.02
+    },
+    {
+      "text": "two",
+      "start": 59.02,
+      "end": 59.16
+    },
+    {
+      "text": "hundred",
+      "start": 59.16,
+      "end": 59.3
+    },
+    {
+      "text": "million",
+      "start": 59.3,
+      "end": 59.68
+    },
+    {
+      "text": "vehicles",
+      "start": 59.68,
+      "end": 60.12
+    },
+    {
+      "text": "have",
+      "start": 60.12,
+      "end": 60.4
+    },
+    {
+      "text": "crossed",
+      "start": 60.4,
+      "end": 60.6
+    },
+    {
+      "text": "Michigan's",
+      "start": 60.6,
+      "end": 61.18
+    },
+    {
+      "text": "beloved",
+      "start": 61.18,
+      "end": 61.34
+    },
+    {
+      "text": "Big",
+      "start": 61.34,
+      "end": 61.7
+    },
+    {
+      "text": "Mac",
+      "start": 61.7,
+      "end": 61.94
+    },
+    {
+      "text": "Comment",
+      "start": 62.26,
+      "end": 62.48
+    },
+    {
+      "text": "BRIDGE",
+      "start": 62.48,
+      "end": 62.76
+    },
+    {
+      "text": "if",
+      "start": 62.76,
+      "end": 63.0
+    },
+    {
+      "text": "you've",
+      "start": 63.0,
+      "end": 63.2
+    },
+    {
+      "text": "ever",
+      "start": 63.2,
+      "end": 63.32
+    },
+    {
+      "text": "driven",
+      "start": 63.32,
+      "end": 63.56
+    },
+    {
+      "text": "across",
+      "start": 63.56,
+      "end": 63.9
+    },
+    {
+      "text": "Big",
+      "start": 63.9,
+      "end": 64.16
+    },
+    {
+      "text": "Mac",
+      "start": 64.16,
+      "end": 64.38
+    },
+    {
+      "text": "and",
+      "start": 64.76,
+      "end": 64.88
+    },
+    {
+      "text": "now",
+      "start": 64.88,
+      "end": 65.04
+    },
+    {
+      "text": "you",
+      "start": 65.04,
+      "end": 65.18
+    },
+    {
+      "text": "know",
+      "start": 65.18,
+      "end": 65.36
+    }
+  ]
+}

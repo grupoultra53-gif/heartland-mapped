@@ -7,29 +7,29 @@
 
 ---
 
-## Temporada 1 — 30 Episódios (1 Short/Dia)
+## Calendário Oficial de Publicação (Agendado até 05/12/2026)
 
-### Arco 1 — Guerras e Erros de Fronteira (Dias 1 a 7)
-| Ep. | Status | Receita / Voz | Tema | Estados | CTA 1 Palavra |
+### Arco 1 — Guerras e Erros de Fronteira (Eps. 01–07)
+| Ep. | Data Programada | Status | Receita / Voz | Tema | Estados | CTA 1 Palavra |
+| :-: | :--- | :--- | :--- | :--- | :--- | :---: |
+| **01** | Postado | Postado | v1 · Edge-TTS | *The Toledo War (1835)* | Ohio vs. Michigan | — |
+| **02** | Postado | Postado | v1 · Edge-TTS | *The Day Chicago Reversed a River (1900)* | Illinois vs. Missouri | — |
+| **03** | **Qua 25/11/2026** | Agendado | v2 · Edge-TTS | *Why Minnesota Has That Weird Bump (Northwest Angle)* | Minnesota vs. Canada | `BUMP` / `SWAP` |
+| **04** | **Qui 26/11/2026** | Agendado | v2 · Edge-TTS | *The Honey War (1839)* | Iowa vs. Missouri | `HONEY` |
+| **05** | **Sex 27/11/2026** | Agendado | v2 · Fish Audio (Ethan) | *Carter Lake — The Iowa Town Trapped Inside Nebraska (1877)* | Iowa vs. Nebraska | `IOWA` / `NEBRASKA` |
+| **06** | **Sáb 28/11/2026** | Pronto no Drive | v2 · Fish Audio (Ethan) | *The Kentucky Bend — Isolated by the 1812 Earthquake* | Kentucky / Missouri / Tennessee | `KEEP` / `TRADE` |
+| **07** | **Dom 29/11/2026** | Áudio pronto · S01 ok (Flow pausado) | v2 · Fish Audio (Ethan) | *The Missouri Bootheel — One Stubborn Landowner (1821)* | Missouri vs. Arkansas | `BOOT` |
+
+### Arco 2 — Engenharias Impossíveis & Desastres Históricos (Eps. 08–14)
+| Ep. | Data Programada | Status | Tema | Estados | CTA 1 Palavra |
 | :-: | :--- | :--- | :--- | :--- | :---: |
-| **01** | Postado | v1 · Edge-TTS | *The Toledo War (1835)* | Ohio vs. Michigan | — |
-| **02** | Postado | v1 · Edge-TTS | *The Day Chicago Reversed a River (1900)* | Illinois vs. Missouri | — |
-| **03** | Pronto no Drive | v2 · Edge-TTS | *Why Minnesota Has That Weird Bump (Northwest Angle)* | Minnesota vs. Canada | `BUMP` / `SWAP` |
-| **04** | Pronto no Drive | v2 · Edge-TTS | *The Honey War (1839)* | Iowa vs. Missouri | `HONEY` |
-| **05** | Pronto no Drive | **v2 · Fish Audio (Ethan)** | ***Carter Lake — The Iowa Town Trapped Inside Nebraska (1877)*** | **Iowa vs. Nebraska** | **`IOWA` / `NEBRASKA`** |
-| **06** | Planejado | v2 · Fish Audio | *The Kentucky Bend — Isolated by the 1812 Earthquake* | Kentucky / Missouri / Tennessee | `KEEP` / `TRADE` |
-| **07** | Planejado | v2 · Fish Audio | *The Missouri Bootheel — One Stubborn Landowner (1821)* | Missouri vs. Arkansas | `BOOT` |
-
-### Arco 2 — Engenharias Impossíveis & Desastres Históricos (Dias 8 a 14)
-| Ep. | Status | Tema | Estados |
-| :-: | :--- | :--- | :--- |
-| **08** | Planejado | *The Day Chicago Raised the Entire City 10 Feet Out of the Mud (1856)* | Illinois |
-| **09** | Planejado | *The Great Peshtigo Fire (1871 — Same Night as Chicago, 5x Deadlier)* | Wisconsin |
-| **10** | Planejado | *The Night the Mississippi River Flowed Backwards (1811–1812)* | Missouri / Illinois / Kentucky |
-| **11** | Planejado | *The Edmund Fitzgerald & Lake Superior's Deadliest Storm (1975)* | Michigan / Wisconsin / Minnesota |
-| **12** | Planejado | *How the Mackinac Bridge Ended 20-Mile Ferry Lines (1957)* | Michigan |
-| **13** | Planejado | *Black Sunday: The Day Daylight Vanished on the Plains (1935)* | Kansas / Nebraska / Oklahoma |
-| **14** | Planejado | *Why Michigan's Upper Peninsula Doesn't Belong to Wisconsin* | Michigan vs. Wisconsin |
+| **08** | **Seg 30/11/2026** | Áudio Ethan pronto | *The Day Chicago Raised the Entire City 10 Feet Out of the Mud (1856)* | Illinois | `LIFT` |
+| **09** | **Ter 01/12/2026** | Áudio Ethan pronto | *The Great Peshtigo Fire (1871 — Same Night as Chicago, 5x Deadlier)* | Wisconsin | `REMEMBER` |
+| **10** | **Qua 02/12/2026** | Áudio Ethan pronto | *The Night the Mississippi River Flowed Backwards (1811–1812)* | Missouri / Illinois / Kentucky | `QUAKE` |
+| **11** | **Qui 03/12/2026** | Áudio Ethan pronto | *The Edmund Fitzgerald & Lake Superior's Deadliest Storm (1975)* | Michigan / Wisconsin / Minnesota | `FITZ` |
+| **12** | **Sex 04/12/2026** | Áudio Ethan pronto | *How the Mackinac Bridge Ended 20-Mile Ferry Lines (1957)* | Michigan | `BRIDGE` |
+| **13** | **Sáb 05/12/2026** | Áudio Ethan pronto | *Black Sunday: The Day Daylight Vanished on the Plains (1935)* | Kansas / Nebraska / Oklahoma | `PLAINS` |
+| **14** | **Dom 06/12/2026** | Planejado | *Why Michigan's Upper Peninsula Doesn't Belong to Wisconsin* | Michigan vs. Wisconsin | `UP` |
 
 ### Arco 3 — Curiosidades, Leis & Cidades do Heartland (Dias 15 a 22)
 | Ep. | Status | Tema | Estados |

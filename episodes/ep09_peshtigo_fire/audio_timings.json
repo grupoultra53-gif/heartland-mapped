@@ -1,0 +1,1936 @@
+{
+  "voice": "Fish Audio \u2014 Ethan (@Fish Official)",
+  "total_duration_sec": 65.898,
+  "scenes": [
+    {
+      "id": "scene_01",
+      "text": "How did America's deadliest wildfire kill five times more people than Chicago on the exact same night\u2014and get forgotten?",
+      "start_sec": 0.0,
+      "speech_end_sec": 5.96,
+      "end_sec": 6.68,
+      "words": [
+        {
+          "text": "How",
+          "start": 0.0,
+          "end": 0.12
+        },
+        {
+          "text": "did",
+          "start": 0.12,
+          "end": 0.22
+        },
+        {
+          "text": "America's",
+          "start": 0.22,
+          "end": 0.72
+        },
+        {
+          "text": "deadliest",
+          "start": 0.72,
+          "end": 0.92
+        },
+        {
+          "text": "wildfire",
+          "start": 0.92,
+          "end": 1.72
+        },
+        {
+          "text": "kill",
+          "start": 1.72,
+          "end": 2.06
+        },
+        {
+          "text": "five",
+          "start": 2.06,
+          "end": 2.4
+        },
+        {
+          "text": "times",
+          "start": 2.4,
+          "end": 2.68
+        },
+        {
+          "text": "more",
+          "start": 2.68,
+          "end": 2.98
+        },
+        {
+          "text": "people",
+          "start": 2.98,
+          "end": 3.16
+        },
+        {
+          "text": "than",
+          "start": 3.16,
+          "end": 3.44
+        },
+        {
+          "text": "Chicago",
+          "start": 3.44,
+          "end": 3.6
+        },
+        {
+          "text": "on",
+          "start": 3.6,
+          "end": 4.18
+        },
+        {
+          "text": "the",
+          "start": 4.18,
+          "end": 4.28
+        },
+        {
+          "text": "exact",
+          "start": 4.28,
+          "end": 4.4
+        },
+        {
+          "text": "same",
+          "start": 4.4,
+          "end": 4.82
+        },
+        {
+          "text": "night",
+          "start": 4.82,
+          "end": 5.1
+        },
+        {
+          "text": "and",
+          "start": 5.42,
+          "end": 5.58
+        },
+        {
+          "text": "get",
+          "start": 5.58,
+          "end": 5.7
+        },
+        {
+          "text": "forgotten",
+          "start": 5.7,
+          "end": 5.96
+        }
+      ]
+    },
+    {
+      "id": "scene_02",
+      "text": "Wait... let's rewind.",
+      "start_sec": 6.68,
+      "speech_end_sec": 7.94,
+      "end_sec": 8.6,
+      "words": [
+        {
+          "text": "Wait",
+          "start": 6.74,
+          "end": 6.94
+        },
+        {
+          "text": "let's",
+          "start": 7.3,
+          "end": 7.58
+        },
+        {
+          "text": "rewind",
+          "start": 7.58,
+          "end": 7.94
+        }
+      ]
+    },
+    {
+      "id": "scene_03",
+      "text": "Everyone knows October 8, 1871, as the night the Great Chicago Fire burned three hundred people's lives away.",
+      "start_sec": 8.6,
+      "speech_end_sec": 15.0,
+      "end_sec": 15.48,
+      "words": [
+        {
+          "text": "Everyone",
+          "start": 8.66,
+          "end": 8.86
+        },
+        {
+          "text": "knows",
+          "start": 8.86,
+          "end": 9.2
+        },
+        {
+          "text": "October",
+          "start": 9.2,
+          "end": 9.58
+        },
+        {
+          "text": "8",
+          "start": 9.58,
+          "end": 9.98
+        },
+        {
+          "text": "1871",
+          "start": 10.26,
+          "end": 11.14
+        },
+        {
+          "text": "as",
+          "start": 11.52,
+          "end": 11.74
+        },
+        {
+          "text": "the",
+          "start": 11.74,
+          "end": 11.84
+        },
+        {
+          "text": "night",
+          "start": 11.84,
+          "end": 12.02
+        },
+        {
+          "text": "the",
+          "start": 12.02,
+          "end": 12.2
+        },
+        {
+          "text": "Great",
+          "start": 12.2,
+          "end": 12.42
+        },
+        {
+          "text": "Chicago",
+          "start": 12.42,
+          "end": 12.74
+        },
+        {
+          "text": "Fire",
+          "start": 12.74,
+          "end": 13.14
+        },
+        {
+          "text": "burned",
+          "start": 13.14,
+          "end": 13.4
+        },
+        {
+          "text": "three",
+          "start": 13.4,
+          "end": 13.61
+        },
+        {
+          "text": "hundred",
+          "start": 13.61,
+          "end": 13.82
+        },
+        {
+          "text": "people's",
+          "start": 13.82,
+          "end": 14.5
+        },
+        {
+          "text": "lives",
+          "start": 14.5,
+          "end": 14.66
+        },
+        {
+          "text": "away",
+          "start": 14.66,
+          "end": 15.0
+        }
+      ]
+    },
+    {
+      "id": "scene_04",
+      "text": "Yet 250 miles north in Wisconsin, an even deadlier monster was erupting in the lumber town of Peshtigo.",
+      "start_sec": 15.48,
+      "speech_end_sec": 21.24,
+      "end_sec": 21.92,
+      "words": [
+        {
+          "text": "Yet",
+          "start": 15.54,
+          "end": 15.74
+        },
+        {
+          "text": "250",
+          "start": 15.74,
+          "end": 15.98
+        },
+        {
+          "text": "miles",
+          "start": 15.98,
+          "end": 16.84
+        },
+        {
+          "text": "north",
+          "start": 16.84,
+          "end": 17.16
+        },
+        {
+          "text": "in",
+          "start": 17.16,
+          "end": 17.36
+        },
+        {
+          "text": "Wisconsin",
+          "start": 17.36,
+          "end": 17.66
+        },
+        {
+          "text": "an",
+          "start": 18.26,
+          "end": 18.36
+        },
+        {
+          "text": "even",
+          "start": 18.36,
+          "end": 18.58
+        },
+        {
+          "text": "deadlier",
+          "start": 18.58,
+          "end": 19.0
+        },
+        {
+          "text": "monster",
+          "start": 19.0,
+          "end": 19.26
+        },
+        {
+          "text": "was",
+          "start": 19.26,
+          "end": 19.58
+        },
+        {
+          "text": "erupting",
+          "start": 19.58,
+          "end": 20.0
+        },
+        {
+          "text": "in",
+          "start": 20.0,
+          "end": 20.08
+        },
+        {
+          "text": "the",
+          "start": 20.08,
+          "end": 20.16
+        },
+        {
+          "text": "lumber",
+          "start": 20.16,
+          "end": 20.34
+        },
+        {
+          "text": "town",
+          "start": 20.34,
+          "end": 20.64
+        },
+        {
+          "text": "of",
+          "start": 20.64,
+          "end": 20.8
+        },
+        {
+          "text": "Peshtigo",
+          "start": 20.8,
+          "end": 21.24
+        }
+      ]
+    },
+    {
+      "id": "scene_05",
+      "text": "Months of severe drought had turned a million acres of cut timber and slash piles into bone-dry tinder.",
+      "start_sec": 21.92,
+      "speech_end_sec": 26.82,
+      "end_sec": 26.82,
+      "words": [
+        {
+          "text": "Months",
+          "start": 21.98,
+          "end": 22.28
+        },
+        {
+          "text": "of",
+          "start": 22.28,
+          "end": 22.5
+        },
+        {
+          "text": "severe",
+          "start": 22.5,
+          "end": 22.72
+        },
+        {
+          "text": "drought",
+          "start": 22.72,
+          "end": 23.12
+        },
+        {
+          "text": "had",
+          "start": 23.12,
+          "end": 23.3
+        },
+        {
+          "text": "turned",
+          "start": 23.3,
+          "end": 23.5
+        },
+        {
+          "text": "a",
+          "start": 23.5,
+          "end": 23.62
+        },
+        {
+          "text": "million",
+          "start": 23.62,
+          "end": 23.82
+        },
+        {
+          "text": "acres",
+          "start": 23.82,
+          "end": 24.18
+        },
+        {
+          "text": "of",
+          "start": 24.18,
+          "end": 24.38
+        },
+        {
+          "text": "cut",
+          "start": 24.38,
+          "end": 24.52
+        },
+        {
+          "text": "timber",
+          "start": 24.52,
+          "end": 24.84
+        },
+        {
+          "text": "and",
+          "start": 24.84,
+          "end": 25.04
+        },
+        {
+          "text": "slash",
+          "start": 25.04,
+          "end": 25.22
+        },
+        {
+          "text": "piles",
+          "start": 25.22,
+          "end": 25.58
+        },
+        {
+          "text": "into",
+          "start": 25.58,
+          "end": 26.02
+        },
+        {
+          "text": "bone-dry",
+          "start": 26.02,
+          "end": 26.54
+        },
+        {
+          "text": "tinder",
+          "start": 26.54,
+          "end": 26.82
+        }
+      ]
+    },
+    {
+      "id": "scene_06",
+      "text": "That night, hundred-mile-an-hour winds merged small brush fires into a two-thousand-degree firestorm.",
+      "start_sec": 26.82,
+      "speech_end_sec": 32.44,
+      "end_sec": 32.7,
+      "words": [
+        {
+          "text": "That",
+          "start": 26.82,
+          "end": 27.5
+        },
+        {
+          "text": "night",
+          "start": 27.5,
+          "end": 27.74
+        },
+        {
+          "text": "hundred-mile-an-hour",
+          "start": 28.16,
+          "end": 29.04
+        },
+        {
+          "text": "winds",
+          "start": 29.04,
+          "end": 29.28
+        },
+        {
+          "text": "merged",
+          "start": 29.28,
+          "end": 29.62
+        },
+        {
+          "text": "small",
+          "start": 29.62,
+          "end": 30.02
+        },
+        {
+          "text": "brush",
+          "start": 30.02,
+          "end": 30.36
+        },
+        {
+          "text": "fires",
+          "start": 30.36,
+          "end": 30.62
+        },
+        {
+          "text": "into",
+          "start": 30.62,
+          "end": 30.98
+        },
+        {
+          "text": "a",
+          "start": 30.98,
+          "end": 31.08
+        },
+        {
+          "text": "two-thousand-degree",
+          "start": 31.08,
+          "end": 31.84
+        },
+        {
+          "text": "firestorm",
+          "start": 31.84,
+          "end": 32.44
+        }
+      ]
+    },
+    {
+      "id": "scene_07",
+      "text": "A roaring tornado of flame swallowed Peshtigo in minutes\u2014burning over one million acres across Wisconsin and Michigan.",
+      "start_sec": 32.7,
+      "speech_end_sec": 38.46,
+      "end_sec": 38.98,
+      "words": [
+        {
+          "text": "A",
+          "start": 32.76,
+          "end": 32.84
+        },
+        {
+          "text": "roaring",
+          "start": 32.84,
+          "end": 33.08
+        },
+        {
+          "text": "tornado",
+          "start": 33.08,
+          "end": 33.38
+        },
+        {
+          "text": "of",
+          "start": 33.38,
+          "end": 33.8
+        },
+        {
+          "text": "flame",
+          "start": 33.8,
+          "end": 34.04
+        },
+        {
+          "text": "swallowed",
+          "start": 34.04,
+          "end": 34.48
+        },
+        {
+          "text": "Peshtigo",
+          "start": 34.48,
+          "end": 35.0
+        },
+        {
+          "text": "in",
+          "start": 35.0,
+          "end": 35.22
+        },
+        {
+          "text": "minutes",
+          "start": 35.22,
+          "end": 35.44
+        },
+        {
+          "text": "burning",
+          "start": 35.92,
+          "end": 36.16
+        },
+        {
+          "text": "over",
+          "start": 36.16,
+          "end": 36.44
+        },
+        {
+          "text": "one",
+          "start": 36.44,
+          "end": 36.72
+        },
+        {
+          "text": "million",
+          "start": 36.72,
+          "end": 36.88
+        },
+        {
+          "text": "acres",
+          "start": 36.88,
+          "end": 37.28
+        },
+        {
+          "text": "across",
+          "start": 37.28,
+          "end": 37.56
+        },
+        {
+          "text": "Wisconsin",
+          "start": 37.56,
+          "end": 38.06
+        },
+        {
+          "text": "and",
+          "start": 38.06,
+          "end": 38.28
+        },
+        {
+          "text": "Michigan",
+          "start": 38.28,
+          "end": 38.46
+        }
+      ]
+    },
+    {
+      "id": "scene_08",
+      "text": "Terrified families ran for the Peshtigo River, standing neck-deep in freezing water as burning embers rained from the sky.",
+      "start_sec": 38.98,
+      "speech_end_sec": 45.14,
+      "end_sec": 45.84,
+      "words": [
+        {
+          "text": "Terrified",
+          "start": 39.04,
+          "end": 39.44
+        },
+        {
+          "text": "families",
+          "start": 39.44,
+          "end": 39.94
+        },
+        {
+          "text": "ran",
+          "start": 39.94,
+          "end": 40.18
+        },
+        {
+          "text": "for",
+          "start": 40.18,
+          "end": 40.42
+        },
+        {
+          "text": "the",
+          "start": 40.42,
+          "end": 40.5
+        },
+        {
+          "text": "Peshtigo",
+          "start": 40.5,
+          "end": 40.9
+        },
+        {
+          "text": "River",
+          "start": 40.9,
+          "end": 41.18
+        },
+        {
+          "text": "standing",
+          "start": 41.56,
+          "end": 41.9
+        },
+        {
+          "text": "neck-deep",
+          "start": 41.9,
+          "end": 42.5
+        },
+        {
+          "text": "in",
+          "start": 42.5,
+          "end": 42.68
+        },
+        {
+          "text": "freezing",
+          "start": 42.68,
+          "end": 42.94
+        },
+        {
+          "text": "water",
+          "start": 42.94,
+          "end": 43.32
+        },
+        {
+          "text": "as",
+          "start": 43.32,
+          "end": 43.68
+        },
+        {
+          "text": "burning",
+          "start": 43.68,
+          "end": 43.86
+        },
+        {
+          "text": "embers",
+          "start": 43.86,
+          "end": 44.34
+        },
+        {
+          "text": "rained",
+          "start": 44.34,
+          "end": 44.64
+        },
+        {
+          "text": "from",
+          "start": 44.64,
+          "end": 44.82
+        },
+        {
+          "text": "the",
+          "start": 44.82,
+          "end": 44.92
+        },
+        {
+          "text": "sky",
+          "start": 44.92,
+          "end": 45.14
+        }
+      ]
+    },
+    {
+      "id": "scene_09",
+      "text": "Between twelve hundred and twenty-five hundred people perished\u2014the deadliest wildfire in recorded history.",
+      "start_sec": 45.84,
+      "speech_end_sec": 50.82,
+      "end_sec": 51.36,
+      "words": [
+        {
+          "text": "Between",
+          "start": 45.9,
+          "end": 46.12
+        },
+        {
+          "text": "twelve",
+          "start": 46.12,
+          "end": 46.44
+        },
+        {
+          "text": "hundred",
+          "start": 46.44,
+          "end": 46.76
+        },
+        {
+          "text": "and",
+          "start": 46.76,
+          "end": 46.92
+        },
+        {
+          "text": "twenty-five",
+          "start": 46.92,
+          "end": 47.19
+        },
+        {
+          "text": "hundred",
+          "start": 47.19,
+          "end": 47.46
+        },
+        {
+          "text": "people",
+          "start": 47.46,
+          "end": 48.0
+        },
+        {
+          "text": "perished",
+          "start": 48.0,
+          "end": 48.42
+        },
+        {
+          "text": "the",
+          "start": 48.82,
+          "end": 48.92
+        },
+        {
+          "text": "deadliest",
+          "start": 48.92,
+          "end": 49.2
+        },
+        {
+          "text": "wildfire",
+          "start": 49.2,
+          "end": 49.64
+        },
+        {
+          "text": "in",
+          "start": 49.64,
+          "end": 50.14
+        },
+        {
+          "text": "recorded",
+          "start": 50.14,
+          "end": 50.26
+        },
+        {
+          "text": "history",
+          "start": 50.26,
+          "end": 50.82
+        }
+      ]
+    },
+    {
+      "id": "scene_10",
+      "text": "Why did the world barely hear about it? The flames melted Peshtigo's telegraph wires in the opening minutes.",
+      "start_sec": 51.36,
+      "speech_end_sec": 56.64,
+      "end_sec": 57.18,
+      "words": [
+        {
+          "text": "Why",
+          "start": 51.42,
+          "end": 51.74
+        },
+        {
+          "text": "did",
+          "start": 51.74,
+          "end": 51.86
+        },
+        {
+          "text": "the",
+          "start": 51.86,
+          "end": 51.96
+        },
+        {
+          "text": "world",
+          "start": 51.96,
+          "end": 52.18
+        },
+        {
+          "text": "barely",
+          "start": 52.18,
+          "end": 52.44
+        },
+        {
+          "text": "hear",
+          "start": 52.44,
+          "end": 52.76
+        },
+        {
+          "text": "about",
+          "start": 52.76,
+          "end": 53.06
+        },
+        {
+          "text": "it",
+          "start": 53.06,
+          "end": 53.2
+        },
+        {
+          "text": "The",
+          "start": 53.2,
+          "end": 53.66
+        },
+        {
+          "text": "flames",
+          "start": 53.66,
+          "end": 53.92
+        },
+        {
+          "text": "melted",
+          "start": 53.92,
+          "end": 54.38
+        },
+        {
+          "text": "Peshtigo's",
+          "start": 54.38,
+          "end": 54.96
+        },
+        {
+          "text": "telegraph",
+          "start": 54.96,
+          "end": 55.26
+        },
+        {
+          "text": "wires",
+          "start": 55.26,
+          "end": 55.68
+        },
+        {
+          "text": "in",
+          "start": 55.68,
+          "end": 55.9
+        },
+        {
+          "text": "the",
+          "start": 55.9,
+          "end": 55.98
+        },
+        {
+          "text": "opening",
+          "start": 55.98,
+          "end": 56.22
+        },
+        {
+          "text": "minutes",
+          "start": 56.22,
+          "end": 56.64
+        }
+      ]
+    },
+    {
+      "id": "scene_11",
+      "text": "While Chicago's tragedy filled every front page, Wisconsin's horror stayed silent for days.",
+      "start_sec": 57.18,
+      "speech_end_sec": 61.82,
+      "end_sec": 62.18,
+      "words": [
+        {
+          "text": "While",
+          "start": 57.24,
+          "end": 57.34
+        },
+        {
+          "text": "Chicago's",
+          "start": 57.34,
+          "end": 57.9
+        },
+        {
+          "text": "tragedy",
+          "start": 57.9,
+          "end": 58.08
+        },
+        {
+          "text": "filled",
+          "start": 58.08,
+          "end": 58.52
+        },
+        {
+          "text": "every",
+          "start": 58.52,
+          "end": 58.82
+        },
+        {
+          "text": "front",
+          "start": 58.82,
+          "end": 59.1
+        },
+        {
+          "text": "page",
+          "start": 59.1,
+          "end": 59.4
+        },
+        {
+          "text": "Wisconsin's",
+          "start": 59.96,
+          "end": 60.44
+        },
+        {
+          "text": "horror",
+          "start": 60.44,
+          "end": 60.62
+        },
+        {
+          "text": "stayed",
+          "start": 60.62,
+          "end": 60.98
+        },
+        {
+          "text": "silent",
+          "start": 60.98,
+          "end": 61.32
+        },
+        {
+          "text": "for",
+          "start": 61.32,
+          "end": 61.58
+        },
+        {
+          "text": "days",
+          "start": 61.58,
+          "end": 61.82
+        }
+      ]
+    },
+    {
+      "id": "scene_12",
+      "text": "Comment REMEMBER so Peshtigo's story isn't forgotten\u2014and now you know...",
+      "start_sec": 62.18,
+      "speech_end_sec": 65.6,
+      "end_sec": 65.898,
+      "words": [
+        {
+          "text": "Comment",
+          "start": 62.24,
+          "end": 62.4
+        },
+        {
+          "text": "REMEMBER",
+          "start": 62.4,
+          "end": 62.86
+        },
+        {
+          "text": "so",
+          "start": 62.86,
+          "end": 63.18
+        },
+        {
+          "text": "Peshtigo's",
+          "start": 63.18,
+          "end": 63.7
+        },
+        {
+          "text": "story",
+          "start": 63.7,
+          "end": 63.88
+        },
+        {
+          "text": "isn't",
+          "start": 63.88,
+          "end": 64.32
+        },
+        {
+          "text": "forgotten",
+          "start": 64.32,
+          "end": 64.54
+        },
+        {
+          "text": "and",
+          "start": 65.06,
+          "end": 65.12
+        },
+        {
+          "text": "now",
+          "start": 65.12,
+          "end": 65.28
+        },
+        {
+          "text": "you",
+          "start": 65.28,
+          "end": 65.42
+        },
+        {
+          "text": "know",
+          "start": 65.42,
+          "end": 65.6
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "text": "How",
+      "start": 0.0,
+      "end": 0.12
+    },
+    {
+      "text": "did",
+      "start": 0.12,
+      "end": 0.22
+    },
+    {
+      "text": "America's",
+      "start": 0.22,
+      "end": 0.72
+    },
+    {
+      "text": "deadliest",
+      "start": 0.72,
+      "end": 0.92
+    },
+    {
+      "text": "wildfire",
+      "start": 0.92,
+      "end": 1.72
+    },
+    {
+      "text": "kill",
+      "start": 1.72,
+      "end": 2.06
+    },
+    {
+      "text": "five",
+      "start": 2.06,
+      "end": 2.4
+    },
+    {
+      "text": "times",
+      "start": 2.4,
+      "end": 2.68
+    },
+    {
+      "text": "more",
+      "start": 2.68,
+      "end": 2.98
+    },
+    {
+      "text": "people",
+      "start": 2.98,
+      "end": 3.16
+    },
+    {
+      "text": "than",
+      "start": 3.16,
+      "end": 3.44
+    },
+    {
+      "text": "Chicago",
+      "start": 3.44,
+      "end": 3.6
+    },
+    {
+      "text": "on",
+      "start": 3.6,
+      "end": 4.18
+    },
+    {
+      "text": "the",
+      "start": 4.18,
+      "end": 4.28
+    },
+    {
+      "text": "exact",
+      "start": 4.28,
+      "end": 4.4
+    },
+    {
+      "text": "same",
+      "start": 4.4,
+      "end": 4.82
+    },
+    {
+      "text": "night",
+      "start": 4.82,
+      "end": 5.1
+    },
+    {
+      "text": "and",
+      "start": 5.42,
+      "end": 5.58
+    },
+    {
+      "text": "get",
+      "start": 5.58,
+      "end": 5.7
+    },
+    {
+      "text": "forgotten",
+      "start": 5.7,
+      "end": 5.96
+    },
+    {
+      "text": "Wait",
+      "start": 6.74,
+      "end": 6.94
+    },
+    {
+      "text": "let's",
+      "start": 7.3,
+      "end": 7.58
+    },
+    {
+      "text": "rewind",
+      "start": 7.58,
+      "end": 7.94
+    },
+    {
+      "text": "Everyone",
+      "start": 8.66,
+      "end": 8.86
+    },
+    {
+      "text": "knows",
+      "start": 8.86,
+      "end": 9.2
+    },
+    {
+      "text": "October",
+      "start": 9.2,
+      "end": 9.58
+    },
+    {
+      "text": "8",
+      "start": 9.58,
+      "end": 9.98
+    },
+    {
+      "text": "1871",
+      "start": 10.26,
+      "end": 11.14
+    },
+    {
+      "text": "as",
+      "start": 11.52,
+      "end": 11.74
+    },
+    {
+      "text": "the",
+      "start": 11.74,
+      "end": 11.84
+    },
+    {
+      "text": "night",
+      "start": 11.84,
+      "end": 12.02
+    },
+    {
+      "text": "the",
+      "start": 12.02,
+      "end": 12.2
+    },
+    {
+      "text": "Great",
+      "start": 12.2,
+      "end": 12.42
+    },
+    {
+      "text": "Chicago",
+      "start": 12.42,
+      "end": 12.74
+    },
+    {
+      "text": "Fire",
+      "start": 12.74,
+      "end": 13.14
+    },
+    {
+      "text": "burned",
+      "start": 13.14,
+      "end": 13.4
+    },
+    {
+      "text": "three",
+      "start": 13.4,
+      "end": 13.61
+    },
+    {
+      "text": "hundred",
+      "start": 13.61,
+      "end": 13.82
+    },
+    {
+      "text": "people's",
+      "start": 13.82,
+      "end": 14.5
+    },
+    {
+      "text": "lives",
+      "start": 14.5,
+      "end": 14.66
+    },
+    {
+      "text": "away",
+      "start": 14.66,
+      "end": 15.0
+    },
+    {
+      "text": "Yet",
+      "start": 15.54,
+      "end": 15.74
+    },
+    {
+      "text": "250",
+      "start": 15.74,
+      "end": 15.98
+    },
+    {
+      "text": "miles",
+      "start": 15.98,
+      "end": 16.84
+    },
+    {
+      "text": "north",
+      "start": 16.84,
+      "end": 17.16
+    },
+    {
+      "text": "in",
+      "start": 17.16,
+      "end": 17.36
+    },
+    {
+      "text": "Wisconsin",
+      "start": 17.36,
+      "end": 17.66
+    },
+    {
+      "text": "an",
+      "start": 18.26,
+      "end": 18.36
+    },
+    {
+      "text": "even",
+      "start": 18.36,
+      "end": 18.58
+    },
+    {
+      "text": "deadlier",
+      "start": 18.58,
+      "end": 19.0
+    },
+    {
+      "text": "monster",
+      "start": 19.0,
+      "end": 19.26
+    },
+    {
+      "text": "was",
+      "start": 19.26,
+      "end": 19.58
+    },
+    {
+      "text": "erupting",
+      "start": 19.58,
+      "end": 20.0
+    },
+    {
+      "text": "in",
+      "start": 20.0,
+      "end": 20.08
+    },
+    {
+      "text": "the",
+      "start": 20.08,
+      "end": 20.16
+    },
+    {
+      "text": "lumber",
+      "start": 20.16,
+      "end": 20.34
+    },
+    {
+      "text": "town",
+      "start": 20.34,
+      "end": 20.64
+    },
+    {
+      "text": "of",
+      "start": 20.64,
+      "end": 20.8
+    },
+    {
+      "text": "Peshtigo",
+      "start": 20.8,
+      "end": 21.24
+    },
+    {
+      "text": "Months",
+      "start": 21.98,
+      "end": 22.28
+    },
+    {
+      "text": "of",
+      "start": 22.28,
+      "end": 22.5
+    },
+    {
+      "text": "severe",
+      "start": 22.5,
+      "end": 22.72
+    },
+    {
+      "text": "drought",
+      "start": 22.72,
+      "end": 23.12
+    },
+    {
+      "text": "had",
+      "start": 23.12,
+      "end": 23.3
+    },
+    {
+      "text": "turned",
+      "start": 23.3,
+      "end": 23.5
+    },
+    {
+      "text": "a",
+      "start": 23.5,
+      "end": 23.62
+    },
+    {
+      "text": "million",
+      "start": 23.62,
+      "end": 23.82
+    },
+    {
+      "text": "acres",
+      "start": 23.82,
+      "end": 24.18
+    },
+    {
+      "text": "of",
+      "start": 24.18,
+      "end": 24.38
+    },
+    {
+      "text": "cut",
+      "start": 24.38,
+      "end": 24.52
+    },
+    {
+      "text": "timber",
+      "start": 24.52,
+      "end": 24.84
+    },
+    {
+      "text": "and",
+      "start": 24.84,
+      "end": 25.04
+    },
+    {
+      "text": "slash",
+      "start": 25.04,
+      "end": 25.22
+    },
+    {
+      "text": "piles",
+      "start": 25.22,
+      "end": 25.58
+    },
+    {
+      "text": "into",
+      "start": 25.58,
+      "end": 26.02
+    },
+    {
+      "text": "bone-dry",
+      "start": 26.02,
+      "end": 26.54
+    },
+    {
+      "text": "tinder",
+      "start": 26.54,
+      "end": 26.82
+    },
+    {
+      "text": "That",
+      "start": 26.82,
+      "end": 27.5
+    },
+    {
+      "text": "night",
+      "start": 27.5,
+      "end": 27.74
+    },
+    {
+      "text": "hundred-mile-an-hour",
+      "start": 28.16,
+      "end": 29.04
+    },
+    {
+      "text": "winds",
+      "start": 29.04,
+      "end": 29.28
+    },
+    {
+      "text": "merged",
+      "start": 29.28,
+      "end": 29.62
+    },
+    {
+      "text": "small",
+      "start": 29.62,
+      "end": 30.02
+    },
+    {
+      "text": "brush",
+      "start": 30.02,
+      "end": 30.36
+    },
+    {
+      "text": "fires",
+      "start": 30.36,
+      "end": 30.62
+    },
+    {
+      "text": "into",
+      "start": 30.62,
+      "end": 30.98
+    },
+    {
+      "text": "a",
+      "start": 30.98,
+      "end": 31.08
+    },
+    {
+      "text": "two-thousand-degree",
+      "start": 31.08,
+      "end": 31.84
+    },
+    {
+      "text": "firestorm",
+      "start": 31.84,
+      "end": 32.44
+    },
+    {
+      "text": "A",
+      "start": 32.76,
+      "end": 32.84
+    },
+    {
+      "text": "roaring",
+      "start": 32.84,
+      "end": 33.08
+    },
+    {
+      "text": "tornado",
+      "start": 33.08,
+      "end": 33.38
+    },
+    {
+      "text": "of",
+      "start": 33.38,
+      "end": 33.8
+    },
+    {
+      "text": "flame",
+      "start": 33.8,
+      "end": 34.04
+    },
+    {
+      "text": "swallowed",
+      "start": 34.04,
+      "end": 34.48
+    },
+    {
+      "text": "Peshtigo",
+      "start": 34.48,
+      "end": 35.0
+    },
+    {
+      "text": "in",
+      "start": 35.0,
+      "end": 35.22
+    },
+    {
+      "text": "minutes",
+      "start": 35.22,
+      "end": 35.44
+    },
+    {
+      "text": "burning",
+      "start": 35.92,
+      "end": 36.16
+    },
+    {
+      "text": "over",
+      "start": 36.16,
+      "end": 36.44
+    },
+    {
+      "text": "one",
+      "start": 36.44,
+      "end": 36.72
+    },
+    {
+      "text": "million",
+      "start": 36.72,
+      "end": 36.88
+    },
+    {
+      "text": "acres",
+      "start": 36.88,
+      "end": 37.28
+    },
+    {
+      "text": "across",
+      "start": 37.28,
+      "end": 37.56
+    },
+    {
+      "text": "Wisconsin",
+      "start": 37.56,
+      "end": 38.06
+    },
+    {
+      "text": "and",
+      "start": 38.06,
+      "end": 38.28
+    },
+    {
+      "text": "Michigan",
+      "start": 38.28,
+      "end": 38.46
+    },
+    {
+      "text": "Terrified",
+      "start": 39.04,
+      "end": 39.44
+    },
+    {
+      "text": "families",
+      "start": 39.44,
+      "end": 39.94
+    },
+    {
+      "text": "ran",
+      "start": 39.94,
+      "end": 40.18
+    },
+    {
+      "text": "for",
+      "start": 40.18,
+      "end": 40.42
+    },
+    {
+      "text": "the",
+      "start": 40.42,
+      "end": 40.5
+    },
+    {
+      "text": "Peshtigo",
+      "start": 40.5,
+      "end": 40.9
+    },
+    {
+      "text": "River",
+      "start": 40.9,
+      "end": 41.18
+    },
+    {
+      "text": "standing",
+      "start": 41.56,
+      "end": 41.9
+    },
+    {
+      "text": "neck-deep",
+      "start": 41.9,
+      "end": 42.5
+    },
+    {
+      "text": "in",
+      "start": 42.5,
+      "end": 42.68
+    },
+    {
+      "text": "freezing",
+      "start": 42.68,
+      "end": 42.94
+    },
+    {
+      "text": "water",
+      "start": 42.94,
+      "end": 43.32
+    },
+    {
+      "text": "as",
+      "start": 43.32,
+      "end": 43.68
+    },
+    {
+      "text": "burning",
+      "start": 43.68,
+      "end": 43.86
+    },
+    {
+      "text": "embers",
+      "start": 43.86,
+      "end": 44.34
+    },
+    {
+      "text": "rained",
+      "start": 44.34,
+      "end": 44.64
+    },
+    {
+      "text": "from",
+      "start": 44.64,
+      "end": 44.82
+    },
+    {
+      "text": "the",
+      "start": 44.82,
+      "end": 44.92
+    },
+    {
+      "text": "sky",
+      "start": 44.92,
+      "end": 45.14
+    },
+    {
+      "text": "Between",
+      "start": 45.9,
+      "end": 46.12
+    },
+    {
+      "text": "twelve",
+      "start": 46.12,
+      "end": 46.44
+    },
+    {
+      "text": "hundred",
+      "start": 46.44,
+      "end": 46.76
+    },
+    {
+      "text": "and",
+      "start": 46.76,
+      "end": 46.92
+    },
+    {
+      "text": "twenty-five",
+      "start": 46.92,
+      "end": 47.19
+    },
+    {
+      "text": "hundred",
+      "start": 47.19,
+      "end": 47.46
+    },
+    {
+      "text": "people",
+      "start": 47.46,
+      "end": 48.0
+    },
+    {
+      "text": "perished",
+      "start": 48.0,
+      "end": 48.42
+    },
+    {
+      "text": "the",
+      "start": 48.82,
+      "end": 48.92
+    },
+    {
+      "text": "deadliest",
+      "start": 48.92,
+      "end": 49.2
+    },
+    {
+      "text": "wildfire",
+      "start": 49.2,
+      "end": 49.64
+    },
+    {
+      "text": "in",
+      "start": 49.64,
+      "end": 50.14
+    },
+    {
+      "text": "recorded",
+      "start": 50.14,
+      "end": 50.26
+    },
+    {
+      "text": "history",
+      "start": 50.26,
+      "end": 50.82
+    },
+    {
+      "text": "Why",
+      "start": 51.42,
+      "end": 51.74
+    },
+    {
+      "text": "did",
+      "start": 51.74,
+      "end": 51.86
+    },
+    {
+      "text": "the",
+      "start": 51.86,
+      "end": 51.96
+    },
+    {
+      "text": "world",
+      "start": 51.96,
+      "end": 52.18
+    },
+    {
+      "text": "barely",
+      "start": 52.18,
+      "end": 52.44
+    },
+    {
+      "text": "hear",
+      "start": 52.44,
+      "end": 52.76
+    },
+    {
+      "text": "about",
+      "start": 52.76,
+      "end": 53.06
+    },
+    {
+      "text": "it",
+      "start": 53.06,
+      "end": 53.2
+    },
+    {
+      "text": "The",
+      "start": 53.2,
+      "end": 53.66
+    },
+    {
+      "text": "flames",
+      "start": 53.66,
+      "end": 53.92
+    },
+    {
+      "text": "melted",
+      "start": 53.92,
+      "end": 54.38
+    },
+    {
+      "text": "Peshtigo's",
+      "start": 54.38,
+      "end": 54.96
+    },
+    {
+      "text": "telegraph",
+      "start": 54.96,
+      "end": 55.26
+    },
+    {
+      "text": "wires",
+      "start": 55.26,
+      "end": 55.68
+    },
+    {
+      "text": "in",
+      "start": 55.68,
+      "end": 55.9
+    },
+    {
+      "text": "the",
+      "start": 55.9,
+      "end": 55.98
+    },
+    {
+      "text": "opening",
+      "start": 55.98,
+      "end": 56.22
+    },
+    {
+      "text": "minutes",
+      "start": 56.22,
+      "end": 56.64
+    },
+    {
+      "text": "While",
+      "start": 57.24,
+      "end": 57.34
+    },
+    {
+      "text": "Chicago's",
+      "start": 57.34,
+      "end": 57.9
+    },
+    {
+      "text": "tragedy",
+      "start": 57.9,
+      "end": 58.08
+    },
+    {
+      "text": "filled",
+      "start": 58.08,
+      "end": 58.52
+    },
+    {
+      "text": "every",
+      "start": 58.52,
+      "end": 58.82
+    },
+    {
+      "text": "front",
+      "start": 58.82,
+      "end": 59.1
+    },
+    {
+      "text": "page",
+      "start": 59.1,
+      "end": 59.4
+    },
+    {
+      "text": "Wisconsin's",
+      "start": 59.96,
+      "end": 60.44
+    },
+    {
+      "text": "horror",
+      "start": 60.44,
+      "end": 60.62
+    },
+    {
+      "text": "stayed",
+      "start": 60.62,
+      "end": 60.98
+    },
+    {
+      "text": "silent",
+      "start": 60.98,
+      "end": 61.32
+    },
+    {
+      "text": "for",
+      "start": 61.32,
+      "end": 61.58
+    },
+    {
+      "text": "days",
+      "start": 61.58,
+      "end": 61.82
+    },
+    {
+      "text": "Comment",
+      "start": 62.24,
+      "end": 62.4
+    },
+    {
+      "text": "REMEMBER",
+      "start": 62.4,
+      "end": 62.86
+    },
+    {
+      "text": "so",
+      "start": 62.86,
+      "end": 63.18
+    },
+    {
+      "text": "Peshtigo's",
+      "start": 63.18,
+      "end": 63.7
+    },
+    {
+      "text": "story",
+      "start": 63.7,
+      "end": 63.88
+    },
+    {
+      "text": "isn't",
+      "start": 63.88,
+      "end": 64.32
+    },
+    {
+      "text": "forgotten",
+      "start": 64.32,
+      "end": 64.54
+    },
+    {
+      "text": "and",
+      "start": 65.06,
+      "end": 65.12
+    },
+    {
+      "text": "now",
+      "start": 65.12,
+      "end": 65.28
+    },
+    {
+      "text": "you",
+      "start": 65.28,
+      "end": 65.42
+    },
+    {
+      "text": "know",
+      "start": 65.42,
+      "end": 65.6
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+================================================================================
+HEARTLAND MAPPED — EPISODE 06 (v2): THE KENTUCKY BEND (1812)
+KIT PRONTO PARA POSTAR (FACEBOOK REELS & YOUTUBE SHORTS)
+================================================================================
+
+DATA SUGERIDA PARA PROGRAMAR:
+Sabado, 28/11/2026
+
+ARQUIVO DE VIDEO:
+heartland_mapped_ep06_kentucky_bend.mp4 (65s | 720x1280 | 30 FPS | v2 + Fish Audio Ethan)
+Google Drive: https://drive.google.com/file/d/1teWauzA1C1b55Fm_sgOYu3y6fmyq9t5Z/view?usp=drivesdk
+
+--------------------------------------------------------------------------------
+1. FACEBOOK REELS — LEGENDA (COPIAR E COLAR)
+--------------------------------------------------------------------------------
+Why is there a chunk of Kentucky completely trapped inside Tennessee and Missouri? 🗺️🌊
+
+After the massive 1811–1812 New Madrid earthquakes twisted the Mississippi River, surveyors finished the state line straight across a giant double horseshoe loop—detaching 30 square miles of Kentucky from the rest of the state! Today, locals have to drive 40 miles through Tennessee just to visit their own county courthouse!
+
+Comment KEEP if Kentucky should hold onto the Bend forever, or TRADE if it belongs to Tennessee! 👇
+
+#MidwestHistory #Kentucky #Tennessee #Missouri #KentuckyBend #MississippiRiver #NewMadrid #AmericanHistory #Geography #HeartlandMapped
+
+--------------------------------------------------------------------------------
+2. YOUTUBE SHORTS — TITULO (COPIAR E COLAR)
+--------------------------------------------------------------------------------
+Why Part of Kentucky Is Trapped Inside Tennessee & Missouri 🗺️
+
+(Alternativa: The 1812 Earthquake That Trapped Part of Kentucky Inside Tennessee 🌊🗺️)
+
+--------------------------------------------------------------------------------
+3. YOUTUBE SHORTS — DESCRICAO (COPIAR E COLAR)
+--------------------------------------------------------------------------------
+Why is there a chunk of Kentucky completely trapped inside Tennessee and Missouri? In 1779, surveyors stopped the Kentucky–Tennessee border short of the Mississippi River. After the massive 1811–1812 New Madrid earthquakes twisted the river's path, the finished line sliced straight across a giant double horseshoe bend—leaving 30 square miles of Kentucky completely detached.
+
+Surrounded on three sides by the river and Missouri, the only road out leads south into Tennessee—meaning residents drive 40 miles through another state just to reach their own Fulton County courthouse. Even Mark Twain wrote about it!
+
+Comment KEEP for Kentucky or TRADE for Tennessee! 👇
+
+#MidwestHistory #Kentucky #Tennessee #Missouri #KentuckyBend #MississippiRiver #MarkTwain #AmericanHistory #Geography #Shorts #HeartlandMapped
+
+--------------------------------------------------------------------------------
+4. COMENTARIO FIXADO (POSTAR LOGO APOS PUBLICAR E FIXAR NO TOPO)
+--------------------------------------------------------------------------------
+Settle a 200-year-old border debate! Comment KEEP if Kentucky should hold onto Kentucky Bend forever, or TRADE if Tennessee deserves it—and tell us which state you're watching from! 👇
+
+--------------------------------------------------------------------------------
+5. CAPA (THUMBNAIL) E CHECKLIST RAPIDO
+--------------------------------------------------------------------------------
+- Data de programacao: Sabado, 28/11/2026 (logo apos o Ep. 05 Carter Lake na Sexta, 27/11/2026).
+- Capa sugerida: Cena 01 Quadro 0 (close-up no chibi acenando dentro do Kentucky Bend brilhando entre Tennessee e Missouri), Cena 07 (Tennessee implorando "TRADE?!" vs. governador do Kentucky respondendo "NOPE!") ou Cena 09 (Mark Twain com o barco a vapor no por do sol do rio Mississippi).
+- Legenda automatica da plataforma: DESLIGADA (o video ja tem legenda grande embutida).
+- Musica da plataforma: NAO adicionar (o video ja tem narracao Ethan Fish Audio + foley SFX + trilha acustica com auto-ducking).
+- YouTube: marcar "Nao e conteudo para criancas" (Not made for kids), categoria Education, idioma English (United States).
+- A/B Log: anotar metricas de 48h em RETENTION_LOG.md.

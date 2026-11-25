@@ -1,0 +1,1946 @@
+{
+  "voice": "Fish Audio \u2014 Ethan (@Fish Official)",
+  "total_duration_sec": 65.292,
+  "scenes": [
+    {
+      "id": "scene_01",
+      "text": "How did one stubborn farmer bend Missouri's southern border fifty miles into Arkansas?",
+      "start_sec": 0.0,
+      "speech_end_sec": 3.8,
+      "end_sec": 4.56,
+      "words": [
+        {
+          "text": "How",
+          "start": 0.0,
+          "end": 0.12
+        },
+        {
+          "text": "did",
+          "start": 0.12,
+          "end": 0.22
+        },
+        {
+          "text": "one",
+          "start": 0.22,
+          "end": 0.42
+        },
+        {
+          "text": "stubborn",
+          "start": 0.42,
+          "end": 0.72
+        },
+        {
+          "text": "farmer",
+          "start": 0.72,
+          "end": 1.06
+        },
+        {
+          "text": "bend",
+          "start": 1.06,
+          "end": 1.48
+        },
+        {
+          "text": "Missouri's",
+          "start": 1.48,
+          "end": 2.0
+        },
+        {
+          "text": "southern",
+          "start": 2.0,
+          "end": 2.2
+        },
+        {
+          "text": "border",
+          "start": 2.2,
+          "end": 2.48
+        },
+        {
+          "text": "fifty",
+          "start": 2.48,
+          "end": 2.86
+        },
+        {
+          "text": "miles",
+          "start": 2.86,
+          "end": 3.22
+        },
+        {
+          "text": "into",
+          "start": 3.22,
+          "end": 3.58
+        },
+        {
+          "text": "Arkansas",
+          "start": 3.58,
+          "end": 3.8
+        }
+      ]
+    },
+    {
+      "id": "scene_02",
+      "text": "Wait... let's rewind.",
+      "start_sec": 4.56,
+      "speech_end_sec": 6.04,
+      "end_sec": 6.7,
+      "words": [
+        {
+          "text": "Wait",
+          "start": 4.62,
+          "end": 4.94
+        },
+        {
+          "text": "let's",
+          "start": 5.28,
+          "end": 5.64
+        },
+        {
+          "text": "rewind",
+          "start": 5.64,
+          "end": 6.04
+        }
+      ]
+    },
+    {
+      "id": "scene_03",
+      "text": "In 1818, Congress drafted Missouri's state map as a clean rectangle ending neatly along the 36-30 parallel.",
+      "start_sec": 6.7,
+      "speech_end_sec": 13.24,
+      "end_sec": 14.0,
+      "words": [
+        {
+          "text": "In",
+          "start": 6.76,
+          "end": 6.82
+        },
+        {
+          "text": "1818",
+          "start": 6.82,
+          "end": 7.62
+        },
+        {
+          "text": "Congress",
+          "start": 8.12,
+          "end": 8.42
+        },
+        {
+          "text": "drafted",
+          "start": 8.42,
+          "end": 8.7
+        },
+        {
+          "text": "Missouri's",
+          "start": 8.7,
+          "end": 9.36
+        },
+        {
+          "text": "state",
+          "start": 9.36,
+          "end": 9.48
+        },
+        {
+          "text": "map",
+          "start": 9.48,
+          "end": 9.74
+        },
+        {
+          "text": "as",
+          "start": 9.74,
+          "end": 10.0
+        },
+        {
+          "text": "a",
+          "start": 10.0,
+          "end": 10.06
+        },
+        {
+          "text": "clean",
+          "start": 10.06,
+          "end": 10.28
+        },
+        {
+          "text": "rectangle",
+          "start": 10.28,
+          "end": 10.64
+        },
+        {
+          "text": "ending",
+          "start": 10.64,
+          "end": 11.2
+        },
+        {
+          "text": "neatly",
+          "start": 11.2,
+          "end": 11.54
+        },
+        {
+          "text": "along",
+          "start": 11.54,
+          "end": 11.9
+        },
+        {
+          "text": "the",
+          "start": 11.9,
+          "end": 12.04
+        },
+        {
+          "text": "36-30",
+          "start": 12.04,
+          "end": 12.98
+        },
+        {
+          "text": "parallel",
+          "start": 12.98,
+          "end": 13.24
+        }
+      ]
+    },
+    {
+      "id": "scene_04",
+      "text": "That straight line would have sliced off the southeastern lowlands and dumped them into the raw Arkansas Territory.",
+      "start_sec": 14.0,
+      "speech_end_sec": 18.9,
+      "end_sec": 19.82,
+      "words": [
+        {
+          "text": "That",
+          "start": 14.06,
+          "end": 14.16
+        },
+        {
+          "text": "straight",
+          "start": 14.16,
+          "end": 14.38
+        },
+        {
+          "text": "line",
+          "start": 14.38,
+          "end": 14.76
+        },
+        {
+          "text": "would",
+          "start": 14.76,
+          "end": 14.96
+        },
+        {
+          "text": "have",
+          "start": 14.96,
+          "end": 15.04
+        },
+        {
+          "text": "sliced",
+          "start": 15.04,
+          "end": 15.24
+        },
+        {
+          "text": "off",
+          "start": 15.24,
+          "end": 15.58
+        },
+        {
+          "text": "the",
+          "start": 15.58,
+          "end": 15.74
+        },
+        {
+          "text": "southeastern",
+          "start": 15.74,
+          "end": 16.22
+        },
+        {
+          "text": "lowlands",
+          "start": 16.22,
+          "end": 16.68
+        },
+        {
+          "text": "and",
+          "start": 16.68,
+          "end": 16.94
+        },
+        {
+          "text": "dumped",
+          "start": 16.94,
+          "end": 17.16
+        },
+        {
+          "text": "them",
+          "start": 17.16,
+          "end": 17.4
+        },
+        {
+          "text": "into",
+          "start": 17.4,
+          "end": 17.62
+        },
+        {
+          "text": "the",
+          "start": 17.62,
+          "end": 17.74
+        },
+        {
+          "text": "raw",
+          "start": 17.74,
+          "end": 17.92
+        },
+        {
+          "text": "Arkansas",
+          "start": 17.92,
+          "end": 18.38
+        },
+        {
+          "text": "Territory",
+          "start": 18.38,
+          "end": 18.9
+        }
+      ]
+    },
+    {
+      "id": "scene_05",
+      "text": "Enter John Hardeman Walker\u2014a wealthy cattle rancher who stayed after the 1812 earthquakes and bought up cheap land.",
+      "start_sec": 19.82,
+      "speech_end_sec": 25.94,
+      "end_sec": 26.36,
+      "words": [
+        {
+          "text": "Enter",
+          "start": 19.88,
+          "end": 20.22
+        },
+        {
+          "text": "John",
+          "start": 20.22,
+          "end": 20.5
+        },
+        {
+          "text": "Hardeman",
+          "start": 20.5,
+          "end": 20.9
+        },
+        {
+          "text": "Walker",
+          "start": 20.9,
+          "end": 21.12
+        },
+        {
+          "text": "a",
+          "start": 21.68,
+          "end": 21.8
+        },
+        {
+          "text": "wealthy",
+          "start": 21.8,
+          "end": 22.0
+        },
+        {
+          "text": "cattle",
+          "start": 22.0,
+          "end": 22.34
+        },
+        {
+          "text": "rancher",
+          "start": 22.34,
+          "end": 22.84
+        },
+        {
+          "text": "who",
+          "start": 22.84,
+          "end": 22.98
+        },
+        {
+          "text": "stayed",
+          "start": 22.98,
+          "end": 23.18
+        },
+        {
+          "text": "after",
+          "start": 23.18,
+          "end": 23.48
+        },
+        {
+          "text": "the",
+          "start": 23.48,
+          "end": 23.62
+        },
+        {
+          "text": "1812",
+          "start": 23.62,
+          "end": 24.26
+        },
+        {
+          "text": "earthquakes",
+          "start": 24.26,
+          "end": 24.6
+        },
+        {
+          "text": "and",
+          "start": 24.6,
+          "end": 25.06
+        },
+        {
+          "text": "bought",
+          "start": 25.06,
+          "end": 25.22
+        },
+        {
+          "text": "up",
+          "start": 25.22,
+          "end": 25.42
+        },
+        {
+          "text": "cheap",
+          "start": 25.42,
+          "end": 25.58
+        },
+        {
+          "text": "land",
+          "start": 25.58,
+          "end": 25.94
+        }
+      ]
+    },
+    {
+      "id": "scene_06",
+      "text": "Known as the Czar of the Valley, Walker refused to live under frontier territorial courts instead of statehood.",
+      "start_sec": 26.36,
+      "speech_end_sec": 31.68,
+      "end_sec": 32.18,
+      "words": [
+        {
+          "text": "Known",
+          "start": 26.42,
+          "end": 26.58
+        },
+        {
+          "text": "as",
+          "start": 26.58,
+          "end": 26.86
+        },
+        {
+          "text": "the",
+          "start": 26.86,
+          "end": 26.96
+        },
+        {
+          "text": "Czar",
+          "start": 26.96,
+          "end": 27.28
+        },
+        {
+          "text": "of",
+          "start": 27.28,
+          "end": 27.38
+        },
+        {
+          "text": "the",
+          "start": 27.38,
+          "end": 27.48
+        },
+        {
+          "text": "Valley",
+          "start": 27.48,
+          "end": 27.76
+        },
+        {
+          "text": "Walker",
+          "start": 27.76,
+          "end": 28.38
+        },
+        {
+          "text": "refused",
+          "start": 28.38,
+          "end": 28.72
+        },
+        {
+          "text": "to",
+          "start": 28.72,
+          "end": 29.02
+        },
+        {
+          "text": "live",
+          "start": 29.02,
+          "end": 29.18
+        },
+        {
+          "text": "under",
+          "start": 29.18,
+          "end": 29.4
+        },
+        {
+          "text": "frontier",
+          "start": 29.4,
+          "end": 29.66
+        },
+        {
+          "text": "territorial",
+          "start": 29.66,
+          "end": 30.22
+        },
+        {
+          "text": "courts",
+          "start": 30.22,
+          "end": 30.68
+        },
+        {
+          "text": "instead",
+          "start": 30.68,
+          "end": 30.96
+        },
+        {
+          "text": "of",
+          "start": 30.96,
+          "end": 31.24
+        },
+        {
+          "text": "statehood",
+          "start": 31.24,
+          "end": 31.68
+        }
+      ]
+    },
+    {
+      "id": "scene_07",
+      "text": "He argued his river towns traded north with St. Louis and Cape Girardeau\u2014not south with Arkansas.",
+      "start_sec": 32.18,
+      "speech_end_sec": 37.0,
+      "end_sec": 37.8,
+      "words": [
+        {
+          "text": "He",
+          "start": 32.24,
+          "end": 32.42
+        },
+        {
+          "text": "argued",
+          "start": 32.42,
+          "end": 32.7
+        },
+        {
+          "text": "his",
+          "start": 32.7,
+          "end": 32.86
+        },
+        {
+          "text": "river",
+          "start": 32.86,
+          "end": 33.04
+        },
+        {
+          "text": "towns",
+          "start": 33.04,
+          "end": 33.4
+        },
+        {
+          "text": "traded",
+          "start": 33.4,
+          "end": 33.7
+        },
+        {
+          "text": "north",
+          "start": 33.7,
+          "end": 34.04
+        },
+        {
+          "text": "with",
+          "start": 34.04,
+          "end": 34.26
+        },
+        {
+          "text": "St",
+          "start": 34.26,
+          "end": 34.44
+        },
+        {
+          "text": "Louis",
+          "start": 34.64,
+          "end": 34.74
+        },
+        {
+          "text": "and",
+          "start": 34.74,
+          "end": 34.98
+        },
+        {
+          "text": "Cape",
+          "start": 34.98,
+          "end": 35.14
+        },
+        {
+          "text": "Girardeau",
+          "start": 35.14,
+          "end": 35.84
+        },
+        {
+          "text": "not",
+          "start": 36.02,
+          "end": 36.26
+        },
+        {
+          "text": "south",
+          "start": 36.26,
+          "end": 36.5
+        },
+        {
+          "text": "with",
+          "start": 36.5,
+          "end": 36.78
+        },
+        {
+          "text": "Arkansas",
+          "start": 36.78,
+          "end": 37.0
+        }
+      ]
+    },
+    {
+      "id": "scene_08",
+      "text": "So Walker mounted a fierce lobbying blitz, convincing lawmakers in Missouri and Washington to redraw the map.",
+      "start_sec": 37.8,
+      "speech_end_sec": 43.06,
+      "end_sec": 43.76,
+      "words": [
+        {
+          "text": "So",
+          "start": 37.86,
+          "end": 38.02
+        },
+        {
+          "text": "Walker",
+          "start": 38.02,
+          "end": 38.24
+        },
+        {
+          "text": "mounted",
+          "start": 38.24,
+          "end": 38.58
+        },
+        {
+          "text": "a",
+          "start": 38.58,
+          "end": 38.74
+        },
+        {
+          "text": "fierce",
+          "start": 38.74,
+          "end": 39.04
+        },
+        {
+          "text": "lobbying",
+          "start": 39.04,
+          "end": 39.44
+        },
+        {
+          "text": "blitz",
+          "start": 39.44,
+          "end": 39.8
+        },
+        {
+          "text": "convincing",
+          "start": 40.22,
+          "end": 40.52
+        },
+        {
+          "text": "lawmakers",
+          "start": 40.52,
+          "end": 40.88
+        },
+        {
+          "text": "in",
+          "start": 40.88,
+          "end": 41.3
+        },
+        {
+          "text": "Missouri",
+          "start": 41.3,
+          "end": 41.5
+        },
+        {
+          "text": "and",
+          "start": 41.5,
+          "end": 41.74
+        },
+        {
+          "text": "Washington",
+          "start": 41.74,
+          "end": 42.06
+        },
+        {
+          "text": "to",
+          "start": 42.06,
+          "end": 42.4
+        },
+        {
+          "text": "redraw",
+          "start": 42.4,
+          "end": 42.78
+        },
+        {
+          "text": "the",
+          "start": 42.78,
+          "end": 42.9
+        },
+        {
+          "text": "map",
+          "start": 42.9,
+          "end": 43.06
+        }
+      ]
+    },
+    {
+      "id": "scene_09",
+      "text": "When Missouri became a state in 1821, Congress dropped the border thirty-four miles south between two rivers.",
+      "start_sec": 43.76,
+      "speech_end_sec": 49.52,
+      "end_sec": 50.12,
+      "words": [
+        {
+          "text": "When",
+          "start": 43.82,
+          "end": 44.06
+        },
+        {
+          "text": "Missouri",
+          "start": 44.06,
+          "end": 44.3
+        },
+        {
+          "text": "became",
+          "start": 44.3,
+          "end": 44.64
+        },
+        {
+          "text": "a",
+          "start": 44.64,
+          "end": 44.78
+        },
+        {
+          "text": "state",
+          "start": 44.78,
+          "end": 45.0
+        },
+        {
+          "text": "in",
+          "start": 45.0,
+          "end": 45.18
+        },
+        {
+          "text": "1821",
+          "start": 45.18,
+          "end": 46.0
+        },
+        {
+          "text": "Congress",
+          "start": 46.42,
+          "end": 46.78
+        },
+        {
+          "text": "dropped",
+          "start": 46.78,
+          "end": 47.02
+        },
+        {
+          "text": "the",
+          "start": 47.02,
+          "end": 47.26
+        },
+        {
+          "text": "border",
+          "start": 47.26,
+          "end": 47.46
+        },
+        {
+          "text": "thirty-four",
+          "start": 47.46,
+          "end": 47.9
+        },
+        {
+          "text": "miles",
+          "start": 47.9,
+          "end": 48.3
+        },
+        {
+          "text": "south",
+          "start": 48.3,
+          "end": 48.62
+        },
+        {
+          "text": "between",
+          "start": 48.62,
+          "end": 49.02
+        },
+        {
+          "text": "two",
+          "start": 49.02,
+          "end": 49.28
+        },
+        {
+          "text": "rivers",
+          "start": 49.28,
+          "end": 49.52
+        }
+      ]
+    },
+    {
+      "id": "scene_10",
+      "text": "One man's persistence carved out a 980-square-mile notch\u2014permanently giving Missouri its famous Bootheel.",
+      "start_sec": 50.12,
+      "speech_end_sec": 55.92,
+      "end_sec": 55.92,
+      "words": [
+        {
+          "text": "One",
+          "start": 50.18,
+          "end": 50.36
+        },
+        {
+          "text": "man's",
+          "start": 50.36,
+          "end": 50.7
+        },
+        {
+          "text": "persistence",
+          "start": 50.7,
+          "end": 50.96
+        },
+        {
+          "text": "carved",
+          "start": 50.96,
+          "end": 51.4
+        },
+        {
+          "text": "out",
+          "start": 51.4,
+          "end": 51.66
+        },
+        {
+          "text": "a",
+          "start": 51.66,
+          "end": 52.54
+        },
+        {
+          "text": "980-square-mile",
+          "start": 52.54,
+          "end": 53.1
+        },
+        {
+          "text": "notch",
+          "start": 53.1,
+          "end": 53.62
+        },
+        {
+          "text": "permanently",
+          "start": 53.78,
+          "end": 54.12
+        },
+        {
+          "text": "giving",
+          "start": 54.12,
+          "end": 54.54
+        },
+        {
+          "text": "Missouri",
+          "start": 54.54,
+          "end": 54.76
+        },
+        {
+          "text": "its",
+          "start": 54.76,
+          "end": 55.12
+        },
+        {
+          "text": "famous",
+          "start": 55.12,
+          "end": 55.42
+        },
+        {
+          "text": "Bootheel",
+          "start": 55.42,
+          "end": 55.92
+        }
+      ]
+    },
+    {
+      "id": "scene_11",
+      "text": "Walker even became the county's first sheriff and local judge inside the very border he invented.",
+      "start_sec": 55.92,
+      "speech_end_sec": 60.66,
+      "end_sec": 61.0,
+      "words": [
+        {
+          "text": "Walker",
+          "start": 55.92,
+          "end": 56.46
+        },
+        {
+          "text": "even",
+          "start": 56.46,
+          "end": 56.76
+        },
+        {
+          "text": "became",
+          "start": 56.76,
+          "end": 57.12
+        },
+        {
+          "text": "the",
+          "start": 57.12,
+          "end": 57.26
+        },
+        {
+          "text": "county's",
+          "start": 57.26,
+          "end": 57.66
+        },
+        {
+          "text": "first",
+          "start": 57.66,
+          "end": 57.88
+        },
+        {
+          "text": "sheriff",
+          "start": 57.88,
+          "end": 58.18
+        },
+        {
+          "text": "and",
+          "start": 58.18,
+          "end": 58.48
+        },
+        {
+          "text": "local",
+          "start": 58.48,
+          "end": 58.64
+        },
+        {
+          "text": "judge",
+          "start": 58.64,
+          "end": 59.04
+        },
+        {
+          "text": "inside",
+          "start": 59.04,
+          "end": 59.34
+        },
+        {
+          "text": "the",
+          "start": 59.34,
+          "end": 59.64
+        },
+        {
+          "text": "very",
+          "start": 59.64,
+          "end": 59.82
+        },
+        {
+          "text": "border",
+          "start": 59.82,
+          "end": 60.16
+        },
+        {
+          "text": "he",
+          "start": 60.16,
+          "end": 60.36
+        },
+        {
+          "text": "invented",
+          "start": 60.36,
+          "end": 60.66
+        }
+      ]
+    },
+    {
+      "id": "scene_12",
+      "text": "Comment BOOT if you'd lobby Congress for your hometown too\u2014and now you know...",
+      "start_sec": 61.0,
+      "speech_end_sec": 64.98,
+      "end_sec": 65.292,
+      "words": [
+        {
+          "text": "Comment",
+          "start": 61.06,
+          "end": 61.16
+        },
+        {
+          "text": "BOOT",
+          "start": 61.16,
+          "end": 61.78
+        },
+        {
+          "text": "if",
+          "start": 61.78,
+          "end": 62.04
+        },
+        {
+          "text": "you'd",
+          "start": 62.04,
+          "end": 62.24
+        },
+        {
+          "text": "lobby",
+          "start": 62.24,
+          "end": 62.4
+        },
+        {
+          "text": "Congress",
+          "start": 62.4,
+          "end": 62.72
+        },
+        {
+          "text": "for",
+          "start": 62.72,
+          "end": 63.04
+        },
+        {
+          "text": "your",
+          "start": 63.04,
+          "end": 63.14
+        },
+        {
+          "text": "hometown",
+          "start": 63.14,
+          "end": 63.36
+        },
+        {
+          "text": "too",
+          "start": 63.36,
+          "end": 63.8
+        },
+        {
+          "text": "and",
+          "start": 64.5,
+          "end": 64.53
+        },
+        {
+          "text": "now",
+          "start": 64.5,
+          "end": 64.68
+        },
+        {
+          "text": "you",
+          "start": 64.68,
+          "end": 64.8
+        },
+        {
+          "text": "know",
+          "start": 64.8,
+          "end": 64.98
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "text": "How",
+      "start": 0.0,
+      "end": 0.12
+    },
+    {
+      "text": "did",
+      "start": 0.12,
+      "end": 0.22
+    },
+    {
+      "text": "one",
+      "start": 0.22,
+      "end": 0.42
+    },
+    {
+      "text": "stubborn",
+      "start": 0.42,
+      "end": 0.72
+    },
+    {
+      "text": "farmer",
+      "start": 0.72,
+      "end": 1.06
+    },
+    {
+      "text": "bend",
+      "start": 1.06,
+      "end": 1.48
+    },
+    {
+      "text": "Missouri's",
+      "start": 1.48,
+      "end": 2.0
+    },
+    {
+      "text": "southern",
+      "start": 2.0,
+      "end": 2.2
+    },
+    {
+      "text": "border",
+      "start": 2.2,
+      "end": 2.48
+    },
+    {
+      "text": "fifty",
+      "start": 2.48,
+      "end": 2.86
+    },
+    {
+      "text": "miles",
+      "start": 2.86,
+      "end": 3.22
+    },
+    {
+      "text": "into",
+      "start": 3.22,
+      "end": 3.58
+    },
+    {
+      "text": "Arkansas",
+      "start": 3.58,
+      "end": 3.8
+    },
+    {
+      "text": "Wait",
+      "start": 4.62,
+      "end": 4.94
+    },
+    {
+      "text": "let's",
+      "start": 5.28,
+      "end": 5.64
+    },
+    {
+      "text": "rewind",
+      "start": 5.64,
+      "end": 6.04
+    },
+    {
+      "text": "In",
+      "start": 6.76,
+      "end": 6.82
+    },
+    {
+      "text": "1818",
+      "start": 6.82,
+      "end": 7.62
+    },
+    {
+      "text": "Congress",
+      "start": 8.12,
+      "end": 8.42
+    },
+    {
+      "text": "drafted",
+      "start": 8.42,
+      "end": 8.7
+    },
+    {
+      "text": "Missouri's",
+      "start": 8.7,
+      "end": 9.36
+    },
+    {
+      "text": "state",
+      "start": 9.36,
+      "end": 9.48
+    },
+    {
+      "text": "map",
+      "start": 9.48,
+      "end": 9.74
+    },
+    {
+      "text": "as",
+      "start": 9.74,
+      "end": 10.0
+    },
+    {
+      "text": "a",
+      "start": 10.0,
+      "end": 10.06
+    },
+    {
+      "text": "clean",
+      "start": 10.06,
+      "end": 10.28
+    },
+    {
+      "text": "rectangle",
+      "start": 10.28,
+      "end": 10.64
+    },
+    {
+      "text": "ending",
+      "start": 10.64,
+      "end": 11.2
+    },
+    {
+      "text": "neatly",
+      "start": 11.2,
+      "end": 11.54
+    },
+    {
+      "text": "along",
+      "start": 11.54,
+      "end": 11.9
+    },
+    {
+      "text": "the",
+      "start": 11.9,
+      "end": 12.04
+    },
+    {
+      "text": "36-30",
+      "start": 12.04,
+      "end": 12.98
+    },
+    {
+      "text": "parallel",
+      "start": 12.98,
+      "end": 13.24
+    },
+    {
+      "text": "That",
+      "start": 14.06,
+      "end": 14.16
+    },
+    {
+      "text": "straight",
+      "start": 14.16,
+      "end": 14.38
+    },
+    {
+      "text": "line",
+      "start": 14.38,
+      "end": 14.76
+    },
+    {
+      "text": "would",
+      "start": 14.76,
+      "end": 14.96
+    },
+    {
+      "text": "have",
+      "start": 14.96,
+      "end": 15.04
+    },
+    {
+      "text": "sliced",
+      "start": 15.04,
+      "end": 15.24
+    },
+    {
+      "text": "off",
+      "start": 15.24,
+      "end": 15.58
+    },
+    {
+      "text": "the",
+      "start": 15.58,
+      "end": 15.74
+    },
+    {
+      "text": "southeastern",
+      "start": 15.74,
+      "end": 16.22
+    },
+    {
+      "text": "lowlands",
+      "start": 16.22,
+      "end": 16.68
+    },
+    {
+      "text": "and",
+      "start": 16.68,
+      "end": 16.94
+    },
+    {
+      "text": "dumped",
+      "start": 16.94,
+      "end": 17.16
+    },
+    {
+      "text": "them",
+      "start": 17.16,
+      "end": 17.4
+    },
+    {
+      "text": "into",
+      "start": 17.4,
+      "end": 17.62
+    },
+    {
+      "text": "the",
+      "start": 17.62,
+      "end": 17.74
+    },
+    {
+      "text": "raw",
+      "start": 17.74,
+      "end": 17.92
+    },
+    {
+      "text": "Arkansas",
+      "start": 17.92,
+      "end": 18.38
+    },
+    {
+      "text": "Territory",
+      "start": 18.38,
+      "end": 18.9
+    },
+    {
+      "text": "Enter",
+      "start": 19.88,
+      "end": 20.22
+    },
+    {
+      "text": "John",
+      "start": 20.22,
+      "end": 20.5
+    },
+    {
+      "text": "Hardeman",
+      "start": 20.5,
+      "end": 20.9
+    },
+    {
+      "text": "Walker",
+      "start": 20.9,
+      "end": 21.12
+    },
+    {
+      "text": "a",
+      "start": 21.68,
+      "end": 21.8
+    },
+    {
+      "text": "wealthy",
+      "start": 21.8,
+      "end": 22.0
+    },
+    {
+      "text": "cattle",
+      "start": 22.0,
+      "end": 22.34
+    },
+    {
+      "text": "rancher",
+      "start": 22.34,
+      "end": 22.84
+    },
+    {
+      "text": "who",
+      "start": 22.84,
+      "end": 22.98
+    },
+    {
+      "text": "stayed",
+      "start": 22.98,
+      "end": 23.18
+    },
+    {
+      "text": "after",
+      "start": 23.18,
+      "end": 23.48
+    },
+    {
+      "text": "the",
+      "start": 23.48,
+      "end": 23.62
+    },
+    {
+      "text": "1812",
+      "start": 23.62,
+      "end": 24.26
+    },
+    {
+      "text": "earthquakes",
+      "start": 24.26,
+      "end": 24.6
+    },
+    {
+      "text": "and",
+      "start": 24.6,
+      "end": 25.06
+    },
+    {
+      "text": "bought",
+      "start": 25.06,
+      "end": 25.22
+    },
+    {
+      "text": "up",
+      "start": 25.22,
+      "end": 25.42
+    },
+    {
+      "text": "cheap",
+      "start": 25.42,
+      "end": 25.58
+    },
+    {
+      "text": "land",
+      "start": 25.58,
+      "end": 25.94
+    },
+    {
+      "text": "Known",
+      "start": 26.42,
+      "end": 26.58
+    },
+    {
+      "text": "as",
+      "start": 26.58,
+      "end": 26.86
+    },
+    {
+      "text": "the",
+      "start": 26.86,
+      "end": 26.96
+    },
+    {
+      "text": "Czar",
+      "start": 26.96,
+      "end": 27.28
+    },
+    {
+      "text": "of",
+      "start": 27.28,
+      "end": 27.38
+    },
+    {
+      "text": "the",
+      "start": 27.38,
+      "end": 27.48
+    },
+    {
+      "text": "Valley",
+      "start": 27.48,
+      "end": 27.76
+    },
+    {
+      "text": "Walker",
+      "start": 27.76,
+      "end": 28.38
+    },
+    {
+      "text": "refused",
+      "start": 28.38,
+      "end": 28.72
+    },
+    {
+      "text": "to",
+      "start": 28.72,
+      "end": 29.02
+    },
+    {
+      "text": "live",
+      "start": 29.02,
+      "end": 29.18
+    },
+    {
+      "text": "under",
+      "start": 29.18,
+      "end": 29.4
+    },
+    {
+      "text": "frontier",
+      "start": 29.4,
+      "end": 29.66
+    },
+    {
+      "text": "territorial",
+      "start": 29.66,
+      "end": 30.22
+    },
+    {
+      "text": "courts",
+      "start": 30.22,
+      "end": 30.68
+    },
+    {
+      "text": "instead",
+      "start": 30.68,
+      "end": 30.96
+    },
+    {
+      "text": "of",
+      "start": 30.96,
+      "end": 31.24
+    },
+    {
+      "text": "statehood",
+      "start": 31.24,
+      "end": 31.68
+    },
+    {
+      "text": "He",
+      "start": 32.24,
+      "end": 32.42
+    },
+    {
+      "text": "argued",
+      "start": 32.42,
+      "end": 32.7
+    },
+    {
+      "text": "his",
+      "start": 32.7,
+      "end": 32.86
+    },
+    {
+      "text": "river",
+      "start": 32.86,
+      "end": 33.04
+    },
+    {
+      "text": "towns",
+      "start": 33.04,
+      "end": 33.4
+    },
+    {
+      "text": "traded",
+      "start": 33.4,
+      "end": 33.7
+    },
+    {
+      "text": "north",
+      "start": 33.7,
+      "end": 34.04
+    },
+    {
+      "text": "with",
+      "start": 34.04,
+      "end": 34.26
+    },
+    {
+      "text": "St",
+      "start": 34.26,
+      "end": 34.44
+    },
+    {
+      "text": "Louis",
+      "start": 34.64,
+      "end": 34.74
+    },
+    {
+      "text": "and",
+      "start": 34.74,
+      "end": 34.98
+    },
+    {
+      "text": "Cape",
+      "start": 34.98,
+      "end": 35.14
+    },
+    {
+      "text": "Girardeau",
+      "start": 35.14,
+      "end": 35.84
+    },
+    {
+      "text": "not",
+      "start": 36.02,
+      "end": 36.26
+    },
+    {
+      "text": "south",
+      "start": 36.26,
+      "end": 36.5
+    },
+    {
+      "text": "with",
+      "start": 36.5,
+      "end": 36.78
+    },
+    {
+      "text": "Arkansas",
+      "start": 36.78,
+      "end": 37.0
+    },
+    {
+      "text": "So",
+      "start": 37.86,
+      "end": 38.02
+    },
+    {
+      "text": "Walker",
+      "start": 38.02,
+      "end": 38.24
+    },
+    {
+      "text": "mounted",
+      "start": 38.24,
+      "end": 38.58
+    },
+    {
+      "text": "a",
+      "start": 38.58,
+      "end": 38.74
+    },
+    {
+      "text": "fierce",
+      "start": 38.74,
+      "end": 39.04
+    },
+    {
+      "text": "lobbying",
+      "start": 39.04,
+      "end": 39.44
+    },
+    {
+      "text": "blitz",
+      "start": 39.44,
+      "end": 39.8
+    },
+    {
+      "text": "convincing",
+      "start": 40.22,
+      "end": 40.52
+    },
+    {
+      "text": "lawmakers",
+      "start": 40.52,
+      "end": 40.88
+    },
+    {
+      "text": "in",
+      "start": 40.88,
+      "end": 41.3
+    },
+    {
+      "text": "Missouri",
+      "start": 41.3,
+      "end": 41.5
+    },
+    {
+      "text": "and",
+      "start": 41.5,
+      "end": 41.74
+    },
+    {
+      "text": "Washington",
+      "start": 41.74,
+      "end": 42.06
+    },
+    {
+      "text": "to",
+      "start": 42.06,
+      "end": 42.4
+    },
+    {
+      "text": "redraw",
+      "start": 42.4,
+      "end": 42.78
+    },
+    {
+      "text": "the",
+      "start": 42.78,
+      "end": 42.9
+    },
+    {
+      "text": "map",
+      "start": 42.9,
+      "end": 43.06
+    },
+    {
+      "text": "When",
+      "start": 43.82,
+      "end": 44.06
+    },
+    {
+      "text": "Missouri",
+      "start": 44.06,
+      "end": 44.3
+    },
+    {
+      "text": "became",
+      "start": 44.3,
+      "end": 44.64
+    },
+    {
+      "text": "a",
+      "start": 44.64,
+      "end": 44.78
+    },
+    {
+      "text": "state",
+      "start": 44.78,
+      "end": 45.0
+    },
+    {
+      "text": "in",
+      "start": 45.0,
+      "end": 45.18
+    },
+    {
+      "text": "1821",
+      "start": 45.18,
+      "end": 46.0
+    },
+    {
+      "text": "Congress",
+      "start": 46.42,
+      "end": 46.78
+    },
+    {
+      "text": "dropped",
+      "start": 46.78,
+      "end": 47.02
+    },
+    {
+      "text": "the",
+      "start": 47.02,
+      "end": 47.26
+    },
+    {
+      "text": "border",
+      "start": 47.26,
+      "end": 47.46
+    },
+    {
+      "text": "thirty-four",
+      "start": 47.46,
+      "end": 47.9
+    },
+    {
+      "text": "miles",
+      "start": 47.9,
+      "end": 48.3
+    },
+    {
+      "text": "south",
+      "start": 48.3,
+      "end": 48.62
+    },
+    {
+      "text": "between",
+      "start": 48.62,
+      "end": 49.02
+    },
+    {
+      "text": "two",
+      "start": 49.02,
+      "end": 49.28
+    },
+    {
+      "text": "rivers",
+      "start": 49.28,
+      "end": 49.52
+    },
+    {
+      "text": "One",
+      "start": 50.18,
+      "end": 50.36
+    },
+    {
+      "text": "man's",
+      "start": 50.36,
+      "end": 50.7
+    },
+    {
+      "text": "persistence",
+      "start": 50.7,
+      "end": 50.96
+    },
+    {
+      "text": "carved",
+      "start": 50.96,
+      "end": 51.4
+    },
+    {
+      "text": "out",
+      "start": 51.4,
+      "end": 51.66
+    },
+    {
+      "text": "a",
+      "start": 51.66,
+      "end": 52.54
+    },
+    {
+      "text": "980-square-mile",
+      "start": 52.54,
+      "end": 53.1
+    },
+    {
+      "text": "notch",
+      "start": 53.1,
+      "end": 53.62
+    },
+    {
+      "text": "permanently",
+      "start": 53.78,
+      "end": 54.12
+    },
+    {
+      "text": "giving",
+      "start": 54.12,
+      "end": 54.54
+    },
+    {
+      "text": "Missouri",
+      "start": 54.54,
+      "end": 54.76
+    },
+    {
+      "text": "its",
+      "start": 54.76,
+      "end": 55.12
+    },
+    {
+      "text": "famous",
+      "start": 55.12,
+      "end": 55.42
+    },
+    {
+      "text": "Bootheel",
+      "start": 55.42,
+      "end": 55.92
+    },
+    {
+      "text": "Walker",
+      "start": 55.92,
+      "end": 56.46
+    },
+    {
+      "text": "even",
+      "start": 56.46,
+      "end": 56.76
+    },
+    {
+      "text": "became",
+      "start": 56.76,
+      "end": 57.12
+    },
+    {
+      "text": "the",
+      "start": 57.12,
+      "end": 57.26
+    },
+    {
+      "text": "county's",
+      "start": 57.26,
+      "end": 57.66
+    },
+    {
+      "text": "first",
+      "start": 57.66,
+      "end": 57.88
+    },
+    {
+      "text": "sheriff",
+      "start": 57.88,
+      "end": 58.18
+    },
+    {
+      "text": "and",
+      "start": 58.18,
+      "end": 58.48
+    },
+    {
+      "text": "local",
+      "start": 58.48,
+      "end": 58.64
+    },
+    {
+      "text": "judge",
+      "start": 58.64,
+      "end": 59.04
+    },
+    {
+      "text": "inside",
+      "start": 59.04,
+      "end": 59.34
+    },
+    {
+      "text": "the",
+      "start": 59.34,
+      "end": 59.64
+    },
+    {
+      "text": "very",
+      "start": 59.64,
+      "end": 59.82
+    },
+    {
+      "text": "border",
+      "start": 59.82,
+      "end": 60.16
+    },
+    {
+      "text": "he",
+      "start": 60.16,
+      "end": 60.36
+    },
+    {
+      "text": "invented",
+      "start": 60.36,
+      "end": 60.66
+    },
+    {
+      "text": "Comment",
+      "start": 61.06,
+      "end": 61.16
+    },
+    {
+      "text": "BOOT",
+      "start": 61.16,
+      "end": 61.78
+    },
+    {
+      "text": "if",
+      "start": 61.78,
+      "end": 62.04
+    },
+    {
+      "text": "you'd",
+      "start": 62.04,
+      "end": 62.24
+    },
+    {
+      "text": "lobby",
+      "start": 62.24,
+      "end": 62.4
+    },
+    {
+      "text": "Congress",
+      "start": 62.4,
+      "end": 62.72
+    },
+    {
+      "text": "for",
+      "start": 62.72,
+      "end": 63.04
+    },
+    {
+      "text": "your",
+      "start": 63.04,
+      "end": 63.14
+    },
+    {
+      "text": "hometown",
+      "start": 63.14,
+      "end": 63.36
+    },
+    {
+      "text": "too",
+      "start": 63.36,
+      "end": 63.8
+    },
+    {
+      "text": "and",
+      "start": 64.5,
+      "end": 64.53
+    },
+    {
+      "text": "now",
+      "start": 64.5,
+      "end": 64.68
+    },
+    {
+      "text": "you",
+      "start": 64.68,
+      "end": 64.8
+    },
+    {
+      "text": "know",
+      "start": 64.8,
+      "end": 64.98
+    }
+  ]
+}

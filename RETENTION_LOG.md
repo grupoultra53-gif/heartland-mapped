@@ -16,6 +16,7 @@ Use este registro 48 horas após publicar cada vídeo (YouTube Studio → Shorts
 | **Ep. 04 — Honey War** | v1 | 84.60s | 4.85 / 10s | 0.0% | 0/2 vis, 1.04x | 24.8 dB | Não | Baseline |
 | **Ep. 04 — Honey War** | **v2** | **68.87s** | **13.21 / 10s** | **49.7% (34.2s)** | **2/2 vis, 1.96x** | **7.7 dB** | **Sim (`HONEY`)** | **ALL PASS (7/7)** |
 | **Ep. 05 — Carter Lake** | **v2 + Ethan** | **69.57s** | **20.55 / 10s** | **60.2% (41.9s)** | **2/2 vis, 2.04x** | **5.2 dB** | **Sim (`IOWA`)** | **ALL PASS (7/7)** |
+| **Ep. 06 — Kentucky Bend** | **v2 + Ethan** | **65.45s** | **25.52 / 10s** | **50.3% (32.9s)** | **2/2 vis, 2.02x** | **4.6 dB** | **Sim (`KEEP`)** | **ALL PASS (7/7)** |
 
 ## Tabela de Acompanhamento (48h)
 
@@ -31,3 +32,5 @@ Use este registro 48 horas após publicar cada vídeo (YouTube Studio → Shorts
 | **Ep. 04 — Honey War** | **v2** | 69s | FB Reels | | | | | | | Receita v2 (7/7 audit PASS, CTA `HONEY`) |
 | **Ep. 05 — Carter Lake** | **v2 + Ethan** | 70s | YT Shorts | | | | | | | Fish Audio S2.1 Pro Ethan + v2 (7/7 PASS, CTA `IOWA`/`NEBRASKA`) |
 | **Ep. 05 — Carter Lake** | **v2 + Ethan** | 70s | FB Reels | | | | | | | Fish Audio S2.1 Pro Ethan + v2 (7/7 PASS, CTA `IOWA`/`NEBRASKA`) |
+| **Ep. 06 — Kentucky Bend** | **v2 + Ethan** | 65s | YT Shorts | | | | | | | Fish Audio S2.1 Pro Ethan + v2 universal renderer (7/7 PASS, CTA `KEEP`/`TRADE`) |
+| **Ep. 06 — Kentucky Bend** | **v2 + Ethan** | 65s | FB Reels | | | | | | | Fish Audio S2.1 Pro Ethan + v2 universal renderer (7/7 PASS, CTA `KEEP`/`TRADE`) |

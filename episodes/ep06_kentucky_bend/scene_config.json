@@ -1,0 +1,924 @@
+{
+  "video_settings": {
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "subtitle_y_ratio": 0.79,
+    "subtitle_panel_y_ratio": 0.47,
+    "version": "v2",
+    "voice_provider": "Fish Audio \u2014 Ethan (@Fish Official)"
+  },
+  "total_duration_sec": 65.446,
+  "scenes": [
+    {
+      "id": "scene_01",
+      "keyframe": "keyframes/scene_01.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 2.02,
+          "pan_x": 0.1,
+          "pan_y": -0.02,
+          "tilt_deg": 0.0,
+          "end_zoom": 2.16,
+          "end_pan_x": 0.1,
+          "end_pan_y": -0.02,
+          "end_tilt_deg": 0.5
+        },
+        {
+          "t": 1.72,
+          "zoom": 1.08,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.18,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.02,
+          "end_tilt_deg": 0.6
+        },
+        {
+          "t": 2.8,
+          "zoom": 2.06,
+          "pan_x": 0.18,
+          "pan_y": 0.25,
+          "tilt_deg": -0.4,
+          "end_zoom": 2.18,
+          "end_pan_x": 0.18,
+          "end_pan_y": 0.25,
+          "end_tilt_deg": 0.4
+        }
+      ],
+      "sprites": [
+        {
+          "bbox": [
+            0.51,
+            0.42,
+            0.72,
+            0.545
+          ],
+          "motion": "cheer_bounce",
+          "pop_delay": 0.0
+        },
+        {
+          "bbox": [
+            0.57,
+            0.715,
+            0.785,
+            0.865
+          ],
+          "motion": "glare_bob",
+          "pop_delay": 0.0
+        }
+      ],
+      "overhead": {
+        "text": "TRAPPED IN TENNESSEE!",
+        "cx": 420,
+        "cy": 215,
+        "trigger_rel": 1.76,
+        "end_rel": 2.78,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.02,
+          "type": "pawn_bounce",
+          "gain": 0.65
+        },
+        {
+          "rel": 1.78,
+          "type": "cork_pop",
+          "gain": 0.62
+        },
+        {
+          "rel": -0.5,
+          "type": "tape_rewind",
+          "gain": 0.72
+        }
+      ],
+      "start_sec": 0.0,
+      "end_sec": 4.18,
+      "narration": "Why is there a chunk of Kentucky completely trapped inside Tennessee and Missouri?"
+    },
+    {
+      "id": "scene_02",
+      "keyframe": "keyframes/scene_02.jpg",
+      "vhs_rewind": true,
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.14,
+          "pan_x": 0.0,
+          "pan_y": -0.05,
+          "tilt_deg": -0.8,
+          "end_zoom": 1.04,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.02,
+          "end_tilt_deg": 0.0
+        },
+        {
+          "t": 1.0,
+          "zoom": 1.78,
+          "pan_x": 0.0,
+          "pan_y": -0.28,
+          "tilt_deg": 0.5,
+          "end_zoom": 1.92,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.3,
+          "end_tilt_deg": 0.0
+        }
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "tape_rewind",
+          "gain": 0.7
+        },
+        {
+          "rel": 0.96,
+          "type": "parchment_brush",
+          "gain": 0.65
+        }
+      ],
+      "start_sec": 4.18,
+      "end_sec": 6.28,
+      "narration": "Wait... let's rewind."
+    },
+    {
+      "id": "scene_03",
+      "keyframe": "keyframes/scene_03.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 2.46,
+          "zoom": 2.04,
+          "pan_x": 0.08,
+          "pan_y": 0.05,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.16,
+          "end_pan_x": 0.08,
+          "end_pan_y": 0.05,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 5.2,
+          "zoom": 1.12,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.22,
+          "end_pan_x": -0.04,
+          "end_pan_y": 0.02,
+          "end_tilt_deg": 0.5
+        }
+      ],
+      "sprites": [
+        {
+          "bbox": [
+            0.48,
+            0.49,
+            0.68,
+            0.655
+          ],
+          "motion": "write_bob",
+          "pop_delay": 0.0
+        }
+      ],
+      "overhead": {
+        "text": "STOPPED SHORT!",
+        "cx": 420,
+        "cy": 280,
+        "trigger_rel": 5.24,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 2.5,
+          "type": "parchment_brush",
+          "gain": 0.66
+        },
+        {
+          "rel": 5.26,
+          "type": "cork_pop",
+          "gain": 0.6
+        }
+      ],
+      "start_sec": 6.28,
+      "end_sec": 14.16,
+      "narration": "In 1779, surveyors drew the straight border line separating Kentucky and Tennessee\u2014stopping short before reaching the Mississippi River."
+    },
+    {
+      "id": "scene_04",
+      "keyframe": "keyframes/scene_04.jpg",
+      "quake_shake": true,
+      "impact_shake_rel": 3.5,
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.15,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": -0.4
+        },
+        {
+          "t": 2.12,
+          "zoom": 1.98,
+          "pan_x": -0.22,
+          "pan_y": 0.0,
+          "tilt_deg": 0.4,
+          "end_zoom": 2.12,
+          "end_pan_x": -0.2,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": -0.4
+        },
+        {
+          "t": 3.98,
+          "zoom": 2.08,
+          "pan_x": 0.28,
+          "pan_y": -0.06,
+          "tilt_deg": -0.4,
+          "end_zoom": 2.2,
+          "end_pan_x": 0.28,
+          "end_pan_y": -0.06,
+          "end_tilt_deg": 0.4
+        },
+        {
+          "t": 5.54,
+          "zoom": 1.12,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.22,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.02,
+          "end_tilt_deg": -0.5
+        }
+      ],
+      "sprites": [
+        {
+          "bbox": [
+            0.7,
+            0.365,
+            0.955,
+            0.535
+          ],
+          "motion": "shudder",
+          "pop_delay": 0.0
+        }
+      ],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 2.1,
+          "type": "quake_rumble",
+          "gain": 0.72
+        },
+        {
+          "rel": 3.5,
+          "type": "map_crack",
+          "gain": 0.78
+        },
+        {
+          "rel": 4.0,
+          "type": "jaw_drop",
+          "gain": 0.65
+        }
+      ],
+      "start_sec": 14.16,
+      "end_sec": 21.44,
+      "narration": "Then in 1811 and 1812, the massive New Madrid earthquakes violently shook the valley and twisted the Mississippi's path."
+    },
+    {
+      "id": "scene_05",
+      "keyframe": "keyframes/scene_05.jpg",
+      "impact_shake_rel": 2.54,
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 2.5,
+          "zoom": 2.08,
+          "pan_x": 0.08,
+          "pan_y": -0.02,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.22,
+          "end_pan_x": 0.08,
+          "end_pan_y": -0.02,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 4.25,
+          "zoom": 1.12,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.22,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": 0.5
+        }
+      ],
+      "sprites": [],
+      "overhead": {
+        "text": "SLICED THE LOOP!",
+        "cx": 360,
+        "cy": 420,
+        "trigger_rel": 4.28,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 2.52,
+          "type": "map_crack",
+          "gain": 0.75
+        },
+        {
+          "rel": 4.3,
+          "type": "cork_pop",
+          "gain": 0.6
+        }
+      ],
+      "start_sec": 21.44,
+      "end_sec": 26.82,
+      "narration": "When surveyors finally finished the border line, it sliced straight across a giant double horseshoe loop of the river."
+    },
+    {
+      "id": "scene_06",
+      "keyframe": "keyframes/scene_06.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.08,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.16,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": -0.3
+        },
+        {
+          "t": 1.65,
+          "zoom": 2.1,
+          "pan_x": 0.12,
+          "pan_y": -0.05,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.24,
+          "end_pan_x": 0.12,
+          "end_pan_y": -0.05,
+          "end_tilt_deg": -0.3
+        },
+        {
+          "t": 4.0,
+          "zoom": 1.1,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.2,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": -0.5
+        }
+      ],
+      "sprites": [
+        {
+          "bbox": [
+            0.54,
+            0.28,
+            0.755,
+            0.48
+          ],
+          "motion": "shudder",
+          "pop_delay": 0.0
+        }
+      ],
+      "overhead": {
+        "text": "DETACHED!",
+        "cx": 420,
+        "cy": 220,
+        "trigger_rel": 4.04,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 1.68,
+          "type": "jaw_drop",
+          "gain": 0.68
+        },
+        {
+          "rel": 4.06,
+          "type": "cork_pop",
+          "gain": 0.6
+        }
+      ],
+      "start_sec": 26.82,
+      "end_sec": 32.78,
+      "narration": "That accidental cut left thirty square miles of Kentucky completely detached from the rest of the state."
+    },
+    {
+      "id": "scene_07",
+      "keyframe": "keyframes/scene_07.jpg",
+      "impact_shake_rel": 5.05,
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.1,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.18,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 1.4,
+          "zoom": 2.12,
+          "pan_x": 0.12,
+          "pan_y": 0.2,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.24,
+          "end_pan_x": 0.12,
+          "end_pan_y": 0.2,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 4.95,
+          "zoom": 2.14,
+          "pan_x": 0.26,
+          "pan_y": -0.14,
+          "tilt_deg": 0.4,
+          "end_zoom": 2.26,
+          "end_pan_x": 0.26,
+          "end_pan_y": -0.14,
+          "end_tilt_deg": -0.4
+        }
+      ],
+      "sprites": [
+        {
+          "bbox": [
+            0.455,
+            0.62,
+            0.825,
+            0.835
+          ],
+          "motion": "glare_bob",
+          "pop_delay": 0.0
+        },
+        {
+          "bbox": [
+            0.59,
+            0.255,
+            0.92,
+            0.46
+          ],
+          "motion": "glare_bob_alt",
+          "pop_delay": 0.0
+        }
+      ],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 1.45,
+          "type": "cork_pop",
+          "gain": 0.6
+        },
+        {
+          "rel": 5.0,
+          "type": "gavel_slam",
+          "gain": 0.72
+        }
+      ],
+      "start_sec": 32.78,
+      "end_sec": 39.48,
+      "narration": "Tennessee begged Kentucky for decades to hand it over\u2014even offering to trade land elsewhere\u2014but Kentucky flatly refused."
+    },
+    {
+      "id": "scene_08",
+      "keyframe": "keyframes/scene_08.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.08,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.16,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 1.56,
+          "zoom": 1.96,
+          "pan_x": 0.16,
+          "pan_y": -0.05,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.08,
+          "end_pan_x": 0.16,
+          "end_pan_y": -0.05,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 3.48,
+          "zoom": 2.04,
+          "pan_x": 0.14,
+          "pan_y": 0.18,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.16,
+          "end_pan_x": 0.14,
+          "end_pan_y": 0.2,
+          "end_tilt_deg": -0.3
+        },
+        {
+          "t": 5.02,
+          "zoom": 1.12,
+          "pan_x": 0.0,
+          "pan_y": 0.05,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.22,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.06,
+          "end_tilt_deg": 0.4
+        }
+      ],
+      "sprites": [],
+      "overhead": {
+        "text": "ONLY ROAD SOUTH!",
+        "cx": 360,
+        "cy": 290,
+        "trigger_rel": 5.04,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 0.25,
+          "type": "river_rush",
+          "gain": 0.46
+        },
+        {
+          "rel": 5.06,
+          "type": "cork_pop",
+          "gain": 0.6
+        }
+      ],
+      "start_sec": 39.48,
+      "end_sec": 45.88,
+      "narration": "Surrounded on three sides by the rushing Mississippi and Missouri, the only road out leads straight south into Tennessee."
+    },
+    {
+      "id": "scene_09",
+      "keyframe": "keyframes/scene_09.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 2.02,
+          "pan_x": 0.16,
+          "pan_y": 0.1,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.14,
+          "end_pan_x": 0.16,
+          "end_pan_y": 0.1,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 2.48,
+          "zoom": 1.96,
+          "pan_x": 0.16,
+          "pan_y": -0.22,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.1,
+          "end_pan_x": 0.16,
+          "end_pan_y": -0.22,
+          "end_tilt_deg": -0.3
+        },
+        {
+          "t": 3.6,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.16,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": 0.4
+        }
+      ],
+      "sprites": [],
+      "overhead": {
+        "text": "MARK TWAIN!",
+        "cx": 240,
+        "cy": 465,
+        "trigger_rel": 3.62,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 2.48,
+          "type": "ship_horn",
+          "gain": 0.56
+        },
+        {
+          "rel": 3.65,
+          "type": "cork_pop",
+          "gain": 0.58
+        }
+      ],
+      "start_sec": 45.88,
+      "end_sec": 50.6,
+      "narration": "Mark Twain even wrote about its famous frontier feuds when riverboats steamed around the sharp bend."
+    },
+    {
+      "id": "scene_10",
+      "keyframe": "keyframes/scene_10.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.02,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.15,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.02,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 1.68,
+          "zoom": 2.04,
+          "pan_x": -0.06,
+          "pan_y": 0.06,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.16,
+          "end_pan_x": -0.06,
+          "end_pan_y": 0.06,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 3.9,
+          "zoom": 1.1,
+          "pan_x": 0.0,
+          "pan_y": 0.02,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.2,
+          "end_pan_x": 0.02,
+          "end_pan_y": 0.02,
+          "end_tilt_deg": 0.4
+        }
+      ],
+      "sprites": [],
+      "overhead": {
+        "text": "KENTUCKY'S ISLAND!",
+        "cx": 380,
+        "cy": 340,
+        "trigger_rel": 3.95,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 3.98,
+          "type": "celesta_chime",
+          "gain": 0.62
+        }
+      ],
+      "start_sec": 50.6,
+      "end_sec": 56.32,
+      "narration": "Today, just a handful of farm families live there\u2014growing soybeans and corn on Kentucky's loneliest island."
+    },
+    {
+      "id": "scene_11",
+      "keyframe": "keyframes/scene_11.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 2.02,
+          "pan_x": 0.28,
+          "pan_y": -0.12,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.14,
+          "end_pan_x": 0.28,
+          "end_pan_y": -0.12,
+          "end_tilt_deg": -0.3
+        },
+        {
+          "t": 2.44,
+          "zoom": 2.04,
+          "pan_x": 0.14,
+          "pan_y": 0.2,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.16,
+          "end_pan_x": 0.14,
+          "end_pan_y": 0.2,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 3.86,
+          "zoom": 1.08,
+          "pan_x": 0.0,
+          "pan_y": 0.04,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.18,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.04,
+          "end_tilt_deg": 0.5
+        }
+      ],
+      "sprites": [
+        {
+          "bbox": [
+            0.585,
+            0.7,
+            0.685,
+            0.755
+          ],
+          "motion": "car_drive",
+          "pop_delay": 0.0
+        }
+      ],
+      "overhead": {
+        "text": "40 MILES VIA TN!",
+        "cx": 360,
+        "cy": 295,
+        "trigger_rel": 3.9,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 2.6,
+          "type": "car_honk",
+          "gain": 0.55
+        },
+        {
+          "rel": 3.92,
+          "type": "cork_pop",
+          "gain": 0.6
+        }
+      ],
+      "start_sec": 56.32,
+      "end_sec": 61.48,
+      "narration": "To visit their own county courthouse, locals have to drive forty miles through Tennessee first."
+    },
+    {
+      "id": "scene_12",
+      "keyframe": "keyframes/scene_12.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.01,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.06,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.02,
+          "end_tilt_deg": 0.2
+        },
+        {
+          "t": 1.54,
+          "zoom": 1.08,
+          "pan_x": 0.0,
+          "pan_y": -0.03,
+          "tilt_deg": -0.2,
+          "end_zoom": 1.13,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.04,
+          "end_tilt_deg": 0.2
+        }
+      ],
+      "sprites": [
+        {
+          "bbox": [
+            0.67,
+            0.11,
+            0.9,
+            0.295
+          ],
+          "motion": "football_hop_r",
+          "pop_delay": 0.0
+        },
+        {
+          "bbox": [
+            0.075,
+            0.37,
+            0.29,
+            0.55
+          ],
+          "motion": "football_hop_l",
+          "pop_delay": 0.0
+        }
+      ],
+      "overhead": null,
+      "comment_panel": {
+        "trigger_rel": 0.14,
+        "keyword": "KEEP",
+        "comments": [
+          {
+            "handle": "@KentuckyFarm",
+            "text": "KEEP! Ours since 1812!",
+            "likes": "742 \u2665",
+            "color": [
+              26,
+              78,
+              198
+            ]
+          },
+          {
+            "handle": "@TennesseeVol",
+            "text": "TRADE! Only road goes through us!",
+            "likes": "584 \u2665",
+            "color": [
+              204,
+              102,
+              24
+            ]
+          }
+        ]
+      },
+      "loop_return_sec": 0.3,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.46
+        },
+        {
+          "rel": 0.18,
+          "type": "stadium_swell",
+          "gain": 0.42
+        }
+      ],
+      "start_sec": 61.48,
+      "end_sec": 65.446,
+      "narration": "Comment KEEP for Kentucky or TRADE for Tennessee\u2014and now you know..."
+    }
+  ]
+}

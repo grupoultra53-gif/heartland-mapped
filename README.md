@@ -24,11 +24,13 @@ Vertical `9:16` 2.5D animated historical shorts focused on the US Midwest / Hear
 - **Google Drive (`grupoultra53@gmail.com` → folder `Heartland Mapped`, ID `1ge1IlbHw1N47j0BwXcVT79lCZCbi8kXw`):** stores rendered `.mp4` videos (excluded from Git via `.gitignore`). Use the Antigravity `gdrive` plugin to upload/update episode `.mp4` exports directly to that folder.
 
 ## Folder Structure
-- `.agents/skills/historical-map-animation/` — Installed Antigravity skill (`SKILL.md`, `engine_25d.py`, `foley_mixer.py`, `style_sheet.md`, `prompt_templates.md`)
+- `.agents/skills/historical-map-animation/` — Installed Antigravity skill (`SKILL.md`, `engine_25d.py`, `foley_mixer.py`, `render_episode_v2.py`, `align_audio.py`, `audit_video.py`, `style_sheet.md`, `prompt_templates.md`)
 - `episodes/ep01_toledo_war/` — Episode 1 (*The Toledo War, 1835*): script, keyframes, audio, renderer, storyboard, `POSTING_KIT.txt` (final `.mp4` stored in Google Drive)
 - `episodes/ep02_chicago_river_reversal/` — Episode 2 (*The Day Chicago Reversed a River, 1900*): script, keyframes, audio, renderer, storyboard, `POSTING_KIT.txt` (final `.mp4` stored in Google Drive)
 - `episodes/ep03_minnesota_northwest_angle/` — Episode 3 (*Why Minnesota Has That Weird Bump on the Map — The Northwest Angle*): script, keyframes, audio, renderer, storyboard, `POSTING_KIT.txt` (final `.mp4` stored in Google Drive)
 - `episodes/ep04_honey_war/` — Episode 4 (*The Honey War, 1839 — Iowa vs. Missouri*): script, keyframes, audio, renderer, storyboard, `POSTING_KIT.txt` (final `.mp4` stored in Google Drive)
 - `episodes/ep05_carter_lake/` — Episode 5 (*Carter Lake — The Iowa Town Trapped Inside Nebraska, 1877*, Fish Audio S2.1 Pro Ethan): script, keyframes, aligned audio, renderer, storyboard, `POSTING_KIT.txt` (final `.mp4` stored in Google Drive)
+- `episodes/ep06_kentucky_bend/` — Episode 6 (*The Kentucky Bend, 1812*, Fish Audio S2.1 Pro Ethan): `episode_spec.json`, keyframes, aligned audio, renderer, storyboard, `POSTING_KIT.txt` (final `.mp4` stored in Google Drive)
+- `episodes/ep07_missouri_bootheel/` .. `episodes/ep13_black_sunday_1935/` — Episodes 7–13 (29/11–05/12): scripts and word-aligned Fish Audio Ethan narrations ready for visual rendering
 - `SERIES_ROADMAP.md` — 30-Episode Season 1 daily Shorts calendar + Weekly `16:9` Webdoc roadmap
 - `RETENTION_LOG.md` — 48h YouTube Shorts & Facebook Reels A/B performance tracker
