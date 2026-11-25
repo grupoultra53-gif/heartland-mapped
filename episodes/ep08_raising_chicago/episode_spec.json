@@ -1,0 +1,238 @@
+{
+  "slug": "raising_chicago",
+  "output_mp4": "heartland_mapped_ep08_raising_chicago.mp4",
+  "rewind_label": "<< REW  TODAY -> 1856",
+  "bed_bpm": 100.0,
+  "bed_seed": 808,
+  "highlight_words": [
+    "CHICAGO", "JACK", "TEN", "MUD", "HOTEL", "1850S", "SWAMP", "MICHIGAN",
+    "1854", "CHOLERA", "1856", "ELLIS", "CHESBROUGH", "SEWERS", "JACKSCREWS",
+    "WHISTLE", "QUARTER-TURN", "1861", "THOUSAND", "TREMONT", "SIX", "LOGS",
+    "SAVED", "LIFT", "REWIND"
+  ],
+  "qa_points": {
+    "scene_01_wide": {"scene": "scene_01", "rel": 2.90},
+    "scene_04_cholera": {"scene": "scene_04", "rel": 4.90},
+    "scene_07_whistle": {"scene": "scene_07", "rel": 0.90},
+    "scene_08_tremont": {"scene": "scene_08", "rel": 3.40},
+    "scene_09_dollhouse": {"scene": "scene_09", "rel": 4.60},
+    "scene_11_saved": {"scene": "scene_11", "rel": 4.60}
+  },
+  "scenes": [
+    {
+      "id": "scene_01",
+      "keyframe": "keyframes/scene_01.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 2.00, "pan_x": 0.02, "pan_y": -0.02, "tilt_deg": 0.0, "end_zoom": 2.14, "end_pan_x": 0.02, "end_pan_y": 0.02, "end_tilt_deg": 0.4},
+        {"t": 2.15, "zoom": 1.06, "pan_x": 0.00, "pan_y": 0.00, "tilt_deg": 0.0, "end_zoom": 1.16, "end_pan_x": 0.00, "end_pan_y": 0.02, "end_tilt_deg": 0.5},
+        {"t": 3.75, "zoom": 2.02, "pan_x": 0.24, "pan_y": 0.14, "tilt_deg": -0.4, "end_zoom": 2.16, "end_pan_x": 0.24, "end_pan_y": 0.14, "end_tilt_deg": 0.4}
+      ],
+      "sprites": [
+        {"bbox": [0.065, 0.540, 0.340, 0.805], "motion": "cheer_bounce", "pop_delay": 0.0},
+        {"bbox": [0.785, 0.565, 0.965, 0.800], "motion": "glare_bob", "pop_delay": 0.0}
+      ],
+      "overhead": {"text": "10 FEET UP!", "cx": 360, "cy": 185, "trigger_rel": 2.24, "end_rel": 3.70, "style": "badge"},
+      "foley": [
+        {"rel": 0.02, "type": "jackscrew", "gain": 0.66},
+        {"rel": 2.25, "type": "cork_pop", "gain": 0.62},
+        {"rel": -0.50, "type": "tape_rewind", "gain": 0.72}
+      ]
+    },
+    {
+      "id": "scene_02",
+      "keyframe": "keyframes/scene_02.jpg",
+      "vhs_rewind": true,
+      "shots": [
+        {"t": 0.00, "zoom": 1.14, "pan_x": 0.0, "pan_y": -0.04, "tilt_deg": -0.8, "end_zoom": 1.04, "end_pan_x": 0.0, "end_pan_y": -0.02, "end_tilt_deg": 0.0},
+        {"t": 0.88, "zoom": 1.88, "pan_x": 0.18, "pan_y": -0.34, "tilt_deg": 0.5, "end_zoom": 2.02, "end_pan_x": 0.18, "end_pan_y": -0.34, "end_tilt_deg": 0.0}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "tape_rewind", "gain": 0.70},
+        {"rel": 0.86, "type": "parchment_brush", "gain": 0.65}
+      ]
+    },
+    {
+      "id": "scene_03",
+      "keyframe": "keyframes/scene_03.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3},
+        {"t": 2.10, "zoom": 2.04, "pan_x": -0.02, "pan_y": 0.08, "tilt_deg": -0.3, "end_zoom": 2.16, "end_pan_x": -0.02, "end_pan_y": 0.08, "end_tilt_deg": 0.3},
+        {"t": 3.85, "zoom": 2.02, "pan_x": 0.26, "pan_y": -0.14, "tilt_deg": 0.3, "end_zoom": 2.14, "end_pan_x": 0.26, "end_pan_y": -0.14, "end_tilt_deg": -0.3}
+      ],
+      "sprites": [
+        {"bbox": [0.560, 0.515, 0.675, 0.630], "motion": "glare_bob", "pop_delay": 0.0}
+      ],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 2.15, "type": "water_splash", "gain": 0.62},
+        {"rel": 3.90, "type": "cork_pop", "gain": 0.60}
+      ]
+    },
+    {
+      "id": "scene_04",
+      "keyframe": "keyframes/scene_04.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.15, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": -0.3},
+        {"t": 1.80, "zoom": 2.02, "pan_x": -0.14, "pan_y": 0.12, "tilt_deg": 0.3, "end_zoom": 2.14, "end_pan_x": -0.14, "end_pan_y": 0.12, "end_tilt_deg": -0.3},
+        {"t": 4.00, "zoom": 2.08, "pan_x": 0.16, "pan_y": 0.16, "tilt_deg": -0.4, "end_zoom": 2.20, "end_pan_x": 0.16, "end_pan_y": 0.16, "end_tilt_deg": 0.4}
+      ],
+      "sprites": [],
+      "overhead": {"text": "NO DRAINAGE!", "cx": 360, "cy": 200, "trigger_rel": 1.75, "end_rel": 3.95, "style": "badge"},
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 0.20, "type": "storm_gale", "gain": 0.44},
+        {"rel": 1.85, "type": "water_splash", "gain": 0.60},
+        {"rel": 4.05, "type": "church_bell", "gain": 0.56}
+      ]
+    },
+    {
+      "id": "scene_05",
+      "keyframe": "keyframes/scene_05.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3},
+        {"t": 1.65, "zoom": 2.02, "pan_x": -0.18, "pan_y": 0.06, "tilt_deg": -0.3, "end_zoom": 2.14, "end_pan_x": -0.18, "end_pan_y": 0.06, "end_tilt_deg": 0.3},
+        {"t": 4.05, "zoom": 2.08, "pan_x": 0.04, "pan_y": 0.02, "tilt_deg": 0.3, "end_zoom": 2.20, "end_pan_x": 0.04, "end_pan_y": 0.02, "end_tilt_deg": -0.3},
+        {"t": 5.80, "zoom": 2.04, "pan_x": 0.26, "pan_y": 0.16, "tilt_deg": -0.3, "end_zoom": 2.16, "end_pan_x": 0.26, "end_pan_y": 0.16, "end_tilt_deg": 0.3}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 1.70, "type": "parchment_brush", "gain": 0.66},
+        {"rel": 4.10, "type": "cork_pop", "gain": 0.60},
+        {"rel": 5.85, "type": "jaw_drop", "gain": 0.65}
+      ]
+    },
+    {
+      "id": "scene_06",
+      "keyframe": "keyframes/scene_06.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3},
+        {"t": 1.00, "zoom": 2.04, "pan_x": -0.12, "pan_y": 0.14, "tilt_deg": -0.3, "end_zoom": 2.16, "end_pan_x": -0.12, "end_pan_y": 0.14, "end_tilt_deg": 0.3},
+        {"t": 3.50, "zoom": 2.08, "pan_x": 0.10, "pan_y": 0.04, "tilt_deg": 0.3, "end_zoom": 2.20, "end_pan_x": 0.10, "end_pan_y": 0.04, "end_tilt_deg": -0.3}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 1.05, "type": "map_crack", "gain": 0.68},
+        {"rel": 3.55, "type": "jackscrew", "gain": 0.72}
+      ]
+    },
+    {
+      "id": "scene_07",
+      "keyframe": "keyframes/scene_07.jpg",
+      "impact_shake_rel": 2.85,
+      "shots": [
+        {"t": 0.00, "zoom": 2.06, "pan_x": -0.26, "pan_y": 0.14, "tilt_deg": -0.3, "end_zoom": 2.18, "end_pan_x": -0.26, "end_pan_y": 0.14, "end_tilt_deg": 0.3},
+        {"t": 1.65, "zoom": 1.98, "pan_x": 0.18, "pan_y": 0.12, "tilt_deg": 0.3, "end_zoom": 2.12, "end_pan_x": 0.22, "end_pan_y": 0.12, "end_tilt_deg": -0.3},
+        {"t": 3.70, "zoom": 1.08, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.18, "end_pan_x": 0.0, "end_pan_y": 0.02, "end_tilt_deg": 0.4}
+      ],
+      "sprites": [],
+      "overhead": {"text": "QUARTER-TURN!", "cx": 380, "cy": 240, "trigger_rel": 3.74, "style": "badge"},
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 0.24, "type": "whistle_blast", "gain": 0.66},
+        {"rel": 2.80, "type": "jackscrew", "gain": 0.74},
+        {"rel": 3.76, "type": "cork_pop", "gain": 0.60}
+      ]
+    },
+    {
+      "id": "scene_08",
+      "keyframe": "keyframes/scene_08.jpg",
+      "impact_shake_rel": 3.70,
+      "shots": [
+        {"t": 0.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3},
+        {"t": 2.50, "zoom": 2.04, "pan_x": 0.18, "pan_y": 0.14, "tilt_deg": -0.3, "end_zoom": 2.16, "end_pan_x": 0.18, "end_pan_y": 0.14, "end_tilt_deg": 0.3},
+        {"t": 4.40, "zoom": 2.00, "pan_x": -0.18, "pan_y": -0.08, "tilt_deg": 0.3, "end_zoom": 2.12, "end_pan_x": -0.18, "end_pan_y": -0.18, "end_tilt_deg": -0.3}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 2.55, "type": "jackscrew", "gain": 0.70},
+        {"rel": 3.72, "type": "jackscrew", "gain": 0.72},
+        {"rel": 5.60, "type": "celesta_chime", "gain": 0.60}
+      ]
+    },
+    {
+      "id": "scene_09",
+      "keyframe": "keyframes/scene_09.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 2.12, "pan_x": -0.18, "pan_y": -0.26, "tilt_deg": -0.3, "end_zoom": 2.22, "end_pan_x": -0.18, "end_pan_y": -0.26, "end_tilt_deg": 0.3},
+        {"t": 1.50, "zoom": 2.10, "pan_x": -0.08, "pan_y": -0.06, "tilt_deg": 0.3, "end_zoom": 2.20, "end_pan_x": -0.08, "end_pan_y": -0.06, "end_tilt_deg": -0.3},
+        {"t": 2.45, "zoom": 2.10, "pan_x": 0.24, "pan_y": 0.12, "tilt_deg": -0.3, "end_zoom": 2.22, "end_pan_x": 0.24, "end_pan_y": 0.12, "end_tilt_deg": 0.3},
+        {"t": 3.95, "zoom": 1.08, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.18, "end_pan_x": 0.0, "end_pan_y": 0.02, "end_tilt_deg": 0.4}
+      ],
+      "sprites": [],
+      "overhead": {"text": "STILL OPEN!", "cx": 215, "cy": 190, "trigger_rel": 4.00, "style": "badge"},
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 1.55, "type": "celesta_chime", "gain": 0.56},
+        {"rel": 2.50, "type": "pawn_bounce", "gain": 0.58},
+        {"rel": 4.05, "type": "jackscrew", "gain": 0.68}
+      ]
+    },
+    {
+      "id": "scene_10",
+      "keyframe": "keyframes/scene_10.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.15, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3},
+        {"t": 1.70, "zoom": 2.06, "pan_x": 0.08, "pan_y": -0.08, "tilt_deg": -0.3, "end_zoom": 2.18, "end_pan_x": 0.08, "end_pan_y": -0.08, "end_tilt_deg": 0.3},
+        {"t": 3.15, "zoom": 2.08, "pan_x": -0.26, "pan_y": -0.14, "tilt_deg": 0.3, "end_zoom": 2.20, "end_pan_x": -0.26, "end_pan_y": -0.14, "end_tilt_deg": -0.3}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 1.05, "type": "jackscrew", "gain": 0.64},
+        {"rel": 3.18, "type": "jaw_drop", "gain": 0.66}
+      ]
+    },
+    {
+      "id": "scene_11",
+      "keyframe": "keyframes/scene_11.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3},
+        {"t": 1.95, "zoom": 1.98, "pan_x": 0.14, "pan_y": 0.04, "tilt_deg": -0.3, "end_zoom": 2.10, "end_pan_x": 0.14, "end_pan_y": 0.04, "end_tilt_deg": 0.3},
+        {"t": 3.60, "zoom": 2.04, "pan_x": -0.12, "pan_y": 0.22, "tilt_deg": 0.3, "end_zoom": 2.16, "end_pan_x": -0.12, "end_pan_y": 0.22, "end_tilt_deg": -0.3}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 3.65, "type": "celesta_chime", "gain": 0.62},
+        {"rel": 4.70, "type": "stadium_swell", "gain": 0.42}
+      ]
+    },
+    {
+      "id": "scene_12",
+      "keyframe": "keyframes/scene_12.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 1.01, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.06, "end_pan_x": 0.0, "end_pan_y": -0.02, "end_tilt_deg": 0.2},
+        {"t": 1.50, "zoom": 1.08, "pan_x": 0.0, "pan_y": -0.03, "tilt_deg": -0.2, "end_zoom": 1.13, "end_pan_x": 0.0, "end_pan_y": -0.04, "end_tilt_deg": 0.2}
+      ],
+      "sprites": [
+        {"bbox": [0.060, 0.315, 0.240, 0.525], "motion": "football_hop_l", "pop_delay": 0.0},
+        {"bbox": [0.780, 0.380, 0.970, 0.545], "motion": "football_hop_r", "pop_delay": 0.0}
+      ],
+      "overhead": null,
+      "comment_panel": {
+        "trigger_rel": 0.14,
+        "keyword": "LIFT",
+        "comments": [
+          {"handle": "@ChicagoNative", "text": "LIFT! Midwest grit built this city!", "likes": "914 ♥", "color": [26, 78, 198]},
+          {"handle": "@IllinoisHistory", "text": "Imagine waking up 6 feet higher!", "likes": "682 ♥", "color": [188, 72, 24]}
+        ]
+      },
+      "loop_return_sec": 0.30,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.46},
+        {"rel": 0.18, "type": "stadium_swell", "gain": 0.42}
+      ]
+    }
+  ]
+}

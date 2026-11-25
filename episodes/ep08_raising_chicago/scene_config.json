@@ -1,0 +1,870 @@
+{
+  "video_settings": {
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "subtitle_y_ratio": 0.79,
+    "subtitle_panel_y_ratio": 0.47,
+    "version": "v2",
+    "voice_provider": "Fish Audio \u2014 Ethan (@Fish Official)"
+  },
+  "total_duration_sec": 64.277,
+  "scenes": [
+    {
+      "id": "scene_01",
+      "keyframe": "keyframes/scene_01.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 2.0,
+          "pan_x": 0.02,
+          "pan_y": -0.02,
+          "tilt_deg": 0.0,
+          "end_zoom": 2.14,
+          "end_pan_x": 0.02,
+          "end_pan_y": 0.02,
+          "end_tilt_deg": 0.4
+        },
+        {
+          "t": 2.15,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.16,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.02,
+          "end_tilt_deg": 0.5
+        },
+        {
+          "t": 3.75,
+          "zoom": 2.02,
+          "pan_x": 0.24,
+          "pan_y": 0.14,
+          "tilt_deg": -0.4,
+          "end_zoom": 2.16,
+          "end_pan_x": 0.24,
+          "end_pan_y": 0.14,
+          "end_tilt_deg": 0.4
+        }
+      ],
+      "sprites": [
+        {
+          "bbox": [
+            0.065,
+            0.54,
+            0.34,
+            0.805
+          ],
+          "motion": "cheer_bounce",
+          "pop_delay": 0.0
+        },
+        {
+          "bbox": [
+            0.785,
+            0.565,
+            0.965,
+            0.8
+          ],
+          "motion": "glare_bob",
+          "pop_delay": 0.0
+        }
+      ],
+      "overhead": {
+        "text": "10 FEET UP!",
+        "cx": 360,
+        "cy": 185,
+        "trigger_rel": 2.24,
+        "end_rel": 3.7,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.02,
+          "type": "jackscrew",
+          "gain": 0.66
+        },
+        {
+          "rel": 2.25,
+          "type": "cork_pop",
+          "gain": 0.62
+        },
+        {
+          "rel": -0.5,
+          "type": "tape_rewind",
+          "gain": 0.72
+        }
+      ],
+      "start_sec": 0.0,
+      "end_sec": 5.62,
+      "narration": "How did Chicago physically jack up an entire city ten feet out of the mud without closing a single hotel?"
+    },
+    {
+      "id": "scene_02",
+      "keyframe": "keyframes/scene_02.jpg",
+      "vhs_rewind": true,
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.14,
+          "pan_x": 0.0,
+          "pan_y": -0.04,
+          "tilt_deg": -0.8,
+          "end_zoom": 1.04,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.02,
+          "end_tilt_deg": 0.0
+        },
+        {
+          "t": 0.88,
+          "zoom": 1.88,
+          "pan_x": 0.18,
+          "pan_y": -0.34,
+          "tilt_deg": 0.5,
+          "end_zoom": 2.02,
+          "end_pan_x": 0.18,
+          "end_pan_y": -0.34,
+          "end_tilt_deg": 0.0
+        }
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "tape_rewind",
+          "gain": 0.7
+        },
+        {
+          "rel": 0.86,
+          "type": "parchment_brush",
+          "gain": 0.65
+        }
+      ],
+      "start_sec": 5.62,
+      "end_sec": 7.5,
+      "narration": "Wait... let's rewind."
+    },
+    {
+      "id": "scene_03",
+      "keyframe": "keyframes/scene_03.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 2.1,
+          "zoom": 2.04,
+          "pan_x": -0.02,
+          "pan_y": 0.08,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.16,
+          "end_pan_x": -0.02,
+          "end_pan_y": 0.08,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 3.85,
+          "zoom": 2.02,
+          "pan_x": 0.26,
+          "pan_y": -0.14,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.14,
+          "end_pan_x": 0.26,
+          "end_pan_y": -0.14,
+          "end_tilt_deg": -0.3
+        }
+      ],
+      "sprites": [
+        {
+          "bbox": [
+            0.56,
+            0.515,
+            0.675,
+            0.63
+          ],
+          "motion": "glare_bob",
+          "pop_delay": 0.0
+        }
+      ],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 2.15,
+          "type": "water_splash",
+          "gain": 0.62
+        },
+        {
+          "rel": 3.9,
+          "type": "cork_pop",
+          "gain": 0.6
+        }
+      ],
+      "start_sec": 7.5,
+      "end_sec": 12.72,
+      "narration": "In the 1850s, Chicago sat on a flat, soggy swamp barely higher than Lake Michigan."
+    },
+    {
+      "id": "scene_04",
+      "keyframe": "keyframes/scene_04.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.15,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": -0.3
+        },
+        {
+          "t": 1.8,
+          "zoom": 2.02,
+          "pan_x": -0.14,
+          "pan_y": 0.12,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.14,
+          "end_pan_x": -0.14,
+          "end_pan_y": 0.12,
+          "end_tilt_deg": -0.3
+        },
+        {
+          "t": 4.0,
+          "zoom": 2.08,
+          "pan_x": 0.16,
+          "pan_y": 0.16,
+          "tilt_deg": -0.4,
+          "end_zoom": 2.2,
+          "end_pan_x": 0.16,
+          "end_pan_y": 0.16,
+          "end_tilt_deg": 0.4
+        }
+      ],
+      "sprites": [],
+      "overhead": {
+        "text": "NO DRAINAGE!",
+        "cx": 360,
+        "cy": 200,
+        "trigger_rel": 1.75,
+        "end_rel": 3.95,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 0.2,
+          "type": "storm_gale",
+          "gain": 0.44
+        },
+        {
+          "rel": 1.85,
+          "type": "water_splash",
+          "gain": 0.6
+        },
+        {
+          "rel": 4.05,
+          "type": "church_bell",
+          "gain": 0.56
+        }
+      ],
+      "start_sec": 12.72,
+      "end_sec": 19.3,
+      "narration": "With zero drainage, rainwater and sewage pooled in the streets\u2014triggering a deadly 1854 cholera epidemic."
+    },
+    {
+      "id": "scene_05",
+      "keyframe": "keyframes/scene_05.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 1.65,
+          "zoom": 2.02,
+          "pan_x": -0.18,
+          "pan_y": 0.06,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.14,
+          "end_pan_x": -0.18,
+          "end_pan_y": 0.06,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 4.05,
+          "zoom": 2.08,
+          "pan_x": 0.04,
+          "pan_y": 0.02,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.2,
+          "end_pan_x": 0.04,
+          "end_pan_y": 0.02,
+          "end_tilt_deg": -0.3
+        },
+        {
+          "t": 5.8,
+          "zoom": 2.04,
+          "pan_x": 0.26,
+          "pan_y": 0.16,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.16,
+          "end_pan_x": 0.26,
+          "end_pan_y": 0.16,
+          "end_tilt_deg": 0.3
+        }
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 1.7,
+          "type": "parchment_brush",
+          "gain": 0.66
+        },
+        {
+          "rel": 4.1,
+          "type": "cork_pop",
+          "gain": 0.6
+        },
+        {
+          "rel": 5.85,
+          "type": "jaw_drop",
+          "gain": 0.65
+        }
+      ],
+      "start_sec": 19.3,
+      "end_sec": 26.64,
+      "narration": "In 1856, engineer Ellis Chesbrough pitched a wild fix: build sewers above ground, bury them, and lift the whole city up."
+    },
+    {
+      "id": "scene_06",
+      "keyframe": "keyframes/scene_06.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 1.0,
+          "zoom": 2.04,
+          "pan_x": -0.12,
+          "pan_y": 0.14,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.16,
+          "end_pan_x": -0.12,
+          "end_pan_y": 0.14,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 3.5,
+          "zoom": 2.08,
+          "pan_x": 0.1,
+          "pan_y": 0.04,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.2,
+          "end_pan_x": 0.1,
+          "end_pan_y": 0.04,
+          "end_tilt_deg": -0.3
+        }
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 1.05,
+          "type": "map_crack",
+          "gain": 0.68
+        },
+        {
+          "rel": 3.55,
+          "type": "jackscrew",
+          "gain": 0.72
+        }
+      ],
+      "start_sec": 26.64,
+      "end_sec": 32.52,
+      "narration": "Teams dug trenches under massive brick blocks and slid hundreds of iron jackscrews beneath the foundations."
+    },
+    {
+      "id": "scene_07",
+      "keyframe": "keyframes/scene_07.jpg",
+      "impact_shake_rel": 2.85,
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 2.06,
+          "pan_x": -0.26,
+          "pan_y": 0.14,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.18,
+          "end_pan_x": -0.26,
+          "end_pan_y": 0.14,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 1.65,
+          "zoom": 1.98,
+          "pan_x": 0.18,
+          "pan_y": 0.12,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.12,
+          "end_pan_x": 0.22,
+          "end_pan_y": 0.12,
+          "end_tilt_deg": -0.3
+        },
+        {
+          "t": 3.7,
+          "zoom": 1.08,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.18,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.02,
+          "end_tilt_deg": 0.4
+        }
+      ],
+      "sprites": [],
+      "overhead": {
+        "text": "QUARTER-TURN!",
+        "cx": 380,
+        "cy": 240,
+        "trigger_rel": 3.74,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 0.24,
+          "type": "whistle_blast",
+          "gain": 0.66
+        },
+        {
+          "rel": 2.8,
+          "type": "jackscrew",
+          "gain": 0.74
+        },
+        {
+          "rel": 3.76,
+          "type": "cork_pop",
+          "gain": 0.6
+        }
+      ],
+      "start_sec": 32.52,
+      "end_sec": 37.7,
+      "narration": "At a whistle blast, hundreds of workers gave every screw a tiny quarter-turn in perfect unison."
+    },
+    {
+      "id": "scene_08",
+      "keyframe": "keyframes/scene_08.jpg",
+      "impact_shake_rel": 3.7,
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 2.5,
+          "zoom": 2.04,
+          "pan_x": 0.18,
+          "pan_y": 0.14,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.16,
+          "end_pan_x": 0.18,
+          "end_pan_y": 0.14,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 4.4,
+          "zoom": 2.0,
+          "pan_x": -0.18,
+          "pan_y": -0.08,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.12,
+          "end_pan_x": -0.18,
+          "end_pan_y": -0.18,
+          "end_tilt_deg": -0.3
+        }
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 2.55,
+          "type": "jackscrew",
+          "gain": 0.7
+        },
+        {
+          "rel": 3.72,
+          "type": "jackscrew",
+          "gain": 0.72
+        },
+        {
+          "rel": 5.6,
+          "type": "celesta_chime",
+          "gain": 0.6
+        }
+      ],
+      "start_sec": 37.7,
+      "end_sec": 44.08,
+      "narration": "In 1861, five hundred men used one thousand jackscrews to lift the six-story Tremont House hotel six feet."
+    },
+    {
+      "id": "scene_09",
+      "keyframe": "keyframes/scene_09.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 2.12,
+          "pan_x": -0.18,
+          "pan_y": -0.26,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.22,
+          "end_pan_x": -0.18,
+          "end_pan_y": -0.26,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 1.5,
+          "zoom": 2.1,
+          "pan_x": -0.08,
+          "pan_y": -0.06,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.2,
+          "end_pan_x": -0.08,
+          "end_pan_y": -0.06,
+          "end_tilt_deg": -0.3
+        },
+        {
+          "t": 2.45,
+          "zoom": 2.1,
+          "pan_x": 0.24,
+          "pan_y": 0.12,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.22,
+          "end_pan_x": 0.24,
+          "end_pan_y": 0.12,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 3.95,
+          "zoom": 1.08,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.18,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.02,
+          "end_tilt_deg": 0.4
+        }
+      ],
+      "sprites": [],
+      "overhead": {
+        "text": "STILL OPEN!",
+        "cx": 215,
+        "cy": 190,
+        "trigger_rel": 4.0,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 1.55,
+          "type": "celesta_chime",
+          "gain": 0.56
+        },
+        {
+          "rel": 2.5,
+          "type": "pawn_bounce",
+          "gain": 0.58
+        },
+        {
+          "rel": 4.05,
+          "type": "jackscrew",
+          "gain": 0.68
+        }
+      ],
+      "start_sec": 44.08,
+      "end_sec": 49.94,
+      "narration": "Guests slept in their beds, ate dinner, and strolled out the lobby\u2014never realizing the building was rising."
+    },
+    {
+      "id": "scene_10",
+      "keyframe": "keyframes/scene_10.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.15,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 1.7,
+          "zoom": 2.06,
+          "pan_x": 0.08,
+          "pan_y": -0.08,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.18,
+          "end_pan_x": 0.08,
+          "end_pan_y": -0.08,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 3.15,
+          "zoom": 2.08,
+          "pan_x": -0.26,
+          "pan_y": -0.14,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.2,
+          "end_pan_x": -0.26,
+          "end_pan_y": -0.14,
+          "end_tilt_deg": -0.3
+        }
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 1.05,
+          "type": "jackscrew",
+          "gain": 0.64
+        },
+        {
+          "rel": 3.18,
+          "type": "jaw_drop",
+          "gain": 0.66
+        }
+      ],
+      "start_sec": 49.94,
+      "end_sec": 54.32,
+      "narration": "Wooden shops were even rolled down the streets on logs while shoppers kept browsing inside!"
+    },
+    {
+      "id": "scene_11",
+      "keyframe": "keyframes/scene_11.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 1.95,
+          "zoom": 1.98,
+          "pan_x": 0.14,
+          "pan_y": 0.04,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.1,
+          "end_pan_x": 0.14,
+          "end_pan_y": 0.04,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 3.6,
+          "zoom": 2.04,
+          "pan_x": -0.12,
+          "pan_y": 0.22,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.16,
+          "end_pan_x": -0.12,
+          "end_pan_y": 0.22,
+          "end_tilt_deg": -0.3
+        }
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 3.65,
+          "type": "celesta_chime",
+          "gain": 0.62
+        },
+        {
+          "rel": 4.7,
+          "type": "stadium_swell",
+          "gain": 0.42
+        }
+      ],
+      "start_sec": 54.32,
+      "end_sec": 60.32,
+      "narration": "Over a decade, Chicago raised entire city blocks\u2014and saved itself from the swamp forever."
+    },
+    {
+      "id": "scene_12",
+      "keyframe": "keyframes/scene_12.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.01,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.06,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.02,
+          "end_tilt_deg": 0.2
+        },
+        {
+          "t": 1.5,
+          "zoom": 1.08,
+          "pan_x": 0.0,
+          "pan_y": -0.03,
+          "tilt_deg": -0.2,
+          "end_zoom": 1.13,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.04,
+          "end_tilt_deg": 0.2
+        }
+      ],
+      "sprites": [
+        {
+          "bbox": [
+            0.06,
+            0.315,
+            0.24,
+            0.525
+          ],
+          "motion": "football_hop_l",
+          "pop_delay": 0.0
+        },
+        {
+          "bbox": [
+            0.78,
+            0.38,
+            0.97,
+            0.545
+          ],
+          "motion": "football_hop_r",
+          "pop_delay": 0.0
+        }
+      ],
+      "overhead": null,
+      "comment_panel": {
+        "trigger_rel": 0.14,
+        "keyword": "LIFT",
+        "comments": [
+          {
+            "handle": "@ChicagoNative",
+            "text": "LIFT! Midwest grit built this city!",
+            "likes": "914 \u2665",
+            "color": [
+              26,
+              78,
+              198
+            ]
+          },
+          {
+            "handle": "@IllinoisHistory",
+            "text": "Imagine waking up 6 feet higher!",
+            "likes": "682 \u2665",
+            "color": [
+              188,
+              72,
+              24
+            ]
+          }
+        ]
+      },
+      "loop_return_sec": 0.3,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.46
+        },
+        {
+          "rel": 0.18,
+          "type": "stadium_swell",
+          "gain": 0.42
+        }
+      ],
+      "start_sec": 60.32,
+      "end_sec": 64.277,
+      "narration": "Comment LIFT if you'd have slept in that rising hotel\u2014and now you know..."
+    }
+  ]
+}

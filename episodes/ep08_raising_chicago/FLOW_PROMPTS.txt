@@ -1,0 +1,32 @@
+================================================================================
+EPISODE 08 — RAISING CHICAGO OUT OF THE MUD (1856) — GOOGLE FLOW PROMPTS
+Config: Image | Nano Banana 2.1 | 9:16 | x1
+(Scenes 01, 02, 03 already saved in keyframes/)
+================================================================================
+
+SCENE 04 (1854 Cholera Flooded Streets):
+2.5D isometric hand-inked storybook diorama of a rainy 1854 CHICAGO street flooded with murky standing puddles and overflowing wooden sidewalks, dark storm clouds and rain streaks above, a weathered wooden sign on a lamppost reading '1854 CHOLERA', worried chibi peg-doll townspeople holding umbrellas stepping carefully across soggy plank walkways. Crisp black ink outlines, moody warm gouache colors, vertical 9:16 portrait, clean uncluttered lower fifth.
+
+SCENE 05 (1856 Ellis Chesbrough Blueprint Pitch):
+2.5D isometric hand-inked storybook cutaway diorama of a sunlit 1856 engineering drafting table: chibi peg-doll engineer Ellis Chesbrough (tall dark stovepipe hat, royal blue vest, smiling) pointing eagerly at a giant blue architectural blueprint labeled 'RAISE CHICAGO!' showing brick sewer pipes laid on top of the mud and buildings lifted high above them, while three wide-eyed chibi city councilmen in dark coats lean in amazed. Crisp black ink outlines, warm gouache illustration, vertical 9:16 portrait, clean uncluttered lower fifth.
+
+SCENE 06 (Trenches & Iron Jackscrews):
+2.5D isometric cutaway storybook diorama of a massive 1850s red-brick CHICAGO city block: excavation trenches dug deep beneath its stone foundation reveal neat rows of gleaming dark-iron jackscrews resting on stacked wooden timber cribbing, while hardworking chibi peg-doll laborers in brown flat caps and suspenders carry shovels and slide iron screws into place underneath. Crisp black ink outlines, warm gouache colors, vertical 9:16 portrait, clean uncluttered lower fifth.
+
+SCENE 07 (Whistle Blast — Quarter-Turn in Unison):
+2.5D isometric hand-inked storybook diorama underneath a lifted brick building in 1850s CHICAGO: a foreman chibi peg-doll in a dark cap blows a shiny brass whistle with crisp comic sound-wave lines labeled 'TWEET!', while a tidy row of chibi laborers in flat caps and suspenders simultaneously pull wooden levers turning iron jackscrews in perfect unison with small golden curved turning arrows. Crisp black ink outlines, rich warm gouache colors, vertical 9:16 portrait, clean uncluttered lower fifth.
+
+SCENE 08 (1861 Tremont House — 1,000 Jackscrews, 6 Feet Up):
+2.5D isometric hand-inked cutaway diorama of the grand six-story red-brick hotel labeled 'TREMONT HOUSE' in 1861 CHICAGO rising six feet straight up on a glowing forest of iron jackscrews and stacked timbers, dozens of tiny chibi workers turning screws below, with a crisp cream vertical measurement arrow reading '6 FEET UP!' and a small ribbon reading '1,000 JACKSCREWS'. Crisp black ink outlines, rich gouache storybook colors, vertical 9:16 portrait, clean uncluttered lower fifth.
+
+SCENE 09 (Guests Sleeping & Dining Inside Rising Hotel):
+2.5D isometric dollhouse cutaway storybook diorama of the rising red-brick 'TREMONT HOUSE' hotel interior: upstairs a cozy chibi guest sleeps peacefully in a four-poster bed with 'Zzz', on the middle floor cheerful chibi diners eat at white tablecloth tables with clinking plates, on the ground floor a top-hatted chibi guest calmly strolls out the wooden lobby steps, while beneath the floor glowing iron jackscrews quietly lift the entire building. Crisp black ink outlines, warm gouache colors, vertical 9:16 portrait, clean uncluttered lower fifth.
+
+SCENE 10 (Wooden Shops Rolled Down Streets on Logs):
+2.5D isometric hand-inked storybook diorama of a lively 1850s CHICAGO dirt street: a charming two-story wooden storefront labeled 'GENERAL STORE' is literally rolling down the avenue atop big round wooden log rollers pulled by a team of horses, while tiny cheerful chibi shoppers peek out the shop windows still browsing shelves and a stunned pedestrian drops his hat on the sidewalk. Crisp black ink outlines, warm gouache colors, vertical 9:16 portrait, clean uncluttered lower fifth.
+
+SCENE 11 (Elevated Chicago Saved Forever):
+2.5D isometric hand-inked illustrated relief map and skyline diorama of bright, gleaming elevated 1860s CHICAGO beside sparkling pale-blue LAKE MICHIGAN: clean dry brick avenues, tidy brick sewer arches visible in a subtle cutaway edge underneath, proud red-brick city blocks standing high and dry, and chibi engineer Ellis Chesbrough tipping his tall dark stovepipe hat triumphantly beside a ribbon reading 'SAVED!'. Crisp black ink outlines, vibrant gouache colors, vertical 9:16 portrait, clean uncluttered lower third.
+
+SCENE 12 (Upper-Half Finale for Animated LIFT Comment Panel):
+2.5D isometric hand-inked storybook diorama composed STRICTLY IN THE UPPER HALF (top 52% of the frame): the iconic red-brick 'TREMONT HOUSE' hotel proudly lifted on glowing iron jackscrews beside LAKE MICHIGAN, flanked by two cheerful chibi peg-doll characters (engineer Ellis Chesbrough in dark stovepipe hat and blue vest tipping his hat on the left; amazed red-coat hotel guest cheering with raised arms on the right). CRITICAL LAYOUT: The ENTIRE LOWER HALF (bottom 48% of the vertical frame) MUST BE completely clean, open, uncluttered warm antique cream parchment paper texture with zero buildings, zero characters, and zero text so an animated comment box can overlay cleanly. Vertical 9:16 portrait.

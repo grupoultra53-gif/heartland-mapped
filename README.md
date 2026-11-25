@@ -32,6 +32,7 @@ Vertical `9:16` 2.5D animated historical shorts focused on the US Midwest / Hear
 - `episodes/ep05_carter_lake/` — Episode 5 (*Carter Lake — The Iowa Town Trapped Inside Nebraska, 1877*, Fish Audio S2.1 Pro Ethan): script, keyframes, aligned audio, renderer, storyboard, `POSTING_KIT.txt` (final `.mp4` stored in Google Drive)
 - `episodes/ep06_kentucky_bend/` — Episode 6 (*The Kentucky Bend, 1812*, Fish Audio S2.1 Pro Ethan): `episode_spec.json`, keyframes, aligned audio, renderer, storyboard, `POSTING_KIT.txt` (final `.mp4` stored in Google Drive)
 - `episodes/ep07_missouri_bootheel/` — Episode 7 (*The Missouri Bootheel, 1821*, Fish Audio S2.1 Pro Ethan): `episode_spec.json`, keyframes, aligned audio, renderer, storyboard, `POSTING_KIT.txt` (final `.mp4` stored in Google Drive)
-- `episodes/ep08_raising_chicago/` .. `episodes/ep13_black_sunday_1935/` — Episodes 8–13 (30/11–05/12): scripts and word-aligned Fish Audio Ethan narrations ready for visual rendering
+- `episodes/ep08_raising_chicago/` — Episode 8 (*Raising Chicago Out of the Mud, 1856*, Fish Audio S2.1 Pro Ethan): `episode_spec.json`, keyframes, aligned audio, renderer, storyboard, `POSTING_KIT.txt` (final `.mp4` stored in Google Drive)
+- `episodes/ep09_peshtigo_fire/` .. `episodes/ep13_black_sunday_1935/` — Episodes 9–13 (01/12–05/12): scripts, word-aligned Fish Audio Ethan narrations, and Flow Agent mega-prompts (`FLOW_PROMPTS.txt`) ready for generation & rendering
 - `SERIES_ROADMAP.md` — 30-Episode Season 1 daily Shorts calendar + Weekly `16:9` Webdoc roadmap
 - `RETENTION_LOG.md` — 48h YouTube Shorts & Facebook Reels A/B performance tracker

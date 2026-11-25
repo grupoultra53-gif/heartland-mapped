@@ -18,6 +18,7 @@ Use este registro 48 horas após publicar cada vídeo (YouTube Studio → Shorts
 | **Ep. 05 — Carter Lake** | **v2 + Ethan** | **69.57s** | **20.55 / 10s** | **60.2% (41.9s)** | **2/2 vis, 2.04x** | **5.2 dB** | **Sim (`IOWA`)** | **ALL PASS (7/7)** |
 | **Ep. 06 — Kentucky Bend** | **v2 + Ethan** | **65.45s** | **25.52 / 10s** | **50.3% (32.9s)** | **2/2 vis, 2.02x** | **4.6 dB** | **Sim (`KEEP`)** | **ALL PASS (7/7)** |
 | **Ep. 07 — Missouri Bootheel** | **v2 + Ethan** | **65.29s** | **29.71 / 10s** | **58.4% (38.1s)** | **2/2 vis, 2.04x** | **5.7 dB** | **Sim (`BOOT`)** | **ALL PASS (7/7)** |
+| **Ep. 08 — Raising Chicago** | **v2 + Ethan** | **64.28s** | **31.43 / 10s** | **65.0% (41.8s)** | **2/2 vis, 2.00x** | **4.4 dB** | **Sim (`LIFT`)** | **ALL PASS (7/7)** |
 
 ## Tabela de Acompanhamento (48h)
 
@@ -37,3 +38,5 @@ Use este registro 48 horas após publicar cada vídeo (YouTube Studio → Shorts
 | **Ep. 06 — Kentucky Bend** | **v2 + Ethan** | 65s | FB Reels | | | | | | | Fish Audio S2.1 Pro Ethan + v2 universal renderer (7/7 PASS, CTA `KEEP`/`TRADE`) |
 | **Ep. 07 — Missouri Bootheel** | **v2 + Ethan** | 65s | YT Shorts | | | | | | | Fish Audio S2.1 Pro Ethan + v2 universal renderer (7/7 PASS, CTA `BOOT`) |
 | **Ep. 07 — Missouri Bootheel** | **v2 + Ethan** | 65s | FB Reels | | | | | | | Fish Audio S2.1 Pro Ethan + v2 universal renderer (7/7 PASS, CTA `BOOT`) |
+| **Ep. 08 — Raising Chicago** | **v2 + Ethan** | 64s | YT Shorts | | | | | | | Fish Audio S2.1 Pro Ethan + v2 universal renderer (7/7 PASS, CTA `LIFT`) |
+| **Ep. 08 — Raising Chicago** | **v2 + Ethan** | 64s | FB Reels | | | | | | | Fish Audio S2.1 Pro Ethan + v2 universal renderer (7/7 PASS, CTA `LIFT`) |

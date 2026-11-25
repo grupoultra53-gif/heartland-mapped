@@ -1,0 +1,14 @@
+{
+  "episode": "ep08_raising_chicago",
+  "video_file": "heartland_mapped_ep08_raising_chicago.mp4",
+  "duration_sec": 64.28,
+  "visual_jumps_per_10s": 31.43,
+  "planned_shots_per_10s": 5.6,
+  "closeup_pct": 65.0,
+  "frame0_zoom": 2.0,
+  "frame0_visible_sprites": 2,
+  "audio_gap_db_drop": 4.35,
+  "has_comment_panel": true,
+  "has_seamless_loop": true,
+  "all_pass": true
+}

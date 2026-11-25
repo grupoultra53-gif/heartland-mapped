@@ -23,7 +23,7 @@
 ### Arco 2 — Engenharias Impossíveis & Desastres Históricos (Eps. 08–14)
 | Ep. | Data Programada | Status | Tema | Estados | CTA 1 Palavra |
 | :-: | :--- | :--- | :--- | :--- | :---: |
-| **08** | **Seg 30/11/2026** | Áudio Ethan pronto | *The Day Chicago Raised the Entire City 10 Feet Out of the Mud (1856)* | Illinois | `LIFT` |
+| **08** | **Seg 30/11/2026** | Pronto no Drive | *The Day Chicago Raised the Entire City 10 Feet Out of the Mud (1856)* | Illinois | `LIFT` |
 | **09** | **Ter 01/12/2026** | Áudio Ethan pronto | *The Great Peshtigo Fire (1871 — Same Night as Chicago, 5x Deadlier)* | Wisconsin | `REMEMBER` |
 | **10** | **Qua 02/12/2026** | Áudio Ethan pronto | *The Night the Mississippi River Flowed Backwards (1811–1812)* | Missouri / Illinois / Kentucky | `QUAKE` |
 | **11** | **Qui 03/12/2026** | Áudio Ethan pronto | *The Edmund Fitzgerald & Lake Superior's Deadliest Storm (1975)* | Michigan / Wisconsin / Minnesota | `FITZ` |
