@@ -18,7 +18,7 @@
 | **04** | **Qui 26/11/2026** | Agendado | v2 · Edge-TTS | *The Honey War (1839)* | Iowa vs. Missouri | `HONEY` |
 | **05** | **Sex 27/11/2026** | Agendado | v2 · Fish Audio (Ethan) | *Carter Lake — The Iowa Town Trapped Inside Nebraska (1877)* | Iowa vs. Nebraska | `IOWA` / `NEBRASKA` |
 | **06** | **Sáb 28/11/2026** | Pronto no Drive | v2 · Fish Audio (Ethan) | *The Kentucky Bend — Isolated by the 1812 Earthquake* | Kentucky / Missouri / Tennessee | `KEEP` / `TRADE` |
-| **07** | **Dom 29/11/2026** | Áudio pronto · S01 ok (Flow pausado) | v2 · Fish Audio (Ethan) | *The Missouri Bootheel — One Stubborn Landowner (1821)* | Missouri vs. Arkansas | `BOOT` |
+| **07** | **Dom 29/11/2026** | Pronto no Drive | v2 · Fish Audio (Ethan) | *The Missouri Bootheel — One Stubborn Landowner (1821)* | Missouri vs. Arkansas | `BOOT` |
 
 ### Arco 2 — Engenharias Impossíveis & Desastres Históricos (Eps. 08–14)
 | Ep. | Data Programada | Status | Tema | Estados | CTA 1 Palavra |

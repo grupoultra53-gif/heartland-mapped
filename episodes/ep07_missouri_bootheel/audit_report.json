@@ -1,0 +1,14 @@
+{
+  "episode": "ep07_missouri_bootheel",
+  "video_file": "heartland_mapped_ep07_missouri_bootheel.mp4",
+  "duration_sec": 65.29,
+  "visual_jumps_per_10s": 29.71,
+  "planned_shots_per_10s": 5.82,
+  "closeup_pct": 58.4,
+  "frame0_zoom": 2.04,
+  "frame0_visible_sprites": 2,
+  "audio_gap_db_drop": 5.72,
+  "has_comment_panel": true,
+  "has_seamless_loop": true,
+  "all_pass": true
+}

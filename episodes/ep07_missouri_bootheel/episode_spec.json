@@ -1,0 +1,257 @@
+{
+  "slug": "missouri_bootheel",
+  "output_mp4": "heartland_mapped_ep07_missouri_bootheel.mp4",
+  "rewind_label": "<< REW  TODAY -> 1818",
+  "bed_bpm": 98.0,
+  "bed_seed": 707,
+  "highlight_words": [
+    "MISSOURI", "ARKANSAS", "FIFTY", "1818", "CONGRESS", "36-30", "SLICED",
+    "WALKER", "1812", "CZAR", "STATEHOOD", "ST", "LOUIS", "LOBBYING",
+    "1821", "THIRTY-FOUR", "980-SQUARE-MILE", "BOOTHEEL", "SHERIFF", "JUDGE", "BOOT", "REWIND"
+  ],
+  "qa_points": {
+    "scene_01_wide": {"scene": "scene_01", "rel": 2.25},
+    "scene_04_cut": {"scene": "scene_04", "rel": 2.20},
+    "scene_06_czar": {"scene": "scene_06", "rel": 1.60},
+    "scene_08_lobby": {"scene": "scene_08", "rel": 3.40},
+    "scene_09_drop": {"scene": "scene_09", "rel": 3.90},
+    "scene_11_sheriff": {"scene": "scene_11", "rel": 3.40}
+  },
+  "scenes": [
+    {
+      "id": "scene_01",
+      "keyframe": "keyframes/scene_01.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 2.04, "pan_x": 0.20, "pan_y": -0.05, "tilt_deg": 0.0, "end_zoom": 2.18, "end_pan_x": 0.20, "end_pan_y": -0.04, "end_tilt_deg": 0.4},
+        {"t": 1.45, "zoom": 1.08, "pan_x": 0.00, "pan_y": 0.00, "tilt_deg": 0.0, "end_zoom": 1.18, "end_pan_x": 0.00, "end_pan_y": 0.02, "end_tilt_deg": 0.5},
+        {"t": 3.00, "zoom": 2.06, "pan_x": 0.05, "pan_y": 0.18, "tilt_deg": -0.4, "end_zoom": 2.18, "end_pan_x": 0.05, "end_pan_y": 0.18, "end_tilt_deg": 0.4}
+      ],
+      "sprites": [
+        {"bbox": [0.635, 0.370, 0.790, 0.525], "motion": "cheer_bounce", "pop_delay": 0.0},
+        {"bbox": [0.475, 0.610, 0.615, 0.760], "motion": "glare_bob", "pop_delay": 0.0}
+      ],
+      "overhead": {"text": "50 MILES INTO AR!", "cx": 410, "cy": 270, "trigger_rel": 1.50, "end_rel": 2.95, "style": "badge"},
+      "foley": [
+        {"rel": 0.02, "type": "pawn_bounce", "gain": 0.65},
+        {"rel": 1.52, "type": "cork_pop", "gain": 0.62},
+        {"rel": -0.50, "type": "tape_rewind", "gain": 0.72}
+      ]
+    },
+    {
+      "id": "scene_02",
+      "keyframe": "keyframes/scene_02.jpg",
+      "vhs_rewind": true,
+      "shots": [
+        {"t": 0.00, "zoom": 1.14, "pan_x": 0.0, "pan_y": -0.04, "tilt_deg": -0.8, "end_zoom": 1.04, "end_pan_x": 0.0, "end_pan_y": -0.02, "end_tilt_deg": 0.0},
+        {"t": 1.02, "zoom": 1.82, "pan_x": 0.0, "pan_y": -0.34, "tilt_deg": 0.5, "end_zoom": 1.96, "end_pan_x": 0.0, "end_pan_y": -0.35, "end_tilt_deg": 0.0}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "tape_rewind", "gain": 0.70},
+        {"rel": 1.00, "type": "parchment_brush", "gain": 0.65}
+      ]
+    },
+    {
+      "id": "scene_03",
+      "keyframe": "keyframes/scene_03.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.15, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3},
+        {"t": 2.00, "zoom": 2.04, "pan_x": 0.22, "pan_y": -0.02, "tilt_deg": -0.3, "end_zoom": 2.16, "end_pan_x": 0.22, "end_pan_y": -0.02, "end_tilt_deg": 0.3},
+        {"t": 4.80, "zoom": 2.02, "pan_x": -0.04, "pan_y": -0.04, "tilt_deg": 0.3, "end_zoom": 2.14, "end_pan_x": -0.02, "end_pan_y": -0.04, "end_tilt_deg": -0.3},
+        {"t": 6.10, "zoom": 1.10, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.18, "end_pan_x": 0.0, "end_pan_y": 0.02, "end_tilt_deg": 0.4}
+      ],
+      "sprites": [
+        {"bbox": [0.59, 0.37, 0.88, 0.56], "motion": "write_bob", "pop_delay": 0.0}
+      ],
+      "overhead": {"text": "FLAT RECTANGLE!", "cx": 360, "cy": 255, "trigger_rel": 6.14, "style": "badge"},
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 2.05, "type": "parchment_brush", "gain": 0.66},
+        {"rel": 4.85, "type": "map_crack", "gain": 0.65},
+        {"rel": 6.16, "type": "cork_pop", "gain": 0.60}
+      ]
+    },
+    {
+      "id": "scene_04",
+      "keyframe": "keyframes/scene_04.jpg",
+      "impact_shake_rel": 1.10,
+      "shots": [
+        {"t": 0.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": -0.3},
+        {"t": 1.08, "zoom": 2.08, "pan_x": 0.26, "pan_y": -0.14, "tilt_deg": 0.4, "end_zoom": 2.20, "end_pan_x": 0.26, "end_pan_y": -0.14, "end_tilt_deg": -0.4},
+        {"t": 2.95, "zoom": 2.10, "pan_x": 0.22, "pan_y": -0.06, "tilt_deg": -0.4, "end_zoom": 2.22, "end_pan_x": 0.22, "end_pan_y": -0.06, "end_tilt_deg": 0.4},
+        {"t": 4.45, "zoom": 1.10, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.20, "end_pan_x": 0.0, "end_pan_y": 0.02, "end_tilt_deg": -0.4}
+      ],
+      "sprites": [
+        {"bbox": [0.63, 0.35, 0.84, 0.49], "motion": "shudder", "pop_delay": 0.0}
+      ],
+      "overhead": {"text": "SLICED OFF!", "cx": 380, "cy": 230, "trigger_rel": 4.50, "style": "badge"},
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 1.08, "type": "map_crack", "gain": 0.76},
+        {"rel": 2.98, "type": "jaw_drop", "gain": 0.66},
+        {"rel": 4.52, "type": "cork_pop", "gain": 0.60}
+      ]
+    },
+    {
+      "id": "scene_05",
+      "keyframe": "keyframes/scene_05.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 1.98, "pan_x": -0.10, "pan_y": 0.08, "tilt_deg": -0.3, "end_zoom": 2.10, "end_pan_x": -0.10, "end_pan_y": 0.08, "end_tilt_deg": 0.3},
+        {"t": 2.20, "zoom": 1.08, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.16, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3},
+        {"t": 3.75, "zoom": 1.92, "pan_x": -0.06, "pan_y": -0.28, "tilt_deg": 0.3, "end_zoom": 2.06, "end_pan_x": -0.04, "end_pan_y": -0.28, "end_tilt_deg": -0.3},
+        {"t": 5.15, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.16, "end_pan_x": 0.0, "end_pan_y": 0.02, "end_tilt_deg": 0.4}
+      ],
+      "sprites": [
+        {"bbox": [0.18, 0.43, 0.44, 0.70], "motion": "cheer_bounce", "pop_delay": 0.0}
+      ],
+      "overhead": {"text": "CATTLE BARON!", "cx": 410, "cy": 265, "trigger_rel": 5.20, "style": "badge"},
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 0.15, "type": "pawn_bounce", "gain": 0.62},
+        {"rel": 3.78, "type": "quake_rumble", "gain": 0.58},
+        {"rel": 5.22, "type": "cork_pop", "gain": 0.60}
+      ]
+    },
+    {
+      "id": "scene_06",
+      "keyframe": "keyframes/scene_06.jpg",
+      "impact_shake_rel": 2.90,
+      "shots": [
+        {"t": 0.00, "zoom": 2.04, "pan_x": 0.04, "pan_y": 0.08, "tilt_deg": -0.3, "end_zoom": 2.16, "end_pan_x": 0.04, "end_pan_y": 0.08, "end_tilt_deg": 0.3},
+        {"t": 2.85, "zoom": 2.00, "pan_x": -0.22, "pan_y": -0.08, "tilt_deg": 0.3, "end_zoom": 2.12, "end_pan_x": -0.22, "end_pan_y": -0.08, "end_tilt_deg": -0.3},
+        {"t": 4.40, "zoom": 2.02, "pan_x": 0.28, "pan_y": -0.10, "tilt_deg": -0.3, "end_zoom": 2.14, "end_pan_x": 0.28, "end_pan_y": -0.10, "end_tilt_deg": 0.3}
+      ],
+      "sprites": [
+        {"bbox": [0.38, 0.47, 0.64, 0.70], "motion": "glare_bob", "pop_delay": 0.0}
+      ],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 0.55, "type": "celesta_chime", "gain": 0.60},
+        {"rel": 2.90, "type": "gavel_slam", "gain": 0.72},
+        {"rel": 4.45, "type": "cork_pop", "gain": 0.60}
+      ]
+    },
+    {
+      "id": "scene_07",
+      "keyframe": "keyframes/scene_07.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3},
+        {"t": 1.80, "zoom": 1.98, "pan_x": -0.04, "pan_y": -0.26, "tilt_deg": -0.3, "end_zoom": 2.12, "end_pan_x": -0.04, "end_pan_y": -0.34, "end_tilt_deg": 0.3},
+        {"t": 3.80, "zoom": 2.04, "pan_x": -0.20, "pan_y": 0.14, "tilt_deg": 0.3, "end_zoom": 2.16, "end_pan_x": -0.20, "end_pan_y": 0.14, "end_tilt_deg": -0.3}
+      ],
+      "sprites": [
+        {"bbox": [0.29, 0.45, 0.46, 0.59], "motion": "cheer_bounce", "pop_delay": 0.0}
+      ],
+      "overhead": {"text": "TRADE NORTH!", "cx": 410, "cy": 250, "trigger_rel": 1.50, "end_rel": 3.70, "style": "badge"},
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 1.85, "type": "ship_horn", "gain": 0.58},
+        {"rel": 3.85, "type": "cork_pop", "gain": 0.60}
+      ]
+    },
+    {
+      "id": "scene_08",
+      "keyframe": "keyframes/scene_08.jpg",
+      "impact_shake_rel": 4.55,
+      "shots": [
+        {"t": 0.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3},
+        {"t": 1.10, "zoom": 2.02, "pan_x": -0.14, "pan_y": 0.00, "tilt_deg": -0.3, "end_zoom": 2.14, "end_pan_x": -0.14, "end_pan_y": 0.00, "end_tilt_deg": 0.3},
+        {"t": 2.65, "zoom": 2.04, "pan_x": 0.22, "pan_y": 0.03, "tilt_deg": 0.3, "end_zoom": 2.16, "end_pan_x": 0.22, "end_pan_y": 0.03, "end_tilt_deg": -0.3},
+        {"t": 4.45, "zoom": 1.10, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.20, "end_pan_x": 0.0, "end_pan_y": 0.02, "end_tilt_deg": 0.4}
+      ],
+      "sprites": [
+        {"bbox": [0.21, 0.40, 0.46, 0.59], "motion": "write_bob", "pop_delay": 0.0}
+      ],
+      "overhead": {"text": "LOBBYING BLITZ!", "cx": 360, "cy": 260, "trigger_rel": 4.50, "style": "badge"},
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 1.15, "type": "parchment_brush", "gain": 0.65},
+        {"rel": 2.70, "type": "telegraph", "gain": 0.55},
+        {"rel": 4.55, "type": "gavel_slam", "gain": 0.72}
+      ]
+    },
+    {
+      "id": "scene_09",
+      "keyframe": "keyframes/scene_09.jpg",
+      "impact_shake_rel": 3.22,
+      "shots": [
+        {"t": 0.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": -0.3},
+        {"t": 1.35, "zoom": 2.08, "pan_x": -0.22, "pan_y": 0.12, "tilt_deg": 0.3, "end_zoom": 2.20, "end_pan_x": -0.22, "end_pan_y": 0.12, "end_tilt_deg": -0.3},
+        {"t": 3.20, "zoom": 2.02, "pan_x": 0.00, "pan_y": -0.02, "tilt_deg": -0.3, "end_zoom": 2.14, "end_pan_x": 0.00, "end_pan_y": 0.02, "end_tilt_deg": 0.3},
+        {"t": 4.95, "zoom": 1.10, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.20, "end_pan_x": 0.0, "end_pan_y": 0.02, "end_tilt_deg": 0.4}
+      ],
+      "sprites": [
+        {"bbox": [0.16, 0.54, 0.38, 0.67], "motion": "write_bob", "pop_delay": 0.0}
+      ],
+      "overhead": {"text": "DROPPED 34 MILES!", "cx": 360, "cy": 265, "trigger_rel": 5.00, "style": "badge"},
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 1.40, "type": "gavel_slam", "gain": 0.72},
+        {"rel": 3.22, "type": "map_crack", "gain": 0.76},
+        {"rel": 5.02, "type": "river_rush", "gain": 0.48}
+      ]
+    },
+    {
+      "id": "scene_10",
+      "keyframe": "keyframes/scene_10.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3},
+        {"t": 2.10, "zoom": 2.02, "pan_x": -0.04, "pan_y": -0.08, "tilt_deg": -0.3, "end_zoom": 2.14, "end_pan_x": -0.04, "end_pan_y": -0.06, "end_tilt_deg": 0.3},
+        {"t": 4.20, "zoom": 2.04, "pan_x": 0.22, "pan_y": -0.22, "tilt_deg": 0.3, "end_zoom": 2.16, "end_pan_x": 0.22, "end_pan_y": -0.22, "end_tilt_deg": -0.3}
+      ],
+      "sprites": [
+        {"bbox": [0.59, 0.12, 0.88, 0.39], "motion": "cheer_bounce", "pop_delay": 0.0}
+      ],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 2.15, "type": "celesta_chime", "gain": 0.62},
+        {"rel": 4.25, "type": "pawn_bounce", "gain": 0.62}
+      ]
+    },
+    {
+      "id": "scene_11",
+      "keyframe": "keyframes/scene_11.jpg",
+      "impact_shake_rel": 2.70,
+      "shots": [
+        {"t": 0.00, "zoom": 2.06, "pan_x": -0.04, "pan_y": -0.14, "tilt_deg": -0.3, "end_zoom": 2.18, "end_pan_x": -0.04, "end_pan_y": -0.14, "end_tilt_deg": 0.3},
+        {"t": 2.65, "zoom": 1.08, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.18, "end_pan_x": 0.0, "end_pan_y": 0.02, "end_tilt_deg": 0.4}
+      ],
+      "sprites": [],
+      "overhead": {"text": "SHERIFF & JUDGE!", "cx": 505, "cy": 135, "trigger_rel": 2.70, "style": "badge"},
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 1.95, "type": "church_bell", "gain": 0.56},
+        {"rel": 2.70, "type": "gavel_slam", "gain": 0.72}
+      ]
+    },
+    {
+      "id": "scene_12",
+      "keyframe": "keyframes/scene_12.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 1.01, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.06, "end_pan_x": 0.0, "end_pan_y": -0.02, "end_tilt_deg": 0.2},
+        {"t": 1.60, "zoom": 1.08, "pan_x": 0.0, "pan_y": -0.03, "tilt_deg": -0.2, "end_zoom": 1.13, "end_pan_x": 0.0, "end_pan_y": -0.04, "end_tilt_deg": 0.2}
+      ],
+      "sprites": [
+        {"bbox": [0.70, 0.115, 0.90, 0.285], "motion": "football_hop_r", "pop_delay": 0.0},
+        {"bbox": [0.10, 0.240, 0.280, 0.390], "motion": "football_hop_l", "pop_delay": 0.0}
+      ],
+      "overhead": null,
+      "comment_panel": {
+        "trigger_rel": 0.14,
+        "keyword": "BOOT",
+        "comments": [
+          {"handle": "@MissouriProud", "text": "BOOT! Best lobbyist in history!", "likes": "812 ♥", "color": [26, 78, 198]},
+          {"handle": "@ArkansasHog", "text": "Wait—give us our corner back!", "likes": "629 ♥", "color": [196, 46, 46]}
+        ]
+      },
+      "loop_return_sec": 0.30,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.46},
+        {"rel": 0.18, "type": "stadium_swell", "gain": 0.42}
+      ]
+    }
+  ]
+}
