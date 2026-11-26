@@ -1,0 +1,767 @@
+{
+  "video_settings": {
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "subtitle_y_ratio": 0.79,
+    "subtitle_panel_y_ratio": 0.47,
+    "version": "v2",
+    "voice_provider": "Fish Audio \u2014 Ethan (@Fish Official)"
+  },
+  "total_duration_sec": 65.898,
+  "scenes": [
+    {
+      "id": "scene_01",
+      "keyframe": "keyframes/scene_01.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 2.02,
+          "pan_x": -0.04,
+          "pan_y": -0.18,
+          "tilt_deg": 0.0,
+          "end_zoom": 2.16,
+          "end_pan_x": -0.04,
+          "end_pan_y": -0.16,
+          "end_tilt_deg": 0.4
+        },
+        {
+          "t": 2.9,
+          "zoom": 2.04,
+          "pan_x": -0.08,
+          "pan_y": 0.16,
+          "tilt_deg": -0.4,
+          "end_zoom": 2.16,
+          "end_pan_x": -0.08,
+          "end_pan_y": 0.16,
+          "end_tilt_deg": 0.4
+        },
+        {
+          "t": 4.85,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.16,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.02,
+          "end_tilt_deg": 0.5
+        }
+      ],
+      "sprites": [
+        {
+          "bbox": [
+            0.045,
+            0.345,
+            0.265,
+            0.505
+          ],
+          "motion": "shudder",
+          "pop_delay": 0.0
+        },
+        {
+          "bbox": [
+            0.535,
+            0.6,
+            0.745,
+            0.765
+          ],
+          "motion": "glare_bob",
+          "pop_delay": 0.0
+        }
+      ],
+      "overhead": {
+        "text": "FORGOTTEN!",
+        "cx": 545,
+        "cy": 495,
+        "trigger_rel": 5.55,
+        "style": "badge"
+      },
+      "foley": [
+        {
+          "rel": 0.02,
+          "type": "fire_roar",
+          "gain": 0.62
+        },
+        {
+          "rel": 2.95,
+          "type": "cork_pop",
+          "gain": 0.6
+        },
+        {
+          "rel": -0.5,
+          "type": "tape_rewind",
+          "gain": 0.72
+        }
+      ],
+      "start_sec": 0.0,
+      "end_sec": 6.68,
+      "narration": "How did America's deadliest wildfire kill five times more people than Chicago on the exact same night\u2014and get forgotten?"
+    },
+    {
+      "id": "scene_02",
+      "keyframe": "keyframes/scene_02.jpg",
+      "vhs_rewind": true,
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.14,
+          "pan_x": 0.0,
+          "pan_y": -0.04,
+          "tilt_deg": -0.8,
+          "end_zoom": 1.04,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.02,
+          "end_tilt_deg": 0.0
+        },
+        {
+          "t": 0.88,
+          "zoom": 1.88,
+          "pan_x": -0.06,
+          "pan_y": -0.35,
+          "tilt_deg": 0.5,
+          "end_zoom": 2.02,
+          "end_pan_x": -0.06,
+          "end_pan_y": -0.35,
+          "end_tilt_deg": 0.0
+        }
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "tape_rewind",
+          "gain": 0.7
+        },
+        {
+          "rel": 0.86,
+          "type": "parchment_brush",
+          "gain": 0.65
+        }
+      ],
+      "start_sec": 6.68,
+      "end_sec": 8.6,
+      "narration": "Wait... let's rewind."
+    },
+    {
+      "id": "scene_03",
+      "keyframe": "keyframes/scene_03.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 2.5,
+          "zoom": 2.02,
+          "pan_x": -0.06,
+          "pan_y": -0.12,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.16,
+          "end_pan_x": -0.06,
+          "end_pan_y": -0.12,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 4.75,
+          "zoom": 1.98,
+          "pan_x": 0.04,
+          "pan_y": 0.24,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.12,
+          "end_pan_x": 0.04,
+          "end_pan_y": 0.24,
+          "end_tilt_deg": -0.3
+        }
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 0.25,
+          "type": "fire_roar",
+          "gain": 0.54
+        },
+        {
+          "rel": 4.8,
+          "type": "church_bell",
+          "gain": 0.58
+        }
+      ],
+      "start_sec": 8.6,
+      "end_sec": 15.48,
+      "narration": "Everyone knows October 8, 1871, as the night the Great Chicago Fire burned three hundred people's lives away."
+    },
+    {
+      "id": "scene_04",
+      "keyframe": "keyframes/scene_04.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.98,
+          "pan_x": 0.02,
+          "pan_y": 0.14,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.08,
+          "end_pan_x": 0.04,
+          "end_pan_y": -0.14,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 3.4,
+          "zoom": 2.1,
+          "pan_x": 0.1,
+          "pan_y": -0.26,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.22,
+          "end_pan_x": 0.1,
+          "end_pan_y": -0.26,
+          "end_tilt_deg": -0.3
+        },
+        {
+          "t": 5.2,
+          "zoom": 1.08,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.18,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.02,
+          "end_tilt_deg": 0.4
+        }
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 3.45,
+          "type": "fire_roar",
+          "gain": 0.58
+        },
+        {
+          "rel": 5.25,
+          "type": "cork_pop",
+          "gain": 0.6
+        }
+      ],
+      "start_sec": 15.48,
+      "end_sec": 21.92,
+      "narration": "Yet 250 miles north in Wisconsin, an even deadlier monster was erupting in the lumber town of Peshtigo."
+    },
+    {
+      "id": "scene_05",
+      "keyframe": "keyframes/scene_05.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.96,
+          "pan_x": 0.0,
+          "pan_y": -0.32,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.08,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.3,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 1.75,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.15,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 3.3,
+          "zoom": 2.04,
+          "pan_x": 0.22,
+          "pan_y": 0.04,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.16,
+          "end_pan_x": 0.22,
+          "end_pan_y": 0.04,
+          "end_tilt_deg": -0.3
+        }
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 1.8,
+          "type": "storm_gale",
+          "gain": 0.42
+        },
+        {
+          "rel": 3.35,
+          "type": "map_crack",
+          "gain": 0.65
+        }
+      ],
+      "start_sec": 21.92,
+      "end_sec": 26.82,
+      "narration": "Months of severe drought had turned a million acres of cut timber and slash piles into bone-dry tinder."
+    },
+    {
+      "id": "scene_06",
+      "keyframe": "keyframes/scene_06.jpg",
+      "impact_shake_rel": 4.25,
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 1.35,
+          "zoom": 2.04,
+          "pan_x": 0.22,
+          "pan_y": -0.24,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.16,
+          "end_pan_x": 0.22,
+          "end_pan_y": -0.24,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 4.2,
+          "zoom": 2.08,
+          "pan_x": -0.2,
+          "pan_y": 0.04,
+          "tilt_deg": 0.4,
+          "end_zoom": 2.22,
+          "end_pan_x": -0.18,
+          "end_pan_y": 0.04,
+          "end_tilt_deg": -0.4
+        }
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 1.3,
+          "type": "storm_gale",
+          "gain": 0.56
+        },
+        {
+          "rel": 4.2,
+          "type": "fire_roar",
+          "gain": 0.72
+        }
+      ],
+      "start_sec": 26.82,
+      "end_sec": 32.7,
+      "narration": "That night, hundred-mile-an-hour winds merged small brush fires into a two-thousand-degree firestorm."
+    },
+    {
+      "id": "scene_07",
+      "keyframe": "keyframes/scene_07.jpg",
+      "quake_shake": true,
+      "impact_shake_rel": 1.35,
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 2.06,
+          "pan_x": -0.14,
+          "pan_y": -0.16,
+          "tilt_deg": -0.4,
+          "end_zoom": 2.2,
+          "end_pan_x": -0.14,
+          "end_pan_y": -0.14,
+          "end_tilt_deg": 0.4
+        },
+        {
+          "t": 3.45,
+          "zoom": 2.0,
+          "pan_x": 0.2,
+          "pan_y": -0.2,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.12,
+          "end_pan_x": 0.2,
+          "end_pan_y": -0.2,
+          "end_tilt_deg": -0.3
+        },
+        {
+          "t": 5.0,
+          "zoom": 1.08,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.18,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.02,
+          "end_tilt_deg": 0.4
+        }
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 0.2,
+          "type": "fire_roar",
+          "gain": 0.68
+        },
+        {
+          "rel": 3.5,
+          "type": "storm_gale",
+          "gain": 0.5
+        }
+      ],
+      "start_sec": 32.7,
+      "end_sec": 38.98,
+      "narration": "A roaring tornado of flame swallowed Peshtigo in minutes\u2014burning over one million acres across Wisconsin and Michigan."
+    },
+    {
+      "id": "scene_08",
+      "keyframe": "keyframes/scene_08.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 2.55,
+          "zoom": 2.02,
+          "pan_x": -0.02,
+          "pan_y": 0.06,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.14,
+          "end_pan_x": -0.02,
+          "end_pan_y": 0.06,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 4.7,
+          "zoom": 1.96,
+          "pan_x": 0.14,
+          "pan_y": -0.24,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.08,
+          "end_pan_x": 0.14,
+          "end_pan_y": -0.24,
+          "end_tilt_deg": -0.3
+        }
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 1.45,
+          "type": "river_rush",
+          "gain": 0.5
+        },
+        {
+          "rel": 4.75,
+          "type": "fire_roar",
+          "gain": 0.54
+        }
+      ],
+      "start_sec": 38.98,
+      "end_sec": 45.84,
+      "narration": "Terrified families ran for the Peshtigo River, standing neck-deep in freezing water as burning embers rained from the sky."
+    },
+    {
+      "id": "scene_09",
+      "keyframe": "keyframes/scene_09.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": 0.2
+        },
+        {
+          "t": 2.2,
+          "zoom": 2.04,
+          "pan_x": 0.12,
+          "pan_y": 0.1,
+          "tilt_deg": -0.2,
+          "end_zoom": 2.16,
+          "end_pan_x": 0.12,
+          "end_pan_y": 0.1,
+          "end_tilt_deg": 0.2
+        }
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.42
+        },
+        {
+          "rel": 2.25,
+          "type": "church_bell",
+          "gain": 0.58
+        }
+      ],
+      "start_sec": 45.84,
+      "end_sec": 51.36,
+      "narration": "Between twelve hundred and twenty-five hundred people perished\u2014the deadliest wildfire in recorded history."
+    },
+    {
+      "id": "scene_10",
+      "keyframe": "keyframes/scene_10.jpg",
+      "impact_shake_rel": 2.6,
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 2.3,
+          "zoom": 2.06,
+          "pan_x": 0.02,
+          "pan_y": -0.18,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.18,
+          "end_pan_x": 0.02,
+          "end_pan_y": -0.18,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 4.1,
+          "zoom": 2.1,
+          "pan_x": 0.18,
+          "pan_y": 0.04,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.22,
+          "end_pan_x": 0.18,
+          "end_pan_y": 0.04,
+          "end_tilt_deg": -0.3
+        }
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 2.35,
+          "type": "map_crack",
+          "gain": 0.72
+        },
+        {
+          "rel": 3.6,
+          "type": "telegraph",
+          "gain": 0.62
+        }
+      ],
+      "start_sec": 51.36,
+      "end_sec": 57.18,
+      "narration": "Why did the world barely hear about it? The flames melted Peshtigo's telegraph wires in the opening minutes."
+    },
+    {
+      "id": "scene_11",
+      "keyframe": "keyframes/scene_11.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 2.04,
+          "pan_x": -0.24,
+          "pan_y": 0.16,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.16,
+          "end_pan_x": -0.24,
+          "end_pan_y": 0.16,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 2.75,
+          "zoom": 2.04,
+          "pan_x": 0.24,
+          "pan_y": -0.08,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.16,
+          "end_pan_x": 0.24,
+          "end_pan_y": -0.08,
+          "end_tilt_deg": -0.3
+        }
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 0.2,
+          "type": "parchment_brush",
+          "gain": 0.66
+        },
+        {
+          "rel": 2.8,
+          "type": "church_bell",
+          "gain": 0.56
+        }
+      ],
+      "start_sec": 57.18,
+      "end_sec": 62.18,
+      "narration": "While Chicago's tragedy filled every front page, Wisconsin's horror stayed silent for days."
+    },
+    {
+      "id": "scene_12",
+      "keyframe": "keyframes/scene_12.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.01,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.06,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.02,
+          "end_tilt_deg": 0.2
+        },
+        {
+          "t": 1.4,
+          "zoom": 1.08,
+          "pan_x": 0.0,
+          "pan_y": -0.03,
+          "tilt_deg": -0.2,
+          "end_zoom": 1.13,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.04,
+          "end_tilt_deg": 0.2
+        }
+      ],
+      "sprites": [
+        {
+          "bbox": [
+            0.06,
+            0.265,
+            0.22,
+            0.425
+          ],
+          "motion": "football_hop_l",
+          "pop_delay": 0.0
+        },
+        {
+          "bbox": [
+            0.79,
+            0.285,
+            0.95,
+            0.435
+          ],
+          "motion": "football_hop_r",
+          "pop_delay": 0.0
+        }
+      ],
+      "overhead": null,
+      "comment_panel": {
+        "trigger_rel": 0.14,
+        "keyword": "REMEMBER",
+        "comments": [
+          {
+            "handle": "@WisconsinRoots",
+            "text": "REMEMBER! Never taught this in school!",
+            "likes": "1.2K \u2665",
+            "color": [
+              188,
+              68,
+              24
+            ]
+          },
+          {
+            "handle": "@MidwestMemory",
+            "text": "REMEMBER Peshtigo\u2014Oct 8, 1871.",
+            "likes": "876 \u2665",
+            "color": [
+              26,
+              78,
+              198
+            ]
+          }
+        ]
+      },
+      "loop_return_sec": 0.3,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.45
+        },
+        {
+          "rel": 0.18,
+          "type": "church_bell",
+          "gain": 0.52
+        }
+      ],
+      "start_sec": 62.18,
+      "end_sec": 65.898,
+      "narration": "Comment REMEMBER so Peshtigo's story isn't forgotten\u2014and now you know..."
+    }
+  ]
+}

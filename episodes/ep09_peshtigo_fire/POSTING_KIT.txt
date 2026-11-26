@@ -1,0 +1,55 @@
+================================================================================
+HEARTLAND MAPPED — EPISODE 09 (v2): THE GREAT PESHTIGO FIRE (OCTOBER 8, 1871)
+KIT PRONTO PARA POSTAR (FACEBOOK REELS & YOUTUBE SHORTS)
+================================================================================
+
+DATA SUGERIDA PARA PROGRAMAR:
+Terca-feira, 01/12/2026
+
+ARQUIVO DE VIDEO:
+heartland_mapped_ep09_peshtigo_fire.mp4 (66s | 720x1280 | 30 FPS | v2 + Fish Audio Ethan)
+Google Drive: https://drive.google.com/file/d/1dGoKxsfWdUc68akuzgVKAZCeUUkHpxxQ/view?usp=drivesdk
+
+--------------------------------------------------------------------------------
+1. FACEBOOK REELS — LEGENDA (COPIAR E COLAR)
+--------------------------------------------------------------------------------
+How did America's deadliest wildfire kill 5X MORE people than the Great Chicago Fire on the exact same night—and get forgotten? 🔥🗺️
+
+Everyone knows October 8, 1871, for the Great Chicago Fire. Yet 250 miles north in Peshtigo, Wisconsin, 100-mph winds sparked a 2,000-degree firestorm that swallowed over 1 million acres in minutes and claimed up to 2,500 lives. Because the flames melted Peshtigo's telegraph wires in the opening minutes, Chicago filled every front page while Wisconsin's tragedy stayed silent for days.
+
+Comment REMEMBER so Peshtigo's story isn't forgotten! 👇
+
+#MidwestHistory #Wisconsin #PeshtigoFire #GreatChicagoFire #1871 #AmericanHistory #Geography #HeartlandMapped
+
+--------------------------------------------------------------------------------
+2. YOUTUBE SHORTS — TITULO (COPIAR E COLAR)
+--------------------------------------------------------------------------------
+The Forgotten 1871 Wildfire 5X Deadlier Than the Great Chicago Fire 🔥🗺️
+
+(Alternativa: Why America's Deadliest Wildfire Happened the Same Night as Chicago 🔥)
+
+--------------------------------------------------------------------------------
+3. YOUTUBE SHORTS — DESCRICAO (COPIAR E COLAR)
+--------------------------------------------------------------------------------
+How did America's deadliest wildfire kill five times more people than Chicago on the exact same night—and get forgotten? Everyone remembers October 8, 1871, as the night the Great Chicago Fire claimed 300 lives. Yet 250 miles north in Wisconsin, a roaring 2,000-degree firestorm swept through the lumber town of Peshtigo, burning over one million acres across Wisconsin and Michigan.
+
+Terrified families stood neck-deep in the freezing Peshtigo River to survive as embers rained from the sky. Between 1,200 and 2,500 people perished—the deadliest wildfire in recorded history—yet because the flames melted Peshtigo's telegraph wires immediately, the outside world stayed silent for days.
+
+Comment REMEMBER so Peshtigo's story isn't forgotten! 👇
+
+#MidwestHistory #Wisconsin #PeshtigoFire #GreatChicagoFire #AmericanHistory #Geography #Shorts #HeartlandMapped
+
+--------------------------------------------------------------------------------
+4. COMENTARIO FIXADO (POSTAR LOGO APOS PUBLICAR E FIXAR NO TOPO)
+--------------------------------------------------------------------------------
+Did they ever teach you about the Great Peshtigo Fire of October 8, 1871 in school? Comment REMEMBER to keep Wisconsin's forgotten story alive—and tell us which state you're watching from! 👇
+
+--------------------------------------------------------------------------------
+5. CAPA (THUMBNAIL) E CHECKLIST RAPIDO
+--------------------------------------------------------------------------------
+- Data de programacao: Terca-feira, 01/12/2026 (logo apos o Ep. 08 Raising Chicago na Segunda, 30/11/2026).
+- Capa sugerida: Cena 01 (mapa do Lago Michigan comparando o tornado de fogo "5X DEADLIER!" em Peshtigo com Chicago em chamas!), Cena 11 (o livro aberto "CHICAGO BURNS!" vs. "SILENCE FOR DAYS") ou Cena 06 (o paredao de chamas "2,000°F" com "100 MPH WINDS").
+- Legenda automatica da plataforma: DESLIGADA (o video ja tem legenda grande embutida).
+- Musica da plataforma: NAO adicionar (o video ja tem narracao Ethan Fish Audio + foley SFX de fogo, vento, rio e telegrafo + trilha acustica com auto-ducking).
+- YouTube: marcar "Nao e conteudo para criancas" (Not made for kids), categoria Education, idioma English (United States).
+- A/B Log: anotar metricas de 48h em RETENTION_LOG.md.

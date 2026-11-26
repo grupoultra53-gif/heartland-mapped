@@ -1,0 +1,14 @@
+{
+  "episode": "ep09_peshtigo_fire",
+  "video_file": "heartland_mapped_ep09_peshtigo_fire.mp4",
+  "duration_sec": 65.9,
+  "visual_jumps_per_10s": 25.95,
+  "planned_shots_per_10s": 4.86,
+  "closeup_pct": 67.5,
+  "frame0_zoom": 2.02,
+  "frame0_visible_sprites": 2,
+  "audio_gap_db_drop": 4.66,
+  "has_comment_panel": true,
+  "has_seamless_loop": true,
+  "all_pass": true
+}
