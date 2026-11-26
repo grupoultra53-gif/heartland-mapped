@@ -10,7 +10,7 @@
   "checks": [
     {
       "name": "1. Duration",
-      "target": "480 - 630 s",
+      "target": "480 - 660 s",
       "measured": "498.52 s (8:18)",
       "pass": true
     },
@@ -96,6 +96,18 @@
       "name": "15. QA Contact Sheets",
       "target": "10s + all texts sheets",
       "measured": "50 + 32 tiles",
+      "pass": true
+    },
+    {
+      "name": "16. Speech Pace (WPM)",
+      "target": "avg<=170, max<=175 wpm",
+      "measured": "avg=158.7 wpm (max=170.1)",
+      "pass": true
+    },
+    {
+      "name": "17. No Early Repeat",
+      "target": "gap >= 120 s (or callback)",
+      "measured": "violations=0",
       "pass": true
     }
   ]

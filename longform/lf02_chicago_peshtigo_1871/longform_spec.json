@@ -516,10 +516,12 @@
     },
     {
       "id": "s11_ch1_chicago_wood",
-      "type": "archive",
+      "type": "composite_pair",
       "duration": 15.977,
-      "image": "archive/arc_06_chicago_dekoven.jpg",
-      "frame_style": "photo",
+      "image": "archive/arc_08_chicago_fire2.jpg",
+      "image_b": "archive/arc_12_chicago_cheer_up.jpg",
+      "label_a": "1871 Timber-Built Chicago",
+      "label_b": "Wooden Streets & Roofs",
       "shots": [
         {
           "t": 0.0,
@@ -535,7 +537,7 @@
           "zoom": 1.14,
           "pan_x": 0.0,
           "pan_y": 0.0,
-          "end_zoom": 1.26,
+          "end_zoom": 1.22,
           "end_pan_x": 0.0,
           "end_pan_y": 0.0
         },

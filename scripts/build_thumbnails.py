@@ -62,7 +62,9 @@ if __name__ == "__main__":
         ("BORDER", (255, 214, 42)),
         ("WARS?", (255, 252, 242)),
     ]
-    if (ep / "thumb_a_base.jpg").exists():
+    if (ep / "thumb_a_fixed_base.jpg").exists():
+        build_thumb(ep / "thumb_a_fixed_base.jpg", ep / "thumbnail_a_pegdoll.jpg", lines, badge="1783 - 1892")
+    elif (ep / "thumb_a_base.jpg").exists():
         build_thumb(ep / "thumb_a_base.jpg", ep / "thumbnail_a_pegdoll.jpg", lines, badge="1783 - 1892")
     if (ep / "thumb_b_base.jpg").exists():
         build_thumb(ep / "thumb_b_base.jpg", ep / "thumbnail_b_pure.jpg", lines, badge="1783 - 1892")

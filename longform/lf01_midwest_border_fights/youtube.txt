@@ -11,11 +11,11 @@ https://drive.google.com/drive/folders/13Hgr07YHP_AKUEg-rt0MqMRdhl2x_MbW
 (Video MP4 direto: https://drive.google.com/file/d/1rub27uEXdLn4kj2MH6nsdz9YTJbDbxM5/view?usp=drivesdk)
 
 ARQUIVOS ENTREGUES:
-- video.mp4 (1920x1080 | 24 FPS | 10:17 | -14 LUFS | Fish Audio Ethan)
+- video.mp4 (1920x1080 | 24 FPS | 10:45 | -14 LUFS | Fish Audio Ethan)
 - legendas.srt (Legenda limpa em Ingles — subir em Subtitles -> English (United States))
-- thumbnail_a_pegdoll.jpg (1280x720 — Variante A com peg-doll assinatura no canto)
-- thumbnail_b_pure.jpg (1280x720 — Variante B mapa puro + bussola, testar no Test & Compare!)
-- fontes_imagens.txt (Registro completo de URL + licenca de 100% do arquivo)
+- thumbnail_a_pegdoll.jpg (1280x720 — Variante A: mesmo mapa geografico certo da B + peg-doll assinatura no canto)
+- thumbnail_b_pure.jpg (1280x720 — Variante B: mapa puro + bussola, testar A x B no Test & Compare!)
+- fontes_imagens.txt & fontes_musica.txt (Registro completo de licencas)
 
 --------------------------------------------------------------------------------
 1. TITULO (COPIAR E COLAR — 55 caracteres)
@@ -33,12 +33,12 @@ From a faulty 1755 colonial map that stranded a piece of Minnesota inside Canada
 
 CHAPTERS:
 0:00 Cold Open: Three Trees of Wild Honey (1839)
-1:08 1. The Honey War (1839 — Iowa vs. Missouri)
-2:46 2. The Northwest Angle (1783 — Minnesota vs. Canada)
-4:15 3. Carter Lake (1877 — Iowa Inside Nebraska)
-5:40 4. The Kentucky Bend (1812 — Quake & River Loop)
-7:01 5. The Toledo War (1835 — Ohio vs. Michigan)
-8:56 6. What's Left Today (Visit All Five Spots)
+1:13 1. The Honey War (1839 — Iowa vs. Missouri)
+2:58 2. The Northwest Angle (1783 — Minnesota vs. Canada)
+4:41 3. Carter Lake (1877 — Iowa Inside Nebraska)
+6:08 4. The Kentucky Bend (1820 — A River Loop)
+7:26 5. The Toledo War (1835 — Ohio vs. Michigan)
+9:28 6. What's Left Today (Visit All Five Spots)
 
 HISTORICAL SOURCES & ARCHIVES:
 - U.S. Supreme Court — Missouri v. Iowa, 48 U.S. (7 How.) 660 (1849), Library of Congress: https://tile.loc.gov/storage-services/service/ll/usrep/usrep048/usrep048660/usrep048660.pdf
@@ -51,12 +51,14 @@ HISTORICAL SOURCES & ARCHIVES:
 - Library of Congress — Primary Documents in American History: Northwest Ordinance (1787): https://guides.loc.gov/northwest-ordinance
 - Michiganology / Archives of Michigan — The Toledo War: https://michiganology.org/
 - Ohio History Connection — Ohio History Central: Toledo War: https://www.ohiohistory.org/
+- U.S. Census Bureau (2020 Decennial Census) — Angle Township, Lake of the Woods County, MN (pop. 149) & Kentucky Bend CCD, Fulton County, KY (pop. 9): https://data.census.gov/
 
 IMAGE CREDITS (CREATIVE COMMONS & PUBLIC DOMAIN):
 All historical maps, portraits, and photographs are Public Domain (Library of Congress, National Archives, USGS, Detroit Publishing Co.) or Creative Commons licensed:
 - Historical Map of the Northwest Territory and Great Lakes States — The original uploader was Hotstreets at English Wikipedia . (CC BY 2.0): https://commons.wikimedia.org/wiki/File:Northwest_territory.png
 - Historic Sullivan Line Marker Commemorating the 1839 Honey War — Dbp653 (CC BY-SA 3.0): https://commons.wikimedia.org/wiki/File:Sullivan_Line_Marker_and_monument_commemorating_the_Honey_War.jpg
 - Disputed Strip Between Iowa Territory and Missouri (1839) — No machine-readable author provided. Kmusser assumed (based on copyright claims). (CC BY-SA 2.5): https://commons.wikimedia.org/wiki/File:Honeywarmap.png
+- Northernmost Point of the Contiguous United States Monument, Northwest Angle, Minnesota — Lorie Shaull (CC BY-SA 4.0): https://commons.wikimedia.org/wiki/File:2_Northernmost_Point_in_the_Contiguous_US.jpg
 - Historic Quincy Copper Mine in Michigan's Upper Peninsula — Wickanninish (CC BY-SA 4.0): https://commons.wikimedia.org/wiki/File:Keweenaw_Quincy_Mine,_Hancock_MI.jpg
 - Border Sign Entering the Northwest Angle, Minnesota Today — Tony Webster from Minneapolis, Minnesota, United States (CC BY-SA 2.0): https://commons.wikimedia.org/wiki/File:Welcome_to_the_United_States_-_You_are_entering_the_Northwest_Angle,_Minnesota_(35505460693).jpg
 - Iowa Highway Sign Inside Carter Lake, Surrounded by Omaha, Nebraska — Ctjf83 (CC BY-SA 3.0): https://commons.wikimedia.org/wiki/File:Iowa_Highway_165.jpg
@@ -85,9 +87,8 @@ midwest history, american history documentary, us border disputes, toledo war, h
 - Legenda .srt: subir `legendas.srt` manualmente (NAO depender da legenda automatica).
 - Thumbnails (Test & Compare): subir `thumbnail_a_pegdoll.jpg` vs `thumbnail_b_pure.jpg` para testar CTR!
 - Mid-rolls manuais (colocar nos cartoes de capitulo para nao cortar frases):
-  - 2:46 (2. The Northwest Angle (1783 — Minnesota vs. Canada))
-  - 4:15 (3. Carter Lake (1877 — Iowa Inside Nebraska))
-  - 5:40 (4. The Kentucky Bend (1812 — Quake & River Loop))
+  - 4:41 (3. Carter Lake (1877 — Iowa Inside Nebraska))
+  - 7:26 (5. The Toledo War (1835 — Ohio vs. Michigan))
 - Playlist: criar/adicionar na playlist de longos "Midwest Border Wars".
 - Tela final (ultimos 20s): colocar 1 card de Video (proximo longo Chicago & Peshtigo 1871 quando subir) + 1 card da Playlist "Midwest Border Wars".
 - Funil Shorts -> Longo (definir como "Video relacionado" nos Shorts agendados):

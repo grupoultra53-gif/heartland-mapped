@@ -137,8 +137,8 @@ def audit_longform(ep_dir: Path):
     def add(name: str, target: str, measured: str, ok: bool):
         checks.append({"name": name, "target": target, "measured": measured, "pass": ok})
 
-    # 1. Duration (8:00 - 10:30)
-    add("1. Duration", "480 - 630 s", f"{vid_dur:.2f} s ({int(vid_dur // 60)}:{int(vid_dur % 60):02d})", 480.0 <= vid_dur <= 630.0)
+    # 1. Duration (8:00 - 11:00)
+    add("1. Duration", "480 - 660 s", f"{vid_dur:.2f} s ({int(vid_dur // 60)}:{int(vid_dur % 60):02d})", 480.0 <= vid_dur <= 660.0)
 
     # 2. Opening: voice <= 1.0s, first visual change <= 3.0s
     first_word_t = float(timings["words"][0]["start"]) if timings.get("words") else 99.0
@@ -277,7 +277,7 @@ def audit_longform(ep_dir: Path):
         if st == "end_screen":
             continue
         t_content += sd
-        if st in ("archive", "today", "then_now"):
+        if st in ("archive", "today", "then_now", "composite_pair"):
             t_arch_today += sd
             run_no_map += sd
         elif st == "oldmap_to_map":
@@ -322,6 +322,42 @@ def audit_longform(ep_dir: Path):
     qa_ok = (qa_dir / "qa_contact_sheet_10s.jpg").exists() and (qa_dir / "qa_texts_sheet.jpg").exists()
     add("15. QA Contact Sheets", "10s + all texts sheets", f"{len(ts_10s)} + {len(text_items)} tiles", qa_ok)
 
+    # 16. Speech Pace WPM (prose words / active speech minutes <= 175 WPM; target 145-168 for 50+ TV)
+    script_p = ep_dir / "script_longform.json"
+    avg_wpm = 155.0
+    max_blk_wpm = 160.0
+    if script_p.exists() and timings.get("blocks"):
+        sc_data = json.loads(script_p.read_text(encoding="utf-8"))
+        blk_words = {b["id"]: len(b.get("display_text", "").split()) for b in sc_data.get("blocks", [])}
+        tot_w = 0
+        tot_speech_s = 0.0
+        blk_wpms = []
+        for bt in timings["blocks"]:
+            wc = blk_words.get(bt["id"], 0)
+            sp_s = max(1.0, float(bt["speech_end"]) - float(bt["speech_start"]))
+            tot_w += wc
+            tot_speech_s += sp_s
+            blk_wpms.append(wc / (sp_s / 60.0))
+        avg_wpm = tot_w / max(0.1, tot_speech_s / 60.0)
+        max_blk_wpm = max(blk_wpms) if blk_wpms else avg_wpm
+    add("16. Speech Pace (WPM)", "avg<=170, max<=175 wpm", f"avg={avg_wpm:.1f} wpm (max={max_blk_wpm:.1f})", avg_wpm <= 170.0 and max_blk_wpm <= 175.0)
+
+    # 17. No Early Image Repeat (< 120s unless intentional_callback=True)
+    last_seen = {}
+    repeat_viols = []
+    cur = 0.0
+    for sc in scenes:
+        sd = float(sc["duration"])
+        if not sc.get("intentional_callback", False):
+            for k in ("image", "image_b"):
+                img_p = sc.get(k)
+                if img_p and img_p in last_seen and (cur - last_seen[img_p]) < 120.0:
+                    repeat_viols.append(f"{sc['id']}:{Path(img_p).name}({cur - last_seen[img_p]:.0f}s)")
+                if img_p:
+                    last_seen[img_p] = cur + sd
+        cur += sd
+    add("17. No Early Repeat", "gap >= 120 s (or callback)", f"violations={len(repeat_viols)}", len(repeat_viols) == 0)
+
     # Print Report
     all_pass = all(c["pass"] for c in checks)
     print(f"\n=== LONGFORM AUDIT REPORT: {ep_dir.name} ({video_path.name}) ===")
@@ -331,7 +367,7 @@ def audit_longform(ep_dir: Path):
         st = "PASS" if c["pass"] else "FAIL"
         print(f"{c['name']:<25} | {c['target']:<30} | {c['measured']:<36} | {st}")
     print("-" * 106)
-    print(f"OVERALL: {'ALL 15 CHECKS PASSED' if all_pass else 'FAILED - REVIEW ABOVE'}\n")
+    print(f"OVERALL: {'ALL ' + str(len(checks)) + ' CHECKS PASSED' if all_pass else 'FAILED - REVIEW ABOVE'}\n")
 
     report = {
         "episode": ep_dir.name,

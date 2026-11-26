@@ -1,0 +1,33 @@
+================================================================================
+HEARTLAND MAPPED — FONTES E REGISTRO DE TRILHAS MUSICAIS (LF01 & LF02)
+================================================================================
+
+1. TRILHAS INSTRUMENTAIS UTILIZADAS NO MIX (-20 dB abaixo da voz, -14 LUFS final):
+   - Clima Curiosidade / Fronteira:
+     Arquivo local : assets/music/mood_curiosity_akesa_d.wav (197.6s)
+     Origem        : Biblioteca local do usuario (Automacao_Shopee/assets/Akesa D - Sophisticated Dining & Decor.wav)
+     Status Checks : Confirmar na aba "Verificacoes / Checks" do YouTube Studio antes da publicacao.
+
+   - Clima Calmo / Transicao:
+     Arquivo local : assets/music/mood_warm_akesa_b.wav (164.0s)
+     Origem        : Biblioteca local do usuario (Automacao_Shopee/assets/Akesa B - Soft Aesthetic & Lifestyle.wav)
+     Status Checks : Confirmar na aba "Verificacoes / Checks" do YouTube Studio antes da publicacao.
+
+   - Clima Tensao / Disputa / Incendio:
+     Arquivo local : assets/music/mood_tension_drone.mp3 (192.8s)
+     Origem        : Biblioteca local do usuario (Novelas da Fe/sons/ambient_drone/5b2ea8e0.mp3)
+     Status Checks : Confirmar na aba "Verificacoes / Checks" do YouTube Studio antes da publicacao.
+
+   - Clima Nostalgia / Legado / "What's Left Today":
+     Arquivo local : assets/music/mood_nostalgia_garden_wisdom.mp3 (163.7s)
+     Origem        : Biblioteca local do usuario (Grandma Lan/musicas/Garden Wisdom.mp3)
+     Nota          : Confirmar licenca para uso multi-canal (YouTube Audio Library / sem exigencia de atribuicao).
+
+2. AMBIENCIA & FOLEY:
+   - Ambiencia sutil de vento (-36 dBFS): assets/music/ambience_plains_wind.mp3 (Novelas da Fe/sons/wind_grass_field/1b9bce9a.mp3)
+   - Efeitos situacionais (pergaminho, sino, fogo, rio, marcha): gerados 100% proceduralmente em Python/SciPy (scripts/render_longform.py) — sem direitos de terceiros.
+
+3. TROCA RAPIDA PARA YOUTUBE AUDIO LIBRARY (SE DESEJADO OU SE HOUVER CLAIM):
+   - Basta substituir qualquer arquivo em `assets/music/` por um MP3 da YouTube Audio Library (filtro "Attribution not required") mantendo o nome e rodar:
+     `.\.venv\Scripts\python.exe scripts\render_longform.py <pasta_do_longo> --workers 10`
+   - Gracas ao cache SHA256 por cena, nenhuma cena de video e re-renderizada: o novo audio e remuxado em ~15 segundos!

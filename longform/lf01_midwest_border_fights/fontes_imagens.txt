@@ -39,11 +39,17 @@ Todos os arquivos abaixo foram verificados quanto a Dominio Publico ou CC BY / C
   Licenca   : Public domain
   URL       : https://commons.wikimedia.org/wiki/File:Robert_Lucas_at_statehouse.jpg
 
-[arc_08_supreme_court_capitol] (ARCHIVE) — archive/arc_08_supreme_court_capitol.jpg (2592x1944)
-  Descricao : Old U.S. Supreme Court Chamber, U.S. Capitol
-  Autor     : Jorfer
+[arc_08_supreme_court_capitol] (ARCHIVE) — archive/arc_08_supreme_court_capitol.jpg (2600x1857)
+  Descricao : Old U.S. Supreme Court Chamber, U.S. Capitol (Historic American Buildings Survey / Library of Congress)
+  Autor     : Rosenthal, James W. Related names: Latrobe, Henry, deisgner
   Licenca   : Public domain
-  URL       : https://commons.wikimedia.org/wiki/File:Old_US_Supreme_Court_2.jpg
+  URL       : https://commons.wikimedia.org/wiki/File:View_of_Old_Supreme_Court_Chamber_from_east_-_U.S._Capitol,_Old_Supreme_Court_Chamber,_Intersection_of_North,_South,_and_East_Capitol_Streets_and_Capitol_Mall,_Washington,_District_of_HABS_DC-38-B-2.tif
+
+[arc_08b_capitol_1846] (ARCHIVE) — archive/arc_08b_capitol_1846.jpg (2600x2081)
+  Descricao : The U.S. Capitol in 1846 — Daguerreotype by John Plumbe Jr. (Library of Congress)
+  Autor     : John Plumbe
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:United_States_Capitol,_circa_1846,_by_John_Plumbe.jpg
 
 [arc_10_mitchell_map_1755] (ARCHIVE) — archive/arc_10_mitchell_map_1755.jpg (2600x1918)
   Descricao : John Mitchell's 1755 Map of the British and French Dominions in North America
@@ -75,11 +81,11 @@ Todos os arquivos abaixo foram verificados quanto a Dominio Publico ou CC BY / C
   Licenca   : Public domain
   URL       : https://commons.wikimedia.org/wiki/File:1814ThompsonMap.jpg
 
-[arc_15_49th_parallel_marker] (ARCHIVE) — archive/arc_15_49th_parallel_marker.jpg (2600x1529)
-  Descricao : Historic U.S.–Canada 49th Parallel Boundary Survey
-  Autor     : GlacierNPS
-  Licenca   : Public domain
-  URL       : https://commons.wikimedia.org/wiki/File:Boundary_Line_Wayside_Exhibit_(2023)_(55460451885).jpg
+[arc_15_49th_parallel_marker] (ARCHIVE) — archive/arc_15_49th_parallel_marker.jpg (2600x1733)
+  Descricao : Northernmost Point of the Contiguous United States Monument, Northwest Angle, Minnesota
+  Autor     : Lorie Shaull
+  Licenca   : CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+  URL       : https://commons.wikimedia.org/wiki/File:2_Northernmost_Point_in_the_Contiguous_US.jpg
 
 [arc_16_omaha_1870s_map] (ARCHIVE) — archive/arc_16_omaha_1870s_map.jpg (2600x2052)
   Descricao : Historic Bird's-Eye View of Omaha, Nebraska and the Missouri River
@@ -145,7 +151,7 @@ Todos os arquivos abaixo foram verificados quanto a Dominio Publico ou CC BY / C
   Descricao : Illustration from Mark Twain's Life on the Mississippi (1883)
   Autor     : Author Mark Twain
   Licenca   : Public domain
-  URL       : https://commons.wikimedia.org/wiki/File:Life_on_the_Mississippi_-_p111.png
+  URL       : https://commons.wikimedia.org/wiki/File:Life_on_the_Mississippi_-_p89.png
 
 [arc_28_northwest_ordinance] (ARCHIVE) — archive/arc_28_northwest_ordinance.jpg (1302x830)
   Descricao : The Northwest Ordinance of 1787 (National Archives)

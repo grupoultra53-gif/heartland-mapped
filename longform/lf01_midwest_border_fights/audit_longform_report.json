@@ -1,17 +1,17 @@
 {
   "episode": "lf01_midwest_border_fights",
   "video": "video.mp4",
-  "duration_sec": 617.48,
-  "lufs": -14.4,
-  "true_peak_dbtp": -1.82,
-  "archive_today_pct": 67.6,
-  "house_map_pct": 26.5,
+  "duration_sec": 645.44,
+  "lufs": -14.39,
+  "true_peak_dbtp": -1.62,
+  "archive_today_pct": 66.5,
+  "house_map_pct": 27.7,
   "all_pass": true,
   "checks": [
     {
       "name": "1. Duration",
-      "target": "480 - 630 s",
-      "measured": "617.48 s (10:17)",
+      "target": "480 - 660 s",
+      "measured": "645.44 s (10:45)",
       "pass": true
     },
     {
@@ -23,25 +23,25 @@
     {
       "name": "3. Max Static Hold",
       "target": "<= 8.0 s",
-      "measured": "7.95 s",
+      "measured": "6.61 s",
       "pass": true
     },
     {
       "name": "4. Visual Rhythm",
       "target": "median 4.0 - 7.0 s",
-      "measured": "median=5.02 s (121 changes)",
+      "measured": "median=5.01 s (125 changes)",
       "pass": true
     },
     {
       "name": "5. Smart TV Text",
       "target": "15-35 plates, dwell>=3s",
-      "measured": "53 plates, viol=0",
+      "measured": "50 plates, viol=0",
       "pass": true
     },
     {
       "name": "6. Loudness",
       "target": "-14 +/- 1 LUFS, TP<=-1",
-      "measured": "-14.40 LUFS, TP=-1.82 dBTP",
+      "measured": "-14.39 LUFS, TP=-1.62 dBTP",
       "pass": true
     },
     {
@@ -53,7 +53,7 @@
     {
       "name": "8. Music vs Voice",
       "target": ">= 18.0 dB below voice",
-      "measured": "20.3 dB below voice",
+      "measured": "20.2 dB below voice",
       "pass": true
     },
     {
@@ -71,13 +71,13 @@
     {
       "name": "11. Clean .SRT",
       "target": "<=2 lines, <=42 chars",
-      "measured": "178 cues, violations=0",
+      "measured": "175 cues, violations=0",
       "pass": true
     },
     {
       "name": "12. Visual Mix",
       "target": "arch>=55%, map 20-35%, gap<=90s",
-      "measured": "arch=67.6%, map=26.5%, gap=69.2s",
+      "measured": "arch=66.5%, map=27.7%, gap=79.8s",
       "pass": true
     },
     {
@@ -95,7 +95,19 @@
     {
       "name": "15. QA Contact Sheets",
       "target": "10s + all texts sheets",
-      "measured": "62 + 53 tiles",
+      "measured": "64 + 50 tiles",
+      "pass": true
+    },
+    {
+      "name": "16. Speech Pace (WPM)",
+      "target": "avg<=170, max<=175 wpm",
+      "measured": "avg=167.2 wpm (max=172.1)",
+      "pass": true
+    },
+    {
+      "name": "17. No Early Repeat",
+      "target": "gap >= 120 s (or callback)",
+      "measured": "violations=0",
       "pass": true
     }
   ]

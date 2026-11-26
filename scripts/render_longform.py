@@ -305,7 +305,8 @@ def assemble_and_master_audio(ep_dir: Path, script_data: dict, music_map: dict[s
             voice_parts.append(np.zeros(int(card_dur * SR), dtype=np.float32))
             cursor = card_end
 
-        raw = trim_silence(decode_audio_mono(src_mp3, SR, tempo=voice_tempo), threshold=0.008, pad_sec=0.05)
+        blk_tempo = float(blk.get("voice_tempo", voice_tempo))
+        raw = trim_silence(decode_audio_mono(src_mp3, SR, tempo=blk_tempo), threshold=0.008, pad_sec=0.05)
         norm = normalize_rms(raw, target_dbfs=-18.5)
         b_start = cursor
         b_end = b_start + len(norm) / SR
@@ -798,16 +799,19 @@ def render_chapter_card_frame(bg_rgb: np.ndarray, card: dict, local_t: float, du
     sb = d.textbbox((0, 0), sub, font=f_sub)
 
     cy_center = int(out_h * 0.47)
-    # Chapter badge pill
-    pw = (nb[2] - nb[0]) + int(56 * scale)
-    ph = (nb[3] - nb[1]) + int(22 * scale)
+    # Chapter badge pill (properly account for nb[1] top bearing so text NEVER clips!)
+    nt_w = nb[2] - nb[0]
+    nt_h = nb[3] - nb[1]
+    pw = nt_w + int(64 * scale)
+    ph = nt_h + int(30 * scale)
     px = (out_w - pw) // 2
-    py = cy_center - int(170 * scale)
+    py = cy_center - int(178 * scale)
     d.rounded_rectangle([px, py, px + pw, py + ph], radius=int(8 * scale), fill=(156, 34, 28, a255))
-    d.text(((out_w - (nb[2] - nb[0])) // 2, py + int(9 * scale)), num_txt, font=f_num, fill=(248, 242, 228, a255))
+    d.text((px + (pw - nt_w) // 2 - nb[0], py + (ph - nt_h) // 2 - nb[1]), num_txt, font=f_num, fill=(248, 242, 228, a255))
 
     # Main serif title
-    d.text(((out_w - (tb[2] - tb[0])) // 2, cy_center - int(55 * scale)), title, font=f_title, fill=(32, 22, 14, a255))
+    tt_w = tb[2] - tb[0]
+    d.text(((out_w - tt_w) // 2 - tb[0], cy_center - int(55 * scale) - tb[1]), title, font=f_title, fill=(32, 22, 14, a255))
 
     # Animated crimson ink divider line expanding from center
     line_prog = ease_out_cubic(min(1.0, local_t / 0.65))
@@ -817,7 +821,8 @@ def render_chapter_card_frame(bg_rgb: np.ndarray, card: dict, local_t: float, du
         d.line([(out_w // 2 - half_line, ly), (out_w // 2 + half_line, ly)], fill=(156, 34, 28, a255), width=max(3, int(5 * scale)))
 
     # Subtitle
-    d.text(((out_w - (sb[2] - sb[0])) // 2, cy_center + int(106 * scale)), sub, font=f_sub, fill=(76, 56, 38, a255))
+    st_w = sb[2] - sb[0]
+    d.text(((out_w - st_w) // 2 - sb[0], cy_center + int(106 * scale) - sb[1]), sub, font=f_sub, fill=(76, 56, 38, a255))
 
     img.alpha_composite(ov)
     return np.array(img.convert("RGB"))
@@ -963,7 +968,9 @@ def render_end_screen_frame(bg_rgb: np.ndarray, scene: dict, local_t: float, dur
 def scene_cache_key(scene: dict, ep_dir: Path, out_w: int, out_h: int) -> str:
     h = hashlib.sha256()
     h.update(json.dumps(scene, sort_keys=True).encode("utf-8"))
-    h.update(f"{out_w}x{out_h}@{FPS}_v1".encode("utf-8"))
+    st = scene.get("type", "")
+    ver = "v2_cardfix" if st == "chapter_card" else ("v2_pairfix" if st == "composite_pair" else "v1")
+    h.update(f"{out_w}x{out_h}@{FPS}_{ver}".encode("utf-8"))
     for k in ("image", "image_b"):
         if scene.get(k):
             p = (ep_dir / scene[k]) if not Path(scene[k]).is_absolute() else Path(scene[k])
@@ -1004,12 +1011,60 @@ def render_single_scene(args_tuple: tuple) -> dict:
         raw_a = load_img(scene["image"])
         fstyle = scene.get("frame_style", "photo" if stype == "archive" else "fullbleed")
         if stype == "today":
-            # Milder warm polish on modern photos
             plate_a, scale_used = compose_archival_plate(raw_a, bg_rgb, out_w, out_h, frame_style=fstyle, max_scale=1.45)
         else:
-            plate_a, scale_used = compose_archival_plate(raw_a, bg_rgb, out_w, out_h, frame_style=fstyle, max_scale=1.42)
+            plate_a, scale_used = compose_archival_plate(raw_a, bg_rgb, out_w, out_h, frame_style=fstyle, max_scale=1.45)
         if scene.get("parallax", False):
             par_bg, par_fg = build_parallax_layers(plate_a)
+
+    elif stype == "composite_pair":
+        # Side-by-side museum mat layout: pairs two images (or a small archival item + companion map/portrait)
+        # so smaller archival scans (<1000px) NEVER float lonely in empty parchment!
+        raw_a = load_img(scene["image"])
+        raw_b = load_img(scene["image_b"])
+        ga = unified_archive_grade(raw_a, strength=0.78)
+        gb = unified_archive_grade(raw_b, strength=0.72) if not str(scene["image_b"]).startswith("maps/") else raw_b
+        canvas = Image.fromarray(cv2.resize(bg_rgb, (out_w, out_h), interpolation=cv2.INTER_AREA)).convert("RGBA")
+        slot_w = int(out_w * 0.41)
+        slot_h = int(out_h * 0.54)
+        centers = [int(out_w * 0.275), int(out_w * 0.725)]
+        cy = int(out_h * 0.465)
+        labels = [scene.get("label_a", ""), scene.get("label_b", "")]
+        sc_f = out_h / float(BASE_H)
+        f_cap = load_font(int(36 * sc_f), "serif_bold")
+        max_sc = 1.48
+        s_used = 1.0
+        for idx, (arr, cx, cap) in enumerate(zip([ga, gb], centers, labels)):
+            ih, iw = arr.shape[:2]
+            fit = min(slot_w / float(iw), slot_h / float(ih), max_sc)
+            s_used = max(s_used, fit)
+            nw, nh = max(64, int(round(iw * fit))), max(64, int(round(ih * fit)))
+            pic = Image.fromarray(cv2.resize(arr, (nw, nh), interpolation=cv2.INTER_AREA if fit < 1.0 else cv2.INTER_CUBIC)).convert("RGBA")
+            bdr = max(8, int(out_h * 0.016))
+            fw, fh = nw + 2 * bdr, nh + 2 * bdr
+            shd = Image.new("RGBA", (fw + 30, fh + 30), (0, 0, 0, 0))
+            ImageDraw.Draw(shd).rounded_rectangle([15, 18, fw + 15, fh + 18], radius=4, fill=(30, 20, 12, 115))
+            shd = shd.filter(ImageFilter.GaussianBlur(12))
+            mat = Image.new("RGBA", (fw, fh), (246, 238, 220, 255))
+            md = ImageDraw.Draw(mat)
+            md.rectangle([0, 0, fw - 1, fh - 1], outline=(78, 60, 42, 225), width=max(2, out_h // 450))
+            mat.paste(pic, (bdr, bdr))
+            canvas.alpha_composite(shd, (cx - shd.width // 2, cy - shd.height // 2))
+            canvas.alpha_composite(mat, (cx - fw // 2, cy - fh // 2))
+            if cap:
+                # Museum exhibit plaque cleanly ABOVE each frame so it NEVER collides with lower-third rodape!
+                cd = ImageDraw.Draw(canvas)
+                cb = cd.textbbox((0, 0), cap, font=f_cap)
+                cw = cb[2] - cb[0]
+                ch = cb[3] - cb[1]
+                pad_x = int(20 * sc_f)
+                pad_y = int(10 * sc_f)
+                pill_h = ch + 2 * pad_y
+                py = max(int(out_h * 0.055), cy - fh // 2 - pill_h - int(16 * sc_f))
+                cd.rounded_rectangle([cx - cw // 2 - pad_x, py, cx + cw // 2 + pad_x, py + pill_h], radius=int(6 * sc_f), fill=(246, 238, 219, 240), outline=(72, 54, 36, 225), width=max(2, int(2 * sc_f)))
+                cd.text((cx - cw // 2 - cb[0], py + pad_y - cb[1]), cap, font=f_cap, fill=(36, 24, 14, 255))
+        plate_a = np.array(canvas.convert("RGB"))
+        scale_used = s_used
 
     elif stype == "map":
         raw_a = load_img(scene["image"])
@@ -1091,7 +1146,7 @@ def render_single_scene(args_tuple: tuple) -> dict:
             frame = warp_camera(plate_a, z, px, py, out_w, out_h)
 
         # Gentle film grain on archive/transition frames for visual unity
-        if stype in ("archive", "oldmap_to_map", "then_now") and out_w >= 1280:
+        if stype in ("archive", "oldmap_to_map", "then_now", "composite_pair") and out_w >= 1280:
             frame = add_subtle_grain(frame, seed=(hash(sid) + fi) & 0xFFFFFFFF, amount=3.2)
 
         # Subtle warm dark dip fade on chapter transitions if explicitly requested (never pure black gaps!)

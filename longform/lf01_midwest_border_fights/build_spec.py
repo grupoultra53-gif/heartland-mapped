@@ -166,7 +166,7 @@ def split_segment(start: float, end: float, items: list[dict], archive_by_path: 
             "type": it["type"],
             "duration": round(dur, 3),
         }
-        for k in ("image", "image_b", "card", "graphic_type", "headline", "items", "left", "right", "parallax", "dissolve_at", "dissolve_dur", "soft_fade", "subline", "left_label", "right_label", "shots"):
+        for k in ("image", "image_b", "label_a", "label_b", "intentional_callback", "card", "graphic_type", "headline", "items", "left", "right", "parallax", "dissolve_at", "dissolve_dur", "soft_fade", "subline", "left_label", "right_label", "shots"):
             if k in it:
                 sc[k] = it[k]
 
@@ -254,17 +254,19 @@ def main():
     scenes += split_segment(0.0, b1["block_end"], [
         {
             "id": "s01_cold_open_woods", "type": "map", "image": "maps/map_03_honey_war_woods.jpg",
-            "weight": 1.35, "z0": 1.04, "z1": 1.16, "px0": -0.05, "px1": 0.04, "first_cut": 2.4,
+            "weight": 1.4, "z0": 1.04, "z1": 1.16, "px0": -0.05, "px1": 0.04, "first_cut": 2.4,
             "overlays": [{"type": "stat", "big": "DEC 1839", "label": "IOWA - MISSOURI LINE", "pos": "top_left", "start": 0.5, "end": 5.2}],
         },
         {
-            "id": "s02_cold_open_monument", "type": "archive", "image": "archive/arc_02_honey_war_monument.jpg",
-            "weight": 1.15, "z0": 1.02, "z1": 1.14, "px1": 0.03,
-            "overlays": [{"type": "rodape", "title": "3,200+ Armed Militiamen", "subtitle": "Iowa Territory vs. State of Missouri", "start": 0.6}],
+            "id": "s02_cold_open_capitol_1846", "type": "archive", "image": "archive/arc_08b_capitol_1846.jpg",
+            "weight": 1.2, "z0": 1.02, "z1": 1.14, "px1": 0.03,
+            "overlays": [{"type": "rodape", "title": "3,200+ Armed Militiamen", "subtitle": "Iowa Territory vs. State of Missouri (1839)", "start": 0.5}],
         },
         {
-            "id": "s03_cold_open_honey_map", "type": "archive", "image": "archive/arc_03_honey_war_map.jpg",
-            "weight": 1.1, "z0": 1.00, "z1": 1.12,
+            "id": "s03_cold_open_honey_map", "type": "composite_pair",
+            "image": "archive/arc_03_honey_war_map.jpg", "image_b": "maps/map_02_honey_war_lines.jpg",
+            "label_a": "Disputed Strip (1839)", "label_b": "Competing Survey Lines",
+            "weight": 1.15, "z0": 1.00, "z1": 1.08,
         },
         {
             "id": "s04_cold_open_northwest_old", "type": "archive", "image": "archive/arc_10_mitchell_map_1755.jpg",
@@ -290,8 +292,8 @@ def main():
             ],
         },
         {
-            "id": "s07_promise_mitchell_preview", "type": "archive", "image": "archive/arc_10_mitchell_map_1755.jpg",
-            "weight": 1.0, "z0": 1.04, "z1": 1.18, "px1": -0.04,
+            "id": "s07_promise_mitchell_preview", "type": "archive", "image": "archive/arc_29_mitchell_michigan.jpg",
+            "weight": 1.0, "z0": 1.04, "z1": 1.16, "px1": -0.04,
             "overlays": [{"type": "destaque", "lines": ["5 Border Showdowns.", "1 Billion-Dollar Twist."], "pos": "bottom", "start": 0.8}],
         },
     ], archive_by_path)
@@ -311,42 +313,37 @@ def main():
     scenes += split_segment(b3["chapter_card_end"], b4["chapter_card_start"], [
         {
             "id": "s09_ch1_sullivan_brown_map", "type": "map", "image": "maps/map_02_honey_war_lines.jpg",
-            "weight": 1.5, "z0": 1.02, "z1": 1.18, "px0": -0.03, "px1": 0.05,
-            "overlays": [{"type": "rodape", "title": "1816 Sullivan Line vs. 1837 Brown Line", "subtitle": "A 9.5-mile strip claimed by two governments", "start": 0.8}],
+            "intentional_callback": True,
+            "weight": 1.55, "z0": 1.02, "z1": 1.18, "px0": -0.03, "px1": 0.05,
+            "overlays": [{"type": "rodape", "title": "1816 Sullivan Line vs. 1837 Brown Line", "subtitle": "A 9.5-mile strip (~2,600 sq mi) claimed by both", "start": 0.8}],
         },
         {
             "id": "s10_ch1_keosauqua_sanborn", "type": "archive", "image": "archive/today_06_keosauqua_sanborn.jpg",
-            "weight": 1.15, "z0": 1.02, "z1": 1.15, "py0": -0.04, "py1": 0.04,
+            "weight": 1.25, "z0": 1.02, "z1": 1.15, "py0": -0.04, "py1": 0.04,
             "overlays": [{"type": "rodape", "title": "Keosauqua, Van Buren County", "subtitle": "Historic Sanborn Map — Library of Congress", "start": 0.6}],
         },
         {
-            "id": "s11_ch1_disputed_strip_stat", "type": "archive", "image": "archive/arc_03_honey_war_map.jpg",
-            "weight": 1.15, "z0": 1.00, "z1": 1.12,
-            "overlays": [{"type": "stat", "big": "2,600 SQ MI", "label": "CONTESTED FARMLAND", "pos": "top_right", "start": 0.6}],
-        },
-        {
-            "id": "s12_ch1_honey_trees", "type": "map", "image": "maps/map_03_honey_war_woods.jpg",
-            "weight": 1.2, "z0": 1.04, "z1": 1.18, "px0": 0.04, "px1": -0.03,
+            "id": "s11_ch1_honey_trees_stat", "type": "map", "image": "maps/map_03_honey_war_woods.jpg",
+            "intentional_callback": True,
+            "weight": 1.25, "z0": 1.04, "z1": 1.18, "px0": 0.04, "px1": -0.03,
             "overlays": [{"type": "stat", "big": "3 BEE TREES", "label": "SPARKED A FRONTIER STANDOFF", "pos": "top_left", "start": 0.7}],
         },
         {
-            "id": "s13_ch1_robert_lucas", "type": "archive", "image": "archive/arc_07_lucas_statehouse.jpg",
-            "weight": 1.1, "parallax": True, "z0": 1.00, "z1": 1.10,
-            "overlays": [{"type": "rodape", "title": "Gov. Robert Lucas (Iowa Territory)", "subtitle": "Called out ~1,200 militiamen — remember his name", "start": 0.5}],
-        },
-        {
-            "id": "s14_ch1_lilburn_boggs", "type": "archive", "image": "archive/arc_06_lilburn_boggs.jpg",
-            "weight": 1.1, "parallax": True, "z0": 1.00, "z1": 1.12,
-            "overlays": [{"type": "rodape", "title": "Gov. Lilburn W. Boggs (Missouri)", "subtitle": "Mobilized over 2,000 Missouri troops", "start": 0.5}],
+            "id": "s13_ch1_governors_clash", "type": "composite_pair",
+            "image": "archive/arc_07_lucas_statehouse.jpg", "image_b": "archive/arc_06_lilburn_boggs.jpg",
+            "label_a": "Gov. Robert Lucas (Iowa)", "label_b": "Gov. Lilburn Boggs (Missouri)",
+            "weight": 1.85, "z0": 1.00, "z1": 1.08,
+            "overlays": [{"type": "rodape", "title": "Rival Governors Mobilize Militias", "subtitle": "~1,200 Iowans vs. 2,000+ Missourians in December snow", "start": 0.6}],
         },
         {
             "id": "s15_ch1_monument_truce", "type": "archive", "image": "archive/arc_02_honey_war_monument.jpg",
-            "weight": 1.05, "z0": 1.02, "z1": 1.14,
+            "weight": 1.1, "z0": 1.02, "z1": 1.14,
+            "overlays": [{"type": "rodape", "title": "Sullivan Line Historical Monument", "subtitle": "A truce prevented bloodshed in freezing December 1839", "start": 0.5}],
         },
         {
             "id": "s16_ch1_supreme_court", "type": "archive", "image": "archive/arc_08_supreme_court_capitol.jpg",
-            "weight": 1.3, "z0": 1.02, "z1": 1.15, "px1": 0.03,
-            "overlays": [{"type": "rodape", "title": "Missouri v. Iowa (1849)", "subtitle": "U.S. Supreme Court restores the 1816 Sullivan Line", "start": 0.6}],
+            "weight": 1.35, "z0": 1.02, "z1": 1.15, "px1": 0.03,
+            "overlays": [{"type": "rodape", "title": "Missouri v. Iowa (1849)", "subtitle": "Old Supreme Court Chamber (LOC) — 1816 Sullivan Line upheld", "start": 0.6}],
         },
     ], archive_by_path)
 
@@ -390,7 +387,7 @@ def main():
         {
             "id": "s23_ch2_49th_marker", "type": "archive", "image": "archive/arc_15_49th_parallel_marker.jpg",
             "weight": 1.1, "z0": 1.02, "z1": 1.14,
-            "overlays": [{"type": "stat", "big": "49TH PARALLEL", "label": "CONVENTION OF 1818", "pos": "top_right", "start": 0.5}],
+            "overlays": [{"type": "rodape", "title": "Northernmost Point of the Lower 48", "subtitle": "Convention of 1818 dropped a line south to the 49th parallel", "start": 0.5}],
         },
         {
             "id": "s24_ch2_nw_angle_map", "type": "map", "image": "maps/map_05_nw_angle_49th.jpg",
@@ -446,7 +443,7 @@ def main():
             "headline": "U.S. SUPREME COURT RIVER LAW (1892)",
             "left": {"title": "ACCRETION", "value": "SLOW SHIFT", "subtitle": "State border moves with the river"},
             "right": {"title": "AVULSION", "value": "SUDDEN JUMP", "subtitle": "Border stays frozen in old riverbed"},
-            "shots": [{"t": 0.0, "zoom": 1.0}, {"t": 4.8, "zoom": 1.02}],
+            "shots": [{"t": 0.0, "zoom": 1.0}, {"t": 6.4, "zoom": 1.02}],
         },
         {
             "id": "s33_ch3_oldmap_to_carter", "type": "oldmap_to_map",
@@ -456,9 +453,9 @@ def main():
         },
     ], archive_by_path)
 
-    # ---- CHAPTER 4: THE KENTUCKY BEND (1812) ----
+    # ---- CHAPTER 4: THE KENTUCKY BEND (1820 — A RIVER LOOP) ----
     b7 = bmap["07_cap5_toledo_war"]
-    chapters.append({"start": round(b6["chapter_card_start"], 2), "title": "4. The Kentucky Bend (1812 — Quake & River Loop)"})
+    chapters.append({"start": round(b6["chapter_card_start"], 2), "title": "4. The Kentucky Bend (1820 — A River Loop)"})
     foley_cues.append({"t": round(b6["chapter_card_start"] + 0.15, 2), "type": "parchment", "gain": 0.60})
     foley_cues.append({"t": round(b6["speech_start"] + 18.0, 2), "type": "bell", "gain": 0.50})
     silence_dips.append((round(b6["speech_end"] - 5.2, 2), round(b6["speech_end"] - 3.6, 2)))
@@ -475,17 +472,15 @@ def main():
             "overlays": [{"type": "stat", "big": "36°30' N", "label": "KENTUCKY - TENNESSEE LINE", "pos": "top_left", "start": 0.7}],
         },
         {
-            "id": "s36_ch4_new_madrid_woodcut", "type": "archive", "image": "archive/arc_22_new_madrid_quake.jpg",
-            "weight": 1.2, "z0": 1.00, "z1": 1.14,
-            "overlays": [{"type": "stat", "big": "1811 - 1812", "label": "NEW MADRID EARTHQUAKES", "pos": "top_right", "start": 0.6}],
-        },
-        {
-            "id": "s37_ch4_tilted_trees", "type": "archive", "image": "archive/arc_23_new_madrid_trees.jpg",
-            "weight": 1.1, "z0": 1.00, "z1": 1.12,
-            "overlays": [{"type": "rodape", "title": "USGS Archival Photo (M. L. Fuller)", "subtitle": "Trees permanently tilted by the 1811–1812 quakes", "start": 0.6}],
+            "id": "s36_ch4_quake_and_trees", "type": "composite_pair",
+            "image": "archive/arc_22_new_madrid_quake.jpg", "image_b": "archive/arc_23_new_madrid_trees.jpg",
+            "label_a": "1811–1812 Quakes Context", "label_b": "USGS Photo: Tilted Trees",
+            "weight": 1.85, "z0": 1.00, "z1": 1.08,
+            "overlays": [{"type": "rodape", "title": "Same Dramatic Stretch of the Mississippi", "subtitle": "The 1820 survey crossed an existing river loop twice", "start": 0.6}],
         },
         {
             "id": "s38_ch4_ky_bend_zoom", "type": "map", "image": "maps/map_08_kentucky_bend.jpg",
+            "intentional_callback": True,
             "weight": 1.2, "z0": 1.18, "z1": 1.34, "px0": 0.0, "py0": -0.02, "px1": 0.0, "py1": 0.02,
             "overlays": [{"type": "stat", "big": "17.5 SQ MI", "label": "FULTON COUNTY EXCLAVE", "pos": "top_left", "start": 0.6}],
         },
@@ -537,14 +532,11 @@ def main():
             "overlays": [{"type": "rodape", "title": "Maumee River Port, Toledo", "subtitle": "Vital gateway for the Wabash & Erie Canal", "start": 0.5}],
         },
         {
-            "id": "s46_ch5_lucas_again", "type": "archive", "image": "archive/arc_07_lucas_statehouse.jpg",
-            "weight": 1.0, "parallax": True, "z0": 1.00, "z1": 1.10,
-            "overlays": [{"type": "rodape", "title": "Gov. Robert Lucas (Ohio)", "subtitle": "Sent 600 troops — then fought Missouri 4 years later!", "start": 0.5}],
-        },
-        {
-            "id": "s47_ch5_stevens_mason", "type": "archive", "image": "archive/arc_30_stevens_t_mason.jpg",
-            "weight": 1.05, "parallax": True, "z0": 1.00, "z1": 1.12,
-            "overlays": [{"type": "rodape", "title": "Stevens T. Mason (Age 23)", "subtitle": "Michigan's 'Boy Governor' — ~1,000 territorial troops", "start": 0.5}],
+            "id": "s46_ch5_lucas_vs_mason", "type": "composite_pair",
+            "image": "archive/arc_07_lucas_statehouse.jpg", "image_b": "archive/arc_30_stevens_t_mason.jpg",
+            "label_a": "Gov. Robert Lucas (Ohio)", "label_b": "Stevens T. Mason (Age 23, MI)",
+            "weight": 2.05, "z0": 1.00, "z1": 1.08,
+            "overlays": [{"type": "rodape", "title": "The Same Stubborn Governor Returns", "subtitle": "600 Ohio troops vs. 1,000 Michigan territorial troops", "start": 0.5}],
         },
         {
             "id": "s48_ch5_militia_map", "type": "map", "image": "maps/map_10_toledo_militias.jpg",
@@ -553,7 +545,7 @@ def main():
         {
             "id": "s49_ch5_phillips_corners", "type": "archive", "image": "archive/arc_33_phillips_corners.jpg",
             "weight": 1.15, "z0": 1.02, "z1": 1.14,
-            "overlays": [{"type": "rodape", "title": "Battle of Phillips Corners & Two Stickney", "subtitle": "One penknife wound — the only blood spilled", "start": 0.6}],
+            "overlays": [{"type": "rodape", "title": "Phillips Corners, Michigan (April 26, 1835)", "subtitle": "First shots fired — later Two Stickney drew the war's only blood", "start": 0.3, "end": 12.0}],
         },
         {
             "id": "s50_ch5_andrew_jackson", "type": "archive", "image": "archive/arc_31_andrew_jackson.jpg",
@@ -561,9 +553,11 @@ def main():
             "overlays": [{"type": "rodape", "title": "President Andrew Jackson", "subtitle": "Needed Ohio's electoral votes in 1836", "start": 0.5}],
         },
         {
-            "id": "s51_ch5_frostbitten_conv", "type": "archive", "image": "archive/arc_33b_frostbitten_convention.jpg",
-            "weight": 1.05, "z0": 1.00, "z1": 1.12,
-            "overlays": [{"type": "rodape", "title": "Frostbitten Convention (Dec 1836)", "subtitle": "Ann Arbor delegates reluctantly accept the trade", "start": 0.5}],
+            "id": "s51_ch5_frostbitten_conv", "type": "composite_pair",
+            "image": "archive/arc_33b_frostbitten_convention.jpg", "image_b": "archive/arc_29b_fulton_plat_1858.jpg",
+            "label_a": "Frostbitten Convention (1836)", "label_b": "1858 Border Plat Map",
+            "weight": 1.15, "z0": 1.00, "z1": 1.08,
+            "overlays": [{"type": "rodape", "title": "Ann Arbor Delegates Accept the Deal", "subtitle": "Surrendered Toledo for statehood & the Upper Peninsula", "start": 0.5}],
         },
         {
             "id": "s52_ch5_trade_graphic", "type": "graphic", "graphic_type": "scale_compare",
@@ -618,13 +612,15 @@ def main():
         {
             "id": "s60_today_kentucky_bend", "type": "today", "image": "today/today_03_kentucky_bend.jpg",
             "weight": 1.2, "z0": 1.02, "z1": 1.14, "px1": -0.02,
-            "overlays": [{"type": "rodape", "title": "TODAY · Kentucky Bend, Kentucky", "subtitle": "Fewer than a dozen residents — zero gas stations", "start": 0.6}],
+            "overlays": [{"type": "rodape", "title": "TODAY · Kentucky Bend, Kentucky", "subtitle": "Just 9 residents recorded in the 2020 U.S. Census", "start": 0.5}],
         },
         {
-            "id": "s61_today_toledo_then_now", "type": "then_now",
+            "id": "s61_today_toledo_then_now", "type": "composite_pair",
             "image": "archive/arc_32_toledo_maumee_historic.jpg", "image_b": "today/today_04_toledo_marker.jpg",
-            "weight": 1.15, "z0": 1.02, "z1": 1.12,
-            "overlays": [{"type": "rodape", "title": "Toledo Strip · Then & Now", "subtitle": "Historical markers still trace the 1835 standoff", "start": 0.6}],
+            "label_a": "Maumee River, Toledo", "label_b": "Ohio–Michigan State Line",
+            "intentional_callback": True,
+            "weight": 1.15, "z0": 1.00, "z1": 1.08,
+            "overlays": [{"type": "rodape", "title": "Toledo Strip · Then & Now", "subtitle": "Historical markers still trace the 1835 standoff", "start": 0.5}],
         },
         {
             "id": "s62_today_upper_peninsula", "type": "today", "image": "today/today_05_upper_peninsula.jpg",
@@ -654,10 +650,12 @@ def main():
     }
     (EP / "longform_spec.json").write_text(json.dumps(spec, indent=2, ensure_ascii=False), encoding="utf-8")
 
-    # Also write ready-to-upload youtube.txt deliverable!
+    # Also write ready-to-upload youtube.txt deliverable (2 mid-rolls only for new channel!)
     ch_lines = [f"{fmt_mmss(c['start'])} {c['title']}" for c in chapters]
-    midroll_lines = [f"  - {fmt_mmss(c['start'])} ({c['title']})" for c in chapters[2:5]]
-    src_lines = [f"- {s['label']}: {s['url']}" for s in script["research_sources"]]
+    midroll_lines = [f"  - {fmt_mmss(c['start'])} ({c['title']})" for c in [chapters[3], chapters[5]]]
+    src_lines = [f"- {s['label']}: {s['url']}" for s in script["research_sources"]] + [
+        "- U.S. Census Bureau (2020 Decennial Census) — Angle Township, Lake of the Woods County, MN (pop. 149) & Kentucky Bend CCD, Fulton County, KY (pop. 9): https://data.census.gov/"
+    ]
     cc_credits = []
     for info in archive_by_path.values():
         if "cc by" in info["license"].lower():
@@ -671,12 +669,16 @@ KIT COMPLETO DE PUBLICACAO NO YOUTUBE STUDIO
 DATA E HORARIO SUGERIDOS PARA PROGRAMAR:
 Sexta-feira, 27/11/2026 — 11:00 (Horario de Roraima / 10:00 ET / 09:00 CT)
 
+PASTA COMPLETA NO GOOGLE DRIVE:
+https://drive.google.com/drive/folders/13Hgr07YHP_AKUEg-rt0MqMRdhl2x_MbW
+(Video MP4 direto: https://drive.google.com/file/d/1rub27uEXdLn4kj2MH6nsdz9YTJbDbxM5/view?usp=drivesdk)
+
 ARQUIVOS ENTREGUES:
 - video.mp4 (1920x1080 | 24 FPS | {fmt_mmss(total_dur)} | -14 LUFS | Fish Audio Ethan)
 - legendas.srt (Legenda limpa em Ingles — subir em Subtitles -> English (United States))
-- thumbnail_a_pegdoll.jpg (1280x720 — Variante A com peg-doll assinatura no canto)
-- thumbnail_b_pure.jpg (1280x720 — Variante B mapa puro + bussola, testar no Test & Compare!)
-- fontes_imagens.txt (Registro completo de URL + licenca de 100% do arquivo)
+- thumbnail_a_pegdoll.jpg (1280x720 — Variante A: mesmo mapa geografico certo da B + peg-doll assinatura no canto)
+- thumbnail_b_pure.jpg (1280x720 — Variante B: mapa puro + bussola, testar A x B no Test & Compare!)
+- fontes_imagens.txt & fontes_musica.txt (Registro completo de licencas)
 
 --------------------------------------------------------------------------------
 1. TITULO (COPIAR E COLAR — 55 caracteres)

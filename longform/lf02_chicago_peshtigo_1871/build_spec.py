@@ -109,7 +109,7 @@ def split_segment(start: float, end: float, items: list[dict], archive_by_path: 
     for idx, it in enumerate(items):
         dur = (end - cur) if idx == len(items) - 1 else round(span * (it.get("weight", 1.0) / total_w), 3)
         sc = {"id": it["id"], "type": it["type"], "duration": round(dur, 3)}
-        for k in ("image", "image_b", "card", "graphic_type", "headline", "items", "left", "right", "parallax", "dissolve_at", "dissolve_dur", "soft_fade", "subline", "left_label", "right_label", "shots"):
+        for k in ("image", "image_b", "label_a", "label_b", "intentional_callback", "card", "graphic_type", "headline", "items", "left", "right", "parallax", "dissolve_at", "dissolve_dur", "soft_fade", "subline", "left_label", "right_label", "shots"):
             if k in it:
                 sc[k] = it[k]
         if sc["type"] in ("archive", "today"):
@@ -265,8 +265,10 @@ def main():
             "weight": 1.1, "z0": 1.02, "z1": 1.14,
         },
         {
-            "id": "s11_ch1_chicago_wood", "type": "archive", "image": "archive/arc_06_chicago_dekoven.jpg",
-            "weight": 1.15, "z0": 1.00, "z1": 1.12,
+            "id": "s11_ch1_chicago_wood", "type": "composite_pair",
+            "image": "archive/arc_08_chicago_fire2.jpg", "image_b": "archive/arc_12_chicago_cheer_up.jpg",
+            "label_a": "1871 Timber-Built Chicago", "label_b": "Wooden Streets & Roofs",
+            "weight": 1.15, "z0": 1.00, "z1": 1.08,
             "overlays": [{"type": "rodape", "title": "A City Built of Pine", "subtitle": "Two-thirds of 1871 Chicago was wooden construction", "start": 0.6}],
         },
         {
@@ -462,7 +464,7 @@ def main():
 
     # Export complete youtube.txt deliverable
     ch_lines = [f"{fmt_mmss(c['start'])} {c['title']}" for c in chapters]
-    midroll_lines = [f"  - {fmt_mmss(c['start'])} ({c['title']})" for c in chapters[2:5]]
+    midroll_lines = [f"  - {fmt_mmss(c['start'])} ({c['title']})" for c in chapters[3:5]]
     src_lines = [f"- {s['label']}: {s['url']}" for s in script["research_sources"]]
     cc_credits = [f"- {info['caption']} — {info['artist']} ({info['license']}): {info['page_url']}" for info in archive_by_path.values() if "cc by" in info["license"].lower()]
 
@@ -474,12 +476,16 @@ KIT COMPLETO DE PUBLICACAO NO YOUTUBE STUDIO
 DATA E HORARIO SUGERIDOS PARA PROGRAMAR:
 Terca-feira, 01/12/2026 — 11:00 (Horario de Roraima / 10:00 ET / 09:00 CT)
 
+PASTA COMPLETA NO GOOGLE DRIVE:
+https://drive.google.com/drive/folders/1X9etIyYAWopr14Y2_qQj0RCR2VW6DkF8
+(Video MP4 direto: https://drive.google.com/file/d/1iteniPawB_zeSqTbSNDbrtMjUyo9ASsf/view?usp=drivesdk)
+
 ARQUIVOS ENTREGUES:
 - video.mp4 (1920x1080 | 24 FPS | {fmt_mmss(total_dur)} | -14 LUFS | Fish Audio Ethan)
 - legendas.srt (Legenda limpa em Ingles — subir em Subtitles -> English (United States))
 - thumbnail_a_map.jpg (1280x720 — Variante A mapa 2.5D do Lago Michigan em chamas)
 - thumbnail_b_archive.jpg (1280x720 — Variante B gravura historica Currier & Ives 1871, testar no Test & Compare!)
-- fontes_imagens.txt (Registro completo de URL + licenca de 100% do arquivo)
+- fontes_imagens.txt & fontes_musica.txt (Registro completo de licencas)
 
 --------------------------------------------------------------------------------
 1. TITULO (COPIAR E COLAR — 65 caracteres)

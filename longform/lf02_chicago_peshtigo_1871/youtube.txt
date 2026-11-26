@@ -15,7 +15,7 @@ ARQUIVOS ENTREGUES:
 - legendas.srt (Legenda limpa em Ingles — subir em Subtitles -> English (United States))
 - thumbnail_a_map.jpg (1280x720 — Variante A mapa 2.5D do Lago Michigan em chamas)
 - thumbnail_b_archive.jpg (1280x720 — Variante B gravura historica Currier & Ives 1871, testar no Test & Compare!)
-- fontes_imagens.txt (Registro completo de URL + licenca de 100% do arquivo)
+- fontes_imagens.txt & fontes_musica.txt (Registro completo de licencas)
 
 --------------------------------------------------------------------------------
 1. TITULO (COPIAR E COLAR — 65 caracteres)
@@ -81,7 +81,6 @@ peshtigo fire 1871, great chicago fire 1871, october 8 1871 fires, deadliest wil
 - Legenda .srt: subir `legendas.srt` manualmente.
 - Thumbnails (Test & Compare): subir `thumbnail_a_map.jpg` vs `thumbnail_b_archive.jpg`!
 - Mid-rolls manuais (nos cartoes de capitulo):
-  - 2:53 (2. Chicago in Flames & The O'Leary Myth)
   - 4:24 (3. The Peshtigo Firestorm (America's Deadliest Fire))
   - 5:56 (4. Silence on the Wire: Why History Forgot)
 - Playlist: criar/adicionar na playlist de longos "Heartland Disasters".

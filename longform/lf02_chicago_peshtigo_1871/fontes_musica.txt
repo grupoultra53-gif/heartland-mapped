@@ -1,0 +1,25 @@
+================================================================================
+HEARTLAND MAPPED — FONTES E REGISTRO DE TRILHAS MUSICAIS (LF02)
+================================================================================
+
+1. TRILHAS INSTRUMENTAIS UTILIZADAS NO MIX (-19.8 dB abaixo da voz, -14.5 LUFS final):
+   - Clima Curiosidade / Verao 1871:
+     Arquivo local : assets/music/mood_curiosity_akesa_d.wav (197.6s)
+     Origem        : Biblioteca local do usuario (Automacao_Shopee/assets/Akesa D - Sophisticated Dining & Decor.wav)
+   - Clima Calmo / Silencio no Telegrafo:
+     Arquivo local : assets/music/mood_warm_akesa_b.wav (164.0s)
+     Origem        : Biblioteca local do usuario (Automacao_Shopee/assets/Akesa B - Soft Aesthetic & Lifestyle.wav)
+   - Clima Tensao / Incendio & Firestorm:
+     Arquivo local : assets/music/mood_tension_drone.mp3 (192.8s)
+     Origem        : Biblioteca local do usuario (Novelas da Fe/sons/ambient_drone/5b2ea8e0.mp3)
+   - Clima Nostalgia / Memorial Hoje:
+     Arquivo local : assets/music/mood_nostalgia_garden_wisdom.mp3 (163.7s)
+     Origem        : Biblioteca local do usuario (Grandma Lan/musicas/Garden Wisdom.mp3)
+
+2. AMBIENCIA & FOLEY:
+   - Ambiencia sutil (-36 dBFS): assets/music/ambience_plains_wind.mp3
+   - Efeitos situacionais (fogo, rio, sino, pergaminho): 100% procedurais em Python/SciPy (sem direitos de terceiros).
+
+3. NOTA DE VARIACAO & VERIFICACAO:
+   - Conferir na aba "Verificacoes / Checks" do YouTube Studio antes da publicacao.
+   - A partir do Longo 03, baixar pelo menos 1-2 faixas novas da YouTube Audio Library ("Attribution not required") para variar a assinatura sonora entre videos.
