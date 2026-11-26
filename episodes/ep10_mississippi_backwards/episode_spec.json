@@ -1,0 +1,234 @@
+{
+  "slug": "mississippi_backwards",
+  "output_mp4": "heartland_mapped_ep10_mississippi_backwards.mp4",
+  "rewind_label": "<< REW  TODAY -> 1811",
+  "bed_bpm": 96.0,
+  "bed_seed": 1010,
+  "highlight_words": [
+    "EARTHQUAKE", "MISSISSIPPI", "BACKWARDS", "BOSTON", "1811", "NEW", "MADRID", "MISSOURI",
+    "MEGA-QUAKES", "SEVEN", "BEDROCK", "TEN", "WIDER", "1906", "WHITE", "HOUSE", "THOUSAND",
+    "CRACKED", "GEYSERS", "WATERFALLS", "UPSTREAM", "REELFOOT", "LAKE", "1815", "RELIEF",
+    "FAULT", "HEARTLAND", "QUAKE", "REWIND"
+  ],
+  "qa_points": {
+    "scene_01_wide": {"scene": "scene_01", "rel": 2.95},
+    "scene_04_rings": {"scene": "scene_04", "rel": 2.80},
+    "scene_06_boston": {"scene": "scene_06", "rel": 4.20},
+    "scene_08_upstream": {"scene": "scene_08", "rel": 5.40},
+    "scene_11_fault": {"scene": "scene_11", "rel": 1.10}
+  },
+  "scenes": [
+    {
+      "id": "scene_01",
+      "keyframe": "keyframes/scene_01.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 2.02, "pan_x": 0.02, "pan_y": -0.10, "tilt_deg": 0.0, "end_zoom": 2.16, "end_pan_x": 0.02, "end_pan_y": -0.14, "end_tilt_deg": 0.4},
+        {"t": 2.40, "zoom": 1.06, "pan_x": 0.00, "pan_y": 0.00, "tilt_deg": 0.0, "end_zoom": 1.16, "end_pan_x": 0.00, "end_pan_y": 0.02, "end_tilt_deg": 0.4},
+        {"t": 3.80, "zoom": 2.06, "pan_x": 0.32, "pan_y": -0.38, "tilt_deg": -0.3, "end_zoom": 2.18, "end_pan_x": 0.32, "end_pan_y": -0.38, "end_tilt_deg": 0.3}
+      ],
+      "sprites": [
+        {"bbox": [0.245, 0.380, 0.425, 0.505], "motion": "shudder", "pop_delay": 0.0},
+        {"bbox": [0.680, 0.015, 0.990, 0.195], "motion": "cheer_bounce", "pop_delay": 0.0}
+      ],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.02, "type": "quake_rumble", "gain": 0.65},
+        {"rel": 2.45, "type": "river_rush", "gain": 0.50},
+        {"rel": 3.85, "type": "church_bell", "gain": 0.62},
+        {"rel": -0.50, "type": "tape_rewind", "gain": 0.72}
+      ]
+    },
+    {
+      "id": "scene_02",
+      "keyframe": "keyframes/scene_02.jpg",
+      "vhs_rewind": true,
+      "shots": [
+        {"t": 0.00, "zoom": 1.14, "pan_x": 0.0, "pan_y": -0.04, "tilt_deg": -0.8, "end_zoom": 1.04, "end_pan_x": 0.0, "end_pan_y": -0.02, "end_tilt_deg": 0.0},
+        {"t": 1.25, "zoom": 1.88, "pan_x": 0.0, "pan_y": -0.36, "tilt_deg": 0.5, "end_zoom": 2.02, "end_pan_x": 0.0, "end_pan_y": -0.36, "end_tilt_deg": 0.0}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "tape_rewind", "gain": 0.70},
+        {"rel": 1.22, "type": "parchment_brush", "gain": 0.65}
+      ]
+    },
+    {
+      "id": "scene_03",
+      "keyframe": "keyframes/scene_03.jpg",
+      "quake_shake": true,
+      "impact_shake_rel": 5.26,
+      "shots": [
+        {"t": 0.00, "zoom": 2.04, "pan_x": 0.30, "pan_y": -0.36, "tilt_deg": -0.3, "end_zoom": 2.16, "end_pan_x": 0.30, "end_pan_y": -0.36, "end_tilt_deg": 0.3},
+        {"t": 2.80, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.16, "end_pan_x": 0.0, "end_pan_y": 0.02, "end_tilt_deg": 0.3},
+        {"t": 5.20, "zoom": 2.04, "pan_x": 0.04, "pan_y": -0.02, "tilt_deg": 0.4, "end_zoom": 2.18, "end_pan_x": 0.04, "end_pan_y": -0.02, "end_tilt_deg": -0.4}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 5.25, "type": "quake_rumble", "gain": 0.72},
+        {"rel": 6.15, "type": "map_crack", "gain": 0.72}
+      ]
+    },
+    {
+      "id": "scene_04",
+      "keyframe": "keyframes/scene_04.jpg",
+      "quake_shake": true,
+      "impact_shake_rel": 1.88,
+      "shots": [
+        {"t": 0.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3},
+        {"t": 1.80, "zoom": 2.06, "pan_x": -0.04, "pan_y": -0.04, "tilt_deg": -0.4, "end_zoom": 2.20, "end_pan_x": -0.04, "end_pan_y": -0.04, "end_tilt_deg": 0.4},
+        {"t": 4.10, "zoom": 1.08, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.18, "end_pan_x": 0.0, "end_pan_y": 0.02, "end_tilt_deg": 0.4}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 1.85, "type": "quake_rumble", "gain": 0.72},
+        {"rel": 3.55, "type": "map_crack", "gain": 0.74}
+      ]
+    },
+    {
+      "id": "scene_05",
+      "keyframe": "keyframes/scene_05.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3},
+        {"t": 2.85, "zoom": 2.02, "pan_x": 0.22, "pan_y": -0.08, "tilt_deg": -0.3, "end_zoom": 2.14, "end_pan_x": 0.22, "end_pan_y": -0.08, "end_tilt_deg": 0.3},
+        {"t": 5.00, "zoom": 2.08, "pan_x": -0.34, "pan_y": -0.18, "tilt_deg": 0.3, "end_zoom": 2.20, "end_pan_x": -0.34, "end_pan_y": -0.18, "end_tilt_deg": -0.3}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 2.90, "type": "quake_rumble", "gain": 0.64},
+        {"rel": 5.05, "type": "cork_pop", "gain": 0.60}
+      ]
+    },
+    {
+      "id": "scene_06",
+      "keyframe": "keyframes/scene_06.jpg",
+      "impact_shake_rel": 0.50,
+      "shots": [
+        {"t": 0.00, "zoom": 2.04, "pan_x": -0.24, "pan_y": 0.04, "tilt_deg": -0.3, "end_zoom": 2.16, "end_pan_x": -0.24, "end_pan_y": 0.04, "end_tilt_deg": 0.3},
+        {"t": 2.85, "zoom": 2.06, "pan_x": 0.26, "pan_y": -0.08, "tilt_deg": 0.3, "end_zoom": 2.18, "end_pan_x": 0.26, "end_pan_y": -0.08, "end_tilt_deg": -0.3}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 0.45, "type": "quake_rumble", "gain": 0.60},
+        {"rel": 2.90, "type": "church_bell", "gain": 0.64},
+        {"rel": 4.20, "type": "church_bell", "gain": 0.54}
+      ]
+    },
+    {
+      "id": "scene_07",
+      "keyframe": "keyframes/scene_07.jpg",
+      "impact_shake_rel": 1.35,
+      "shots": [
+        {"t": 0.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3},
+        {"t": 1.30, "zoom": 2.06, "pan_x": -0.02, "pan_y": 0.06, "tilt_deg": -0.3, "end_zoom": 2.18, "end_pan_x": -0.02, "end_pan_y": 0.06, "end_tilt_deg": 0.3},
+        {"t": 2.85, "zoom": 2.02, "pan_x": 0.14, "pan_y": -0.22, "tilt_deg": 0.3, "end_zoom": 2.16, "end_pan_x": 0.14, "end_pan_y": -0.28, "end_tilt_deg": -0.3}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 1.32, "type": "map_crack", "gain": 0.76},
+        {"rel": 2.85, "type": "water_splash", "gain": 0.68}
+      ]
+    },
+    {
+      "id": "scene_08",
+      "keyframe": "keyframes/scene_08.jpg",
+      "quake_shake": true,
+      "impact_shake_rel": 0.94,
+      "shots": [
+        {"t": 0.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3},
+        {"t": 0.90, "zoom": 2.06, "pan_x": -0.02, "pan_y": -0.04, "tilt_deg": -0.3, "end_zoom": 2.18, "end_pan_x": -0.02, "end_pan_y": -0.04, "end_tilt_deg": 0.3},
+        {"t": 4.20, "zoom": 2.04, "pan_x": 0.14, "pan_y": 0.10, "tilt_deg": 0.3, "end_zoom": 2.18, "end_pan_x": 0.14, "end_pan_y": 0.10, "end_tilt_deg": -0.3}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 0.90, "type": "map_crack", "gain": 0.74},
+        {"rel": 2.90, "type": "river_rush", "gain": 0.56},
+        {"rel": 4.40, "type": "water_splash", "gain": 0.66}
+      ]
+    },
+    {
+      "id": "scene_09",
+      "keyframe": "keyframes/scene_09.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3},
+        {"t": 2.00, "zoom": 2.02, "pan_x": -0.08, "pan_y": 0.00, "tilt_deg": -0.3, "end_zoom": 2.14, "end_pan_x": -0.08, "end_pan_y": 0.00, "end_tilt_deg": 0.3},
+        {"t": 4.35, "zoom": 2.06, "pan_x": 0.16, "pan_y": -0.14, "tilt_deg": 0.3, "end_zoom": 2.18, "end_pan_x": 0.16, "end_pan_y": -0.14, "end_tilt_deg": -0.3}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 2.05, "type": "river_rush", "gain": 0.54},
+        {"rel": 4.60, "type": "celesta_chime", "gain": 0.60}
+      ]
+    },
+    {
+      "id": "scene_10",
+      "keyframe": "keyframes/scene_10.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3},
+        {"t": 1.20, "zoom": 2.08, "pan_x": 0.04, "pan_y": 0.06, "tilt_deg": -0.3, "end_zoom": 2.20, "end_pan_x": 0.04, "end_pan_y": 0.06, "end_tilt_deg": 0.3},
+        {"t": 4.10, "zoom": 1.98, "pan_x": -0.18, "pan_y": 0.20, "tilt_deg": 0.3, "end_zoom": 2.10, "end_pan_x": -0.18, "end_pan_y": 0.20, "end_tilt_deg": -0.3}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 1.25, "type": "parchment_brush", "gain": 0.64},
+        {"rel": 4.15, "type": "gavel_slam", "gain": 0.72}
+      ]
+    },
+    {
+      "id": "scene_11",
+      "keyframe": "keyframes/scene_11.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 2.06, "pan_x": -0.16, "pan_y": 0.16, "tilt_deg": -0.3, "end_zoom": 2.20, "end_pan_x": -0.16, "end_pan_y": 0.16, "end_tilt_deg": 0.3},
+        {"t": 2.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.16, "end_pan_x": 0.0, "end_pan_y": 0.02, "end_tilt_deg": 0.3}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 0.25, "type": "quake_rumble", "gain": 0.62}
+      ]
+    },
+    {
+      "id": "scene_12",
+      "keyframe": "keyframes/scene_12.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 1.01, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.06, "end_pan_x": 0.0, "end_pan_y": -0.02, "end_tilt_deg": 0.2},
+        {"t": 1.40, "zoom": 1.08, "pan_x": 0.0, "pan_y": -0.03, "tilt_deg": -0.2, "end_zoom": 1.13, "end_pan_x": 0.0, "end_pan_y": -0.04, "end_tilt_deg": 0.2}
+      ],
+      "sprites": [
+        {"bbox": [0.065, 0.085, 0.295, 0.280], "motion": "football_hop_l", "pop_delay": 0.0},
+        {"bbox": [0.730, 0.280, 0.945, 0.475], "motion": "football_hop_r", "pop_delay": 0.0}
+      ],
+      "overhead": null,
+      "comment_panel": {
+        "trigger_rel": 0.14,
+        "keyword": "QUAKE",
+        "comments": [
+          {"handle": "@MissouriRiver", "text": "QUAKE! Still remember tremors here!", "likes": "986 ♥", "color": [26, 78, 198]},
+          {"handle": "@BostonHistory", "text": "Wait—it really rang bells in Boston?!", "likes": "741 ♥", "color": [188, 68, 24]}
+        ]
+      },
+      "loop_return_sec": 0.30,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 0.18, "type": "stadium_swell", "gain": 0.42}
+      ]
+    }
+  ]
+}

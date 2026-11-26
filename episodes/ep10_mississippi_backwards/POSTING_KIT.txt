@@ -1,0 +1,55 @@
+================================================================================
+HEARTLAND MAPPED — EPISODE 10 (v2): THE NIGHT THE MISSISSIPPI FLOWED BACKWARDS (1811-1812)
+KIT PRONTO PARA POSTAR (FACEBOOK REELS & YOUTUBE SHORTS)
+================================================================================
+
+DATA SUGERIDA PARA PROGRAMAR:
+Quarta-feira, 02/12/2026
+
+ARQUIVO DE VIDEO:
+heartland_mapped_ep10_mississippi_backwards.mp4 (67s | 720x1280 | 30 FPS | v2 + Fish Audio Ethan)
+Google Drive: https://drive.google.com/file/d/1Ih_XcAh0qm1aqqxfuFKMcw_mEo3JWqPV/view?usp=drivesdk
+
+--------------------------------------------------------------------------------
+1. FACEBOOK REELS — LEGENDA (COPIAR E COLAR)
+--------------------------------------------------------------------------------
+How did a Midwestern earthquake make the mighty Mississippi River flow BACKWARDS—and ring church bells 1,000 miles away in Boston? 🌊🗺️
+
+At 2 a.m. on December 16, 1811, the first of three magnitude-7+ New Madrid earthquakes ripped through Missouri and the Heartland. Sitting on solid ancient bedrock, the shockwaves shook an area 10X WIDER than San Francisco's 1906 quake—rattling President Madison's White House, shooting sand geysers skyward, creating Reelfoot Lake overnight, and buckling the Mississippi's riverbed so violently that massive surges rushed upstream for hours!
+
+Comment QUAKE if you didn't know the Midwest had mega-quakes! 👇
+
+#MidwestHistory #MississippiRiver #NewMadrid #Missouri #Tennessee #Kentucky #Earthquake #AmericanHistory #Geography #HeartlandMapped
+
+--------------------------------------------------------------------------------
+2. YOUTUBE SHORTS — TITULO (COPIAR E COLAR)
+--------------------------------------------------------------------------------
+The Night a Midwest Earthquake Made the Mississippi River Flow Backwards 🌊🗺️
+
+(Alternativa: The 1811 Missouri Mega-Quake That Rang Church Bells in Boston 🗺️)
+
+--------------------------------------------------------------------------------
+3. YOUTUBE SHORTS — DESCRICAO (COPIAR E COLAR)
+--------------------------------------------------------------------------------
+How did a Midwestern earthquake make the mighty Mississippi River flow backwards—and ring church bells in Boston? On December 16, 1811, three months of magnitude 7+ earthquakes centered near New Madrid, Missouri, tore through the heart of North America.
+
+Because the Midwest sits on solid ancient bedrock, tremors shook an area ten times wider than San Francisco's 1906 quake—rattling the White House, shooting sand geysers into the air, sinking a western Tennessee forest overnight to form Reelfoot Lake, and buckling the Mississippi riverbed to send huge surges rushing upstream for hours. Congress even passed America's first federal disaster relief law in 1815—and that sleeping New Madrid fault still sits beneath the Heartland today!
+
+Comment QUAKE if you didn't know the Midwest had mega-quakes! 👇
+
+#MidwestHistory #MississippiRiver #NewMadrid #Missouri #Earthquake #AmericanHistory #Geography #Shorts #HeartlandMapped
+
+--------------------------------------------------------------------------------
+4. COMENTARIO FIXADO (POSTAR LOGO APOS PUBLICAR E FIXAR NO TOPO)
+--------------------------------------------------------------------------------
+Did you know the sleeping New Madrid fault sits right beneath the Midwest today? Comment QUAKE if the 1811-1812 mega-quakes surprised you—and tell us which state you're watching from! 👇
+
+--------------------------------------------------------------------------------
+5. CAPA (THUMBNAIL) E CHECKLIST RAPIDO
+--------------------------------------------------------------------------------
+- Data de programacao: Quarta-feira, 02/12/2026 (logo apos o Ep. 09 Peshtigo Fire na Terca, 01/12/2026).
+- Capa sugerida: Cena 01 (mapa do Rio Mississippi com as setas gigantes "FLOWED BACKWARDS!" e o sino "BOSTON!"), Cena 05 (comparacao sismica "10X WIDER!" vs. San Francisco 1906) ou Cena 08 (corte do leito do rio com cachoeira temporaria e ondas "UPSTREAM!").
+- Legenda automatica da plataforma: DESLIGADA (o video ja tem legenda grande embutida).
+- Musica da plataforma: NAO adicionar (o video ja tem narracao Ethan Fish Audio + foley SFX de terremoto, sinos, cachoeira e martelo do Congresso + trilha acustica com auto-ducking).
+- YouTube: marcar "Nao e conteudo para criancas" (Not made for kids), categoria Education, idioma English (United States).
+- A/B Log: anotar metricas de 48h em RETENTION_LOG.md.

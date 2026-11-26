@@ -1,0 +1,14 @@
+{
+  "episode": "ep10_mississippi_backwards",
+  "video_file": "heartland_mapped_ep10_mississippi_backwards.mp4",
+  "duration_sec": 67.35,
+  "visual_jumps_per_10s": 31.33,
+  "planned_shots_per_10s": 4.75,
+  "closeup_pct": 66.8,
+  "frame0_zoom": 2.02,
+  "frame0_visible_sprites": 2,
+  "audio_gap_db_drop": 6.22,
+  "has_comment_panel": true,
+  "has_seamless_loop": true,
+  "all_pass": true
+}

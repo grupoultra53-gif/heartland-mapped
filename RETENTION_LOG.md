@@ -20,6 +20,10 @@ Use este registro 48 horas após publicar cada vídeo (YouTube Studio → Shorts
 | **Ep. 07 — Missouri Bootheel** | **v2 + Ethan** | **65.29s** | **29.71 / 10s** | **58.4% (38.1s)** | **2/2 vis, 2.04x** | **5.7 dB** | **Sim (`BOOT`)** | **ALL PASS (7/7)** |
 | **Ep. 08 — Raising Chicago** | **v2 + Ethan** | **64.28s** | **31.43 / 10s** | **65.0% (41.8s)** | **2/2 vis, 2.00x** | **4.4 dB** | **Sim (`LIFT`)** | **ALL PASS (7/7)** |
 | **Ep. 09 — Peshtigo Fire** | **v2 + Ethan** | **65.90s** | **25.95 / 10s** | **67.5% (44.5s)** | **2/2 vis, 2.02x** | **4.7 dB** | **Sim (`REMEMBER`)** | **ALL PASS (7/7)** |
+| **Ep. 10 — Mississippi Backwards** | **v2 + Ethan** | **67.35s** | **31.33 / 10s** | **66.8% (45.0s)** | **2/2 vis, 2.02x** | **6.2 dB** | **Sim (`QUAKE`)** | **ALL PASS (7/7)** |
+| **Ep. 11 — Edmund Fitzgerald** | **v2 + Ethan** | **66.88s** | **23.33 / 10s** | **68.4% (45.8s)** | **1/1 vis, 2.04x** | **4.5 dB** | **Sim (`FITZ`)** | **ALL PASS (7/7)** |
+| **Ep. 12 — Mackinac Bridge** | **v2 + Ethan** | **65.63s** | **28.95 / 10s** | **60.4% (39.6s)** | **2/2 vis, 2.02x** | **4.1 dB** | **Sim (`BRIDGE`)** | **ALL PASS (7/7)** |
+| **Ep. 13 — Black Sunday (1935)** | **v2 + Ethan** | **66.96s** | **25.99 / 10s** | **64.7% (43.3s)** | **1/1 vis, 2.02x** | **4.9 dB** | **Sim (`PLAINS`)** | **ALL PASS (7/7)** |
 
 ## Tabela de Acompanhamento (48h)
 
@@ -43,3 +47,11 @@ Use este registro 48 horas após publicar cada vídeo (YouTube Studio → Shorts
 | **Ep. 08 — Raising Chicago** | **v2 + Ethan** | 64s | FB Reels | | | | | | | Fish Audio S2.1 Pro Ethan + v2 universal renderer (7/7 PASS, CTA `LIFT`) |
 | **Ep. 09 — Peshtigo Fire** | **v2 + Ethan** | 66s | YT Shorts | | | | | | | Fish Audio S2.1 Pro Ethan + v2 universal renderer (7/7 PASS, CTA `REMEMBER`) |
 | **Ep. 09 — Peshtigo Fire** | **v2 + Ethan** | 66s | FB Reels | | | | | | | Fish Audio S2.1 Pro Ethan + v2 universal renderer (7/7 PASS, CTA `REMEMBER`) |
+| **Ep. 10 — Mississippi Backwards** | **v2 + Ethan** | 67s | YT Shorts | | | | | | | Fish Audio S2.1 Pro Ethan + v2 universal renderer (7/7 PASS, CTA `QUAKE`) |
+| **Ep. 10 — Mississippi Backwards** | **v2 + Ethan** | 67s | FB Reels | | | | | | | Fish Audio S2.1 Pro Ethan + v2 universal renderer (7/7 PASS, CTA `QUAKE`) |
+| **Ep. 11 — Edmund Fitzgerald** | **v2 + Ethan** | 67s | YT Shorts | | | | | | | Fish Audio S2.1 Pro Ethan + v2 universal renderer (7/7 PASS, CTA `FITZ`) |
+| **Ep. 11 — Edmund Fitzgerald** | **v2 + Ethan** | 67s | FB Reels | | | | | | | Fish Audio S2.1 Pro Ethan + v2 universal renderer (7/7 PASS, CTA `FITZ`) |
+| **Ep. 12 — Mackinac Bridge** | **v2 + Ethan** | 66s | YT Shorts | | | | | | | Fish Audio S2.1 Pro Ethan + v2 universal renderer (7/7 PASS, CTA `BRIDGE`) |
+| **Ep. 12 — Mackinac Bridge** | **v2 + Ethan** | 66s | FB Reels | | | | | | | Fish Audio S2.1 Pro Ethan + v2 universal renderer (7/7 PASS, CTA `BRIDGE`) |
+| **Ep. 13 — Black Sunday (1935)** | **v2 + Ethan** | 67s | YT Shorts | | | | | | | Fish Audio S2.1 Pro Ethan + v2 universal renderer (7/7 PASS, CTA `PLAINS`) |
+| **Ep. 13 — Black Sunday (1935)** | **v2 + Ethan** | 67s | FB Reels | | | | | | | Fish Audio S2.1 Pro Ethan + v2 universal renderer (7/7 PASS, CTA `PLAINS`) |

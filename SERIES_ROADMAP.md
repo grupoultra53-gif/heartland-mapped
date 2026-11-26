@@ -25,10 +25,10 @@
 | :-: | :--- | :--- | :--- | :--- | :---: |
 | **08** | **Seg 30/11/2026** | Pronto no Drive | *The Day Chicago Raised the Entire City 10 Feet Out of the Mud (1856)* | Illinois | `LIFT` |
 | **09** | **Ter 01/12/2026** | Pronto no Drive | *The Great Peshtigo Fire (1871 — Same Night as Chicago, 5x Deadlier)* | Wisconsin | `REMEMBER` |
-| **10** | **Qua 02/12/2026** | Áudio Ethan pronto | *The Night the Mississippi River Flowed Backwards (1811–1812)* | Missouri / Illinois / Kentucky | `QUAKE` |
-| **11** | **Qui 03/12/2026** | Áudio Ethan pronto | *The Edmund Fitzgerald & Lake Superior's Deadliest Storm (1975)* | Michigan / Wisconsin / Minnesota | `FITZ` |
-| **12** | **Sex 04/12/2026** | Áudio Ethan pronto | *How the Mackinac Bridge Ended 20-Mile Ferry Lines (1957)* | Michigan | `BRIDGE` |
-| **13** | **Sáb 05/12/2026** | Áudio Ethan pronto | *Black Sunday: The Day Daylight Vanished on the Plains (1935)* | Kansas / Nebraska / Oklahoma | `PLAINS` |
+| **10** | **Qua 02/12/2026** | Pronto no Drive | *The Night the Mississippi River Flowed Backwards (1811–1812)* | Missouri / Illinois / Kentucky | `QUAKE` |
+| **11** | **Qui 03/12/2026** | Pronto no Drive | *The Edmund Fitzgerald & Lake Superior's Deadliest Storm (1975)* | Michigan / Wisconsin / Minnesota | `FITZ` |
+| **12** | **Sex 04/12/2026** | Pronto no Drive | *How the Mackinac Bridge Ended 20-Mile Ferry Lines (1957)* | Michigan | `BRIDGE` |
+| **13** | **Sáb 05/12/2026** | Pronto no Drive | *Black Sunday: The Day Daylight Vanished on the Plains (1935)* | Kansas / Nebraska / Oklahoma | `PLAINS` |
 | **14** | **Dom 06/12/2026** | Planejado | *Why Michigan's Upper Peninsula Doesn't Belong to Wisconsin* | Michigan vs. Wisconsin | `UP` |
 
 ### Arco 3 — Curiosidades, Leis & Cidades do Heartland (Dias 15 a 22)

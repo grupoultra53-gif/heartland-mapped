@@ -1,0 +1,226 @@
+{
+  "slug": "black_sunday",
+  "output_mp4": "heartland_mapped_ep13_black_sunday_1935.mp4",
+  "rewind_label": "<< REW  TODAY -> 1935",
+  "bed_bpm": 90.0,
+  "bed_seed": 1313,
+  "highlight_words": [
+    "SUNDAY", "PITCH", "BLACK", "SIX", "MINUTES", "1930S", "PLOWING", "PRAIRIE", "GRASS",
+    "DROUGHT", "POWDER", "APRIL", "14", "1935", "KANSAS", "OKLAHOMA", "NEBRASKA",
+    "WALL", "DIRT", "SIXTY", "DAYLIGHT", "VANISHED", "DARKNESS", "STATIC", "SHEETS",
+    "DUST", "BOWL", "WOODY", "GUTHRIE", "CALIFORNIA", "HEARTLAND", "ROOTS", "PLAINS", "REWIND"
+  ],
+  "qa_points": {
+    "scene_01_wide": {"scene": "scene_01", "rel": 2.45},
+    "scene_06_wall": {"scene": "scene_06", "rel": 5.30},
+    "scene_07_dark": {"scene": "scene_07", "rel": 4.80},
+    "scene_08_sheets": {"scene": "scene_08", "rel": 5.20},
+    "scene_09_press": {"scene": "scene_09", "rel": 4.30},
+    "scene_11_roots": {"scene": "scene_11", "rel": 4.30}
+  },
+  "scenes": [
+    {
+      "id": "scene_01",
+      "keyframe": "keyframes/scene_01.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 2.02, "pan_x": 0.22, "pan_y": -0.14, "tilt_deg": 0.0, "end_zoom": 2.16, "end_pan_x": 0.22, "end_pan_y": -0.10, "end_tilt_deg": 0.4},
+        {"t": 1.80, "zoom": 1.06, "pan_x": 0.00, "pan_y": 0.00, "tilt_deg": 0.0, "end_zoom": 1.16, "end_pan_x": 0.00, "end_pan_y": 0.02, "end_tilt_deg": 0.4},
+        {"t": 3.40, "zoom": 2.08, "pan_x": 0.26, "pan_y": -0.04, "tilt_deg": -0.3, "end_zoom": 2.20, "end_pan_x": 0.26, "end_pan_y": -0.04, "end_tilt_deg": 0.3}
+      ],
+      "sprites": [
+        {"bbox": [0.770, 0.360, 0.895, 0.540], "motion": "shudder", "pop_delay": 0.0}
+      ],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.02, "type": "storm_gale", "gain": 0.56},
+        {"rel": 1.85, "type": "cork_pop", "gain": 0.60},
+        {"rel": -0.50, "type": "tape_rewind", "gain": 0.72}
+      ]
+    },
+    {
+      "id": "scene_02",
+      "keyframe": "keyframes/scene_02.jpg",
+      "vhs_rewind": true,
+      "shots": [
+        {"t": 0.00, "zoom": 1.14, "pan_x": 0.0, "pan_y": -0.04, "tilt_deg": -0.8, "end_zoom": 1.04, "end_pan_x": 0.0, "end_pan_y": -0.02, "end_tilt_deg": 0.0},
+        {"t": 0.92, "zoom": 1.88, "pan_x": -0.06, "pan_y": -0.36, "tilt_deg": 0.5, "end_zoom": 2.02, "end_pan_x": -0.06, "end_pan_y": -0.36, "end_tilt_deg": 0.0}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "tape_rewind", "gain": 0.70},
+        {"rel": 0.90, "type": "parchment_brush", "gain": 0.65}
+      ]
+    },
+    {
+      "id": "scene_03",
+      "keyframe": "keyframes/scene_03.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3},
+        {"t": 1.85, "zoom": 2.04, "pan_x": -0.02, "pan_y": -0.24, "tilt_deg": -0.3, "end_zoom": 2.16, "end_pan_x": -0.02, "end_pan_y": -0.24, "end_tilt_deg": 0.3},
+        {"t": 4.10, "zoom": 2.02, "pan_x": 0.04, "pan_y": -0.04, "tilt_deg": 0.3, "end_zoom": 2.14, "end_pan_x": 0.04, "end_pan_y": -0.04, "end_tilt_deg": -0.3}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 1.95, "type": "jackscrew", "gain": 0.58},
+        {"rel": 4.15, "type": "map_crack", "gain": 0.66}
+      ]
+    },
+    {
+      "id": "scene_04",
+      "keyframe": "keyframes/scene_04.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 1.96, "pan_x": 0.02, "pan_y": -0.32, "tilt_deg": -0.3, "end_zoom": 2.08, "end_pan_x": 0.02, "end_pan_y": -0.30, "end_tilt_deg": 0.3},
+        {"t": 1.90, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3},
+        {"t": 3.55, "zoom": 2.06, "pan_x": -0.24, "pan_y": 0.14, "tilt_deg": 0.3, "end_zoom": 2.18, "end_pan_x": -0.24, "end_pan_y": 0.14, "end_tilt_deg": -0.3}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 1.95, "type": "storm_gale", "gain": 0.46},
+        {"rel": 3.60, "type": "parchment_brush", "gain": 0.60}
+      ]
+    },
+    {
+      "id": "scene_05",
+      "keyframe": "keyframes/scene_05.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 1.98, "pan_x": 0.0, "pan_y": -0.34, "tilt_deg": -0.3, "end_zoom": 2.10, "end_pan_x": 0.0, "end_pan_y": -0.34, "end_tilt_deg": 0.3},
+        {"t": 2.55, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3},
+        {"t": 4.45, "zoom": 2.02, "pan_x": -0.06, "pan_y": 0.08, "tilt_deg": 0.3, "end_zoom": 2.14, "end_pan_x": -0.06, "end_pan_y": 0.08, "end_tilt_deg": -0.3}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 2.60, "type": "celesta_chime", "gain": 0.60},
+        {"rel": 4.50, "type": "church_bell", "gain": 0.50}
+      ]
+    },
+    {
+      "id": "scene_06",
+      "keyframe": "keyframes/scene_06.jpg",
+      "quake_shake": true,
+      "impact_shake_rel": 4.35,
+      "shots": [
+        {"t": 0.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": -0.3},
+        {"t": 1.50, "zoom": 2.04, "pan_x": -0.18, "pan_y": -0.14, "tilt_deg": 0.4, "end_zoom": 2.18, "end_pan_x": -0.16, "end_pan_y": -0.10, "end_tilt_deg": -0.4},
+        {"t": 4.60, "zoom": 2.02, "pan_x": 0.18, "pan_y": -0.18, "tilt_deg": -0.3, "end_zoom": 2.14, "end_pan_x": 0.18, "end_pan_y": -0.18, "end_tilt_deg": 0.3}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 1.45, "type": "storm_gale", "gain": 0.64},
+        {"rel": 4.65, "type": "storm_gale", "gain": 0.60}
+      ]
+    },
+    {
+      "id": "scene_07",
+      "keyframe": "keyframes/scene_07.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 1.98, "pan_x": 0.0, "pan_y": -0.30, "tilt_deg": -0.3, "end_zoom": 2.10, "end_pan_x": 0.0, "end_pan_y": -0.30, "end_tilt_deg": 0.3},
+        {"t": 2.40, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3},
+        {"t": 4.20, "zoom": 2.06, "pan_x": 0.08, "pan_y": 0.12, "tilt_deg": 0.3, "end_zoom": 2.18, "end_pan_x": 0.08, "end_pan_y": 0.12, "end_tilt_deg": -0.3}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 0.85, "type": "storm_gale", "gain": 0.56},
+        {"rel": 4.25, "type": "car_honk", "gain": 0.48}
+      ]
+    },
+    {
+      "id": "scene_08",
+      "keyframe": "keyframes/scene_08.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 2.10, "pan_x": -0.20, "pan_y": 0.24, "tilt_deg": -0.3, "end_zoom": 2.22, "end_pan_x": -0.20, "end_pan_y": 0.24, "end_tilt_deg": 0.3},
+        {"t": 2.20, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3},
+        {"t": 4.10, "zoom": 2.06, "pan_x": -0.02, "pan_y": -0.06, "tilt_deg": 0.3, "end_zoom": 2.18, "end_pan_x": -0.02, "end_pan_y": -0.06, "end_tilt_deg": -0.3}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 0.40, "type": "telegraph", "gain": 0.54},
+        {"rel": 2.25, "type": "storm_gale", "gain": 0.52},
+        {"rel": 4.65, "type": "parchment_brush", "gain": 0.58}
+      ]
+    },
+    {
+      "id": "scene_09",
+      "keyframe": "keyframes/scene_09.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3},
+        {"t": 1.25, "zoom": 2.06, "pan_x": 0.04, "pan_y": 0.02, "tilt_deg": -0.3, "end_zoom": 2.18, "end_pan_x": 0.04, "end_pan_y": 0.02, "end_tilt_deg": 0.3},
+        {"t": 3.55, "zoom": 2.12, "pan_x": -0.26, "pan_y": 0.14, "tilt_deg": 0.3, "end_zoom": 2.24, "end_pan_x": -0.26, "end_pan_y": 0.14, "end_tilt_deg": -0.3}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 1.30, "type": "telegraph", "gain": 0.56},
+        {"rel": 4.05, "type": "parchment_brush", "gain": 0.64}
+      ]
+    },
+    {
+      "id": "scene_10",
+      "keyframe": "keyframes/scene_10.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 2.08, "pan_x": -0.18, "pan_y": 0.12, "tilt_deg": -0.3, "end_zoom": 2.20, "end_pan_x": -0.18, "end_pan_y": 0.12, "end_tilt_deg": 0.3},
+        {"t": 3.45, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.16, "end_pan_x": 0.0, "end_pan_y": 0.02, "end_tilt_deg": 0.3}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 0.55, "type": "celesta_chime", "gain": 0.60},
+        {"rel": 3.70, "type": "car_honk", "gain": 0.48}
+      ]
+    },
+    {
+      "id": "scene_11",
+      "keyframe": "keyframes/scene_11.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3},
+        {"t": 3.10, "zoom": 2.02, "pan_x": 0.00, "pan_y": 0.08, "tilt_deg": -0.2, "end_zoom": 2.14, "end_pan_x": 0.00, "end_pan_y": 0.08, "end_tilt_deg": 0.2}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 3.20, "type": "celesta_chime", "gain": 0.62}
+      ]
+    },
+    {
+      "id": "scene_12",
+      "keyframe": "keyframes/scene_12.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 1.01, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.06, "end_pan_x": 0.0, "end_pan_y": -0.02, "end_tilt_deg": 0.2},
+        {"t": 1.40, "zoom": 1.08, "pan_x": 0.0, "pan_y": -0.03, "tilt_deg": -0.2, "end_zoom": 1.13, "end_pan_x": 0.0, "end_pan_y": -0.04, "end_tilt_deg": 0.2}
+      ],
+      "sprites": [
+        {"bbox": [0.065, 0.275, 0.245, 0.425], "motion": "football_hop_l", "pop_delay": 0.0},
+        {"bbox": [0.765, 0.295, 0.945, 0.435], "motion": "football_hop_r", "pop_delay": 0.0}
+      ],
+      "overhead": null,
+      "comment_panel": {
+        "trigger_rel": 0.14,
+        "keyword": "PLAINS",
+        "comments": [
+          {"handle": "@KansasGrandma", "text": "PLAINS! My grandparents stuffed wet towels too!", "likes": "1.5K ♥", "color": [188, 102, 24]},
+          {"handle": "@OklahomaRoots", "text": "PLAINS—they never forgot April 14, 1935.", "likes": "1.1K ♥", "color": [26, 78, 198]}
+        ]
+      },
+      "loop_return_sec": 0.30,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.45},
+        {"rel": 0.18, "type": "stadium_swell", "gain": 0.42}
+      ]
+    }
+  ]
+}

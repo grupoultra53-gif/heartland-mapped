@@ -1,0 +1,14 @@
+{
+  "episode": "ep13_black_sunday_1935",
+  "video_file": "heartland_mapped_ep13_black_sunday_1935.mp4",
+  "duration_sec": 66.96,
+  "visual_jumps_per_10s": 25.99,
+  "planned_shots_per_10s": 4.78,
+  "closeup_pct": 64.7,
+  "frame0_zoom": 2.02,
+  "frame0_visible_sprites": 1,
+  "audio_gap_db_drop": 4.89,
+  "has_comment_panel": true,
+  "has_seamless_loop": true,
+  "all_pass": true
+}
