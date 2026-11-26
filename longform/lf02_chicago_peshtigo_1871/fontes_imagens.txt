@@ -1,0 +1,148 @@
+================================================================================
+HEARTLAND MAPPED — FONTES E LICENCAS DE IMAGENS (lf02_chicago_peshtigo_1871)
+Todos os arquivos abaixo foram verificados quanto a Dominio Publico ou CC BY / CC BY-SA.
+================================================================================
+
+[arc_01_peshtigo_river_refuge] (ARCHIVE) — archive/arc_01_peshtigo_river_refuge.jpg (1024x768)
+  Descricao : 1871 Illustration of Peshtigo Residents Seeking Refuge in the Peshtigo River
+  Autor     : G. J. Tisdale
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:The_Peshtigo_Fire_showing_people_seeking_refuge_in_the_Peshtigo_River.jpg
+
+[arc_02_peshtigo_ruins] (ARCHIVE) — archive/arc_02_peshtigo_ruins.jpg (640x676)
+  Descricao : The Ruins of Peshtigo, Wisconsin After the October 8, 1871 Firestorm
+  Autor     : Unknown author Unknown author
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:The_ruins_of_Peshtigo_and_the_surrounding_landscape_after_1871_fire.jpg
+
+[arc_03_peshtigo_lumber] (ARCHIVE) — archive/arc_03_peshtigo_lumber.jpg (2304x1728)
+  Descricao : Peshtigo Lumber Area After the 1871 Firestorm
+  Autor     : self
+  Licenca   : CC BY-SA 2.5 (https://creativecommons.org/licenses/by-sa/2.5)
+  URL       : https://commons.wikimedia.org/wiki/File:PeshtigoFireSurvivingLumber.jpg
+
+[arc_04_peshtigo_extent] (ARCHIVE) — archive/arc_04_peshtigo_extent.jpg (141x157)
+  Descricao : Historical Extent Map of the 1871 Peshtigo Fire Burn Zone
+  Autor     : US Census, Ruhrfisch
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:PeshtigoFireExtend.png
+
+[arc_05_chicago_currier_ives] (ARCHIVE) — archive/arc_05_chicago_currier_ives.jpg (2600x1746)
+  Descricao : Chicago in Flames — Currier & Ives Lithograph (1871)
+  Autor     : Currier and Ives
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Chicago_in_Flames_by_Currier_%26_Ives,_1871_(cropped).jpg
+
+[arc_06_chicago_dekoven] (ARCHIVE) — archive/arc_06_chicago_dekoven.jpg (1504x1488)
+  Descricao : 137 DeKoven Street, Chicago — The O'Leary Cottage (1871)
+  Autor     : A.H. Abbott, Photographer
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:137_DeKoven_Street_1871.png
+
+[arc_07_chicago_barnard_ruins] (ARCHIVE) — archive/arc_07_chicago_barnard_ruins.jpg (2600x402)
+  Descricao : Chicago Ruins After the Great Fire — Photograph Attributed to George N. Barnard (1871)
+  Autor     : Attributed to George N. Barnard (1819 - 1902) – photographer (American) Details on Google Art Project
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Attributed_to_George_N._Barnard_-_Untitled_(Chicago_after_the_Chicago_Fire)_-_Google_Art_Project.jpg
+
+[arc_08_chicago_fire2] (ARCHIVE) — archive/arc_08_chicago_fire2.jpg (432x420)
+  Descricao : Aftermath of the Great Chicago Fire (October 1871)
+  Autor     : Unknown / Archival
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Chicago-fire2.jpeg
+
+[arc_09_chicago_fire_map] (ARCHIVE) — archive/arc_09_chicago_fire_map.jpg (1498x2600)
+  Descricao : 1871 Burn-Zone Map of the Great Chicago Fire
+  Autor     : Rufus Blanchard
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Great_Chicago_Fire_map_with_starting_point_cropped_with_arrow.jpg
+
+[arc_10_oleary_cow] (ARCHIVE) — archive/arc_10_oleary_cow.jpg (2048x1517)
+  Descricao : 19th-Century Illustration of the Mrs. O'Leary's Cow Legend
+  Autor     : Anonymous Unknown author
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Mrs_OLeary%27s_cow.jpg
+
+[arc_11_water_tower_1886] (ARCHIVE) — archive/arc_11_water_tower_1886.jpg (2183x1522)
+  Descricao : Chicago Water Tower and Pumping Station (Published 1886)
+  Autor     : unattributed
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Chicago_Water_Tower_%26_Pumping_Station,_published_1886.png
+
+[arc_12_chicago_cheer_up] (ARCHIVE) — archive/arc_12_chicago_cheer_up.jpg (309x166)
+  Descricao : Chicago Rebuilding Spirit After the 1871 Fire ('All Gone But Wife, Children and Energy')
+  Autor     : Chicago Tribune
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Cheer_up.jpg
+
+[arc_13_white_city_1893] (ARCHIVE) — archive/arc_13_white_city_1893.jpg (352x338)
+  Descricao : Chicago's 1893 World's Columbian Exposition — Reborn From the Ashes
+  Autor     : Unknown / Archival
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:World_Columbian_Exposition_-_White_City_-_1.JPG
+
+[arc_14_logging_wisconsin] (ARCHIVE) — archive/arc_14_logging_wisconsin.jpg (1000x667)
+  Descricao : 19th-Century Northern Pine Logging and Cleared Timber Slash
+  Autor     : Greenpeace Finland
+  Licenca   : CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+  URL       : https://commons.wikimedia.org/wiki/File:Logging_in_Finnish_Lapland.jpg
+
+[arc_15_telegraph_1870s] (ARCHIVE) — archive/arc_15_telegraph_1870s.jpg (956x600)
+  Descricao : 19th-Century Telegraph Poles and Wires Connecting Major Cities
+  Autor     : Unknown / Archival
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:1891_Telegraph_Lines.jpg
+
+[arc_16_chicago_ruins_loc] (ARCHIVE) — archive/arc_16_chicago_ruins_loc.jpg (1475x1248)
+  Descricao : Burned District of Chicago (1871 Photograph)
+  Autor     : Unidentified photographer, printer or publisher
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:1871_Great_Chicago_Fire_destroyed_buildings.jpg
+
+[arc_17_lucius_fairchild] (ARCHIVE) — archive/arc_17_lucius_fairchild.jpg (666x1023)
+  Descricao : Governor Lucius Fairchild of Wisconsin (1866–1872)
+  Autor     : John Singer Sargent
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:General_Lucius_Fairchild.jpg
+
+[arc_18_manistee_harbor] (TODAY) — today/arc_18_manistee_harbor.jpg (667x486)
+  Descricao : Manistee Harbor on Lake Michigan — One of the Michigan Towns Burned Oct 8, 1871
+  Autor     : US Army Corps of Engineers
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Manistee_Harbor.jpg
+
+[arc_19_holland_michigan] (TODAY) — today/arc_19_holland_michigan.jpg (2600x1950)
+  Descricao : Holland, Michigan — Rebuilt After the October 8, 1871 Firestorm
+  Autor     : BenHerrera1979
+  Licenca   : CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+  URL       : https://commons.wikimedia.org/wiki/File:Downtown_Holland,_Michigan_.jpg
+
+[today_01_chicago_water_tower] (TODAY) — today/today_01_chicago_water_tower.jpg (1718x2600)
+  Descricao : The Historic Chicago Water Tower Standing on Michigan Avenue Today
+  Autor     : Bernt Rostad
+  Licenca   : CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+  URL       : https://commons.wikimedia.org/wiki/File:The_Chicago_Water_Tower.jpg
+
+[today_02_peshtigo_museum_ext] (TODAY) — today/today_02_peshtigo_museum_ext.jpg (1454x1756)
+  Descricao : The Peshtigo Fire Museum — Housed in the First Church Rebuilt After 1871
+  Autor     : self
+  Licenca   : CC BY-SA 2.5 (https://creativecommons.org/licenses/by-sa/2.5)
+  URL       : https://commons.wikimedia.org/wiki/File:PeshtigoFireMuseumExterior2.jpg
+
+[today_03_peshtigo_museum_sign] (TODAY) — today/today_03_peshtigo_museum_sign.jpg (1530x1161)
+  Descricao : Historical Marker at the Peshtigo Fire Museum & Cemetery, Wisconsin
+  Autor     : self
+  Licenca   : CC BY-SA 2.5 (https://creativecommons.org/licenses/by-sa/2.5)
+  URL       : https://commons.wikimedia.org/wiki/File:PeshtigoFireMuseumSign.jpg
+
+[today_04_peshtigo_museum_int] (TODAY) — today/today_04_peshtigo_museum_int.jpg (2304x1728)
+  Descricao : Artifacts Preserved Inside the Peshtigo Fire Museum Today
+  Autor     : self
+  Licenca   : CC BY-SA 2.5 (https://creativecommons.org/licenses/by-sa/2.5)
+  URL       : https://commons.wikimedia.org/wiki/File:PeshtigoFireMuseumInteriorFront.jpg
+
+[today_05_water_tower_aerial] (TODAY) — today/today_05_water_tower_aerial.jpg (1920x2560)
+  Descricao : Chicago Water Tower Surrounded by Modern Skyscrapers Today
+  Autor     : User:victorgrigas
+  Licenca   : CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+  URL       : https://commons.wikimedia.org/wiki/File:Chicago_Water_Tower_as_seen_from_the_John_Hancock_tower_Signature_room.jpeg

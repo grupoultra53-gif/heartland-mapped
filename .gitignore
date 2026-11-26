@@ -8,4 +8,9 @@ episodes/*/*_mixed.wav
 episodes/*/*.wav
 episodes/*/*_raw.mp3
 *.mp4
+*.wav
+assets/music/
+longform/*/cache_1080p/
+longform/*/cache_preview/
+
 

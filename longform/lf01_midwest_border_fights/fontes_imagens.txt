@@ -1,0 +1,262 @@
+================================================================================
+HEARTLAND MAPPED — FONTES E LICENCAS DE IMAGENS (lf01_midwest_border_fights)
+Todos os arquivos abaixo foram verificados quanto a Dominio Publico ou CC BY / CC BY-SA.
+================================================================================
+
+[arc_01_1839_us_map] (ARCHIVE) — archive/arc_01_1839_us_map.jpg (293x229)
+  Descricao : Historical Map of the Northwest Territory and Great Lakes States
+  Autor     : The original uploader was Hotstreets at English Wikipedia .
+  Licenca   : CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+  URL       : https://commons.wikimedia.org/wiki/File:Northwest_territory.png
+
+[arc_02_honey_war_monument] (ARCHIVE) — archive/arc_02_honey_war_monument.jpg (1935x1481)
+  Descricao : Historic Sullivan Line Marker Commemorating the 1839 Honey War
+  Autor     : Dbp653
+  Licenca   : CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+  URL       : https://commons.wikimedia.org/wiki/File:Sullivan_Line_Marker_and_monument_commemorating_the_Honey_War.jpg
+
+[arc_03_honey_war_map] (ARCHIVE) — archive/arc_03_honey_war_map.jpg (600x382)
+  Descricao : Disputed Strip Between Iowa Territory and Missouri (1839)
+  Autor     : No machine-readable author provided. Kmusser assumed (based on copyright claims).
+  Licenca   : CC BY-SA 2.5 (https://creativecommons.org/licenses/by-sa/2.5)
+  URL       : https://commons.wikimedia.org/wiki/File:Honeywarmap.png
+
+[arc_05_robert_lucas] (ARCHIVE) — archive/arc_05_robert_lucas.jpg (200x229)
+  Descricao : Governor Robert Lucas (Governor of Ohio and Iowa Territory)
+  Autor     : John Stevens Cabot Abbott
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Robert_lucas.jpg
+
+[arc_06_lilburn_boggs] (ARCHIVE) — archive/arc_06_lilburn_boggs.jpg (1660x2011)
+  Descricao : Governor Lilburn W. Boggs of Missouri
+  Autor     : Ralph Chesley Ott (1870-1931)
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Lilburn_Boggs,_Official_governor_portrait.jpg
+
+[arc_07_lucas_statehouse] (ARCHIVE) — archive/arc_07_lucas_statehouse.jpg (350x409)
+  Descricao : Official Portrait of Robert Lucas at the Ohio Statehouse
+  Autor     : John Henry Witt
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Robert_Lucas_at_statehouse.jpg
+
+[arc_08_supreme_court_capitol] (ARCHIVE) — archive/arc_08_supreme_court_capitol.jpg (2592x1944)
+  Descricao : Old U.S. Supreme Court Chamber, U.S. Capitol
+  Autor     : Jorfer
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Old_US_Supreme_Court_2.jpg
+
+[arc_10_mitchell_map_1755] (ARCHIVE) — archive/arc_10_mitchell_map_1755.jpg (2600x1918)
+  Descricao : John Mitchell's 1755 Map of the British and French Dominions in North America
+  Autor     : John Mitchell, Cóvens et Mortier
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:1755(%3F)_A_map_of_the_British_and_French_dominions_in_North_America,_with_the_roads,_distances,_limits,_and_extent_of_the_settlements,_by_John_Mitchell,_C%C3%B3vens_et_Mortier,_from_the_Digital_Commonwealth_-_commonwealth_w9505r950.jpg
+
+[arc_10b_mitchell_nw_zoom] (ARCHIVE) — archive/arc_10b_mitchell_nw_zoom.jpg (2600x1848)
+  Descricao : Northwestern Quadrant of John Mitchell's 1755 Map Showing Lake of the Woods
+  Autor     : John Mitchell; digital version, Library of Congress, Geography and Map Division
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Mitchell_Map_1_quarter_north_west.jpg
+
+[arc_11_treaty_of_paris_painting] (ARCHIVE) — archive/arc_11_treaty_of_paris_painting.jpg (1200x932)
+  Descricao : Treaty of Paris (1783) by Benjamin West
+  Autor     : Benjamin West
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Treaty_of_Paris_by_Benjamin_West_1783.jpg
+
+[arc_12_treaty_of_paris_doc] (ARCHIVE) — archive/arc_12_treaty_of_paris_doc.jpg (1744x2600)
+  Descricao : Original Signature Page of the 1783 Treaty of Paris
+  Autor     : U.S. Government
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:TreatyOfParisDraftLastPage.jpg
+
+[arc_13_david_thompson] (ARCHIVE) — archive/arc_13_david_thompson.jpg (2600x1677)
+  Descricao : Explorer David Thompson's 1814 Map of the North-West Territory
+  Autor     : David Thompson
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:1814ThompsonMap.jpg
+
+[arc_15_49th_parallel_marker] (ARCHIVE) — archive/arc_15_49th_parallel_marker.jpg (2600x1529)
+  Descricao : Historic U.S.–Canada 49th Parallel Boundary Survey
+  Autor     : GlacierNPS
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Boundary_Line_Wayside_Exhibit_(2023)_(55460451885).jpg
+
+[arc_16_omaha_1870s_map] (ARCHIVE) — archive/arc_16_omaha_1870s_map.jpg (2600x2052)
+  Descricao : Historic Bird's-Eye View of Omaha, Nebraska and the Missouri River
+  Autor     : Albert Ruger (Library of Congress Geography and Map Division)
+  Licenca   : Public domain
+  URL       : https://www.loc.gov/item/73693495/
+
+[arc_17_missouri_river_steamboat] (ARCHIVE) — archive/arc_17_missouri_river_steamboat.jpg (2600x1950)
+  Descricao : Historic Missouri River Valley and Steamboat Era
+  Autor     : Forest Service - Northern Region
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Cow_Island_area_of_the_Upper_Missouri_River_Breaks_National_Monument_(52293194172).jpg
+
+[arc_18_missouri_river_flood] (ARCHIVE) — archive/arc_18_missouri_river_flood.jpg (783x624)
+  Descricao : Historic Spring Flood Along the Missouri River (1881)
+  Autor     : William Wallace
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Buildings_in_the_flood_of_1881_(Wallace).jpg
+
+[arc_19_carter_lake_map] (ARCHIVE) — archive/arc_19_carter_lake_map.jpg (575x425)
+  Descricao : Cartographic Diagram of Carter Lake, Iowa West of the Missouri River
+  Autor     : United States Census Bureau Uploaded by Americasroof at en.wikipedia
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Carter-lake-map.png
+
+[arc_20_justice_brewer] (ARCHIVE) — archive/arc_20_justice_brewer.jpg (2080x2600)
+  Descricao : U.S. Supreme Court Justice David Josiah Brewer (Author of Nebraska v. Iowa, 1892)
+  Autor     : Harris & Ewing
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:BREWER,_CHIEF_JUSTICE_LOC_hec.14974(crop).jpg
+
+[arc_21_omaha_bridge_1870s] (ARCHIVE) — archive/arc_21_omaha_bridge_1870s.jpg (2600x2084)
+  Descricao : Historic Omaha–Council Bluffs Missouri River Bridge
+  Autor     : Unknown / Archival
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Photocopy_from_George_S._Morison%27s_The_New_Omaha_Bridge,_1888._GENERAL_ELEVATIONS_AND_PLAN_OF_BRIDGE_-_Omaha_Bridge,_Spanning_Missouri_River,_Omaha,_Douglas_County,_NE_HAER_NEB,28-OMAH,4-3.tif
+
+[arc_22_new_madrid_quake] (ARCHIVE) — archive/arc_22_new_madrid_quake.jpg (450x322)
+  Descricao : 19th-Century Engraving of the 1811–1812 New Madrid Earthquakes
+  Autor     : Unknown Unknown , but published 1851 in a book by Henry Howe (1816–1893)
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:New_Madrid_Erdbeben.jpg
+
+[arc_23_new_madrid_trees] (ARCHIVE) — archive/arc_23_new_madrid_trees.jpg (780x1027)
+  Descricao : Historic Photograph of Trees Permanently Tilted by the 1811–1812 New Madrid Earthquakes
+  Autor     : M.L. Fuller
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:PSM_V69_D085_Trees_tilted_by_the_new_madrid_earthquake.png
+
+[arc_24_mississippi_steamboat] (ARCHIVE) — archive/arc_24_mississippi_steamboat.jpg (2600x2048)
+  Descricao : 19th-Century Mississippi River Steamboat Landing (Library of Congress)
+  Autor     : Detroit Publishing Co., photographer
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:A_Mississippi_River_landing_LCCN2017658696.jpg
+
+[arc_25_mark_twain] (ARCHIVE) — archive/arc_25_mark_twain.jpg (2147x2599)
+  Descricao : Mark Twain (Library of Congress Portrait)
+  Autor     : Miscellaneous Items in High Demand, PPOC, Library of Congress
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Mark_Twain_LCCN2004672770.jpg
+
+[arc_26_life_on_mississippi] (ARCHIVE) — archive/arc_26_life_on_mississippi.jpg (1557x2129)
+  Descricao : Illustration from Mark Twain's Life on the Mississippi (1883)
+  Autor     : Author Mark Twain
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Life_on_the_Mississippi_-_p111.png
+
+[arc_28_northwest_ordinance] (ARCHIVE) — archive/arc_28_northwest_ordinance.jpg (1302x830)
+  Descricao : The Northwest Ordinance of 1787 (National Archives)
+  Autor     : Bureau of Engraving and Printing
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Ordinance2_of_1787.jpg
+
+[arc_29_mitchell_michigan] (ARCHIVE) — archive/arc_29_mitchell_michigan.jpg (2356x2366)
+  Descricao : Lake Michigan Misplaced on John Mitchell's 1755 Map
+  Autor     : John Mitchell
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Mitchell_map_michigan.jpg
+
+[arc_29b_fulton_plat_1858] (ARCHIVE) — archive/arc_29b_fulton_plat_1858.jpg (1043x607)
+  Descricao : 1858 Historical Plat Map Along the Disputed Ohio–Michigan Border
+  Autor     : government of Fulton County Ohio (Life time: not applicable)
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:1858_Platt_Map,_Dover_Township,_Fulton_County,_Ohio.jpg
+
+[arc_30_stevens_t_mason] (ARCHIVE) — archive/arc_30_stevens_t_mason.jpg (1667x2000)
+  Descricao : Michigan's 'Boy Governor' Stevens T. Mason
+  Autor     : Thomas Mickell Burnham
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Thomas_Mickell_Burnham_-_Stevens_Thomson_Mason_-_57.268_-_Detroit_Institute_of_Arts.jpg
+
+[arc_31_andrew_jackson] (ARCHIVE) — archive/arc_31_andrew_jackson.jpg (2181x2600)
+  Descricao : President Andrew Jackson (Painting by Thomas Sully)
+  Autor     : Thomas Sully
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Andrew_Jackson_A13734.jpg
+
+[arc_32_toledo_maumee_historic] (ARCHIVE) — archive/arc_32_toledo_maumee_historic.jpg (2600x1683)
+  Descricao : Historic Maumee River Harbor at Toledo, Ohio
+  Autor     : Published by Detroit Publishing Company
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:New_Cherry_Street_Bridge,_Toledo,_Ohio_-_DPLA_-_19971602858a505aad7d7472cbb8b2a3_(page_1).jpg
+
+[arc_33_phillips_corners] (ARCHIVE) — archive/arc_33_phillips_corners.jpg (2600x1728)
+  Descricao : Historical Marker at Phillips Corners Battlefield (April 26, 1835)
+  Autor     : Nyttend
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Phillips_Corners_Battlefield.jpg
+
+[arc_33b_frostbitten_convention] (ARCHIVE) — archive/arc_33b_frostbitten_convention.jpg (414x600)
+  Descricao : Historical Marker of the December 1836 Frostbitten Convention in Ann Arbor
+  Autor     : Unknown author Unknown author
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Bilde-frost.jpg
+
+[arc_34_up_copper_mine] (ARCHIVE) — archive/arc_34_up_copper_mine.jpg (2600x1950)
+  Descricao : Historic Quincy Copper Mine in Michigan's Upper Peninsula
+  Autor     : Wickanninish
+  Licenca   : CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+  URL       : https://commons.wikimedia.org/wiki/File:Keweenaw_Quincy_Mine,_Hancock_MI.jpg
+
+[today_01_jims_corner_booth] (TODAY) — today/today_01_jims_corner_booth.jpg (2048x1536)
+  Descricao : Roadside Customs Reporting Booth at Jim's Corner, Northwest Angle, Minnesota
+  Autor     : Alanjj at English Wikipedia
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:022_NW_Angle_reporting_booth_at_Jims_Corner.jpg
+
+[today_01b_nw_angle_welcome] (TODAY) — today/today_01b_nw_angle_welcome.jpg (2600x1733)
+  Descricao : Border Sign Entering the Northwest Angle, Minnesota Today
+  Autor     : Tony Webster from Minneapolis, Minnesota, United States
+  Licenca   : CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)
+  URL       : https://commons.wikimedia.org/wiki/File:Welcome_to_the_United_States_-_You_are_entering_the_Northwest_Angle,_Minnesota_(35505460693).jpg
+
+[today_02_carter_lake_sign] (TODAY) — today/today_02_carter_lake_sign.jpg (2536x2600)
+  Descricao : Iowa Highway Sign Inside Carter Lake, Surrounded by Omaha, Nebraska
+  Autor     : Ctjf83
+  Licenca   : CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+  URL       : https://commons.wikimedia.org/wiki/File:Iowa_Highway_165.jpg
+
+[today_02b_carter_lake] (TODAY) — today/today_02b_carter_lake.jpg (2053x2600)
+  Descricao : Carter Lake, Iowa City Hall Today
+  Autor     : Unknown author Unknown author or not provided
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:1940_Census_Enumeration_District_Maps_-_Iowa_-_Pottawattamie_County_-_Carter_Lake_-_ED_78-14A,_ED_78-14B_-_NARA_-_5830562.jpg
+
+[today_03_kentucky_bend] (TODAY) — today/today_03_kentucky_bend.jpg (2048x1536)
+  Descricao : Quiet Country Road Entering the Kentucky Bend from Tennessee Today
+  Autor     : Zzzuucx at English Wikipedia
+  Licenca   : CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+  URL       : https://commons.wikimedia.org/wiki/File:KYstateline.jpg
+
+[today_04_toledo_marker] (TODAY) — today/today_04_toledo_marker.jpg (432x290)
+  Descricao : Toledo War Historical Marker Along the Ohio–Michigan State Line Today
+  Autor     : Unknown / Archival
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Mi-ohiowar.jpeg
+
+[today_04b_toledo_skyline] (TODAY) — today/today_04b_toledo_skyline.jpg (2600x1679)
+  Descricao : Maumee River and Toledo, Ohio Today
+  Autor     : Unknown / Archival
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Cherry_Street_Bridge_and_Skyline,_Toledo,_Ohio_-_DPLA_-_72be9e50e797f12c4c11236e67bfbec8_(page_2).jpg
+
+[today_05_upper_peninsula] (TODAY) — today/today_05_upper_peninsula.jpg (2600x1695)
+  Descricao : Lake Superior Shoreline in Michigan's Upper Peninsula Today
+  Autor     : Yinan Chen
+  Licenca   : Public Domain (https://web.archive.org/web/20230926203737/https://creativecommons.org/licenses/publicdomain/)
+  URL       : https://commons.wikimedia.org/wiki/File:Gfp-michigan-pictured-rocks-national-lakeshore-lake-superior-between-the-dunes.jpg
+
+[today_06_keosauqua_sanborn] (ARCHIVE) — archive/today_06_keosauqua_sanborn.jpg (2192x2600)
+  Descricao : Historic Sanborn Map of Keosauqua, Van Buren County, Iowa
+  Autor     : Unknown author Unknown author
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Sanborn_Fire_Insurance_Map_from_Keosauqua,_Van_Buren_County,_Iowa._LOC_sanborn02702_001.jpg
+
+[arc_35_up_iron_ore_dock] (ARCHIVE) — archive/arc_35_up_iron_ore_dock.jpg (2600x588)
+  Descricao : Historic Lake Superior Iron Ore Dock, Marquette, Michigan (c. 1905)
+  Autor     : Detroit Publishing Co. (Library of Congress)
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:The_Harbor,_Marquette,_Mich._c1905.jpg

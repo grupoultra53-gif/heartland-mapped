@@ -1,0 +1,159 @@
+{
+  "episode": "lf02_chicago_peshtigo_1871",
+  "items": [
+    {
+      "id": "arc_01_peshtigo_river_refuge",
+      "category": "archive",
+      "commons_file": "File:The Peshtigo Fire showing people seeking refuge in the Peshtigo River.jpg",
+      "caption": "1871 Illustration of Peshtigo Residents Seeking Refuge in the Peshtigo River"
+    },
+    {
+      "id": "arc_02_peshtigo_ruins",
+      "category": "archive",
+      "commons_file": "File:The ruins of Peshtigo and the surrounding landscape after 1871 fire.jpg",
+      "caption": "The Ruins of Peshtigo, Wisconsin After the October 8, 1871 Firestorm"
+    },
+    {
+      "id": "arc_03_peshtigo_lumber",
+      "category": "archive",
+      "commons_file": "File:PeshtigoFireSurvivingLumber.jpg",
+      "caption": "Peshtigo Lumber Area After the 1871 Firestorm"
+    },
+    {
+      "id": "arc_04_peshtigo_extent",
+      "category": "archive",
+      "commons_file": "File:PeshtigoFireExtend.png",
+      "caption": "Historical Extent Map of the 1871 Peshtigo Fire Burn Zone"
+    },
+    {
+      "id": "arc_05_chicago_currier_ives",
+      "category": "archive",
+      "commons_file": "File:Chicago in Flames by Currier & Ives, 1871 (cropped).jpg",
+      "caption": "Chicago in Flames — Currier & Ives Lithograph (1871)"
+    },
+    {
+      "id": "arc_06_chicago_dekoven",
+      "category": "archive",
+      "commons_file": "File:137 DeKoven Street 1871.png",
+      "caption": "137 DeKoven Street, Chicago — The O'Leary Cottage (1871)"
+    },
+    {
+      "id": "arc_07_chicago_barnard_ruins",
+      "category": "archive",
+      "commons_file": "File:Attributed to George N. Barnard - Untitled (Chicago after the Chicago Fire) - Google Art Project.jpg",
+      "caption": "Chicago Ruins After the Great Fire — Photograph Attributed to George N. Barnard (1871)"
+    },
+    {
+      "id": "arc_08_chicago_fire2",
+      "category": "archive",
+      "commons_file": "File:Chicago-fire2.jpeg",
+      "caption": "Aftermath of the Great Chicago Fire (October 1871)"
+    },
+    {
+      "id": "arc_09_chicago_fire_map",
+      "category": "archive",
+      "commons_file": "File:Great Chicago Fire map with starting point cropped with arrow.jpg",
+      "caption": "1871 Burn-Zone Map of the Great Chicago Fire"
+    },
+    {
+      "id": "arc_10_oleary_cow",
+      "category": "archive",
+      "commons_file": "File:Mrs OLeary's cow.jpg",
+      "caption": "19th-Century Illustration of the Mrs. O'Leary's Cow Legend"
+    },
+    {
+      "id": "arc_11_water_tower_1886",
+      "category": "archive",
+      "commons_file": "File:Chicago Water Tower & Pumping Station, published 1886.png",
+      "caption": "Chicago Water Tower and Pumping Station (Published 1886)"
+    },
+    {
+      "id": "arc_12_chicago_cheer_up",
+      "category": "archive",
+      "commons_file": "File:Cheer up.jpg",
+      "caption": "Chicago Rebuilding Spirit After the 1871 Fire ('All Gone But Wife, Children and Energy')"
+    },
+    {
+      "id": "arc_13_white_city_1893",
+      "category": "archive",
+      "commons_file": "File:World Columbian Exposition - White City - 1.JPG",
+      "caption": "Chicago's 1893 World's Columbian Exposition — Reborn From the Ashes"
+    },
+    {
+      "id": "arc_14_logging_wisconsin",
+      "category": "archive",
+      "force": true,
+      "commons_file": "File:Logging in Finnish Lapland.jpg",
+      "caption": "19th-Century Northern Pine Logging and Cleared Timber Slash",
+      "fallback_queries": ["Wisconsin pine logging historic", "Michigan logging sleigh 1890"]
+    },
+    {
+      "id": "arc_15_telegraph_1870s",
+      "category": "archive",
+      "force": true,
+      "commons_file": "File:1891 Telegraph Lines.jpg",
+      "caption": "19th-Century Telegraph Poles and Wires Connecting Major Cities"
+    },
+    {
+      "id": "arc_16_chicago_ruins_loc",
+      "category": "archive",
+      "prefer_landscape": true,
+      "caption": "Burned District of Chicago (1871 Photograph)",
+      "fallback_queries": [
+        "Great Chicago Fire ruins 1871",
+        "Chicago Fire 1871 Court House ruins"
+      ]
+    },
+    {
+      "id": "arc_17_lucius_fairchild",
+      "category": "archive",
+      "force": true,
+      "commons_file": "File:General Lucius Fairchild.jpg",
+      "caption": "Governor Lucius Fairchild of Wisconsin (1866–1872)"
+    },
+    {
+      "id": "arc_18_manistee_harbor",
+      "category": "today",
+      "force": true,
+      "commons_file": "File:Manistee Harbor.jpg",
+      "caption": "Manistee Harbor on Lake Michigan — One of the Michigan Towns Burned Oct 8, 1871"
+    },
+    {
+      "id": "arc_19_holland_michigan",
+      "category": "today",
+      "force": true,
+      "commons_file": "File:Downtown Holland, Michigan .jpg",
+      "caption": "Holland, Michigan — Rebuilt After the October 8, 1871 Firestorm"
+    },
+    {
+      "id": "today_01_chicago_water_tower",
+      "category": "today",
+      "commons_file": "File:The Chicago Water Tower.jpg",
+      "caption": "The Historic Chicago Water Tower Standing on Michigan Avenue Today"
+    },
+    {
+      "id": "today_02_peshtigo_museum_ext",
+      "category": "today",
+      "commons_file": "File:PeshtigoFireMuseumExterior2.jpg",
+      "caption": "The Peshtigo Fire Museum — Housed in the First Church Rebuilt After 1871"
+    },
+    {
+      "id": "today_03_peshtigo_museum_sign",
+      "category": "today",
+      "commons_file": "File:PeshtigoFireMuseumSign.jpg",
+      "caption": "Historical Marker at the Peshtigo Fire Museum & Cemetery, Wisconsin"
+    },
+    {
+      "id": "today_04_peshtigo_museum_int",
+      "category": "today",
+      "commons_file": "File:PeshtigoFireMuseumInteriorFront.jpg",
+      "caption": "Artifacts Preserved Inside the Peshtigo Fire Museum Today"
+    },
+    {
+      "id": "today_05_water_tower_aerial",
+      "category": "today",
+      "commons_file": "File:Chicago Water Tower as seen from the John Hancock tower Signature room.jpeg",
+      "caption": "Chicago Water Tower Surrounded by Modern Skyscrapers Today"
+    }
+  ]
+}

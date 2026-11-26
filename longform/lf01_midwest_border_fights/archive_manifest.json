@@ -1,0 +1,292 @@
+{
+  "episode": "lf01_midwest_border_fights",
+  "items": [
+    {
+      "id": "arc_01_1839_us_map",
+      "category": "archive",
+      "force": true,
+      "commons_file": "File:Northwest territory.png",
+      "caption": "Historical Map of the Northwest Territory and Great Lakes States",
+      "fallback_queries": ["United States map 1835 Tanner"]
+    },
+    {
+      "id": "arc_02_honey_war_monument",
+      "category": "archive",
+      "force": true,
+      "commons_file": "File:Sullivan Line Marker and monument commemorating the Honey War.jpg",
+      "caption": "Historic Sullivan Line Marker Commemorating the 1839 Honey War"
+    },
+    {
+      "id": "arc_03_honey_war_map",
+      "category": "archive",
+      "force": true,
+      "commons_file": "File:Honeywarmap.png",
+      "caption": "Disputed Strip Between Iowa Territory and Missouri (1839)"
+    },
+    {
+      "id": "arc_05_robert_lucas",
+      "category": "archive",
+      "force": true,
+      "commons_file": "File:Robert lucas.jpg",
+      "caption": "Governor Robert Lucas (Governor of Ohio and Iowa Territory)"
+    },
+    {
+      "id": "arc_06_lilburn_boggs",
+      "category": "archive",
+      "force": true,
+      "commons_file": "File:Lilburn Boggs, Official governor portrait.jpg",
+      "caption": "Governor Lilburn W. Boggs of Missouri"
+    },
+    {
+      "id": "arc_07_lucas_statehouse",
+      "category": "archive",
+      "force": true,
+      "commons_file": "File:Robert Lucas at statehouse.jpg",
+      "caption": "Official Portrait of Robert Lucas at the Ohio Statehouse"
+    },
+    {
+      "id": "arc_08_supreme_court_capitol",
+      "category": "archive",
+      "commons_file": "File:Old US Supreme Court 2.jpg",
+      "caption": "Old U.S. Supreme Court Chamber, U.S. Capitol"
+    },
+    {
+      "id": "arc_10_mitchell_map_1755",
+      "category": "archive",
+      "caption": "John Mitchell's 1755 Map of the British and French Dominions in North America",
+      "fallback_queries": ["Mitchell Map 1755"]
+    },
+    {
+      "id": "arc_10b_mitchell_nw_zoom",
+      "category": "archive",
+      "force": true,
+      "commons_file": "File:Mitchell Map 1 quarter north west.jpg",
+      "caption": "Northwestern Quadrant of John Mitchell's 1755 Map Showing Lake of the Woods"
+    },
+    {
+      "id": "arc_11_treaty_of_paris_painting",
+      "category": "archive",
+      "commons_file": "File:Treaty of Paris by Benjamin West 1783.jpg",
+      "caption": "Treaty of Paris (1783) by Benjamin West"
+    },
+    {
+      "id": "arc_12_treaty_of_paris_doc",
+      "category": "archive",
+      "commons_file": "File:TreatyOfParisDraftLastPage.jpg",
+      "caption": "Original Signature Page of the 1783 Treaty of Paris"
+    },
+    {
+      "id": "arc_13_david_thompson",
+      "category": "archive",
+      "commons_file": "File:1814ThompsonMap.jpg",
+      "caption": "Explorer David Thompson's 1814 Map of the North-West Territory"
+    },
+    {
+      "id": "arc_15_49th_parallel_marker",
+      "category": "archive",
+      "caption": "Historic U.S.–Canada 49th Parallel Boundary Survey",
+      "fallback_queries": ["49th parallel boundary monument"]
+    },
+    {
+      "id": "arc_16_omaha_1870s_map",
+      "category": "archive",
+      "caption": "Historic Bird's-Eye View of Omaha, Nebraska and the Missouri River",
+      "fallback_queries": ["Omaha Nebraska bird's eye view 1868 OR 1880"]
+    },
+    {
+      "id": "arc_17_missouri_river_steamboat",
+      "category": "archive",
+      "caption": "Historic Missouri River Valley and Steamboat Era",
+      "fallback_queries": ["Missouri River steamboat historic"]
+    },
+    {
+      "id": "arc_18_missouri_river_flood",
+      "category": "archive",
+      "caption": "Historic Spring Flood Along the Missouri River (1881)",
+      "fallback_queries": ["Missouri River flood 1881"]
+    },
+    {
+      "id": "arc_19_carter_lake_map",
+      "category": "archive",
+      "force": true,
+      "commons_file": "File:Carter-lake-map.png",
+      "caption": "Cartographic Diagram of Carter Lake, Iowa West of the Missouri River"
+    },
+    {
+      "id": "arc_20_justice_brewer",
+      "category": "archive",
+      "force": true,
+      "commons_file": "File:David Josiah Brewer - Brady-Handy.jpg",
+      "caption": "U.S. Supreme Court Justice David Josiah Brewer (Author of Nebraska v. Iowa, 1892)",
+      "fallback_queries": ["David Josiah Brewer Library of Congress", "David J Brewer portrait"]
+    },
+    {
+      "id": "arc_21_omaha_bridge_1870s",
+      "category": "archive",
+      "caption": "Historic Omaha–Council Bluffs Missouri River Bridge",
+      "fallback_queries": ["Union Pacific Missouri River Bridge Omaha"]
+    },
+    {
+      "id": "arc_22_new_madrid_quake",
+      "category": "archive",
+      "force": true,
+      "commons_file": "File:New Madrid Erdbeben.jpg",
+      "caption": "19th-Century Engraving of the 1811–1812 New Madrid Earthquakes"
+    },
+    {
+      "id": "arc_23_new_madrid_trees",
+      "category": "archive",
+      "force": true,
+      "commons_file": "File:PSM V69 D085 Trees tilted by the new madrid earthquake.png",
+      "caption": "Historic Photograph of Trees Permanently Tilted by the 1811–1812 New Madrid Earthquakes"
+    },
+    {
+      "id": "arc_24_mississippi_steamboat",
+      "category": "archive",
+      "caption": "19th-Century Mississippi River Steamboat Landing (Library of Congress)",
+      "fallback_queries": ["Mississippi River steamboat Detroit Publishing"]
+    },
+    {
+      "id": "arc_25_mark_twain",
+      "category": "archive",
+      "caption": "Mark Twain (Library of Congress Portrait)",
+      "fallback_queries": ["Mark Twain 1907"]
+    },
+    {
+      "id": "arc_26_life_on_mississippi",
+      "category": "archive",
+      "caption": "Illustration from Mark Twain's Life on the Mississippi (1883)",
+      "fallback_queries": ["Life on the Mississippi 1883"]
+    },
+    {
+      "id": "arc_27_madrid_bend_stone",
+      "category": "archive",
+      "force": true,
+      "commons_file": "File:Madrid Bend front stone.jpg",
+      "caption": "Historic Boundary Marker at Madrid Bend (Kentucky Bend)"
+    },
+    {
+      "id": "arc_28_northwest_ordinance",
+      "category": "archive",
+      "commons_file": "File:Ordinance2 of 1787.jpg",
+      "caption": "The Northwest Ordinance of 1787 (National Archives)"
+    },
+    {
+      "id": "arc_29_mitchell_michigan",
+      "category": "archive",
+      "force": true,
+      "commons_file": "File:Mitchell map michigan.jpg",
+      "caption": "Lake Michigan Misplaced on John Mitchell's 1755 Map"
+    },
+    {
+      "id": "arc_29b_fulton_plat_1858",
+      "category": "archive",
+      "force": true,
+      "commons_file": "File:1858 Platt Map, Dover Township, Fulton County, Ohio.jpg",
+      "caption": "1858 Historical Plat Map Along the Disputed Ohio–Michigan Border"
+    },
+    {
+      "id": "arc_30_stevens_t_mason",
+      "category": "archive",
+      "caption": "Michigan's 'Boy Governor' Stevens T. Mason",
+      "fallback_queries": ["Stevens T. Mason"]
+    },
+    {
+      "id": "arc_31_andrew_jackson",
+      "category": "archive",
+      "caption": "President Andrew Jackson (Painting by Thomas Sully)",
+      "fallback_queries": ["Andrew Jackson Thomas Sully"]
+    },
+    {
+      "id": "arc_32_toledo_maumee_historic",
+      "category": "archive",
+      "caption": "Historic Maumee River Harbor at Toledo, Ohio",
+      "fallback_queries": ["Toledo Ohio Maumee River Detroit Publishing"]
+    },
+    {
+      "id": "arc_33_phillips_corners",
+      "category": "archive",
+      "force": true,
+      "commons_file": "File:Phillips Corners Battlefield.jpg",
+      "caption": "Historical Marker at Phillips Corners Battlefield (April 26, 1835)"
+    },
+    {
+      "id": "arc_33b_frostbitten_convention",
+      "category": "archive",
+      "force": true,
+      "commons_file": "File:Bilde-frost.jpg",
+      "caption": "Historical Marker of the December 1836 Frostbitten Convention in Ann Arbor"
+    },
+    {
+      "id": "arc_34_up_copper_mine",
+      "category": "archive",
+      "caption": "Historic Quincy Copper Mine in Michigan's Upper Peninsula",
+      "fallback_queries": ["Quincy Mine Michigan historic"]
+    },
+    {
+      "id": "arc_35_up_iron_ore_dock",
+      "category": "archive",
+      "caption": "Historic Lake Superior Iron Ore Dock, Marquette, Michigan (c. 1905)",
+      "fallback_queries": ["Marquette Michigan ore dock historic"]
+    },
+    {
+      "id": "today_01_jims_corner_booth",
+      "category": "today",
+      "force": true,
+      "commons_file": "File:022 NW Angle reporting booth at Jims Corner.jpg",
+      "caption": "Roadside Customs Reporting Booth at Jim's Corner, Northwest Angle, Minnesota"
+    },
+    {
+      "id": "today_01b_nw_angle_welcome",
+      "category": "today",
+      "force": true,
+      "commons_file": "File:Welcome to the United States - You are entering the Northwest Angle, Minnesota (35505460693).jpg",
+      "caption": "Border Sign Entering the Northwest Angle, Minnesota Today"
+    },
+    {
+      "id": "today_02_carter_lake_sign",
+      "category": "today",
+      "force": true,
+      "commons_file": "File:Iowa Highway 165.jpg",
+      "caption": "Iowa Highway Sign Inside Carter Lake, Surrounded by Omaha, Nebraska"
+    },
+    {
+      "id": "today_02b_carter_lake",
+      "category": "today",
+      "caption": "Carter Lake, Iowa City Hall Today",
+      "fallback_queries": ["Carter Lake, Iowa"]
+    },
+    {
+      "id": "today_03_kentucky_bend",
+      "category": "today",
+      "force": true,
+      "commons_file": "File:KYstateline.jpg",
+      "caption": "Quiet Country Road Entering the Kentucky Bend from Tennessee Today"
+    },
+    {
+      "id": "today_04_toledo_marker",
+      "category": "today",
+      "force": true,
+      "commons_file": "File:Mi-ohiowar.jpeg",
+      "caption": "Toledo War Historical Marker Along the Ohio–Michigan State Line Today"
+    },
+    {
+      "id": "today_04b_toledo_skyline",
+      "category": "today",
+      "caption": "Maumee River and Toledo, Ohio Today",
+      "fallback_queries": ["Toledo Ohio Maumee River skyline"]
+    },
+    {
+      "id": "today_05_upper_peninsula",
+      "category": "today",
+      "caption": "Lake Superior Shoreline in Michigan's Upper Peninsula Today",
+      "fallback_queries": ["Pictured Rocks National Lakeshore Lake Superior"]
+    },
+    {
+      "id": "today_06_keosauqua_sanborn",
+      "category": "archive",
+      "caption": "Historic Sanborn Map of Keosauqua, Van Buren County, Iowa",
+      "fallback_queries": ["Keosauqua Iowa"]
+    }
+  ]
+}

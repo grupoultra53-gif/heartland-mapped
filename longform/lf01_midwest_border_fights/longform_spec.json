@@ -1,0 +1,2253 @@
+{
+  "episode": "lf01_midwest_border_fights",
+  "title": "5 Midwest Border Fights That Almost Started Real Wars",
+  "output_mp4": "video.mp4",
+  "remaster_audio": true,
+  "chapters": [
+    {
+      "start": 0.0,
+      "title": "Cold Open: Three Trees of Wild Honey (1839)"
+    },
+    {
+      "start": 67.74,
+      "title": "1. The Honey War (1839 — Iowa vs. Missouri)"
+    },
+    {
+      "start": 166.39,
+      "title": "2. The Northwest Angle (1783 — Minnesota vs. Canada)"
+    },
+    {
+      "start": 254.93,
+      "title": "3. Carter Lake (1877 — Iowa Inside Nebraska)"
+    },
+    {
+      "start": 339.94,
+      "title": "4. The Kentucky Bend (1812 — Quake & River Loop)"
+    },
+    {
+      "start": 421.49,
+      "title": "5. The Toledo War (1835 — Ohio vs. Michigan)"
+    },
+    {
+      "start": 536.22,
+      "title": "6. What's Left Today (Visit All Five Spots)"
+    }
+  ],
+  "foley_cues": [
+    {
+      "t": 0.6,
+      "type": "parchment",
+      "gain": 0.55
+    },
+    {
+      "t": 16.45,
+      "type": "march",
+      "gain": 0.45
+    },
+    {
+      "t": 35.89,
+      "type": "parchment",
+      "gain": 0.55
+    },
+    {
+      "t": 67.89,
+      "type": "parchment",
+      "gain": 0.6
+    },
+    {
+      "t": 116.09,
+      "type": "crack",
+      "gain": 0.55
+    },
+    {
+      "t": 166.54,
+      "type": "parchment",
+      "gain": 0.6
+    },
+    {
+      "t": 196.74,
+      "type": "whoosh",
+      "gain": 0.45
+    },
+    {
+      "t": 255.08,
+      "type": "parchment",
+      "gain": 0.6
+    },
+    {
+      "t": 272.28,
+      "type": "river",
+      "gain": 0.55
+    },
+    {
+      "t": 340.09,
+      "type": "parchment",
+      "gain": 0.6
+    },
+    {
+      "t": 360.3,
+      "type": "bell",
+      "gain": 0.5
+    },
+    {
+      "t": 421.64,
+      "type": "parchment",
+      "gain": 0.6
+    },
+    {
+      "t": 465.84,
+      "type": "war_horn",
+      "gain": 0.42
+    },
+    {
+      "t": 515.84,
+      "type": "chime",
+      "gain": 0.55
+    },
+    {
+      "t": 536.37,
+      "type": "parchment",
+      "gain": 0.6
+    },
+    {
+      "t": 596.98,
+      "type": "chime",
+      "gain": 0.45
+    }
+  ],
+  "silence_dips": [
+    [
+      160.14,
+      161.64
+    ],
+    [
+      415.54,
+      417.14
+    ],
+    [
+      511.84,
+      513.44
+    ]
+  ],
+  "scenes": [
+    {
+      "id": "s01_cold_open_woods",
+      "type": "map",
+      "duration": 10.385,
+      "image": "maps/map_03_honey_war_woods.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.1800000000000002,
+          "pan_x": -0.05,
+          "pan_y": 0.0,
+          "end_zoom": 1.26,
+          "end_pan_x": -0.05,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 2.4,
+          "zoom": 1.04,
+          "pan_x": -0.05,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.04,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 6.39,
+          "zoom": 1.14,
+          "pan_x": 0.02,
+          "pan_y": 0.0,
+          "end_zoom": 1.24,
+          "end_pan_x": 0.04,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "stat",
+          "big": "DEC 1839",
+          "label": "IOWA - MISSOURI LINE",
+          "pos": "top_left",
+          "start": 0.5,
+          "end": 5.2
+        }
+      ]
+    },
+    {
+      "id": "s02_cold_open_monument",
+      "type": "archive",
+      "duration": 8.847,
+      "image": "archive/arc_02_honey_war_monument.jpg",
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.018,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 4.42,
+          "zoom": 1.16,
+          "pan_x": 0.015,
+          "pan_y": 0.0,
+          "end_zoom": 1.28,
+          "end_pan_x": 0.03,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "3,200+ Armed Militiamen",
+          "subtitle": "Iowa Territory vs. State of Missouri",
+          "start": 0.6,
+          "end": 8.35
+        },
+        {
+          "type": "credit",
+          "text": "Photo: Dbp653 (CC BY-SA 3.0)",
+          "start": 0.4,
+          "end": 8.55
+        }
+      ]
+    },
+    {
+      "id": "s03_cold_open_honey_map",
+      "type": "archive",
+      "duration": 8.462,
+      "image": "archive/arc_03_honey_war_map.jpg",
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.0,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.12,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 4.23,
+          "zoom": 1.14,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.26,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "credit",
+          "text": "Photo: No machine-readable author p (CC BY-SA 2.5)",
+          "start": 0.4,
+          "end": 8.16
+        }
+      ]
+    },
+    {
+      "id": "s04_cold_open_northwest_old",
+      "type": "archive",
+      "duration": 7.693,
+      "image": "archive/arc_10_mitchell_map_1755.jpg",
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.04,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.16,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 3.85,
+          "zoom": 1.18,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.3,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ]
+    },
+    {
+      "id": "s05_master_midwest_map",
+      "type": "map",
+      "duration": 10.637,
+      "image": "../../assets/maps/master_midwest_map_16x9.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": -0.02,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.024,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.32,
+          "zoom": 1.16,
+          "pan_x": 0.02,
+          "pan_y": 0.0,
+          "end_zoom": 1.3,
+          "end_pan_x": 0.04,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "Heartland Mapped",
+          "subtitle": "Five Forgotten Midwest Border Wars",
+          "start": 0.6,
+          "end": 10.14
+        }
+      ]
+    },
+    {
+      "id": "s06_five_hotspots_map",
+      "type": "map",
+      "duration": 12.853,
+      "image": "maps/map_01_five_hotspots.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.02,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": -0.012,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 6.43,
+          "zoom": 1.16,
+          "pan_x": -0.01,
+          "pan_y": 0.0,
+          "end_zoom": 1.32,
+          "end_pan_x": -0.02,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "highlight_ring",
+          "cx": 0.34,
+          "cy": 0.08,
+          "radius": 0.07,
+          "color": "red",
+          "start": 1.0,
+          "end": 4.2
+        },
+        {
+          "type": "highlight_ring",
+          "cx": 0.72,
+          "cy": 0.52,
+          "radius": 0.08,
+          "color": "gold",
+          "start": 4.5,
+          "end": 8.2
+        }
+      ]
+    },
+    {
+      "id": "s07_promise_mitchell_preview",
+      "type": "archive",
+      "duration": 8.863,
+      "image": "archive/arc_10_mitchell_map_1755.jpg",
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.04,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.16,
+          "end_pan_x": -0.024,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 4.43,
+          "zoom": 1.18,
+          "pan_x": -0.02,
+          "pan_y": 0.0,
+          "end_zoom": 1.32,
+          "end_pan_x": -0.04,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "destaque",
+          "lines": [
+            "5 Border Showdowns.",
+            "1 Billion-Dollar Twist."
+          ],
+          "pos": "bottom",
+          "start": 0.8,
+          "end": 8.36
+        }
+      ]
+    },
+    {
+      "id": "s08_ch1_card",
+      "type": "chapter_card",
+      "duration": 2.35,
+      "card": {
+        "number": "1",
+        "year": "1839",
+        "title": "THE HONEY WAR",
+        "subtitle": "Iowa Territory vs. Missouri"
+      },
+      "soft_fade": true
+    },
+    {
+      "id": "s09_ch1_sullivan_brown_map",
+      "type": "map",
+      "duration": 15.125,
+      "image": "maps/map_02_honey_war_lines.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": -0.03,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.03,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.04,
+          "zoom": 1.16,
+          "pan_x": 0.025,
+          "pan_y": 0.0,
+          "end_zoom": 1.32,
+          "end_pan_x": 0.05,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 10.08,
+          "zoom": 1.02,
+          "pan_x": -0.03,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.03,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "1816 Sullivan Line vs. 1837 Brown Line",
+          "subtitle": "A 9.5-mile strip claimed by two governments",
+          "start": 0.8,
+          "end": 14.62
+        }
+      ]
+    },
+    {
+      "id": "s10_ch1_keosauqua_sanborn",
+      "type": "archive",
+      "duration": 11.596,
+      "image": "archive/today_06_keosauqua_sanborn.jpg",
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": -0.04,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.024
+        },
+        {
+          "t": 5.8,
+          "zoom": 1.16,
+          "pan_x": 0.0,
+          "pan_y": 0.02,
+          "end_zoom": 1.29,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.04
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "Keosauqua, Van Buren County",
+          "subtitle": "Historic Sanborn Map — Library of Congress",
+          "start": 0.6,
+          "end": 11.1
+        }
+      ]
+    },
+    {
+      "id": "s11_ch1_disputed_strip_stat",
+      "type": "archive",
+      "duration": 11.596,
+      "image": "archive/arc_03_honey_war_map.jpg",
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.0,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.12,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.8,
+          "zoom": 1.14,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.26,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "stat",
+          "big": "2,600 SQ MI",
+          "label": "CONTESTED FARMLAND",
+          "pos": "top_right",
+          "start": 0.6,
+          "end": 11.1
+        },
+        {
+          "type": "credit",
+          "text": "Photo: No machine-readable author p (CC BY-SA 2.5)",
+          "start": 0.4,
+          "end": 11.3
+        }
+      ]
+    },
+    {
+      "id": "s12_ch1_honey_trees",
+      "type": "map",
+      "duration": 12.1,
+      "image": "maps/map_03_honey_war_woods.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.04,
+          "pan_x": 0.04,
+          "pan_y": 0.0,
+          "end_zoom": 1.16,
+          "end_pan_x": -0.018,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 6.05,
+          "zoom": 1.18,
+          "pan_x": -0.015,
+          "pan_y": 0.0,
+          "end_zoom": 1.32,
+          "end_pan_x": -0.03,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "stat",
+          "big": "3 BEE TREES",
+          "label": "SPARKED A FRONTIER STANDOFF",
+          "pos": "top_left",
+          "start": 0.7,
+          "end": 11.6
+        }
+      ]
+    },
+    {
+      "id": "s13_ch1_robert_lucas",
+      "type": "archive",
+      "duration": 11.092,
+      "image": "archive/arc_07_lucas_statehouse.jpg",
+      "parallax": true,
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.0,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.12,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.55,
+          "zoom": 1.14,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.24,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "Gov. Robert Lucas (Iowa Territory)",
+          "subtitle": "Called out ~1,200 militiamen — remember his name",
+          "start": 0.5,
+          "end": 10.59
+        }
+      ]
+    },
+    {
+      "id": "s14_ch1_lilburn_boggs",
+      "type": "archive",
+      "duration": 11.092,
+      "image": "archive/arc_06_lilburn_boggs.jpg",
+      "parallax": true,
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.0,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.12,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.55,
+          "zoom": 1.14,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.26,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "Gov. Lilburn W. Boggs (Missouri)",
+          "subtitle": "Mobilized over 2,000 Missouri troops",
+          "start": 0.5,
+          "end": 10.59
+        }
+      ]
+    },
+    {
+      "id": "s15_ch1_monument_truce",
+      "type": "archive",
+      "duration": 10.588,
+      "image": "archive/arc_02_honey_war_monument.jpg",
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.29,
+          "zoom": 1.16,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.28,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "credit",
+          "text": "Photo: Dbp653 (CC BY-SA 3.0)",
+          "start": 0.4,
+          "end": 10.29
+        }
+      ]
+    },
+    {
+      "id": "s16_ch1_supreme_court",
+      "type": "archive",
+      "duration": 13.107,
+      "image": "archive/arc_08_supreme_court_capitol.jpg",
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.018,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 6.55,
+          "zoom": 1.16,
+          "pan_x": 0.015,
+          "pan_y": 0.0,
+          "end_zoom": 1.29,
+          "end_pan_x": 0.03,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "Missouri v. Iowa (1849)",
+          "subtitle": "U.S. Supreme Court restores the 1816 Sullivan Line",
+          "start": 0.6,
+          "end": 12.61
+        }
+      ]
+    },
+    {
+      "id": "s17_ch2_card",
+      "type": "chapter_card",
+      "duration": 2.35,
+      "card": {
+        "number": "2",
+        "year": "1783",
+        "title": "THE NORTHWEST ANGLE",
+        "subtitle": "Minnesota vs. British Canada"
+      },
+      "soft_fade": true
+    },
+    {
+      "id": "s18_ch2_treaty_painting",
+      "type": "archive",
+      "duration": 10.272,
+      "image": "archive/arc_11_treaty_of_paris_painting.jpg",
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.0,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.12,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.14,
+          "zoom": 1.14,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.26,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "Treaty of Paris (1783)",
+          "subtitle": "Painting by Benjamin West — Diplomats trusted a 1755 map",
+          "start": 0.6,
+          "end": 9.77
+        }
+      ]
+    },
+    {
+      "id": "s19_ch2_mitchell_full",
+      "type": "archive",
+      "duration": 10.719,
+      "image": "archive/arc_10_mitchell_map_1755.jpg",
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.04,
+          "pan_x": -0.05,
+          "pan_y": -0.06,
+          "end_zoom": 1.16,
+          "end_pan_x": -0.012,
+          "end_pan_y": -0.018
+        },
+        {
+          "t": 5.36,
+          "zoom": 1.18,
+          "pan_x": -0.01,
+          "pan_y": -0.015,
+          "end_zoom": 1.32,
+          "end_pan_x": -0.02,
+          "end_pan_y": -0.03
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "John Mitchell's 1755 Map",
+          "subtitle": "Library of Congress Geography & Map Division",
+          "start": 0.6,
+          "end": 10.22
+        }
+      ]
+    },
+    {
+      "id": "s20_ch2_oldmap_to_house",
+      "type": "oldmap_to_map",
+      "duration": 12.952,
+      "image": "archive/arc_10b_mitchell_nw_zoom.jpg",
+      "image_b": "maps/map_04_nw_angle_error.jpg",
+      "frame_style_a": "fullbleed",
+      "dissolve_at": 6.22,
+      "dissolve_dur": 1.25,
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": -0.018,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 6.48,
+          "zoom": 1.16,
+          "pan_x": -0.015,
+          "pan_y": 0.0,
+          "end_zoom": 1.28,
+          "end_pan_x": -0.03,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "stat",
+          "big": "DUE WEST",
+          "label": "MISSED THE MISSISSIPPI COMPLETELY",
+          "pos": "top_left",
+          "start": 4.2,
+          "end": 12.45
+        }
+      ]
+    },
+    {
+      "id": "s21_ch2_treaty_signatures",
+      "type": "archive",
+      "duration": 8.932,
+      "image": "archive/arc_12_treaty_of_paris_doc.jpg",
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.0,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.12,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 4.47,
+          "zoom": 1.14,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.26,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ]
+    },
+    {
+      "id": "s22_ch2_david_thompson",
+      "type": "archive",
+      "duration": 11.165,
+      "image": "archive/arc_13_david_thompson.jpg",
+      "frame_style": "fullbleed",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.04,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": -0.018,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.58,
+          "zoom": 1.16,
+          "pan_x": -0.015,
+          "pan_y": 0.0,
+          "end_zoom": 1.3,
+          "end_pan_x": -0.03,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "David Thompson's 1814 Survey Map",
+          "subtitle": "Proved the Mississippi headwaters lay far south",
+          "start": 0.6,
+          "end": 10.66
+        }
+      ]
+    },
+    {
+      "id": "s23_ch2_49th_marker",
+      "type": "archive",
+      "duration": 9.825,
+      "image": "archive/arc_15_49th_parallel_marker.jpg",
+      "frame_style": "fullbleed",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 4.91,
+          "zoom": 1.16,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.28,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "stat",
+          "big": "49TH PARALLEL",
+          "label": "CONVENTION OF 1818",
+          "pos": "top_right",
+          "start": 0.5,
+          "end": 9.32
+        }
+      ]
+    },
+    {
+      "id": "s24_ch2_nw_angle_map",
+      "type": "map",
+      "duration": 12.058,
+      "image": "maps/map_05_nw_angle_49th.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.04,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.048,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 6.03,
+          "zoom": 1.16,
+          "pan_x": 0.04,
+          "pan_y": 0.0,
+          "end_zoom": 1.32,
+          "end_pan_x": 0.08,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "stat",
+          "big": "123 SQ MI",
+          "label": "CUT OFF INSIDE CANADA",
+          "pos": "top_left",
+          "start": 0.7,
+          "end": 11.56
+        }
+      ]
+    },
+    {
+      "id": "s25_ch2_welcome_sign",
+      "type": "today",
+      "duration": 10.272,
+      "image": "today/today_01b_nw_angle_welcome.jpg",
+      "frame_style": "fullbleed",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.14,
+          "zoom": 1.16,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.27,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "Northwest Angle, Minnesota",
+          "subtitle": "~70% held in trust by the Red Lake Band of Chippewa",
+          "start": 0.6,
+          "end": 9.77
+        },
+        {
+          "type": "credit",
+          "text": "Photo: Tony Webster from Minneapoli (CC BY-SA 2.0)",
+          "start": 0.4,
+          "end": 9.97
+        }
+      ]
+    },
+    {
+      "id": "s26_ch3_card",
+      "type": "chapter_card",
+      "duration": 2.35,
+      "card": {
+        "number": "3",
+        "year": "1877",
+        "title": "CARTER LAKE",
+        "subtitle": "The Iowa Town Inside Nebraska"
+      },
+      "soft_fade": true
+    },
+    {
+      "id": "s27_ch3_omaha_1868",
+      "type": "archive",
+      "duration": 11.809,
+      "image": "archive/arc_16_omaha_1870s_map.jpg",
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.03,
+          "pan_x": -0.04,
+          "pan_y": 0.0,
+          "end_zoom": 1.15,
+          "end_pan_x": 0.024,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.9,
+          "zoom": 1.17,
+          "pan_x": 0.02,
+          "pan_y": 0.0,
+          "end_zoom": 1.32,
+          "end_pan_x": 0.04,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "Omaha & the Missouri River (1868)",
+          "subtitle": "Library of Congress Bird's-Eye View",
+          "start": 0.6,
+          "end": 11.31
+        }
+      ]
+    },
+    {
+      "id": "s28_ch3_saratoga_cutoff",
+      "type": "map",
+      "duration": 13.699,
+      "image": "maps/map_06_carter_lake_cutoff.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": -0.03,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.024
+        },
+        {
+          "t": 4.57,
+          "zoom": 1.16,
+          "pan_x": 0.0,
+          "pan_y": 0.02,
+          "end_zoom": 1.32,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.04
+        },
+        {
+          "t": 9.13,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": -0.03,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.024
+        }
+      ],
+      "overlays": [
+        {
+          "type": "stat",
+          "big": "MARCH 1877",
+          "label": "OVERNIGHT CHANNEL CUTOFF",
+          "pos": "top_right",
+          "start": 0.8,
+          "end": 13.2
+        }
+      ]
+    },
+    {
+      "id": "s29_ch3_flood_1881",
+      "type": "archive",
+      "duration": 10.392,
+      "image": "archive/arc_18_missouri_river_flood.jpg",
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.0,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.12,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.2,
+          "zoom": 1.14,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.26,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "Missouri River Spring Flooding",
+          "subtitle": "1,300+ acres stranded on the Nebraska bank",
+          "start": 0.5,
+          "end": 9.89
+        }
+      ]
+    },
+    {
+      "id": "s30_ch3_omaha_bridge",
+      "type": "archive",
+      "duration": 9.92,
+      "image": "archive/arc_21_omaha_bridge_1870s.jpg",
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 4.96,
+          "zoom": 1.16,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.28,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ]
+    },
+    {
+      "id": "s31_ch3_justice_brewer",
+      "type": "archive",
+      "duration": 11.337,
+      "image": "archive/arc_20_justice_brewer.jpg",
+      "parallax": true,
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.0,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.12,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.67,
+          "zoom": 1.14,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.26,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "Justice David Josiah Brewer",
+          "subtitle": "Nebraska v. Iowa, 143 U.S. 359 (1892)",
+          "start": 0.6,
+          "end": 10.84
+        }
+      ]
+    },
+    {
+      "id": "s32_ch3_accretion_vs_avulsion",
+      "type": "graphic",
+      "duration": 12.754,
+      "graphic_type": "scale_compare",
+      "headline": "U.S. SUPREME COURT RIVER LAW (1892)",
+      "left": {
+        "title": "ACCRETION",
+        "value": "SLOW SHIFT",
+        "subtitle": "State border moves with the river"
+      },
+      "right": {
+        "title": "AVULSION",
+        "value": "SUDDEN JUMP",
+        "subtitle": "Border stays frozen in old riverbed"
+      },
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.0
+        },
+        {
+          "t": 4.8,
+          "zoom": 1.02
+        }
+      ]
+    },
+    {
+      "id": "s33_ch3_oldmap_to_carter",
+      "type": "oldmap_to_map",
+      "duration": 12.753,
+      "image": "archive/arc_19_carter_lake_map.jpg",
+      "image_b": "maps/map_07_carter_lake_exclave.jpg",
+      "frame_style_a": "photo",
+      "dissolve_at": 6.12,
+      "dissolve_dur": 1.25,
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 6.38,
+          "zoom": 1.16,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.28,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "Carter Lake, Iowa",
+          "subtitle": "The only Iowa city west of the Missouri River",
+          "start": 3.2,
+          "end": 12.25
+        }
+      ]
+    },
+    {
+      "id": "s34_ch4_card",
+      "type": "chapter_card",
+      "duration": 2.35,
+      "card": {
+        "number": "4",
+        "year": "1812",
+        "title": "THE KENTUCKY BEND",
+        "subtitle": "Isolated by Quake and River"
+      },
+      "soft_fade": true
+    },
+    {
+      "id": "s35_ch4_ky_bend_map",
+      "type": "map",
+      "duration": 12.804,
+      "image": "maps/map_08_kentucky_bend.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.04,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.018
+        },
+        {
+          "t": 6.4,
+          "zoom": 1.16,
+          "pan_x": 0.0,
+          "pan_y": -0.015,
+          "end_zoom": 1.32,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.03
+        }
+      ],
+      "overlays": [
+        {
+          "type": "stat",
+          "big": "36°30' N",
+          "label": "KENTUCKY - TENNESSEE LINE",
+          "pos": "top_left",
+          "start": 0.7,
+          "end": 12.3
+        }
+      ]
+    },
+    {
+      "id": "s36_ch4_new_madrid_woodcut",
+      "type": "archive",
+      "duration": 11.382,
+      "image": "archive/arc_22_new_madrid_quake.jpg",
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.0,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.12,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.69,
+          "zoom": 1.14,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.28,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "stat",
+          "big": "1811 - 1812",
+          "label": "NEW MADRID EARTHQUAKES",
+          "pos": "top_right",
+          "start": 0.6,
+          "end": 10.88
+        }
+      ]
+    },
+    {
+      "id": "s37_ch4_tilted_trees",
+      "type": "archive",
+      "duration": 10.433,
+      "image": "archive/arc_23_new_madrid_trees.jpg",
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.0,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.12,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.22,
+          "zoom": 1.14,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.26,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "USGS Archival Photo (M. L. Fuller)",
+          "subtitle": "Trees permanently tilted by the 1811–1812 quakes",
+          "start": 0.6,
+          "end": 9.93
+        }
+      ]
+    },
+    {
+      "id": "s38_ch4_ky_bend_zoom",
+      "type": "map",
+      "duration": 11.382,
+      "image": "maps/map_08_kentucky_bend.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.18,
+          "pan_x": 0.0,
+          "pan_y": -0.02,
+          "end_zoom": 1.22,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.012
+        },
+        {
+          "t": 5.69,
+          "zoom": 1.26,
+          "pan_x": 0.0,
+          "pan_y": 0.01,
+          "end_zoom": 1.36,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.02
+        }
+      ],
+      "overlays": [
+        {
+          "type": "stat",
+          "big": "17.5 SQ MI",
+          "label": "FULTON COUNTY EXCLAVE",
+          "pos": "top_left",
+          "start": 0.6,
+          "end": 10.88
+        }
+      ]
+    },
+    {
+      "id": "s39_ch4_mississippi_landing",
+      "type": "archive",
+      "duration": 10.907,
+      "image": "archive/arc_24_mississippi_steamboat.jpg",
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": -0.024,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.45,
+          "zoom": 1.16,
+          "pan_x": -0.02,
+          "pan_y": 0.0,
+          "end_zoom": 1.29,
+          "end_pan_x": -0.04,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "19th-Century Mississippi River Landing",
+          "subtitle": "Isolated from sheriffs and courts for decades",
+          "start": 0.6,
+          "end": 10.41
+        }
+      ]
+    },
+    {
+      "id": "s40_ch4_mark_twain",
+      "type": "archive",
+      "duration": 10.907,
+      "image": "archive/arc_25_mark_twain.jpg",
+      "parallax": true,
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.0,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.12,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.45,
+          "zoom": 1.14,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.26,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "Mark Twain",
+          "subtitle": "Wrote about the Darnell–Watson feud in 1883",
+          "start": 0.5,
+          "end": 10.41
+        }
+      ]
+    },
+    {
+      "id": "s41_ch4_life_on_miss",
+      "type": "archive",
+      "duration": 11.382,
+      "image": "archive/arc_26_life_on_mississippi.jpg",
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.0,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.12,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.69,
+          "zoom": 1.14,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.26,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "Life on the Mississippi (1883)",
+          "subtitle": "Inspired the Grangerford–Shepherdson feud in Huck Finn",
+          "start": 0.6,
+          "end": 10.88
+        }
+      ]
+    },
+    {
+      "id": "s42_ch5_card",
+      "type": "chapter_card",
+      "duration": 2.35,
+      "card": {
+        "number": "5",
+        "year": "1835",
+        "title": "THE TOLEDO WAR",
+        "subtitle": "Ohio vs. Michigan Territory"
+      },
+      "soft_fade": true
+    },
+    {
+      "id": "s43_ch5_nw_ordinance",
+      "type": "archive",
+      "duration": 7.914,
+      "image": "archive/arc_28_northwest_ordinance.jpg",
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.0,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.12,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 3.96,
+          "zoom": 1.14,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.26,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "Northwest Ordinance (1787)",
+          "subtitle": "1937 U.S. Commemorative Stamp — Northwest Territory",
+          "start": 0.5,
+          "end": 7.41
+        }
+      ]
+    },
+    {
+      "id": "s44_ch5_mitchell_to_toledo_map",
+      "type": "oldmap_to_map",
+      "duration": 11.079,
+      "image": "archive/arc_29_mitchell_michigan.jpg",
+      "image_b": "maps/map_09_toledo_lines.jpg",
+      "frame_style_a": "photo",
+      "dissolve_at": 5.32,
+      "dissolve_dur": 1.25,
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.54,
+          "zoom": 1.16,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.29,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "stat",
+          "big": "468 SQ MI",
+          "label": "FULTON LINE VS. HARRIS LINE",
+          "pos": "top_left",
+          "start": 4.2,
+          "end": 10.58
+        }
+      ]
+    },
+    {
+      "id": "s45_ch5_toledo_harbor",
+      "type": "archive",
+      "duration": 8.309,
+      "image": "archive/arc_32_toledo_maumee_historic.jpg",
+      "frame_style": "fullbleed",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.018,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 4.15,
+          "zoom": 1.16,
+          "pan_x": 0.015,
+          "pan_y": 0.0,
+          "end_zoom": 1.28,
+          "end_pan_x": 0.03,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "Maumee River Port, Toledo",
+          "subtitle": "Vital gateway for the Wabash & Erie Canal",
+          "start": 0.5,
+          "end": 7.81
+        }
+      ]
+    },
+    {
+      "id": "s46_ch5_lucas_again",
+      "type": "archive",
+      "duration": 7.914,
+      "image": "archive/arc_07_lucas_statehouse.jpg",
+      "parallax": true,
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.0,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.12,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 3.96,
+          "zoom": 1.14,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.24,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "Gov. Robert Lucas (Ohio)",
+          "subtitle": "Sent 600 troops — then fought Missouri 4 years later!",
+          "start": 0.5,
+          "end": 7.41
+        }
+      ]
+    },
+    {
+      "id": "s47_ch5_stevens_mason",
+      "type": "archive",
+      "duration": 8.309,
+      "image": "archive/arc_30_stevens_t_mason.jpg",
+      "parallax": true,
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.0,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.12,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 4.15,
+          "zoom": 1.14,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.26,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "Stevens T. Mason (Age 23)",
+          "subtitle": "Michigan's 'Boy Governor' — ~1,000 territorial troops",
+          "start": 0.5,
+          "end": 7.81
+        }
+      ]
+    },
+    {
+      "id": "s48_ch5_militia_map",
+      "type": "map",
+      "duration": 9.101,
+      "image": "maps/map_10_toledo_militias.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": -0.02,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.012,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 4.55,
+          "zoom": 1.16,
+          "pan_x": 0.01,
+          "pan_y": 0.0,
+          "end_zoom": 1.3,
+          "end_pan_x": 0.02,
+          "end_pan_y": 0.0
+        }
+      ]
+    },
+    {
+      "id": "s49_ch5_phillips_corners",
+      "type": "archive",
+      "duration": 9.101,
+      "image": "archive/arc_33_phillips_corners.jpg",
+      "frame_style": "fullbleed",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 4.55,
+          "zoom": 1.16,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.28,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "Battle of Phillips Corners & Two Stickney",
+          "subtitle": "One penknife wound — the only blood spilled",
+          "start": 0.6,
+          "end": 8.6
+        }
+      ]
+    },
+    {
+      "id": "s50_ch5_andrew_jackson",
+      "type": "archive",
+      "duration": 7.914,
+      "image": "archive/arc_31_andrew_jackson.jpg",
+      "parallax": true,
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.0,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.12,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 3.96,
+          "zoom": 1.14,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.24,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "President Andrew Jackson",
+          "subtitle": "Needed Ohio's electoral votes in 1836",
+          "start": 0.5,
+          "end": 7.41
+        }
+      ]
+    },
+    {
+      "id": "s51_ch5_frostbitten_conv",
+      "type": "archive",
+      "duration": 8.309,
+      "image": "archive/arc_33b_frostbitten_convention.jpg",
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.0,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.12,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 4.15,
+          "zoom": 1.14,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.26,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "Frostbitten Convention (Dec 1836)",
+          "subtitle": "Ann Arbor delegates reluctantly accept the trade",
+          "start": 0.5,
+          "end": 7.81
+        }
+      ]
+    },
+    {
+      "id": "s52_ch5_trade_graphic",
+      "type": "graphic",
+      "duration": 8.705,
+      "graphic_type": "scale_compare",
+      "headline": "THE 1836 CONGRESSIONAL COMPROMISE",
+      "left": {
+        "title": "OHIO KEPT",
+        "value": "468 SQ MI",
+        "subtitle": "Toledo Strip & Maumee Harbor"
+      },
+      "right": {
+        "title": "MICHIGAN GAINED",
+        "value": "+9,000 SQ MI",
+        "subtitle": "Western Upper Peninsula"
+      },
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.0
+        },
+        {
+          "t": 4.2,
+          "zoom": 1.02
+        }
+      ]
+    },
+    {
+      "id": "s53_ch5_up_map",
+      "type": "map",
+      "duration": 9.101,
+      "image": "maps/map_11_upper_peninsula.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.03,
+          "pan_y": 0.04,
+          "end_zoom": 1.14,
+          "end_pan_x": -0.024,
+          "end_pan_y": -0.03
+        },
+        {
+          "t": 4.55,
+          "zoom": 1.16,
+          "pan_x": -0.02,
+          "pan_y": -0.025,
+          "end_zoom": 1.32,
+          "end_pan_x": -0.04,
+          "end_pan_y": -0.05
+        }
+      ]
+    },
+    {
+      "id": "s54_ch5_quincy_copper",
+      "type": "archive",
+      "duration": 8.309,
+      "image": "archive/arc_34_up_copper_mine.jpg",
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 4.15,
+          "zoom": 1.16,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.28,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "Quincy Copper Mine, Hancock, MI",
+          "subtitle": "Upper Peninsula copper & iron fueled industrial America",
+          "start": 0.5,
+          "end": 7.81
+        },
+        {
+          "type": "credit",
+          "text": "Photo: Wickanninish (CC BY-SA 4.0)",
+          "start": 0.4,
+          "end": 8.01
+        }
+      ]
+    },
+    {
+      "id": "s55_ch5_marquette_ore",
+      "type": "archive",
+      "duration": 8.31,
+      "image": "archive/arc_35_up_iron_ore_dock.jpg",
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.0,
+          "pan_x": -0.05,
+          "pan_y": 0.0,
+          "end_zoom": 1.12,
+          "end_pan_x": 0.03,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 4.15,
+          "zoom": 1.14,
+          "pan_x": 0.025,
+          "pan_y": 0.0,
+          "end_zoom": 1.28,
+          "end_pan_x": 0.05,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "Marquette Iron Ore Docks (c. 1905)",
+          "subtitle": "Detroit Publishing Co. — Library of Congress",
+          "start": 0.5,
+          "end": 7.81
+        }
+      ]
+    },
+    {
+      "id": "s56_ch6_card",
+      "type": "chapter_card",
+      "duration": 2.35,
+      "card": {
+        "number": "6",
+        "year": "TODAY",
+        "title": "WHAT'S LEFT TODAY",
+        "subtitle": "Five Strange Corners You Can Still Visit"
+      },
+      "soft_fade": true
+    },
+    {
+      "id": "s57_today_roadtrip_map",
+      "type": "map",
+      "duration": 8.787,
+      "image": "maps/map_12_roadtrip_today.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 4.39,
+          "zoom": 1.16,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.28,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ]
+    },
+    {
+      "id": "s58_today_jims_corner",
+      "type": "today",
+      "duration": 11.297,
+      "image": "today/today_01_jims_corner_booth.jpg",
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.018,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.65,
+          "zoom": 1.16,
+          "pan_x": 0.015,
+          "pan_y": 0.0,
+          "end_zoom": 1.29,
+          "end_pan_x": 0.03,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "TODAY · Jim's Corner, Minnesota",
+          "subtitle": "Roadside customs booth — ~149 year-round residents",
+          "start": 0.6,
+          "end": 10.8
+        }
+      ]
+    },
+    {
+      "id": "s59_today_carter_lake_sign",
+      "type": "today",
+      "duration": 10.042,
+      "image": "today/today_02_carter_lake_sign.jpg",
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.0,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.12,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.02,
+          "zoom": 1.14,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.26,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "TODAY · Carter Lake, Iowa",
+          "subtitle": "Abbott Drive cuts straight through Iowa from Omaha's airport",
+          "start": 0.6,
+          "end": 9.54
+        },
+        {
+          "type": "credit",
+          "text": "Photo: Ctjf83 (CC BY-SA 3.0)",
+          "start": 0.4,
+          "end": 9.74
+        }
+      ]
+    },
+    {
+      "id": "s60_today_kentucky_bend",
+      "type": "today",
+      "duration": 10.042,
+      "image": "today/today_03_kentucky_bend.jpg",
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": -0.012,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.02,
+          "zoom": 1.16,
+          "pan_x": -0.01,
+          "pan_y": 0.0,
+          "end_zoom": 1.28,
+          "end_pan_x": -0.02,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "TODAY · Kentucky Bend, Kentucky",
+          "subtitle": "Fewer than a dozen residents — zero gas stations",
+          "start": 0.6,
+          "end": 9.54
+        },
+        {
+          "type": "credit",
+          "text": "Photo: Zzzuucx at English Wikipedia (CC BY-SA 3.0)",
+          "start": 0.4,
+          "end": 9.74
+        }
+      ]
+    },
+    {
+      "id": "s61_today_toledo_then_now",
+      "type": "then_now",
+      "duration": 9.624,
+      "image": "archive/arc_32_toledo_maumee_historic.jpg",
+      "image_b": "today/today_04_toledo_marker.jpg",
+      "frame_style_a": "fullbleed",
+      "frame_style_b": "photo",
+      "dissolve_at": 4.62,
+      "dissolve_dur": 1.25,
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 4.81,
+          "zoom": 1.16,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.26,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "Toledo Strip · Then & Now",
+          "subtitle": "Historical markers still trace the 1835 standoff",
+          "start": 0.6,
+          "end": 9.12
+        }
+      ]
+    },
+    {
+      "id": "s62_today_upper_peninsula",
+      "type": "today",
+      "duration": 9.623,
+      "image": "today/today_05_upper_peninsula.jpg",
+      "frame_style": "fullbleed",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": -0.03,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.018,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 4.81,
+          "zoom": 1.16,
+          "pan_x": 0.015,
+          "pan_y": 0.0,
+          "end_zoom": 1.29,
+          "end_pan_x": 0.03,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "TODAY · Michigan's Upper Peninsula",
+          "subtitle": "Pictured Rocks & Lake Superior shoreline",
+          "start": 0.6,
+          "end": 9.12
+        }
+      ]
+    },
+    {
+      "id": "s63_end_screen",
+      "type": "end_screen",
+      "duration": 19.5,
+      "headline": "HEARTLAND MAPPED",
+      "subline": "Which state are you watching from? Tell us in the comments!",
+      "left_label": "UP NEXT: CHICAGO & PESHTIGO (1871)",
+      "right_label": "PLAYLIST: MIDWEST BORDER WARS"
+    }
+  ]
+}

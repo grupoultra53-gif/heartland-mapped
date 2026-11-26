@@ -1,0 +1,92 @@
+================================================================================
+HEARTLAND MAPPED — LONGFORM EPISODE 02 (16:9 WEBDOC)
+KIT COMPLETO DE PUBLICACAO NO YOUTUBE STUDIO
+================================================================================
+
+DATA E HORARIO SUGERIDOS PARA PROGRAMAR:
+Terca-feira, 01/12/2026 — 11:00 (Horario de Roraima / 10:00 ET / 09:00 CT)
+
+PASTA COMPLETA NO GOOGLE DRIVE:
+https://drive.google.com/drive/folders/1X9etIyYAWopr14Y2_qQj0RCR2VW6DkF8
+(Video MP4 direto: https://drive.google.com/file/d/1iteniPawB_zeSqTbSNDbrtMjUyo9ASsf/view?usp=drivesdk)
+
+ARQUIVOS ENTREGUES:
+- video.mp4 (1920x1080 | 24 FPS | 8:19 | -14 LUFS | Fish Audio Ethan)
+- legendas.srt (Legenda limpa em Ingles — subir em Subtitles -> English (United States))
+- thumbnail_a_map.jpg (1280x720 — Variante A mapa 2.5D do Lago Michigan em chamas)
+- thumbnail_b_archive.jpg (1280x720 — Variante B gravura historica Currier & Ives 1871, testar no Test & Compare!)
+- fontes_imagens.txt (Registro completo de URL + licenca de 100% do arquivo)
+
+--------------------------------------------------------------------------------
+1. TITULO (COPIAR E COLAR — 65 caracteres)
+--------------------------------------------------------------------------------
+The Night Two Fires Burned the Midwest: Chicago and Peshtigo, 1871
+
+(Alternativa A/B: Why History Forgot America's Deadliest Fire (Peshtigo, 1871))
+
+--------------------------------------------------------------------------------
+2. DESCRICAO DO YOUTUBE (COPIAR E COLAR)
+--------------------------------------------------------------------------------
+On the night of October 8, 1871, every telegraph in America flashed news of the Great Chicago Fire—yet 250 miles north in Wisconsin, an even deadlier firestorm wiped out the town of Peshtigo and burned 1.2 million acres in a single night.
+
+Driven by months of severe drought, ten-foot piles of logging slash, and one dry southwest weather front sweeping off the Great Plains, fires erupted simultaneously across Illinois, Wisconsin, and Michigan (leveling Holland and battering Manistee and Port Huron). Here is the full story of America's deadliest wildfire—and why the telegraph wire ensured history remembered only one city.
+
+CHAPTERS:
+0:00 Cold Open: 9:00 PM in Peshtigo, Wisconsin (1871)
+1:28 1. A Regional Tinderbox (Summer 1871)
+2:53 2. Chicago in Flames & The O'Leary Myth
+4:24 3. The Peshtigo Firestorm (America's Deadliest Fire)
+5:56 4. Silence on the Wire: Why History Forgot
+7:05 5. What's Left Today: Chicago to Peshtigo
+
+HISTORICAL SOURCES & ARCHIVES:
+- Wisconsin Historical Society — The Great Peshtigo Fire & Father Peter Pernin Eyewitness Account: https://www.wisconsinhistory.org/Records/Article/CS1581
+- Peshtigo Fire Museum — Official Historical Archive: https://peshtigofiremuseum.com/
+- National Weather Service (NOAA) — The Great Fires of October 8, 1871: https://www.weather.gov/grb/peshtigofire
+- Library of Congress — The Great Chicago Fire of 1871 Primary Source Collection: https://www.loc.gov/collections/chicago-fire-of-1871/
+- Chicago History Museum — The Great Chicago Fire and the Web of Memory: https://www.chicagohistory.org/
+- Michigan State University / Michigan History Center — Fires of 1871 (Holland, Manistee, Port Huron): https://www.michigan.gov/mhc
+
+IMAGE CREDITS (CREATIVE COMMONS & PUBLIC DOMAIN):
+All historical engravings, maps, and photographs are Public Domain (Library of Congress, Wisconsin Historical Society, Currier & Ives, George N. Barnard) or Creative Commons licensed:
+- Peshtigo Lumber Area After the 1871 Firestorm — self (CC BY-SA 2.5): https://commons.wikimedia.org/wiki/File:PeshtigoFireSurvivingLumber.jpg
+- 19th-Century Northern Pine Logging and Cleared Timber Slash — Greenpeace Finland (CC BY 2.0): https://commons.wikimedia.org/wiki/File:Logging_in_Finnish_Lapland.jpg
+- Holland, Michigan — Rebuilt After the October 8, 1871 Firestorm — BenHerrera1979 (CC BY-SA 4.0): https://commons.wikimedia.org/wiki/File:Downtown_Holland,_Michigan_.jpg
+- The Historic Chicago Water Tower Standing on Michigan Avenue Today — Bernt Rostad (CC BY 2.0): https://commons.wikimedia.org/wiki/File:The_Chicago_Water_Tower.jpg
+- The Peshtigo Fire Museum — Housed in the First Church Rebuilt After 1871 — self (CC BY-SA 2.5): https://commons.wikimedia.org/wiki/File:PeshtigoFireMuseumExterior2.jpg
+- Historical Marker at the Peshtigo Fire Museum & Cemetery, Wisconsin — self (CC BY-SA 2.5): https://commons.wikimedia.org/wiki/File:PeshtigoFireMuseumSign.jpg
+- Artifacts Preserved Inside the Peshtigo Fire Museum Today — self (CC BY-SA 2.5): https://commons.wikimedia.org/wiki/File:PeshtigoFireMuseumInteriorFront.jpg
+- Chicago Water Tower Surrounded by Modern Skyscrapers Today — User:victorgrigas (CC BY-SA 3.0): https://commons.wikimedia.org/wiki/File:Chicago_Water_Tower_as_seen_from_the_John_Hancock_tower_Signature_room.jpeg
+
+Did you ever learn about the Peshtigo Fire in school, or do you have family roots in Wisconsin, Illinois, or Michigan? Tell us which state you're watching from down in the comments!
+
+#MidwestHistory #PeshtigoFire #GreatChicagoFire #WisconsinHistory #ChicagoHistory #AmericanHistory #HeartlandMapped #1871 #HistoryDocumentary
+
+--------------------------------------------------------------------------------
+3. COMENTARIO FIXADO (POSTAR E FIXAR NO TOPO)
+--------------------------------------------------------------------------------
+Did you ever learn about the 1871 Peshtigo Fire in school, or have you visited the Peshtigo Fire Museum or Chicago's Water Tower? Tell us which state you're watching from down in the comments!
+
+--------------------------------------------------------------------------------
+4. TAGS DO YOUTUBE STUDIO
+--------------------------------------------------------------------------------
+peshtigo fire 1871, great chicago fire 1871, october 8 1871 fires, deadliest wildfire in american history, wisconsin history, chicago history documentary, midwest history, heartland mapped, great michigan fire 1871, father peter pernin, mrs olearys cow myth, chicago water tower, peshtigo fire museum
+
+--------------------------------------------------------------------------------
+5. CONFIGURACOES DE MONETIZACAO, FUNIL & CHECKLIST (YOUTUBE STUDIO)
+--------------------------------------------------------------------------------
+- Publico: MARCAR SEMPRE "Nao, nao e conteudo para criancas" (Not made for kids).
+- Conteudo alterado/sintetico: NAO precisa marcar (arquivo historico real + mapas ilustrados).
+- Categoria: Education | Idioma: English (United States).
+- Legenda .srt: subir `legendas.srt` manualmente.
+- Thumbnails (Test & Compare): subir `thumbnail_a_map.jpg` vs `thumbnail_b_archive.jpg`!
+- Mid-rolls manuais (nos cartoes de capitulo):
+  - 2:53 (2. Chicago in Flames & The O'Leary Myth)
+  - 4:24 (3. The Peshtigo Firestorm (America's Deadliest Fire))
+  - 5:56 (4. Silence on the Wire: Why History Forgot)
+- Playlist: criar/adicionar na playlist de longos "Heartland Disasters".
+- Tela final (ultimos 20s): apontar card esquerdo para o Longo 1 ("5 Midwest Border Fights") + card direito para a playlist "Heartland Disasters".
+- Funil Shorts -> Longo (definir como "Video relacionado" no YouTube Studio):
+  * Short Ep. 09 (Great Peshtigo Fire — Ter 01/12) -> apontar direto para este Longo 2!
+  * Short Ep. 08 (Raising Chicago — Seg 30/11)     -> tambem pode apontar para este Longo 2!
+- Conferir na aba Verificacoes (Checks) do YouTube Studio se nenhuma faixa gerou claim antes da publicacao!

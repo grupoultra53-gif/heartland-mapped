@@ -1,0 +1,113 @@
+{
+  "id": "lf02_chicago_peshtigo_1871",
+  "title": "The Night Two Fires Burned the Midwest: Chicago and Peshtigo, 1871",
+  "scheduled_date": "2026-12-01",
+  "scheduled_time_rr": "11:00",
+  "voice": "Fish Audio S2.1 Pro - Ethan (@Fish Official)",
+  "voice_tempo": 1.00,
+  "target_duration_sec": 515,
+  "pronunciation_notes": {
+    "Peshtigo": "PESH-tih-go",
+    "DeKoven": "Duh-KOH-ven",
+    "Manistee": "Man-iss-TEE",
+    "Marinette": "Mare-ih-NET",
+    "Menominee": "Meh-NOM-ih-nee",
+    "Pernin": "Pair-NAN",
+    "Mackinac": "Mackinaw"
+  },
+  "research_sources": [
+    {
+      "topic": "Peshtigo Fire (October 8, 1871)",
+      "label": "Wisconsin Historical Society — The Great Peshtigo Fire & Father Peter Pernin Eyewitness Account",
+      "url": "https://www.wisconsinhistory.org/Records/Article/CS1581"
+    },
+    {
+      "topic": "Peshtigo Fire Museum & Cemetery",
+      "label": "Peshtigo Fire Museum — Official Historical Archive",
+      "url": "https://peshtigofiremuseum.com/"
+    },
+    {
+      "topic": "October 8, 1871 Regional Weather & Firestorms",
+      "label": "National Weather Service (NOAA) — The Great Fires of October 8, 1871",
+      "url": "https://www.weather.gov/grb/peshtigofire"
+    },
+    {
+      "topic": "Great Chicago Fire (October 8–10, 1871)",
+      "label": "Library of Congress — The Great Chicago Fire of 1871 Primary Source Collection",
+      "url": "https://www.loc.gov/collections/chicago-fire-of-1871/"
+    },
+    {
+      "topic": "Great Chicago Fire & Mrs. O'Leary",
+      "label": "Chicago History Museum — The Great Chicago Fire and the Web of Memory",
+      "url": "https://www.chicagohistory.org/"
+    },
+    {
+      "topic": "Great Michigan Fires of October 8, 1871",
+      "label": "Michigan State University / Michigan History Center — Fires of 1871 (Holland, Manistee, Port Huron)",
+      "url": "https://www.michigan.gov/mhc"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "01_cold_open",
+      "chapter": "Intro",
+      "pause_after_sec": 0.65,
+      "mood": "tension",
+      "display_text": "October 8, 1871. Nine o'clock at night. In the booming timber town of Peshtigo, Wisconsin, the autumn air feels eerily warm and strangely silent. Then, along the western horizon, a faint crimson glow begins to pulse above the pines. A low rumble builds in the distance—like a distant freight train rolling across the woods, growing louder with every passing second. Within minutes, the sky erupts into a roaring hurricane of flame. Families sprint blindly toward the dark waters of the Peshtigo River as wooden buildings explode before the fire even touches them. Two hundred fifty miles south, on that exact same night, another fire is tearing through Chicago—and history would remember only one of them.",
+      "fish_text": "October 8, 1871. Nine o'clock at night. In the booming timber town of PESH-tih-go, Wisconsin, the autumn air feels eerily warm and strangely silent. Then, along the western horizon, a faint crimson glow begins to pulse above the pines. A low rumble builds in the distance, like a distant freight train rolling across the woods, growing louder with every passing second. Within minutes, the sky erupts into a roaring hurricane of flame. Families sprint blindly toward the dark waters of the PESH-tih-go River as wooden buildings explode before the fire even touches them. Two hundred fifty miles south, on that exact same night, another fire is tearing through Chicago, and history would remember only one of them."
+    },
+    {
+      "id": "02_promise_map",
+      "chapter": "Intro",
+      "pause_after_sec": 0.75,
+      "mood": "curiosity",
+      "display_text": "Every American schoolchild learns about the Great Chicago Fire and Mrs. O'Leary's cow. Far fewer have ever heard the name Peshtigo—even though the Wisconsin firestorm killed an estimated twelve hundred to twenty-five hundred people in a single night, making it the deadliest wildfire in recorded American history. Look across Lake Michigan on a map of October 8, 1871, and the mystery deepens even further. Chicago was not alone. Peshtigo was not alone. Whole towns across Michigan—Holland, Manistee, and Port Huron—were burning at the very same hour. Why did the entire Upper Midwest ignite on one Sunday night? And how was America's deadliest fire nearly erased from memory?",
+      "fish_text": "Every American schoolchild learns about the Great Chicago Fire and Mrs. O'Leary's cow. Far fewer have ever heard the name PESH-tih-go, even though the Wisconsin firestorm killed an estimated twelve hundred to twenty-five hundred people in a single night, making it the deadliest wildfire in recorded American history. Look across Lake Michigan on a map of October 8, 1871, and the mystery deepens even further. Chicago was not alone. PESH-tih-go was not alone. Whole towns across Michigan, Holland, Man-iss-TEE, and Port Huron, were burning at the very same hour. Why did the entire Upper Midwest ignite on one Sunday night? And how was America's deadliest fire nearly erased from memory?"
+    },
+    {
+      "id": "03_cap1_tinderbox",
+      "chapter": "Chapter 1: A Tinderbox Across Three States",
+      "chapter_card": {"number": "1", "year": "SUMMER 1871", "title": "A REGIONAL TINDERBOX", "subtitle": "Drought, Timber Slash & One Dry Storm"},
+      "pause_after_sec": 0.70,
+      "mood": "curiosity",
+      "display_text": "To understand what happened on October 8, you have to step back to the summer of 1871. Across Illinois, Wisconsin, and Michigan, the rain simply stopped falling. Between July and October, the region received barely a quarter of its normal rainfall. Wells ran dry, peat swamps turned into crumbly brown dust, and wooden boardwalks cracked in the heat. Up in northeastern Wisconsin and across Michigan, booming lumber towns had spent decades clear-cutting towering white pines to build Chicago and the growing frontier. Behind them lay millions of acres of dried treetops, bark, and branches known as logging slash—piled ten feet deep along rail lines and farm clearings. Settlers routinely used small brush fires to clear farmland, and for weeks the northern woods hung thick with smoky haze. Meanwhile, Chicago itself was practically a forest stood on end: two-thirds of its buildings were pine lumber, linked by wooden sidewalks, wooden bridges, and shingle roofs. All three states were loaded like dry gunpowder. All they needed was a match—and a wind from the Plains. On Sunday afternoon, October 8, a deep low-pressure weather system swept northeast out of the Great Plains, whipping fierce, bone-dry southwest winds across Lake Michigan. That single weather front turned hundreds of smoldering brush fires—and one spark in a Chicago alley—into a multi-state catastrophe.",
+      "fish_text": "To understand what happened on October 8, you have to step back to the summer of 1871. Across Illinois, Wisconsin, and Michigan, the rain simply stopped falling. Between July and October, the region received barely a quarter of its normal rainfall. Wells ran dry, peat swamps turned into crumbly brown dust, and wooden boardwalks cracked in the heat. Up in northeastern Wisconsin and across Michigan, booming lumber towns had spent decades clear-cutting towering white pines to build Chicago and the growing frontier. Behind them lay millions of acres of dried treetops, bark, and branches known as logging slash, piled ten feet deep along rail lines and farm clearings. Settlers routinely used small brush fires to clear farmland, and for weeks the northern woods hung thick with smoky haze. Meanwhile, Chicago itself was practically a forest stood on end: two-thirds of its buildings were pine lumber, linked by wooden sidewalks, wooden bridges, and shingle roofs. All three states were loaded like dry gunpowder. All they needed was a match, and a wind from the Plains. On Sunday afternoon, October 8, a deep low-pressure weather system swept northeast out of the Great Plains, whipping fierce, bone-dry southwest winds across Lake Michigan. That single weather front turned hundreds of smoldering brush fires, and one spark in a Chicago alley, into a multi-state catastrophe."
+    },
+    {
+      "id": "04_cap2_chicago_burns",
+      "chapter": "Chapter 2: Chicago in Flames",
+      "chapter_card": {"number": "2", "year": "OCT 8, 1871", "title": "CHICAGO IN FLAMES", "subtitle": "The Cow Myth & Three Square Miles of Ash"},
+      "pause_after_sec": 0.70,
+      "mood": "tension",
+      "display_text": "Around nine o'clock that Sunday night, flames broke out inside a wooden barn behind Patrick and Catherine O'Leary's cottage on DeKoven Street on Chicago's southwest side. Exhausted firefighters had just spent seventeen hours battling another major fire the night before—and when the watchman misread the location of the new blaze, precious minutes slipped away. Driven by fierce southwest winds, burning planks sailed across the Chicago River like flaming spears, igniting the downtown business district and leaping again into the North Side. When the city's wooden waterworks roof collapsed, the water mains went dry. Over the next thirty hours, until rain finally arrived early Tuesday morning, the fire gutted roughly three point three square miles—destroying over seventeen thousand buildings, leaving about one hundred thousand residents homeless, and claiming roughly three hundred lives. Among the very few public landmarks left standing in the ashes was the limestone Chicago Water Tower, which still rises on Michigan Avenue today. Almost immediately, newspapers looked for a scapegoat and blamed Catherine O'Leary's cow for kicking over a lantern. Decades later, in 1893, reporter Michael Ahern admitted he had invented the cow story for color—and in 1997, the Chicago City Council officially exonerated Mrs. O'Leary and her cow. Yet while telegraphs flashed Chicago's disaster to every newspaper on earth, something far more horrifying had already wiped a Wisconsin town off the map.",
+      "fish_text": "Around nine o'clock that Sunday night, flames broke out inside a wooden barn behind Patrick and Catherine O'Leary's cottage on Duh-KOH-ven Street on Chicago's southwest side. Exhausted firefighters had just spent seventeen hours battling another major fire the night before, and when the watchman misread the location of the new blaze, precious minutes slipped away. Driven by fierce southwest winds, burning planks sailed across the Chicago River like flaming spears, igniting the downtown business district and leaping again into the North Side. When the city's wooden waterworks roof collapsed, the water mains went dry. Over the next thirty hours, until rain finally arrived early Tuesday morning, the fire gutted roughly three point three square miles, destroying over seventeen thousand buildings, leaving about one hundred thousand residents homeless, and claiming roughly three hundred lives. Among the very few public landmarks left standing in the ashes was the limestone Chicago Water Tower, which still rises on Michigan Avenue today. Almost immediately, newspapers looked for a scapegoat and blamed Catherine O'Leary's cow for kicking over a lantern. Decades later, in 1893, reporter Michael Ahern admitted he had invented the cow story for color, and in 1997, the Chicago City Council officially exonerated Mrs. O'Leary and her cow. Yet while telegraphs flashed Chicago's disaster to every newspaper on earth, something far more horrifying had already wiped a Wisconsin town off the map."
+    },
+    {
+      "id": "05_cap3_peshtigo_firestorm",
+      "chapter": "Chapter 3: The Peshtigo Firestorm",
+      "chapter_card": {"number": "3", "year": "9:30 PM", "title": "THE PESHTIGO FIRESTORM", "subtitle": "America's Deadliest Wildfire"},
+      "pause_after_sec": 0.75,
+      "mood": "tension",
+      "display_text": "At the exact same hour Chicago's alarm bells began ringing, the thriving lumber town of Peshtigo, Wisconsin—home to about seventeen hundred residents and the largest woodenware factory in the country—faced a true meteorological firestorm. The howling southwest front merged dozens of woodland slash fires into a towering wall of flame generating hurricane-force fire tornadoes and temperatures estimated above two thousand degrees Fahrenheit. French Catholic priest Father Peter Pernin lived through that night and recorded an unforgettable eyewitness memoir. He described a deafening roar sweeping through the treetops before glowing embers rained down like snow, turning the town into an oven in less than an hour. Hundreds rushed into the icy Peshtigo River, ducking their heads under water every few seconds to keep their hair and shoulders from catching fire while burning timbers drifted beside them. Even in the water, many drowned or succumbed to smoke and freezing shock. By dawn, Peshtigo was gone—not just damaged, erased down to twisted iron machinery and white ash. Across both sides of Green Bay, the firestorm burned roughly one point two million acres—an area larger than the entire state of Rhode Island. Because whole frontier families vanished along with county records, historians still place the death toll between twelve hundred and twenty-five hundred lives. Across Lake Michigan that same night, flames also leveled Holland, battered Manistee, and scorched Michigan's Thumb near Port Huron. Why, then, did the world hear almost nothing about Peshtigo?",
+      "fish_text": "At the exact same hour Chicago's alarm bells began ringing, the thriving lumber town of PESH-tih-go, Wisconsin, home to about seventeen hundred residents and the largest woodenware factory in the country, faced a true meteorological firestorm. The howling southwest front merged dozens of woodland slash fires into a towering wall of flame generating hurricane-force fire tornadoes and temperatures estimated above two thousand degrees Fahrenheit. French Catholic priest Father Peter Pair-NAN lived through that night and recorded an unforgettable eyewitness memoir. He described a deafening roar sweeping through the treetops before glowing embers rained down like snow, turning the town into an oven in less than an hour. Hundreds rushed into the icy PESH-tih-go River, ducking their heads under water every few seconds to keep their hair and shoulders from catching fire while burning timbers drifted beside them. Even in the water, many drowned or succumbed to smoke and freezing shock. By dawn, PESH-tih-go was gone, not just damaged, erased down to twisted iron machinery and white ash. Across both sides of Green Bay, the firestorm burned roughly one point two million acres, an area larger than the entire state of Rhode Island. Because whole frontier families vanished along with county records, historians still place the death toll between twelve hundred and twenty-five hundred lives. Across Lake Michigan that same night, flames also leveled Holland, battered Man-iss-TEE, and scorched Michigan's Thumb near Port Huron. Why, then, did the world hear almost nothing about PESH-tih-go?"
+    },
+    {
+      "id": "06_cap4_why_forgotten",
+      "chapter": "Chapter 4: Why History Forgot Peshtigo",
+      "chapter_card": {"number": "4", "year": "OCT 9, 1871", "title": "SILENCE ON THE WIRE", "subtitle": "Why Only Chicago Made the Front Page"},
+      "pause_after_sec": 0.70,
+      "mood": "warm",
+      "display_text": "The answer came down to one simple piece of 1871 technology: the telegraph wire. Chicago was the railroad, grain, and communications hub of the American Midwest. Even while blocks were still burning, operators sent urgent dispatches racing to New York, Washington, and London. Relief trains loaded with food, lumber, and millions of dollars in donations rolled toward Chicago within days. Up in Peshtigo, every single telegraph pole had burned to the ground. Word of the Wisconsin catastrophe had to travel slowly by survivor wagon and boat down to Green Bay, and it took days before Governor Lucius Fairchild even learned the scale of the loss—by which time Wisconsin's relief supplies were already headed south toward Chicago. When news finally reached eastern newspapers, it appeared as a brief footnote beneath giant headlines about Chicago's rebuilding. Chicago rose from the ashes with strict brick-and-stone fire codes, steel-framed skyscrapers, and the dazzling 1893 World's Fair. Peshtigo rebuilt quietly on the banks of its river—carrying a grief that never faded for the families who survived.",
+      "fish_text": "The answer came down to one simple piece of 1871 technology: the telegraph wire. Chicago was the railroad, grain, and communications hub of the American Midwest. Even while blocks were still burning, operators sent urgent dispatches racing to New York, Washington, and London. Relief trains loaded with food, lumber, and millions of dollars in donations rolled toward Chicago within days. Up in PESH-tih-go, every single telegraph pole had burned to the ground. Word of the Wisconsin catastrophe had to travel slowly by survivor wagon and boat down to Green Bay, and it took days before Governor Lucius Fairchild even learned the scale of the loss, by which time Wisconsin's relief supplies were already headed south toward Chicago. When news finally reached eastern newspapers, it appeared as a brief footnote beneath giant headlines about Chicago's rebuilding. Chicago rose from the ashes with strict brick-and-stone fire codes, steel-framed skyscrapers, and the dazzling 1893 World's Fair. PESH-tih-go rebuilt quietly on the banks of its river, carrying a grief that never faded for the families who survived."
+    },
+    {
+      "id": "07_whats_left_and_outro",
+      "chapter": "What's Left Today",
+      "chapter_card": {"number": "5", "year": "TODAY", "title": "WHAT'S LEFT TODAY", "subtitle": "Two Landmarks 250 Miles Apart"},
+      "pause_after_sec": 0.50,
+      "mood": "nostalgia",
+      "display_text": "Today, you can visit both chapters of that unforgettable October night in a single weekend drive up Lake Michigan. In downtown Chicago, the cream-limestone Water Tower still stands proudly along Michigan Avenue—a quiet survivor surrounded by modern glass towers—while the Chicago Fire Academy now sits right on the old DeKoven Street block where the blaze began. Drive four hours north into Marinette County, Wisconsin, and you will find the Peshtigo Fire Museum housed in the very first church rebuilt after 1871. Just outside its doors lies the Peshtigo Fire Cemetery and a peaceful monument marking the mass grave of more than three hundred fifty unidentified victims—a humbling reminder of how quickly a dry autumn wind changed the Heartland forever. Did you ever learn about the Peshtigo Fire in school, or do you have family roots in Wisconsin, Michigan, or Chicago? Share your story and tell us which state you are watching from down in the comments. And next time on Heartland Mapped, we sail out onto Lake Superior to explore the ferocious Great Lakes storms that swallowed ships—from the 1913 White Hurricane to the final voyage of the Edmund Fitzgerald.",
+      "fish_text": "Today, you can visit both chapters of that unforgettable October night in a single weekend drive up Lake Michigan. In downtown Chicago, the cream-limestone Water Tower still stands proudly along Michigan Avenue, a quiet survivor surrounded by modern glass towers, while the Chicago Fire Academy now sits right on the old Duh-KOH-ven Street block where the blaze began. Drive four hours north into Mare-ih-NET County, Wisconsin, and you will find the PESH-tih-go Fire Museum housed in the very first church rebuilt after 1871. Just outside its doors lies the PESH-tih-go Fire Cemetery and a peaceful monument marking the mass grave of more than three hundred fifty unidentified victims, a humbling reminder of how quickly a dry autumn wind changed the Heartland forever. Did you ever learn about the PESH-tih-go Fire in school, or do you have family roots in Wisconsin, Michigan, or Chicago? Share your story and tell us which state you are watching from down in the comments. And next time on Heartland Mapped, we sail out onto Lake Superior to explore the ferocious Great Lakes storms that swallowed ships, from the 1913 White Hurricane to the final voyage of the Edmund Fitzgerald."
+    }
+  ]
+}

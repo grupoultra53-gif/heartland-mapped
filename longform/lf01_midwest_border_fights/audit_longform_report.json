@@ -1,0 +1,102 @@
+{
+  "episode": "lf01_midwest_border_fights",
+  "video": "video.mp4",
+  "duration_sec": 617.48,
+  "lufs": -14.4,
+  "true_peak_dbtp": -1.82,
+  "archive_today_pct": 67.6,
+  "house_map_pct": 26.5,
+  "all_pass": true,
+  "checks": [
+    {
+      "name": "1. Duration",
+      "target": "480 - 630 s",
+      "measured": "617.48 s (10:17)",
+      "pass": true
+    },
+    {
+      "name": "2. Opening Hook",
+      "target": "voice <= 1s, cut <= 3s",
+      "measured": "voice=0.00s, cut=2.40s",
+      "pass": true
+    },
+    {
+      "name": "3. Max Static Hold",
+      "target": "<= 8.0 s",
+      "measured": "7.95 s",
+      "pass": true
+    },
+    {
+      "name": "4. Visual Rhythm",
+      "target": "median 4.0 - 7.0 s",
+      "measured": "median=5.02 s (121 changes)",
+      "pass": true
+    },
+    {
+      "name": "5. Smart TV Text",
+      "target": "15-35 plates, dwell>=3s",
+      "measured": "53 plates, viol=0",
+      "pass": true
+    },
+    {
+      "name": "6. Loudness",
+      "target": "-14 +/- 1 LUFS, TP<=-1",
+      "measured": "-14.40 LUFS, TP=-1.82 dBTP",
+      "pass": true
+    },
+    {
+      "name": "7. Dead Audio Holes",
+      "target": "<= 2.5 s (< -48 dBFS)",
+      "measured": "max_hole=0.00 s",
+      "pass": true
+    },
+    {
+      "name": "8. Music vs Voice",
+      "target": ">= 18.0 dB below voice",
+      "measured": "20.3 dB below voice",
+      "pass": true
+    },
+    {
+      "name": "9. Seams & Sync",
+      "target": "diff<=0.15s, 0 black",
+      "measured": "diff=0.000s, black=0",
+      "pass": true
+    },
+    {
+      "name": "10. YT Chapters",
+      "target": ">=3, start 0:00, >=10s",
+      "measured": "7 chapters",
+      "pass": true
+    },
+    {
+      "name": "11. Clean .SRT",
+      "target": "<=2 lines, <=42 chars",
+      "measured": "178 cues, violations=0",
+      "pass": true
+    },
+    {
+      "name": "12. Visual Mix",
+      "target": "arch>=55%, map 20-35%, gap<=90s",
+      "measured": "arch=67.6%, map=26.5%, gap=69.2s",
+      "pass": true
+    },
+    {
+      "name": "13. Image Licenses",
+      "target": "100% in fontes_imagens.txt",
+      "measured": "missing=0",
+      "pass": true
+    },
+    {
+      "name": "14. Archive Resolution",
+      "target": "no upscale > 150%",
+      "measured": "over_scaled=0",
+      "pass": true
+    },
+    {
+      "name": "15. QA Contact Sheets",
+      "target": "10s + all texts sheets",
+      "measured": "62 + 53 tiles",
+      "pass": true
+    }
+  ]
+}

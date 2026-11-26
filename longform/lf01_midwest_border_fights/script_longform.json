@@ -1,0 +1,142 @@
+{
+  "id": "lf01_midwest_border_fights",
+  "title": "5 Midwest Border Fights That Almost Started Real Wars",
+  "scheduled_date": "2026-11-27",
+  "scheduled_time_rr": "11:00",
+  "voice": "Fish Audio S2.1 Pro - Ethan (@Fish Official)",
+  "target_duration_sec": 560,
+  "pronunciation_notes": {
+    "Des Moines": "Duh Moyn",
+    "Keosauqua": "Kee-oh-SAW-kwah",
+    "Keokuk": "KEE-oh-kuk",
+    "New Madrid": "New MAD-rid",
+    "Maumee": "Maw-mee",
+    "Mackinac": "Mackinaw",
+    "Peshtigo": "PESH-tih-go",
+    "Manitoba": "Man-ih-TOE-bah"
+  },
+  "research_sources": [
+    {
+      "topic": "Honey War (1839) & Missouri v. Iowa (1849)",
+      "label": "U.S. Supreme Court — Missouri v. Iowa, 48 U.S. (7 How.) 660 (1849), Library of Congress",
+      "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep048/usrep048660/usrep048660.pdf"
+    },
+    {
+      "topic": "Honey War (1839)",
+      "label": "State Historical Society of Missouri — Historic Missourians & Border History",
+      "url": "https://shsmo.org/"
+    },
+    {
+      "topic": "Northwest Angle (1783 / 1818)",
+      "label": "Library of Congress — John Mitchell, A Map of the British and French Dominions in North America (1755)",
+      "url": "https://www.loc.gov/item/74693173/"
+    },
+    {
+      "topic": "Northwest Angle",
+      "label": "Minnesota Historical Society (MNopedia) — Northwest Angle",
+      "url": "https://www.mnopedia.org/place/northwest-angle"
+    },
+    {
+      "topic": "Carter Lake (1877 / 1892)",
+      "label": "U.S. Supreme Court — Nebraska v. Iowa, 143 U.S. 359 (1892), Library of Congress",
+      "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep143/usrep143359/usrep143359.pdf"
+    },
+    {
+      "topic": "Kentucky Bend & 1811–1812 Earthquakes",
+      "label": "U.S. Geological Survey (USGS) — New Madrid Seismic Zone",
+      "url": "https://www.usgs.gov/programs/earthquake-hazards/science/new-madrid-seismic-zone"
+    },
+    {
+      "topic": "Kentucky Bend & Darnell-Watson Feud",
+      "label": "Mark Twain, Life on the Mississippi (1883), Chapter 26 — Library of Congress / Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/245"
+    },
+    {
+      "topic": "Toledo War (1835–1836)",
+      "label": "Library of Congress — Primary Documents in American History: Northwest Ordinance (1787)",
+      "url": "https://guides.loc.gov/northwest-ordinance"
+    },
+    {
+      "topic": "Toledo War (1835–1836)",
+      "label": "Michiganology / Archives of Michigan — The Toledo War",
+      "url": "https://michiganology.org/"
+    },
+    {
+      "topic": "Toledo War (1835–1836)",
+      "label": "Ohio History Connection — Ohio History Central: Toledo War",
+      "url": "https://www.ohiohistory.org/"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "01_cold_open",
+      "chapter": "Intro",
+      "pause_after_sec": 0.9,
+      "mood": "tension",
+      "display_text": "December 1839. Freezing wind sweeps across the snowy prairies along the Iowa–Missouri line. More than a thousand Iowa farmers stand shivering in the brush—armed with flintlock muskets, pitchforks, rusty cavalry swords, and in one well-documented case, an iron sausage stuffer. Across the border wait more than two thousand armed Missouri militiamen. Both governors have issued war proclamations. And what pushed two Midwestern neighbors to the brink of bloodshed? Three hollow oak trees full of wild honey. It sounds like a tall tale. Yet it was not even the only time Midwestern states marched toward real conflict over lines drawn on a map.",
+      "fish_text": "December 1839. Freezing wind sweeps across the snowy prairies along the Iowa and Missouri line. More than a thousand Iowa farmers stand shivering in the brush, armed with flintlock muskets, pitchforks, rusty cavalry swords, and in one well-documented case, an iron sausage stuffer. Across the border wait more than two thousand armed Missouri militiamen. Both governors have issued war proclamations. And what pushed two Midwestern neighbors to the brink of bloodshed? Three hollow oak trees full of wild honey. It sounds like a tall tale. Yet it was not even the only time Midwestern states marched toward real conflict over lines drawn on a map."
+    },
+    {
+      "id": "02_promise_map",
+      "chapter": "Intro",
+      "pause_after_sec": 1.3,
+      "mood": "curiosity",
+      "display_text": "Look closely at a map of the American Heartland today, and you will still spot the scars. A jagged chimney of Minnesota jutting up into Canada. An entire Iowa city stranded west of the Missouri River inside Nebraska. A tiny pocket of Kentucky completely cut off from its own state. And a slanted line between Ohio and Michigan that reshaped the Great Lakes forever. Over the next nine minutes, we are tracing five real Midwest border showdowns—caused by broken maps, runaway rivers, stubborn governors, and one massive earthquake—ending with the strange compromise that handed Michigan billions of dollars in hidden treasure.",
+      "fish_text": "Look closely at a map of the American Heartland today, and you will still spot the scars. A jagged chimney of Minnesota jutting up into Canada. An entire Iowa city stranded west of the Missouri River inside Nebraska. A tiny pocket of Kentucky completely cut off from its own state. And a slanted line between Ohio and Michigan that reshaped the Great Lakes forever. Over the next nine minutes, we are tracing five real Midwest border showdowns, caused by broken maps, runaway rivers, stubborn governors, and one massive earthquake, ending with the strange compromise that handed Michigan billions of dollars in hidden treasure."
+    },
+    {
+      "id": "03_cap1_honey_war",
+      "chapter": "Chapter 1: The Honey War (1839)",
+      "chapter_card": {"number": "1", "year": "1839", "title": "THE HONEY WAR", "subtitle": "Iowa Territory vs. Missouri"},
+      "pause_after_sec": 1.4,
+      "mood": "curiosity",
+      "display_text": "Our first clash began with a single vague phrase. Back in 1816, surveyor John C. Sullivan marked the northern boundary of Missouri Territory, running east to the rapids of the Des Moines River. Four years later, Missouri wrote that exact wording into its state constitution. The trouble was, nobody agreed which rapids the constitution meant. In 1837, Missouri hired surveyor Joseph C. Brown to look again. Brown ignored the well-known rapids on the Mississippi near Keokuk and instead picked a riffle upstream on the Des Moines River near Keosauqua. With one stroke of a compass, Missouri claimed a fertile strip roughly nine and a half miles wide—about twenty-six hundred square miles of farmland that Iowa settlers already called home. In 1839, Clark County Sheriff Uriah Gregory rode north into Van Buren County, Iowa, to collect Missouri taxes. Local settlers refused to pay and chased him back across the line. Soon after, a Missourian crossed into the disputed woods and chopped down three hollow trees packed with wild honey and beeswax—valuable frontier currency. Outraged, Iowa Territorial Governor Robert Lucas—remember that name, because we will meet him again—called out roughly twelve hundred militiamen. Missouri Governor Lilburn Boggs answered by mobilizing more than two thousand men. For days in bitter December cold, citizen soldiers stood poised to fight. Thankfully, cooler heads negotiated a truce before a shot was fired. Ten years later, in 1849, the U.S. Supreme Court settled Missouri versus Iowa in Iowa's favor, restoring the original 1816 Sullivan Line. Iowa and Missouri nearly fought because two surveyors read one sentence differently. But fifty-six years earlier, diplomats drew a border across northern Minnesota using a map that had simply invented the geography.",
+      "fish_text": "Our first clash began with a single vague phrase. Back in 1816, surveyor John C. Sullivan marked the northern boundary of Missouri Territory, running east to the rapids of the Duh Moyn River. Four years later, Missouri wrote that exact wording into its state constitution. The trouble was, nobody agreed which rapids the constitution meant. In 1837, Missouri hired surveyor Joseph C. Brown to look again. Brown ignored the well-known rapids on the Mississippi near KEE-oh-kuk and instead picked a riffle upstream on the Duh Moyn River near Kee-oh-SAW-kwah. With one stroke of a compass, Missouri claimed a fertile strip roughly nine and a half miles wide, about twenty-six hundred square miles of farmland that Iowa settlers already called home. In 1839, Clark County Sheriff Uriah Gregory rode north into Van Buren County, Iowa, to collect Missouri taxes. Local settlers refused to pay and chased him back across the line. Soon after, a Missourian crossed into the disputed woods and chopped down three hollow trees packed with wild honey and beeswax, valuable frontier currency. Outraged, Iowa Territorial Governor Robert Lucas, remember that name, because we will meet him again, called out roughly twelve hundred militiamen. Missouri Governor Lilburn Boggs answered by mobilizing more than two thousand men. For days in bitter December cold, citizen soldiers stood poised to fight. Thankfully, cooler heads negotiated a truce before a shot was fired. Ten years later, in 1849, the U.S. Supreme Court settled Missouri versus Iowa in Iowa's favor, restoring the original 1816 Sullivan Line. Iowa and Missouri nearly fought because two surveyors read one sentence differently. But fifty-six years earlier, diplomats drew a border across northern Minnesota using a map that had simply invented the geography."
+    },
+    {
+      "id": "04_cap2_northwest_angle",
+      "chapter": "Chapter 2: The Northwest Angle (1783–1818)",
+      "chapter_card": {"number": "2", "year": "1783", "title": "THE NORTHWEST ANGLE", "subtitle": "Minnesota vs. British Canada"},
+      "pause_after_sec": 1.4,
+      "mood": "curiosity",
+      "display_text": "When American and British diplomats met in Paris in 1783 to end the Revolutionary War, they spread out the best map they had: John Mitchell's 1755 Map of the British and French Dominions in North America. It was a gorgeous piece of engraving—and terribly wrong about the upper Midwest. Mitchell drew Lake of the Woods as a tidy oval, and placed the headwaters of the Mississippi River far off to the northwest. Trusting that map, the Treaty of Paris ordered the border to run to the northwesternmost point of Lake of the Woods, and from there on a due-west course to the Mississippi River. Fifteen years later, explorer and surveyor David Thompson trekked across the northern wilderness and discovered an awkward truth: the real source of the Mississippi lay far to the south. A line heading due west from Lake of the Woods would sail right across the prairies and never touch the river at all. In the Convention of 1818, the United States and Britain fixed the mess by adopting the 49th parallel as their northern border—and agreeing to drop a straight vertical line due south from the lake's northwesternmost corner to meet it. When surveyors finally located that jagged corner hidden deep in marshy bays, the vertical drop sliced off one hundred twenty-three square miles of American forest physically attached to Manitoba, Canada. That cartographic accident created the Northwest Angle—the northernmost point in the lower forty-eight states, where roughly seventy percent of the land is held in trust by the Red Lake Band of Chippewa Indians. A broken map stranded a corner of Minnesota inside Canada. Yet further south, between Iowa and Nebraska, the map was completely right—until the Missouri River decided to rewrite it overnight.",
+      "fish_text": "When American and British diplomats met in Paris in 1783 to end the Revolutionary War, they spread out the best map they had: John Mitchell's 1755 Map of the British and French Dominions in North America. It was a gorgeous piece of engraving, and terribly wrong about the upper Midwest. Mitchell drew Lake of the Woods as a tidy oval, and placed the headwaters of the Mississippi River far off to the northwest. Trusting that map, the Treaty of Paris ordered the border to run to the northwesternmost point of Lake of the Woods, and from there on a due-west course to the Mississippi River. Fifteen years later, explorer and surveyor David Thompson trekked across the northern wilderness and discovered an awkward truth: the real source of the Mississippi lay far to the south. A line heading due west from Lake of the Woods would sail right across the prairies and never touch the river at all. In the Convention of 1818, the United States and Britain fixed the mess by adopting the 49th parallel as their northern border, and agreeing to drop a straight vertical line due south from the lake's northwesternmost corner to meet it. When surveyors finally located that jagged corner hidden deep in marshy bays, the vertical drop sliced off one hundred twenty-three square miles of American forest physically attached to Man-ih-TOE-bah, Canada. That cartographic accident created the Northwest Angle, the northernmost point in the lower forty-eight states, where roughly seventy percent of the land is held in trust by the Red Lake Band of Chippewa Indians. A broken map stranded a corner of Minnesota inside Canada. Yet further south, between Iowa and Nebraska, the map was completely right, until the Missouri River decided to rewrite it overnight."
+    },
+    {
+      "id": "05_cap3_carter_lake",
+      "chapter": "Chapter 3: Carter Lake (1877)",
+      "chapter_card": {"number": "3", "year": "1877", "title": "CARTER LAKE", "subtitle": "The Iowa Town Inside Nebraska"},
+      "pause_after_sec": 1.4,
+      "mood": "warm",
+      "display_text": "In the 1870s, just northeast of Omaha, the Missouri River curled into a wide horseshoe loop called Saratoga Bend. Everything inside that bend—roughly thirteen hundred to fourteen hundred acres of fertile bottomland—sat squarely on the eastern, Iowa side of the river. Then came March 1877. Swollen with spring snowmelt, the mighty Missouri slammed against the narrow neck of Saratoga Bend and punched straight through overnight. By sunrise, the river was flowing down a brand-new straight channel to the east, leaving its old curve behind as a quiet horseshoe lake—today's Carter Lake. Suddenly, hundreds of acres of Iowa sat stranded on the western, Nebraska bank of the river. Nebraska officials quickly moved in to govern and tax the land. Iowa refused to budge, and the dispute climbed all the way to the United States Supreme Court. In 1892, in Nebraska versus Iowa, Justice David Brewer handed down a classic rule of American river law. When a river slowly nibbles away a bank over decades—a process called accretion—the state border shifts quietly along with the water. But when a flood violently abandons its bed overnight—a sudden jump called avulsion—the legal border stays frozen forever along the middle of the old dry channel. Because Saratoga Bend vanished in a single flood, Carter Lake remained legally Iowa, becoming the only Iowa city west of the Missouri River. One spring flood stranded a town in Nebraska. Four hundred miles down the Mississippi, the greatest earthquakes in eastern American history helped isolate an entire pocket of Kentucky.",
+      "fish_text": "In the 1870s, just northeast of Omaha, the Missouri River curled into a wide horseshoe loop called Saratoga Bend. Everything inside that bend, roughly thirteen hundred to fourteen hundred acres of fertile bottomland, sat squarely on the eastern, Iowa side of the river. Then came March 1877. Swollen with spring snowmelt, the mighty Missouri slammed against the narrow neck of Saratoga Bend and punched straight through overnight. By sunrise, the river was flowing down a brand-new straight channel to the east, leaving its old curve behind as a quiet horseshoe lake, today's Carter Lake. Suddenly, hundreds of acres of Iowa sat stranded on the western, Nebraska bank of the river. Nebraska officials quickly moved in to govern and tax the land. Iowa refused to budge, and the dispute climbed all the way to the United States Supreme Court. In 1892, in Nebraska versus Iowa, Justice David Brewer handed down a classic rule of American river law. When a river slowly nibbles away a bank over decades, a process called accretion, the state border shifts quietly along with the water. But when a flood violently abandons its bed overnight, a sudden jump called avulsion, the legal border stays frozen forever along the middle of the old dry channel. Because Saratoga Bend vanished in a single flood, Carter Lake remained legally Iowa, becoming the only Iowa city west of the Missouri River. One spring flood stranded a town in Nebraska. Four hundred miles down the Mississippi, the greatest earthquakes in eastern American history helped isolate an entire pocket of Kentucky."
+    },
+    {
+      "id": "06_cap4_kentucky_bend",
+      "chapter": "Chapter 4: The Kentucky Bend (1812)",
+      "chapter_card": {"number": "4", "year": "1812", "title": "THE KENTUCKY BEND", "subtitle": "Isolated by Quake and River"},
+      "pause_after_sec": 1.5,
+      "mood": "tension",
+      "display_text": "The border between Kentucky and Tennessee was meant to be simple: follow thirty-six degrees thirty minutes north latitude straight west to the Mississippi River. Early surveyors, however, had no idea the Mississippi looped wildly back across that exact latitude near the river town of New Madrid, Missouri. Then, in the winter of 1811 and 1812, the catastrophic New Madrid earthquakes struck the Heartland—shaking church bells hundreds of miles away, tearing down river bluffs, and warping the surrounding valley. When surveyors finally ran the official border all the way to the river in 1820, the straight line cut across the huge double bend twice. The result was a teardrop-shaped exclave of roughly seventeen and a half square miles belonging to Fulton County, Kentucky—wrapped on three sides by the roaring Mississippi and blocked from the rest of Kentucky by Tennessee to the south. Cut off from regular courts and sheriffs for decades, the Kentucky Bend—nicknamed Bubbleland—gained a fierce frontier reputation. Two prominent families, the Darnells and the Watsons, waged a deadly vendetta there for decades. Mark Twain himself wrote about the Bend's bloody feud in his 1883 book Life on the Mississippi, inspiring the famous Grangerford and Shepherdson feud in Huckleberry Finn. Those four border fights played out mostly through surveyors, courtrooms, and tense standoffs. Only once did two Midwestern neighbors actually march rival militias into a disputed strip, raid each other's towns, and spill real blood.",
+      "fish_text": "The border between Kentucky and Tennessee was meant to be simple: follow thirty-six degrees thirty minutes north latitude straight west to the Mississippi River. Early surveyors, however, had no idea the Mississippi looped wildly back across that exact latitude near the river town of New MAD-rid, Missouri. Then, in the winter of 1811 and 1812, the catastrophic New MAD-rid earthquakes struck the Heartland, shaking church bells hundreds of miles away, tearing down river bluffs, and warping the surrounding valley. When surveyors finally ran the official border all the way to the river in 1820, the straight line cut across the huge double bend twice. The result was a teardrop-shaped exclave of roughly seventeen and a half square miles belonging to Fulton County, Kentucky, wrapped on three sides by the roaring Mississippi and blocked from the rest of Kentucky by Tennessee to the south. Cut off from regular courts and sheriffs for decades, the Kentucky Bend, nicknamed Bubbleland, gained a fierce frontier reputation. Two prominent families, the Darnells and the Watsons, waged a deadly vendetta there for decades. Mark Twain himself wrote about the Bend's bloody feud in his 1883 book Life on the Mississippi, inspiring the famous Grangerford and Shepherdson feud in Huckleberry Finn. Those four border fights played out mostly through surveyors, courtrooms, and tense standoffs. Only once did two Midwestern neighbors actually march rival militias into a disputed strip, raid each other's towns, and spill real blood."
+    },
+    {
+      "id": "07_cap5_toledo_war",
+      "chapter": "Chapter 5: The Toledo War (1835–1836)",
+      "chapter_card": {"number": "5", "year": "1835", "title": "THE TOLEDO WAR", "subtitle": "Ohio vs. Michigan Territory"},
+      "pause_after_sec": 1.4,
+      "mood": "tension",
+      "display_text": "It was 1835, and once again, the villain was John Mitchell's faulty 1755 map. Under the Northwest Ordinance of 1787, Congress had drawn the northern border of Ohio straight east from the southern tip of Lake Michigan to Lake Erie—assuming Lake Michigan ended much farther north than it actually does. When accurate surveyors ran the straight Fulton Line in 1818, it put the thriving Maumee River port of Toledo squarely inside Michigan Territory. Ohio was furious. It was building the Wabash and Erie Canal and needed Toledo's harbor to reach Lake Erie, so Ohio pushed a tilted rival boundary called the Harris Line to claim the four-hundred-sixty-eight-square-mile Toledo Strip. Ohio Governor Robert Lucas—yes, the exact same stubborn governor who would later face off against Missouri in the Honey War—marched roughly six hundred Ohio militiamen to Perrysburg. Waiting across the river was Michigan's fiery twenty-three-year-old Boy Governor, Stevens T. Mason, commanding around a thousand territorial troops. In April 1835, shots cracked into the air at the Battle of Phillips Corners as Michigan troops chased off Ohio surveyors. Three months later, in July, Monroe County Deputy Sheriff Joseph Wood walked into a Toledo tavern to arrest an Ohio partisan named Two Stickney—whose father had literally named his sons One and Two. In the scuffle, Stickney jabbed Wood in the side with a penknife, drawing the only blood of the entire war. Facing the 1836 presidential election, President Andrew Jackson needed Ohio's electoral votes. Congress blocked Michigan's statehood until it surrendered Toledo. In December 1836, exhausted delegates met in Ann Arbor during the bitterly cold Frostbitten Convention and reluctantly accepted Congress's consolation prize: roughly nine thousand square miles of the western Upper Peninsula. Newspapers across the country mocked Michigan for trading a bustling port for frozen woods. Then, in the 1840s, prospectors struck vast veins of pure copper and mountains of iron ore—turning that snowy consolation prize into one of the richest mineral treasures in American history.",
+      "fish_text": "It was 1835, and once again, the villain was John Mitchell's faulty 1755 map. Under the Northwest Ordinance of 1787, Congress had drawn the northern border of Ohio straight east from the southern tip of Lake Michigan to Lake Erie, assuming Lake Michigan ended much farther north than it actually does. When accurate surveyors ran the straight Fulton Line in 1818, it put the thriving Maw-mee River port of Toledo squarely inside Michigan Territory. Ohio was furious. It was building the Wabash and Erie Canal and needed Toledo's harbor to reach Lake Erie, so Ohio pushed a tilted rival boundary called the Harris Line to claim the four-hundred-sixty-eight-square-mile Toledo Strip. Ohio Governor Robert Lucas, yes, the exact same stubborn governor who would later face off against Missouri in the Honey War, marched roughly six hundred Ohio militiamen to Perrysburg. Waiting across the river was Michigan's fiery twenty-three-year-old Boy Governor, Stevens T. Mason, commanding around a thousand territorial troops. In April 1835, shots cracked into the air at the Battle of Phillips Corners as Michigan troops chased off Ohio surveyors. Three months later, in July, Monroe County Deputy Sheriff Joseph Wood walked into a Toledo tavern to arrest an Ohio partisan named Two Stickney, whose father had literally named his sons One and Two. In the scuffle, Stickney jabbed Wood in the side with a penknife, drawing the only blood of the entire war. Facing the 1836 presidential election, President Andrew Jackson needed Ohio's electoral votes. Congress blocked Michigan's statehood until it surrendered Toledo. In December 1836, exhausted delegates met in Ann Arbor during the bitterly cold Frostbitten Convention and reluctantly accepted Congress's consolation prize: roughly nine thousand square miles of the western Upper Peninsula. Newspapers across the country mocked Michigan for trading a bustling port for frozen woods. Then, in the 1840s, prospectors struck vast veins of pure copper and mountains of iron ore, turning that snowy consolation prize into one of the richest mineral treasures in American history."
+    },
+    {
+      "id": "08_whats_left_and_outro",
+      "chapter": "What's Left Today",
+      "chapter_card": {"number": "6", "year": "TODAY", "title": "WHAT'S LEFT TODAY", "subtitle": "Five Strange Corners You Can Still Visit"},
+      "pause_after_sec": 0.5,
+      "mood": "nostalgia",
+      "display_text": "What makes these border fights unforgettable is that you can still drive to every single one of them today. Up in northern Minnesota, visiting the Northwest Angle by car still means driving roughly sixty miles through Manitoba, Canada, and reporting to customs inside a tiny roadside video booth at Jim's Corner near Angle Inlet—where about a hundred forty-nine year-round residents call the tip of America home. Fly into Omaha's Eppley Airfield, and Abbott Drive carries you straight out of Nebraska, across Carter Lake, Iowa, and right back into Nebraska before you reach downtown. Down on the Mississippi, a quiet country lane out of Tiptonville, Tennessee leads into the Kentucky Bend, where rich fields now hold fewer than a dozen permanent residents and zero gas stations. And along the old Toledo Strip, historical markers still trace the 1835 standoff—while every November, Ohio State and Michigan fans keep that old rivalry alive. Lines on a map look permanent, until you meet the stubborn people, shifting rivers, and honest mistakes that drew them. Have you ever driven through one of these strange corners of the Midwest—or does your home state have a border story of its own? Tell us which state you are watching from down in the comments. And next time on Heartland Mapped, we travel back to October 8, 1871—the night Chicago burned into every history book, while a far deadlier firestorm roared through the timber towns of Wisconsin just two hundred fifty miles north.",
+      "fish_text": "What makes these border fights unforgettable is that you can still drive to every single one of them today. Up in northern Minnesota, visiting the Northwest Angle by car still means driving roughly sixty miles through Man-ih-TOE-bah, Canada, and reporting to customs inside a tiny roadside video booth at Jim's Corner near Angle Inlet, where about a hundred forty-nine year-round residents call the tip of America home. Fly into Omaha's Eppley Airfield, and Abbott Drive carries you straight out of Nebraska, across Carter Lake, Iowa, and right back into Nebraska before you reach downtown. Down on the Mississippi, a quiet country lane out of Tiptonville, Tennessee leads into the Kentucky Bend, where rich fields now hold fewer than a dozen permanent residents and zero gas stations. And along the old Toledo Strip, historical markers still trace the 1835 standoff, while every November, Ohio State and Michigan fans keep that old rivalry alive. Lines on a map look permanent, until you meet the stubborn people, shifting rivers, and honest mistakes that drew them. Have you ever driven through one of these strange corners of the Midwest, or does your home state have a border story of its own? Tell us which state you are watching from down in the comments. And next time on Heartland Mapped, we travel back to October 8, 1871, the night Chicago burned into every history book, while a far deadlier firestorm roared through the timber towns of Wisconsin just two hundred fifty miles north."
+    }
+  ]
+}

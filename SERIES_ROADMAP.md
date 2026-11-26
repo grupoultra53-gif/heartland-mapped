@@ -57,9 +57,14 @@
 
 ---
 
-## Plano de Webdocs Longos (`16:9`, 8–12 min — A partir da Semana 3)
+## Plano de Webdocs Longos (`16:9`, 8–10 min — Terças e Sextas às 11:00 RR / 10:00 ET / 09:00 CT)
 
-1. **Webdoc 01 (Semana 3 — Antologia Narrada, ~10 min):** *5 Ridiculous Midwest Border Blunders That Almost Started Wars* (Toledo War + Honey War + Northwest Angle + Carter Lake + Kentucky Bend — expandidos com mapas `16:9` e profundidade histórica em dobro).
-2. **Webdoc 02 (Semana 4 — Deep-Dive, ~10 min):** *How Chicago Pulled Off the Two Wildest Engineering Stunts in American History* (Raising Chicago 1856 + Reversing the River 1900).
-3. **Webdoc 03 (Semana 5 — Deep-Dive, ~11 min):** *The Deadliest Night in Midwest History: Chicago & Peshtigo (October 8, 1871)*.
-4. **Webdoc 04 (Semana 6 — Deep-Dive, ~11 min):** *Storms of the Inland Seas: The White Hurricane (1913) & The Edmund Fitzgerald (1975)*.
+> **Formato Oficial (26/11/2026):** Webdoc híbrido (`~68%` arquivo histórico real de domínio público/CC + fotos atuais dos lugares + `~26%` mapas ilustrados da casa em nanquim/guache, sem peg-dolls como base), `1920×1080 @ 24 FPS`, voz Fish Audio **Ethan**, trilha multi-clima + foley contido em `-14 LUFS`, legenda `.srt` limpa e auditoria automática de 15 regras (`audit_longform.py`).
+
+| Longo | Data Programada | Status | Título | Shorts Conectados ("Vídeo Relacionado") | Pasta / Drive |
+| :-: | :--- | :--- | :--- | :--- | :--- |
+| **01** | **Sex 27/11/2026 (11:00 RR)** | **Pronto no Drive (15/15 PASS)** | *5 Midwest Border Fights That Almost Started Real Wars* (`10:17`) | Eps. 03, 04, 05, 06, 07 | [Pasta no Drive](https://drive.google.com/drive/folders/13Hgr07YHP_AKUEg-rt0MqMRdhl2x_MbW) |
+| **02** | **Ter 01/12/2026 (11:00 RR)** | **Pronto no Drive (15/15 PASS)** | *The Night Two Fires Burned the Midwest: Chicago and Peshtigo, 1871* (`8:18`) | Eps. 08, 09 | [Pasta no Drive](https://drive.google.com/drive/folders/1X9etIyYAWopr14Y2_qQj0RCR2VW6DkF8) |
+| **03** | **Sex 04/12/2026 (11:00 RR)** | Planejado | *The Great Lakes Storms That Swallowed Ships: 1913 and the Edmund Fitzgerald* | Eps. 11, 12 | Próximo |
+| **04** | **Ter 08/12/2026 (11:00 RR)** | Planejado | *The Year the Mississippi Ran Backwards: The New Madrid Earthquakes* | Eps. 10, 13 | Próximo |
+| **05** | **Sex 11/12/2026 (11:00 RR)** | Planejado | *How Chicago Pulled Off the Two Wildest Engineering Stunts in American History* | Eps. 02, 08 | Próximo |

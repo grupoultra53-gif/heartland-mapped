@@ -38,5 +38,9 @@ Vertical `9:16` 2.5D animated historical shorts focused on the US Midwest / Hear
 - `episodes/ep11_edmund_fitzgerald/` — Episode 11 (*The Edmund Fitzgerald & Lake Superior's Deadliest Storm, 1975*, Fish Audio S2.1 Pro Ethan): `episode_spec.json`, keyframes, aligned audio, renderer, storyboard, `POSTING_KIT.txt` (final `.mp4` stored in Google Drive)
 - `episodes/ep12_mackinac_bridge/` — Episode 12 (*How the Mackinac Bridge Ended 20-Mile Ferry Lines, 1957*, Fish Audio S2.1 Pro Ethan): `episode_spec.json`, keyframes, aligned audio, renderer, storyboard, `POSTING_KIT.txt` (final `.mp4` stored in Google Drive)
 - `episodes/ep13_black_sunday_1935/` — Episode 13 (*Black Sunday: The Day Daylight Vanished on the Plains, 1935*, Fish Audio S2.1 Pro Ethan): `episode_spec.json`, keyframes, aligned audio, renderer, storyboard, `POSTING_KIT.txt` (final `.mp4` stored in Google Drive)
-- `SERIES_ROADMAP.md` — 30-Episode Season 1 daily Shorts calendar + Weekly `16:9` Webdoc roadmap
+- `scripts/ingest_archive.py`, `scripts/render_longform.py`, `scripts/audit_longform.py`, `scripts/build_thumbnails.py` — 16:9 Webdoc Long-Form Engine (`1920×1080 @ 24 FPS`, parallel scene rendering with SHA256 cache, Public Domain / CC-BY license verification, `-14 LUFS` 2-pass mastering, `.srt` export, 15-rule audit + QA contact sheets)
+- `assets/maps/` — Reusable `16:9` Master Midwest Relief Map (`master_midwest_map_16x9.jpg`) and archival studio parchment backdrop (`parchment_bg_16x9.jpg`)
+- `longform/lf01_midwest_border_fights/` — Longform 01 (*5 Midwest Border Fights That Almost Started Real Wars*, `10:17`, **15/15 PASS**, Drive ready for Fri 27/11/2026)
+- `longform/lf02_chicago_peshtigo_1871/` — Longform 02 (*The Night Two Fires Burned the Midwest: Chicago and Peshtigo, 1871*, `8:18`, **15/15 PASS**, Drive ready for Tue 01/12/2026)
+- `SERIES_ROADMAP.md` — 30-Episode Season 1 daily Shorts calendar + Tuesday/Friday `16:9` Webdoc roadmap
 - `RETENTION_LOG.md` — 48h YouTube Shorts & Facebook Reels A/B performance tracker
