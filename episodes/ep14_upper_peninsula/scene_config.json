@@ -1,0 +1,774 @@
+{
+  "video_settings": {
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "subtitle_y_ratio": 0.79,
+    "subtitle_panel_y_ratio": 0.47,
+    "version": "v2",
+    "voice_provider": "Fish Audio \u2014 Ethan (@Fish Official)"
+  },
+  "total_duration_sec": 68.628,
+  "scenes": [
+    {
+      "id": "scene_01",
+      "keyframe": "keyframes/scene_01.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 2.04,
+          "pan_x": -0.22,
+          "pan_y": -0.18,
+          "tilt_deg": 0.0,
+          "end_zoom": 2.18,
+          "end_pan_x": -0.22,
+          "end_pan_y": -0.16,
+          "end_tilt_deg": 0.4
+        },
+        {
+          "t": 1.65,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.15,
+          "end_pan_x": 0.02,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 2.9,
+          "zoom": 2.06,
+          "pan_x": 0.14,
+          "pan_y": -0.22,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.18,
+          "end_pan_x": 0.14,
+          "end_pan_y": -0.22,
+          "end_tilt_deg": 0.3
+        }
+      ],
+      "sprites": [
+        {
+          "bbox": [
+            0.155,
+            0.215,
+            0.39,
+            0.405
+          ],
+          "motion": "shudder",
+          "pop_delay": 0.0
+        }
+      ],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.02,
+          "type": "cork_pop",
+          "gain": 0.62
+        },
+        {
+          "rel": 1.68,
+          "type": "camera_whoosh",
+          "gain": 0.48
+        },
+        {
+          "rel": -0.45,
+          "type": "tape_rewind",
+          "gain": 0.7
+        }
+      ],
+      "start_sec": 0.0,
+      "end_sec": 4.1,
+      "narration": "Why does Michigan own a massive chunk of land physically glued to Wisconsin?"
+    },
+    {
+      "id": "scene_02",
+      "keyframe": "keyframes/scene_02.jpg",
+      "vhs_rewind": true,
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.14,
+          "pan_x": 0.0,
+          "pan_y": -0.04,
+          "tilt_deg": -0.8,
+          "end_zoom": 1.04,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.02,
+          "end_tilt_deg": 0.0
+        },
+        {
+          "t": 0.9,
+          "zoom": 1.92,
+          "pan_x": 0.0,
+          "pan_y": -0.26,
+          "tilt_deg": 0.4,
+          "end_zoom": 2.04,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.26,
+          "end_tilt_deg": 0.0
+        }
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "tape_rewind",
+          "gain": 0.7
+        },
+        {
+          "rel": 0.88,
+          "type": "parchment_brush",
+          "gain": 0.64
+        }
+      ],
+      "start_sec": 4.1,
+      "end_sec": 6.16,
+      "narration": "Wait... let's rewind."
+    },
+    {
+      "id": "scene_03",
+      "keyframe": "keyframes/scene_03.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 1.6,
+          "zoom": 2.05,
+          "pan_x": -0.22,
+          "pan_y": -0.08,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.16,
+          "end_pan_x": -0.22,
+          "end_pan_y": -0.08,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 3.25,
+          "zoom": 2.08,
+          "pan_x": 0.16,
+          "pan_y": 0.06,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.18,
+          "end_pan_x": 0.16,
+          "end_pan_y": 0.06,
+          "end_tilt_deg": -0.3
+        }
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.46
+        },
+        {
+          "rel": 1.65,
+          "type": "sword_clash",
+          "gain": 0.56
+        },
+        {
+          "rel": 3.3,
+          "type": "war_horn",
+          "gain": 0.46
+        }
+      ],
+      "start_sec": 6.16,
+      "end_sec": 11.14,
+      "narration": "In 1835, Michigan and Ohio nearly went to war over a tiny port called the Toledo Strip."
+    },
+    {
+      "id": "scene_04",
+      "keyframe": "keyframes/scene_04.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 2.02,
+          "pan_x": 0.22,
+          "pan_y": -0.14,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.14,
+          "end_pan_x": 0.22,
+          "end_pan_y": -0.14,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 2.1,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 4.2,
+          "zoom": 2.08,
+          "pan_x": -0.24,
+          "pan_y": 0.08,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.2,
+          "end_pan_x": -0.24,
+          "end_pan_y": 0.08,
+          "end_tilt_deg": -0.3
+        }
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.46
+        },
+        {
+          "rel": 1.55,
+          "type": "jaw_drop",
+          "gain": 0.58
+        },
+        {
+          "rel": 4.25,
+          "type": "parchment_brush",
+          "gain": 0.6
+        }
+      ],
+      "start_sec": 11.14,
+      "end_sec": 17.62,
+      "narration": "Before an election year, Congress sided with Ohio\u2014blocking Michigan's statehood until it surrendered Toledo."
+    },
+    {
+      "id": "scene_05",
+      "keyframe": "keyframes/scene_05.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.98,
+          "pan_x": 0.0,
+          "pan_y": -0.34,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.1,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.34,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 2.2,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 4.55,
+          "zoom": 2.04,
+          "pan_x": 0.14,
+          "pan_y": -0.02,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.16,
+          "end_pan_x": 0.14,
+          "end_pan_y": -0.02,
+          "end_tilt_deg": -0.3
+        }
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.46
+        },
+        {
+          "rel": 2.25,
+          "type": "map_crack",
+          "gain": 0.64
+        },
+        {
+          "rel": 4.6,
+          "type": "cork_pop",
+          "gain": 0.58
+        }
+      ],
+      "start_sec": 17.62,
+      "end_sec": 24.88,
+      "narration": "As a consolation prize, Congress carved nine thousand square miles off Wisconsin Territory\u2014handing Michigan the Upper Peninsula."
+    },
+    {
+      "id": "scene_06",
+      "keyframe": "keyframes/scene_06.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 2.06,
+          "pan_x": -0.22,
+          "pan_y": -0.14,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.18,
+          "end_pan_x": -0.22,
+          "end_pan_y": -0.14,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 2.0,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 3.7,
+          "zoom": 2.08,
+          "pan_x": 0.22,
+          "pan_y": 0.02,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.2,
+          "end_pan_x": 0.22,
+          "end_pan_y": 0.02,
+          "end_tilt_deg": -0.3
+        }
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.46
+        },
+        {
+          "rel": 0.35,
+          "type": "jaw_drop",
+          "gain": 0.58
+        },
+        {
+          "rel": 3.75,
+          "type": "storm_gale",
+          "gain": 0.48
+        }
+      ],
+      "start_sec": 24.88,
+      "end_sec": 30.66,
+      "narration": "Wisconsin wasn't a state yet and couldn't fight back\u2014while Michigan mocked the prize as a frozen swamp."
+    },
+    {
+      "id": "scene_07",
+      "keyframe": "keyframes/scene_07.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 1.75,
+          "zoom": 2.04,
+          "pan_x": 0.0,
+          "pan_y": -0.16,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.16,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.16,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 3.55,
+          "zoom": 2.08,
+          "pan_x": 0.0,
+          "pan_y": 0.14,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.2,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.14,
+          "end_tilt_deg": -0.3
+        }
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.46
+        },
+        {
+          "rel": 1.8,
+          "type": "coins_check",
+          "gain": 0.62
+        },
+        {
+          "rel": 3.6,
+          "type": "celesta_chime",
+          "gain": 0.6
+        }
+      ],
+      "start_sec": 30.66,
+      "end_sec": 36.28,
+      "narration": "Then, years later, prospectors struck massive veins of pure copper and mountains of iron ore."
+    },
+    {
+      "id": "scene_08",
+      "keyframe": "keyframes/scene_08.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.98,
+          "pan_x": 0.0,
+          "pan_y": -0.34,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.1,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.34,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 2.1,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 4.25,
+          "zoom": 2.06,
+          "pan_x": 0.16,
+          "pan_y": 0.1,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.18,
+          "end_pan_x": 0.16,
+          "end_pan_y": 0.1,
+          "end_tilt_deg": -0.3
+        }
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.46
+        },
+        {
+          "rel": 2.15,
+          "type": "ocean_ship",
+          "gain": 0.54
+        },
+        {
+          "rel": 4.3,
+          "type": "coins_check",
+          "gain": 0.58
+        }
+      ],
+      "start_sec": 36.28,
+      "end_sec": 42.72,
+      "narration": "That \"worthless\" wilderness turned into one of America's richest mineral booms\u2014fueling the entire Industrial Revolution."
+    },
+    {
+      "id": "scene_09",
+      "keyframe": "keyframes/scene_09.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.98,
+          "pan_x": 0.0,
+          "pan_y": -0.34,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.1,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.34,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 2.3,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 4.75,
+          "zoom": 2.08,
+          "pan_x": 0.24,
+          "pan_y": 0.16,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.2,
+          "end_pan_x": 0.24,
+          "end_pan_y": 0.16,
+          "end_tilt_deg": -0.3
+        }
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.46
+        },
+        {
+          "rel": 2.35,
+          "type": "car_honk",
+          "gain": 0.52
+        },
+        {
+          "rel": 4.8,
+          "type": "ocean_ship",
+          "gain": 0.5
+        }
+      ],
+      "start_sec": 42.72,
+      "end_sec": 50.0,
+      "narration": "Still, for over a century, Michigan's two halves had no road between them\u2014only slow ferries across the Straits of Mackinac."
+    },
+    {
+      "id": "scene_10",
+      "keyframe": "keyframes/scene_10.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 2.06,
+          "pan_x": -0.22,
+          "pan_y": -0.18,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.18,
+          "end_pan_x": -0.22,
+          "end_pan_y": -0.18,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 3.85,
+          "zoom": 2.08,
+          "pan_x": 0.24,
+          "pan_y": 0.06,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.2,
+          "end_pan_x": 0.24,
+          "end_pan_y": 0.06,
+          "end_tilt_deg": -0.3
+        },
+        {
+          "t": 5.55,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": 0.3
+        }
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.46
+        },
+        {
+          "rel": 0.45,
+          "type": "pawn_bounce",
+          "gain": 0.58
+        },
+        {
+          "rel": 2.4,
+          "type": "cork_pop",
+          "gain": 0.58
+        }
+      ],
+      "start_sec": 50.0,
+      "end_sec": 56.84,
+      "narration": "That isolation forged fierce local pride: \"Yoopers\" up north, teasing southern Michiganders as \"Trolls\" living under the bridge."
+    },
+    {
+      "id": "scene_11",
+      "keyframe": "keyframes/scene_11.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.06,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 2.55,
+          "zoom": 2.02,
+          "pan_x": 0.06,
+          "pan_y": 0.08,
+          "tilt_deg": -0.3,
+          "end_zoom": 2.14,
+          "end_pan_x": 0.06,
+          "end_pan_y": 0.08,
+          "end_tilt_deg": 0.3
+        },
+        {
+          "t": 5.3,
+          "zoom": 2.14,
+          "pan_x": -0.26,
+          "pan_y": -0.26,
+          "tilt_deg": 0.3,
+          "end_zoom": 2.26,
+          "end_pan_x": -0.26,
+          "end_pan_y": -0.26,
+          "end_tilt_deg": -0.3
+        }
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.46
+        },
+        {
+          "rel": 2.6,
+          "type": "river_cheer",
+          "gain": 0.56
+        },
+        {
+          "rel": 5.35,
+          "type": "celesta_chime",
+          "gain": 0.62
+        }
+      ],
+      "start_sec": 56.84,
+      "end_sec": 64.64,
+      "narration": "When the five-mile Mackinac Bridge finally connected them in 1957, Michigan celebrated\u2014and Wisconsin never quite got over it."
+    },
+    {
+      "id": "scene_12",
+      "keyframe": "keyframes/scene_12.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.01,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "tilt_deg": 0.0,
+          "end_zoom": 1.06,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.02,
+          "end_tilt_deg": 0.2
+        },
+        {
+          "t": 1.4,
+          "zoom": 1.08,
+          "pan_x": 0.0,
+          "pan_y": -0.03,
+          "tilt_deg": -0.2,
+          "end_zoom": 1.13,
+          "end_pan_x": 0.0,
+          "end_pan_y": -0.04,
+          "end_tilt_deg": 0.2
+        }
+      ],
+      "sprites": [
+        {
+          "bbox": [
+            0.035,
+            0.28,
+            0.345,
+            0.49
+          ],
+          "motion": "football_hop_l",
+          "pop_delay": 0.0
+        },
+        {
+          "bbox": [
+            0.7,
+            0.31,
+            0.985,
+            0.49
+          ],
+          "motion": "football_hop_r",
+          "pop_delay": 0.0
+        }
+      ],
+      "overhead": null,
+      "comment_panel": {
+        "trigger_rel": 0.14,
+        "keyword": "UP",
+        "comments": [
+          {
+            "handle": "@ProudYooper",
+            "text": "UP! Best trade Michigan ever made \u2014 keep Toledo!",
+            "likes": "2.4K \u2665",
+            "color": [
+              24,
+              128,
+              66
+            ]
+          },
+          {
+            "handle": "@WisconsinBadger",
+            "text": "UP \u2014 Wisconsin STILL wants a rematch over that map!",
+            "likes": "1.9K \u2665",
+            "color": [
+              186,
+              36,
+              32
+            ]
+          }
+        ]
+      },
+      "loop_return_sec": 0.3,
+      "foley": [
+        {
+          "rel": 0.04,
+          "type": "camera_whoosh",
+          "gain": 0.46
+        },
+        {
+          "rel": 0.18,
+          "type": "stadium_swell",
+          "gain": 0.44
+        }
+      ],
+      "start_sec": 64.64,
+      "end_sec": 68.628,
+      "narration": "Comment UP if Michigan pulled off history's best trade\u2014and now you know..."
+    }
+  ]
+}

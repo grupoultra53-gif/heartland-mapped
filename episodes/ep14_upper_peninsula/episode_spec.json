@@ -1,0 +1,226 @@
+{
+  "slug": "upper_peninsula",
+  "output_mp4": "heartland_mapped_ep14_upper_peninsula.mp4",
+  "rewind_label": "<< REW  TODAY -> 1835",
+  "bed_bpm": 96.0,
+  "bed_seed": 1414,
+  "highlight_words": [
+    "MICHIGAN", "WISCONSIN", "UPPER", "PENINSULA", "1835", "OHIO", "TOLEDO", "STRIP",
+    "CONGRESS", "STATEHOOD", "NINE", "THOUSAND", "CONSOLATION", "FROZEN", "SWAMP",
+    "COPPER", "IRON", "ORE", "BOOM", "INDUSTRIAL", "CENTURY", "FERRIES", "MACKINAC",
+    "YOOPERS", "TROLLS", "BRIDGE", "1957", "UP", "BEST", "TRADE", "REWIND"
+  ],
+  "qa_points": {
+    "scene_01_wide": {"scene": "scene_01", "rel": 2.15},
+    "scene_05_scissors": {"scene": "scene_05", "rel": 3.20},
+    "scene_06_swamp": {"scene": "scene_06", "rel": 3.10},
+    "scene_07_copper": {"scene": "scene_07", "rel": 3.00},
+    "scene_10_yoopers": {"scene": "scene_10", "rel": 3.20},
+    "scene_11_bridge": {"scene": "scene_11", "rel": 4.20}
+  },
+  "scenes": [
+    {
+      "id": "scene_01",
+      "keyframe": "keyframes/scene_01.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 2.04, "pan_x": -0.22, "pan_y": -0.18, "tilt_deg": 0.0, "end_zoom": 2.18, "end_pan_x": -0.22, "end_pan_y": -0.16, "end_tilt_deg": 0.4},
+        {"t": 1.65, "zoom": 1.06, "pan_x": 0.00, "pan_y": 0.00, "tilt_deg": 0.0, "end_zoom": 1.15, "end_pan_x": 0.02, "end_pan_y": 0.00, "end_tilt_deg": 0.3},
+        {"t": 2.90, "zoom": 2.06, "pan_x": 0.14, "pan_y": -0.22, "tilt_deg": -0.3, "end_zoom": 2.18, "end_pan_x": 0.14, "end_pan_y": -0.22, "end_tilt_deg": 0.3}
+      ],
+      "sprites": [
+        {"bbox": [0.155, 0.215, 0.390, 0.405], "motion": "shudder", "pop_delay": 0.0}
+      ],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.02, "type": "cork_pop", "gain": 0.62},
+        {"rel": 1.68, "type": "camera_whoosh", "gain": 0.48},
+        {"rel": -0.45, "type": "tape_rewind", "gain": 0.70}
+      ]
+    },
+    {
+      "id": "scene_02",
+      "keyframe": "keyframes/scene_02.jpg",
+      "vhs_rewind": true,
+      "shots": [
+        {"t": 0.00, "zoom": 1.14, "pan_x": 0.0, "pan_y": -0.04, "tilt_deg": -0.8, "end_zoom": 1.04, "end_pan_x": 0.0, "end_pan_y": -0.02, "end_tilt_deg": 0.0},
+        {"t": 0.90, "zoom": 1.92, "pan_x": 0.0, "pan_y": -0.26, "tilt_deg": 0.4, "end_zoom": 2.04, "end_pan_x": 0.0, "end_pan_y": -0.26, "end_tilt_deg": 0.0}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "tape_rewind", "gain": 0.70},
+        {"rel": 0.88, "type": "parchment_brush", "gain": 0.64}
+      ]
+    },
+    {
+      "id": "scene_03",
+      "keyframe": "keyframes/scene_03.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3},
+        {"t": 1.60, "zoom": 2.05, "pan_x": -0.22, "pan_y": -0.08, "tilt_deg": -0.3, "end_zoom": 2.16, "end_pan_x": -0.22, "end_pan_y": -0.08, "end_tilt_deg": 0.3},
+        {"t": 3.25, "zoom": 2.08, "pan_x": 0.16, "pan_y": 0.06, "tilt_deg": 0.3, "end_zoom": 2.18, "end_pan_x": 0.16, "end_pan_y": 0.06, "end_tilt_deg": -0.3}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.46},
+        {"rel": 1.65, "type": "sword_clash", "gain": 0.56},
+        {"rel": 3.30, "type": "war_horn", "gain": 0.46}
+      ]
+    },
+    {
+      "id": "scene_04",
+      "keyframe": "keyframes/scene_04.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 2.02, "pan_x": 0.22, "pan_y": -0.14, "tilt_deg": -0.3, "end_zoom": 2.14, "end_pan_x": 0.22, "end_pan_y": -0.14, "end_tilt_deg": 0.3},
+        {"t": 2.10, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3},
+        {"t": 4.20, "zoom": 2.08, "pan_x": -0.24, "pan_y": 0.08, "tilt_deg": 0.3, "end_zoom": 2.20, "end_pan_x": -0.24, "end_pan_y": 0.08, "end_tilt_deg": -0.3}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.46},
+        {"rel": 1.55, "type": "jaw_drop", "gain": 0.58},
+        {"rel": 4.25, "type": "parchment_brush", "gain": 0.60}
+      ]
+    },
+    {
+      "id": "scene_05",
+      "keyframe": "keyframes/scene_05.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 1.98, "pan_x": 0.0, "pan_y": -0.34, "tilt_deg": -0.3, "end_zoom": 2.10, "end_pan_x": 0.0, "end_pan_y": -0.34, "end_tilt_deg": 0.3},
+        {"t": 2.20, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3},
+        {"t": 4.55, "zoom": 2.04, "pan_x": 0.14, "pan_y": -0.02, "tilt_deg": 0.3, "end_zoom": 2.16, "end_pan_x": 0.14, "end_pan_y": -0.02, "end_tilt_deg": -0.3}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.46},
+        {"rel": 2.25, "type": "map_crack", "gain": 0.64},
+        {"rel": 4.60, "type": "cork_pop", "gain": 0.58}
+      ]
+    },
+    {
+      "id": "scene_06",
+      "keyframe": "keyframes/scene_06.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 2.06, "pan_x": -0.22, "pan_y": -0.14, "tilt_deg": -0.3, "end_zoom": 2.18, "end_pan_x": -0.22, "end_pan_y": -0.14, "end_tilt_deg": 0.3},
+        {"t": 2.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3},
+        {"t": 3.70, "zoom": 2.08, "pan_x": 0.22, "pan_y": 0.02, "tilt_deg": 0.3, "end_zoom": 2.20, "end_pan_x": 0.22, "end_pan_y": 0.02, "end_tilt_deg": -0.3}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.46},
+        {"rel": 0.35, "type": "jaw_drop", "gain": 0.58},
+        {"rel": 3.75, "type": "storm_gale", "gain": 0.48}
+      ]
+    },
+    {
+      "id": "scene_07",
+      "keyframe": "keyframes/scene_07.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3},
+        {"t": 1.75, "zoom": 2.04, "pan_x": 0.0, "pan_y": -0.16, "tilt_deg": -0.3, "end_zoom": 2.16, "end_pan_x": 0.0, "end_pan_y": -0.16, "end_tilt_deg": 0.3},
+        {"t": 3.55, "zoom": 2.08, "pan_x": 0.0, "pan_y": 0.14, "tilt_deg": 0.3, "end_zoom": 2.20, "end_pan_x": 0.0, "end_pan_y": 0.14, "end_tilt_deg": -0.3}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.46},
+        {"rel": 1.80, "type": "coins_check", "gain": 0.62},
+        {"rel": 3.60, "type": "celesta_chime", "gain": 0.60}
+      ]
+    },
+    {
+      "id": "scene_08",
+      "keyframe": "keyframes/scene_08.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 1.98, "pan_x": 0.0, "pan_y": -0.34, "tilt_deg": -0.3, "end_zoom": 2.10, "end_pan_x": 0.0, "end_pan_y": -0.34, "end_tilt_deg": 0.3},
+        {"t": 2.10, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3},
+        {"t": 4.25, "zoom": 2.06, "pan_x": 0.16, "pan_y": 0.10, "tilt_deg": 0.3, "end_zoom": 2.18, "end_pan_x": 0.16, "end_pan_y": 0.10, "end_tilt_deg": -0.3}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.46},
+        {"rel": 2.15, "type": "ocean_ship", "gain": 0.54},
+        {"rel": 4.30, "type": "coins_check", "gain": 0.58}
+      ]
+    },
+    {
+      "id": "scene_09",
+      "keyframe": "keyframes/scene_09.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 1.98, "pan_x": 0.0, "pan_y": -0.34, "tilt_deg": -0.3, "end_zoom": 2.10, "end_pan_x": 0.0, "end_pan_y": -0.34, "end_tilt_deg": 0.3},
+        {"t": 2.30, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3},
+        {"t": 4.75, "zoom": 2.08, "pan_x": 0.24, "pan_y": 0.16, "tilt_deg": 0.3, "end_zoom": 2.20, "end_pan_x": 0.24, "end_pan_y": 0.16, "end_tilt_deg": -0.3}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.46},
+        {"rel": 2.35, "type": "car_honk", "gain": 0.52},
+        {"rel": 4.80, "type": "ocean_ship", "gain": 0.50}
+      ]
+    },
+    {
+      "id": "scene_10",
+      "keyframe": "keyframes/scene_10.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 2.06, "pan_x": -0.22, "pan_y": -0.18, "tilt_deg": -0.3, "end_zoom": 2.18, "end_pan_x": -0.22, "end_pan_y": -0.18, "end_tilt_deg": 0.3},
+        {"t": 3.85, "zoom": 2.08, "pan_x": 0.24, "pan_y": 0.06, "tilt_deg": 0.3, "end_zoom": 2.20, "end_pan_x": 0.24, "end_pan_y": 0.06, "end_tilt_deg": -0.3},
+        {"t": 5.55, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.46},
+        {"rel": 0.45, "type": "pawn_bounce", "gain": 0.58},
+        {"rel": 2.40, "type": "cork_pop", "gain": 0.58}
+      ]
+    },
+    {
+      "id": "scene_11",
+      "keyframe": "keyframes/scene_11.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 1.06, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.14, "end_pan_x": 0.0, "end_pan_y": 0.0, "end_tilt_deg": 0.3},
+        {"t": 2.55, "zoom": 2.02, "pan_x": 0.06, "pan_y": 0.08, "tilt_deg": -0.3, "end_zoom": 2.14, "end_pan_x": 0.06, "end_pan_y": 0.08, "end_tilt_deg": 0.3},
+        {"t": 5.30, "zoom": 2.14, "pan_x": -0.26, "pan_y": -0.26, "tilt_deg": 0.3, "end_zoom": 2.26, "end_pan_x": -0.26, "end_pan_y": -0.26, "end_tilt_deg": -0.3}
+      ],
+      "sprites": [],
+      "overhead": null,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.46},
+        {"rel": 2.60, "type": "river_cheer", "gain": 0.56},
+        {"rel": 5.35, "type": "celesta_chime", "gain": 0.62}
+      ]
+    },
+    {
+      "id": "scene_12",
+      "keyframe": "keyframes/scene_12.jpg",
+      "shots": [
+        {"t": 0.00, "zoom": 1.01, "pan_x": 0.0, "pan_y": 0.0, "tilt_deg": 0.0, "end_zoom": 1.06, "end_pan_x": 0.0, "end_pan_y": -0.02, "end_tilt_deg": 0.2},
+        {"t": 1.40, "zoom": 1.08, "pan_x": 0.0, "pan_y": -0.03, "tilt_deg": -0.2, "end_zoom": 1.13, "end_pan_x": 0.0, "end_pan_y": -0.04, "end_tilt_deg": 0.2}
+      ],
+      "sprites": [
+        {"bbox": [0.035, 0.280, 0.345, 0.490], "motion": "football_hop_l", "pop_delay": 0.0},
+        {"bbox": [0.700, 0.310, 0.985, 0.490], "motion": "football_hop_r", "pop_delay": 0.0}
+      ],
+      "overhead": null,
+      "comment_panel": {
+        "trigger_rel": 0.14,
+        "keyword": "UP",
+        "comments": [
+          {"handle": "@ProudYooper", "text": "UP! Best trade Michigan ever made — keep Toledo!", "likes": "2.4K ♥", "color": [24, 128, 66]},
+          {"handle": "@WisconsinBadger", "text": "UP — Wisconsin STILL wants a rematch over that map!", "likes": "1.9K ♥", "color": [186, 36, 32]}
+        ]
+      },
+      "loop_return_sec": 0.30,
+      "foley": [
+        {"rel": 0.04, "type": "camera_whoosh", "gain": 0.46},
+        {"rel": 0.18, "type": "stadium_swell", "gain": 0.44}
+      ]
+    }
+  ]
+}

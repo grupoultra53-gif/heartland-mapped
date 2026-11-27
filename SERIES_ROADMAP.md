@@ -29,7 +29,7 @@
 | **11** | **Qui 03/12/2026** | Agendado | *The Edmund Fitzgerald & Lake Superior's Deadliest Storm (1975)* | Michigan / Wisconsin / Minnesota | `FITZ` |
 | **12** | **Sex 04/12/2026** | Agendado | *How the Mackinac Bridge Ended 20-Mile Ferry Lines (1957)* | Michigan | `BRIDGE` |
 | **13** | **Sáb 05/12/2026** | Agendado | *Black Sunday: The Day Daylight Vanished on the Plains (1935)* | Kansas / Nebraska / Oklahoma | `PLAINS` |
-| **14** | **Dom 06/12/2026** | Planejado | *Why Michigan's Upper Peninsula Doesn't Belong to Wisconsin* | Michigan vs. Wisconsin | `UP` |
+| **14** | **Dom 06/12/2026** | Pronto no Drive | *Why Michigan's Upper Peninsula Doesn't Belong to Wisconsin* | Michigan vs. Wisconsin | `UP` |
 
 ### Arco 3 — Curiosidades, Leis & Cidades do Heartland (Dias 15 a 22)
 | Ep. | Status | Tema | Estados |

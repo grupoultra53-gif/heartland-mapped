@@ -1,0 +1,14 @@
+{
+  "episode": "ep14_upper_peninsula",
+  "video_file": "heartland_mapped_ep14_upper_peninsula.mp4",
+  "duration_sec": 68.63,
+  "visual_jumps_per_10s": 24.33,
+  "planned_shots_per_10s": 4.95,
+  "closeup_pct": 64.9,
+  "frame0_zoom": 2.04,
+  "frame0_visible_sprites": 1,
+  "audio_gap_db_drop": 4.4,
+  "has_comment_panel": true,
+  "has_seamless_loop": true,
+  "all_pass": true
+}
