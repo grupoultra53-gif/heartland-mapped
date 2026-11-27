@@ -17,18 +17,18 @@
 | **03** | **Qua 25/11/2026** | Agendado | v2 · Edge-TTS | *Why Minnesota Has That Weird Bump (Northwest Angle)* | Minnesota vs. Canada | `BUMP` / `SWAP` |
 | **04** | **Qui 26/11/2026** | Agendado | v2 · Edge-TTS | *The Honey War (1839)* | Iowa vs. Missouri | `HONEY` |
 | **05** | **Sex 27/11/2026** | Agendado | v2 · Fish Audio (Ethan) | *Carter Lake — The Iowa Town Trapped Inside Nebraska (1877)* | Iowa vs. Nebraska | `IOWA` / `NEBRASKA` |
-| **06** | **Sáb 28/11/2026** | Pronto no Drive | v2 · Fish Audio (Ethan) | *The Kentucky Bend — Isolated by the 1812 Earthquake* | Kentucky / Missouri / Tennessee | `KEEP` / `TRADE` |
-| **07** | **Dom 29/11/2026** | Pronto no Drive | v2 · Fish Audio (Ethan) | *The Missouri Bootheel — One Stubborn Landowner (1821)* | Missouri vs. Arkansas | `BOOT` |
+| **06** | **Sáb 28/11/2026** | Agendado | v2 · Fish Audio (Ethan) | *The Kentucky Bend — Isolated by the 1812 Earthquake* | Kentucky / Missouri / Tennessee | `KEEP` / `TRADE` |
+| **07** | **Dom 29/11/2026** | Agendado | v2 · Fish Audio (Ethan) | *The Missouri Bootheel — One Stubborn Landowner (1821)* | Missouri vs. Arkansas | `BOOT` |
 
 ### Arco 2 — Engenharias Impossíveis & Desastres Históricos (Eps. 08–14)
 | Ep. | Data Programada | Status | Tema | Estados | CTA 1 Palavra |
 | :-: | :--- | :--- | :--- | :--- | :---: |
-| **08** | **Seg 30/11/2026** | Pronto no Drive | *The Day Chicago Raised the Entire City 10 Feet Out of the Mud (1856)* | Illinois | `LIFT` |
-| **09** | **Ter 01/12/2026** | Pronto no Drive | *The Great Peshtigo Fire (1871 — Same Night as Chicago, 5x Deadlier)* | Wisconsin | `REMEMBER` |
-| **10** | **Qua 02/12/2026** | Pronto no Drive | *The Night the Mississippi River Flowed Backwards (1811–1812)* | Missouri / Illinois / Kentucky | `QUAKE` |
-| **11** | **Qui 03/12/2026** | Pronto no Drive | *The Edmund Fitzgerald & Lake Superior's Deadliest Storm (1975)* | Michigan / Wisconsin / Minnesota | `FITZ` |
-| **12** | **Sex 04/12/2026** | Pronto no Drive | *How the Mackinac Bridge Ended 20-Mile Ferry Lines (1957)* | Michigan | `BRIDGE` |
-| **13** | **Sáb 05/12/2026** | Pronto no Drive | *Black Sunday: The Day Daylight Vanished on the Plains (1935)* | Kansas / Nebraska / Oklahoma | `PLAINS` |
+| **08** | **Seg 30/11/2026** | Agendado | *The Day Chicago Raised the Entire City 10 Feet Out of the Mud (1856)* | Illinois | `LIFT` |
+| **09** | **Ter 01/12/2026** | Agendado | *The Great Peshtigo Fire (1871 — Same Night as Chicago, 5x Deadlier)* | Wisconsin | `REMEMBER` |
+| **10** | **Qua 02/12/2026** | Agendado | *The Night the Mississippi River Flowed Backwards (1811–1812)* | Missouri / Illinois / Kentucky | `QUAKE` |
+| **11** | **Qui 03/12/2026** | Agendado | *The Edmund Fitzgerald & Lake Superior's Deadliest Storm (1975)* | Michigan / Wisconsin / Minnesota | `FITZ` |
+| **12** | **Sex 04/12/2026** | Agendado | *How the Mackinac Bridge Ended 20-Mile Ferry Lines (1957)* | Michigan | `BRIDGE` |
+| **13** | **Sáb 05/12/2026** | Agendado | *Black Sunday: The Day Daylight Vanished on the Plains (1935)* | Kansas / Nebraska / Oklahoma | `PLAINS` |
 | **14** | **Dom 06/12/2026** | Planejado | *Why Michigan's Upper Peninsula Doesn't Belong to Wisconsin* | Michigan vs. Wisconsin | `UP` |
 
 ### Arco 3 — Curiosidades, Leis & Cidades do Heartland (Dias 15 a 22)
@@ -63,8 +63,8 @@
 
 | Longo | Data Programada | Status | Título | Shorts Conectados ("Vídeo Relacionado") | Pasta / Drive |
 | :-: | :--- | :--- | :--- | :--- | :--- |
-| **01** | **Sex 27/11/2026 (11:00 RR)** | **Pronto no Drive (17/17 PASS · Revisado)** | *5 Midwest Border Fights That Almost Started Real Wars* (`10:45`) | Eps. 03, 04, 05, 06, 07 | [Pasta no Drive](https://drive.google.com/drive/folders/13Hgr07YHP_AKUEg-rt0MqMRdhl2x_MbW) |
-| **02** | **Ter 01/12/2026 (11:00 RR)** | **Pronto no Drive (17/17 PASS · Revisado)** | *The Night Two Fires Burned the Midwest: Chicago and Peshtigo, 1871* (`8:18`) | Eps. 08, 09 | [Pasta no Drive](https://drive.google.com/drive/folders/1X9etIyYAWopr14Y2_qQj0RCR2VW6DkF8) |
-| **03** | **Sex 04/12/2026 (11:00 RR)** | Planejado | *The Great Lakes Storms That Swallowed Ships: 1913 and the Edmund Fitzgerald* | Eps. 11, 12 | Próximo |
+| **01** | **Sex 27/11/2026 (11:00 RR)** | **Agendado (17/17 PASS)** | *5 Midwest Border Fights That Almost Started Real Wars* (`10:45`) | Eps. 03, 04, 05, 06, 07 | [Pasta no Drive](https://drive.google.com/drive/folders/13Hgr07YHP_AKUEg-rt0MqMRdhl2x_MbW) |
+| **02** | **Ter 01/12/2026 (11:00 RR)** | **Agendado (17/17 PASS)** | *The Night Two Fires Burned the Midwest: Chicago and Peshtigo, 1871* (`8:18`) | Eps. 08, 09 | [Pasta no Drive](https://drive.google.com/drive/folders/1X9etIyYAWopr14Y2_qQj0RCR2VW6DkF8) |
+| **03** | **Sex 04/12/2026 (11:00 RR)** | **Pronto no Drive (17/17 PASS)** | *The Great Lakes Storms That Swallowed Ships: 1913 and the Edmund Fitzgerald* (`8:14`) | Eps. 11, 12 | [Pasta no Drive](https://drive.google.com/drive/folders/1-xa4RaQONS9EzyvmWOqjyJnf6TcPopnJ) |
 | **04** | **Ter 08/12/2026 (11:00 RR)** | Planejado | *The Year the Mississippi Ran Backwards: The New Madrid Earthquakes* | Eps. 10, 13 | Próximo |
 | **05** | **Sex 11/12/2026 (11:00 RR)** | Planejado | *How Chicago Pulled Off the Two Wildest Engineering Stunts in American History* | Eps. 02, 08 | Próximo |

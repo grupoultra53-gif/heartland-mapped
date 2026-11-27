@@ -1,0 +1,142 @@
+================================================================================
+HEARTLAND MAPPED — FONTES E LICENCAS DE IMAGENS (lf03_great_lakes_storms)
+Todos os arquivos abaixo foram verificados quanto a Dominio Publico ou CC BY / CC BY-SA.
+================================================================================
+
+[arc_01_edmund_fitzgerald_usace] (ARCHIVE) — archive/arc_01_edmund_fitzgerald_usace.jpg (2600x1839)
+  Descricao : SS Edmund Fitzgerald Underway on the Great Lakes (U.S. Army Corps of Engineers)
+  Autor     : Unknown author Unknown author
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Edmund_Fitzgerald-USACE.jpg
+
+[arc_02_fitzgerald_1971] (ARCHIVE) — archive/arc_02_fitzgerald_1971.jpg (2600x1518)
+  Descricao : SS Edmund Fitzgerald — 729-Foot Great Lakes Ore Carrier (1971)
+  Autor     : Greenmars
+  Licenca   : CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+  URL       : https://commons.wikimedia.org/wiki/File:Edmund_Fitzgerald,_1971,_3_of_4_(restored;_cropped).jpg
+
+[arc_03_superior_waves_1] (ARCHIVE) — archive/arc_03_superior_waves_1.jpg (2600x1733)
+  Descricao : Autumn Gale Waves Crashing Over the Lake Superior Breakwater at Two Harbors, Minnesota
+  Autor     : Pete Markham from Loretto, USA
+  Licenca   : CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)
+  URL       : https://commons.wikimedia.org/wiki/File:North_Shore_Trip_-_Oct_2017_-_Waves_Crashing_Over_the_Two_Harbors_Breakwater_(26301993359).jpg
+
+[arc_04_superior_waves_2] (ARCHIVE) — archive/arc_04_superior_waves_2.jpg (2600x1733)
+  Descricao : Steep Short-Period Waves Pounding Lake Superior's North Shore in Autumn
+  Autor     : Pete Markham from Loretto, USA
+  Licenca   : CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)
+  URL       : https://commons.wikimedia.org/wiki/File:North_Shore_Trip_-_Oct_2017_-_Waves_Crashing_Over_the_Two_Harbors_Breakwater_(38025498796).jpg
+
+[arc_05_soo_locks_1904] (ARCHIVE) — archive/arc_05_soo_locks_1904.jpg (1280x811)
+  Descricao : Historic Soo Locks Shipping Corridor Connecting Lake Superior and Lake Huron (1904)
+  Autor     : Detroit Publishing Co.
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Soo_Locks_1904_panorama_color.jpg
+
+[arc_06_duluth_ore_dock] (ARCHIVE) — archive/arc_06_duluth_ore_dock.jpg (2600x1695)
+  Descricao : Iron Ore Loading Docks at Duluth–Superior Harbor (U.S. EPA Historical Archive)
+  Autor     : US Army Corps of Engineers, unknown photographer
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:USEPA_GL_collection_177_DMIR_DuluthSuperiorOreDock.jpg
+
+[arc_07_1913_weather_map] (ARCHIVE) — archive/arc_07_1913_weather_map.jpg (2002x1453)
+  Descricao : U.S. Weather Bureau Synoptic Map of the November 1913 Great Lakes Storm
+  Autor     : NOAA Library
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Great_Lakes_Storm_weather_map,_November_7,_1913_(better_quality)_(298807).jpg
+
+[arc_08_1913_shipwrecks_map] (ARCHIVE) — archive/arc_08_1913_shipwrecks_map.jpg (2600x1560)
+  Descricao : Historical Map of Shipwrecks Across the Great Lakes During the 1913 White Hurricane
+  Autor     : Tom Fish · geo.fish · Fish Eye
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Great_Lakes_1913_Storm_Shipwrecks.png
+
+[arc_09_charles_s_price_hull] (ARCHIVE) — archive/arc_09_charles_s_price_hull.jpg (2600x1662)
+  Descricao : SS Charles S. Price — 524-Foot Great Lakes Steel Freighter Lost in November 1913
+  Autor     : Louis J. Pesha (1868-1912) Published in The Marine Review
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Charles_S._Price.jpg
+
+[arc_10_price_upside_down] (ARCHIVE) — archive/arc_10_price_upside_down.jpg (1024x628)
+  Descricao : Overturned Hull of SS Charles S. Price Floating Upside Down in Lake Huron (November 1913)
+  Autor     : Unknown / Archival
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Charles_S_Price_upside_down,_1913.png
+
+[arc_11_lightship_82] (ARCHIVE) — archive/arc_11_lightship_82.jpg (800x418)
+  Descricao : U.S. Lightship No. 82 After Salvage Following the 1913 White Hurricane
+  Autor     : Unknown / Archival
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Lightship_82_after_1913_Great_Lakes_storm.png
+
+[arc_12_lake_huron_winter] (ARCHIVE) — archive/arc_12_lake_huron_winter.jpg (2400x2400)
+  Descricao : Icy Winter Storm Waters on Lake Huron
+  Autor     : NASA
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:Lake_Huron_in_winter.jpg
+
+[arc_13_arthur_m_anderson] (ARCHIVE) — archive/arc_13_arthur_m_anderson.jpg (2600x1733)
+  Descricao : SS Arthur M. Anderson — Companion Freighter That Tracked the Edmund Fitzgerald on November 10, 1975
+  Autor     : Gary Todd
+  Licenca   : CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+  URL       : https://commons.wikimedia.org/wiki/File:ARTHUR_M._ANDERSON_-_7.jpg
+
+[arc_14_anderson_ore_dock] (ARCHIVE) — archive/arc_14_anderson_ore_dock.jpg (2600x1733)
+  Descricao : SS Arthur M. Anderson Loading Taconite Pellets at the Duluth–Superior Ore Dock
+  Autor     : Gary Todd
+  Licenca   : CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+  URL       : https://commons.wikimedia.org/wiki/File:ARTHUR_M._ANDERSON_at_CN_(DM%26IR)_Ore_Dock.jpg
+
+[arc_15_uscg_noaa_buoy] (ARCHIVE) — archive/arc_15_uscg_noaa_buoy.jpg (2600x1725)
+  Descricao : U.S. Coast Guard Cutter Servicing a Great Lakes NOAA Weather Buoy
+  Autor     : Petty Officer 2nd Class Levi Read
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:USCGC_Bristol_Bay_removes_NOAA_buoy_121126-G-AW789-069.jpg
+
+[arc_16_immersion_suit] (ARCHIVE) — archive/arc_16_immersion_suit.jpg (1536x2048)
+  Descricao : Mandatory Cold-Water Immersion Survival Suit Adopted After 1975 Great Lakes Reforms
+  Autor     : North Atlantic Division - U.S. Army Corps of Engineers
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:US_Army_Corps_of_Engineers_immersion_suit.jpg
+
+[arc_17_uscg_noaa_buoy_2] (ARCHIVE) — archive/arc_17_uscg_noaa_buoy_2.jpg (2600x1725)
+  Descricao : NOAA Offshore Weather Buoy Broadcasting Real-Time Great Lakes Wave and Wind Data
+  Autor     : Petty Officer 2nd Class Levi Read
+  Licenca   : Public domain
+  URL       : https://commons.wikimedia.org/wiki/File:USCGC_Bristol_Bay_removes_NOAA_buoy_121126-G-AW789-108.jpg
+
+[today_01_mariners_church] (TODAY) — today/today_01_mariners_church.jpg (2600x1949)
+  Descricao : Mariners' Church on Jefferson Avenue in Downtown Detroit, Michigan
+  Autor     : Warren LeMay
+  Licenca   : CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)
+  URL       : https://commons.wikimedia.org/wiki/File:Mariners_Church,_Jefferson_Avenue,_Detroit,_MI.jpg
+
+[today_02_whitefish_point_light] (TODAY) — today/today_02_whitefish_point_light.jpg (2600x1845)
+  Descricao : Historic Whitefish Point Light Station on Lake Superior, Michigan
+  Autor     : Jubileejourney
+  Licenca   : CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+  URL       : https://commons.wikimedia.org/wiki/File:Whitefish_Point_Lighthouse.JPG
+
+[today_03_fitzgerald_bell] (TODAY) — today/today_03_fitzgerald_bell.jpg (2600x1953)
+  Descricao : Original 200-Pound Bronze Bell of the SS Edmund Fitzgerald Recovered in 1995 (Whitefish Point)
+  Autor     : Duchene9
+  Licenca   : CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+  URL       : https://commons.wikimedia.org/wiki/File:Ships_Bell_2.JPG
+
+[today_04_shipwreck_museum] (TODAY) — today/today_04_shipwreck_museum.jpg (1628x1048)
+  Descricao : Great Lakes Shipwreck Museum at Whitefish Point, Michigan
+  Autor     : Doug Coldwell
+  Licenca   : CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+  URL       : https://commons.wikimedia.org/wiki/File:Great_Lakes_Shipwreck_Museum.JPG
+
+[today_05_split_rock] (TODAY) — today/today_05_split_rock.jpg (2600x1715)
+  Descricao : Split Rock Lighthouse Overlooking Lake Superior on Minnesota's North Shore
+  Autor     : MichaelDPhotos
+  Licenca   : CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+  URL       : https://commons.wikimedia.org/wiki/File:Split_Rock_Light_Station.jpg
+
+[today_06_soo_locks_modern] (TODAY) — today/today_06_soo_locks_modern.jpg (2600x1559)
+  Descricao : Modern Great Lakes Ore Carriers Passing Safely Through the Soo Locks Today
+  Autor     : NOAA Great Lakes Environmental Research Laboratory
+  Licenca   : CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0)
+  URL       : https://commons.wikimedia.org/wiki/File:Freighters_at_Soo_Locks_(16807315546).jpg

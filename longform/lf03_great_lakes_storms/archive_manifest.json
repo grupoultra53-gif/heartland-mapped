@@ -1,0 +1,143 @@
+{
+  "episode": "lf03_great_lakes_storms",
+  "items": [
+    {
+      "id": "arc_01_edmund_fitzgerald_usace",
+      "category": "archive",
+      "commons_file": "File:Edmund Fitzgerald-USACE.jpg",
+      "caption": "SS Edmund Fitzgerald Underway on the Great Lakes (U.S. Army Corps of Engineers)"
+    },
+    {
+      "id": "arc_02_fitzgerald_1971",
+      "category": "archive",
+      "commons_file": "File:Edmund Fitzgerald, 1971, 3 of 4 (restored; cropped).jpg",
+      "caption": "SS Edmund Fitzgerald — 729-Foot Great Lakes Ore Carrier (1971)"
+    },
+    {
+      "id": "arc_03_superior_waves_1",
+      "category": "archive",
+      "commons_file": "File:North Shore Trip - Oct 2017 - Waves Crashing Over the Two Harbors Breakwater (26301993359).jpg",
+      "caption": "Autumn Gale Waves Crashing Over the Lake Superior Breakwater at Two Harbors, Minnesota"
+    },
+    {
+      "id": "arc_04_superior_waves_2",
+      "category": "archive",
+      "commons_file": "File:North Shore Trip - Oct 2017 - Waves Crashing Over the Two Harbors Breakwater (38025498796).jpg",
+      "caption": "Steep Short-Period Waves Pounding Lake Superior's North Shore in Autumn"
+    },
+    {
+      "id": "arc_05_soo_locks_1904",
+      "category": "archive",
+      "commons_file": "File:Soo Locks 1904 panorama color.jpg",
+      "caption": "Historic Soo Locks Shipping Corridor Connecting Lake Superior and Lake Huron (1904)"
+    },
+    {
+      "id": "arc_06_duluth_ore_dock",
+      "category": "archive",
+      "commons_file": "File:USEPA GL collection 177 DMIR DuluthSuperiorOreDock.jpg",
+      "caption": "Iron Ore Loading Docks at Duluth–Superior Harbor (U.S. EPA Historical Archive)"
+    },
+    {
+      "id": "arc_07_1913_weather_map",
+      "category": "archive",
+      "commons_file": "File:Great Lakes Storm weather map, November 7, 1913 (better quality) (298807).jpg",
+      "caption": "U.S. Weather Bureau Synoptic Map of the November 1913 Great Lakes Storm"
+    },
+    {
+      "id": "arc_08_1913_shipwrecks_map",
+      "category": "archive",
+      "commons_file": "File:Great Lakes 1913 Storm Shipwrecks.png",
+      "caption": "Historical Map of Shipwrecks Across the Great Lakes During the 1913 White Hurricane"
+    },
+    {
+      "id": "arc_09_charles_s_price_hull",
+      "category": "archive",
+      "commons_file": "File:Charles S. Price.jpg",
+      "caption": "SS Charles S. Price — 524-Foot Great Lakes Steel Freighter Lost in November 1913"
+    },
+    {
+      "id": "arc_10_price_upside_down",
+      "category": "archive",
+      "commons_file": "File:Charles S Price upside down, 1913.png",
+      "caption": "Overturned Hull of SS Charles S. Price Floating Upside Down in Lake Huron (November 1913)"
+    },
+    {
+      "id": "arc_11_lightship_82",
+      "category": "archive",
+      "commons_file": "File:Lightship 82 after 1913 Great Lakes storm.png",
+      "caption": "U.S. Lightship No. 82 After Salvage Following the 1913 White Hurricane"
+    },
+    {
+      "id": "arc_12_lake_huron_winter",
+      "category": "archive",
+      "commons_file": "File:Lake Huron in winter.jpg",
+      "caption": "Icy Winter Storm Waters on Lake Huron"
+    },
+    {
+      "id": "arc_13_arthur_m_anderson",
+      "category": "archive",
+      "commons_file": "File:ARTHUR M. ANDERSON - 7.jpg",
+      "caption": "SS Arthur M. Anderson — Companion Freighter That Tracked the Edmund Fitzgerald on November 10, 1975"
+    },
+    {
+      "id": "arc_14_anderson_ore_dock",
+      "category": "archive",
+      "commons_file": "File:ARTHUR M. ANDERSON at CN (DM&IR) Ore Dock.jpg",
+      "caption": "SS Arthur M. Anderson Loading Taconite Pellets at the Duluth–Superior Ore Dock"
+    },
+    {
+      "id": "arc_15_uscg_noaa_buoy",
+      "category": "archive",
+      "commons_file": "File:USCGC Bristol Bay removes NOAA buoy 121126-G-AW789-069.jpg",
+      "caption": "U.S. Coast Guard Cutter Servicing a Great Lakes NOAA Weather Buoy"
+    },
+    {
+      "id": "arc_16_immersion_suit",
+      "category": "archive",
+      "commons_file": "File:US Army Corps of Engineers immersion suit.jpg",
+      "caption": "Mandatory Cold-Water Immersion Survival Suit Adopted After 1975 Great Lakes Reforms"
+    },
+    {
+      "id": "arc_17_uscg_noaa_buoy_2",
+      "category": "archive",
+      "commons_file": "File:USCGC Bristol Bay removes NOAA buoy 121126-G-AW789-108.jpg",
+      "caption": "NOAA Offshore Weather Buoy Broadcasting Real-Time Great Lakes Wave and Wind Data"
+    },
+    {
+      "id": "today_01_mariners_church",
+      "category": "today",
+      "commons_file": "File:Mariners Church, Jefferson Avenue, Detroit, MI.jpg",
+      "caption": "Mariners' Church on Jefferson Avenue in Downtown Detroit, Michigan"
+    },
+    {
+      "id": "today_02_whitefish_point_light",
+      "category": "today",
+      "commons_file": "File:Whitefish Point Lighthouse.JPG",
+      "caption": "Historic Whitefish Point Light Station on Lake Superior, Michigan"
+    },
+    {
+      "id": "today_03_fitzgerald_bell",
+      "category": "today",
+      "commons_file": "File:Ships Bell 2.JPG",
+      "caption": "Original 200-Pound Bronze Bell of the SS Edmund Fitzgerald Recovered in 1995 (Whitefish Point)"
+    },
+    {
+      "id": "today_04_shipwreck_museum",
+      "category": "today",
+      "commons_file": "File:Great Lakes Shipwreck Museum.JPG",
+      "caption": "Great Lakes Shipwreck Museum at Whitefish Point, Michigan"
+    },
+    {
+      "id": "today_05_split_rock",
+      "category": "today",
+      "commons_file": "File:Split Rock Light Station.jpg",
+      "caption": "Split Rock Lighthouse Overlooking Lake Superior on Minnesota's North Shore"
+    },
+    {
+      "id": "today_06_soo_locks_modern",
+      "category": "today",
+      "commons_file": "File:Freighters at Soo Locks (16807315546).jpg",
+      "caption": "Modern Great Lakes Ore Carriers Passing Safely Through the Soo Locks Today"
+    }
+  ]
+}

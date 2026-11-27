@@ -1,0 +1,130 @@
+{
+  "id": "lf03_great_lakes_storms",
+  "title": "The Great Lakes Storms That Swallowed Ships: 1913 and the Edmund Fitzgerald",
+  "scheduled_date": "2026-12-04",
+  "scheduled_time_rr": "11:00",
+  "voice": "Fish Audio S2.1 Pro - Ethan (@Fish Official)",
+  "voice_tempo": 1.00,
+  "music_overrides": {
+    "curiosity": "mood_steady_akesa_a.wav",
+    "warm": "mood_maritime_akesa_e.wav",
+    "nostalgia": "mood_maritime_akesa_e.wav"
+  },
+  "target_duration_sec": 540,
+  "pronunciation_notes": {
+    "Regina": "Reh-JYE-nah",
+    "taconite": "TACK-uh-nite",
+    "McSorley": "Mc-SOR-lee",
+    "Caribou": "CARE-uh-boo",
+    "Whitefish": "WHITE-fish",
+    "Soo Locks": "Soo Locks"
+  },
+  "research_sources": [
+    {
+      "topic": "Great Lakes Storm of 1913 (White Hurricane)",
+      "label": "NOAA / National Weather Service — The Great Lakes Storm of November 1913",
+      "url": "https://www.weather.gov/cle/1913Storm"
+    },
+    {
+      "topic": "SS Charles S. Price & SS Regina (1913)",
+      "label": "Great Lakes Maritime Collection / Thunder Bay National Marine Sanctuary (NOAA)",
+      "url": "https://thunderbay.noaa.gov/"
+    },
+    {
+      "topic": "SS Edmund Fitzgerald (1975)",
+      "label": "U.S. Coast Guard Marine Board of Investigation Report — SS Edmund Fitzgerald (1977)",
+      "url": "https://www.dco.uscg.mil/Our-Organization/Assistant-Commandant-for-Prevention-Policy-CG-5P/Inspections-Compliance-CG-5PC-/Office-of-Investigations-Casualty-Analysis/Marine-Casualty-Reports/"
+    },
+    {
+      "topic": "SS Edmund Fitzgerald (1975)",
+      "label": "National Transportation Safety Board (NTSB) — Marine Accident Report MAR-78-3",
+      "url": "https://www.ntsb.gov/"
+    },
+    {
+      "topic": "Whitefish Point Bell Recovery (1995)",
+      "label": "Great Lakes Shipwreck Museum — Whitefish Point, Michigan",
+      "url": "https://shipwreckmuseum.com/"
+    },
+    {
+      "topic": "Mariners' Church & Split Rock Lighthouse",
+      "label": "Mariners' Church of Detroit & Minnesota Historical Society (Split Rock Lighthouse)",
+      "url": "https://www.mnhs.org/splitrock"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "01_cold_open",
+      "chapter": "Cold Open",
+      "pause_after_sec": 0.65,
+      "mood": "tension",
+      "display_text": "November 10, 1975. Just after seven in the evening on Lake Superior. Seventy-mile-per-hour gales are driving waves thirty feet high across open water. Seventeen miles short of shelter at Whitefish Bay, the seven-hundred-twenty-nine-foot ore freighter Edmund Fitzgerald radios one calm sentence to the ship trailing behind her: 'We are holding our own.' Minutes later, she vanishes from radar without a distress call—taking all twenty-nine crewmen down into five hundred thirty feet of freezing water. Yet as haunting as 1975 was, it was not even the deadliest November storm to sweep across the Great Lakes.",
+      "fish_text": "November 10, 1975. Just after seven in the evening on Lake Superior. Seventy-mile-per-hour gales are driving waves thirty feet high across open water. Seventeen miles short of shelter at Whitefish Bay, the seven-hundred-twenty-nine-foot ore freighter Edmund Fitzgerald radios one calm sentence to the ship trailing behind her: We are holding our own. Minutes later, she vanishes from radar without a distress call, taking all twenty-nine crewmen down into five hundred thirty feet of freezing water. Yet as haunting as 1975 was, it was not even the deadliest November storm to sweep across the Great Lakes."
+    },
+    {
+      "id": "02_promise_map",
+      "chapter": "Intro",
+      "voice_tempo": 0.98,
+      "pause_after_sec": 0.70,
+      "mood": "curiosity",
+      "display_text": "Sixty-two years earlier, in November 1913, a freak freshwater hurricane sank twelve major ships and claimed more than two hundred fifty lives in a single weekend. Over the next nine minutes, we trace why these five inland lakes behave like ruthless oceans every autumn—from the White Hurricane of 1913, to the final night of the Edmund Fitzgerald in 1975, to the sweeping safety reforms that have kept a single major Great Lakes freighter from sinking in the fifty years since.",
+      "fish_text": "Sixty-two years earlier, in November 1913, a freak freshwater hurricane sank twelve major ships and claimed more than two hundred fifty lives in a single weekend. Over the next nine minutes, we trace why these five inland lakes behave like ruthless oceans every autumn, from the White Hurricane of 1913, to the final night of the Edmund Fitzgerald in 1975, to the sweeping safety reforms that have kept a single major Great Lakes freighter from sinking in the fifty years since."
+    },
+    {
+      "id": "03_cap1_november_witch",
+      "chapter": "Chapter 1: The Gales of November",
+      "voice_tempo": 0.98,
+      "chapter_card": {
+        "number": "1",
+        "year": "AUTUMN",
+        "title": "THE NOVEMBER WITCH",
+        "subtitle": "Why Freshwater Lakes Act Like Oceans"
+      },
+      "pause_after_sec": 0.75,
+      "mood": "curiosity",
+      "display_text": "To anyone who has never stood on the shore of Lake Superior or Lake Huron in late fall, it sounds impossible that freshwater lakes could swallow steel ships longer than two football fields. Every November, however, the Great Lakes become a weather engine. All summer long, those massive basins absorb heat. Then, as autumn deepens, plunging Arctic cold fronts race south from Canada and slam straight into warm, moisture-rich air curling up from the Gulf of Mexico. Right over the still-warm water of the lakes, those opposing systems lock together and explode into fierce cyclones that sailors call 'November Witches.' Worse still, physics on the Great Lakes works against big ships. Because freshwater is less dense than ocean saltwater, freighters sit lower in the water. And because the lakes are shallower and narrower than the Atlantic Ocean, storm waves cannot stretch into long, gentle swells. Instead, steep, jagged walls of water slam into hulls every eight to ten seconds. When a seven-hundred-foot steel freighter rides across two wave crests at once, its middle hangs nearly unsupported—while tons of freezing water hammer down on its cargo hatches. Every shipping season ends with a race to haul iron ore and coal before winter ice seals the locks—pushing crews straight into the worst weeks of the year.",
+      "fish_text": "To anyone who has never stood on the shore of Lake Superior or Lake Huron in late fall, it sounds impossible that freshwater lakes could swallow steel ships longer than two football fields. Every November, however, the Great Lakes become a weather engine. All summer long, those massive basins absorb heat. Then, as autumn deepens, plunging Arctic cold fronts race south from Canada and slam straight into warm, moisture-rich air curling up from the Gulf of Mexico. Right over the still-warm water of the lakes, those opposing systems lock together and explode into fierce cyclones that sailors call November Witches. Worse still, physics on the Great Lakes works against big ships. Because freshwater is less dense than ocean saltwater, freighters sit lower in the water. And because the lakes are shallower and narrower than the Atlantic Ocean, storm waves cannot stretch into long, gentle swells. Instead, steep, jagged walls of water slam into hulls every eight to ten seconds. When a seven-hundred-foot steel freighter rides across two wave crests at once, its middle hangs nearly unsupported, while tons of freezing water hammer down on its cargo hatches. Every shipping season ends with a race to haul iron ore and coal before winter ice seals the locks, pushing crews straight into the worst weeks of the year."
+    },
+    {
+      "id": "04_cap2_white_hurricane_1913",
+      "chapter": "Chapter 2: The White Hurricane (1913)",
+      "chapter_card": {
+        "number": "2",
+        "year": "NOV 1913",
+        "title": "THE WHITE HURRICANE",
+        "subtitle": "The Deadliest Weekend on the Lakes"
+      },
+      "pause_after_sec": 0.75,
+      "mood": "tension",
+      "display_text": "That autumn weather trap sprang shut with terrifying force from November 7 to November 10, 1913. Two massive low-pressure systems merged directly over the warm Great Lakes, peaking on Sunday, November 9—a day sailors forever remembered as Black Sunday. Sustained hurricane-force winds reached ninety miles per hour. Waves towered thirty-five feet high, while blinding snow buried lakeside cities—dumping twenty-two inches on Cleveland and snapping telegraph and power lines across Ohio and Michigan. Out on the water, dozens of modern steel freighters had no radar, no reliable ship-to-shore radio, and almost no warning. By the time the snow cleared on Monday morning, twelve ships had vanished completely beneath the waves, nineteen more lay stranded or smashed ashore, and more than two hundred fifty sailors were dead. It remains the deadliest natural disaster in Great Lakes shipping history. Lake Huron suffered the worst blow, swallowing eight major freighters with zero survivors. The haunting emblem of 1913 was a brand-new five-hundred-twenty-four-foot steel carrier named the Charles S. Price. When calm returned, stunned onlookers near Port Huron discovered her giant red hull floating completely upside down like a stranded whale, before she finally slipped beneath the surface. Days later, an eerie mystery gripped the newspapers: bodies from the Charles S. Price washed ashore in Ontario wearing life jackets stamped with the name of a nearby Canadian freighter that had also vanished, the Regina. For decades, rumors claimed the two ships had collided in the whiteout. Only when divers explored both wrecks generations later was the mystery settled: neither hull showed collision damage. Both ships had simply foundered in the same deadly stretch of Lake Huron, their crews fighting for survival in freezing dark water.",
+      "fish_text": "That autumn weather trap sprang shut with terrifying force from November 7 to November 10, 1913. Two massive low-pressure systems merged directly over the warm Great Lakes, peaking on Sunday, November 9, a day sailors forever remembered as Black Sunday. Sustained hurricane-force winds reached ninety miles per hour. Waves towered thirty-five feet high, while blinding snow buried lakeside cities, dumping twenty-two inches on Cleveland and snapping telegraph and power lines across Ohio and Michigan. Out on the water, dozens of modern steel freighters had no radar, no reliable ship-to-shore radio, and almost no warning. By the time the snow cleared on Monday morning, twelve ships had vanished completely beneath the waves, nineteen more lay stranded or smashed ashore, and more than two hundred fifty sailors were dead. It remains the deadliest natural disaster in Great Lakes shipping history. Lake Huron suffered the worst blow, swallowing eight major freighters with zero survivors. The haunting emblem of 1913 was a brand-new five-hundred-twenty-four-foot steel carrier named the Charles S. Price. When calm returned, stunned onlookers near Port Huron discovered her giant red hull floating completely upside down like a stranded whale, before she finally slipped beneath the surface. Days later, an eerie mystery gripped the newspapers: bodies from the Charles S. Price washed ashore in Ontario wearing life jackets stamped with the name of a nearby Canadian freighter that had also vanished, the Reh-JYE-nah. For decades, rumors claimed the two ships had collided in the whiteout. Only when divers explored both wrecks generations later was the mystery settled: neither hull showed collision damage. Both ships had simply foundered in the same deadly stretch of Lake Huron, their crews fighting for survival in freezing dark water."
+    },
+    {
+      "id": "05_cap3_edmund_fitzgerald_1975",
+      "chapter": "Chapter 3: The Edmund Fitzgerald (1975)",
+      "chapter_card": {
+        "number": "3",
+        "year": "NOV 10, 1975",
+        "title": "THE EDMUND FITZGERALD",
+        "subtitle": "29 Men & Lake Superior's Deepest Mystery"
+      },
+      "pause_after_sec": 0.75,
+      "mood": "tension",
+      "display_text": "Sixty-two years later, steel ships were bigger, stronger, and packed with modern electronics—yet Lake Superior proved it had not been tamed. Launched near Detroit in 1958, the SS Edmund Fitzgerald was seven hundred twenty-nine feet long—known across the Midwest as the Queen of the Great Lakes. On the afternoon of November 9, 1975, veteran Captain Ernest McSorley steered her out of Superior, Wisconsin, loaded with over twenty-six thousand tons of iron-ore taconite pellets bound for Detroit. Trailing a few miles behind was another big ore carrier, the Arthur M. Anderson. Overnight, a powerful storm intensified rapidly over Lake Superior. Both captains chose the safer northern route, hugging Ontario's shoreline for shelter before turning south toward the calm waters of Whitefish Bay. By mid-afternoon on November 10, winds shrieked past seventy miles an hour and waves topped twenty-five to thirty feet. Over the radio, McSorley reported heavy listing, torn deck vents, and a damaged fence rail—and soon after, both of his radar sets failed. Worse still, the storm had knocked out the lighthouse and radio beacon ahead at Whitefish Point. The Fitzgerald was now steaming blind through blinding snow squalls, relying on the trailing Arthur M. Anderson to talk her past the shoals. At 7:10 PM, the Anderson's first mate asked how she was making out. McSorley replied calmly: 'We are holding our own.' Minutes later, a wall of snow cleared on the Anderson's radar screen—and the Edmund Fitzgerald was simply gone. No distress call. No flare. Not a single lifeboat launched. Today she lies broken in two in five hundred thirty feet of icy water, seventeen miles northwest of Whitefish Point. Investigators from the U.S. Coast Guard concluded that flooding through damaged cargo hatches likely robbed her of buoyancy, while other researchers have debated bottoming out near Caribou Island or a sudden series of giant rogue waves. Whatever delivered the final blow, all twenty-nine men were gone in moments.",
+      "fish_text": "Sixty-two years later, steel ships were bigger, stronger, and packed with modern electronics, yet Lake Superior proved it had not been tamed. Launched near Detroit in 1958, the SS Edmund Fitzgerald was seven hundred twenty-nine feet long, known across the Midwest as the Queen of the Great Lakes. On the afternoon of November 9, 1975, veteran Captain Ernest McSorley steered her out of Superior, Wisconsin, loaded with over twenty-six thousand tons of iron-ore TACK-uh-nite pellets bound for Detroit. Trailing a few miles behind was another big ore carrier, the Arthur M. Anderson. Overnight, a powerful storm intensified rapidly over Lake Superior. Both captains chose the safer northern route, hugging Ontario's shoreline for shelter before turning south toward the calm waters of Whitefish Bay. By mid-afternoon on November 10, winds shrieked past seventy miles an hour and waves topped twenty-five to thirty feet. Over the radio, McSorley reported heavy listing, torn deck vents, and a damaged fence rail, and soon after, both of his radar sets failed. Worse still, the storm had knocked out the lighthouse and radio beacon ahead at Whitefish Point. The Fitzgerald was now steaming blind through blinding snow squalls, relying on the trailing Arthur M. Anderson to talk her past the shoals. At 7:10 PM, the Anderson's first mate asked how she was making out. McSorley replied calmly: We are holding our own. Minutes later, a wall of snow cleared on the Anderson's radar screen, and the Edmund Fitzgerald was simply gone. No distress call. No flare. Not a single lifeboat launched. Today she lies broken in two in five hundred thirty feet of icy water, seventeen miles northwest of Whitefish Point. Investigators from the U.S. Coast Guard concluded that flooding through damaged cargo hatches likely robbed her of buoyancy, while other researchers have debated bottoming out near Caribou Island or a sudden series of giant rogue waves. Whatever delivered the final blow, all twenty-nine men were gone in moments."
+    },
+    {
+      "id": "06_cap4_reforms_and_today",
+      "chapter": "Chapter 4: What Changed & What's Left Today",
+      "chapter_card": {
+        "number": "4",
+        "year": "SINCE 1975",
+        "title": "WHAT'S LEFT TODAY",
+        "subtitle": "50 Years Without a Lost Freighter"
+      },
+      "pause_after_sec": 0.50,
+      "mood": "nostalgia",
+      "display_text": "The next morning, November 11, 1975, the rector at Mariners' Church in downtown Detroit walked to the bell rope and tolled the church bell twenty-nine times—once for every man lost on Lake Superior. A year later, Canadian songwriter Gordon Lightfoot turned that quiet tribute into one of the most haunting ballads in American music, ensuring the Fitzgerald's crew would never be forgotten. Just as important, the disaster reshaped Great Lakes shipping forever. Following the Coast Guard and safety board investigations, federal regulators rolled back load-line rules so autumn freighters ride higher above boarding waves. Strict pre-November hatch inspections became mandatory. Every crewman was issued a cold-water immersion survival suit, ships gained emergency distress beacons and satellite GPS, and offshore NOAA weather buoys began broadcasting real-time wave and wind data. Captains stopped racing November gales and started waiting them out in safe harbor. The result is remarkable: in the five decades since November 1975, not a single major commercial Great Lakes freighter has sunk. Today, you can still visit the shores where this history lives. At Whitefish Point in Michigan's Upper Peninsula, the Great Lakes Shipwreck Museum displays the Edmund Fitzgerald's original two-hundred-pound bronze bell—recovered from the wreck in 1995 and replaced underwater with a replica engraved with all twenty-nine names. Across Lake Superior in Minnesota, historic Split Rock Lighthouse still lights its beacon every November 10 in silent tribute, while Mariners' Church in Detroit still rings its bell each fall. Have you ever watched a November gale roll off the Great Lakes—or visited Whitefish Point or Split Rock Lighthouse? Tell us which state or province you are watching from down in the comments, and subscribe to Heartland Mapped for more true stories from the American Midwest.",
+      "fish_text": "The next morning, November 11, 1975, the rector at Mariners' Church in downtown Detroit walked to the bell rope and tolled the church bell twenty-nine times, once for every man lost on Lake Superior. A year later, Canadian songwriter Gordon Lightfoot turned that quiet tribute into one of the most haunting ballads in American music, ensuring the Fitzgerald's crew would never be forgotten. Just as important, the disaster reshaped Great Lakes shipping forever. Following the Coast Guard and safety board investigations, federal regulators rolled back load-line rules so autumn freighters ride higher above boarding waves. Strict pre-November hatch inspections became mandatory. Every crewman was issued a cold-water immersion survival suit, ships gained emergency distress beacons and satellite GPS, and offshore NOAA weather buoys began broadcasting real-time wave and wind data. Captains stopped racing November gales and started waiting them out in safe harbor. The result is remarkable: in the five decades since November 1975, not a single major commercial Great Lakes freighter has sunk. Today, you can still visit the shores where this history lives. At Whitefish Point in Michigan's Upper Peninsula, the Great Lakes Shipwreck Museum displays the Edmund Fitzgerald's original two-hundred-pound bronze bell, recovered from the wreck in 1995 and replaced underwater with a replica engraved with all twenty-nine names. Across Lake Superior in Minnesota, historic Split Rock Lighthouse still lights its beacon every November 10 in silent tribute, while Mariners' Church in Detroit still rings its bell each fall. Have you ever watched a November gale roll off the Great Lakes, or visited Whitefish Point or Split Rock Lighthouse? Tell us which state or province you are watching from down in the comments, and subscribe to Heartland Mapped for more true stories from the American Midwest."
+    }
+  ]
+}

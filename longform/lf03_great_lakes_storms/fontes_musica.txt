@@ -1,0 +1,32 @@
+================================================================================
+HEARTLAND MAPPED — FONTES E REGISTRO DE TRILHAS MUSICAIS (LF03)
+================================================================================
+
+1. TRILHAS INSTRUMENTAIS UTILIZADAS NO MIX (-20 dB abaixo da voz, -14 LUFS final):
+   * Nota de variacao sonora (Regra C.5): Longo 03 introduz 2 faixas NOVAS nao usadas
+     nos Longos 01 e 02 (Akesa A e Akesa E), renovando a assinatura sonora do canal.
+
+   - Clima Curiosidade / Fisica dos Grandes Lagos (NOVA):
+     Arquivo local : assets/music/mood_steady_akesa_a.wav
+     Origem        : Biblioteca local do usuario (Automacao_Shopee/assets/Akesa A - Kitchen & Home.wav)
+     Status Checks : Mesma colecao royalty-free aprovada sem avisos nos Longos 01 e 02.
+
+   - Clima Calmo / Memoria Maritima & Legado Hoje (NOVA):
+     Arquivo local : assets/music/mood_maritime_akesa_e.wav
+     Origem        : Biblioteca local do usuario (Automacao_Shopee/assets/Akesa E - Cozy Evening & Comfort.wav)
+     Status Checks : Mesma colecao royalty-free aprovada sem avisos nos Longos 01 e 02.
+
+   - Clima Tensao / White Hurricane 1913 & Noite do Edmund Fitzgerald:
+     Arquivo local : assets/music/mood_tension_drone.mp3 (192.8s)
+     Origem        : Biblioteca local do usuario (Novelas da Fe/sons/ambient_drone/5b2ea8e0.mp3)
+     Status Checks : Aprovada sem avisos nos Longos 01 e 02 no YouTube Studio.
+
+2. AMBIENCIA & FOLEY:
+   - Ambiencia sutil de vento dos Grandes Lagos (-36 dBFS): assets/music/ambience_plains_wind.mp3
+   - Efeitos situacionais (vento/onda, sino maritimo, pergaminho, estalo): gerados 100%
+     proceduralmente em Python/SciPy (scripts/render_longform.py) — zero direitos de terceiros.
+
+3. VERIFICACAO ANTES DE PUBLICAR:
+   - Confirmar na aba "Verificacoes / Checks" do YouTube Studio (Avisos: —).
+   - Se desejar trocar qualquer faixa, basta substituir em `assets/music/` e rodar
+     `render_longform.py longform\lf03_great_lakes_storms --workers 10` (~15s com cache SHA256).

@@ -1,0 +1,6598 @@
+{
+  "duration": 494.498,
+  "blocks": [
+    {
+      "id": "01_cold_open",
+      "chapter": "Cold Open",
+      "chapter_card": null,
+      "chapter_card_start": null,
+      "chapter_card_end": null,
+      "speech_start": 0.45,
+      "speech_end": 37.356,
+      "block_end": 38.006,
+      "mood": "tension"
+    },
+    {
+      "id": "02_promise_map",
+      "chapter": "Intro",
+      "chapter_card": null,
+      "chapter_card_start": null,
+      "chapter_card_end": null,
+      "speech_start": 38.006,
+      "speech_end": 66.203,
+      "block_end": 66.903,
+      "mood": "curiosity"
+    },
+    {
+      "id": "03_cap1_november_witch",
+      "chapter": "Chapter 1: The Gales of November",
+      "chapter_card": {
+        "number": "1",
+        "year": "AUTUMN",
+        "title": "THE NOVEMBER WITCH",
+        "subtitle": "Why Freshwater Lakes Act Like Oceans"
+      },
+      "chapter_card_start": 66.903,
+      "chapter_card_end": 69.253,
+      "speech_start": 69.253,
+      "speech_end": 145.334,
+      "block_end": 146.084,
+      "mood": "curiosity"
+    },
+    {
+      "id": "04_cap2_white_hurricane_1913",
+      "chapter": "Chapter 2: The White Hurricane (1913)",
+      "chapter_card": {
+        "number": "2",
+        "year": "NOV 1913",
+        "title": "THE WHITE HURRICANE",
+        "subtitle": "The Deadliest Weekend on the Lakes"
+      },
+      "chapter_card_start": 146.084,
+      "chapter_card_end": 148.434,
+      "speech_start": 148.434,
+      "speech_end": 254.776,
+      "block_end": 255.526,
+      "mood": "tension"
+    },
+    {
+      "id": "05_cap3_edmund_fitzgerald_1975",
+      "chapter": "Chapter 3: The Edmund Fitzgerald (1975)",
+      "chapter_card": {
+        "number": "3",
+        "year": "NOV 10, 1975",
+        "title": "THE EDMUND FITZGERALD",
+        "subtitle": "29 Men & Lake Superior's Deepest Mystery"
+      },
+      "chapter_card_start": 255.526,
+      "chapter_card_end": 257.876,
+      "speech_start": 257.876,
+      "speech_end": 380.127,
+      "block_end": 380.877,
+      "mood": "tension"
+    },
+    {
+      "id": "06_cap4_reforms_and_today",
+      "chapter": "Chapter 4: What Changed & What's Left Today",
+      "chapter_card": {
+        "number": "4",
+        "year": "SINCE 1975",
+        "title": "WHAT'S LEFT TODAY",
+        "subtitle": "50 Years Without a Lost Freighter"
+      },
+      "chapter_card_start": 380.877,
+      "chapter_card_end": 383.227,
+      "speech_start": 383.227,
+      "speech_end": 489.998,
+      "block_end": 490.498,
+      "mood": "nostalgia"
+    }
+  ],
+  "words": [
+    {
+      "word": "November",
+      "start": 0.0,
+      "end": 0.7
+    },
+    {
+      "word": "10,",
+      "start": 0.7,
+      "end": 1.06
+    },
+    {
+      "word": "1975,",
+      "start": 1.54,
+      "end": 2.42
+    },
+    {
+      "word": "just",
+      "start": 3.4,
+      "end": 3.64
+    },
+    {
+      "word": "after",
+      "start": 3.64,
+      "end": 3.9
+    },
+    {
+      "word": "7",
+      "start": 3.9,
+      "end": 4.34
+    },
+    {
+      "word": "in",
+      "start": 4.34,
+      "end": 4.48
+    },
+    {
+      "word": "the",
+      "start": 4.48,
+      "end": 4.54
+    },
+    {
+      "word": "evening",
+      "start": 4.54,
+      "end": 4.78
+    },
+    {
+      "word": "on",
+      "start": 4.78,
+      "end": 5.02
+    },
+    {
+      "word": "Lake",
+      "start": 5.02,
+      "end": 5.2
+    },
+    {
+      "word": "Superior,",
+      "start": 5.2,
+      "end": 5.58
+    },
+    {
+      "word": "70",
+      "start": 6.36,
+      "end": 6.74
+    },
+    {
+      "word": "mile",
+      "start": 6.74,
+      "end": 7.08
+    },
+    {
+      "word": "per",
+      "start": 7.08,
+      "end": 7.3
+    },
+    {
+      "word": "hour",
+      "start": 7.3,
+      "end": 7.5
+    },
+    {
+      "word": "gales",
+      "start": 7.5,
+      "end": 7.88
+    },
+    {
+      "word": "are",
+      "start": 7.88,
+      "end": 8.1
+    },
+    {
+      "word": "driving",
+      "start": 8.1,
+      "end": 8.38
+    },
+    {
+      "word": "waves",
+      "start": 8.38,
+      "end": 8.68
+    },
+    {
+      "word": "30",
+      "start": 8.68,
+      "end": 9.2
+    },
+    {
+      "word": "feet",
+      "start": 9.2,
+      "end": 9.46
+    },
+    {
+      "word": "high",
+      "start": 9.46,
+      "end": 9.74
+    },
+    {
+      "word": "across",
+      "start": 9.74,
+      "end": 9.98
+    },
+    {
+      "word": "open",
+      "start": 9.98,
+      "end": 10.4
+    },
+    {
+      "word": "water,",
+      "start": 10.4,
+      "end": 10.72
+    },
+    {
+      "word": "17",
+      "start": 11.1,
+      "end": 11.58
+    },
+    {
+      "word": "miles",
+      "start": 11.58,
+      "end": 12.0
+    },
+    {
+      "word": "short",
+      "start": 12.0,
+      "end": 12.34
+    },
+    {
+      "word": "of",
+      "start": 12.34,
+      "end": 12.92
+    },
+    {
+      "word": "shelter",
+      "start": 12.92,
+      "end": 12.92
+    },
+    {
+      "word": "at",
+      "start": 12.92,
+      "end": 13.06
+    },
+    {
+      "word": "Whitefish",
+      "start": 13.06,
+      "end": 13.46
+    },
+    {
+      "word": "Bay,",
+      "start": 13.46,
+      "end": 13.74
+    },
+    {
+      "word": "the",
+      "start": 14.32,
+      "end": 14.4
+    },
+    {
+      "word": "729",
+      "start": 14.4,
+      "end": 15.26
+    },
+    {
+      "word": "foot",
+      "start": 15.26,
+      "end": 15.76
+    },
+    {
+      "word": "or",
+      "start": 15.76,
+      "end": 15.98
+    },
+    {
+      "word": "freighter",
+      "start": 15.98,
+      "end": 16.38
+    },
+    {
+      "word": "Edmund",
+      "start": 16.38,
+      "end": 16.6
+    },
+    {
+      "word": "Fitzgerald",
+      "start": 16.6,
+      "end": 17.08
+    },
+    {
+      "word": "radio's",
+      "start": 17.08,
+      "end": 17.86
+    },
+    {
+      "word": "one",
+      "start": 17.86,
+      "end": 18.06
+    },
+    {
+      "word": "calm",
+      "start": 18.06,
+      "end": 18.3
+    },
+    {
+      "word": "sentence",
+      "start": 18.3,
+      "end": 18.74
+    },
+    {
+      "word": "to",
+      "start": 18.74,
+      "end": 19.04
+    },
+    {
+      "word": "the",
+      "start": 19.04,
+      "end": 19.14
+    },
+    {
+      "word": "ship",
+      "start": 19.14,
+      "end": 19.34
+    },
+    {
+      "word": "trailing",
+      "start": 19.34,
+      "end": 19.64
+    },
+    {
+      "word": "behind",
+      "start": 19.64,
+      "end": 20.02
+    },
+    {
+      "word": "her.",
+      "start": 20.02,
+      "end": 20.28
+    },
+    {
+      "word": "We",
+      "start": 21.04,
+      "end": 21.1
+    },
+    {
+      "word": "are",
+      "start": 21.1,
+      "end": 21.24
+    },
+    {
+      "word": "holding",
+      "start": 21.24,
+      "end": 21.48
+    },
+    {
+      "word": "our",
+      "start": 21.48,
+      "end": 21.74
+    },
+    {
+      "word": "own.",
+      "start": 21.74,
+      "end": 22.0
+    },
+    {
+      "word": "Minutes",
+      "start": 22.52,
+      "end": 22.72
+    },
+    {
+      "word": "later",
+      "start": 22.72,
+      "end": 23.1
+    },
+    {
+      "word": "she",
+      "start": 23.1,
+      "end": 23.44
+    },
+    {
+      "word": "vanishes",
+      "start": 23.44,
+      "end": 23.82
+    },
+    {
+      "word": "from",
+      "start": 23.82,
+      "end": 24.12
+    },
+    {
+      "word": "radar",
+      "start": 24.12,
+      "end": 24.32
+    },
+    {
+      "word": "without",
+      "start": 24.32,
+      "end": 24.7
+    },
+    {
+      "word": "a",
+      "start": 24.7,
+      "end": 24.94
+    },
+    {
+      "word": "distress",
+      "start": 24.94,
+      "end": 25.14
+    },
+    {
+      "word": "call,",
+      "start": 25.14,
+      "end": 25.56
+    },
+    {
+      "word": "taking",
+      "start": 25.94,
+      "end": 26.32
+    },
+    {
+      "word": "all",
+      "start": 26.32,
+      "end": 26.52
+    },
+    {
+      "word": "29",
+      "start": 26.52,
+      "end": 27.04
+    },
+    {
+      "word": "crewmen",
+      "start": 27.04,
+      "end": 27.5
+    },
+    {
+      "word": "down",
+      "start": 27.5,
+      "end": 27.78
+    },
+    {
+      "word": "into",
+      "start": 27.78,
+      "end": 28.06
+    },
+    {
+      "word": "530",
+      "start": 28.06,
+      "end": 28.42
+    },
+    {
+      "word": "feet",
+      "start": 28.42,
+      "end": 29.22
+    },
+    {
+      "word": "of",
+      "start": 29.22,
+      "end": 29.34
+    },
+    {
+      "word": "freezing",
+      "start": 29.34,
+      "end": 29.58
+    },
+    {
+      "word": "water.",
+      "start": 29.58,
+      "end": 30.0
+    },
+    {
+      "word": "Yet",
+      "start": 30.84,
+      "end": 31.02
+    },
+    {
+      "word": "as",
+      "start": 31.02,
+      "end": 31.18
+    },
+    {
+      "word": "haunting",
+      "start": 31.18,
+      "end": 31.36
+    },
+    {
+      "word": "as",
+      "start": 31.36,
+      "end": 31.66
+    },
+    {
+      "word": "1975",
+      "start": 31.66,
+      "end": 32.38
+    },
+    {
+      "word": "was,",
+      "start": 32.38,
+      "end": 33.04
+    },
+    {
+      "word": "it",
+      "start": 33.56,
+      "end": 33.7
+    },
+    {
+      "word": "was",
+      "start": 33.7,
+      "end": 33.8
+    },
+    {
+      "word": "not",
+      "start": 33.8,
+      "end": 34.04
+    },
+    {
+      "word": "even",
+      "start": 34.04,
+      "end": 34.28
+    },
+    {
+      "word": "the",
+      "start": 34.28,
+      "end": 34.38
+    },
+    {
+      "word": "deadliest",
+      "start": 34.38,
+      "end": 34.68
+    },
+    {
+      "word": "November",
+      "start": 34.68,
+      "end": 35.16
+    },
+    {
+      "word": "storm",
+      "start": 35.16,
+      "end": 35.54
+    },
+    {
+      "word": "to",
+      "start": 35.54,
+      "end": 35.82
+    },
+    {
+      "word": "sweep",
+      "start": 35.82,
+      "end": 36.02
+    },
+    {
+      "word": "across",
+      "start": 36.02,
+      "end": 36.36
+    },
+    {
+      "word": "the",
+      "start": 36.36,
+      "end": 36.56
+    },
+    {
+      "word": "Great",
+      "start": 36.56,
+      "end": 36.74
+    },
+    {
+      "word": "Lakes.",
+      "start": 36.74,
+      "end": 37.0
+    },
+    {
+      "word": "62",
+      "start": 37.92,
+      "end": 38.34
+    },
+    {
+      "word": "years",
+      "start": 38.34,
+      "end": 38.8
+    },
+    {
+      "word": "earlier,",
+      "start": 38.8,
+      "end": 39.18
+    },
+    {
+      "word": "in",
+      "start": 39.48,
+      "end": 39.54
+    },
+    {
+      "word": "November",
+      "start": 39.54,
+      "end": 39.72
+    },
+    {
+      "word": "1913,",
+      "start": 39.72,
+      "end": 40.54
+    },
+    {
+      "word": "a",
+      "start": 41.34,
+      "end": 41.44
+    },
+    {
+      "word": "freak",
+      "start": 41.44,
+      "end": 41.72
+    },
+    {
+      "word": "freshwater",
+      "start": 41.72,
+      "end": 42.2
+    },
+    {
+      "word": "hurricane",
+      "start": 42.2,
+      "end": 42.72
+    },
+    {
+      "word": "sank",
+      "start": 42.72,
+      "end": 43.14
+    },
+    {
+      "word": "12",
+      "start": 43.14,
+      "end": 43.62
+    },
+    {
+      "word": "major",
+      "start": 43.62,
+      "end": 43.9
+    },
+    {
+      "word": "ships",
+      "start": 43.9,
+      "end": 44.3
+    },
+    {
+      "word": "and",
+      "start": 44.3,
+      "end": 44.58
+    },
+    {
+      "word": "claimed",
+      "start": 44.58,
+      "end": 44.8
+    },
+    {
+      "word": "more",
+      "start": 44.8,
+      "end": 45.18
+    },
+    {
+      "word": "than",
+      "start": 45.18,
+      "end": 45.34
+    },
+    {
+      "word": "250",
+      "start": 45.34,
+      "end": 45.62
+    },
+    {
+      "word": "lives",
+      "start": 45.62,
+      "end": 46.46
+    },
+    {
+      "word": "in",
+      "start": 46.46,
+      "end": 46.76
+    },
+    {
+      "word": "a",
+      "start": 46.76,
+      "end": 46.82
+    },
+    {
+      "word": "single",
+      "start": 46.82,
+      "end": 47.04
+    },
+    {
+      "word": "weekend.",
+      "start": 47.04,
+      "end": 47.4
+    },
+    {
+      "word": "Over",
+      "start": 48.3,
+      "end": 48.5
+    },
+    {
+      "word": "the",
+      "start": 48.5,
+      "end": 48.64
+    },
+    {
+      "word": "next",
+      "start": 48.64,
+      "end": 48.84
+    },
+    {
+      "word": "9",
+      "start": 48.84,
+      "end": 49.18
+    },
+    {
+      "word": "minutes,",
+      "start": 49.18,
+      "end": 49.4
+    },
+    {
+      "word": "we",
+      "start": 49.86,
+      "end": 50.06
+    },
+    {
+      "word": "trace",
+      "start": 50.06,
+      "end": 50.26
+    },
+    {
+      "word": "why",
+      "start": 50.26,
+      "end": 50.62
+    },
+    {
+      "word": "these",
+      "start": 50.62,
+      "end": 50.84
+    },
+    {
+      "word": "five",
+      "start": 50.84,
+      "end": 51.2
+    },
+    {
+      "word": "inland",
+      "start": 51.2,
+      "end": 51.48
+    },
+    {
+      "word": "lakes",
+      "start": 51.48,
+      "end": 51.86
+    },
+    {
+      "word": "behave",
+      "start": 51.86,
+      "end": 52.2
+    },
+    {
+      "word": "like",
+      "start": 52.2,
+      "end": 52.56
+    },
+    {
+      "word": "ruthless",
+      "start": 52.56,
+      "end": 52.8
+    },
+    {
+      "word": "oceans",
+      "start": 52.8,
+      "end": 53.3
+    },
+    {
+      "word": "every",
+      "start": 53.3,
+      "end": 53.66
+    },
+    {
+      "word": "autumn",
+      "start": 53.66,
+      "end": 53.9
+    },
+    {
+      "word": "from",
+      "start": 53.9,
+      "end": 54.32
+    },
+    {
+      "word": "the",
+      "start": 54.32,
+      "end": 54.42
+    },
+    {
+      "word": "White",
+      "start": 54.42,
+      "end": 54.6
+    },
+    {
+      "word": "Hurricane",
+      "start": 54.6,
+      "end": 54.94
+    },
+    {
+      "word": "of",
+      "start": 54.94,
+      "end": 55.22
+    },
+    {
+      "word": "1913",
+      "start": 55.22,
+      "end": 55.82
+    },
+    {
+      "word": "to",
+      "start": 55.82,
+      "end": 56.68
+    },
+    {
+      "word": "the",
+      "start": 56.68,
+      "end": 56.78
+    },
+    {
+      "word": "final",
+      "start": 56.78,
+      "end": 57.0
+    },
+    {
+      "word": "night",
+      "start": 57.0,
+      "end": 57.36
+    },
+    {
+      "word": "of",
+      "start": 57.36,
+      "end": 57.5
+    },
+    {
+      "word": "the",
+      "start": 57.5,
+      "end": 57.6
+    },
+    {
+      "word": "Edmund",
+      "start": 57.6,
+      "end": 57.8
+    },
+    {
+      "word": "Fitzgerald",
+      "start": 57.8,
+      "end": 58.14
+    },
+    {
+      "word": "in",
+      "start": 58.56,
+      "end": 58.82
+    },
+    {
+      "word": "1975",
+      "start": 58.82,
+      "end": 59.42
+    },
+    {
+      "word": "to",
+      "start": 59.42,
+      "end": 60.6
+    },
+    {
+      "word": "the",
+      "start": 60.6,
+      "end": 60.7
+    },
+    {
+      "word": "sweeping",
+      "start": 60.7,
+      "end": 60.96
+    },
+    {
+      "word": "safety",
+      "start": 60.96,
+      "end": 61.48
+    },
+    {
+      "word": "reforms",
+      "start": 61.48,
+      "end": 61.74
+    },
+    {
+      "word": "that",
+      "start": 61.74,
+      "end": 62.22
+    },
+    {
+      "word": "have",
+      "start": 62.22,
+      "end": 62.3
+    },
+    {
+      "word": "kept",
+      "start": 62.3,
+      "end": 62.48
+    },
+    {
+      "word": "a",
+      "start": 62.48,
+      "end": 62.64
+    },
+    {
+      "word": "single",
+      "start": 62.64,
+      "end": 62.94
+    },
+    {
+      "word": "major",
+      "start": 62.94,
+      "end": 63.24
+    },
+    {
+      "word": "Great",
+      "start": 63.24,
+      "end": 63.58
+    },
+    {
+      "word": "Lakes",
+      "start": 63.58,
+      "end": 63.8
+    },
+    {
+      "word": "freighter",
+      "start": 63.8,
+      "end": 64.2
+    },
+    {
+      "word": "from",
+      "start": 64.2,
+      "end": 64.46
+    },
+    {
+      "word": "sinking",
+      "start": 64.46,
+      "end": 64.7
+    },
+    {
+      "word": "in",
+      "start": 64.7,
+      "end": 64.94
+    },
+    {
+      "word": "the",
+      "start": 64.94,
+      "end": 65.02
+    },
+    {
+      "word": "50",
+      "start": 65.02,
+      "end": 65.22
+    },
+    {
+      "word": "years",
+      "start": 65.22,
+      "end": 65.56
+    },
+    {
+      "word": "since.",
+      "start": 65.56,
+      "end": 65.88
+    },
+    {
+      "word": "To",
+      "start": 69.22,
+      "end": 69.34
+    },
+    {
+      "word": "anyone",
+      "start": 69.34,
+      "end": 69.64
+    },
+    {
+      "word": "who",
+      "start": 69.64,
+      "end": 69.86
+    },
+    {
+      "word": "has",
+      "start": 69.86,
+      "end": 69.96
+    },
+    {
+      "word": "never",
+      "start": 69.96,
+      "end": 70.2
+    },
+    {
+      "word": "stood",
+      "start": 70.2,
+      "end": 70.54
+    },
+    {
+      "word": "on",
+      "start": 70.54,
+      "end": 70.72
+    },
+    {
+      "word": "the",
+      "start": 70.72,
+      "end": 70.82
+    },
+    {
+      "word": "shore",
+      "start": 70.82,
+      "end": 71.06
+    },
+    {
+      "word": "of",
+      "start": 71.06,
+      "end": 71.26
+    },
+    {
+      "word": "Lake",
+      "start": 71.26,
+      "end": 71.42
+    },
+    {
+      "word": "Superior",
+      "start": 71.42,
+      "end": 71.78
+    },
+    {
+      "word": "or",
+      "start": 71.78,
+      "end": 72.18
+    },
+    {
+      "word": "Lake",
+      "start": 72.18,
+      "end": 72.38
+    },
+    {
+      "word": "Huron",
+      "start": 72.38,
+      "end": 72.82
+    },
+    {
+      "word": "in",
+      "start": 72.82,
+      "end": 72.94
+    },
+    {
+      "word": "late",
+      "start": 72.94,
+      "end": 73.1
+    },
+    {
+      "word": "fall,",
+      "start": 73.1,
+      "end": 73.42
+    },
+    {
+      "word": "it",
+      "start": 73.96,
+      "end": 74.18
+    },
+    {
+      "word": "sounds",
+      "start": 74.18,
+      "end": 74.38
+    },
+    {
+      "word": "impossible",
+      "start": 74.38,
+      "end": 75.0
+    },
+    {
+      "word": "that",
+      "start": 75.0,
+      "end": 75.28
+    },
+    {
+      "word": "freshwater",
+      "start": 75.28,
+      "end": 75.48
+    },
+    {
+      "word": "lakes",
+      "start": 75.48,
+      "end": 76.08
+    },
+    {
+      "word": "could",
+      "start": 76.08,
+      "end": 76.32
+    },
+    {
+      "word": "swallow",
+      "start": 76.32,
+      "end": 76.58
+    },
+    {
+      "word": "steel",
+      "start": 76.58,
+      "end": 76.98
+    },
+    {
+      "word": "ships",
+      "start": 76.98,
+      "end": 77.42
+    },
+    {
+      "word": "longer",
+      "start": 77.42,
+      "end": 77.68
+    },
+    {
+      "word": "than",
+      "start": 77.68,
+      "end": 78.0
+    },
+    {
+      "word": "two",
+      "start": 78.0,
+      "end": 78.18
+    },
+    {
+      "word": "football",
+      "start": 78.18,
+      "end": 78.44
+    },
+    {
+      "word": "fields.",
+      "start": 78.44,
+      "end": 78.94
+    },
+    {
+      "word": "Every",
+      "start": 79.78,
+      "end": 80.08
+    },
+    {
+      "word": "November,",
+      "start": 80.08,
+      "end": 80.34
+    },
+    {
+      "word": "however,",
+      "start": 80.34,
+      "end": 80.96
+    },
+    {
+      "word": "the",
+      "start": 81.44,
+      "end": 81.54
+    },
+    {
+      "word": "Great",
+      "start": 81.54,
+      "end": 81.76
+    },
+    {
+      "word": "Lakes",
+      "start": 81.76,
+      "end": 81.98
+    },
+    {
+      "word": "become",
+      "start": 81.98,
+      "end": 82.34
+    },
+    {
+      "word": "a",
+      "start": 82.34,
+      "end": 82.5
+    },
+    {
+      "word": "weather",
+      "start": 82.5,
+      "end": 82.66
+    },
+    {
+      "word": "engine.",
+      "start": 82.66,
+      "end": 83.02
+    },
+    {
+      "word": "All",
+      "start": 83.7,
+      "end": 83.9
+    },
+    {
+      "word": "summer",
+      "start": 83.9,
+      "end": 84.14
+    },
+    {
+      "word": "long,",
+      "start": 84.14,
+      "end": 84.54
+    },
+    {
+      "word": "those",
+      "start": 84.82,
+      "end": 84.94
+    },
+    {
+      "word": "massive",
+      "start": 84.94,
+      "end": 85.2
+    },
+    {
+      "word": "basins",
+      "start": 85.2,
+      "end": 85.82
+    },
+    {
+      "word": "absorb",
+      "start": 85.82,
+      "end": 86.02
+    },
+    {
+      "word": "heat.",
+      "start": 86.02,
+      "end": 86.46
+    },
+    {
+      "word": "Then",
+      "start": 87.22,
+      "end": 87.48
+    },
+    {
+      "word": "as",
+      "start": 87.48,
+      "end": 87.72
+    },
+    {
+      "word": "autumn",
+      "start": 87.72,
+      "end": 87.92
+    },
+    {
+      "word": "deepens,",
+      "start": 87.92,
+      "end": 88.46
+    },
+    {
+      "word": "plunging",
+      "start": 88.84,
+      "end": 89.22
+    },
+    {
+      "word": "arctic",
+      "start": 89.22,
+      "end": 89.58
+    },
+    {
+      "word": "cold",
+      "start": 89.58,
+      "end": 89.86
+    },
+    {
+      "word": "fronts",
+      "start": 89.86,
+      "end": 90.2
+    },
+    {
+      "word": "race",
+      "start": 90.2,
+      "end": 90.52
+    },
+    {
+      "word": "south",
+      "start": 90.52,
+      "end": 90.9
+    },
+    {
+      "word": "from",
+      "start": 90.9,
+      "end": 91.1
+    },
+    {
+      "word": "Canada",
+      "start": 91.1,
+      "end": 91.42
+    },
+    {
+      "word": "and",
+      "start": 91.42,
+      "end": 91.98
+    },
+    {
+      "word": "slam",
+      "start": 91.98,
+      "end": 92.22
+    },
+    {
+      "word": "straight",
+      "start": 92.22,
+      "end": 92.64
+    },
+    {
+      "word": "into",
+      "start": 92.64,
+      "end": 92.9
+    },
+    {
+      "word": "warm,",
+      "start": 92.9,
+      "end": 93.26
+    },
+    {
+      "word": "moisture",
+      "start": 93.26,
+      "end": 93.66
+    },
+    {
+      "word": "-rich",
+      "start": 93.66,
+      "end": 94.0
+    },
+    {
+      "word": "air",
+      "start": 94.0,
+      "end": 94.26
+    },
+    {
+      "word": "curling",
+      "start": 94.26,
+      "end": 94.86
+    },
+    {
+      "word": "up",
+      "start": 94.86,
+      "end": 95.0
+    },
+    {
+      "word": "from",
+      "start": 95.0,
+      "end": 95.18
+    },
+    {
+      "word": "the",
+      "start": 95.18,
+      "end": 95.3
+    },
+    {
+      "word": "Gulf",
+      "start": 95.3,
+      "end": 95.46
+    },
+    {
+      "word": "of",
+      "start": 95.46,
+      "end": 95.66
+    },
+    {
+      "word": "Mexico.",
+      "start": 95.66,
+      "end": 96.06
+    },
+    {
+      "word": "Right",
+      "start": 96.7,
+      "end": 96.88
+    },
+    {
+      "word": "over",
+      "start": 96.88,
+      "end": 97.14
+    },
+    {
+      "word": "the",
+      "start": 97.14,
+      "end": 97.26
+    },
+    {
+      "word": "still",
+      "start": 97.26,
+      "end": 97.52
+    },
+    {
+      "word": "warm",
+      "start": 97.52,
+      "end": 97.86
+    },
+    {
+      "word": "water",
+      "start": 97.86,
+      "end": 98.14
+    },
+    {
+      "word": "of",
+      "start": 98.14,
+      "end": 98.36
+    },
+    {
+      "word": "the",
+      "start": 98.36,
+      "end": 98.44
+    },
+    {
+      "word": "lakes,",
+      "start": 98.44,
+      "end": 98.64
+    },
+    {
+      "word": "those",
+      "start": 99.2,
+      "end": 99.38
+    },
+    {
+      "word": "opposing",
+      "start": 99.38,
+      "end": 99.66
+    },
+    {
+      "word": "systems",
+      "start": 99.66,
+      "end": 100.24
+    },
+    {
+      "word": "lock",
+      "start": 100.24,
+      "end": 100.52
+    },
+    {
+      "word": "together",
+      "start": 100.52,
+      "end": 100.96
+    },
+    {
+      "word": "and",
+      "start": 100.96,
+      "end": 101.26
+    },
+    {
+      "word": "explode",
+      "start": 101.26,
+      "end": 101.6
+    },
+    {
+      "word": "into",
+      "start": 101.6,
+      "end": 101.9
+    },
+    {
+      "word": "fierce",
+      "start": 101.9,
+      "end": 102.22
+    },
+    {
+      "word": "cyclones",
+      "start": 102.22,
+      "end": 102.86
+    },
+    {
+      "word": "that",
+      "start": 102.86,
+      "end": 103.26
+    },
+    {
+      "word": "sailors",
+      "start": 103.26,
+      "end": 103.48
+    },
+    {
+      "word": "call",
+      "start": 103.48,
+      "end": 103.9
+    },
+    {
+      "word": "November",
+      "start": 103.9,
+      "end": 104.12
+    },
+    {
+      "word": "witches.",
+      "start": 104.12,
+      "end": 104.62
+    },
+    {
+      "word": "Worse",
+      "start": 105.2,
+      "end": 105.76
+    },
+    {
+      "word": "still,",
+      "start": 105.76,
+      "end": 106.12
+    },
+    {
+      "word": "physics",
+      "start": 106.58,
+      "end": 106.86
+    },
+    {
+      "word": "on",
+      "start": 106.86,
+      "end": 107.18
+    },
+    {
+      "word": "the",
+      "start": 107.18,
+      "end": 107.26
+    },
+    {
+      "word": "Great",
+      "start": 107.26,
+      "end": 107.46
+    },
+    {
+      "word": "Lakes",
+      "start": 107.46,
+      "end": 107.68
+    },
+    {
+      "word": "works",
+      "start": 107.68,
+      "end": 107.98
+    },
+    {
+      "word": "against",
+      "start": 107.98,
+      "end": 108.36
+    },
+    {
+      "word": "big",
+      "start": 108.36,
+      "end": 108.64
+    },
+    {
+      "word": "ships",
+      "start": 108.64,
+      "end": 108.88
+    },
+    {
+      "word": "because",
+      "start": 108.88,
+      "end": 109.74
+    },
+    {
+      "word": "freshwater",
+      "start": 109.74,
+      "end": 110.02
+    },
+    {
+      "word": "is",
+      "start": 110.02,
+      "end": 110.5
+    },
+    {
+      "word": "less",
+      "start": 110.5,
+      "end": 110.7
+    },
+    {
+      "word": "dense",
+      "start": 110.7,
+      "end": 110.98
+    },
+    {
+      "word": "than",
+      "start": 110.98,
+      "end": 111.26
+    },
+    {
+      "word": "ocean",
+      "start": 111.26,
+      "end": 111.42
+    },
+    {
+      "word": "saltwater,",
+      "start": 111.42,
+      "end": 112.2
+    },
+    {
+      "word": "freighters",
+      "start": 112.56,
+      "end": 112.96
+    },
+    {
+      "word": "sit",
+      "start": 112.96,
+      "end": 113.18
+    },
+    {
+      "word": "lower",
+      "start": 113.18,
+      "end": 113.44
+    },
+    {
+      "word": "in",
+      "start": 113.44,
+      "end": 113.62
+    },
+    {
+      "word": "the",
+      "start": 113.62,
+      "end": 113.7
+    },
+    {
+      "word": "water.",
+      "start": 113.7,
+      "end": 113.96
+    },
+    {
+      "word": "And",
+      "start": 114.64,
+      "end": 114.8
+    },
+    {
+      "word": "because",
+      "start": 114.8,
+      "end": 115.02
+    },
+    {
+      "word": "the",
+      "start": 115.02,
+      "end": 115.2
+    },
+    {
+      "word": "lakes",
+      "start": 115.2,
+      "end": 115.36
+    },
+    {
+      "word": "are",
+      "start": 115.36,
+      "end": 115.54
+    },
+    {
+      "word": "shallower",
+      "start": 115.54,
+      "end": 116.02
+    },
+    {
+      "word": "and",
+      "start": 116.02,
+      "end": 116.22
+    },
+    {
+      "word": "narrower",
+      "start": 116.22,
+      "end": 116.48
+    },
+    {
+      "word": "than",
+      "start": 116.48,
+      "end": 116.86
+    },
+    {
+      "word": "the",
+      "start": 116.86,
+      "end": 116.96
+    },
+    {
+      "word": "Atlantic",
+      "start": 116.96,
+      "end": 117.24
+    },
+    {
+      "word": "Ocean,",
+      "start": 117.24,
+      "end": 117.58
+    },
+    {
+      "word": "storm",
+      "start": 118.22,
+      "end": 118.42
+    },
+    {
+      "word": "waves",
+      "start": 118.42,
+      "end": 118.7
+    },
+    {
+      "word": "cannot",
+      "start": 118.7,
+      "end": 118.98
+    },
+    {
+      "word": "stretch",
+      "start": 118.98,
+      "end": 119.52
+    },
+    {
+      "word": "into",
+      "start": 119.52,
+      "end": 119.72
+    },
+    {
+      "word": "long,",
+      "start": 119.72,
+      "end": 120.04
+    },
+    {
+      "word": "gentle",
+      "start": 120.04,
+      "end": 120.52
+    },
+    {
+      "word": "swells.",
+      "start": 120.52,
+      "end": 120.96
+    },
+    {
+      "word": "Instead,",
+      "start": 121.74,
+      "end": 122.1
+    },
+    {
+      "word": "steep,",
+      "start": 122.44,
+      "end": 122.66
+    },
+    {
+      "word": "jagged",
+      "start": 122.92,
+      "end": 123.24
+    },
+    {
+      "word": "walls",
+      "start": 123.24,
+      "end": 123.44
+    },
+    {
+      "word": "of",
+      "start": 123.44,
+      "end": 123.7
+    },
+    {
+      "word": "water",
+      "start": 123.7,
+      "end": 123.9
+    },
+    {
+      "word": "slam",
+      "start": 123.9,
+      "end": 124.28
+    },
+    {
+      "word": "into",
+      "start": 124.28,
+      "end": 124.56
+    },
+    {
+      "word": "hulls",
+      "start": 124.56,
+      "end": 125.08
+    },
+    {
+      "word": "every",
+      "start": 125.08,
+      "end": 125.26
+    },
+    {
+      "word": "8",
+      "start": 125.26,
+      "end": 125.54
+    },
+    {
+      "word": "to",
+      "start": 125.54,
+      "end": 125.68
+    },
+    {
+      "word": "10",
+      "start": 125.68,
+      "end": 125.92
+    },
+    {
+      "word": "seconds.",
+      "start": 125.92,
+      "end": 126.26
+    },
+    {
+      "word": "When",
+      "start": 126.88,
+      "end": 127.0
+    },
+    {
+      "word": "a",
+      "start": 127.0,
+      "end": 127.08
+    },
+    {
+      "word": "700",
+      "start": 127.08,
+      "end": 127.56
+    },
+    {
+      "word": "-foot",
+      "start": 127.56,
+      "end": 127.92
+    },
+    {
+      "word": "steel",
+      "start": 127.92,
+      "end": 128.2
+    },
+    {
+      "word": "freighter",
+      "start": 128.2,
+      "end": 128.68
+    },
+    {
+      "word": "rides",
+      "start": 128.68,
+      "end": 128.94
+    },
+    {
+      "word": "across",
+      "start": 128.94,
+      "end": 129.28
+    },
+    {
+      "word": "two",
+      "start": 129.28,
+      "end": 129.62
+    },
+    {
+      "word": "wave",
+      "start": 129.62,
+      "end": 129.88
+    },
+    {
+      "word": "crests",
+      "start": 129.88,
+      "end": 130.36
+    },
+    {
+      "word": "at",
+      "start": 130.36,
+      "end": 130.44
+    },
+    {
+      "word": "once,",
+      "start": 130.44,
+      "end": 130.68
+    },
+    {
+      "word": "its",
+      "start": 131.2,
+      "end": 131.36
+    },
+    {
+      "word": "middle",
+      "start": 131.36,
+      "end": 131.6
+    },
+    {
+      "word": "hangs",
+      "start": 131.6,
+      "end": 131.84
+    },
+    {
+      "word": "nearly",
+      "start": 131.84,
+      "end": 132.2
+    },
+    {
+      "word": "unsupported,",
+      "start": 132.2,
+      "end": 132.78
+    },
+    {
+      "word": "while",
+      "start": 133.4,
+      "end": 133.56
+    },
+    {
+      "word": "tons",
+      "start": 133.56,
+      "end": 133.8
+    },
+    {
+      "word": "of",
+      "start": 133.8,
+      "end": 134.06
+    },
+    {
+      "word": "freezing",
+      "start": 134.06,
+      "end": 134.3
+    },
+    {
+      "word": "water",
+      "start": 134.3,
+      "end": 134.68
+    },
+    {
+      "word": "hammer",
+      "start": 134.68,
+      "end": 135.04
+    },
+    {
+      "word": "down",
+      "start": 135.04,
+      "end": 135.46
+    },
+    {
+      "word": "on",
+      "start": 135.46,
+      "end": 135.56
+    },
+    {
+      "word": "its",
+      "start": 135.56,
+      "end": 135.7
+    },
+    {
+      "word": "cargo",
+      "start": 135.7,
+      "end": 135.88
+    },
+    {
+      "word": "hatches.",
+      "start": 135.88,
+      "end": 136.46
+    },
+    {
+      "word": "Every",
+      "start": 137.06,
+      "end": 137.26
+    },
+    {
+      "word": "shipping",
+      "start": 137.26,
+      "end": 137.5
+    },
+    {
+      "word": "season",
+      "start": 137.5,
+      "end": 138.06
+    },
+    {
+      "word": "ends",
+      "start": 138.06,
+      "end": 138.3
+    },
+    {
+      "word": "with",
+      "start": 138.3,
+      "end": 138.54
+    },
+    {
+      "word": "a",
+      "start": 138.54,
+      "end": 138.62
+    },
+    {
+      "word": "race",
+      "start": 138.62,
+      "end": 138.86
+    },
+    {
+      "word": "to",
+      "start": 138.86,
+      "end": 139.08
+    },
+    {
+      "word": "haul",
+      "start": 139.08,
+      "end": 139.24
+    },
+    {
+      "word": "iron",
+      "start": 139.24,
+      "end": 139.64
+    },
+    {
+      "word": "ore",
+      "start": 139.64,
+      "end": 139.86
+    },
+    {
+      "word": "and",
+      "start": 139.86,
+      "end": 140.12
+    },
+    {
+      "word": "coal",
+      "start": 140.12,
+      "end": 140.38
+    },
+    {
+      "word": "before",
+      "start": 140.38,
+      "end": 140.78
+    },
+    {
+      "word": "winter",
+      "start": 140.78,
+      "end": 141.06
+    },
+    {
+      "word": "ice",
+      "start": 141.06,
+      "end": 141.38
+    },
+    {
+      "word": "seals",
+      "start": 141.38,
+      "end": 141.68
+    },
+    {
+      "word": "the",
+      "start": 141.68,
+      "end": 141.92
+    },
+    {
+      "word": "locks,",
+      "start": 141.92,
+      "end": 142.16
+    },
+    {
+      "word": "pushing",
+      "start": 142.6,
+      "end": 142.88
+    },
+    {
+      "word": "crews",
+      "start": 142.88,
+      "end": 143.2
+    },
+    {
+      "word": "straight",
+      "start": 143.2,
+      "end": 143.6
+    },
+    {
+      "word": "into",
+      "start": 143.6,
+      "end": 143.9
+    },
+    {
+      "word": "the",
+      "start": 143.9,
+      "end": 144.04
+    },
+    {
+      "word": "worst",
+      "start": 144.04,
+      "end": 144.28
+    },
+    {
+      "word": "weeks",
+      "start": 144.28,
+      "end": 144.54
+    },
+    {
+      "word": "of",
+      "start": 144.54,
+      "end": 144.72
+    },
+    {
+      "word": "the",
+      "start": 144.72,
+      "end": 144.84
+    },
+    {
+      "word": "year.",
+      "start": 144.84,
+      "end": 145.08
+    },
+    {
+      "word": "That",
+      "start": 148.28,
+      "end": 148.56
+    },
+    {
+      "word": "autumn",
+      "start": 148.56,
+      "end": 148.86
+    },
+    {
+      "word": "weather",
+      "start": 148.86,
+      "end": 149.04
+    },
+    {
+      "word": "trap",
+      "start": 149.04,
+      "end": 149.44
+    },
+    {
+      "word": "sprang",
+      "start": 149.44,
+      "end": 149.66
+    },
+    {
+      "word": "shut",
+      "start": 149.66,
+      "end": 150.12
+    },
+    {
+      "word": "with",
+      "start": 150.12,
+      "end": 150.28
+    },
+    {
+      "word": "terrifying",
+      "start": 150.28,
+      "end": 150.62
+    },
+    {
+      "word": "force",
+      "start": 150.62,
+      "end": 151.16
+    },
+    {
+      "word": "from",
+      "start": 151.16,
+      "end": 151.46
+    },
+    {
+      "word": "November",
+      "start": 151.46,
+      "end": 151.58
+    },
+    {
+      "word": "7",
+      "start": 151.58,
+      "end": 152.18
+    },
+    {
+      "word": "to",
+      "start": 152.18,
+      "end": 152.48
+    },
+    {
+      "word": "November",
+      "start": 152.48,
+      "end": 152.76
+    },
+    {
+      "word": "10,",
+      "start": 152.76,
+      "end": 153.14
+    },
+    {
+      "word": "1913.",
+      "start": 154.5,
+      "end": 154.5
+    },
+    {
+      "word": "Two",
+      "start": 155.14,
+      "end": 155.36
+    },
+    {
+      "word": "massive",
+      "start": 155.36,
+      "end": 155.68
+    },
+    {
+      "word": "low",
+      "start": 155.68,
+      "end": 156.04
+    },
+    {
+      "word": "-pressure",
+      "start": 156.04,
+      "end": 156.26
+    },
+    {
+      "word": "systems",
+      "start": 156.26,
+      "end": 156.84
+    },
+    {
+      "word": "merged",
+      "start": 156.84,
+      "end": 157.12
+    },
+    {
+      "word": "directly",
+      "start": 157.12,
+      "end": 157.52
+    },
+    {
+      "word": "over",
+      "start": 157.52,
+      "end": 157.88
+    },
+    {
+      "word": "the",
+      "start": 157.88,
+      "end": 158.02
+    },
+    {
+      "word": "warm",
+      "start": 158.02,
+      "end": 158.22
+    },
+    {
+      "word": "Great",
+      "start": 158.22,
+      "end": 158.52
+    },
+    {
+      "word": "Lakes,",
+      "start": 158.52,
+      "end": 158.78
+    },
+    {
+      "word": "peeking",
+      "start": 159.28,
+      "end": 159.48
+    },
+    {
+      "word": "on",
+      "start": 159.48,
+      "end": 159.64
+    },
+    {
+      "word": "Sunday,",
+      "start": 159.64,
+      "end": 159.9
+    },
+    {
+      "word": "November",
+      "start": 160.16,
+      "end": 160.34
+    },
+    {
+      "word": "9,",
+      "start": 160.34,
+      "end": 160.72
+    },
+    {
+      "word": "a",
+      "start": 161.2,
+      "end": 161.3
+    },
+    {
+      "word": "day",
+      "start": 161.3,
+      "end": 161.46
+    },
+    {
+      "word": "sailors",
+      "start": 161.46,
+      "end": 161.8
+    },
+    {
+      "word": "forever",
+      "start": 161.8,
+      "end": 162.12
+    },
+    {
+      "word": "remembered",
+      "start": 162.12,
+      "end": 162.68
+    },
+    {
+      "word": "as",
+      "start": 162.68,
+      "end": 162.94
+    },
+    {
+      "word": "Black",
+      "start": 162.94,
+      "end": 163.2
+    },
+    {
+      "word": "Sunday.",
+      "start": 163.2,
+      "end": 163.58
+    },
+    {
+      "word": "Sustained",
+      "start": 164.32,
+      "end": 164.74
+    },
+    {
+      "word": "hurricane",
+      "start": 164.74,
+      "end": 165.08
+    },
+    {
+      "word": "force",
+      "start": 165.08,
+      "end": 165.54
+    },
+    {
+      "word": "winds",
+      "start": 165.54,
+      "end": 165.8
+    },
+    {
+      "word": "reached",
+      "start": 165.8,
+      "end": 166.16
+    },
+    {
+      "word": "90",
+      "start": 166.16,
+      "end": 166.54
+    },
+    {
+      "word": "miles",
+      "start": 166.54,
+      "end": 166.88
+    },
+    {
+      "word": "per",
+      "start": 166.88,
+      "end": 167.12
+    },
+    {
+      "word": "hour.",
+      "start": 167.12,
+      "end": 167.46
+    },
+    {
+      "word": "Waves",
+      "start": 168.0,
+      "end": 168.26
+    },
+    {
+      "word": "towered",
+      "start": 168.26,
+      "end": 168.76
+    },
+    {
+      "word": "35",
+      "start": 168.76,
+      "end": 169.34
+    },
+    {
+      "word": "feet",
+      "start": 169.34,
+      "end": 169.58
+    },
+    {
+      "word": "high,",
+      "start": 169.58,
+      "end": 169.86
+    },
+    {
+      "word": "while",
+      "start": 170.24,
+      "end": 170.46
+    },
+    {
+      "word": "blinding",
+      "start": 170.46,
+      "end": 170.86
+    },
+    {
+      "word": "snow",
+      "start": 170.86,
+      "end": 171.18
+    },
+    {
+      "word": "buried",
+      "start": 171.18,
+      "end": 171.5
+    },
+    {
+      "word": "lakeside",
+      "start": 171.5,
+      "end": 172.06
+    },
+    {
+      "word": "cities,",
+      "start": 172.06,
+      "end": 172.56
+    },
+    {
+      "word": "dumping",
+      "start": 172.84,
+      "end": 173.04
+    },
+    {
+      "word": "22",
+      "start": 173.04,
+      "end": 173.52
+    },
+    {
+      "word": "inches",
+      "start": 173.52,
+      "end": 173.96
+    },
+    {
+      "word": "on",
+      "start": 173.96,
+      "end": 174.14
+    },
+    {
+      "word": "Cleveland",
+      "start": 174.14,
+      "end": 174.46
+    },
+    {
+      "word": "and",
+      "start": 174.46,
+      "end": 175.06
+    },
+    {
+      "word": "snapping",
+      "start": 175.06,
+      "end": 175.36
+    },
+    {
+      "word": "telegraph",
+      "start": 175.36,
+      "end": 176.02
+    },
+    {
+      "word": "and",
+      "start": 176.02,
+      "end": 176.2
+    },
+    {
+      "word": "power",
+      "start": 176.2,
+      "end": 176.38
+    },
+    {
+      "word": "lines",
+      "start": 176.38,
+      "end": 176.72
+    },
+    {
+      "word": "across",
+      "start": 176.72,
+      "end": 176.96
+    },
+    {
+      "word": "Ohio",
+      "start": 176.96,
+      "end": 177.46
+    },
+    {
+      "word": "and",
+      "start": 177.46,
+      "end": 177.72
+    },
+    {
+      "word": "Michigan.",
+      "start": 177.72,
+      "end": 177.94
+    },
+    {
+      "word": "Out",
+      "start": 178.68,
+      "end": 178.86
+    },
+    {
+      "word": "on",
+      "start": 178.86,
+      "end": 179.0
+    },
+    {
+      "word": "the",
+      "start": 179.0,
+      "end": 179.1
+    },
+    {
+      "word": "water,",
+      "start": 179.1,
+      "end": 179.34
+    },
+    {
+      "word": "dozens",
+      "start": 179.72,
+      "end": 179.9
+    },
+    {
+      "word": "of",
+      "start": 179.9,
+      "end": 180.2
+    },
+    {
+      "word": "modern",
+      "start": 180.2,
+      "end": 180.46
+    },
+    {
+      "word": "steel",
+      "start": 180.46,
+      "end": 180.76
+    },
+    {
+      "word": "freighters",
+      "start": 180.76,
+      "end": 181.28
+    },
+    {
+      "word": "had",
+      "start": 181.28,
+      "end": 181.44
+    },
+    {
+      "word": "no",
+      "start": 181.44,
+      "end": 181.68
+    },
+    {
+      "word": "radar,",
+      "start": 181.68,
+      "end": 181.92
+    },
+    {
+      "word": "no",
+      "start": 182.42,
+      "end": 182.54
+    },
+    {
+      "word": "reliable",
+      "start": 182.54,
+      "end": 182.84
+    },
+    {
+      "word": "ship",
+      "start": 182.84,
+      "end": 183.26
+    },
+    {
+      "word": "-to",
+      "start": 183.26,
+      "end": 183.44
+    },
+    {
+      "word": "-shore",
+      "start": 183.44,
+      "end": 183.62
+    },
+    {
+      "word": "radio,",
+      "start": 183.62,
+      "end": 184.0
+    },
+    {
+      "word": "and",
+      "start": 184.42,
+      "end": 184.58
+    },
+    {
+      "word": "almost",
+      "start": 184.58,
+      "end": 184.84
+    },
+    {
+      "word": "no",
+      "start": 184.84,
+      "end": 185.16
+    },
+    {
+      "word": "warning.",
+      "start": 185.16,
+      "end": 185.5
+    },
+    {
+      "word": "By",
+      "start": 185.98,
+      "end": 186.28
+    },
+    {
+      "word": "the",
+      "start": 186.28,
+      "end": 186.38
+    },
+    {
+      "word": "time",
+      "start": 186.38,
+      "end": 186.6
+    },
+    {
+      "word": "the",
+      "start": 186.6,
+      "end": 186.74
+    },
+    {
+      "word": "snow",
+      "start": 186.74,
+      "end": 186.92
+    },
+    {
+      "word": "cleared",
+      "start": 186.92,
+      "end": 187.24
+    },
+    {
+      "word": "on",
+      "start": 187.24,
+      "end": 187.46
+    },
+    {
+      "word": "Monday",
+      "start": 187.46,
+      "end": 187.62
+    },
+    {
+      "word": "morning,",
+      "start": 187.62,
+      "end": 188.04
+    },
+    {
+      "word": "12",
+      "start": 188.44,
+      "end": 188.6
+    },
+    {
+      "word": "ships",
+      "start": 188.6,
+      "end": 188.9
+    },
+    {
+      "word": "had",
+      "start": 188.9,
+      "end": 189.16
+    },
+    {
+      "word": "vanished",
+      "start": 189.16,
+      "end": 189.36
+    },
+    {
+      "word": "completely",
+      "start": 189.36,
+      "end": 189.88
+    },
+    {
+      "word": "beneath",
+      "start": 189.88,
+      "end": 190.34
+    },
+    {
+      "word": "the",
+      "start": 190.34,
+      "end": 190.48
+    },
+    {
+      "word": "waves,",
+      "start": 190.48,
+      "end": 190.66
+    },
+    {
+      "word": "19",
+      "start": 191.26,
+      "end": 191.6
+    },
+    {
+      "word": "more",
+      "start": 191.6,
+      "end": 191.9
+    },
+    {
+      "word": "lace",
+      "start": 191.9,
+      "end": 192.16
+    },
+    {
+      "word": "stranded",
+      "start": 192.16,
+      "end": 192.44
+    },
+    {
+      "word": "or",
+      "start": 192.44,
+      "end": 192.74
+    },
+    {
+      "word": "smashed",
+      "start": 192.74,
+      "end": 192.94
+    },
+    {
+      "word": "ashore,",
+      "start": 192.94,
+      "end": 193.32
+    },
+    {
+      "word": "and",
+      "start": 193.86,
+      "end": 194.02
+    },
+    {
+      "word": "more",
+      "start": 194.02,
+      "end": 194.22
+    },
+    {
+      "word": "than",
+      "start": 194.22,
+      "end": 194.36
+    },
+    {
+      "word": "250",
+      "start": 194.36,
+      "end": 194.6
+    },
+    {
+      "word": "sailors",
+      "start": 194.6,
+      "end": 195.42
+    },
+    {
+      "word": "were",
+      "start": 195.42,
+      "end": 195.76
+    },
+    {
+      "word": "dead.",
+      "start": 195.76,
+      "end": 196.0
+    },
+    {
+      "word": "It",
+      "start": 196.66,
+      "end": 196.72
+    },
+    {
+      "word": "remains",
+      "start": 196.72,
+      "end": 196.96
+    },
+    {
+      "word": "the",
+      "start": 196.96,
+      "end": 197.26
+    },
+    {
+      "word": "deadliest",
+      "start": 197.26,
+      "end": 197.56
+    },
+    {
+      "word": "natural",
+      "start": 197.56,
+      "end": 197.96
+    },
+    {
+      "word": "disaster",
+      "start": 197.96,
+      "end": 198.58
+    },
+    {
+      "word": "in",
+      "start": 198.58,
+      "end": 198.84
+    },
+    {
+      "word": "Great",
+      "start": 198.84,
+      "end": 199.02
+    },
+    {
+      "word": "Lakes",
+      "start": 199.02,
+      "end": 199.3
+    },
+    {
+      "word": "shipping",
+      "start": 199.3,
+      "end": 199.56
+    },
+    {
+      "word": "history.",
+      "start": 199.56,
+      "end": 200.02
+    },
+    {
+      "word": "Lake",
+      "start": 200.66,
+      "end": 200.84
+    },
+    {
+      "word": "Huron",
+      "start": 200.84,
+      "end": 201.22
+    },
+    {
+      "word": "suffered",
+      "start": 201.22,
+      "end": 201.54
+    },
+    {
+      "word": "the",
+      "start": 201.54,
+      "end": 201.76
+    },
+    {
+      "word": "worst",
+      "start": 201.76,
+      "end": 201.96
+    },
+    {
+      "word": "blow,",
+      "start": 201.96,
+      "end": 202.26
+    },
+    {
+      "word": "swallowing",
+      "start": 202.76,
+      "end": 203.02
+    },
+    {
+      "word": "eight",
+      "start": 203.02,
+      "end": 203.46
+    },
+    {
+      "word": "major",
+      "start": 203.46,
+      "end": 203.78
+    },
+    {
+      "word": "freighters",
+      "start": 203.78,
+      "end": 204.24
+    },
+    {
+      "word": "with",
+      "start": 204.24,
+      "end": 204.42
+    },
+    {
+      "word": "zero",
+      "start": 204.42,
+      "end": 204.68
+    },
+    {
+      "word": "survivors.",
+      "start": 204.68,
+      "end": 205.16
+    },
+    {
+      "word": "The",
+      "start": 206.16,
+      "end": 206.26
+    },
+    {
+      "word": "haunting",
+      "start": 206.26,
+      "end": 206.44
+    },
+    {
+      "word": "emblem",
+      "start": 206.44,
+      "end": 206.82
+    },
+    {
+      "word": "of",
+      "start": 206.82,
+      "end": 207.08
+    },
+    {
+      "word": "1913",
+      "start": 207.08,
+      "end": 207.66
+    },
+    {
+      "word": "was",
+      "start": 207.66,
+      "end": 208.4
+    },
+    {
+      "word": "a",
+      "start": 208.4,
+      "end": 208.5
+    },
+    {
+      "word": "brand",
+      "start": 208.5,
+      "end": 208.7
+    },
+    {
+      "word": "new",
+      "start": 208.7,
+      "end": 209.02
+    },
+    {
+      "word": "524",
+      "start": 209.02,
+      "end": 209.66
+    },
+    {
+      "word": "-foot",
+      "start": 209.66,
+      "end": 210.4
+    },
+    {
+      "word": "steel",
+      "start": 210.4,
+      "end": 210.66
+    },
+    {
+      "word": "carrier",
+      "start": 210.66,
+      "end": 211.04
+    },
+    {
+      "word": "named",
+      "start": 211.04,
+      "end": 211.38
+    },
+    {
+      "word": "the",
+      "start": 211.38,
+      "end": 211.56
+    },
+    {
+      "word": "Charles",
+      "start": 211.56,
+      "end": 211.82
+    },
+    {
+      "word": "S.",
+      "start": 211.82,
+      "end": 212.12
+    },
+    {
+      "word": "Price.",
+      "start": 212.44,
+      "end": 212.44
+    },
+    {
+      "word": "When",
+      "start": 212.88,
+      "end": 213.16
+    },
+    {
+      "word": "calm",
+      "start": 213.16,
+      "end": 213.38
+    },
+    {
+      "word": "returned,",
+      "start": 213.38,
+      "end": 213.7
+    },
+    {
+      "word": "stunned",
+      "start": 214.34,
+      "end": 214.56
+    },
+    {
+      "word": "onlookers",
+      "start": 214.56,
+      "end": 215.26
+    },
+    {
+      "word": "near",
+      "start": 215.26,
+      "end": 215.42
+    },
+    {
+      "word": "Port",
+      "start": 215.42,
+      "end": 215.64
+    },
+    {
+      "word": "Huron",
+      "start": 215.64,
+      "end": 216.08
+    },
+    {
+      "word": "discovered",
+      "start": 216.08,
+      "end": 216.44
+    },
+    {
+      "word": "her",
+      "start": 216.44,
+      "end": 216.9
+    },
+    {
+      "word": "giant",
+      "start": 216.9,
+      "end": 217.24
+    },
+    {
+      "word": "red",
+      "start": 217.24,
+      "end": 217.5
+    },
+    {
+      "word": "hull",
+      "start": 217.5,
+      "end": 217.74
+    },
+    {
+      "word": "floating",
+      "start": 217.74,
+      "end": 218.14
+    },
+    {
+      "word": "completely",
+      "start": 218.14,
+      "end": 218.62
+    },
+    {
+      "word": "upside",
+      "start": 218.62,
+      "end": 218.9
+    },
+    {
+      "word": "down",
+      "start": 218.9,
+      "end": 219.34
+    },
+    {
+      "word": "like",
+      "start": 219.34,
+      "end": 219.62
+    },
+    {
+      "word": "a",
+      "start": 219.62,
+      "end": 219.7
+    },
+    {
+      "word": "stranded",
+      "start": 219.7,
+      "end": 219.96
+    },
+    {
+      "word": "whale",
+      "start": 219.96,
+      "end": 220.34
+    },
+    {
+      "word": "before",
+      "start": 220.34,
+      "end": 221.08
+    },
+    {
+      "word": "she",
+      "start": 221.08,
+      "end": 221.3
+    },
+    {
+      "word": "finally",
+      "start": 221.3,
+      "end": 221.64
+    },
+    {
+      "word": "slipped",
+      "start": 221.64,
+      "end": 222.0
+    },
+    {
+      "word": "beneath",
+      "start": 222.0,
+      "end": 222.32
+    },
+    {
+      "word": "the",
+      "start": 222.32,
+      "end": 222.6
+    },
+    {
+      "word": "surface.",
+      "start": 222.6,
+      "end": 223.0
+    },
+    {
+      "word": "Days",
+      "start": 223.78,
+      "end": 224.12
+    },
+    {
+      "word": "later,",
+      "start": 224.12,
+      "end": 224.48
+    },
+    {
+      "word": "an",
+      "start": 224.84,
+      "end": 224.92
+    },
+    {
+      "word": "eerie",
+      "start": 224.92,
+      "end": 225.12
+    },
+    {
+      "word": "mystery",
+      "start": 225.12,
+      "end": 225.54
+    },
+    {
+      "word": "gripped",
+      "start": 225.54,
+      "end": 225.82
+    },
+    {
+      "word": "the",
+      "start": 225.82,
+      "end": 226.04
+    },
+    {
+      "word": "newspapers,",
+      "start": 226.04,
+      "end": 226.24
+    },
+    {
+      "word": "bodies",
+      "start": 227.08,
+      "end": 227.34
+    },
+    {
+      "word": "from",
+      "start": 227.34,
+      "end": 227.68
+    },
+    {
+      "word": "the",
+      "start": 227.68,
+      "end": 227.78
+    },
+    {
+      "word": "Charles",
+      "start": 227.78,
+      "end": 228.06
+    },
+    {
+      "word": "S.",
+      "start": 228.06,
+      "end": 228.38
+    },
+    {
+      "word": "Price",
+      "start": 229.02,
+      "end": 229.22
+    },
+    {
+      "word": "washed",
+      "start": 229.22,
+      "end": 229.52
+    },
+    {
+      "word": "ashore",
+      "start": 229.52,
+      "end": 229.88
+    },
+    {
+      "word": "in",
+      "start": 229.88,
+      "end": 230.16
+    },
+    {
+      "word": "Ontario",
+      "start": 230.16,
+      "end": 230.48
+    },
+    {
+      "word": "wearing",
+      "start": 230.48,
+      "end": 230.94
+    },
+    {
+      "word": "life",
+      "start": 230.94,
+      "end": 231.2
+    },
+    {
+      "word": "jackets",
+      "start": 231.2,
+      "end": 231.6
+    },
+    {
+      "word": "stamped",
+      "start": 231.6,
+      "end": 232.18
+    },
+    {
+      "word": "with",
+      "start": 232.18,
+      "end": 232.46
+    },
+    {
+      "word": "the",
+      "start": 232.46,
+      "end": 232.58
+    },
+    {
+      "word": "name",
+      "start": 232.58,
+      "end": 232.8
+    },
+    {
+      "word": "of",
+      "start": 232.8,
+      "end": 232.9
+    },
+    {
+      "word": "a",
+      "start": 232.9,
+      "end": 232.98
+    },
+    {
+      "word": "nearby",
+      "start": 232.98,
+      "end": 233.16
+    },
+    {
+      "word": "Canadian",
+      "start": 233.16,
+      "end": 233.72
+    },
+    {
+      "word": "freighter",
+      "start": 233.72,
+      "end": 234.2
+    },
+    {
+      "word": "that",
+      "start": 234.2,
+      "end": 234.42
+    },
+    {
+      "word": "had",
+      "start": 234.42,
+      "end": 234.52
+    },
+    {
+      "word": "also",
+      "start": 234.52,
+      "end": 234.82
+    },
+    {
+      "word": "vanished,",
+      "start": 234.82,
+      "end": 235.1
+    },
+    {
+      "word": "the",
+      "start": 235.68,
+      "end": 235.82
+    },
+    {
+      "word": "Red",
+      "start": 235.82,
+      "end": 235.98
+    },
+    {
+      "word": "Jay",
+      "start": 235.98,
+      "end": 236.18
+    },
+    {
+      "word": "Wina.",
+      "start": 236.18,
+      "end": 236.56
+    },
+    {
+      "word": "For",
+      "start": 237.08,
+      "end": 237.44
+    },
+    {
+      "word": "decades,",
+      "start": 237.44,
+      "end": 237.66
+    },
+    {
+      "word": "rumors",
+      "start": 238.18,
+      "end": 238.4
+    },
+    {
+      "word": "claimed",
+      "start": 238.4,
+      "end": 238.76
+    },
+    {
+      "word": "the",
+      "start": 238.76,
+      "end": 239.04
+    },
+    {
+      "word": "two",
+      "start": 239.04,
+      "end": 239.2
+    },
+    {
+      "word": "ships",
+      "start": 239.2,
+      "end": 239.42
+    },
+    {
+      "word": "had",
+      "start": 239.42,
+      "end": 239.66
+    },
+    {
+      "word": "collided",
+      "start": 239.66,
+      "end": 239.94
+    },
+    {
+      "word": "in",
+      "start": 239.94,
+      "end": 240.22
+    },
+    {
+      "word": "the",
+      "start": 240.22,
+      "end": 240.3
+    },
+    {
+      "word": "whiteout,",
+      "start": 240.3,
+      "end": 240.68
+    },
+    {
+      "word": "only",
+      "start": 241.06,
+      "end": 241.42
+    },
+    {
+      "word": "when",
+      "start": 241.42,
+      "end": 241.62
+    },
+    {
+      "word": "divers",
+      "start": 241.62,
+      "end": 241.88
+    },
+    {
+      "word": "explored",
+      "start": 241.88,
+      "end": 242.46
+    },
+    {
+      "word": "both",
+      "start": 242.46,
+      "end": 242.74
+    },
+    {
+      "word": "wrecks",
+      "start": 242.74,
+      "end": 243.16
+    },
+    {
+      "word": "generations",
+      "start": 243.16,
+      "end": 243.42
+    },
+    {
+      "word": "later",
+      "start": 243.42,
+      "end": 244.0
+    },
+    {
+      "word": "was",
+      "start": 244.0,
+      "end": 244.34
+    },
+    {
+      "word": "the",
+      "start": 244.34,
+      "end": 244.46
+    },
+    {
+      "word": "mystery",
+      "start": 244.46,
+      "end": 244.74
+    },
+    {
+      "word": "settled.",
+      "start": 244.74,
+      "end": 245.12
+    },
+    {
+      "word": "Neither",
+      "start": 245.62,
+      "end": 245.98
+    },
+    {
+      "word": "hull",
+      "start": 245.98,
+      "end": 246.22
+    },
+    {
+      "word": "showed",
+      "start": 246.22,
+      "end": 246.58
+    },
+    {
+      "word": "collision",
+      "start": 246.58,
+      "end": 246.86
+    },
+    {
+      "word": "damage.",
+      "start": 246.86,
+      "end": 247.3
+    },
+    {
+      "word": "Both",
+      "start": 247.96,
+      "end": 248.16
+    },
+    {
+      "word": "ships",
+      "start": 248.16,
+      "end": 248.4
+    },
+    {
+      "word": "had",
+      "start": 248.4,
+      "end": 248.66
+    },
+    {
+      "word": "simply",
+      "start": 248.66,
+      "end": 248.94
+    },
+    {
+      "word": "foundered",
+      "start": 248.94,
+      "end": 249.42
+    },
+    {
+      "word": "in",
+      "start": 249.42,
+      "end": 249.54
+    },
+    {
+      "word": "the",
+      "start": 249.54,
+      "end": 249.62
+    },
+    {
+      "word": "same",
+      "start": 249.62,
+      "end": 249.86
+    },
+    {
+      "word": "deadly",
+      "start": 249.86,
+      "end": 250.14
+    },
+    {
+      "word": "stretch",
+      "start": 250.14,
+      "end": 250.6
+    },
+    {
+      "word": "of",
+      "start": 250.6,
+      "end": 250.8
+    },
+    {
+      "word": "Lake",
+      "start": 250.8,
+      "end": 250.98
+    },
+    {
+      "word": "Huron,",
+      "start": 250.98,
+      "end": 251.42
+    },
+    {
+      "word": "their",
+      "start": 251.78,
+      "end": 252.02
+    },
+    {
+      "word": "crews",
+      "start": 252.02,
+      "end": 252.3
+    },
+    {
+      "word": "fighting",
+      "start": 252.3,
+      "end": 252.66
+    },
+    {
+      "word": "for",
+      "start": 252.66,
+      "end": 252.92
+    },
+    {
+      "word": "survival",
+      "start": 252.92,
+      "end": 253.26
+    },
+    {
+      "word": "in",
+      "start": 253.26,
+      "end": 253.54
+    },
+    {
+      "word": "freezing",
+      "start": 253.54,
+      "end": 253.76
+    },
+    {
+      "word": "dark",
+      "start": 253.76,
+      "end": 254.16
+    },
+    {
+      "word": "water.",
+      "start": 254.16,
+      "end": 254.5
+    },
+    {
+      "word": "Sixty",
+      "start": 257.56,
+      "end": 258.14
+    },
+    {
+      "word": "-two",
+      "start": 258.14,
+      "end": 258.44
+    },
+    {
+      "word": "years",
+      "start": 258.44,
+      "end": 258.66
+    },
+    {
+      "word": "later,",
+      "start": 258.66,
+      "end": 259.02
+    },
+    {
+      "word": "steel",
+      "start": 259.3,
+      "end": 259.66
+    },
+    {
+      "word": "ships",
+      "start": 259.66,
+      "end": 259.96
+    },
+    {
+      "word": "were",
+      "start": 259.96,
+      "end": 260.28
+    },
+    {
+      "word": "bigger,",
+      "start": 260.28,
+      "end": 260.52
+    },
+    {
+      "word": "stronger,",
+      "start": 260.92,
+      "end": 261.26
+    },
+    {
+      "word": "and",
+      "start": 261.82,
+      "end": 261.92
+    },
+    {
+      "word": "packed",
+      "start": 261.92,
+      "end": 262.1
+    },
+    {
+      "word": "with",
+      "start": 262.1,
+      "end": 262.36
+    },
+    {
+      "word": "modern",
+      "start": 262.36,
+      "end": 262.68
+    },
+    {
+      "word": "electronics,",
+      "start": 262.68,
+      "end": 262.92
+    },
+    {
+      "word": "yet",
+      "start": 263.78,
+      "end": 263.98
+    },
+    {
+      "word": "Lake",
+      "start": 263.98,
+      "end": 264.18
+    },
+    {
+      "word": "Superior",
+      "start": 264.18,
+      "end": 264.54
+    },
+    {
+      "word": "proved",
+      "start": 264.54,
+      "end": 265.0
+    },
+    {
+      "word": "it",
+      "start": 265.0,
+      "end": 265.22
+    },
+    {
+      "word": "had",
+      "start": 265.22,
+      "end": 265.32
+    },
+    {
+      "word": "not",
+      "start": 265.32,
+      "end": 265.56
+    },
+    {
+      "word": "been",
+      "start": 265.56,
+      "end": 265.74
+    },
+    {
+      "word": "tamed.",
+      "start": 265.74,
+      "end": 266.18
+    },
+    {
+      "word": "Launched",
+      "start": 267.02,
+      "end": 267.36
+    },
+    {
+      "word": "near",
+      "start": 267.36,
+      "end": 267.52
+    },
+    {
+      "word": "Detroit",
+      "start": 267.52,
+      "end": 267.76
+    },
+    {
+      "word": "in",
+      "start": 267.76,
+      "end": 268.12
+    },
+    {
+      "word": "1958,",
+      "start": 268.12,
+      "end": 268.82
+    },
+    {
+      "word": "the",
+      "start": 269.58,
+      "end": 269.7
+    },
+    {
+      "word": "SS",
+      "start": 269.7,
+      "end": 269.92
+    },
+    {
+      "word": "Edmund",
+      "start": 269.92,
+      "end": 270.36
+    },
+    {
+      "word": "Fitzgerald",
+      "start": 270.36,
+      "end": 270.68
+    },
+    {
+      "word": "was",
+      "start": 270.68,
+      "end": 271.3
+    },
+    {
+      "word": "729",
+      "start": 271.3,
+      "end": 272.18
+    },
+    {
+      "word": "feet",
+      "start": 272.18,
+      "end": 272.68
+    },
+    {
+      "word": "long,",
+      "start": 272.68,
+      "end": 273.02
+    },
+    {
+      "word": "known",
+      "start": 273.46,
+      "end": 273.66
+    },
+    {
+      "word": "across",
+      "start": 273.66,
+      "end": 273.98
+    },
+    {
+      "word": "the",
+      "start": 273.98,
+      "end": 274.22
+    },
+    {
+      "word": "Midwest",
+      "start": 274.22,
+      "end": 274.44
+    },
+    {
+      "word": "as",
+      "start": 274.44,
+      "end": 274.92
+    },
+    {
+      "word": "the",
+      "start": 274.92,
+      "end": 275.04
+    },
+    {
+      "word": "Queen",
+      "start": 275.04,
+      "end": 275.24
+    },
+    {
+      "word": "of",
+      "start": 275.24,
+      "end": 275.46
+    },
+    {
+      "word": "the",
+      "start": 275.46,
+      "end": 275.56
+    },
+    {
+      "word": "Great",
+      "start": 275.56,
+      "end": 275.74
+    },
+    {
+      "word": "Lakes.",
+      "start": 275.74,
+      "end": 276.02
+    },
+    {
+      "word": "On",
+      "start": 276.82,
+      "end": 276.88
+    },
+    {
+      "word": "the",
+      "start": 276.88,
+      "end": 277.0
+    },
+    {
+      "word": "afternoon",
+      "start": 277.0,
+      "end": 277.2
+    },
+    {
+      "word": "of",
+      "start": 277.2,
+      "end": 277.6
+    },
+    {
+      "word": "November",
+      "start": 277.6,
+      "end": 277.9
+    },
+    {
+      "word": "9,",
+      "start": 277.9,
+      "end": 278.28
+    },
+    {
+      "word": "1975,",
+      "start": 278.7,
+      "end": 279.52
+    },
+    {
+      "word": "veteran",
+      "start": 280.32,
+      "end": 280.6
+    },
+    {
+      "word": "Captain",
+      "start": 280.6,
+      "end": 280.98
+    },
+    {
+      "word": "Ernest",
+      "start": 280.98,
+      "end": 281.34
+    },
+    {
+      "word": "McSorley",
+      "start": 281.34,
+      "end": 282.06
+    },
+    {
+      "word": "steered",
+      "start": 282.06,
+      "end": 282.34
+    },
+    {
+      "word": "her",
+      "start": 282.34,
+      "end": 282.64
+    },
+    {
+      "word": "out",
+      "start": 282.64,
+      "end": 282.78
+    },
+    {
+      "word": "of",
+      "start": 282.78,
+      "end": 282.86
+    },
+    {
+      "word": "Superior,",
+      "start": 282.86,
+      "end": 283.18
+    },
+    {
+      "word": "Wisconsin,",
+      "start": 283.56,
+      "end": 283.74
+    },
+    {
+      "word": "loaded",
+      "start": 284.4,
+      "end": 284.58
+    },
+    {
+      "word": "with",
+      "start": 284.58,
+      "end": 284.82
+    },
+    {
+      "word": "over",
+      "start": 284.82,
+      "end": 285.0
+    },
+    {
+      "word": "26",
+      "start": 285.0,
+      "end": 285.38
+    },
+    {
+      "word": ",000",
+      "start": 285.38,
+      "end": 286.04
+    },
+    {
+      "word": "tons",
+      "start": 286.04,
+      "end": 286.22
+    },
+    {
+      "word": "of",
+      "start": 286.22,
+      "end": 286.48
+    },
+    {
+      "word": "iron",
+      "start": 286.48,
+      "end": 286.72
+    },
+    {
+      "word": "ore",
+      "start": 286.72,
+      "end": 286.98
+    },
+    {
+      "word": "tachonite",
+      "start": 286.98,
+      "end": 287.62
+    },
+    {
+      "word": "pellets",
+      "start": 287.62,
+      "end": 287.92
+    },
+    {
+      "word": "bound",
+      "start": 287.92,
+      "end": 288.26
+    },
+    {
+      "word": "for",
+      "start": 288.26,
+      "end": 288.52
+    },
+    {
+      "word": "Detroit.",
+      "start": 288.52,
+      "end": 288.72
+    },
+    {
+      "word": "Trailing",
+      "start": 289.78,
+      "end": 290.04
+    },
+    {
+      "word": "a",
+      "start": 290.04,
+      "end": 290.18
+    },
+    {
+      "word": "few",
+      "start": 290.18,
+      "end": 290.34
+    },
+    {
+      "word": "miles",
+      "start": 290.34,
+      "end": 290.58
+    },
+    {
+      "word": "behind",
+      "start": 290.58,
+      "end": 291.04
+    },
+    {
+      "word": "was",
+      "start": 291.04,
+      "end": 291.3
+    },
+    {
+      "word": "another",
+      "start": 291.3,
+      "end": 291.62
+    },
+    {
+      "word": "big",
+      "start": 291.62,
+      "end": 291.88
+    },
+    {
+      "word": "ore",
+      "start": 291.88,
+      "end": 292.14
+    },
+    {
+      "word": "carrier,",
+      "start": 292.14,
+      "end": 292.54
+    },
+    {
+      "word": "the",
+      "start": 292.98,
+      "end": 293.1
+    },
+    {
+      "word": "Arthur",
+      "start": 293.1,
+      "end": 293.3
+    },
+    {
+      "word": "M.",
+      "start": 293.3,
+      "end": 293.6
+    },
+    {
+      "word": "Anderson.",
+      "start": 293.9,
+      "end": 293.9
+    },
+    {
+      "word": "Overnight,",
+      "start": 293.9,
+      "end": 294.98
+    },
+    {
+      "word": "a",
+      "start": 295.5,
+      "end": 295.66
+    },
+    {
+      "word": "powerful",
+      "start": 295.66,
+      "end": 295.96
+    },
+    {
+      "word": "storm",
+      "start": 295.96,
+      "end": 296.4
+    },
+    {
+      "word": "intensified",
+      "start": 296.4,
+      "end": 296.62
+    },
+    {
+      "word": "rapidly",
+      "start": 296.62,
+      "end": 297.4
+    },
+    {
+      "word": "over",
+      "start": 297.4,
+      "end": 297.84
+    },
+    {
+      "word": "Lake",
+      "start": 297.84,
+      "end": 298.04
+    },
+    {
+      "word": "Superior.",
+      "start": 298.04,
+      "end": 298.36
+    },
+    {
+      "word": "Both",
+      "start": 299.12,
+      "end": 299.32
+    },
+    {
+      "word": "captains",
+      "start": 299.32,
+      "end": 299.56
+    },
+    {
+      "word": "chose",
+      "start": 299.56,
+      "end": 300.02
+    },
+    {
+      "word": "the",
+      "start": 300.02,
+      "end": 300.26
+    },
+    {
+      "word": "safer",
+      "start": 300.26,
+      "end": 300.56
+    },
+    {
+      "word": "northern",
+      "start": 300.56,
+      "end": 300.82
+    },
+    {
+      "word": "route,",
+      "start": 300.82,
+      "end": 301.24
+    },
+    {
+      "word": "hugging",
+      "start": 301.6,
+      "end": 301.86
+    },
+    {
+      "word": "Ontario's",
+      "start": 301.86,
+      "end": 302.5
+    },
+    {
+      "word": "shoreline",
+      "start": 302.5,
+      "end": 302.92
+    },
+    {
+      "word": "for",
+      "start": 302.92,
+      "end": 303.08
+    },
+    {
+      "word": "shelter",
+      "start": 303.08,
+      "end": 303.3
+    },
+    {
+      "word": "before",
+      "start": 303.3,
+      "end": 303.8
+    },
+    {
+      "word": "turning",
+      "start": 303.8,
+      "end": 304.24
+    },
+    {
+      "word": "south",
+      "start": 304.24,
+      "end": 304.48
+    },
+    {
+      "word": "toward",
+      "start": 304.48,
+      "end": 304.86
+    },
+    {
+      "word": "the",
+      "start": 304.86,
+      "end": 304.98
+    },
+    {
+      "word": "calm",
+      "start": 304.98,
+      "end": 305.2
+    },
+    {
+      "word": "waters",
+      "start": 305.2,
+      "end": 305.54
+    },
+    {
+      "word": "of",
+      "start": 305.54,
+      "end": 305.76
+    },
+    {
+      "word": "Whitefish",
+      "start": 305.76,
+      "end": 306.16
+    },
+    {
+      "word": "Bay.",
+      "start": 306.16,
+      "end": 306.42
+    },
+    {
+      "word": "By",
+      "start": 307.08,
+      "end": 307.16
+    },
+    {
+      "word": "mid",
+      "start": 307.16,
+      "end": 307.34
+    },
+    {
+      "word": "-afternoon",
+      "start": 307.34,
+      "end": 307.82
+    },
+    {
+      "word": "on",
+      "start": 307.82,
+      "end": 308.04
+    },
+    {
+      "word": "November",
+      "start": 308.04,
+      "end": 308.24
+    },
+    {
+      "word": "10,",
+      "start": 308.24,
+      "end": 308.68
+    },
+    {
+      "word": "winds",
+      "start": 309.2,
+      "end": 309.4
+    },
+    {
+      "word": "shrieked",
+      "start": 309.4,
+      "end": 309.94
+    },
+    {
+      "word": "past",
+      "start": 309.94,
+      "end": 310.12
+    },
+    {
+      "word": "70",
+      "start": 310.12,
+      "end": 310.6
+    },
+    {
+      "word": "miles",
+      "start": 310.6,
+      "end": 310.92
+    },
+    {
+      "word": "an",
+      "start": 310.92,
+      "end": 311.08
+    },
+    {
+      "word": "hour",
+      "start": 311.08,
+      "end": 311.34
+    },
+    {
+      "word": "and",
+      "start": 311.34,
+      "end": 311.8
+    },
+    {
+      "word": "waves",
+      "start": 311.8,
+      "end": 312.02
+    },
+    {
+      "word": "topped",
+      "start": 312.02,
+      "end": 312.3
+    },
+    {
+      "word": "25",
+      "start": 312.3,
+      "end": 312.74
+    },
+    {
+      "word": "to",
+      "start": 312.74,
+      "end": 312.74
+    },
+    {
+      "word": "30",
+      "start": 312.74,
+      "end": 313.56
+    },
+    {
+      "word": "feet.",
+      "start": 313.56,
+      "end": 313.84
+    },
+    {
+      "word": "Over",
+      "start": 314.38,
+      "end": 314.54
+    },
+    {
+      "word": "the",
+      "start": 314.54,
+      "end": 314.7
+    },
+    {
+      "word": "radio,",
+      "start": 314.7,
+      "end": 315.04
+    },
+    {
+      "word": "McSorley",
+      "start": 315.46,
+      "end": 315.94
+    },
+    {
+      "word": "reported",
+      "start": 315.94,
+      "end": 316.22
+    },
+    {
+      "word": "heavy",
+      "start": 316.22,
+      "end": 316.54
+    },
+    {
+      "word": "listing,",
+      "start": 316.54,
+      "end": 316.96
+    },
+    {
+      "word": "torn",
+      "start": 317.46,
+      "end": 317.56
+    },
+    {
+      "word": "deck",
+      "start": 317.56,
+      "end": 317.88
+    },
+    {
+      "word": "vents,",
+      "start": 317.88,
+      "end": 318.12
+    },
+    {
+      "word": "and",
+      "start": 318.54,
+      "end": 318.66
+    },
+    {
+      "word": "a",
+      "start": 318.66,
+      "end": 318.74
+    },
+    {
+      "word": "damaged",
+      "start": 318.74,
+      "end": 319.04
+    },
+    {
+      "word": "fence",
+      "start": 319.04,
+      "end": 319.34
+    },
+    {
+      "word": "rail,",
+      "start": 319.34,
+      "end": 319.64
+    },
+    {
+      "word": "and",
+      "start": 320.1,
+      "end": 320.3
+    },
+    {
+      "word": "soon",
+      "start": 320.3,
+      "end": 320.48
+    },
+    {
+      "word": "after,",
+      "start": 320.48,
+      "end": 320.86
+    },
+    {
+      "word": "both",
+      "start": 321.3,
+      "end": 321.44
+    },
+    {
+      "word": "of",
+      "start": 321.44,
+      "end": 321.58
+    },
+    {
+      "word": "his",
+      "start": 321.58,
+      "end": 321.68
+    },
+    {
+      "word": "radar",
+      "start": 321.68,
+      "end": 321.88
+    },
+    {
+      "word": "sets",
+      "start": 321.88,
+      "end": 322.2
+    },
+    {
+      "word": "failed.",
+      "start": 322.2,
+      "end": 322.64
+    },
+    {
+      "word": "Worse",
+      "start": 322.64,
+      "end": 323.46
+    },
+    {
+      "word": "still,",
+      "start": 323.46,
+      "end": 323.84
+    },
+    {
+      "word": "the",
+      "start": 324.26,
+      "end": 324.36
+    },
+    {
+      "word": "storm",
+      "start": 324.36,
+      "end": 324.64
+    },
+    {
+      "word": "had",
+      "start": 324.64,
+      "end": 324.84
+    },
+    {
+      "word": "knocked",
+      "start": 324.84,
+      "end": 325.06
+    },
+    {
+      "word": "out",
+      "start": 325.06,
+      "end": 325.28
+    },
+    {
+      "word": "the",
+      "start": 325.28,
+      "end": 325.42
+    },
+    {
+      "word": "lighthouse",
+      "start": 325.42,
+      "end": 325.68
+    },
+    {
+      "word": "and",
+      "start": 325.68,
+      "end": 326.04
+    },
+    {
+      "word": "radio",
+      "start": 326.04,
+      "end": 326.24
+    },
+    {
+      "word": "beacon",
+      "start": 326.24,
+      "end": 326.6
+    },
+    {
+      "word": "ahead",
+      "start": 326.6,
+      "end": 326.96
+    },
+    {
+      "word": "at",
+      "start": 326.96,
+      "end": 327.14
+    },
+    {
+      "word": "Whitefish",
+      "start": 327.14,
+      "end": 327.52
+    },
+    {
+      "word": "Point.",
+      "start": 327.52,
+      "end": 327.84
+    },
+    {
+      "word": "The",
+      "start": 328.42,
+      "end": 328.5
+    },
+    {
+      "word": "Fitzgerald",
+      "start": 328.5,
+      "end": 328.7
+    },
+    {
+      "word": "was",
+      "start": 328.7,
+      "end": 329.2
+    },
+    {
+      "word": "now",
+      "start": 329.2,
+      "end": 329.44
+    },
+    {
+      "word": "steaming",
+      "start": 329.44,
+      "end": 329.8
+    },
+    {
+      "word": "blind",
+      "start": 329.8,
+      "end": 330.06
+    },
+    {
+      "word": "through",
+      "start": 330.06,
+      "end": 330.52
+    },
+    {
+      "word": "blinding",
+      "start": 330.52,
+      "end": 330.82
+    },
+    {
+      "word": "snow",
+      "start": 330.82,
+      "end": 331.2
+    },
+    {
+      "word": "squalls,",
+      "start": 331.2,
+      "end": 331.82
+    },
+    {
+      "word": "relying",
+      "start": 332.06,
+      "end": 332.3
+    },
+    {
+      "word": "on",
+      "start": 332.3,
+      "end": 332.62
+    },
+    {
+      "word": "the",
+      "start": 332.62,
+      "end": 332.7
+    },
+    {
+      "word": "trailing",
+      "start": 332.7,
+      "end": 332.98
+    },
+    {
+      "word": "Arthur",
+      "start": 332.98,
+      "end": 333.32
+    },
+    {
+      "word": "M.",
+      "start": 333.32,
+      "end": 333.62
+    },
+    {
+      "word": "Anderson",
+      "start": 333.84,
+      "end": 333.92
+    },
+    {
+      "word": "to",
+      "start": 333.92,
+      "end": 334.3
+    },
+    {
+      "word": "talk",
+      "start": 334.3,
+      "end": 334.52
+    },
+    {
+      "word": "her",
+      "start": 334.52,
+      "end": 334.7
+    },
+    {
+      "word": "past",
+      "start": 334.7,
+      "end": 334.94
+    },
+    {
+      "word": "the",
+      "start": 334.94,
+      "end": 335.14
+    },
+    {
+      "word": "shoals.",
+      "start": 335.14,
+      "end": 335.62
+    },
+    {
+      "word": "At",
+      "start": 336.18,
+      "end": 336.28
+    },
+    {
+      "word": "710",
+      "start": 336.28,
+      "end": 336.88
+    },
+    {
+      "word": "p",
+      "start": 336.88,
+      "end": 337.04
+    },
+    {
+      "word": ".m.,",
+      "start": 337.04,
+      "end": 337.7
+    },
+    {
+      "word": "the",
+      "start": 337.7,
+      "end": 337.82
+    },
+    {
+      "word": "Anderson's",
+      "start": 337.82,
+      "end": 338.34
+    },
+    {
+      "word": "first",
+      "start": 338.34,
+      "end": 338.52
+    },
+    {
+      "word": "mate",
+      "start": 338.52,
+      "end": 338.8
+    },
+    {
+      "word": "asked",
+      "start": 338.8,
+      "end": 339.16
+    },
+    {
+      "word": "how",
+      "start": 339.16,
+      "end": 339.38
+    },
+    {
+      "word": "she",
+      "start": 339.38,
+      "end": 339.54
+    },
+    {
+      "word": "was",
+      "start": 339.54,
+      "end": 339.66
+    },
+    {
+      "word": "making",
+      "start": 339.66,
+      "end": 339.88
+    },
+    {
+      "word": "out.",
+      "start": 339.88,
+      "end": 340.18
+    },
+    {
+      "word": "McSorley",
+      "start": 340.8,
+      "end": 341.26
+    },
+    {
+      "word": "replied",
+      "start": 341.26,
+      "end": 341.44
+    },
+    {
+      "word": "calmly,",
+      "start": 341.44,
+      "end": 341.92
+    },
+    {
+      "word": "we",
+      "start": 342.62,
+      "end": 342.72
+    },
+    {
+      "word": "are",
+      "start": 342.72,
+      "end": 342.84
+    },
+    {
+      "word": "holding",
+      "start": 342.84,
+      "end": 343.08
+    },
+    {
+      "word": "our",
+      "start": 343.08,
+      "end": 343.34
+    },
+    {
+      "word": "own.",
+      "start": 343.34,
+      "end": 343.58
+    },
+    {
+      "word": "Minutes",
+      "start": 344.3,
+      "end": 344.46
+    },
+    {
+      "word": "later,",
+      "start": 344.46,
+      "end": 344.82
+    },
+    {
+      "word": "a",
+      "start": 345.18,
+      "end": 345.38
+    },
+    {
+      "word": "wall",
+      "start": 345.38,
+      "end": 345.58
+    },
+    {
+      "word": "of",
+      "start": 345.58,
+      "end": 345.74
+    },
+    {
+      "word": "snow",
+      "start": 345.74,
+      "end": 345.98
+    },
+    {
+      "word": "cleared",
+      "start": 345.98,
+      "end": 346.34
+    },
+    {
+      "word": "on",
+      "start": 346.34,
+      "end": 346.56
+    },
+    {
+      "word": "the",
+      "start": 346.56,
+      "end": 346.68
+    },
+    {
+      "word": "Anderson's",
+      "start": 346.68,
+      "end": 347.18
+    },
+    {
+      "word": "radar",
+      "start": 347.18,
+      "end": 347.3
+    },
+    {
+      "word": "screen,",
+      "start": 347.3,
+      "end": 347.74
+    },
+    {
+      "word": "and",
+      "start": 348.22,
+      "end": 348.4
+    },
+    {
+      "word": "the",
+      "start": 348.4,
+      "end": 348.52
+    },
+    {
+      "word": "Edmund",
+      "start": 348.52,
+      "end": 348.7
+    },
+    {
+      "word": "Fitzgerald",
+      "start": 348.7,
+      "end": 349.08
+    },
+    {
+      "word": "was",
+      "start": 349.08,
+      "end": 349.56
+    },
+    {
+      "word": "simply",
+      "start": 349.56,
+      "end": 349.78
+    },
+    {
+      "word": "gone.",
+      "start": 349.78,
+      "end": 350.14
+    },
+    {
+      "word": "No",
+      "start": 350.7,
+      "end": 350.9
+    },
+    {
+      "word": "distress",
+      "start": 350.9,
+      "end": 351.12
+    },
+    {
+      "word": "call,",
+      "start": 351.12,
+      "end": 351.58
+    },
+    {
+      "word": "no",
+      "start": 352.0,
+      "end": 352.22
+    },
+    {
+      "word": "flare,",
+      "start": 352.22,
+      "end": 352.46
+    },
+    {
+      "word": "not",
+      "start": 353.0,
+      "end": 353.22
+    },
+    {
+      "word": "a",
+      "start": 353.22,
+      "end": 353.32
+    },
+    {
+      "word": "single",
+      "start": 353.32,
+      "end": 353.54
+    },
+    {
+      "word": "lifeboat",
+      "start": 353.54,
+      "end": 354.08
+    },
+    {
+      "word": "launched.",
+      "start": 354.08,
+      "end": 354.42
+    },
+    {
+      "word": "Today",
+      "start": 355.08,
+      "end": 355.32
+    },
+    {
+      "word": "she",
+      "start": 355.32,
+      "end": 355.56
+    },
+    {
+      "word": "lies",
+      "start": 355.56,
+      "end": 355.76
+    },
+    {
+      "word": "broken",
+      "start": 355.76,
+      "end": 356.08
+    },
+    {
+      "word": "in",
+      "start": 356.08,
+      "end": 356.34
+    },
+    {
+      "word": "two",
+      "start": 356.34,
+      "end": 356.6
+    },
+    {
+      "word": "and",
+      "start": 356.6,
+      "end": 356.88
+    },
+    {
+      "word": "530",
+      "start": 356.88,
+      "end": 357.2
+    },
+    {
+      "word": "feet",
+      "start": 357.2,
+      "end": 358.02
+    },
+    {
+      "word": "of",
+      "start": 358.02,
+      "end": 358.16
+    },
+    {
+      "word": "icy",
+      "start": 358.16,
+      "end": 358.34
+    },
+    {
+      "word": "water,",
+      "start": 358.34,
+      "end": 358.76
+    },
+    {
+      "word": "17",
+      "start": 359.16,
+      "end": 359.58
+    },
+    {
+      "word": "miles",
+      "start": 359.58,
+      "end": 359.94
+    },
+    {
+      "word": "northwest",
+      "start": 359.94,
+      "end": 360.4
+    },
+    {
+      "word": "of",
+      "start": 360.4,
+      "end": 360.8
+    },
+    {
+      "word": "Whitefish",
+      "start": 360.8,
+      "end": 361.18
+    },
+    {
+      "word": "Point.",
+      "start": 361.18,
+      "end": 361.48
+    },
+    {
+      "word": "Investigators",
+      "start": 362.12,
+      "end": 362.48
+    },
+    {
+      "word": "from",
+      "start": 362.48,
+      "end": 362.94
+    },
+    {
+      "word": "the",
+      "start": 362.94,
+      "end": 363.08
+    },
+    {
+      "word": "U",
+      "start": 363.08,
+      "end": 363.26
+    },
+    {
+      "word": ".S.,",
+      "start": 363.26,
+      "end": 364.22
+    },
+    {
+      "word": "Coast",
+      "start": 364.22,
+      "end": 364.22
+    },
+    {
+      "word": "Guard",
+      "start": 364.22,
+      "end": 364.46
+    },
+    {
+      "word": "concluded",
+      "start": 364.46,
+      "end": 364.88
+    },
+    {
+      "word": "that",
+      "start": 364.88,
+      "end": 365.5
+    },
+    {
+      "word": "flooding",
+      "start": 365.5,
+      "end": 365.78
+    },
+    {
+      "word": "through",
+      "start": 365.78,
+      "end": 366.06
+    },
+    {
+      "word": "damaged",
+      "start": 366.06,
+      "end": 366.48
+    },
+    {
+      "word": "cargo",
+      "start": 366.48,
+      "end": 366.74
+    },
+    {
+      "word": "hatches",
+      "start": 366.74,
+      "end": 367.28
+    },
+    {
+      "word": "likely",
+      "start": 367.28,
+      "end": 367.82
+    },
+    {
+      "word": "robbed",
+      "start": 367.82,
+      "end": 368.24
+    },
+    {
+      "word": "her",
+      "start": 368.24,
+      "end": 368.48
+    },
+    {
+      "word": "of",
+      "start": 368.48,
+      "end": 368.58
+    },
+    {
+      "word": "buoyancy,",
+      "start": 368.58,
+      "end": 369.08
+    },
+    {
+      "word": "while",
+      "start": 369.58,
+      "end": 369.84
+    },
+    {
+      "word": "other",
+      "start": 369.84,
+      "end": 370.08
+    },
+    {
+      "word": "researchers",
+      "start": 370.08,
+      "end": 370.42
+    },
+    {
+      "word": "have",
+      "start": 370.42,
+      "end": 370.8
+    },
+    {
+      "word": "debated",
+      "start": 370.8,
+      "end": 371.08
+    },
+    {
+      "word": "bottoming",
+      "start": 371.08,
+      "end": 371.54
+    },
+    {
+      "word": "out",
+      "start": 371.54,
+      "end": 371.78
+    },
+    {
+      "word": "near",
+      "start": 371.78,
+      "end": 372.02
+    },
+    {
+      "word": "Caribou",
+      "start": 372.02,
+      "end": 372.5
+    },
+    {
+      "word": "Island",
+      "start": 372.5,
+      "end": 372.76
+    },
+    {
+      "word": "or",
+      "start": 372.76,
+      "end": 373.34
+    },
+    {
+      "word": "a",
+      "start": 373.34,
+      "end": 373.4
+    },
+    {
+      "word": "sudden",
+      "start": 373.4,
+      "end": 373.66
+    },
+    {
+      "word": "series",
+      "start": 373.66,
+      "end": 373.92
+    },
+    {
+      "word": "of",
+      "start": 373.92,
+      "end": 374.22
+    },
+    {
+      "word": "giant",
+      "start": 374.22,
+      "end": 374.5
+    },
+    {
+      "word": "rogue",
+      "start": 374.5,
+      "end": 374.84
+    },
+    {
+      "word": "waves.",
+      "start": 374.84,
+      "end": 375.16
+    },
+    {
+      "word": "Whatever",
+      "start": 375.16,
+      "end": 376.18
+    },
+    {
+      "word": "delivered",
+      "start": 376.18,
+      "end": 376.54
+    },
+    {
+      "word": "the",
+      "start": 376.54,
+      "end": 376.9
+    },
+    {
+      "word": "final",
+      "start": 376.9,
+      "end": 377.18
+    },
+    {
+      "word": "blow,",
+      "start": 377.18,
+      "end": 377.42
+    },
+    {
+      "word": "all",
+      "start": 377.92,
+      "end": 378.12
+    },
+    {
+      "word": "29",
+      "start": 378.12,
+      "end": 378.44
+    },
+    {
+      "word": "men",
+      "start": 378.44,
+      "end": 378.94
+    },
+    {
+      "word": "were",
+      "start": 378.94,
+      "end": 379.1
+    },
+    {
+      "word": "gone",
+      "start": 379.1,
+      "end": 379.34
+    },
+    {
+      "word": "in",
+      "start": 379.34,
+      "end": 379.5
+    },
+    {
+      "word": "moments.",
+      "start": 379.5,
+      "end": 379.7
+    },
+    {
+      "word": "The",
+      "start": 382.72,
+      "end": 383.32
+    },
+    {
+      "word": "next",
+      "start": 383.32,
+      "end": 383.5
+    },
+    {
+      "word": "morning,",
+      "start": 383.5,
+      "end": 383.8
+    },
+    {
+      "word": "November",
+      "start": 384.18,
+      "end": 384.42
+    },
+    {
+      "word": "11,",
+      "start": 384.42,
+      "end": 384.86
+    },
+    {
+      "word": "1975,",
+      "start": 385.26,
+      "end": 385.9
+    },
+    {
+      "word": "the",
+      "start": 386.96,
+      "end": 387.06
+    },
+    {
+      "word": "rector",
+      "start": 387.06,
+      "end": 387.36
+    },
+    {
+      "word": "at",
+      "start": 387.36,
+      "end": 387.52
+    },
+    {
+      "word": "Mariner's",
+      "start": 387.52,
+      "end": 387.96
+    },
+    {
+      "word": "Church",
+      "start": 387.96,
+      "end": 388.12
+    },
+    {
+      "word": "in",
+      "start": 388.12,
+      "end": 388.34
+    },
+    {
+      "word": "downtown",
+      "start": 388.34,
+      "end": 388.58
+    },
+    {
+      "word": "Detroit",
+      "start": 388.58,
+      "end": 389.08
+    },
+    {
+      "word": "walked",
+      "start": 389.08,
+      "end": 389.52
+    },
+    {
+      "word": "to",
+      "start": 389.52,
+      "end": 389.78
+    },
+    {
+      "word": "the",
+      "start": 389.78,
+      "end": 389.86
+    },
+    {
+      "word": "Bellrope",
+      "start": 389.86,
+      "end": 390.38
+    },
+    {
+      "word": "and",
+      "start": 390.38,
+      "end": 390.7
+    },
+    {
+      "word": "told",
+      "start": 390.7,
+      "end": 390.94
+    },
+    {
+      "word": "the",
+      "start": 390.94,
+      "end": 391.14
+    },
+    {
+      "word": "church",
+      "start": 391.14,
+      "end": 391.34
+    },
+    {
+      "word": "bell",
+      "start": 391.34,
+      "end": 391.6
+    },
+    {
+      "word": "29",
+      "start": 391.6,
+      "end": 392.04
+    },
+    {
+      "word": "times,",
+      "start": 392.04,
+      "end": 392.7
+    },
+    {
+      "word": "once",
+      "start": 393.06,
+      "end": 393.26
+    },
+    {
+      "word": "for",
+      "start": 393.26,
+      "end": 393.54
+    },
+    {
+      "word": "every",
+      "start": 393.54,
+      "end": 393.7
+    },
+    {
+      "word": "man",
+      "start": 393.7,
+      "end": 394.0
+    },
+    {
+      "word": "lost",
+      "start": 394.0,
+      "end": 394.28
+    },
+    {
+      "word": "on",
+      "start": 394.28,
+      "end": 394.54
+    },
+    {
+      "word": "Lake",
+      "start": 394.54,
+      "end": 394.7
+    },
+    {
+      "word": "Superior.",
+      "start": 394.7,
+      "end": 395.04
+    },
+    {
+      "word": "A",
+      "start": 395.86,
+      "end": 395.96
+    },
+    {
+      "word": "year",
+      "start": 395.96,
+      "end": 396.1
+    },
+    {
+      "word": "later,",
+      "start": 396.1,
+      "end": 396.42
+    },
+    {
+      "word": "Canadian",
+      "start": 396.8,
+      "end": 397.1
+    },
+    {
+      "word": "songwriter",
+      "start": 397.1,
+      "end": 397.74
+    },
+    {
+      "word": "Gordon",
+      "start": 397.74,
+      "end": 398.04
+    },
+    {
+      "word": "Lightfoot",
+      "start": 398.04,
+      "end": 398.66
+    },
+    {
+      "word": "turned",
+      "start": 398.66,
+      "end": 398.98
+    },
+    {
+      "word": "that",
+      "start": 398.98,
+      "end": 399.22
+    },
+    {
+      "word": "quiet",
+      "start": 399.22,
+      "end": 399.48
+    },
+    {
+      "word": "tribute",
+      "start": 399.48,
+      "end": 399.9
+    },
+    {
+      "word": "into",
+      "start": 399.9,
+      "end": 400.2
+    },
+    {
+      "word": "one",
+      "start": 400.2,
+      "end": 400.42
+    },
+    {
+      "word": "of",
+      "start": 400.42,
+      "end": 400.52
+    },
+    {
+      "word": "the",
+      "start": 400.52,
+      "end": 400.62
+    },
+    {
+      "word": "most",
+      "start": 400.62,
+      "end": 400.76
+    },
+    {
+      "word": "haunting",
+      "start": 400.76,
+      "end": 401.14
+    },
+    {
+      "word": "ballads",
+      "start": 401.14,
+      "end": 401.62
+    },
+    {
+      "word": "in",
+      "start": 401.62,
+      "end": 401.7
+    },
+    {
+      "word": "American",
+      "start": 401.7,
+      "end": 401.9
+    },
+    {
+      "word": "music,",
+      "start": 401.9,
+      "end": 402.42
+    },
+    {
+      "word": "ensuring",
+      "start": 402.86,
+      "end": 403.24
+    },
+    {
+      "word": "the",
+      "start": 403.24,
+      "end": 403.46
+    },
+    {
+      "word": "Fitzgerald's",
+      "start": 403.46,
+      "end": 404.08
+    },
+    {
+      "word": "crew",
+      "start": 404.08,
+      "end": 404.28
+    },
+    {
+      "word": "would",
+      "start": 404.28,
+      "end": 404.54
+    },
+    {
+      "word": "never",
+      "start": 404.54,
+      "end": 404.76
+    },
+    {
+      "word": "be",
+      "start": 404.76,
+      "end": 404.98
+    },
+    {
+      "word": "forgotten.",
+      "start": 404.98,
+      "end": 405.28
+    },
+    {
+      "word": "Just",
+      "start": 406.14,
+      "end": 406.36
+    },
+    {
+      "word": "as",
+      "start": 406.36,
+      "end": 406.5
+    },
+    {
+      "word": "important,",
+      "start": 406.5,
+      "end": 406.78
+    },
+    {
+      "word": "the",
+      "start": 407.32,
+      "end": 407.44
+    },
+    {
+      "word": "disaster",
+      "start": 407.44,
+      "end": 407.76
+    },
+    {
+      "word": "reshaped",
+      "start": 407.76,
+      "end": 408.52
+    },
+    {
+      "word": "Great",
+      "start": 408.52,
+      "end": 408.74
+    },
+    {
+      "word": "Lakes",
+      "start": 408.74,
+      "end": 408.98
+    },
+    {
+      "word": "shipping",
+      "start": 408.98,
+      "end": 409.22
+    },
+    {
+      "word": "forever.",
+      "start": 409.22,
+      "end": 409.7
+    },
+    {
+      "word": "Following",
+      "start": 410.34,
+      "end": 410.68
+    },
+    {
+      "word": "the",
+      "start": 410.68,
+      "end": 410.86
+    },
+    {
+      "word": "Coast",
+      "start": 410.86,
+      "end": 411.06
+    },
+    {
+      "word": "Guard",
+      "start": 411.06,
+      "end": 411.42
+    },
+    {
+      "word": "and",
+      "start": 411.42,
+      "end": 411.58
+    },
+    {
+      "word": "safety",
+      "start": 411.58,
+      "end": 411.8
+    },
+    {
+      "word": "board",
+      "start": 411.8,
+      "end": 412.14
+    },
+    {
+      "word": "investigations,",
+      "start": 412.14,
+      "end": 412.68
+    },
+    {
+      "word": "federal",
+      "start": 413.28,
+      "end": 413.54
+    },
+    {
+      "word": "regulators",
+      "start": 413.54,
+      "end": 413.98
+    },
+    {
+      "word": "rolled",
+      "start": 413.98,
+      "end": 414.48
+    },
+    {
+      "word": "back",
+      "start": 414.48,
+      "end": 414.88
+    },
+    {
+      "word": "load",
+      "start": 414.88,
+      "end": 415.12
+    },
+    {
+      "word": "line",
+      "start": 415.12,
+      "end": 415.4
+    },
+    {
+      "word": "rules",
+      "start": 415.4,
+      "end": 415.66
+    },
+    {
+      "word": "so",
+      "start": 415.66,
+      "end": 416.26
+    },
+    {
+      "word": "autumn",
+      "start": 416.26,
+      "end": 416.54
+    },
+    {
+      "word": "freighters",
+      "start": 416.54,
+      "end": 416.92
+    },
+    {
+      "word": "ride",
+      "start": 416.92,
+      "end": 417.24
+    },
+    {
+      "word": "higher",
+      "start": 417.24,
+      "end": 417.58
+    },
+    {
+      "word": "above",
+      "start": 417.58,
+      "end": 417.86
+    },
+    {
+      "word": "boarding",
+      "start": 417.86,
+      "end": 418.18
+    },
+    {
+      "word": "waves.",
+      "start": 418.18,
+      "end": 418.46
+    },
+    {
+      "word": "Strict",
+      "start": 419.16,
+      "end": 419.4
+    },
+    {
+      "word": "pre",
+      "start": 419.4,
+      "end": 419.66
+    },
+    {
+      "word": "-November",
+      "start": 419.66,
+      "end": 419.96
+    },
+    {
+      "word": "hatch",
+      "start": 419.96,
+      "end": 420.38
+    },
+    {
+      "word": "inspections",
+      "start": 420.38,
+      "end": 420.64
+    },
+    {
+      "word": "became",
+      "start": 420.64,
+      "end": 421.26
+    },
+    {
+      "word": "mandatory.",
+      "start": 421.26,
+      "end": 421.66
+    },
+    {
+      "word": "Every",
+      "start": 422.46,
+      "end": 422.64
+    },
+    {
+      "word": "crewman",
+      "start": 422.64,
+      "end": 423.06
+    },
+    {
+      "word": "was",
+      "start": 423.06,
+      "end": 423.18
+    },
+    {
+      "word": "issued",
+      "start": 423.18,
+      "end": 423.46
+    },
+    {
+      "word": "a",
+      "start": 423.46,
+      "end": 423.6
+    },
+    {
+      "word": "cold",
+      "start": 423.6,
+      "end": 423.8
+    },
+    {
+      "word": "water",
+      "start": 423.8,
+      "end": 424.12
+    },
+    {
+      "word": "immersion",
+      "start": 424.12,
+      "end": 424.42
+    },
+    {
+      "word": "survival",
+      "start": 424.42,
+      "end": 424.9
+    },
+    {
+      "word": "suit.",
+      "start": 424.9,
+      "end": 425.36
+    },
+    {
+      "word": "Ships",
+      "start": 425.88,
+      "end": 426.04
+    },
+    {
+      "word": "gained",
+      "start": 426.04,
+      "end": 426.32
+    },
+    {
+      "word": "emergency",
+      "start": 426.32,
+      "end": 426.72
+    },
+    {
+      "word": "distress",
+      "start": 426.72,
+      "end": 427.24
+    },
+    {
+      "word": "beacons",
+      "start": 427.24,
+      "end": 427.78
+    },
+    {
+      "word": "and",
+      "start": 427.78,
+      "end": 428.02
+    },
+    {
+      "word": "satellite",
+      "start": 428.02,
+      "end": 428.36
+    },
+    {
+      "word": "GPS,",
+      "start": 428.36,
+      "end": 428.76
+    },
+    {
+      "word": "and",
+      "start": 429.5,
+      "end": 429.74
+    },
+    {
+      "word": "offshore",
+      "start": 429.74,
+      "end": 430.0
+    },
+    {
+      "word": "NOAA",
+      "start": 430.0,
+      "end": 430.44
+    },
+    {
+      "word": "weather",
+      "start": 430.44,
+      "end": 430.78
+    },
+    {
+      "word": "buoys",
+      "start": 430.78,
+      "end": 431.22
+    },
+    {
+      "word": "began",
+      "start": 431.22,
+      "end": 431.46
+    },
+    {
+      "word": "broadcasting",
+      "start": 431.46,
+      "end": 432.0
+    },
+    {
+      "word": "real",
+      "start": 432.0,
+      "end": 432.38
+    },
+    {
+      "word": "-time",
+      "start": 432.38,
+      "end": 432.76
+    },
+    {
+      "word": "wave",
+      "start": 432.76,
+      "end": 433.04
+    },
+    {
+      "word": "and",
+      "start": 433.04,
+      "end": 433.28
+    },
+    {
+      "word": "wind",
+      "start": 433.28,
+      "end": 433.44
+    },
+    {
+      "word": "data.",
+      "start": 433.44,
+      "end": 433.78
+    },
+    {
+      "word": "Captains",
+      "start": 434.44,
+      "end": 434.92
+    },
+    {
+      "word": "stopped",
+      "start": 434.92,
+      "end": 435.12
+    },
+    {
+      "word": "racing",
+      "start": 435.12,
+      "end": 435.5
+    },
+    {
+      "word": "November",
+      "start": 435.5,
+      "end": 435.82
+    },
+    {
+      "word": "gales",
+      "start": 435.82,
+      "end": 436.44
+    },
+    {
+      "word": "and",
+      "start": 436.44,
+      "end": 436.64
+    },
+    {
+      "word": "started",
+      "start": 436.64,
+      "end": 436.86
+    },
+    {
+      "word": "waiting",
+      "start": 436.86,
+      "end": 437.18
+    },
+    {
+      "word": "them",
+      "start": 437.18,
+      "end": 437.44
+    },
+    {
+      "word": "out",
+      "start": 437.44,
+      "end": 437.58
+    },
+    {
+      "word": "in",
+      "start": 437.58,
+      "end": 437.72
+    },
+    {
+      "word": "safe",
+      "start": 437.72,
+      "end": 437.92
+    },
+    {
+      "word": "harbor.",
+      "start": 437.92,
+      "end": 438.2
+    },
+    {
+      "word": "The",
+      "start": 438.84,
+      "end": 438.96
+    },
+    {
+      "word": "result",
+      "start": 438.96,
+      "end": 439.2
+    },
+    {
+      "word": "is",
+      "start": 439.2,
+      "end": 439.46
+    },
+    {
+      "word": "remarkable.",
+      "start": 439.46,
+      "end": 439.84
+    },
+    {
+      "word": "In",
+      "start": 440.48,
+      "end": 440.52
+    },
+    {
+      "word": "the",
+      "start": 440.52,
+      "end": 440.6
+    },
+    {
+      "word": "five",
+      "start": 440.6,
+      "end": 440.82
+    },
+    {
+      "word": "decades",
+      "start": 440.82,
+      "end": 441.28
+    },
+    {
+      "word": "since",
+      "start": 441.28,
+      "end": 441.6
+    },
+    {
+      "word": "November",
+      "start": 441.6,
+      "end": 441.9
+    },
+    {
+      "word": "1975,",
+      "start": 441.9,
+      "end": 442.66
+    },
+    {
+      "word": "not",
+      "start": 443.5,
+      "end": 443.76
+    },
+    {
+      "word": "a",
+      "start": 443.76,
+      "end": 443.86
+    },
+    {
+      "word": "single",
+      "start": 443.86,
+      "end": 444.14
+    },
+    {
+      "word": "major",
+      "start": 444.14,
+      "end": 444.44
+    },
+    {
+      "word": "commercial",
+      "start": 444.44,
+      "end": 444.84
+    },
+    {
+      "word": "Great",
+      "start": 444.84,
+      "end": 445.26
+    },
+    {
+      "word": "Lakes",
+      "start": 445.26,
+      "end": 445.5
+    },
+    {
+      "word": "freighter",
+      "start": 445.5,
+      "end": 445.9
+    },
+    {
+      "word": "has",
+      "start": 445.9,
+      "end": 446.06
+    },
+    {
+      "word": "sunk.",
+      "start": 446.06,
+      "end": 446.32
+    },
+    {
+      "word": "Today,",
+      "start": 446.9,
+      "end": 447.32
+    },
+    {
+      "word": "you",
+      "start": 447.66,
+      "end": 447.8
+    },
+    {
+      "word": "can",
+      "start": 447.8,
+      "end": 447.9
+    },
+    {
+      "word": "still",
+      "start": 447.9,
+      "end": 448.16
+    },
+    {
+      "word": "visit",
+      "start": 448.16,
+      "end": 448.42
+    },
+    {
+      "word": "the",
+      "start": 448.42,
+      "end": 448.62
+    },
+    {
+      "word": "shores",
+      "start": 448.62,
+      "end": 448.8
+    },
+    {
+      "word": "where",
+      "start": 448.8,
+      "end": 449.12
+    },
+    {
+      "word": "this",
+      "start": 449.12,
+      "end": 449.26
+    },
+    {
+      "word": "history",
+      "start": 449.26,
+      "end": 449.46
+    },
+    {
+      "word": "lives.",
+      "start": 449.46,
+      "end": 449.96
+    },
+    {
+      "word": "At",
+      "start": 450.58,
+      "end": 450.7
+    },
+    {
+      "word": "Whitefish",
+      "start": 450.7,
+      "end": 451.1
+    },
+    {
+      "word": "Point",
+      "start": 451.1,
+      "end": 451.38
+    },
+    {
+      "word": "in",
+      "start": 451.38,
+      "end": 451.6
+    },
+    {
+      "word": "Michigan's",
+      "start": 451.6,
+      "end": 452.08
+    },
+    {
+      "word": "Upper",
+      "start": 452.08,
+      "end": 452.16
+    },
+    {
+      "word": "Peninsula,",
+      "start": 452.16,
+      "end": 452.54
+    },
+    {
+      "word": "the",
+      "start": 453.16,
+      "end": 453.28
+    },
+    {
+      "word": "Great",
+      "start": 453.28,
+      "end": 453.46
+    },
+    {
+      "word": "Lakes",
+      "start": 453.46,
+      "end": 453.72
+    },
+    {
+      "word": "Shipwreck",
+      "start": 453.72,
+      "end": 454.18
+    },
+    {
+      "word": "Museum",
+      "start": 454.18,
+      "end": 454.52
+    },
+    {
+      "word": "displays",
+      "start": 454.52,
+      "end": 454.98
+    },
+    {
+      "word": "the",
+      "start": 454.98,
+      "end": 455.34
+    },
+    {
+      "word": "Edmund",
+      "start": 455.34,
+      "end": 455.62
+    },
+    {
+      "word": "Fitzgerald's",
+      "start": 455.62,
+      "end": 456.34
+    },
+    {
+      "word": "original",
+      "start": 456.34,
+      "end": 456.48
+    },
+    {
+      "word": "200",
+      "start": 456.48,
+      "end": 457.0
+    },
+    {
+      "word": "-pound",
+      "start": 457.0,
+      "end": 457.54
+    },
+    {
+      "word": "bronze",
+      "start": 457.54,
+      "end": 457.82
+    },
+    {
+      "word": "bell",
+      "start": 457.82,
+      "end": 458.16
+    },
+    {
+      "word": "recovered",
+      "start": 458.16,
+      "end": 458.78
+    },
+    {
+      "word": "from",
+      "start": 458.78,
+      "end": 459.2
+    },
+    {
+      "word": "the",
+      "start": 459.2,
+      "end": 459.3
+    },
+    {
+      "word": "wreck",
+      "start": 459.3,
+      "end": 459.48
+    },
+    {
+      "word": "in",
+      "start": 459.48,
+      "end": 459.64
+    },
+    {
+      "word": "1995",
+      "start": 459.64,
+      "end": 460.22
+    },
+    {
+      "word": "and",
+      "start": 460.22,
+      "end": 461.22
+    },
+    {
+      "word": "replaced",
+      "start": 461.22,
+      "end": 461.5
+    },
+    {
+      "word": "underwater",
+      "start": 461.5,
+      "end": 461.94
+    },
+    {
+      "word": "with",
+      "start": 461.94,
+      "end": 462.42
+    },
+    {
+      "word": "a",
+      "start": 462.42,
+      "end": 462.5
+    },
+    {
+      "word": "replica",
+      "start": 462.5,
+      "end": 462.8
+    },
+    {
+      "word": "engraved",
+      "start": 462.8,
+      "end": 463.12
+    },
+    {
+      "word": "with",
+      "start": 463.12,
+      "end": 463.56
+    },
+    {
+      "word": "all",
+      "start": 463.56,
+      "end": 463.76
+    },
+    {
+      "word": "29",
+      "start": 463.76,
+      "end": 464.14
+    },
+    {
+      "word": "names.",
+      "start": 464.14,
+      "end": 464.7
+    },
+    {
+      "word": "Across",
+      "start": 465.4,
+      "end": 465.58
+    },
+    {
+      "word": "Lake",
+      "start": 465.58,
+      "end": 465.94
+    },
+    {
+      "word": "Superior",
+      "start": 465.94,
+      "end": 466.3
+    },
+    {
+      "word": "in",
+      "start": 466.3,
+      "end": 466.6
+    },
+    {
+      "word": "Minnesota,",
+      "start": 466.6,
+      "end": 466.84
+    },
+    {
+      "word": "historic",
+      "start": 467.46,
+      "end": 467.84
+    },
+    {
+      "word": "Split",
+      "start": 467.84,
+      "end": 468.16
+    },
+    {
+      "word": "Rock",
+      "start": 468.16,
+      "end": 468.38
+    },
+    {
+      "word": "Lighthouse",
+      "start": 468.38,
+      "end": 468.72
+    },
+    {
+      "word": "still",
+      "start": 468.72,
+      "end": 469.3
+    },
+    {
+      "word": "lights",
+      "start": 469.3,
+      "end": 469.6
+    },
+    {
+      "word": "its",
+      "start": 469.6,
+      "end": 469.76
+    },
+    {
+      "word": "beak",
+      "start": 469.76,
+      "end": 470.08
+    },
+    {
+      "word": "in",
+      "start": 470.08,
+      "end": 470.16
+    },
+    {
+      "word": "every",
+      "start": 470.16,
+      "end": 470.4
+    },
+    {
+      "word": "November",
+      "start": 470.4,
+      "end": 470.6
+    },
+    {
+      "word": "10th",
+      "start": 470.6,
+      "end": 471.3
+    },
+    {
+      "word": "in",
+      "start": 471.3,
+      "end": 471.3
+    },
+    {
+      "word": "Silent",
+      "start": 471.3,
+      "end": 471.58
+    },
+    {
+      "word": "Tribute,",
+      "start": 471.58,
+      "end": 471.98
+    },
+    {
+      "word": "while",
+      "start": 472.48,
+      "end": 472.7
+    },
+    {
+      "word": "Mariners",
+      "start": 472.7,
+      "end": 472.94
+    },
+    {
+      "word": "Church",
+      "start": 472.94,
+      "end": 473.28
+    },
+    {
+      "word": "in",
+      "start": 473.28,
+      "end": 473.54
+    },
+    {
+      "word": "Detroit",
+      "start": 473.54,
+      "end": 473.74
+    },
+    {
+      "word": "still",
+      "start": 473.74,
+      "end": 474.32
+    },
+    {
+      "word": "rings",
+      "start": 474.32,
+      "end": 474.56
+    },
+    {
+      "word": "its",
+      "start": 474.56,
+      "end": 474.74
+    },
+    {
+      "word": "bell",
+      "start": 474.74,
+      "end": 474.94
+    },
+    {
+      "word": "each",
+      "start": 474.94,
+      "end": 475.18
+    },
+    {
+      "word": "fall.",
+      "start": 475.18,
+      "end": 475.46
+    },
+    {
+      "word": "Have",
+      "start": 476.06,
+      "end": 476.2
+    },
+    {
+      "word": "you",
+      "start": 476.2,
+      "end": 476.3
+    },
+    {
+      "word": "ever",
+      "start": 476.3,
+      "end": 476.44
+    },
+    {
+      "word": "watched",
+      "start": 476.44,
+      "end": 476.76
+    },
+    {
+      "word": "a",
+      "start": 476.76,
+      "end": 476.94
+    },
+    {
+      "word": "November",
+      "start": 476.94,
+      "end": 477.18
+    },
+    {
+      "word": "Gale",
+      "start": 477.18,
+      "end": 477.5
+    },
+    {
+      "word": "roll",
+      "start": 477.5,
+      "end": 477.86
+    },
+    {
+      "word": "off",
+      "start": 477.86,
+      "end": 478.14
+    },
+    {
+      "word": "the",
+      "start": 478.14,
+      "end": 478.28
+    },
+    {
+      "word": "Great",
+      "start": 478.28,
+      "end": 478.46
+    },
+    {
+      "word": "Lakes",
+      "start": 478.46,
+      "end": 478.72
+    },
+    {
+      "word": "or",
+      "start": 478.72,
+      "end": 479.34
+    },
+    {
+      "word": "visited",
+      "start": 479.34,
+      "end": 479.6
+    },
+    {
+      "word": "Whitefish",
+      "start": 479.6,
+      "end": 480.14
+    },
+    {
+      "word": "Point",
+      "start": 480.14,
+      "end": 480.44
+    },
+    {
+      "word": "or",
+      "start": 480.44,
+      "end": 480.68
+    },
+    {
+      "word": "Split",
+      "start": 480.68,
+      "end": 480.88
+    },
+    {
+      "word": "Rock",
+      "start": 480.88,
+      "end": 481.18
+    },
+    {
+      "word": "Lighthouse?",
+      "start": 481.18,
+      "end": 481.52
+    },
+    {
+      "word": "Tell",
+      "start": 481.52,
+      "end": 482.46
+    },
+    {
+      "word": "us",
+      "start": 482.46,
+      "end": 482.66
+    },
+    {
+      "word": "which",
+      "start": 482.66,
+      "end": 482.84
+    },
+    {
+      "word": "state",
+      "start": 482.84,
+      "end": 483.16
+    },
+    {
+      "word": "or",
+      "start": 483.16,
+      "end": 483.38
+    },
+    {
+      "word": "province",
+      "start": 483.38,
+      "end": 483.7
+    },
+    {
+      "word": "you",
+      "start": 483.7,
+      "end": 483.96
+    },
+    {
+      "word": "are",
+      "start": 483.96,
+      "end": 484.1
+    },
+    {
+      "word": "watching",
+      "start": 484.1,
+      "end": 484.38
+    },
+    {
+      "word": "from",
+      "start": 484.38,
+      "end": 484.6
+    },
+    {
+      "word": "down",
+      "start": 484.6,
+      "end": 484.78
+    },
+    {
+      "word": "in",
+      "start": 484.78,
+      "end": 484.96
+    },
+    {
+      "word": "the",
+      "start": 484.96,
+      "end": 485.02
+    },
+    {
+      "word": "comments,",
+      "start": 485.02,
+      "end": 485.38
+    },
+    {
+      "word": "and",
+      "start": 485.94,
+      "end": 486.12
+    },
+    {
+      "word": "subscribe",
+      "start": 486.12,
+      "end": 486.52
+    },
+    {
+      "word": "to",
+      "start": 486.52,
+      "end": 486.8
+    },
+    {
+      "word": "Heartland",
+      "start": 486.8,
+      "end": 487.18
+    },
+    {
+      "word": "Mapped",
+      "start": 487.18,
+      "end": 487.52
+    },
+    {
+      "word": "for",
+      "start": 487.52,
+      "end": 487.78
+    },
+    {
+      "word": "more",
+      "start": 487.78,
+      "end": 487.98
+    },
+    {
+      "word": "true",
+      "start": 487.98,
+      "end": 488.2
+    },
+    {
+      "word": "stories",
+      "start": 488.2,
+      "end": 488.66
+    },
+    {
+      "word": "from",
+      "start": 488.66,
+      "end": 488.84
+    },
+    {
+      "word": "the",
+      "start": 488.84,
+      "end": 488.94
+    },
+    {
+      "word": "American",
+      "start": 488.94,
+      "end": 489.18
+    },
+    {
+      "word": "Midwest.",
+      "start": 489.18,
+      "end": 489.54
+    }
+  ]
+}

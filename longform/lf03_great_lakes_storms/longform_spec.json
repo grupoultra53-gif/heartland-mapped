@@ -1,0 +1,1563 @@
+{
+  "episode": "lf03_great_lakes_storms",
+  "title": "The Great Lakes Storms That Swallowed Ships: 1913 and the Edmund Fitzgerald",
+  "output_mp4": "video.mp4",
+  "remaster_audio": false,
+  "chapters": [
+    {
+      "start": 0.0,
+      "title": "Cold Open: 'We Are Holding Our Own' (Nov 10, 1975)"
+    },
+    {
+      "start": 66.9,
+      "title": "1. The November Witch (Why Freshwater Acts Like an Ocean)"
+    },
+    {
+      "start": 146.08,
+      "title": "2. The White Hurricane (November 7–10, 1913)"
+    },
+    {
+      "start": 255.53,
+      "title": "3. The SS Edmund Fitzgerald (November 10, 1975)"
+    },
+    {
+      "start": 380.88,
+      "title": "4. 50 Years of Safety & What's Left Today"
+    }
+  ],
+  "foley_cues": [
+    {
+      "t": 0.6,
+      "type": "fire_crackle",
+      "gain": 0.25
+    },
+    {
+      "t": 15.45,
+      "type": "bell",
+      "gain": 0.48
+    },
+    {
+      "t": 38.51,
+      "type": "parchment",
+      "gain": 0.52
+    },
+    {
+      "t": 67.05,
+      "type": "parchment",
+      "gain": 0.58
+    },
+    {
+      "t": 146.23,
+      "type": "parchment",
+      "gain": 0.6
+    },
+    {
+      "t": 176.43,
+      "type": "whoosh",
+      "gain": 0.45
+    },
+    {
+      "t": 255.68,
+      "type": "parchment",
+      "gain": 0.6
+    },
+    {
+      "t": 335.88,
+      "type": "bell",
+      "gain": 0.55
+    },
+    {
+      "t": 381.03,
+      "type": "parchment",
+      "gain": 0.55
+    },
+    {
+      "t": 387.73,
+      "type": "bell",
+      "gain": 0.52
+    }
+  ],
+  "silence_dips": [
+    [
+      32.86,
+      34.36
+    ],
+    [
+      249.58,
+      251.18
+    ],
+    [
+      374.63,
+      376.33
+    ]
+  ],
+  "scenes": [
+    {
+      "id": "s01_cold_open_whitefish_storm",
+      "type": "map",
+      "duration": 13.867,
+      "image": "maps/map_05_whitefish_final_miles.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.1800000000000002,
+          "pan_x": -0.04,
+          "pan_y": 0.0,
+          "end_zoom": 1.26,
+          "end_pan_x": -0.04,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 2.4,
+          "zoom": 1.04,
+          "pan_x": -0.04,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.05,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 8.13,
+          "zoom": 1.14,
+          "pan_x": 0.025,
+          "pan_y": 0.0,
+          "end_zoom": 1.26,
+          "end_pan_x": 0.05,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "stat",
+          "big": "NOV 10, 1975",
+          "label": "LAKE SUPERIOR · 7:10 PM",
+          "pos": "top_left",
+          "start": 0.5,
+          "end": 5.2
+        }
+      ]
+    },
+    {
+      "id": "s02_cold_open_fitzgerald_usace",
+      "type": "archive",
+      "duration": 12.84,
+      "image": "archive/arc_01_edmund_fitzgerald_usace.jpg",
+      "frame_style": "fullbleed",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.03,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": -0.018,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 6.42,
+          "zoom": 1.16,
+          "pan_x": -0.015,
+          "pan_y": 0.0,
+          "end_zoom": 1.28,
+          "end_pan_x": -0.03,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "SS Edmund Fitzgerald (729 ft)",
+          "subtitle": "29 crew lost in 530 feet of freezing water",
+          "start": 0.6,
+          "end": 12.34
+        }
+      ]
+    },
+    {
+      "id": "s03_cold_open_waves",
+      "type": "archive",
+      "duration": 11.299,
+      "image": "archive/arc_03_superior_waves_1.jpg",
+      "frame_style": "fullbleed",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.65,
+          "zoom": 1.16,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.29,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "destaque",
+          "lines": [
+            "\"We are holding our own.\""
+          ],
+          "attribution": "Last radio call — 7:10 PM",
+          "pos": "bottom",
+          "start": 0.7,
+          "end": 10.8
+        },
+        {
+          "type": "credit",
+          "text": "Photo: Pete Markham from Loretto (CC BY-SA 2.0)",
+          "start": 0.4,
+          "end": 11.0
+        }
+      ]
+    },
+    {
+      "id": "s04_promise_price_1913",
+      "type": "archive",
+      "duration": 13.085,
+      "image": "archive/arc_10_price_upside_down.jpg",
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.0,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.12,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 4.36,
+          "zoom": 1.14,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.26,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 8.72,
+          "zoom": 1.0,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.12,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "stat",
+          "big": "250+ LOST",
+          "label": "1913 WHITE HURRICANE · 12 SHIPS SUNK",
+          "pos": "top_left",
+          "start": 0.5,
+          "end": 12.59
+        }
+      ]
+    },
+    {
+      "id": "s05_promise_storm_belt_map",
+      "type": "map",
+      "duration": 15.812,
+      "image": "maps/map_01_great_lakes_storm_belt.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": -0.03,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.024,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.27,
+          "zoom": 1.16,
+          "pan_x": 0.02,
+          "pan_y": 0.0,
+          "end_zoom": 1.3,
+          "end_pan_x": 0.04,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 10.54,
+          "zoom": 1.02,
+          "pan_x": -0.03,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.024,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "Heartland Mapped",
+          "subtitle": "Why the Great Lakes Turn Deadly Every November",
+          "start": 0.6,
+          "end": 15.31
+        }
+      ]
+    },
+    {
+      "id": "s06_ch1_card",
+      "type": "chapter_card",
+      "duration": 2.35,
+      "card": {
+        "number": "1",
+        "year": "AUTUMN",
+        "title": "THE NOVEMBER WITCH",
+        "subtitle": "Why Freshwater Lakes Act Like Oceans"
+      },
+      "soft_fade": true
+    },
+    {
+      "id": "s07_ch1_waves_north_shore",
+      "type": "archive",
+      "duration": 14.775,
+      "image": "archive/arc_04_superior_waves_2.jpg",
+      "frame_style": "fullbleed",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.018,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 4.92,
+          "zoom": 1.16,
+          "pan_x": 0.015,
+          "pan_y": 0.0,
+          "end_zoom": 1.3,
+          "end_pan_x": 0.03,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 9.85,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.018,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "Inland Freshwater Seas",
+          "subtitle": "Lake Superior holds 10% of the world's surface fresh water",
+          "start": 0.6,
+          "end": 14.28
+        },
+        {
+          "type": "credit",
+          "text": "Photo: Pete Markham from Loretto (CC BY-SA 2.0)",
+          "start": 0.4,
+          "end": 14.47
+        }
+      ]
+    },
+    {
+      "id": "s08_ch1_weather_engine_map",
+      "type": "map",
+      "duration": 16.548,
+      "image": "maps/map_01_great_lakes_storm_belt.jpg",
+      "intentional_callback": true,
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.04,
+          "pan_x": 0.03,
+          "pan_y": 0.0,
+          "end_zoom": 1.16,
+          "end_pan_x": -0.018,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.52,
+          "zoom": 1.18,
+          "pan_x": -0.015,
+          "pan_y": 0.0,
+          "end_zoom": 1.34,
+          "end_pan_x": -0.03,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 11.03,
+          "zoom": 1.04,
+          "pan_x": 0.03,
+          "pan_y": 0.0,
+          "end_zoom": 1.16,
+          "end_pan_x": -0.018,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "highlight_ring",
+          "cx": 0.54,
+          "cy": 0.52,
+          "radius": 0.16,
+          "color": "red",
+          "start": 1.2,
+          "end": 5.5
+        },
+        {
+          "type": "rodape",
+          "title": "The 'November Witch'",
+          "subtitle": "Arctic cold fronts collide with warm Gulf air over warm lakes",
+          "start": 0.8,
+          "end": 16.05
+        }
+      ]
+    },
+    {
+      "id": "s09_ch1_wave_physics_diagram",
+      "type": "map",
+      "duration": 18.321,
+      "image": "maps/map_02_wave_mechanics_diagram.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.0,
+          "pan_x": 0.0,
+          "pan_y": -0.03,
+          "end_zoom": 1.12,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.018
+        },
+        {
+          "t": 4.58,
+          "zoom": 1.14,
+          "pan_x": 0.0,
+          "pan_y": 0.015,
+          "end_zoom": 1.26,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.03
+        },
+        {
+          "t": 9.16,
+          "zoom": 1.0,
+          "pan_x": 0.0,
+          "pan_y": -0.03,
+          "end_zoom": 1.12,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.018
+        },
+        {
+          "t": 13.74,
+          "zoom": 1.14,
+          "pan_x": 0.0,
+          "pan_y": 0.015,
+          "end_zoom": 1.26,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.03
+        }
+      ],
+      "overlays": [
+        {
+          "type": "stat",
+          "big": "8 - 10 SEC",
+          "label": "STEEP WAVE PERIOD SLAMS FREIGHTER DECKS",
+          "pos": "top_right",
+          "start": 0.7,
+          "end": 17.82
+        }
+      ]
+    },
+    {
+      "id": "s10_ch1_ore_dock_race",
+      "type": "archive",
+      "duration": 13.593,
+      "image": "archive/arc_06_duluth_ore_dock.jpg",
+      "frame_style": "fullbleed",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": -0.03,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.018,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 4.53,
+          "zoom": 1.16,
+          "pan_x": 0.015,
+          "pan_y": 0.0,
+          "end_zoom": 1.28,
+          "end_pan_x": 0.03,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 9.06,
+          "zoom": 1.02,
+          "pan_x": -0.03,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.018,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "Duluth–Superior Iron Ore Docks",
+          "subtitle": "Late-autumn shipping rush before winter ice closes the locks",
+          "start": 0.6,
+          "end": 13.09
+        }
+      ]
+    },
+    {
+      "id": "s11_ch1_soo_locks_1904",
+      "type": "archive",
+      "duration": 13.594,
+      "image": "archive/arc_05_soo_locks_1904.jpg",
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 4.53,
+          "zoom": 1.16,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.28,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 9.06,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "Soo Locks Shipping Bottleneck (1904)",
+          "subtitle": "Steel carriers pushed straight into November gales",
+          "start": 0.6,
+          "end": 13.09
+        }
+      ]
+    },
+    {
+      "id": "s12_ch2_card",
+      "type": "chapter_card",
+      "duration": 2.35,
+      "card": {
+        "number": "2",
+        "year": "NOV 1913",
+        "title": "THE WHITE HURRICANE",
+        "subtitle": "The Deadliest Weekend on the Lakes"
+      },
+      "soft_fade": true
+    },
+    {
+      "id": "s13_ch2_1913_oldmap_to_huron",
+      "type": "oldmap_to_map",
+      "duration": 19.999,
+      "image": "archive/arc_07_1913_weather_map.jpg",
+      "image_b": "maps/map_03_1913_white_hurricane_map.jpg",
+      "frame_style_a": "fullbleed",
+      "dissolve_at": 9.6,
+      "dissolve_dur": 1.25,
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.0,
+          "zoom": 1.16,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.29,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 10.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 15.0,
+          "zoom": 1.16,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.29,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "stat",
+          "big": "90 MPH",
+          "label": "BLACK SUNDAY · NOV 9, 1913",
+          "pos": "top_left",
+          "start": 0.7,
+          "end": 19.5
+        }
+      ]
+    },
+    {
+      "id": "s14_ch2_huron_winter",
+      "type": "archive",
+      "duration": 14.838,
+      "image": "archive/arc_12_lake_huron_winter.jpg",
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 4.95,
+          "zoom": 1.16,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.28,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 9.89,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "35-Foot Waves & 22 Inches of Snow",
+          "subtitle": "Blinding blizzard paralyzed Cleveland and severed telegraph lines",
+          "start": 0.6,
+          "end": 14.34
+        }
+      ]
+    },
+    {
+      "id": "s15_ch2_1913_shipwrecks_map",
+      "type": "archive",
+      "duration": 17.419,
+      "image": "archive/arc_08_1913_shipwrecks_map.jpg",
+      "frame_style": "fullbleed",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": -0.02,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.018,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.81,
+          "zoom": 1.16,
+          "pan_x": 0.015,
+          "pan_y": 0.0,
+          "end_zoom": 1.3,
+          "end_pan_x": 0.03,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 11.61,
+          "zoom": 1.02,
+          "pan_x": -0.02,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.018,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "12 Ships Sunk · 19 Driven Ashore",
+          "subtitle": "Lake Huron alone swallowed 8 freighters with zero survivors",
+          "start": 0.6,
+          "end": 16.92
+        }
+      ]
+    },
+    {
+      "id": "s16_ch2_charles_s_price_hull",
+      "type": "archive",
+      "duration": 16.128,
+      "image": "archive/arc_09_charles_s_price_hull.jpg",
+      "frame_style": "fullbleed",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.03,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": -0.018,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.38,
+          "zoom": 1.16,
+          "pan_x": -0.015,
+          "pan_y": 0.0,
+          "end_zoom": 1.29,
+          "end_pan_x": -0.03,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 10.75,
+          "zoom": 1.02,
+          "pan_x": 0.03,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": -0.018,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "SS Charles S. Price (524 ft)",
+          "subtitle": "Modern steel ore carrier — all 28 crewmen lost",
+          "start": 0.6,
+          "end": 15.63
+        }
+      ]
+    },
+    {
+      "id": "s17_ch2_price_upside_down_pair",
+      "type": "composite_pair",
+      "duration": 21.289,
+      "image": "archive/arc_10_price_upside_down.jpg",
+      "image_b": "archive/arc_11_lightship_82.jpg",
+      "label_a": "SS Charles S. Price — Floating Upside Down",
+      "label_b": "U.S. Lightship No. 82 — Raised After 1913",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.0,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.12,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.32,
+          "zoom": 1.14,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.22,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 10.64,
+          "zoom": 1.0,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.12,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 15.97,
+          "zoom": 1.14,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.22,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "The 'Mystery Ship' of Lake Huron",
+          "subtitle": "Capsized hull floated off Port Huron before sinking completely",
+          "start": 0.6,
+          "end": 20.79
+        }
+      ]
+    },
+    {
+      "id": "s18_ch2_huron_map_regina",
+      "type": "map",
+      "duration": 17.419,
+      "image": "maps/map_03_1913_white_hurricane_map.jpg",
+      "intentional_callback": true,
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.08,
+          "pan_x": 0.04,
+          "pan_y": 0.08,
+          "end_zoom": 1.2,
+          "end_pan_x": 0.036,
+          "end_pan_y": 0.084
+        },
+        {
+          "t": 5.81,
+          "zoom": 1.22,
+          "pan_x": 0.03,
+          "pan_y": 0.07,
+          "end_zoom": 1.36,
+          "end_pan_x": 0.06,
+          "end_pan_y": 0.14
+        },
+        {
+          "t": 11.61,
+          "zoom": 1.08,
+          "pan_x": 0.04,
+          "pan_y": 0.08,
+          "end_zoom": 1.2,
+          "end_pan_x": 0.036,
+          "end_pan_y": 0.084
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "Price & Regina — Mystery Solved by Divers",
+          "subtitle": "No collision damage: both ships foundered in the same deadly waters",
+          "start": 0.6,
+          "end": 16.92
+        }
+      ]
+    },
+    {
+      "id": "s19_ch3_card",
+      "type": "chapter_card",
+      "duration": 2.35,
+      "card": {
+        "number": "3",
+        "year": "NOV 10, 1975",
+        "title": "THE EDMUND FITZGERALD",
+        "subtitle": "29 Men & Lake Superior's Deepest Mystery"
+      },
+      "soft_fade": true
+    },
+    {
+      "id": "s20_ch3_fitzgerald_1971",
+      "type": "archive",
+      "duration": 17.665,
+      "image": "archive/arc_02_fitzgerald_1971.jpg",
+      "frame_style": "fullbleed",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": -0.03,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.024,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.89,
+          "zoom": 1.16,
+          "pan_x": 0.02,
+          "pan_y": 0.0,
+          "end_zoom": 1.3,
+          "end_pan_x": 0.04,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 11.78,
+          "zoom": 1.02,
+          "pan_x": -0.03,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.024,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "SS Edmund Fitzgerald — Launched 1958",
+          "subtitle": "729 feet long · 'Queen of the Great Lakes'",
+          "start": 0.6,
+          "end": 17.16
+        },
+        {
+          "type": "credit",
+          "text": "Photo: Greenmars (CC BY-SA 3.0)",
+          "start": 0.4,
+          "end": 17.36
+        }
+      ]
+    },
+    {
+      "id": "s21_ch3_anderson_dock",
+      "type": "archive",
+      "duration": 16.357,
+      "image": "archive/arc_14_anderson_ore_dock.jpg",
+      "frame_style": "fullbleed",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.45,
+          "zoom": 1.16,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.28,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 10.9,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "26,000+ Tons of Taconite Iron Ore",
+          "subtitle": "Departed Superior, WI on Nov 9 with SS Arthur M. Anderson trailing",
+          "start": 0.6,
+          "end": 15.86
+        }
+      ]
+    },
+    {
+      "id": "s22_ch3_fitzgerald_route_map",
+      "type": "map",
+      "duration": 20.282,
+      "image": "maps/map_04_fitzgerald_route_1975.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": -0.05,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.036,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.07,
+          "zoom": 1.16,
+          "pan_x": 0.03,
+          "pan_y": 0.0,
+          "end_zoom": 1.32,
+          "end_pan_x": 0.06,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 10.14,
+          "zoom": 1.02,
+          "pan_x": -0.05,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.036,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 15.21,
+          "zoom": 1.16,
+          "pan_x": 0.03,
+          "pan_y": 0.0,
+          "end_zoom": 1.32,
+          "end_pan_x": 0.06,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "stat",
+          "big": "70+ MPH",
+          "label": "NORTHERN SHELTER ROUTE · NOV 10, 1975",
+          "pos": "top_left",
+          "start": 0.6,
+          "end": 19.78
+        },
+        {
+          "type": "rodape",
+          "title": "Hugging Ontario's Shore Toward Whitefish Bay",
+          "subtitle": "Capt. Ernest McSorley reported listing, topside damage & failed radar",
+          "start": 1.0,
+          "end": 19.78
+        }
+      ]
+    },
+    {
+      "id": "s23_ch3_arthur_m_anderson",
+      "type": "archive",
+      "duration": 16.357,
+      "image": "archive/arc_13_arthur_m_anderson.jpg",
+      "frame_style": "fullbleed",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.45,
+          "zoom": 1.16,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.29,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 10.9,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "SS Arthur M. Anderson",
+          "subtitle": "Guided the blinded Fitzgerald by radar after Whitefish Point light failed",
+          "start": 0.6,
+          "end": 15.86
+        }
+      ]
+    },
+    {
+      "id": "s24_ch3_whitefish_final_miles",
+      "type": "map",
+      "duration": 19.628,
+      "image": "maps/map_05_whitefish_final_miles.jpg",
+      "intentional_callback": true,
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.04,
+          "pan_x": -0.02,
+          "pan_y": 0.0,
+          "end_zoom": 1.16,
+          "end_pan_x": 0.03,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 4.91,
+          "zoom": 1.18,
+          "pan_x": 0.025,
+          "pan_y": 0.0,
+          "end_zoom": 1.34,
+          "end_pan_x": 0.05,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 9.81,
+          "zoom": 1.04,
+          "pan_x": -0.02,
+          "pan_y": 0.0,
+          "end_zoom": 1.16,
+          "end_pan_x": 0.03,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 14.72,
+          "zoom": 1.18,
+          "pan_x": 0.025,
+          "pan_y": 0.0,
+          "end_zoom": 1.34,
+          "end_pan_x": 0.05,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "highlight_ring",
+          "cx": 0.62,
+          "cy": 0.42,
+          "radius": 0.09,
+          "color": "red",
+          "start": 1.5,
+          "end": 6.5
+        },
+        {
+          "type": "rodape",
+          "title": "7:10 PM — Vanished From Radar",
+          "subtitle": "17 miles NW of Whitefish Point · No SOS, no lifeboats launched",
+          "start": 0.8,
+          "end": 19.13
+        }
+      ]
+    },
+    {
+      "id": "s25_ch3_storm_comparison_graphic",
+      "type": "graphic",
+      "duration": 16.357,
+      "graphic_type": "scale_compare",
+      "headline": "TWO NOVEMBER DISASTERS COMPARED",
+      "left": {
+        "title": "WHITE HURRICANE (1913)",
+        "value": "250+ DEAD",
+        "subtitle": "12 ships sunk · 90 mph winds"
+      },
+      "right": {
+        "title": "EDMUND FITZGERALD (1975)",
+        "value": "29 CREW LOST",
+        "subtitle": "729 ft hull · 530 ft underwater"
+      },
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.0
+        },
+        {
+          "t": 5.45,
+          "zoom": 1.02
+        },
+        {
+          "t": 10.9,
+          "zoom": 1.04
+        }
+      ]
+    },
+    {
+      "id": "s26_ch3_fitzgerald_usace_tribute",
+      "type": "archive",
+      "duration": 16.355,
+      "image": "archive/arc_01_edmund_fitzgerald_usace.jpg",
+      "frame_style": "fullbleed",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.04,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.16,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 5.45,
+          "zoom": 1.18,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.3,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 10.9,
+          "zoom": 1.04,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.16,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "Coast Guard Investigation (1977)",
+          "subtitle": "Hatch cover flooding, shoaling & rogue waves remain debated today",
+          "start": 0.6,
+          "end": 15.85
+        }
+      ]
+    },
+    {
+      "id": "s27_ch4_card",
+      "type": "chapter_card",
+      "duration": 2.35,
+      "card": {
+        "number": "4",
+        "year": "SINCE 1975",
+        "title": "WHAT'S LEFT TODAY",
+        "subtitle": "50 Years Without a Lost Freighter"
+      },
+      "soft_fade": true
+    },
+    {
+      "id": "s28_ch4_mariners_church",
+      "type": "today",
+      "duration": 13.185,
+      "image": "today/today_01_mariners_church.jpg",
+      "frame_style": "photo",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 4.4,
+          "zoom": 1.16,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.28,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 8.79,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "Mariners' Church — Detroit, Michigan",
+          "subtitle": "Tolled its bell 29 times on November 11, 1975",
+          "start": 0.6,
+          "end": 12.69
+        },
+        {
+          "type": "credit",
+          "text": "Photo: Warren LeMay (CC BY-SA 2.0)",
+          "start": 0.4,
+          "end": 12.88
+        }
+      ]
+    },
+    {
+      "id": "s29_ch4_uscg_noaa_buoy",
+      "type": "archive",
+      "duration": 12.658,
+      "image": "archive/arc_15_uscg_noaa_buoy.jpg",
+      "frame_style": "fullbleed",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 6.33,
+          "zoom": 1.16,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.28,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "Sweeping Post-1975 Coast Guard Reforms",
+          "subtitle": "Stricter load lines, pre-November hatch checks & NOAA weather buoys",
+          "start": 0.6,
+          "end": 12.16
+        }
+      ]
+    },
+    {
+      "id": "s30_ch4_safety_pair",
+      "type": "composite_pair",
+      "duration": 13.185,
+      "image": "archive/arc_16_immersion_suit.jpg",
+      "image_b": "archive/arc_17_uscg_noaa_buoy_2.jpg",
+      "label_a": "Cold-Water Survival Suits",
+      "label_b": "U.S. Coast Guard & NOAA Data",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.0,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.12,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 4.4,
+          "zoom": 1.14,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.22,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 8.79,
+          "zoom": 1.0,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.12,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "50 Years Without a Lost Freighter",
+          "subtitle": "Zero major commercial lakers sunk since November 1975",
+          "start": 0.6,
+          "end": 12.69
+        }
+      ]
+    },
+    {
+      "id": "s31_ch4_soo_locks_today",
+      "type": "today",
+      "duration": 12.131,
+      "image": "today/today_06_soo_locks_modern.jpg",
+      "frame_style": "fullbleed",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 6.07,
+          "zoom": 1.16,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.28,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "stat",
+          "big": "0 LOST",
+          "label": "MAJOR COMMERCIAL LAKERS SINCE 1975",
+          "pos": "top_left",
+          "start": 0.5,
+          "end": 11.63
+        },
+        {
+          "type": "credit",
+          "text": "Photo: NOAA Great Lakes Environment (CC BY-SA 2.0)",
+          "start": 0.4,
+          "end": 11.83
+        }
+      ]
+    },
+    {
+      "id": "s32_today_memorials_map",
+      "type": "map",
+      "duration": 12.131,
+      "image": "maps/map_06_great_lakes_memorials_today.jpg",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 6.07,
+          "zoom": 1.16,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.28,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "Three Historic Shores You Can Still Visit",
+          "subtitle": "Whitefish Point (MI) · Split Rock (MN) · Mariners' Church (Detroit)",
+          "start": 0.6,
+          "end": 11.63
+        }
+      ]
+    },
+    {
+      "id": "s33_today_whitefish_bell_pair",
+      "type": "composite_pair",
+      "duration": 14.768,
+      "image": "today/today_03_fitzgerald_bell.jpg",
+      "image_b": "today/today_04_shipwreck_museum.jpg",
+      "label_a": "Original 200-lb Bell (1995)",
+      "label_b": "Whitefish Point Museum, MI",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.0,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.12,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 4.92,
+          "zoom": 1.14,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.22,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 9.85,
+          "zoom": 1.0,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.12,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "TODAY · Great Lakes Shipwreck Museum",
+          "subtitle": "Whitefish Point, Michigan — Original bell preserved in honor of the 29",
+          "start": 0.6,
+          "end": 14.27
+        }
+      ]
+    },
+    {
+      "id": "s34_today_split_rock",
+      "type": "today",
+      "duration": 13.713,
+      "image": "today/today_05_split_rock.jpg",
+      "frame_style": "fullbleed",
+      "shots": [
+        {
+          "t": 0.0,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 4.57,
+          "zoom": 1.16,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.29,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        },
+        {
+          "t": 9.14,
+          "zoom": 1.02,
+          "pan_x": 0.0,
+          "pan_y": 0.0,
+          "end_zoom": 1.14,
+          "end_pan_x": 0.0,
+          "end_pan_y": 0.0
+        }
+      ],
+      "overlays": [
+        {
+          "type": "rodape",
+          "title": "TODAY · Split Rock Lighthouse, Minnesota",
+          "subtitle": "Beacon still lights every November 10 in silent tribute",
+          "start": 0.6,
+          "end": 13.21
+        },
+        {
+          "type": "credit",
+          "text": "Photo: MichaelDPhotos (CC BY-SA 4.0)",
+          "start": 0.4,
+          "end": 13.41
+        }
+      ]
+    },
+    {
+      "id": "s35_end_screen",
+      "type": "end_screen",
+      "duration": 19.5,
+      "headline": "HEARTLAND MAPPED",
+      "subline": "Have you visited Whitefish Point or Split Rock? Tell us which state you're from!",
+      "left_label": "WATCH NEXT: CHICAGO & PESHTIGO 1871",
+      "right_label": "PLAYLIST: HEARTLAND DISASTERS"
+    }
+  ]
+}

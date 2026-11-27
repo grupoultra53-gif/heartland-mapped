@@ -1181,6 +1181,8 @@ def render_longform(ep_dir: Path, preview: bool = False, audio_only: bool = Fals
         "tension": ROOT / "assets" / "music" / "mood_tension_drone.mp3",
         "nostalgia": ROOT / "assets" / "music" / "mood_nostalgia_garden_wisdom.mp3",
     }
+    for m_key, m_file in script_data.get("music_overrides", {}).items():
+        music_map[m_key] = ROOT / "assets" / "music" / m_file
 
     foley_cues = []
     silence_dips = []
